@@ -1,0 +1,17 @@
+{
+    "announcement": {
+        "description": "Set up an ad channel.",
+        "usage": "set [#Channel/ChannelID] / del [#Channel/ChannelID]",
+        "example": "set #announcements"
+    },
+    "blockword": {
+        "description": "Blocks the use of words on the server.",
+        "usage": "add [Word/Pack] / remove [Word/Pack] / list / reset",
+        "example": "add pack 0"
+    },
+    "clearwarn": {
+        "description": "Removes a warning from the server.",
+        "usage": "<Code> / all",
+        "example": "43das78"
+    }
+}

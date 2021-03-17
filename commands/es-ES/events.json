@@ -1,0 +1,111 @@
+{
+    "message": {
+        "NoInvitaciones": "No se permiten invitaciones a otros servidores de discord.",
+        "NoLoggersBásico": "**[Anti Iplogger Básico]** No se permiten enviar enlaces iploggers o maliciosos.",
+        "NoLoggersAvanzado": "**[Anti Iplogger Avanzado]** No se permiten enviar enlaces iploggers o maliciosos.",
+        "NoSpam": "**[AntiSpam]** Su mensaje ha sido clasificado como spam.",
+        "NoNSFW": "**[Filtro Imágenes Premium]** No se permite contenido NSFW fuera de canales NSFW.",
+        "NoFlood": "**[AntiFlood]** No envies tantos mensajes.",
+        "infoPrefix": "Hola 👋, \nMi prefijo en este servidor es: \n``{{prefix}}``",
+        "infoComandos": "Para ver mis comandos usa: {{prefix}}comandos",
+        "palabraBloqueada": "Palabra bloqueada.",
+        "logAdmin": "Comando de administrador ejecutado:",
+        "logAutor": "Autor: {{autor}}",
+        "logCanal": "Canal:",
+        "reminderTitle": "Recordatorio de nuevos comandos",
+        "reminderDescription": "He tenido una [nueva actualización](https://blog.discordsafe.com/Registro-de-cambios/version-4-2) donde se han **renombrado, actualizado y juntado comandos**.\nEl nuevo nombre del comando que intentas usar está debajo, ¡gracias por usarme!",
+        "reminderField1": "❯ Nuevo nombre del comando"
+    },
+    "messageDelete": {
+        "título": "Mensaje Eliminado"
+    },
+    "guildMemberUpdate": {
+        "actualizadoAp": "Apodo actualizado",
+        "anteriorAp": "Anterior:",
+        "nuevoAp": "Nuevo:",
+        "porAp": "Por",
+        "rolSuprimido": "Rol suprimido",
+        "rolAgregado": "Rol agregado"
+    },
+    "guildMemberRemove": {
+        "usuarioSalio": "Usuario Salió",
+        "creación": "Creación: "
+    },
+    "guildMemberAdd": {
+        "alarma": "El servidor **{{server}}** está en modo alarma y ha prohibido la entrada a nuevos usuarios, por favor vuelva a intentar dentro de unos minutos.",
+        "usuarioDa": "⛔❯ Usuario dañino: ",
+        "forceban": "No está en el forceban.",
+        "nuevoUsuario": "Nuevo Usuario",
+        "creación": "Creación: ",
+        "captchaTitle": "Bivenvenid@ a {{server}}",
+        "captchaField1": "Antes de continuar, debes responder este **captcha**, hazlo para poder acceder al servidor. Tienes **{{intentos}} intentos** y **{{minutos}} minutos** para completarlo.",
+        "porQué": "¿Por qué?",
+        "captchaField2": "Esto es para proteger el servidor de los bots de spam y multicuentas.",
+        "captchaFooter": "Invítame, discordsafe.com/invite",
+        "captchaErrorTiempo": "**Se ha acabado el tiempo**, no has pasado la verificación así que tendrás que ser expulsado.",
+        "kick": "Verificación no completada.",
+        "captchaErrorIntentos": "**Ha alcanzado el límite de intentos**, no has completado la verificación así que serás expulsado.",
+        "captchaIntento": "**Error**, le quedan {{intentos}} intentos.",
+        "captchacTitle": "¡Gracias!",
+        "captchacDes": "Ya tienes acceso a {{server}}",
+        "captchacFooter": "¿Quieres invitarme a tu servidor? discordsafe.com/invite",
+        "alertaTitle": "Alerta",
+        "alertaDes": "Un miembro clasificado como malicioso ha entrado a su servidor",
+        "alertaM": "Miembro",
+        "alertaR": "Razón",
+        "alertaP": "Prueba",
+        "alertaFooter": "Puede desactivar estas alertas usando {{prefix}}notifications",
+        "expulsado": "Has sido expulsado del servidor **{{server}}** porque su cuenta no supera el mímimo de **{{age}}** días.",
+        "expulsadoRazón": "Mínimo de días de la creación de la cuenta."
+    },
+    "guildBanRemove": {
+        "miembroDesbaneado": "Miembro desbaneado"
+    },
+    "guildBanAdd": {
+        "guildBanAdd": "Miembro baneado",
+        "razón": "Razón:",
+        "ningunaRazón": "Ninguna"
+    },
+    "channelDelete": {
+        "canalEliminado": "Canal Eliminado: {{canal}} - ``{{canal}}``"
+    },
+    "channelCreate": {
+        "canalCreado": "Canal Creado: <#{{canal}}> - ``{{canal}}``"
+    },
+    "channelUpdate": {
+        "canal": "Canal",
+        "título": "Canal Actualizado",
+        "nombreh": "Nombre (Ahora)",
+        "nombrea": "Nombre (Antes)",
+        "temah": "Tema (Ahora)",
+        "temaa": "Tema (Antes)",
+        "nsfwh": "NSFW (Ahora)",
+        "nsfwa": "NSFW (Antes)",
+        "nada": "Nada",
+        "activado": "Activado.",
+        "desactivado": "Desactivado."
+    },
+    "messageUpdate": {
+        "título": "Mensaje Actualizado",
+        "nuevo": "ID del mensaje",
+        "tiempos": "Diferencia de tiempo",
+        "content": "Nuevo contenido",
+        "oldContent": "Anterior contenido"
+    },
+    "messageDeleteBulk": {
+        "título": "Han sido borrados una gran cantidad de mensajes",
+        "cantidad": "Cantidad",
+        "fs1": "Mensajes borrados el {{fecha}}",
+        "fs2": " Mensaje ID: {{id}}\nMensaje: {{contenido}}"
+    },
+    "roleCreate": {
+        "título": "Rol Creado: {{rol}}"
+    },
+    "roleDelete": {
+        "título": "Rol Eliminado: {{rol}} - ``{{rolid}}``"
+    },
+    "roleUpdate": {
+        "título": "Rol Actualizado:",
+        "realizado": "Realizado por:"
+    }
+}

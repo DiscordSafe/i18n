@@ -1,0 +1,49 @@
+---
+id: reportar
+title: Cómo reportar usando D-Safe
+sidebar_label: Cómo reportar usando D-Safe
+---
+import {DiscordMessages, DiscordMessage, Discord} from '@skyra/discord-components-react';
+import '../../src/css/discord.css';
+
+Guía sobre cómo reportar con nuestro bot, D-Safe (Discord Safe).
+
+Los reportes que se envían con D-Safe son revisados por un equipo de **verificados** que según los fundamentos se basan para decidir si ese reporte es rechazado o aceptado.
+
+Además también se encargan de añadir a los usuarios de los reportes con motivos aceptables para tomar acciones al forceban. 
+
+Tu reporte sirve solamente para darlo a conocer y añadirlo al forceban y en casos graves nosotros lo investigaremos, pero esta no es la mejor vía si lo que quieres es hacer que se borre la cuenta del usuario, para eso ve a [cómo reportar correctamente a Discord](reportar-discord.mdx).
+
+## ¿Cómo reportar?
+
+Para reportar es tan sencillo como usar el comando ``d.report``, seguidamente te mostrará este mensaje explicándote los argumentos que tienes que darle.
+
+<DiscordMessages>
+    <DiscordMessage author="Usuario" avatar="red">d.report</DiscordMessage>
+    <discord-message author="D-Safe" avatar="https://i.imgur.com/FFBgOWE.png" bot='true' verified='true'><img className="discord-emoji" src="https://cdn.discordapp.com/emojis/657955119886893057.gif?v=1"></img> | No has dado ningún argumento, <discord-mention highlight="" class="discord-mention discord-user-mention hydrated">Usuario</discord-mention>!
+    <br></br>
+    Uso: <code>d.report [Usuario]|[ID]|[Razón]|[Prueba]</code></discord-message>
+</DiscordMessages>
+
+<br></br>
+
+Tan solo tienes que poner el comando como lo indica, ejemplo: ``d.report Test#0000|7342843946327464|Raider|https://imgur.com/xyz``. 
+
+Una vez que lo hayas puesto te pedirá que lo confirmes diciendo **"sí"**, una vez hayas confirmado tu envío se enviará al [servidor público](https://discordsafe.com/discord) y será aceptado en los próximos días por el equipo de verificados y se te avisará por DM de lo que pase.
+
+<DiscordMessages>
+    <DiscordMessage author="Usuario" avatar="red">d.report Test#0000|7342843946327464|Raider|https://imgur.com/xyz</DiscordMessage>
+    <discord-message author="D-Safe" avatar="https://i.imgur.com/FFBgOWE.png" bot='true' verified='true'><img className="discord-emoji" src="https://cdn.discordapp.com/emojis/656224418946744320.gif?v=1"></img> | Mandando reporte...</discord-message>
+</DiscordMessages>
+<DiscordMessages>
+    <discord-message author="D-Safe" avatar="https://i.imgur.com/FFBgOWE.png" bot='true' verified='true'>
+    Su reporte a <span class="bold">Tests#0000</span> fue aceptado.
+    </discord-message>
+</DiscordMessages>
+
+<br></br>
+
+:::info ¿Por qué motivos podría reportar? o ¿cómo funcionan los reportes?
+Para darle una respuesta a tus dudas ve a [preguntas frecuentes](intro/faq.mdx).
+:::
+

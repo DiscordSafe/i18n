@@ -1,0 +1,15 @@
+{
+    "argumentos": "This command needs arguments, **Use:** {{prefijo}}{{commandName}} ",
+    "guild": "You cannot use this command outside of a server.",
+    "palabra": "That word is blocked.",
+    "idioma": "The server language is English, to change it use ",
+    "nsfw": "This command is only for NSFW channels.",
+    "bloqueado": "You are blocked haha.",
+    "servidorOnly": "You can't use this command.",
+    "botPerms": "I don't have enough permissions to use this command, I need permission of {{permiso}}.",
+    "ownerOnly": "This command can only be executed by the server owner.",
+    "comandoError": "An error occurred while executing the command.\nDevelopers have been notified.\nIf you need help ask our support server, https://discordsafe.com/discord",
+    "permisos": "You don't have enough permissions to use this command.",
+    "desactivado": "This command has been temporarily disabled to fix bugs.",
+    "cooldown": "You must wait {{segundos}} second/s to use this command again."
+}

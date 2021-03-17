@@ -1,0 +1,27 @@
+{
+    "canal": "Channel.",
+    "attachment": "It was an embed or an attachment.",
+    "tiempo": "The time is over.",
+    "autor": "Author: {{autorid}}",
+    "mensajeID": "Message ID: {{id}}",
+    "page": "Page",
+    "errorCompare": "**Error**, you can't use this command with a member with more permissions than you.",
+    "AntiSpam": {
+        "MuteRoleCreated": "I have created the **Muted** role because a Muted role was not found.",
+        "muteEmbedAuthor": "AutoMute",
+        "muteEmbedField1": "Muted member:",
+        "muteEmbedField2": "Time",
+        "muteEmbedField3": "Reason",
+        "muteEmbedField4": "Date",
+        "unmuteEmbedAuthor": "Auto Unmute",
+        "unmuteEmbedField1": "Member unmuted",
+        "unmuteEmbedField2": "Reason",
+        "seconds": "{{MuteTime}} minutes",
+        "unmuteEmbedReason": "Time over.",
+        "errorMute": "Oops, I don't have enough permissions to mute {{user}}.",
+        "WarnMessage": "{{emojiWarn}} **[Anti-Spam]** Please don't send so many messages.",
+        "MuteMessage": "{{emojiMute}} **[Anti-Spam]** You have been muted for sending so many messages.",
+        "noMuteRole": "Muted role not found, I have created a new one."
+    },
+    "notFound": "It has not been found."
+}

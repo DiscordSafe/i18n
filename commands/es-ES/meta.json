@@ -1,0 +1,217 @@
+{
+    "blockword": {
+        "description": "Bloquea el uso de palabras en el servidor.",
+        "usage": "add [Palabra/Pack] / remove [Palabra/Pack] / list / reset",
+        "example": "add pack 0"
+    },
+    "clearwarn": {
+        "description": "Elimina una advertencia del servidor.",
+        "usage": "<Código> / all",
+        "example": "43das78"
+    },
+    "filter": {
+        "description": "Configura los filtros.",
+        "usage": "help / activate <filtro> / deactivate <filtro>",
+        "example": "activate anti-spam"
+    },
+    "logs": {
+        "description": "Establece el canal de logs del servidor.",
+        "usage": "<#Canal> / <IDCanal> / none",
+        "example": "#Logs"
+    },
+    "notification": {
+        "description": "Configura los avisos de entrada de usuarios maliciosos.",
+        "usage": "on / off",
+        "example": "on"
+    },
+    "setlang": {
+        "description": "Establece el idioma del bot en el servidor.",
+        "usage": "es-ES / en-US",
+        "example": "es-ES"
+    },
+    "setprefix": {
+        "description": "Establece el prefijo en el servidor.",
+        "usage": "[prefijo]",
+        "example": "!!"
+    },
+    "settings": {
+        "description": "Muestra los ajustes del servidor e información sobre cómo configurarlo.",
+        "usage": "prefix / announcements / blockedwords / whitelist / logs / lang / verification / filters / notifications",
+        "example": "verificación"
+    },
+    "whitelist": {
+        "description": "Configura la Whitelist de su servidor.",
+        "usage": "add <ID> / remove <ID> / list / reset",
+        "example": "add 461171501715161108"
+    },
+    "botinfo": {
+        "description": "Muestra la información del bot.",
+        "usage": "",
+        "example": ""
+    },
+    "commands": {
+        "description": "Lista de comandos.",
+        "usage": "",
+        "example": ""
+    },
+    "help": {
+        "description": "Menú de ayuda e información de comandos.",
+        "usage": "<Comando>",
+        "example": "ban"
+    },
+    "ping": {
+        "description": "Muestra el ping del bot.",
+        "usage": "",
+        "example": ""
+    },
+    "premium": {
+        "description": "Panel de control de D-Safe Premium.",
+        "usage": "help / redeem / info / safergen",
+        "example": "help"
+    },
+    "reportbug": {
+        "description": "Reporta un error a mi desarrollador para que sea solucionado.",
+        "usage": "<Descripción detallada del error>",
+        "example": "La alarma se enciende sola y no hay manera de apagarla."
+    },
+    "server": {
+        "description": "Muestra la información del servidor.",
+        "usage": "",
+        "example": ""
+    },
+    "support": {
+        "description": "Pide soporte a nuestro personal en caso de raid.",
+        "usage": "",
+        "example": ""
+    },
+    "suggest": {
+        "description": "Envía una sugerencia.",
+        "usage": "<Descripción de la sugerencia>",
+        "example": "Me gustaría que creen un canal de #gaming donde los usuarios podemos hablar sobre ese tema allí."
+    },
+    "suggestions": {
+        "description": "Ajustes e información de las sugerencias.",
+        "usage": "help \n\nlist\n\napprove [ID Sugerencia] <Comentario>\n\ndeny [ID Sugerencia] <Comentario>\n\ndelete [ID Sugerencia]\n\nsetchannel [CanalID/#Canal]\n\nsetapproved [CanalID/#Canal]\n\nsetdenied [CanalID/#Canal]\n\nquestionEmoji enable / disable\n\nautoaccept [Número(1-1000)] / disable\n\nmassapprove [ID Sugerencia]...\n\nmassdeny [ID Sugerencia]...\n\nmassdelete [ID Sugerencia]...\n\nsetrole [Rol ID/@Rol]\n\nsetpalette ayu / tailwind / default / p1 / p2 / p3 / n1 / n2 / n3\n\nsetcommandschannel [CanalID/#Canal]\n\nsetcooldown [Número(1-60)] / disable\n\nsetemoji [EmojiPositivo] [EmojiNegativo] <EmojiIndeciso> / disable",
+        "example": "setchannel #sugerencias"
+    },
+    "ban": {
+        "description": "Banea a un usuario del servidor.",
+        "usage": "<@Usuario / ID> <Razón>",
+        "example": "@Vicente#0001 Romper la regla 4."
+    },
+    "clear": {
+        "description": "Borra una cantidad de mensajes.",
+        "usage": "<Cantidad(2-100)> / <@Usuario> <Cantidad(2-100)> / all",
+        "example": "@Seyron#5532 9"
+    },
+    "forceban": {
+        "description": "Banea a los usuarios peligrosos de mi base de datos.",
+        "usage": "",
+        "example": ""
+    },
+    "hackban": {
+        "description": "Banea a uno o varios usuarios mediante su ID.",
+        "usage": "[ID] <ID> <ID>...",
+        "example": "643945264868098049"
+    },
+    "kick": {
+        "description": "Expulsa a un miembro del servidor.",
+        "usage": "<@Miembro> <Razón>",
+        "example": "Discord#0000 Romper la regla 8."
+    },
+    "mute": {
+        "description": "Silencia a un miembro",
+        "usage": "<@Miembro> [Tiempo] [s/m/h] <Razón>",
+        "example": "@Clyde#0001 40 m Romper la regla 17."
+    },
+    "unban": {
+        "description": "Desbanea a un usuario del servidor.",
+        "usage": "<@Usuario / ID>",
+        "example": "287574458963722240"
+    },
+    "unmute": {
+        "description": "Desilencia a un miembro silenciado.",
+        "usage": "<@Miembro / ID>",
+        "example": "182866681520062465"
+    },
+    "warn": {
+        "description": "Advierte a un usuario de su mal comportamiento.",
+        "usage": "<@Usuario> <Razón>",
+        "example": "@[Dracule Mihawk™ ]#4449 Romper la regla 3."
+    },
+    "warnings": {
+        "description": "Obtiene la lista de advertencias del servidor o miembro.",
+        "usage": "<@Usuario>",
+        "example": "@Vicente#0001"
+    },
+    "report": {
+        "description": "Reporta a un usuario para ser añadido al forceban.",
+        "usage": "<Usuario>|<ID>|<Razón>|<Prueba>",
+        "example": ".sknahTT#1785|318327338226155541|Hacer SPAM al md|https://imgur.com/linkfalso"
+    },
+    "alarm": {
+        "description": "Activa / desactiva la alarma en el servidor y prohibe la entrada a nuevos usuarios.",
+        "usage": "",
+        "example": ""
+    },
+    "avatar": {
+        "description": "Muestra el avatar de un usuario.",
+        "usage": "<@Usuario>",
+        "example": ""
+    },
+    "baninfo": {
+        "description": "Muestra el motivo de adicción al forceban de un usuario.",
+        "usage": "<ID>",
+        "example": "287574458963722240"
+    },
+    "clearbans": {
+        "description": "Quita todos los baneos del servidor.",
+        "usage": "",
+        "example": ""
+    },
+    "detect": {
+        "description": "Detecta a usuarios peligrosos presentes en el servidor.",
+        "usage": "",
+        "example": ""
+    },
+    "genpassword": {
+        "description": "Genera una contraseña acorde a los parámetros proporcionados.",
+        "usage": "<Nivel(Low/Medium/High)> <Longitud(5-50)>",
+        "example": "Alto 26"
+    },
+    "info": {
+        "description": "Muestra la información de tu usuario o del mencionado.",
+        "usage": "<@Usuario / UserID>",
+        "example": "@Vicente#0001"
+    },
+    "approve": {
+        "description": "Aprueba la entrada al servidor a los nuevos usuarios.",
+        "usage": "<@Usuario>",
+        "example": "@Vicente#0001"
+    },
+    "verification": {
+        "description": "Modifica la configuración de la verificación.",
+        "usage": "off / setmode <Modo(approval, reaction, verification, captcha)> / setguest <@Rol / Rol ID> / setuser <@Rol / Rol ID> setchannel <#Canal / Canal ID> / setmessage <Mensaje ID>",
+        "example": "setuser @Verificado"
+    },
+    "verifyme": {
+        "description": "Te da el rol de usuario en el servidor.",
+        "usage": "",
+        "example": ""
+    },
+    "vote": {
+        "description": "Muestra la información acerca de los votos.",
+        "usage": " / <@Usuario>",
+        "example": ""
+    },
+    "changelog": {
+        "description": "Muestra el último registro de cambios.",
+        "usage": "",
+        "example": ""
+    },
+    "mail": {
+        "description": "Muestra el buzón de correos.",
+        "usage": "",
+        "example": ""
+    }
+}

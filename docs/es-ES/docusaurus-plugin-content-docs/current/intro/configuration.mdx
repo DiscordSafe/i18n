@@ -1,0 +1,684 @@
+---
+id: configuration
+title: Configuración paso a paso
+sidebar_label: Configuración paso a paso
+---
+import {DiscordMessages, DiscordMessage, Discord}  from '@skyra/discord-components-react';
+import '../../src/css/discord.css';
+
+Guía detallada sobre la configuración paso a paso de todas las funciones y comandos del bot D-Safe (Discord Safe).
+
+:::note Información
+Si algo falla por favor revisa si el bot tiene permisos, si el problema persiste pregunta en [nuestro servidor de soporte](https://discordsafe.com/discord). 
+
+Recuerde que para los comandos no debe poner `<>`, `[]` o `/`.
+* El contenido dentro de `[]` indica que es obligatorio.
+* El contenido dentro de `<>` indica que es opcional.
+* Las `/` dividen las opciones.
+
+Para la mayoría de comandos que se mencionan debajo el usuario necesita permisos de **Administrador**.
+:::
+
+## Tabla del contenido
+Puedes ir directamente al contenido haciendo click aquí o en el menú.
+- [Tabla del contenido](#tabla-del-contenido)
+- [🔨Prefix](#prefix)
+- [🔧Ajustes](#ajustes)
+- [🔨Idioma](#idioma)
+  - [Idiomas disponibles](#idiomas-disponibles)
+- [🔨Verificación](#verificación)
+  - [Establecer el modo](#establecer-el-modo)
+  - [Establecer el canal](#establecer-el-canal)
+  - [Establecer el rol de No verificado](#establecer-el-rol-de-no-verificado)
+  - [Establecer el rol de Usuario](#establecer-el-rol-de-usuario)
+  - [Establecer el mensaje](#establecer-el-mensaje)
+  - [Establecer el mínimo de edad](#establecer-el-mínimo-de-edad)
+  - [Establecer máximo de intentos](#establecer-máximo-de-intentos)
+  - [Establecer máximo de minutos](#establecer-máximo-de-minutos)
+- [🔨Filtros](#filtros)
+    - [Activar](#activar)
+    - [Desactivar](#desactivar)
+  - [Seleccione el filtro](#seleccione-el-filtro)
+  - [Niveles:](#niveles)
+- [🔧Sugerencias](#sugerencias)
+  - [Establecer el canal de sugerencias](#establecer-el-canal-de-sugerencias)
+  - [Establecer canal de sugerencias aprobadas](#establecer-canal-de-sugerencias-aprobadas)
+  - [Establecer canal de sugerencias denegadas](#establecer-canal-de-sugerencias-denegadas)
+  - [Activar el emoji de indeciso](#activar-el-emoji-de-indeciso)
+  - [Auto-aceptar sugerencias](#auto-aceptar-sugerencias)
+  - [Aceptar, denegar y borrar sugerencias](#aceptar-denegar-y-borrar-sugerencias)
+  - [Lista de sugerencias](#lista-de-sugerencias)
+  - [Acciones en masa](#acciones-en-masa)
+  - [Paleta de colores](#paleta-de-colores)
+  - [Funciones premium](#funciones-premium)
+  - [Rol de encargado de sugerencias](#rol-de-encargado-de-sugerencias)
+  - [Canal de comandos de sugerencias](#canal-de-comandos-de-sugerencias)
+  - [Tiempo de espera entre sugerencias](#tiempo-de-espera-entre-sugerencias)
+  - [Emoji de las reacciones](#emoji-de-las-reacciones)
+  - [Paleta customizada](#paleta-customizada)
+- [🔨Logs](#logs)
+- [🔧Palabras bloqueadas](#palabras-bloqueadas)
+  - [Bloquear palabra](#bloquear-palabra)
+  - [Desbloquear palabra](#desbloquear-palabra)
+  - [Packs de palabras bloqueadas](#packs-de-palabras-bloqueadas)
+  - [Ver palabras bloqueadas](#ver-palabras-bloqueadas)
+  - [Resetear las palabras bloqueadas](#resetear-las-palabras-bloqueadas)
+- [🔧Whitelist](#whitelist)
+- [👑Notificaciones](#notificaciones)
+
+Usamos emojis para especificar los **permisos que necesitan los usuarios** al usar un comando o función, a continuación podrás ver la guía emojis:
+
+| Emoji | Significado | Permisos | 
+| :--- | :--- | :--- | 
+| 👑 | Dueño del servidor | ```SERVER_OWNER``` | 
+| 🔨 | Administrador | ```ADMINISTRADOR```, ```MANAGE_GUILD```, ```MANAGE_ROLES``` | 
+| 🔧 | Moderador | ```BAN_MEMBERS```, ```KICK_MEMBERS```, ```MANAGE_MESSAGES``` | 
+
+## 🔨Prefix
+:::info Importante
+Todos los ejemplos están con el prefix predeterminado (``d.``).
+:::
+
+Para cambiar el prefix use `d.setprefix [nuevo prefix]`.
+<DiscordMessages>
+    <DiscordMessage author="Usuario" avatar="red">d.setprefix !!</DiscordMessage>
+    <discord-message author="D-Safe" avatar="https://i.imgur.com/FFBgOWE.png" bot='true' verified='true'><img className="discord-emoji" src="https://cdn.discordapp.com/emojis/656224418946744320.gif?1"></img> | El prefix ha sido establecido a !!</discord-message>
+</DiscordMessages>
+
+
+<br></br>
+
+:::tip
+**¿No te acuerdas del prefix?**
+Usa, ``@D-Safe prefix`` para ver el prefix de tu servidor.
+:::
+
+## 🔧Ajustes
+
+Usando el comando `d.settings` podrás ver la configuración actual del bot.
+
+<DiscordMessages>
+    <DiscordMessage author="Usuario" avatar="red">d.settings</DiscordMessage>
+    <discord-message author="D-Safe" avatar="https://i.imgur.com/FFBgOWE.png" bot='true' verified='true'>
+                        <discord-embed slot="embeds" author-image="https://images-ext-2.discordapp.net/external/niVldYS18DVS1ORILlwtig2pClsSJYcJhDDNBum61zQ/https/i.imgur.com/1yIcepa.png" author-name="Panel de ajustes de Servidor" color="#aab9fa" thumbnail="https://images-ext-1.discordapp.net/external/PY5lJndEamUbBDSM5UsR1w0TXKqKw5az2PEcQ5PYSzI/https/i.imgur.com/91NmeWi.png" url="https://discordsafe.com/">
+                            Para cambiar algun ajuste use este comando y el nombre del ajuste que desea cambiar.
+                            <br></br>
+                            <b>Ejemplo:</b> <code>d.settings prefix/blockedwords/whitelist/logs/language/verification/filters/notifications/suggestions</code>
+                            <br></br>
+                            <discord-embed-fields slot="fields">
+                                <discord-embed-field field-title="❯ Prefix" inline="" inline-index="1"><img src="https://cdn.discordapp.com/emojis/603988751978463268.png?v=1" width="20%"></img></discord-embed-field>
+                                <discord-embed-field field-title="❯ Aviso entrada raiders" inline="" inline-index="2"><img src="https://cdn.discordapp.com/emojis/603988751978463268.png?v=1" width="20%"></img></discord-embed-field>
+                                <discord-embed-field field-title="❯ Logs" inline="" inline-index="3"><img src="https://cdn.discordapp.com/emojis/603988751978463268.png?v=1" width="20%"></img></discord-embed-field>
+                                <discord-embed-field field-title="❯ Idioma" inline="" inline-index="1"><img src="https://cdn.discordapp.com/emojis/603988751978463268.png?v=1" width="20%"></img></discord-embed-field>
+                                <discord-embed-field field-title="❯ Palabras bloqueadas" inline="" inline-index="2"><img src="https://cdn.discordapp.com/emojis/603988751978463268.png?v=1" width="20%"></img></discord-embed-field>
+                                <discord-embed-field field-title="❯ Whitelist" inline="" inline-index="3"><img src="https://cdn.discordapp.com/emojis/603988751978463268.png?v=1" width="20%"></img></discord-embed-field>
+                                <discord-embed-field field-title="❯ Verificación" inline="" inline-index="1"><img src="https://cdn.discordapp.com/emojis/603988751978463268.png?v=1" width="20%"></img></discord-embed-field>
+                                <discord-embed-field field-title="❯ Filtro Invitaciones" inline="" inline-index="2"><img src="https://cdn.discordapp.com/emojis/603988751978463268.png?v=1" width="20%"></img></discord-embed-field>
+                                <discord-embed-field field-title="❯ Filtro Iploggers" inline="" inline-index="3"><img src="https://cdn.discordapp.com/emojis/603988751978463268.png?v=1" width="20%"></img></discord-embed-field>
+                                <discord-embed-field field-title="❯ Filtro Imágenes" inline="" inline-index="1"><img src="https://cdn.discordapp.com/emojis/603988751978463268.png?v=1" width="20%"></img></discord-embed-field>
+                                <discord-embed-field field-title="❯ Filtro Anti-Spam" inline="" inline-index="2"><img src="https://cdn.discordapp.com/emojis/603988751978463268.png?v=1" width="20%"></img></discord-embed-field>
+                                <discord-embed-field field-title="❯ Sugerencias" inline="" inline-index="3"><img src="https://cdn.discordapp.com/emojis/603988751978463268.png?v=1" width="20%"></img></discord-embed-field>
+                            </discord-embed-fields>
+                            <span slot="footer">D-Safe</span>
+                        </discord-embed>
+                    </discord-message>
+</DiscordMessages>
+
+## 🔨Idioma
+
+El idioma por defecto del bot es **Español.**
+
+### Idiomas disponibles
+
+* ``es-ES`` - Español (España).
+* ``en-US`` - Inglés (Estados Unidos).
+
+Para cambiar el idioma use `d.setlang [es-ES / en-US]`.
+
+<DiscordMessages>
+    <DiscordMessage author="Usuario" avatar="red">d.setlang es-ES</DiscordMessage>
+    <discord-message author="D-Safe" avatar="https://i.imgur.com/FFBgOWE.png" bot='true' verified='true'><img className="discord-emoji" src="https://cdn.discordapp.com/emojis/656224418946744320.gif?1"></img> | El idioma del servidor ha sido establecido a <code>Español (España)</code></discord-message>
+</DiscordMessages>
+
+## 🔨Verificación
+
+Establezca la verificación de su servidor con uno de **nuestros poderosos modos** para evitar usuarios conflictivos, multicuentas o bots de spam.
+
+* Usando el comando `d.verification` podrá ver la configuración actual de la verificación.
+* Para desactivarlo use:  `d.verification disable`
+
+<DiscordMessages>
+    <discord-message author="D-Safe" avatar="https://i.imgur.com/FFBgOWE.png" bot='true' verified='true'>
+                        <discord-embed slot="embeds" embed-title="Bivenvenid@ a Servidor" color="#aab9fa" image="https://media.discordapp.net/attachments/750703042386591744/751400793248366592/captcha.png" thumbnail="https://i.imgur.com/Xf4UpdU.png">
+                            <discord-embed-fields slot="fields">
+                                <discord-embed-field field-title="Captcha" inline="1" inline-index="1">Antes de continuar, debes responder este <span class="bold">captcha</span>, hazlo para poder acceder al servidor. Tienes <span class="bold">5 intentos</span> y <span class="bold">4 minutos</span> para completarlo.</discord-embed-field>
+                                <discord-embed-field field-title="¿Por qué?" inline="2" inline-index="2">Esto es para proteger el servidor de los bots de spam y multicuentas.</discord-embed-field>
+                            </discord-embed-fields>
+                            <span slot="footer">Si algo falla, póngase en contacto con la administración del servidor.</span>
+                        </discord-embed>
+                    </discord-message>
+</DiscordMessages>
+
+### Establecer el modo
+Establezca el modo de verificación que más le convenga usando `d.verification setmode <Modo>`.
+Los modos de verificación son los siguientes:
+
+| 🔧 Modo | 📣 Descripción | 📑 Requiere | 🔐 Nivel protección |
+| :--- | :--- | :--- | :--- |
+| **Approval** | El usuario tiene que ser aprobado por un Administrador con `d.approve @Usuario` | Canal, Rol No Verificado, Rol Usuario. | **4** |
+| **Captcha** | El usuario tiene que completar correctamente un captcha. | Canal, Rol No Verificado, Rol Usuario. | **3** |
+| **Reaction** | El usuario tiene que reaccionar a un mensaje para acceder al servidor. | Canal, Rol No Verificado, Rol Usuario, Mensaje. | **2** |
+| **Verification** | El usuario tiene que usar el comando `d.verifyme` para entrar. | Canal, Rol No Verificado, Rol Usuario. | **1** |
+
+<DiscordMessages>
+    <DiscordMessage author="Usuario" avatar="red">d.verification setmode captcha</DiscordMessage>
+    <discord-message author="D-Safe" avatar="https://i.imgur.com/FFBgOWE.png" bot='true' verified='true'><img className="discord-emoji" src="https://cdn.discordapp.com/emojis/656224418946744320.gif?1"></img> | El modo ha sido establecido a <code>captcha</code></discord-message>
+</DiscordMessages>
+
+### Establecer el canal
+Debe establecer el canal de verificación donde se mandará el captcha, o donde esté el mensaje al que tengan que reaccionar o donde tienen que poner los comandos.
+
+Establezca el canal con `d.verification setchannel #Canal`.
+
+<DiscordMessages>
+    <DiscordMessage author="Usuario" avatar="red">d.verification setchannel <discord-mention type="channel">bienvenidas</discord-mention></DiscordMessage>
+    <discord-message author="D-Safe" avatar="https://i.imgur.com/FFBgOWE.png" bot='true' verified='true'><img className="discord-emoji" src="https://cdn.discordapp.com/emojis/656224418946744320.gif?1"></img> El canal ha sido establecido a <discord-mention type="channel">bienvenidas</discord-mention></discord-message>
+</DiscordMessages>
+
+### Establecer el rol de No verificado
+:::caution Aviso
+Usted tendrá que configurar este rol en su servidor para que solo vea los canales que usted quiera y que cuando se verifique tenga acceso completo al servidor.
+:::
+
+Este será el rol que se les dará a los nuevos usuarios al entrar al servidor antes de verificarse.
+
+Establezca el rol de No verificados con:
+`d.verification setguest @Rol`.
+
+<DiscordMessages>
+    <DiscordMessage author="Usuario" avatar="red">d.verification setguest <discord-mention class="discord-mention discord-user-mention">No verificado</discord-mention></DiscordMessage>
+    <discord-message author="D-Safe" avatar="https://i.imgur.com/FFBgOWE.png" bot='true' verified='true'><img className="discord-emoji" src="https://cdn.discordapp.com/emojis/656224418946744320.gif?1"></img> | El rol ha sido establecido a <discord-mention class="discord-mention discord-user-mention">No verificado</discord-mention></discord-message>
+</DiscordMessages>
+
+### Establecer el rol de Usuario
+Este será el rol que se les dará a los nuevos usuarios al verificarse (normalmente el rol Usuario).
+
+El comando para establecerlo es `d.verification setuser @Rol`.
+
+<DiscordMessages>
+    <DiscordMessage author="Usuario" avatar="red">d.verification setuser <discord-mention class="discord-mention discord-user-mention">Usuario</discord-mention></DiscordMessage>
+    <discord-message author="D-Safe" avatar="https://i.imgur.com/FFBgOWE.png" bot='true' verified='true'><img className="discord-emoji" src="https://cdn.discordapp.com/emojis/656224418946744320.gif?1"></img> | El rol ha sido establecido a <discord-mention class="discord-mention discord-user-mention">Usuario</discord-mention></discord-message>
+</DiscordMessages>
+
+### Establecer el mensaje
+:::caution Aviso
+**Solo es necesario este ajuste** en el modo **reaction**.
+:::
+
+Establezca el mensaje al que tendrán que reaccionar los No Verificados al unirse a su servidor.
+**Importante,** el mensaje que establezca debe de estar dentro del canal que configuró anteriormente.
+
+Configure el mensaje usando: `d.verification setmessage MensajeID`. 
+
+[¿No sabes cómo copiar una ID?](../ayuda/copiar-ids)
+
+<DiscordMessages>
+    <DiscordMessage author="Usuario" avatar="red">d.verification setmessage 756893307325513795</DiscordMessage>
+    <discord-message author="D-Safe" avatar="https://i.imgur.com/FFBgOWE.png" bot='true' verified='true'><img className="discord-emoji" src="https://cdn.discordapp.com/emojis/656224418946744320.gif?1"></img> | El mensaje ha sido establecido a <code>756893307325513795</code>.</discord-message>
+</DiscordMessages>
+
+### Establecer el mínimo de edad
+Establezca el **mínimo de días que deben tener las cuentas** cuando se unen a su servidor, así evita que entren multicuentas o auto-bots de spam.
+
+* Configure el mínimo con: `d.verification setage <1-30 Días>`.
+* Puede desactivarlo con `d.verification setage disable`.
+
+<DiscordMessages>
+    <DiscordMessage author="Usuario" avatar="red">d.verification setage 20</DiscordMessage>
+    <discord-message author="D-Safe" avatar="https://i.imgur.com/FFBgOWE.png" bot='true' verified='true'><img className="discord-emoji" src="https://cdn.discordapp.com/emojis/656224418946744320.gif?1"></img> | Se ha establecido el tiempo mínimo de la cuenta de los nuevos usuarios a <span class="bold">20</span> días.</discord-message>
+</DiscordMessages>
+
+<DiscordMessages>
+    <discord-message author="D-Safe" avatar="https://i.imgur.com/FFBgOWE.png" bot='true' verified='true'>Has sido expulsado de <span class="bold">Servidor</span> porque su cuenta no supera el mínimo de <span class="bold">20</span> días.</discord-message>
+</DiscordMessages>
+
+### Establecer máximo de intentos
+:::caution Aviso
+**Este es un ajuste opcional** del modo **captcha**.
+:::
+
+Establezca el **número máximo de intentos** que pueden hacer los usuarios en el **captcha**.
+
+Configure el máximo de intentos con ``d.verification setattempts [Número]``.
+
+Puede volver a la cantidad por defecto con ``d.verification setattempts default``.
+
+<DiscordMessages>
+    <DiscordMessage author="Usuario" avatar="red">d.verification setattempts 5</DiscordMessage>
+    <discord-message author="D-Safe" avatar="https://i.imgur.com/FFBgOWE.png" bot='true' verified='true'><img className="discord-emoji" src="https://cdn.discordapp.com/emojis/656224418946744320.gif?1"></img> |  Se ha establecido el máximo de intentos de la verificación a <span class="bold">5 intentos</span>.</discord-message>
+</DiscordMessages>
+
+### Establecer máximo de minutos
+:::caution Aviso
+**Este es un ajuste opcional** del modo **captcha**.
+:::
+
+Establezca el **tiempo máximo de espera** en la verificación captcha **captcha**.
+
+Configure el máximo de intentos con ``d.verification settime [Número]`` (en minutos).
+
+Puede volver a la cantidad por defecto con ``d.verification settime default``.
+
+<DiscordMessages>
+    <DiscordMessage author="Usuario" avatar="red">d.verification settime 4</DiscordMessage>
+    <discord-message author="D-Safe" avatar="https://i.imgur.com/FFBgOWE.png" bot='true' verified='true'><img className="discord-emoji" src="https://cdn.discordapp.com/emojis/656224418946744320.gif?1"></img> |   Se ha establecido los minutos de la verificación a <span class="bold">4 minutos</span>.</discord-message>
+</DiscordMessages>
+
+##  🔨Filtros
+Los filtros permiten proteger tu servidor para **evitar que se envíe contenido malicioso** y que tus canales sean un lugar limpio.
+
+#### Activar
+Para activarlos siga la guía dando click abajo, al filtro que quiera activar.
+
+#### Desactivar
+Para desactivar un filtro use: ``d.filters deactivate <filtro>``
+
+### Seleccione el filtro
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+<Tabs
+  defaultValue="anti-spam"
+  values={[
+    {label: 'Invitaciones', value: 'invitaciones'},
+    {label: 'Anti-Iploggers', value: 'anti-iploggers'},
+    {label: 'Imágenes', value: 'imgs'},
+    {label: 'Anti-Spam', value: 'anti-spam'},
+    {label: 'Palabras', value: 'words'},
+  ]}>
+  <TabItem value="invitaciones">
+  Borra las invitaciones a servidores de Discord enviadas por miembros sin permisos.
+
+
+  **Para activarlo use:** ``d.filter activate invites``
+
+  <DiscordMessages>
+    <DiscordMessage author="Usuario" avatar="red"><span class="red-text">https://discord.gg/UnanseAMiServidorPorfa:(</span></DiscordMessage>
+    <discord-message author="D-Safe" avatar="https://i.imgur.com/FFBgOWE.png" bot='true' verified='true'><img className="discord-emoji" src="https://cdn.discordapp.com/emojis/657955119886893057.gif?v=1"></img> | No se permiten invitaciones a otros servidores de discord.</discord-message>
+</DiscordMessages>
+  </TabItem>
+  <TabItem value="anti-iploggers">
+
+  **Obtén el filtro más avanzado que bloquea +800 iploggers siendo [premium](ayuda/discord-safe-premium.md).**
+  **(El normal sigue siendo gratis).**
+
+  Bloquea y borra todos los enlaces que sean iploggers destinados a obtener datos privados de los usuarios que entren.
+
+
+  **Para activarlo usa:** ``d.filter activate anti-iploggers``.
+
+  <DiscordMessages>
+    <DiscordMessage author="Usuario" avatar="red"><span class="red-text">https://grabify.link/lolEstoEsUnIploggerLMAO</span></DiscordMessage>
+    <discord-message author="D-Safe" avatar="https://i.imgur.com/FFBgOWE.png" bot='true' verified='true'><img className="discord-emoji" src="https://cdn.discordapp.com/emojis/657955119886893057.gif?v=1"></img> | <span class="bold">[Anti Iplogger Básico]</span> No se permiten enviar enlaces iploggers o maliciosos.</discord-message>
+</DiscordMessages>
+  </TabItem>
+  <TabItem value="imgs">
+
+  **Obtén este filtro siendo [premium](ayuda/discord-safe-premium.md).**
+
+  Bloquea y borra todas las im&#xE1;genes que contengan gore o sean NSFW enviadas fueras de canales NSFW. 
+  
+
+  **Para activarlo usa:** ``d.filter activate images``
+
+  <DiscordMessages>
+    <DiscordMessage author="Usuario" avatar="red"><discord-attachment slot="attachments" url="https://i.imgur.com/HJ3Oh4V.png" height="278" width="278" alt="dragonite"></discord-attachment>
+    </DiscordMessage>
+    <discord-message author="D-Safe" avatar="https://i.imgur.com/FFBgOWE.png" bot='true' verified='true'><img className="discord-emoji" src="https://cdn.discordapp.com/emojis/657955119886893057.gif?v=1"></img> | <span class="bold">[Filtro Imágenes Premium]</span> No se permite contenido NSFW fuera de canales NSFW.</discord-message>
+</DiscordMessages>
+  </TabItem>
+  <TabItem value="anti-spam">
+  Analiza los mensajes y si detecta que es spam lo borrará.
+  
+
+  **Para activarlo usa:** ``d.filter activate anti-spam``
+  
+
+  ### Niveles:
+
+  Puedes indicar el nivel de **anti-spam** que quiera, por defecto o si no lo indica será el ``1``.
+  
+  Establece el nivel con: ``d.filter activate anti-spam level <Nivel>``
+
+  | 📏 Nivel | 📣 Descripción |
+  | :--- | :--- |
+  | <img className="emoji-table" src="https://cdn.discordapp.com/emojis/755768668360540170.png?v=1"></img> **Nivel 1** | Prohíbe un mensaje con muchas mayúsculas o spam. | 
+  | <img className="emoji-table" src="https://cdn.discordapp.com/emojis/755768668180316202.png?v=1"></img> **Nivel 2** | Prohíbe los mensajes duplicados, flood de mensajes, mayúsculas y spam. | 
+  | <img className="emoji-table" src="https://cdn.discordapp.com/emojis/755768668318728202.png?v=1"></img> **Nivel 3** | Prohíbe todos los mensajes duplicados, flood de mensajes, mayúsculas, copypastas y spam. | 
+
+<DiscordMessages>
+    <DiscordMessage author="Usuario" avatar="red">d.filter activate anti-spam level 3</DiscordMessage>
+    <discord-message author="D-Safe" avatar="https://i.imgur.com/FFBgOWE.png" bot='true' verified='true'><img className="discord-emoji" src="https://cdn.discordapp.com/emojis/656224418946744320.gif?1"></img> | Se ha establecido correctamente el nivel 3.</discord-message>
+</DiscordMessages>
+
+ <DiscordMessages>
+    <DiscordMessage author="Usuario" avatar="red"><span class="red-text">
+    Mirá 👁 dejemos algo 🙄 claro ⚪️ mamavergas 🍆 Free Fire 🔥 es el mejor 😩 juego de la década 😡😡👊🏼 Free Fire 🔥 tiene unos gráficos 👅 que se asemejan a los de la ps4 🎮 y son mejores 👍🏼 que esa cochinada 🤢🤮 de Halo o Doom 😂😂👌🏼
+    Como es posible 🙄 que tanto 😳 pendejo 😤esté en este grupo 😂😎 chupándosela a mierdacraft😡😡👊🏼</span></DiscordMessage>
+    <discord-message author="D-Safe" avatar="https://i.imgur.com/FFBgOWE.png" bot='true' verified='true'><img className="discord-emoji" src="https://cdn.discordapp.com/emojis/657955119886893057.gif?v=1"></img> | <span class="bold">[AntiSpam]</span> Su mensaje ha sido clasificado como spam.</discord-message>
+</DiscordMessages>
+  </TabItem>
+  <TabItem value="words">
+
+  Filtro de palabras bloqueadas, para bloquear una palabra usa ``d.blockword add <palabra>``.
+
+  Vaya a [palabras bloqueadas](#palabras-bloqueadas) para mucha más información.
+
+<DiscordMessages>
+    <DiscordMessage author="Usuario" avatar="red"><span class="red-text">hijo de puta</span></DiscordMessage>
+    <discord-message author="D-Safe" avatar="https://i.imgur.com/FFBgOWE.png" bot='true' verified='true'><img className="discord-emoji" src="https://cdn.discordapp.com/emojis/657955119886893057.gif?v=1"></img> | Esa palabra está bloqueada.</discord-message>
+</DiscordMessages>
+  </TabItem>
+</Tabs>
+
+## 🔧Sugerencias
+Reciba feedback de sus usuarios mediantes sugerencias completamente customizables.
+
+<DiscordMessages>
+    <discord-message author="D-Safe" avatar="https://i.imgur.com/FFBgOWE.png" bot='true' verified='true'>
+                        <discord-embed slot="embeds" author-image="https://i.imgur.com/rhJnYCl.png" author-name="Usuario#0000" color="#a9eda4" timestamp="12/01/2020">
+                            Me gustaría un canal de #gaming, donde poder buscar amigos para partidas de videojuegos :D, estaría genial
+                            <discord-embed-fields slot="fields">
+                                <discord-embed-field field-title="Comentario del staff" inline="1" inline-index="1">Lo he hablado con el staff y ¡nos encanta tu idea! ya hemos creado el canal
+                                </discord-embed-field>
+                                <discord-embed-field field-title="Estadísticas" inline="2" inline-index="2">
+                                    Resumen: <bold>+13</bold><br></br>
+                                    Votos positivos: <bold>13</bold> <code>100%</code><br></br>
+                                    Votos negativos: <bold>0</bold> <code>0%</code>
+                                </discord-embed-field>
+                            </discord-embed-fields>
+                            <span slot="footer">ID de la sugerencia: 3</span>
+                        </discord-embed>
+                    </discord-message>
+</DiscordMessages>
+
+### Establecer el canal de sugerencias
+Establezca el canal donde se enviarán las sugerencias de los usuarios.
+Establézcalo con `d.suggestions setchannel #Canal/CanalID`.
+
+<DiscordMessages>
+    <DiscordMessage author="Usuario" avatar="red">d.suggestions setchannel <discord-mention type="channel">sugerencias</discord-mention></DiscordMessage>
+    <discord-message author="D-Safe" avatar="https://i.imgur.com/FFBgOWE.png" bot='true' verified='true'><img className="discord-emoji" src="https://cdn.discordapp.com/emojis/656224418946744320.gif?1"></img> El canal de sugerencias se ha establecido correctamente a <discord-mention type="channel">sugerencias</discord-mention>.</discord-message>
+</DiscordMessages>
+
+### Establecer canal de sugerencias aprobadas
+:::info
+Esto es opcional si es que quiere hacer que se envíen notificaciones cuando se aprueba una sugerencia.
+:::
+
+Establézcalo  con `d.suggestions setapproved #Canal/CanalID`.
+
+<DiscordMessages>
+    <DiscordMessage author="Usuario" avatar="red">d.suggestions setapproved <discord-mention type="channel">sugerencias-aprobadas</discord-mention></DiscordMessage>
+    <discord-message author="D-Safe" avatar="https://i.imgur.com/FFBgOWE.png" bot='true' verified='true'><img className="discord-emoji" src="https://cdn.discordapp.com/emojis/656224418946744320.gif?1"></img> El canal de sugerencias aprobadas se ha establecido correctamente a <discord-mention type="channel">sugerencias-aprobadas</discord-mention>.</discord-message>
+</DiscordMessages>
+
+### Establecer canal de sugerencias denegadas
+:::info
+Esto es opcional si es que quiere hacer que se envíen notificaciones cuando se deniega una sugerencia.
+:::
+
+Establézcalo con `d.suggestions setdenied #Canal/CanalID`.
+
+<DiscordMessages>
+    <DiscordMessage author="Usuario" avatar="red">d.suggestions setdenied <discord-mention type="channel">sugerencias-denegadas</discord-mention></DiscordMessage>
+    <discord-message author="D-Safe" avatar="https://i.imgur.com/FFBgOWE.png" bot='true' verified='true'><img className="discord-emoji" src="https://cdn.discordapp.com/emojis/656224418946744320.gif?1"></img> El canal de sugerencias denegadas se ha establecido correctamente a <discord-mention type="channel">sugerencias-denegadas</discord-mention>.</discord-message>
+</DiscordMessages>
+
+### Activar el emoji de indeciso
+Puede indicar que se añada el emoji de indeciso `❓` a las reacciones de las sugerencias, para aquellos usuarios que no estén seguros.
+
+![Ejemplo](https://i.imgur.com/ARFrHal.png)
+
+Puedes configurarlo con `d.suggestions questionEmoji enable / disable`.
+
+<DiscordMessages>
+    <DiscordMessage author="Usuario" avatar="red">d.suggestions questionEmoji enable</DiscordMessage>
+    <discord-message author="D-Safe" avatar="https://i.imgur.com/FFBgOWE.png" bot='true' verified='true'><img className="discord-emoji" src="https://cdn.discordapp.com/emojis/656224418946744320.gif?1"></img> Se ha activado la opción de interrogación (❓) en las sugerencias.</discord-message>
+</DiscordMessages>
+
+### Auto-aceptar sugerencias
+Puede establecer una cantidad de votos positivos donde las sugerencias se aceptan automáticamente.
+
+Puede configurar con `d.suggestions autoaccept Número(1-1000) / disable`.
+
+<DiscordMessages>
+    <DiscordMessage author="Usuario" avatar="red">d.suggestions autoaccept 20</DiscordMessage>
+    <discord-message author="D-Safe" avatar="https://i.imgur.com/FFBgOWE.png" bot='true' verified='true'><img className="discord-emoji" src="https://cdn.discordapp.com/emojis/656224418946744320.gif?1"></img> Se ha establecido la cantidad para autoaceptar sugerencias a <bold>20</bold>.</discord-message>
+</DiscordMessages>
+
+### Aceptar, denegar y borrar sugerencias
+:::info
+La ID de la sugerencia la puede encontrar al final del mensaje de la sugerencia, estás son números únicos para cada sugerencia.
+
+![Ejemplo](https://i.imgur.com/y0wOy7i.png)
+:::
+
+* Aceptar: `d.suggestions approve IDSugerencia <Comentario>`.
+
+<DiscordMessages>
+    <DiscordMessage author="Usuario" avatar="red">d.suggestions approve 15 Me ha encantado la idea, la hablaré con el equipo!</DiscordMessage>
+    <discord-message author="D-Safe" avatar="https://i.imgur.com/FFBgOWE.png" bot='true' verified='true'><img className="discord-emoji" src="https://cdn.discordapp.com/emojis/656224418946744320.gif?1"></img> Se ha aprobado la sugerencia <bold>15</bold> correctamente.</discord-message>
+</DiscordMessages>
+
+
+* Denegar: `d.suggestions deny IDSugerencia <Comentario>`.
+
+<DiscordMessages>
+    <DiscordMessage author="Usuario" avatar="red">d.suggestions deny 16 No creo que esta idea mejore el servidor</DiscordMessage>
+    <discord-message author="D-Safe" avatar="https://i.imgur.com/FFBgOWE.png" bot='true' verified='true'><img className="discord-emoji" src="https://cdn.discordapp.com/emojis/656224418946744320.gif?1"></img> Se ha denegado la sugerencia <bold>16</bold> correctamente.</discord-message>
+</DiscordMessages>
+
+
+:::tip
+Borrar una sugerencia borra todos los mensajes relacionados con ella, esa es la diferencia entre denegar y borrar.
+:::
+
+* Borrar: `d.suggestions delete IDSugerencia`.
+
+<DiscordMessages>
+    <DiscordMessage author="Usuario" avatar="red">d.suggestions delete 17</DiscordMessage>
+    <discord-message author="D-Safe" avatar="https://i.imgur.com/FFBgOWE.png" bot='true' verified='true'><img className="discord-emoji" src="https://cdn.discordapp.com/emojis/656224418946744320.gif?1"></img> Se ha borrado la sugerencia <bold>17</bold> correctamente.</discord-message>
+</DiscordMessages>
+
+
+### Lista de sugerencias
+Mira la lista de sugerencias con `d.suggestions list`, si hay más de una aparecerán reacciones para moverte entre ellas.
+
+<DiscordMessages>
+    <discord-message author="D-Safe" avatar="https://i.imgur.com/FFBgOWE.png" bot='true' verified='true'>
+                        <discord-embed slot="embeds" color="#7289da" timestamp="12/01/2020" embed-title="Sugerencias pendientes" thumbnail="https://i.imgur.com/sdtCxV3.png">
+                            <img className="discord-emoji" src="https://cdn.discordapp.com/emojis/779658830421557290.png?v=1"></img> » <code>ID de la sugerencia 1</code> Por <discord-mention type="member">Usuario</discord-mention><br></br>Me gustaría un canal de <discord-mention type="channel">gaming</discord-mention>, donde poder buscar amigos para partidas de videojuegos :D, estaría genial
+                        </discord-embed>
+                    </discord-message>
+</DiscordMessages>
+
+### Acciones en masa
+Puedes aceptar, denegar y borrar sugerencias en masa si lo deseas, estos comandos no admiten comentarios.
+
+* Aceptar: `d.suggestions massapprove IDSugerencia IDSugerencia...`.
+* Denegar: `d.suggestions massdeny IDSugerencia IDSugerencia...`.
+* Borrar: `d.suggestions massdelete IDSugerencia IDSugerencia...`.
+
+### Paleta de colores
+Puede customizar los colores de las sugerencias, los colores cambian de nivel dependiendo del número de votos.
+
+Puede elegir entre una de las siguientes paletas de colores:
+
+![Paletas de colores](https://i.imgur.com/e0wPvwV.png)
+
+Puede seleccionar la peleta de colores que desea usar con `d.suggestions setpalette <Nombre paleta>`.
+
+:::info
+También puede customizar cada valor y crear su propia paleta de colores, eso requiere **D-Safe Premium**, estará a continuación.
+:::
+
+### Funciones premium
+Las siguientes características solo pueden ser usadas con **[D-Safe Premium](#premium)**.
+
+### Rol de encargado de sugerencias
+Establezca el rol encargado de las sugerencias con `d.suggestions setrole @Rol/RolID`.
+
+<DiscordMessages>
+    <DiscordMessage author="Usuario" avatar="red">d.suggestions setrole <discord-mention type="role">Staff</discord-mention></DiscordMessage>
+    <discord-message author="D-Safe" avatar="https://i.imgur.com/FFBgOWE.png" bot='true' verified='true'><img className="discord-emoji" src="https://cdn.discordapp.com/emojis/656224418946744320.gif?1"></img> Se ha establecido correctamente el rol que puede administrar las sugerencias. Ahora los miembros con este rol podrán aceptar, denegar y borrar sugerencias.</discord-message>
+</DiscordMessages>
+
+### Canal de comandos de sugerencias
+Establezca el canal donde únicamente se podrá usar el comando `suggest` con `d.suggestions setcommandschannel #Canal/CanalID`.
+
+<DiscordMessages>
+    <DiscordMessage author="Usuario" avatar="red">d.suggestions setcommandschannel <discord-mention type="channel">comandos</discord-mention></DiscordMessage>
+    <discord-message author="D-Safe" avatar="https://i.imgur.com/FFBgOWE.png" bot='true' verified='true'><img className="discord-emoji" src="https://cdn.discordapp.com/emojis/656224418946744320.gif?1"></img> Se ha establecido correctamente el canal donde únicamente se puedan usar los comandos de sugerencias a <discord-mention type="channel">comandos</discord-mention>.</discord-message>
+</DiscordMessages>
+
+### Tiempo de espera entre sugerencias
+Customize los minutos que debe pasar entre cada comando del `suggest` con `d.suggestions setcooldown Número(1-60) / disable`, el número son los minutos.
+
+<DiscordMessages>
+    <DiscordMessage author="Usuario" avatar="red">d.suggestions setcooldown 5</DiscordMessage>
+    <discord-message author="D-Safe" avatar="https://i.imgur.com/FFBgOWE.png" bot='true' verified='true'><img className="discord-emoji" src="https://cdn.discordapp.com/emojis/656224418946744320.gif?1"></img> Se ha establecido correctamente el cooldown al enviar sugerencias. Ahora los miembros podrán enviar una sugerencia cada <bold>5</bold> minutos.</discord-message>
+</DiscordMessages>
+
+### Emoji de las reacciones
+Personalize los emojis de las reacciones de las sugerencias con `d.suggestions setemoji EmojiPositivo EmojiNegativo EmojiIndeciso(si está activado)`.
+
+<DiscordMessages>
+    <DiscordMessage author="Usuario" avatar="red">d.suggestions setemoji <img class="discord-emoji" src="https://cdn.discordapp.com/emojis/700003446971170937.png?v=1"></img> <img class="discord-emoji" src="https://cdn.discordapp.com/emojis/700003446928965652.png?v=1"></img></DiscordMessage>
+    <discord-message author="D-Safe" avatar="https://i.imgur.com/FFBgOWE.png" bot='true' verified='true'><img className="discord-emoji" src="https://cdn.discordapp.com/emojis/656224418946744320.gif?1"></img> Se han establecido correctamente los emojis personalizados.</discord-message>
+</DiscordMessages>
+
+### Paleta customizada
+Customize la paleta de colores con `d.suggestions setpalette p1 #ColorHexadecimal`.
+
+Puede obtener el código de color hexadecimal de la siguiente [página](https://htmlcolorcodes.com/).
+
+Debe especificar el color de cada uno de los siguientes niveles, la `p` indica positivo, `n` indica negativo, del 1-3 cuanto más alto más votos hay.
+* p1, Establece el color positivo para pocos votos.
+* p2, Establece el color positivo para la mitad de votos.
+* p3, Establece el color positivo para muchos votos.
+* n1, Establece el color negativo para pocos votos.
+* n2, Establece el color negativo para la mitad de votos.
+* n3, Establece el color negativo para muchos votos.
+
+<DiscordMessages>
+    <DiscordMessage author="Usuario" avatar="red">d.suggestions setpalette p1 #f2dea5</DiscordMessage>
+    <discord-message author="D-Safe" avatar="https://i.imgur.com/FFBgOWE.png" bot='true' verified='true'><img className="discord-emoji" src="https://cdn.discordapp.com/emojis/656224418946744320.gif?1"></img> Se ha establecido el <bold>p1</bold> a <code>#f2dea5</code>.</discord-message>
+</DiscordMessages>
+
+
+## 🔨Logs
+
+Los logs permiten a los administradores **ver todos los eventos que ocurren en el servidor** \(roles borrados, roles añadidos, entradas, salidas, mensajes borrados, etc\).
+
+* Para establecer un canal donde se manden los logs usa `d.logs` dentro del canal o `d.logs #Canal`.
+* Para desactivar los logs use `d.logs disable`.
+
+<DiscordMessages>
+    <discord-message author="D-Safe" avatar="https://i.imgur.com/FFBgOWE.png" bot='true' verified='true'>
+                        <discord-embed slot="embeds" author-image="https://i.imgur.com/rhJnYCl.png" author-name="Usuario#0000" embed-title="Mensaje Eliminado" color="#eb5e54" thumbnail="https://i.imgur.com/rhJnYCl.png">
+                                jaja eres tonto
+                            <discord-embed-fields slot="fields">
+                                <discord-embed-field field-title="Canal." inline="" inline-index="1"><discord-mention type="channel">general</discord-mention> - <code>504679535598501898</code></discord-embed-field>
+                            </discord-embed-fields>
+                            <span slot="footer">Autor: 318327338226155541 | Mensaje ID: 727651117785415741</span>
+                        </discord-embed>
+                    </discord-message>
+</DiscordMessages>
+
+## 🔧Palabras bloqueadas
+
+Bloquea palabras ofensivas que rompan las reglas del servidor.
+
+<DiscordMessages>
+    <DiscordMessage author="Usuario" avatar="red"><span class="red-text">hijo de puta</span></DiscordMessage>
+    <discord-message author="D-Safe" avatar="https://i.imgur.com/FFBgOWE.png" bot='true' verified='true'><img className="discord-emoji" src="https://cdn.discordapp.com/emojis/657955119886893057.gif?v=1"></img> | Esa palabra está bloqueada.</discord-message>
+</DiscordMessages>
+
+### Bloquear palabra
+Para bloquear una o varias palabras use `d.blockword add [Palabra] <Palabra> <Palabra>`.
+
+<DiscordMessages>
+    <DiscordMessage author="Usuario" avatar="red">d.blockword add :v ;v >:v</DiscordMessage>
+    <discord-message author="D-Safe" avatar="https://i.imgur.com/FFBgOWE.png" bot='true' verified='true'><img className="discord-emoji" src="https://cdn.discordapp.com/emojis/656224418946744320.gif?1"></img> | Palabra/s bloqueada con éxito.</discord-message>
+</DiscordMessages>
+
+### Desbloquear palabra
+Para desbloquear una o varias palabras use `d.blockword remove [Palabra] <Palabra> <Palabra>`.
+
+<DiscordMessages>
+    <DiscordMessage author="Usuario" avatar="red">d.blockword remove :v ;v >:v</DiscordMessage>
+    <discord-message author="D-Safe" avatar="https://i.imgur.com/FFBgOWE.png" bot='true' verified='true'><img className="discord-emoji" src="https://cdn.discordapp.com/emojis/656224418946744320.gif?1"></img> | Palabra/s desbloqueada con éxito.</discord-message>
+</DiscordMessages>
+
+### Packs de palabras bloqueadas
+Ahora puede bloquear un pack de palabras seleccionadas por nosotros para facilitarle la moderación.
+
+* Para bloquear las palabras de un pack use: `d.blockword add pack <0/1/2>`
+* Para desbloquear las palabras de un pack use: `d.blockword remove pack <0/1/2>`
+
+| 📦 Pack | 📣 Descripción |
+| :--- | :--- |
+| **0** | Palabras recomendadas, ligeramente ofensivas. | 
+| **1** | Palabras ofensivas e insultos. | 
+| **2** | Palabras inapropiadas y explícitas. | 
+
+<DiscordMessages>
+    <DiscordMessage author="Usuario" avatar="red">d.blockword add pack 0</DiscordMessage>
+    <discord-message author="D-Safe" avatar="https://i.imgur.com/FFBgOWE.png" bot='true' verified='true'>
+    <img className="discord-emoji" src="https://cdn.discordapp.com/emojis/656224418946744320.gif?1"></img> | Se ha bloqueado la lista de palabras recomendadas con éxito.
+    </discord-message>
+</DiscordMessages>
+
+### Ver palabras bloqueadas
+Podrá ver la lista de palabras bloqueadas usando `d.blockword list`.
+
+Este comando le envía un archivo **[Markdown](https://es.wikipedia.org/wiki/Markdown)** donde podrá ver las palabras.
+
+### Resetear las palabras bloqueadas
+Una forma sencilla de eliminar todas las palabras bloqueadas es usando `d.blockword reset`.
+
+<DiscordMessages>
+    <DiscordMessage author="Usuario" avatar="red">d.blockword reset</DiscordMessage>
+    <discord-message author="D-Safe" avatar="https://i.imgur.com/FFBgOWE.png" bot='true' verified='true'><img className="discord-emoji" src="https://cdn.discordapp.com/emojis/656224418946744320.gif?1"></img> | Se han desbloqueado todas las palabras con éxito.</discord-message>
+</DiscordMessages>
+
+## 🔧Whitelist
+Si no quieres que un usuario malicioso sea baneado al usar `d.forceban`.
+
+* Ignore a un usuario del **forceban** usando `d.whitelist add UsuarioID`.
+* Designore a un usuario del **forceban** usando `d.whitelist remove UsuarioID`.
+* Vea la lista de usuarios ignorados con `d.whitelist list`.
+* Borre todos los usuarios ignorados con `d.whitelist reset`.
+
+## 👑Notificaciones
+Activar las notificaciones avisa al **Dueño del servidor** cada vez que un usuario malicioso se una al servidor.
+
+* Actívelo con `d.notifications on`.
+* Desactívelo con `d.notifications off`.
+
+<DiscordMessages>
+    <discord-message author="D-Safe" avatar="https://i.imgur.com/FFBgOWE.png" bot='true' verified='true'>
+                        <discord-embed slot="embeds" embed-title="Alerta" color="#aab9fa" thumbnail="https://i.imgur.com/io7SLqn.png">
+                        Un miembro clasificado como malicioso ha entrado a su servidor.
+                            <discord-embed-fields slot="fields">
+                                <discord-embed-field field-title="Miembro" inline="" inline-index="1"><discord-mention class="discord-mention discord-user-mention">UsuarioMalicioso</discord-mention> - 660479309416235029</discord-embed-field>
+                                <discord-embed-field field-title="Razón" inline="" inline-index="1">Raider</discord-embed-field>
+                                <discord-embed-field field-title="Prueba" inline="" inline-index="1">https://imgur.com/xyz</discord-embed-field>
+                            </discord-embed-fields>
+                            <span slot="footer">Puede desactivar estas alertas usando d.notifications</span>
+                        </discord-embed>
+                    </discord-message>
+</DiscordMessages>
+

@@ -1,0 +1,312 @@
+{
+    "announcement": {
+        "noCanal": "Este servidor não tem um canal registrado de anúncios.",
+        "correcto": "Apagado corretamente!",
+        "errorArgs": "**Erro**, argumentos inválidos, você deve mencionar um canal ou colocar uma ID.",
+        "errorTexto": "**Erro**, não dá para registrar um canal que não seja de texto."
+    },
+    "alarm": {
+        "desactivado": "O modo alarma foi desativado.",
+        "activado": ""
+    },
+    "detect": {
+        "noPeligro": "Não se encontrou nenhum usuário perigoso, muito bem!",
+        "usuarios": ":eyes: {{num}} usuários detectados."
+    },
+    "forceban": {
+        "completado": ""
+    },
+    "hackban": {
+        "noArgs": "Digite uma ID.",
+        "noVálido": "Não é uma ID válida.",
+        "noID": "**Erro**, Fale-me uma ou várias ids.",
+        "noMismo": "**Erro**, Você não pode se banir a si mesmo.",
+        "noBan": "No é possível banir este usuário, provavelmente a id não seja válida.",
+        "correcto": ""
+    },
+    "info": {
+        "nada": "Nada.",
+        "error": "Erro.",
+        "jugando": "❯Jogando:",
+        "id": "❯ID:",
+        "estado": "❯Estado:",
+        "creadoEl": "❯Creado o:",
+        "seUnió": "❯Entro no servidor o:",
+        "roles": "❯Papéis:",
+        "errorNoID": "Não é uma ID.",
+        "errorNoUsuario": "Não se encontrou o usuário.",
+        "nickname": "❯ Apodo:",
+        "común": "❯ Servidores en común:"
+    },
+    "kick": {
+        "errorUso": "",
+        "errorNoExpulsar": "Não posso expulsar o usuário.",
+        "correcto": "O usuário foi expulso do servidor exitosamente."
+    },
+    "clearbans": {
+        "limpiando": "Limpando banidos…",
+        "errorNoBans": "",
+        "correcto": "Limpou-se todos os banidos."
+    },
+    "mute": {
+        "error": "Erro.",
+        "errorMención": "**Error: Falta mencionar al usuario.**\nEscríbalo como: .mute @Usuario Número s/m/h Razón",
+        "errorTiempo": "**Error: Falta añadir tiempo.**\nEscríbalo como: .mute @Usuario Número s/m/h Razón",
+        "errorMedida": "**Error: Falta añadir medida.**\nEscríbalo como:.mute @Usuario Número s/m/h Razón",
+        "errorRazón": "**Error: Falta añadir razón.** \nEscríbalo como:.mute @Usuario Número s/m/h Razón",
+        "errorCantidad": "**Error** Escríbalo como: .mute @Usuario Número s/m/h Razón",
+        "errorYaMuteado": ""
+    },
+    "blockword": {
+        "ninguna": "",
+        "correcto": "",
+        "palabraBloqueadaExito": "Palabra bloqueada con exito"
+    },
+    "ping": {
+        "cargando": ""
+    },
+    "report": {
+        "errorArgs": "**Error** escríbalo como en el siguiente ejemplo:\n\n``.reportar Usuario|ID|Razón|Prueba``\n❗Es necesario poner pruebas para que el reporte sea aceptado.\n📍Recomendamos poner la prueba en **imgur**: ``https://imgur.com/upload``",
+        "reportadoPor": "",
+        "usuario": "",
+        "id": "🆔❯ ID:",
+        "razón": "",
+        "prueba": "",
+        "reporteTítulo": "🗃Reporte",
+        "reporteGenerado": "Su reporte fue generado.",
+        "autor": "",
+        "estado": "📊❯ Estado",
+        "verificación": "",
+        "confirmación": "",
+        "mandando": "",
+        "errorTiempo": "<a:nopesafe:657955119886893057> | Se acabo el tiempo.",
+        "nuevoReporte": ""
+    },
+    "seenon": {
+        "errorNoUsuario": "",
+        "servidores": "",
+        "ninguno": "",
+        "errorArgs": "**Error**. Argumentos inválidos, debe mencionar a un miembro o poner una ID.",
+        "errorCaracteres": ""
+    },
+    "support": {
+        "confirmación": "¿Estás seguro de pedir soporte?\nPara confirmar responda: Sí.\n__**Si no es un tema urgente serás sancionado.**__",
+        "correcto": "Se ha notificado a los agentes que ha solicitado ayuda, se le atenderá lo antes posible."
+    },
+    "suggest": {
+        "error": "",
+        "descripción": "",
+        "confirmación": "",
+        "mandando": "",
+        "errorTiempo": ""
+    },
+    "unmute": {
+        "errorMención": "**Error: Falta mencionar al usuario.**\nEscríbalo como: .unmute @Usuario",
+        "errorNoExiste": "No existe un rol Muted, lo he creado y configurado.",
+        "errorNoMuteado": "Ese usuario no está muteado.",
+        "desmuteado2": ""
+    },
+    "warn": {
+        "errorMención": "**Error: Falta mencionar al usuario.**\nEscríbalo como: .warn @Usuario Razón",
+        "errorRazón": "",
+        "correcto": ""
+    },
+    "warnings": {
+        "noWarn": "",
+        "noSancionado": "El usuario no ha sido sancionado."
+    },
+    "whitelist": {
+        "correcto": "",
+        "añadido": "Agregado à whitelist"
+    },
+    "settings": {
+        "activado": "Ativado.",
+        "desactivado": "Desativado.",
+        "ninguno": "Nenhum.",
+        "estado": "❯ Estado",
+        "comandos": "❯ Comandos",
+        "ajanuncios": "Configuração dos anúncios",
+        "desanuncios": "Para configurar os anuncios use os comandos mostrados abaixo.",
+        "canalanuncios": "❯ Canal de anúncios",
+        "ajlang": "Configurações de idioma",
+        "deslang": "",
+        "idioma": "",
+        "ajlogs": "",
+        "deslogs": "",
+        "canallogs": "",
+        "ajignorados": "",
+        "designorados": "",
+        "ignorados": "",
+        "ajpalabras": "",
+        "despalabras": "",
+        "panel": "",
+        "despanel": "",
+        "fanuncios": "",
+        "flogs": "",
+        "fidioma": "",
+        "fpalabras": "❯ Palabras",
+        "fignorados": "❯ Ignorados / Whitelist",
+        "ajverificacion": "",
+        "desverificacion": "",
+        "fverificacion": ""
+    },
+    "approve": {
+        "errorNoConfig": "No está configurada la verificación. Para configurarla use ``.verificacion``",
+        "errorNoAprobación": "Este comando es solo para el modo Aprobación. Para configurar la verificación use ``.verificacion``",
+        "errorRoles": "Debe configurar primero el rol No Verificado y el rol Usuario. Para configurarlo use ``.verificacion``",
+        "errorCanal": "Este comando solo se puede usar en el canal de verificación. Para configurar la verificación use ``.verificacion``",
+        "errorMención": "Debe mencionar a un usuario. Para configurar la verificación use ``.verificacion``",
+        "errorNoRoles": "Los roles que ha configurado para la verificación no existen o no estoy por encima de ellos. Para configurar la verificación use ``.verificacion``",
+        "errorNoVerificado": "El usuario no tiene el rol de No Verificado. Para configurar la verificación use ``.verificacion``",
+        "aprobado": ""
+    },
+    "botinfo": {
+        "info": "Información de Discord Safe",
+        "versión": "",
+        "librería": "",
+        "servidores": "",
+        "usuarios": "",
+        "servidoresshard": "",
+        "procesador": "Processador: {{cpu}}"
+    },
+    "genpassword": {
+        "errornolongitud": "",
+        "md": "",
+        "errorLongitud": "",
+        "generada": "",
+        "contraseña": "",
+        "nivel": "",
+        "longitud": ""
+    },
+    "reportbug": {
+        "error": "",
+        "descripción": "",
+        "shard": "",
+        "servidor": "",
+        "confirmación": "",
+        "mandando": "",
+        "errorTiempo": ""
+    },
+    "server": {
+        "región": "▸ Región",
+        "creadoEl": "",
+        "dueño": "",
+        "miembros": "",
+        "humanos": "",
+        "canales": "",
+        "canalesTexto": "",
+        "canalesVoz": ""
+    },
+    "verification": {
+        "noArgsAutor": "",
+        "noArgsDescripción": "",
+        "modo": "❯ Modo",
+        "canal": "",
+        "rolnoverificado": "",
+        "rolusuario": "",
+        "mensaje": "",
+        "noArgsFooter": "Para saber como configurarlo use .verificacion ayuda",
+        "autorAyuda": "",
+        "descripciónAyuda": "",
+        "importante": "",
+        "importanteField": "Si algo falla recuerda revisar las tildes y faltas de ortografía.\nLos comandos se tiene que poner sin los <>\n[¿No sabes como copiar una ID?](https://docs.discordsafe.com/ayuda/como-copiar-ids).\nSi tienes dudas pregúntalas en [el servidor de soporte](https://discordsafe.com/discord).",
+        "mensajeField": "**Esto solo es necesario para el modo de __reacción__** donde será el mensaje al que los usuarios tengan que reaccionar.\nPara ponerlo usa ``.verificacion setmensaje MensajeID``",
+        "footerAyuda": "docs.discordsafe.com",
+        "errorNoArgs": "**Error:** Debe indicar un argumento.\n**Ayuda:** ``.verificacion ayuda``",
+        "errorFooter": ".verificacion ayuda",
+        "errorModo": "**Error:** Los modos deben ser: ``aprobación / reacción / verificación``.\n**Ayuda:** ``.verificacion ayuda``",
+        "establecidoAprobación": "El modo ha sido establecido a ``aprobación``",
+        "establecidoReacción": "El modo ha sido establecido a ``reacción``",
+        "establecidoVerificación": "El modo ha sido establecido a ``verificación``",
+        "errorModoPrimero": "**Error:** Debe seleccionar el modo primero.\n**Ayuda:** ``.verificacion ayuda``",
+        "errorNoCanal": "**Error:** Debe indicar un canal.\n**Ayuda:** ``.verificacion ayuda``",
+        "errorCanalMención": "**Error:** El canal debe de ser una mención o una ID.\n**Ayuda:** ``.verificacion ayuda``",
+        "errorCanalNoExiste": "",
+        "errorCanalNoTexto": "",
+        "establecidoCanal": "",
+        "errorRol": "**Error:** Debe indicar el rol.\n**Ayuda:** ``.verificacion ayuda``",
+        "errorRolMención": "**Error:** El rol debe de ser una mención o una ID.\n**Ayuda:** ``.verificacion ayuda``",
+        "errorRolPermisos": "**Error:** El bot necesita permisos de __Gestionar roles__\n**Ayuda:** ``.verificacion ayuda``",
+        "errorRolNoExiste": "",
+        "errorRolEncima": "",
+        "establecidoRol": "",
+        "errorMensajeCanal": "**Error:** Debe indicar el canal primero.\n**Ayuda:** ``.verificacion ayuda``",
+        "errorMensajeModo": "**Error:** El mensaje es solo necesario indicarlo para el modo __reacción__.\n**Ayuda:** ``.verificacion ayuda``",
+        "errorMensajeNoArgs": "**Error:** Debe indicar el mensaje.\n**Ayuda:** ``.verificacion ayuda``",
+        "errorMensajeID": "**Error:** Debe de ser la ID de un mensaje.\n**Ayuda:** ``.verificacion ayuda``",
+        "errorMensajeNoEncuentra": "",
+        "errorMensajePermisos": "",
+        "establecidoMensaje": ""
+    },
+    "aceptar": {
+        "aceptado": "✅Aceptado por: ",
+        "usuarioReportado": "👤❯ Usuario Reportado:",
+        "id": "🆔❯ ID:",
+        "razón": "📃❯ Razón:",
+        "prueba": "🔗❯ Prueba:"
+    },
+    "ban": {
+        "errorUser": "",
+        "errorNoBan": "No puedo banear al usuario mencionado.",
+        "exito": "",
+        "errorNobanneable": "No puedo banear al usuario."
+    },
+    "baninfo": {
+        "noForceban": "",
+        "usuario": "",
+        "razón": ""
+    },
+    "clear": {
+        "mensajesBorrados": ""
+    },
+    "clearwarn": {
+        "noWarn": "",
+        "warnServer": "",
+        "noCódigo": ""
+    },
+    "filter": {
+        "noArgsAutor": "",
+        "noArgsDes": "Los filtros le ayudan a prevenir que se envien mensajes con contenido malicioso o spam.\n**Para saber como configurarlo use:** ``.filtros ayuda``",
+        "invitaciones": "❯ Invitaciones",
+        "iploggers": "❯ Anti Iploggers",
+        "imágenes": "❯ Imágenes (PREMIUM)",
+        "malicioso": "❯ Malicioso",
+        "palabras": "",
+        "noArgsFooter": "Para configurarlo use .filtros ayuda",
+        "ayudaAutor": "Panel de ayuda sobre filtros",
+        "ayudaDes": "",
+        "finvitaciones": "",
+        "fiploggers": "",
+        "fimágenes": "",
+        "fmalicioso": "",
+        "fpalabras": "Filtro de palabras bloqueadas, para añadir usa ``.bloquearpalabra <palabra>``.",
+        "errorPermisos": "",
+        "activadoInvitaciones": "",
+        "activadoIploggers": "",
+        "activadoImágenes": "",
+        "activadoMalicioso": "Se ha activado correctamente el filtro contra el contenido malicioso.",
+        "errorTipo": "Debes indicar el tipo de filtro que quieres desactivar.",
+        "errorNoRow": "",
+        "desactivadoInvitaciones": "",
+        "desactivadoIploggers": "",
+        "desactivadoImágenes": "",
+        "desactivadoMalicioso": "Se ha desactivado correctamente el filtro contra el contenido malicioso."
+    },
+    "logs": {
+        "errorArgs": "",
+        "errorNoExiste": "",
+        "errorTexto": "",
+        "correcto": "",
+        "desactivado": ""
+    },
+    "verifyme": {
+        "errorNoConfig": "No está configurada la verificación. Para configurarla use ``.verificacion``",
+        "errorNoAprobación": "Este comando es solo para el modo Verificación. Para configurar la verificación use ``.verificacion``",
+        "errorRoles": "Debe configurar primero el rol No Verificado y el rol Usuario. Para configurarlo use ``.verificacion``",
+        "errorCanal": "Este comando solo se puede usar en el canal de verificación. Para configurar la verificación use ``.verificacion``",
+        "errorMención": "Debe mencionar a un usuario. Para configurar la verificación use ``.verificacion``",
+        "errorNoRoles": "Los roles que ha configurado para la verificación no existen o no estoy por encima de ellos. Para configurar la verificación use ``.verificacion``",
+        "errorNoVerificado": "Necesitas tener el rol de No Verificado. Para configurar la verificación use ``.verificacion``",
+        "aprobado": ""
+    }
+}
