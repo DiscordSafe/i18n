@@ -281,12 +281,11 @@
         "completadoUnban": "Desbaneados con éxito **{{number}}** usuarios eliminados del forceban."
     },
     "hackban": {
-        "noArgs": "**Error**, Debe proporcionar una ID.",
-        "noVálido": "**Error**, La ID de Usuario no es válida.",
+        "noVálido": "**Error**, La ID de usuario no es válida.",
         "noID": "**Error**, Debe proporciona una o varias IDs.",
         "noMismo": "**Error**, No te puedes banear a tí mismo.",
         "noServidor": "**Error**, El usuario {{user}} está en el servidor.",
-        "noBan": "**Error**, No he podido banear a este usuario, probablemente la ID no sea válida.",
+        "noBan": "**Error**, No he podido banear a este usuario.",
         "correcto": "Baneado exitosamente el usuario **{{user}}**."
     },
     "info": {
@@ -408,10 +407,11 @@
         "errorPrueba": "**Error**, La prueba debe de incluir un enlace."
     },
     "reportbug": {
-        "args": "Este comandos necesita argumentos, ejemplo: `d.reportbug Título reporte | Descripción del bug`",
         "error": "Para poder atender tu reporte debes entrar a [nuestro servidor](https://discordsafe.com/discord) y usar el comando allí.",
-        "descripción": "Descripción:",
-        "confirmación": "¿Estás seguro de mandar el reporte del bug?",
+        "descripción": "❯ Descripción:",
+        "shard": "❯ Shard:",
+        "servidor": "❯ Servidor:",
+        "confirmación": "¿Estás seguro de mandar el reporte del error? Para confirmar responda **yes**.",
         "mandando": "Mandando…",
         "errorTiempo": "Se acabó el tiempo."
     },
