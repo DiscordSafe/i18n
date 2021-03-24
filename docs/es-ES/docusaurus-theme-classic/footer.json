@@ -1,0 +1,62 @@
+{
+  "link.title.Apóyanos": {
+    "message": "Apóyanos",
+    "description": "The title of the footer links column with title=Apóyanos in the footer"
+  },
+  "link.title.Información": {
+    "message": "Información",
+    "description": "The title of the footer links column with title=Información in the footer"
+  },
+  "link.title.Más": {
+    "message": "Más",
+    "description": "The title of the footer links column with title=Más in the footer"
+  },
+  "link.item.label.Patreon": {
+    "message": "Patreon",
+    "description": "The label of footer link with label=Patreon linking to https://patreon.com/DiscordSafe"
+  },
+  "link.item.label.Premium": {
+    "message": "Premium",
+    "description": "The label of footer link with label=Premium linking to https://discordsafe.com/premium"
+  },
+  "link.item.label.Soporte": {
+    "message": "Soporte",
+    "description": "The label of footer link with label=Soporte linking to https://discordsafe.com/discord"
+  },
+  "link.item.label.Twitter": {
+    "message": "Twitter",
+    "description": "The label of footer link with label=Twitter linking to https://twitter.com/DiscordSafe"
+  },
+  "link.item.label.Blog": {
+    "message": "Blog",
+    "description": "The label of footer link with label=Blog linking to https://blog.discordsafe.com/"
+  },
+  "link.item.label.Documentación": {
+    "message": "Documentación",
+    "description": "The label of footer link with label=Documentación linking to https://docs.discordsafe.com/"
+  },
+  "link.item.label.Estado": {
+    "message": "Estado",
+    "description": "The label of footer link with label=Estado linking to https://status.discordsafe.com/"
+  },
+  "link.item.label.Desarrollador": {
+    "message": "Desarrollador",
+    "description": "The label of footer link with label=Desarrollador linking to https://discordsafe.com/desarrollador"
+  },
+  "link.item.label.Apelación": {
+    "message": "Apelación",
+    "description": "The label of footer link with label=Apelación linking to https://discordsafe.com/apelación"
+  },
+  "link.item.label.Política de privacidad del bot": {
+    "message": "Política de privacidad del bot",
+    "description": "The label of footer link with label=Política de privacidad del bot linking to https://discordsafe.com/botprivacy"
+  },
+  "link.item.label.Política de privacidad": {
+    "message": "Política de privacidad",
+    "description": "The label of footer link with label=Política de privacidad linking to https://discordsafe.com/privacy"
+  },
+  "copyright": {
+    "message": "Copyright © 2021 discordsafe.com.",
+    "description": "The footer copyright"
+  }
+}

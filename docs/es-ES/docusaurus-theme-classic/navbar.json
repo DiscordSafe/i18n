@@ -1,0 +1,18 @@
+{
+  "title": {
+    "message": "D-Safe Docs",
+    "description": "The title in the navbar"
+  },
+  "item.label.Documentación": {
+    "message": "Documentación",
+    "description": "Navbar item with label Documentación"
+  },
+  "item.label.Web": {
+    "message": "Web",
+    "description": "Navbar item with label Web"
+  },
+  "item.label.Blog": {
+    "message": "Blog",
+    "description": "Navbar item with label Blog"
+  }
+}

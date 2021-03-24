@@ -1,0 +1,22 @@
+{
+  "version.label": {
+    "message": "Siguiente",
+    "description": "The label for version current"
+  },
+  "sidebar.docs.category.Empezando": {
+    "message": "Empezando",
+    "description": "The label for category Empezando in sidebar docs"
+  },
+  "sidebar.docs.category.Ayuda": {
+    "message": "Ayuda",
+    "description": "The label for category Ayuda in sidebar docs"
+  },
+  "sidebar.docs.category.Guías": {
+    "message": "Guías",
+    "description": "The label for category Guías in sidebar docs"
+  },
+  "sidebar.docs.link.Registro de cambios": {
+    "message": "Registro de cambios",
+    "description": "The label for link Registro de cambios in sidebar docs, linking to https://blog.discordsafe.com/categories/Registro%20de%20cambios"
+  }
+}
