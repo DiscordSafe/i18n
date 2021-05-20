@@ -7,7 +7,7 @@
         "NoNSFW": "**[Filtro Imágenes Premium]** No se permite contenido NSFW fuera de canales NSFW.",
         "NoFlood": "**[AntiFlood]** No envies tantos mensajes.",
         "infoPrefix": "Hola 👋, \nMi prefijo en este servidor es: \n``{{prefix}}``",
-        "infoComandos": "Para ver mis comandos usa: {{prefix}}comandos",
+        "infoComandos": "Para ver mis comandos usa: {{prefix}}commands",
         "palabraBloqueada": "Palabra bloqueada.",
         "logAdmin": "Comando de administrador ejecutado:",
         "logAutor": "Autor: {{autor}}",
@@ -17,26 +17,58 @@
         "reminderField1": "❯ Nuevo nombre del comando"
     },
     "messageDelete": {
-        "título": "Mensaje Eliminado"
+        "título": "Mensaje eliminado"
+    },
+    "guildUpdate": {
+        "title": "Servidor actualizado",
+        "namea": "Nombre (Antes)",
+        "nameh": "Nombre (Después)",
+        "afkcha": "Canal AFK (Antes)",
+        "afkchh": "Canal AFK (Después)",
+        "afkta": "Tiempo AFK (Antes)",
+        "afkth": "Tiempo AFK (Después)",
+        "desca": "Descripción (Antes)",
+        "desch": "Descripción (Después)",
+        "feaa": "Características (Antes)",
+        "feah": "Características (Después)",
+        "rega": "Región (Antes)",
+        "regh": "Región (Después)",
+        "vanitya": "URL Personalizada (Antes)",
+        "vanityh": "URL Personalizada (Después)",
+        "none": "Ninguna.",
+        "levelUptitle": "Subida de nivel",
+        "levelUpdesc": "El servidor ha subido a **{{level}}**.",
+        "levelDowntitle": "Bajada de nivel",
+        "levelDowndesc": "El servidor a bajado a **{{level}}**."
     },
     "guildMemberUpdate": {
-        "actualizadoAp": "Apodo actualizado",
-        "anteriorAp": "Anterior:",
-        "nuevoAp": "Nuevo:",
-        "porAp": "Por",
-        "rolSuprimido": "Rol suprimido",
-        "rolAgregado": "Rol agregado"
+        "nickname": "Apodo actualizado",
+        "before": "Antes:",
+        "after": "Después:",
+        "by": "Por",
+        "rolremoved": "Rol retirado",
+        "roladded": "Rol agregado",
+        "name": "Nombre de usuario cambiado",
+        "boostTitle": "¡Gracias por tu boost!",
+        "boostDesc": "<@{{memberID}}> gracias por apoyar este servidor con tu boost. <3",
+        "unboostTitle": "Se ha acabado un boost :(",
+        "unboostDesc": "<@{{memberID}}> gracias por haber apoyado este servidor, ojalá volverte a ver."
+        
     },
     "guildMemberRemove": {
-        "usuarioSalio": "Usuario Salió",
-        "creación": "Creación: "
+        "usuarioSalio": "Usuario salió",
+        "creación": "Creación",
+        "badges": "Insignias",
+        "bot": "Bot"
     },
     "guildMemberAdd": {
+        "usuarioDa": "⛔❯ Usuario dañino: {{reason}}",
+        "nuevoUsuario": "Nuevo usuario",
+        "creación": "Creación",
+        "badges": "Insignias",
+        "bot": "Bot",
+        "forceban": "Forceban",
         "alarma": "El servidor **{{server}}** está en modo alarma y ha prohibido la entrada a nuevos usuarios, por favor vuelva a intentar dentro de unos minutos.",
-        "usuarioDa": "⛔❯ Usuario dañino: ",
-        "forceban": "No está en el forceban.",
-        "nuevoUsuario": "Nuevo Usuario",
-        "creación": "Creación: ",
         "captchaTitle": "Bivenvenid@ a {{server}}",
         "captchaField1": "Antes de continuar, debes responder este **captcha**, hazlo para poder acceder al servidor. Tienes **{{intentos}} intentos** y **{{minutos}} minutos** para completarlo.",
         "porQué": "¿Por qué?",
@@ -59,53 +91,84 @@
         "expulsadoRazón": "Mínimo de días de la creación de la cuenta."
     },
     "guildBanRemove": {
-        "miembroDesbaneado": "Miembro desbaneado"
+        "unbanned": "Miembro desbaneado",
+        "razón": "Razón",
+        "mod": "Moderador",
+        "ningunaRazón": "Ninguna"
     },
     "guildBanAdd": {
-        "guildBanAdd": "Miembro baneado",
-        "razón": "Razón:",
+        "banned": "Miembro baneado",
+        "razón": "Razón",
+        "mod": "Moderador",
         "ningunaRazón": "Ninguna"
     },
     "channelDelete": {
-        "canalEliminado": "Canal Eliminado: {{canal}} - ``{{canal}}``"
+        "title": "Canal eliminado",
+        "desc": "{{canal}}",
+        "type": "Tipo"
     },
     "channelCreate": {
-        "canalCreado": "Canal Creado: <#{{canal}}> - ``{{canal}}``"
+        "title": "Canal creado",
+        "desc": "<#{{canal}}>",
+        "type": "Tipo"
     },
     "channelUpdate": {
-        "canal": "Canal",
-        "título": "Canal Actualizado",
-        "nombreh": "Nombre (Ahora)",
+        "title": "Canal actualizado",
         "nombrea": "Nombre (Antes)",
-        "temah": "Tema (Ahora)",
+        "nombreh": "Nombre (Después)",
         "temaa": "Tema (Antes)",
-        "nsfwh": "NSFW (Ahora)",
+        "temah": "Tema (Después)",
         "nsfwa": "NSFW (Antes)",
-        "nada": "Nada",
-        "activado": "Activado.",
-        "desactivado": "Desactivado."
+        "nsfwh": "NSFW (Después)",
+        "typea": "Tipo (Antes)",
+        "typeh": "Tipo (Después)",
+        "coola": "Ratelimit (Antes)",
+        "coolh": "Ratelimit (Después)",
+        "none": "Ninguno."
     },
     "messageUpdate": {
-        "título": "Mensaje Actualizado",
+        "título": "Mensaje actualizado",
         "nuevo": "ID del mensaje",
         "tiempos": "Diferencia de tiempo",
         "content": "Nuevo contenido",
-        "oldContent": "Anterior contenido"
+        "oldContent": "Anterior contenido",
+        "pinned": "Nuevo mensaje anclado",
+        "contentPinned": "Mensaje"
     },
     "messageDeleteBulk": {
         "título": "Han sido borrados una gran cantidad de mensajes",
         "cantidad": "Cantidad",
         "fs1": "Mensajes borrados el {{fecha}}",
-        "fs2": " Mensaje ID: {{id}}\nMensaje: {{contenido}}"
+        "fs2": " Mensaje ID: {{id}}\nMensaje: {{contenido}}",
+        "canal": "Canal"
     },
     "roleCreate": {
-        "título": "Rol Creado: {{rol}}"
+        "título": "Rol creado: {{rol}}"
     },
     "roleDelete": {
-        "título": "Rol Eliminado: {{rol}} - ``{{rolid}}``"
+        "título": "Rol eliminado: {{rol}} - ``{{rolid}}``"
     },
     "roleUpdate": {
-        "título": "Rol Actualizado:",
-        "realizado": "Realizado por:"
+        "título": "Rol actualizado",
+        "executor": "Realizado por",
+        "added": "Permiso añadido",
+        "removed": "Permiso quitado",
+        "added_plural": "Permisos añadidos",
+        "removed_plural": "Permisos quitados"
+    },
+    "voiceStateUpdate": {
+        "join": "Ha entrado a un canal de voz",
+        "leave": "Ha abandonado un canal de voz",
+        "switch": "Se movió de canal de voz",
+        "mute": "Muteado del canal de voz",
+        "unmute": "Desmuteado del canal de voz",
+        "deaf": "Ensordecido del canal de voz",
+        "undeaf": "Desensordecido del canal de voz",
+        "start-streaming": "Inició directo en canal de voz",
+        "stop-streaming": "Acabó directo en canal de voz",
+        "user": "Usuario",
+        "channel": "Canal",
+        "oldChannel": "Canal anterior",
+        "newChannel": "Canal nuevo"
     }
 }

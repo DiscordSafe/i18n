@@ -1,7 +1,7 @@
 {
     "blockword": {
         "description": "Bloquea el uso de palabras en el servidor.",
-        "usage": "add [Palabra/Pack] / remove [Palabra/Pack] / list / reset",
+        "usage": "add [Palabra/Pack] / remove [Palabra/Pack] / ignore [#Canal/@Rol] / list / reset",
         "example": "add pack 0"
     },
     "clearwarn": {
@@ -11,13 +11,13 @@
     },
     "filter": {
         "description": "Configura los filtros.",
-        "usage": "help / activate <filtro> / deactivate <filtro>",
+        "usage": "help / [filtro] enable / [filtro] disable / [filtro] ignore [#Canal/@Rol]",
         "example": "activate anti-spam"
     },
     "logs": {
-        "description": "Establece el canal de logs del servidor.",
-        "usage": "<#Canal> / <IDCanal> / none",
-        "example": "#Logs"
+        "description": "Configura los los del servidor.",
+        "usage": "help / list / [#Canal/CanalID/disable] / mod [#Canal/CanalID/disable] / boost [#Canal/CanalID/disable]",
+        "example": "#logs"
     },
     "notification": {
         "description": "Configura los avisos de entrada de usuarios maliciosos.",
@@ -31,13 +31,13 @@
     },
     "setprefix": {
         "description": "Establece el prefijo en el servidor.",
-        "usage": "[prefijo]",
+        "usage": "[Prefijo]",
         "example": "!!"
     },
     "settings": {
         "description": "Muestra los ajustes del servidor e información sobre cómo configurarlo.",
-        "usage": "prefix / announcements / blockedwords / whitelist / logs / lang / verification / filters / notifications",
-        "example": "verificación"
+        "usage": "",
+        "example": ""
     },
     "whitelist": {
         "description": "Configura la Whitelist de su servidor.",
@@ -91,66 +91,76 @@
     },
     "suggestions": {
         "description": "Ajustes e información de las sugerencias.",
-        "usage": "help \n\nlist\n\napprove [ID Sugerencia] <Comentario>\n\ndeny [ID Sugerencia] <Comentario>\n\ndelete [ID Sugerencia]\n\nsetchannel [CanalID/#Canal]\n\nsetapproved [CanalID/#Canal]\n\nsetdenied [CanalID/#Canal]\n\nquestionEmoji enable / disable\n\nautoaccept [Número(1-1000)] / disable\n\nmassapprove [ID Sugerencia]...\n\nmassdeny [ID Sugerencia]...\n\nmassdelete [ID Sugerencia]...\n\nsetrole [Rol ID/@Rol]\n\nsetpalette ayu / tailwind / default / p1 / p2 / p3 / n1 / n2 / n3\n\nsetcommandschannel [CanalID/#Canal]\n\nsetcooldown [Número(1-60)] / disable\n\nsetemoji [EmojiPositivo] [EmojiNegativo] <EmojiIndeciso> / disable",
+        "usage": "help \nlist\napprove [IDSugerencia] <Comentario>\ndeny [IDSugerencia] <Comentario>\ndelete [IDSugerencia]\nsetchannel [CanalID/#Canal/disable]\nsetapproved [CanalID/#Canal/disable]\nsetdenied [CanalID/#Canal/disable]\nquestionEmoji enable / disable\nautoaccept [Número(1-1000)] / disable\nmassapprove [IDSugerencia]...\nmassdeny [IDSugerencia]...\nmassdelete [IDSugerencia]...\neditcomment [SuggestionID] [New staff comment]\nsetrole [Rol ID/@Rol]\nsetpalette ayu / tailwind / default / p1 / p2 / p3 / n1 / n2 / n3\nsetcommandschannel [CanalID/#Canal]\nsetcooldown [Número(1-60)] / disable\nsetemoji [EmojiPositivo] [EmojiNegativo] <EmojiIndeciso> / disable",
         "example": "setchannel #sugerencias"
     },
+    "topbots": {
+        "description": "Muestra la lista de top bots de Discord.",
+        "usage": "",
+        "example": ""
+    },
     "ban": {
-        "description": "Banea a un usuario del servidor.",
-        "usage": "<@Usuario / ID> <Razón>",
+        "description": "Banea a un miembro del servidor.",
+        "usage": "[@Usuario/Usuario ID/Nombre miembro] <Razón> <--md>",
         "example": "@Vicente#0001 Romper la regla 4."
     },
     "clear": {
         "description": "Borra una cantidad de mensajes.",
-        "usage": "<Cantidad(2-100)> / <@Usuario> <Cantidad(2-100)> / all",
-        "example": "@Seyron#5532 9"
+        "usage": "[Cantidad(2-100)]\n[@Usuario/Usuario ID] [Cantidad(2-100)]\nall\nmatch [Texto] [Cantidad(2-100)]\nnot [Texto] [Cantidad(2-100)]\nstartswith [Texto] [Cantidad(2-100)]\nendswith [Texto] [Cantidad(2-100)]\nlinks [Cantidad(2-100)]\ninvites [Cantidad(2-100)]\nimages [Cantidad(2-100)]\nmentions [Cantidad(2-100)]\nembeds [Cantidad(2-100)]\nbots [Cantidad(2-100)]\nbefore [ID Mensaje] [Cantidad(2-100)]\nafter [ID Mensaje] [Cantidad(2-100)]\naround [ID Mensaje] [Cantidad(2-100)]",
+        "example": "@Seyron#5532 15\nmatch RAID 100"
     },
     "forceban": {
-        "description": "Banea a los usuarios peligrosos de mi base de datos.",
+        "description": "Banea a los usuarios reportados como peligrosos.",
         "usage": "",
         "example": ""
     },
     "hackban": {
-        "description": "Banea a uno o varios usuarios mediante su ID.",
+        "description": "Banea a miembros mediante su ID.",
         "usage": "[ID] <ID> <ID>...",
-        "example": "643945264868098049"
+        "example": "124545463433127 124545463433127 124545463433127"
     },
     "kick": {
         "description": "Expulsa a un miembro del servidor.",
-        "usage": "<@Miembro> <Razón>",
+        "usage": "[@Usuario/Usuario ID/Nombre miembro] <Razón> <--md>",
         "example": "Discord#0000 Romper la regla 8."
     },
     "mute": {
-        "description": "Silencia a un miembro",
-        "usage": "<@Miembro> [Tiempo] [s/m/h] <Razón>",
-        "example": "@Clyde#0001 40 m Romper la regla 17."
+        "description": "Silencia a un miembro.",
+        "usage": "[@Usuario/Usuario ID] <Tiempo> <s/m/h> <Razón> <--md>",
+        "example": "@Clyde#0001 15m Romper regla 14."
+    },
+    "softban": {
+        "description": "Banea e inmediatamente desbanea a un miembro para borrar mensajes.",
+        "usage": "[@Usuario/Usuario ID] <Razón> <--md>",
+        "example": "@Clyde#0001 Flood en el chat --md"
     },
     "unban": {
         "description": "Desbanea a un usuario del servidor.",
-        "usage": "<@Usuario / ID>",
+        "usage": "[@Usuario/Usuario ID/Nombre miembro] <Razón> <--md>",
         "example": "287574458963722240"
     },
     "unmute": {
         "description": "Desilencia a un miembro silenciado.",
-        "usage": "<@Miembro / ID>",
+        "usage": "[@Usuario/Usuario ID] <Razón> <--md>",
         "example": "182866681520062465"
     },
     "warn": {
         "description": "Advierte a un usuario de su mal comportamiento.",
-        "usage": "<@Usuario> <Razón>",
-        "example": "@[Dracule Mihawk™ ]#4449 Romper la regla 3."
+        "usage": "[@Usuario/Usuario ID] <Razón> <--md>",
+        "example": "@Juan#4449 Romper la regla 3."
     },
     "warnings": {
-        "description": "Obtiene la lista de advertencias del servidor o miembro.",
-        "usage": "<@Usuario>",
+        "description": "Muestra lista de advertencias del servidor o miembro.",
+        "usage": "[@Usuario/Usuario ID]",
         "example": "@Vicente#0001"
     },
     "report": {
         "description": "Reporta a un usuario para ser añadido al forceban.",
-        "usage": "<Usuario>|<ID>|<Razón>|<Prueba>",
-        "example": ".sknahTT#1785|318327338226155541|Hacer SPAM al md|https://imgur.com/linkfalso"
+        "usage": "[Usuario]|[ID]|[Razón]|[Prueba]",
+        "example": ".sknahTT#1785|318327338226155541|Hacer SPAM al md|https://imgur.com/abc"
     },
     "alarm": {
-        "description": "Activa / desactiva la alarma en el servidor y prohibe la entrada a nuevos usuarios.",
+        "description": "Configura la alarma en el servidor y prohibe la entrada a nuevos usuarios.",
         "usage": "",
         "example": ""
     },
@@ -160,8 +170,8 @@
         "example": ""
     },
     "baninfo": {
-        "description": "Muestra el motivo de adicción al forceban de un usuario.",
-        "usage": "<ID>",
+        "description": "Muestra el motivo de forceban de un usuario.",
+        "usage": "[ID]",
         "example": "287574458963722240"
     },
     "clearbans": {
@@ -176,13 +186,23 @@
     },
     "genpassword": {
         "description": "Genera una contraseña acorde a los parámetros proporcionados.",
-        "usage": "<Nivel(Low/Medium/High)> <Longitud(5-50)>",
+        "usage": "<Nivel(low/medium/high)> <Longitud(5-50)>",
         "example": "Alto 26"
     },
     "info": {
-        "description": "Muestra la información de tu usuario o del mencionado.",
-        "usage": "<@Usuario / UserID>",
+        "description": "Muestra la información de un usuario.",
+        "usage": "<@Usuario/Usuario ID>",
         "example": "@Vicente#0001"
+    },
+    "invite": {
+        "description": "Muestra la información de una invitación",
+        "usage": "<Código invitación/Enlace invitación>",
+        "example": "discord-testers"
+    },
+    "role": {
+        "description": "Muestra la información de un rol.",
+        "usage": "<@Rol/Rol ID>",
+        "example": "@Usuario"
     },
     "approve": {
         "description": "Aprueba la entrada al servidor a los nuevos usuarios.",

@@ -5,6 +5,9 @@
     "tiempo": "Se acabó el tiempo.",
     "autor": "Autor: {{autorid}}",
     "mensajeID": "Mensaje ID: {{id}}",
+    "notification": "Notificación",
+    "yes": "Sí",
+    "no": "No",
     "page": "Página",
     "errorCompare": "**Error**, no puedes usar este comando con un miembro con más poderes que tú.",
     "AntiSpam": {
@@ -23,5 +26,26 @@
         "errorMute": "Ups, parece que no tengo los suficiente permisos de mutear a {{user}}.",
         "WarnMessage": "{{emojiWarn}} **[Anti-Spam]** Por favor, no envie tantos mensajes.",
         "MuteMessage": "{{emojiMute}} **[Anti-Spam]** Has sido muteado por enviar tantos mensajes."
+    },
+    "modEmbed": {
+        "mute": "Miembro muteado",
+        "unmute": "Miembro desmuteado",
+        "kick": "Miembro expulsado",
+        "ban": "Miembro baneado",
+        "hackban": "Miembro baneado (hackban)",
+        "softban": "Miembro baneado y desbaneado (softban)",
+        "unban": "Miembro desbaneado",
+        "warn": "Miembro advertido",
+        "clearwarn": "Advertencia eliminada",
+        "clear": "Mensajes borrados",
+        "approve": "Miembro ha sido aprobado",
+        "code": "Código",
+        "user": "Usuario",
+        "member": "Miembro",
+        "mod": "Moderador",
+        "amount": "Cantidad",
+        "channel": "Canal",
+        "reason": "Razón",
+        "time": "Duración"
     }
 }

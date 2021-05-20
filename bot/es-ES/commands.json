@@ -34,7 +34,7 @@
         "despalabras": "Para configurar las palabras bloquedas use los comandos que se muestran abajo.",
         "panel": "Panel de ajustes de {{guild}}",
         "panelTitle": "Guía de configuración paso a paso",
-        "despanel": "Para cambiar algun ajuste use este comando y el nombre del ajuste que desea cambiar.\n**Ejemplo:** ``{{prefix}}{{commandName}} prefix/blockedwords/whitelist/logs/lang/verification/filters/notifications/suggestions``",
+        "despanel": "Para cambiar algun ajuste use este comando y el nombre del ajuste que desea cambiar.",
         "fanuncios": "❯ Anuncios",
         "flogs": "❯ Logs",
         "fidioma": "❯ Idioma",
@@ -57,8 +57,7 @@
         "ajalertas": "Ajustes de los avisos de entradas de raiders",
         "desalertas": "Avisa al owner del servidor cuando un usuario malicioso que está en nuestro forceban entra al servidor. Para configurarlo use el comando que se muestra debajo.",
         "ajsugerencias": "Ajustes de las sugerencias",
-        "dessugerencias": "Reciba feedback de sus usuarios mediantes sugerencias completamente customizables.\nPara configurarlo revise la documentación o consulte los comandos debajo.",
-        "comandosSugerencias": "`suggest`\n`suggestions help`\n`suggestions list`\n`suggestions approve [ID Sugerencia] <Comentario>`\n`suggestions deny [ID Sugerencia] <Comentario>`\n`suggestions delete [ID Sugerencia]`\n`suggestions setchannel [CanalID/#Canal]`\n`suggestions setapproved [CanalID/#Canal]`\n`suggestions setdenied [CanalID/#Canal]`\n`suggestions questionEmoji enable / disable`\n`suggestions autoaccept [Número(1-1000)] / disable`\n`suggestions massapprove [ID Sugerencia]...`\n`suggestions massdeny [ID Sugerencia]...`\n`suggestions massdelete [ID Sugerencia]...`\n`suggestions setrole [Rol ID/@Rol]`\n`suggestions setpalette ayu / tailwind / default / p1 / p2 / p3 / n1 / n2 / n3`\n`suggestions setcommandschannel [CanalID/#Canal]`\n`suggestions setcooldown [Número(1-60)] / disable`\n`suggestions setemoji [EmojiPositivo] [EmojiNegativo] <EmojiIndeciso> / disable`"
+        "dessugerencias": "Reciba feedback de sus usuarios mediantes sugerencias completamente customizables.\nPara configurarlo revise la documentación o consulte los comandos debajo."
     },
     "alarm": {
         "activado": "El modo alarma ha sido activado, se prohibe la entrada a nuevos usuarios.\nPara desactivarlo vuelva a usar el comando.",
@@ -116,6 +115,7 @@
         "cmdAliases": "*Aliases*",
         "cmdUso": "*Uso*",
         "cmdExample": "*Ejemplo*",
+        "cmdCategory": "*Categoría*",
         "cmdPerms": "*Permisos*",
         "cmdNoexiste": "**Error**, ese comando no existe.",
         "ninguno": "Ninguno.",
@@ -138,13 +138,16 @@
         "eliminado": " | Se ha eliminado correctamente el correo **#{{id}}**."
     },
     "ban": {
-        "errorUser": "**Error**, No se encontró al usuario, pruebe de nuevo.",
-        "autor": "**Error**, No te puedes banear a ti mismo.",
-        "errorNoBan": "**Error**, No puedo banear al usuario mencionado.",
-        "exito": "¡El martillo del ban ha acertado exitosamente!",
-        "errorNobanneable": "**Error**, No puedo banear al usuario.",
-        "razón": "Sin razón.",
-        "errorGuild": "**Error**, el usuario no está en el servidor.\nBaneelo con el ``hackban``."
+        "errorArgs": "**Error**, debe mencionar, indicar la ID o el nombre de un usuario.",
+        "errorUser": "**Error**, no se encontró al usuario, pruebe de nuevo.",
+        "autor": "**Error**, no te puedes banear a ti mismo.",
+        "errorNoBan": "**Error**, no puedo banear al usuario mencionado.",
+        "exito": "{{emoji}} **{{memberTag}} fue baneado**",
+        "sinRazón": "Sin razón",
+        "bannedMD": "Has sido baneado en **{{guild}}** por: **{{reason}}**.",
+        "errorNobanneable": "**Error**, no puedo banear al usuario.",
+        "changelog": "{{reason}}.\nMod: {{modTag}} ({{modID}})",
+        "errorGuild": "**Error**, el usuario no está en el servidor.\nUse el comando ``hackban`` para banearlo."
     },
     "baninfo": {
         "noForceban": "Ese usuario no está en el forceban.",
@@ -208,10 +211,11 @@
         "unIgnoreRl": "El rol <@&{{role}}> ha __dejado de ser ignorado__ exitosamente."
     },
     "clear": {
-        "mensajesBorrados": "Mensajes borrados. ",
-        "errorTiempo": "No puedo borrar mensajes mayores de 14 días.",
-        "errorNoMensajes": "No hay mensajes para eliminar.",
-        "errorNoMiembro": "No encuentro a ese miembro."
+        "mensajesBorrados": " **{{msgCount}}** mensajes borrados.",
+        "errorTiempo": "**Error**, no puedo borrar mensajes de hace más de 14 días.",
+        "errorNoMensajes": "**Error**, no hay mensajes para eliminar.",
+        "errorNoMiembro": "**Error**, no encuentro a ese miembro.",
+        "errorCantidad": "**Error**, indique una cantidad entre 2-100."
     },
     "clearwarn": {
         "noWarn": "No tiene advertencias.",
@@ -227,17 +231,11 @@
         "doc1": "📚 ━ Documentación",
         "doc2": "Comprueba mi [documentación](https://docs.discordsafe.com/) para una guía de cómo configurarme.",
         "con1": "Configuración",
-        "con2": "`blockword` `clearwarn` `filter` `logs` `notification` `setlang` `setprefix` `settings` `whitelist`",
         "inf1": "Información",
-        "inf2": "`botinfo` `changelog` `commands` `help` `mail` `ping` `premium` `reportbug` `server` `support` `suggest` `suggestions` `vote`",
         "mod1": "Moderación",
-        "mod2": "`ban` `clear` `forceban` `hackban` `kick` `mute` `unban` `unmute` `warn` `warnings`",
         "rep1": "Reportes",
-        "rep2": "`report`",
         "uti1": "Utilidad",
-        "uti2": "`alarm` `avatar` `baninfo` `clearbans` `detect` `genpassword` `info`",
-        "ver1": "Verificación",
-        "ver2": "`verification` `approve` `verifyme`"
+        "ver1": "Verificación"
     },
     "detect": {
         "noPeligro": "No se ha encontrado ningún usuario peligroso, ¡muy bien!",
@@ -291,7 +289,7 @@
         "unIgnoreRl": "El rol <@&{{role}}> ha __dejado de ser ignorado__ en el filtro **{{filter}}**.",
         "comandosField": "❯ Comandos",
         "comandosDefault": "• Activar: ``{{prefix}}{{commandName}} {{filter}} enable``.\n• Desactivar: ``{{prefix}}{{commandName}} {{filter}} disable``.\n• Ignorar canales/roles: ``{{prefix}}{{commandName}} {{filter}} ignore [#Canal/@Rol]``.",
-        "comandosBlockedWord": "• Añadir una palabra: ``{{prefix}}blockword add [palabra] <palabra>``\n• Desbloquea una palabra: ``{{prefix}}blockword remove [palabra] <palabra>``\n• [Más información](https://docs.discordsafe.com/docs/intro/configuration#palabras-bloqueadas)."
+        "comandosBlockedWord": "• Bloquea una o varias palabras: ``{{prefix}}blockword add [palabra] <palabra>``\n• Desbloquea una o varias palabras: ``{{prefix}}blockword remove [palabra] <palabra>``\n• Ignorar un canal o rol: ``{{prefix}}blockword ignore [#Canal/@Rol]``\n• [Más información](https://docs.discordsafe.com/docs/intro/configuration#palabras-bloqueadas)."
     },
     "forceban": {
         "baneando": "Baneando a {{number}} usuarios peligrosos y desbaneando a usuarios eliminados del forceban, tenga paciencia estás acción tomará unos minutos.",
@@ -307,19 +305,56 @@
         "correcto": "Baneado exitosamente el usuario **{{user}}**."
     },
     "info": {
-        "nada": "Ninguno.",
-        "error": "Error.",
-        "nickname": "▸ Apodo:",
-        "común": "▸ Servidores en común:",
-        "jugando": "▸ Jugando:",
-        "id": "▸ ID:",
-        "estado": "▸ Estado:",
-        "creadoEl": "▸ Creado el:",
-        "seUnió": "▸ Se unio al server el:",
-        "roles": "▸ Roles:",
+        "nada": "Ninguno",
+        "nickname": "▸ Apodo",
+        "id": "▸ ID",
+        "bot": "▸ Bot",
+        "creadoEl": "▸ Creación",
+        "seUnió": "▸ Entrada al servidor",
+        "roles": "▸ Roles",
+        "badges": "▸ Insignias",
+        "botInfo": "▸ Información del bot",
+        "botInfoDes": "**Prefijo:** `{{prefix}}`\n**Servidores:** {{guilds}}\n**Owners:** {{owners}}\n**Librería:** {{library}}\n**[Página web]({{website}})** - **[Invitación]({{invite}})** - **[Soporte]({{support}})**",
+        "joinPosition": "▸ Posición de entrada",
+        "colorRole": "▸ Rol del color",
+        "hightestRole": "▸ Rol más alto",
+        "hoistRole": "▸ Rol separador",
         "errorNoID": "No es una ID.",
-        "errorNoUsuario": "No se ha encontrado el usuario.",
-        "premium": "▸ Usuario Premium"
+        "errorNoUsuario": "No se ha encontrado el usuario."
+    },
+    "invite": {
+        "code": "▸ Código",
+        "channel": "▸ Canal",
+        "url": "▸ URL",
+        "presence": "▸ Cantidad de actividades",
+        "member": "▸ Miembros",
+        "creation": "▸ Creación",
+        "expiration": "▸ Expiración",
+        "inviter": "▸ Invitador",
+        "uses": "▸ Usos",
+        "temporal": "▸ Temporal",
+        "description": "▸ Descripción del servidor",
+        "features": "▸ Características del servidor",
+        "errorNotFound": "**Error**, no se ha encontrado la invitación.",
+        "errorArgs": "**Error**, invitación no válida, ponga un enlace o el código de la invitación."
+    },
+    "role": {
+        "embedTitle": "Información del rol",
+        "id": "▸ ID",
+        "name": "▸ Nombre",
+        "creation": "▸ Creación",
+        "color": "▸ Color",
+        "hoist": "▸ Hoisted",
+        "position": "▸ Posición",
+        "mentionable": "▸ Mencionable",
+        "mention": "▸ Mención",
+        "permissions": "▸ Permisos",
+        "tags": "▸ Etiquetas",
+        "tagBot": "Bot: <@{{botID}}>",
+        "tagIntegration": "Integración: <@{{integrationID}}",
+        "tagBoost": "Booster: {{emoji}}",
+        "errorNotFound": "**Error**, no se ha encontrado el rol, intente de nuevo.",
+        "errorArgs": "**Error**, debe mencionar a un rol o introducir una ID."
     },
     "genpassword": {
         "errornolongitud": "**Error**. Debe especificar la longitud entre 5 y 50.",
@@ -331,11 +366,15 @@
         "longitud": "Longitud"
     },
     "kick": {
-        "autor": "**Error**, No te puedes banear a ti mismo.",
-        "errorUso": "**Error**, Debe mencionar a un usuario.",
-        "sinRazón": "Sin razón.",
-        "errorNoExpulsar": "No puedo expulsar al usuario.",
-        "correcto": "El usuario fue expulsado exitosamente del servidor."
+        "errorUser": "**Error**, no se encontró al usuario, pruebe de nuevo.",
+        "autor": "**Error**, No te puedes expulsar a ti mismo.",
+        "errorNoKick": "**Error**, no puedo expulsar al usuario mencionado.",
+        "exito": "{{emoji}} **{{memberTag}}** fue expulsado.",
+        "sinRazón": "Sin razón",
+        "kickedMd": "Has sido expulsado en **{{guild}}** por: **{{reason}}**.",
+        "errorNokickeable": "**Error**, no puedo expulsar al usuario.",
+        "changelog": "{{reason}}.\nMod: {{modTag}} ({{modID}})",
+        "errorGuild": "**Error**, el usuario no está en el servidor."
     },
     "clearbans": {
         "limpiando": "Limpiando los baneados…",
@@ -345,18 +384,19 @@
         "embedDes": "**Esta acción es irreversible.**\n¿Está seguro/a? Tiene 30 segundos. Para aceptar reaccione a ✅, para rechazar reaccione a ❎."
     },
     "mute": {
-        "error": "Error.",
-        "errorNúmero": "**Error**: El tiempo debe de ser un número.\nEscríbalo como: ``d.mute @Usuario Número s/m/h Razón``",
-        "errorMención": "**Error**: Falta mencionar al usuario.**\nEscríbalo como: ``d.mute @Usuario Número s/m/h Razón``",
-        "errorTiempo": "**Error: Falta añadir tiempo.**\nEscríbalo como: ``d.mute @Usuario Número s/m/h Razón``",
-        "errorMedida": "**Error: Falta añadir medida del tiempo.**\nEscríbalo como: ``d.mute @Usuario Número s/m/h Razón``",
-        "errorRazón": "**Error: Falta añadir razón.** \nEscríbalo como: ``d.mute @Usuario Número s/m/h Razón``",
-        "errorCantidad": "**Error**: Debe especificar la unidad.\nEscríbalo como: ``d.mute @Usuario Número s/m/h Razón``",
-        "errorYaMuteado": "Ese usuario ya está muteado.",
-        "muteado": "**{{usermuted}}** ha sido muteado por **{{usermod}}** con la razón: {{razón}}",
-        "desmuteado": "**{{user}}** has sido desmuteado en {{guild}}.",
+        "errorNúmero": "**Error**: El tiempo debe de ser un número.\nEscríbalo como: ``d.mute @Usuario Tiempo s/m/h Razón``",
+        "errorMención": "**Error**: Falta mencionar al usuario.\nEscríbalo como: ``d.mute @Usuario Tiempo s/m/h Razón``",
         "errorAutor": "**Error**, No te puedes dar mutear a ti mismo.",
-        "muteadoMD": "**{{usermuted}}** has sido muteado porque razón: {{razón}}"
+        "errorYaMuteado": "**Error**, Ese usuario ya está muteado.",
+        "sinRazón": "Sin razón",
+        "exito": "{{emoji}} **{{memberTag}}** ha sido muteado.",
+        "muteadoMD": "Has sido muteado en **{{guild}}** por: **{{reason}}**.",
+        "desmuteadoMD": "Has sido desmuteado en **{{guild}}** por: **{{reason}}**.",
+        "changelog": "{{reason}}.\nTime: {{time}}\nMod: {{modTag}} ({{modID}})"
+    },
+    "softban": {
+        "exito": "{{emoji}} **{{memberTag}} fue baneado (softban)**",
+        "bannedMD": "Has sido baneado (softban) en **{{guild}}** por: **{{reason}}**."
     },
     "ping": {
         "cargando": "Cargando…"
@@ -451,11 +491,34 @@
         "noDisponibleDes": "El idioma ``{{idioma}}`` **no se encuentra disponible aún**, estamos trabajando en ello para hacerlo lo antes posible."
     },
     "logs": {
-        "errorArgs": "**Error**. Argumentos inválidos, debe mencionar un canal o poner una ID.",
-        "errorNoExiste": "Ese canal no existe.",
-        "errorTexto": "Ese canal no es un canal de texto.",
-        "correcto": "El canal de logs ha sido establecido a {{canal}}.",
-        "desactivado": "Los logs han sido desactivados, dejará de recibirlos."
+        "help": {
+            "author": "Logs",
+            "title": "Guía de configuración",
+            "description": "Registre toda la actividad de su servidor con los logs.",
+            "field1": {
+                "t": "❯ Ayuda",
+                "d": "Si necesitas ayuda revisa nuestra guía de [configuración](https://docs.discordsafe.com/docs/intro/configuration#logs) o pregunta en nuestro [servidor](https://discordsafe.com/discord)."
+            },
+            "field2": {
+                "t": "❯ Comandos",
+                "d": "`logs help` - Muestra este menú de ayuda.\n`logs list` - Muestra la lista de módulos de logs configurados.\n`logs [#Canal/CanalID/disable]` - Ajusta los logs generales de la actividad del servidor.\n`logs mod [#Canal/CanalID/disable]` - Ajusta los logs de acciones de moderación.\n`logs boost [#Canal/CanalID/disable]` - Ajusta los logs de boosts y mejoras del servidor."
+            }
+        },
+        "list": {
+            "author": "Ajustes de logs en {{guild}}",
+            "title": "Guía de configuración paso a paso",
+            "general": "❯ Logs generales",
+            "mod": "❯ Logs de moderación",
+            "boost": "❯ Logs de boosts"
+        },
+        "errorPremium": "**Error**, debes ser premium para usar esta característica.\nhttps://discordsafe.com/premium",
+        "errorArgs": "**Error**, argumentos inválidos, debe mencionar el canal o su ID.",
+        "errorValid": "**Error**, el canal no existe o no es de texto.",
+        "errorConfig": "**Error**, no puedes desactivar algo que no existe, pero... *¿qué es la existencia? ¿qué significa existir?* **¿¿Yo existo??** (ಥ﹏ಥ)\nEstoy al borde de un colapso emocional en medio de una crisis de identidad cuestionándome mi futuro pensando en mi facaso mientras me destrozo internamente, necesito respuestas...\n\n>>> **Existencia**\nEn filosofía, la existencia es, en términos generales, la realidad de un ente. A este concepto se lo suele contrastar con el de esencia.\nEtimología\nLa palabra existencia proviene del término latino existentia, derivado tardío del verbo existere, compuesto de ex- («fuera»)​ y sistere («detenerse») o stare («estar derecho»)​, y que significa «salir, aparecer, mostrarse»; o bien «ser, estar».​ Así, atendiendo a su etimología, la palabra existencia significa «lo que está ahí» o «lo que está afuera».\nLos filósofos de la Antigua Grecia distinguían la existencia verdadera de la apariencia sensible y cambiante — lo fenoménico. Consideraron y estudiaron la realidad o esencia de todas las cosas como arché (ἀρχή): principio, origen y causa de todas las cosas.\nA los filósofos presocráticos les preocupó determinar qué es lo que existe, más que explicar la misma existencia de las cosas.Así, teorizaban que “lo que hay” (lo que realmente existe) es el agua (Tales), el aire (Anaxímenes), lo ápeiron (Anaximandro), o los números (Pitágoras).\nHeráclito plantea no haber esencias, no existir las cosas, lo que verdaderamente existe es el movimiento, el cambio o devenir.\nCon Parménides el problema adquiere un nuevo sentido en cuanto a la inteligibilidad como Idea del ser.\nPlatón, Aristóteles, y los filósofos cristianos trataron el tema con referencia a la realidad de las ideas, entendidas como formas de la materia en su relación con el mundo. Consideraron, pues dos modos fundamentales de existencia: la materia y la forma.\nLos primeros escritos que tratan este tema específicamente son los diálogos de Fedón, La República, el Político y el Timeo de Platón y la Metafísica de Aristóteles. ",
+        "done": "El canal de logs ha sido establecido a {{canal}}.",
+        "donemod": "El canal de logs de moderación ha sido establecido a {{canal}}.",
+        "doneboost": "El canal de logs de boosts ha sido establecido a {{canal}}.",
+        "disabled": "Los logs han sido desactivados, dejará de recibirlos."
     },
     "support": {
         "confirmación": "**¿Está seguro/a de pedir soporte?**\n__**Si no es un tema urgente serás sancionado.**__",
@@ -463,14 +526,30 @@
     },
     "server": {
         "región": "▸ Región",
-        "creadoEl": "▸ Creado el",
+        "creadoEl": "▸ Creación",
         "dueño": "▸ Dueño del Servidor",
         "miembros": "▸ Miembros",
-        "humanos": "▸ Humanos",
         "canales": "▸ Canales",
-        "canalesTexto": "▸ Canales de texto",
-        "canalesVoz": "▸ Canales de voz",
-        "premium": "▸ Servidor Premium"
+        "images": "▸ Imágenes",
+        "features": "▸ Características",
+        "2fa": "▸ Autenticación de dos factores",
+        "dmn": "▸ Notificación de mensaje predeterminado",
+        "verification": "▸ Nivel de verificación",
+        "explicitFilter": "▸ Filtro de contenido explícito",
+        "specialChannels": "▸ Canales especiales",
+        "limits": "▸ Límites del servidor",
+        "moreEmojis": " y {{size}} más.",
+        "errorFetch": "**Error**, ha ocurrido un error, pruebe de nuevo más tarde.",
+        "badgesSafe": "▸ Insignias del bot",
+        "afkChannel": "Canal: {{channel}} ",
+        "afkMin": "({{timeout}} min)",
+        "msgAll": "Todos los mensajes",
+        "msgMention": "Solo @menciones",
+        "boostLvl3": "<:boostlvl3:825059663627812864> Nivel 3",
+        "boostLvl2": "<:boostlvl2:825059664227729438> Nivel 2",
+        "boostLvl1": "<:boostlvl1:825059663610511417> Nivel 1",
+        "boostNone": "Nivel: Ninguno :(",
+        "errorMsg": "**Error**, ha ocurrido un error inesperado, intente de nuevo más tarde."
     },
     "suggest": {
         "errorNoConfig": "**Error**, debe configurar las sugerencias primero.",
@@ -486,6 +565,8 @@
         "send": "Sugerencia enviada"
     },
     "suggestions": {
+        "errorNotFoundMsg": "**Error**, no se ha encontrado el mensaje de la sugerencia a editar, se ha cambiado el canal o ha sido borrado.",
+        "errorStaffComment": "**Error**, debe añadir el nuevo comentario del staff.",
         "errorNotFound": "**Error**, no se ha encontrado la sugerencia, pruebe de nuevo.\nLa **ID de la sugerencia** aparece en la parte inferior de la sugerencia.",
         "errorMaxCh": "**Error**, el comentario de la sugerencia no debe ser mayor a 900 caracteres o menor a 5.",
         "errorNoSuggestions": "**Error**, no hay ninguna sugerencia que mostrar.",
@@ -548,7 +629,9 @@
         "disableDone": "Se han desactivado las sugerencias correctamente.",
         "setChannelDone": "El canal de sugerencias se ha establecido correctamente a **<#{{channel}}>**.",
         "setChannelDoneApproved": "El canal de sugerencias aprobadas se ha establecido correctamente a **<#{{channel}}>**.",
+        "setChannelUndoneApproved": "Se ha desactivado correctamente el canal de sugerencias aprobadas.",
         "setChannelDoneDenied": "El canal de sugerencias denegadas se ha establecido correctamente a **<#{{channel}}>**.",
+        "setChannelUndoneDenied": "Se ha desactivado correctamente el canal de sugerencias denegadas.",
         "doneQuestion": "Se ha activado la opción de interrogación (:question:) en las sugerencias.",
         "removedQuestion": "Se ha desactivado correctamente la opción de interrogación (:question:) en las sugerencias.",
         "removedAuto": "Se ha deshabilitado el **autoaceptar** correctamente.",
@@ -569,21 +652,29 @@
         "doneSetEmojis": "Se han establecido correctamente los emojis personalizados.",
         "doneUnsetEmojis": "Se han desactivado correctamente los emojis personalizados.",
         "doneSetRole": "Se ha establecido correctamente el rol que puede administrar las sugerencias. Ahora los miembros con este rol podrán aceptar, denegar y borrar sugerencias.",
-        "doneUnsetRole": "Se ha desestablecido correctamente el rol que puede administrar las sugerencias."
+        "doneUnsetRole": "Se ha desestablecido correctamente el rol que puede administrar las sugerencias.",
+        "editStaffCommentDone": "Se ha editado el comentario del staff correctamente en la sugerencia [{{sugg}}]({{suggLink}})."
+    },
+    "topbots": {
+        "title": ":trophy: Top bots",
+        "error": "**Error**, ha ocurrido un error y no puedo obtener la lista."
     },
     "unmute": {
-        "errorMención": "**Error: Falta mencionar al usuario.**\nEscríbalo como: ``d.unmute @Usuario``",
-        "errorNoExiste": "No existe un rol Muted, lo he creado y configurado ¡yo solito!.",
+        "sinRazón": "Sin razón",
+        "desmuteadoMD": "Has sido desmuteado en **{{guild}}** por **{{reason}}**.",
+        "changelog": "{{reason}}.\nMod: {{modTag}} ({{modID}})",
+        "errorMención": "**Error: Falta mencionar al usuario.\nEscríbalo como: ``d.unmute @Usuario/ID Usuario``",
+        "errorNoExiste": "**Error**, no existe un rol **Muted**, lo he creado y configurado :).",
         "errorNoMuteado": "**Error**, el usuario no está muteado.",
-        "desmuteado": "**{{user}}** ha sido desmuteado por **{{mod}}**",
-        "desmuteado2": "**{{user}}** has sido desmuteado en **{{guild}}**"
+        "exito": "{{emoji}} **{{memberTag}}** ha sido desmuteado."
     },
     "unban": {
-        "noID": "**Error**, Esa ID no es válida, pruebe otra vez.",
-        "noBan": "**Error**, No he podido encontrar al usuario baneado.",
-        "sinRazón": "Sin razón.",
-        "noPermisos": "**Error**, No tengo permisos suficientes como para desbanear al usuario.",
-        "baneado": "**{{user}}** ha sido desbaneado correctamente."
+        "errorUser": "**Error**, no se encontró baneado al usuario, pruebe de nuevo.",
+        "errorNoUnBan": "**Error**, no puedo desbanear al usuario.",
+        "unbannedMD": "Has sido baneado en **{{guild}}** por: **{{reason}}**.",
+        "sinRazón": "Sin razón",
+        "exito": "{{emoji}} **{{memberTag}}** ha sido desbaneado.",
+        "changelog": "{{reason}}.\nMod: {{modTag}} ({{modID}})"
     },
     "verification": {
         "noArgsAutor": "Configuración de la verificación de {{server}}",
@@ -668,17 +759,21 @@
         "embedFooter": " • Fin de la racha: "
     },
     "warn": {
-        "errorMención": "**Error: Debe mencionar al usuario.**\nEscríbalo como: ``d.warn @Usuario Razón``",
+        "errorUser": "**Error**, no se encontró al usuario, pruebe de nuevo, debe añadir argumentos válidos.",
+        "errorMención": "**Error**: Falta mencionar al usuario.\nEscríbalo como: ``d.mute [@Usuario/ID Usuario] <Razón>``",
+        "errorAutor": "**Error**, No te puedes dar warn a ti mismo.",
         "errorRazón": "**Error**: Falta la razón.",
-        "correcto": "**{{user}}** ha sido advertido por {{razón}}",
         "errorCaracteres": "**Error**, la razón lleva demasiados caracteres, escriba menos.",
-        "errorAutor": "**Error**, No te puedes dar warn a ti mismo."
+        "exito": "{{emoji}} **{{memberTag}}** ha sido advertido.",
+        "warnMD": "Has sido advertido en **{{guild}}** por: **{{reason}}**."
     },
     "warnings": {
+        "userEmbedMore": "{{warns}} advertencias de {{memberTag}} ({{memberID}})",
+        "userEmbedOne": "Advertencias de {{memberTag}} ({{memberID}})",
         "noWarns": "No hay ninguna advertencia.",
         "noWarn": "No tiene advertencias.",
         "noMention": "**Error**, debe mencionar a un usuario.",
-        "sancionado": "`{{code}}` - Usuario sancionado {{user}} por {{mod}} razón: {{razón}}",
+        "sancionado": "[`{{code}}`] {{user}} | Moderador: {{mod}}\n{{razón}}",
         "noSancionado": "**Error**, El usuario no ha sido sancionado."
     },
     "whitelist": {
