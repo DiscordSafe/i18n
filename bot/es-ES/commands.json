@@ -391,7 +391,7 @@
         "sinRazón": "Sin razón",
         "exito": "{{emoji}} **{{memberTag}}** ha sido muteado.",
         "muteadoMD": "Has sido muteado en **{{guild}}** por: **{{reason}}**.",
-        "desmuteadoMD": "Has sido desmuteado en **{{guild}}** por: **{{reason}}**.",
+        "desmuteadoMD": "Has sido desmuteado en **{{guild}}** durante **{{time}}** por: **{{reason}}**.",
         "changelog": "{{reason}}.\nTime: {{time}}\nMod: {{modTag}} ({{modID}})"
     },
     "softban": {
