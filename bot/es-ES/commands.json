@@ -178,11 +178,11 @@
         "embedAuthor": "Palabras bloqueadas",
         "embedDes": "Esta característica le permite bloquear palabras.",
         "embedField1": "❯ Ayuda",
-        "embedField2": "Si necesitas ayuda revisa nuestra [guía de configuración](https://docs.discordsafe.com/docs/intro/configuration#palabras-bloqueadas) o pregunta en nuestro [servidor](https://discordsafe.com/discord).",
+        "embedField2": "Si necesitas ayuda revisa nuestra [guía de configuración](https://docs.discordsafe.com/docs/config/blockedwords) o pregunta en nuestro [servidor](https://discordsafe.com/discord).",
         "embedField3": "❯ Comandos",
         "guía": "Guía de configuración",
         "doc": "❯ Guía de configuración",
-        "doc2": "Desde la [documentación](https://docs.discordsafe.com/docs/intro/configuration#palabras-bloqueadas) podrás acceder a una guía de configuración.",
+        "doc2": "Desde la [documentación](https://docs.discordsafe.com/docs/config/blockedwords) podrás acceder a una guía de configuración.",
         "embedField4": "``blockword add`` - Añade una o varias palabras.\n``blockword remove`` - Quita una o varias palabras.\n``blockword add pack`` - Bloquea un grupo de palabras preseleccionadas.\n``blockword remove pack`` - Desbloquea un grupo de palabras preseleccionadas.\n``blockword list`` - Muestra la lista de las palabras bloqueadas en el servidor.\n``blockword ignore [#Canal/@Rol]`` - Ignora un canal o rol de las palabras bloqueadas.\n``blockword reset`` - Quita todas las palabras.",
         "palabraBloqueadaExito": "Palabra bloqueada con éxito",
         "palabraDesbloqueadaExito": "Palabra desbloqueada con éxito.",
@@ -201,7 +201,7 @@
         "packsField1": "❯ Packs",
         "packsField2": "``0`` - Palabras recomendadas, ligeramente ofensivas.\n``1`` - Palabras ofensivas e insultos.\n``2`` - Palabras inapropiadas y explícitas.",
         "packsAyuda1": "❯ Ayuda",
-        "packsAyuda2": "Si necesitas ayuda revisa nuestra [guía de configuración](https://docs.discordsafe.com/docs/intro/configuration#palabras-bloqueadas) o pregunta en nuestro [servidor](https://discordsafe.com/discord)",
+        "packsAyuda2": "Si necesitas ayuda revisa nuestra [guía de configuración](https://docs.discordsafe.com/docs/config/blockedwords) o pregunta en nuestro [servidor](https://discordsafe.com/discord)",
         "ignoreErrorArg": "**Error**, debe mencionar al canal o rol que desea ignorar.",
         "ignoreErrorNoCh": "**Error**, el canal no existe.",
         "ignoreErrorNoRl": "**Error**, el rol no existe.",
@@ -258,7 +258,7 @@
         "ayudaAutor": "Panel de ayuda sobre filtros {{server}}",
         "ayudaDes": "Los filtros permiten proteger tu servidor para **evitar que se mande contenido malicioso** y que tus canales sean un sitio limpio.\n\n**Activar:** ``{{prefix}}{{commandName}} [filtro] enable``.\n**Desactivar:** ``{{prefix}}{{commandName}} [filtro] disable``.\n**Ignorar:** ``{{prefix}}{{commandName}} [filtro] ignore [#Canal/@Rol]``.",
         "doc2": "📚 ━ Documentación",
-        "doc3": "Accede a una **guía de configuración de los filtros** en la [documentación](https://docs.discordsafe.com/docs/intro/configuration#filtros).",
+        "doc3": "Accede a una **guía de configuración de los filtros** en la [documentación](https://docs.discordsafe.com/docs/config/filters).",
         "finvitaciones": "Borra las invitaciones a servidores de Discord enviadas por miembros sin permisos.",
         "fiploggers": "Borra los enlaces que contengan un Iploggers, para mejorar la seguridad de su servidor.\n\n{{premium}} **Obtén el filtro avanzado** que bloquea __+800 iploggers__, más información `{{prefix}}premium`.",
         "fimágenes": "**Este filtro es premium**, más información `{{prefix}} premium`.\nAnaliza las imágenes enviadas fuera de los canales NSFW y las borra si detecta que no es válida para todos los públicos y contiene contenido explícito.",
@@ -289,7 +289,7 @@
         "unIgnoreRl": "El rol <@&{{role}}> ha __dejado de ser ignorado__ en el filtro **{{filter}}**.",
         "comandosField": "❯ Comandos",
         "comandosDefault": "• Activar: ``{{prefix}}{{commandName}} {{filter}} enable``.\n• Desactivar: ``{{prefix}}{{commandName}} {{filter}} disable``.\n• Ignorar canales/roles: ``{{prefix}}{{commandName}} {{filter}} ignore [#Canal/@Rol]``.",
-        "comandosBlockedWord": "• Bloquea una o varias palabras: ``{{prefix}}blockword add [palabra] <palabra>``\n• Desbloquea una o varias palabras: ``{{prefix}}blockword remove [palabra] <palabra>``\n• Ignorar un canal o rol: ``{{prefix}}blockword ignore [#Canal/@Rol]``\n• [Más información](https://docs.discordsafe.com/docs/intro/configuration#palabras-bloqueadas)."
+        "comandosBlockedWord": "• Bloquea una o varias palabras: ``{{prefix}}blockword add [palabra] <palabra>``\n• Desbloquea una o varias palabras: ``{{prefix}}blockword remove [palabra] <palabra>``\n• Ignorar un canal o rol: ``{{prefix}}blockword ignore [#Canal/@Rol]``\n• [Más información](https://docs.discordsafe.com/docs/config/blockedwords)."
     },
     "forceban": {
         "baneando": "Baneando a {{number}} usuarios peligrosos y desbaneando a usuarios eliminados del forceban, tenga paciencia estás acción tomará unos minutos.",
@@ -497,7 +497,7 @@
             "description": "Registre toda la actividad de su servidor con los logs.",
             "field1": {
                 "t": "❯ Ayuda",
-                "d": "Si necesitas ayuda revisa nuestra guía de [configuración](https://docs.discordsafe.com/docs/intro/configuration#logs) o pregunta en nuestro [servidor](https://discordsafe.com/discord)."
+                "d": "Si necesitas ayuda revisa nuestra guía de [configuración](https://docs.discordsafe.com/docs/config/logs) o pregunta en nuestro [servidor](https://discordsafe.com/discord)."
             },
             "field2": {
                 "t": "❯ Comandos",
@@ -695,9 +695,9 @@
         "autorAyuda": "Panel de ayuda sobre verificación",
         "descripciónAyuda": "Establezca la verificación en su servidor con uno de nuestros poderosos modos para evitar usuarios conflictivos, multicuentas o bots de spam.",
         "importante": "❯ Importante",
-        "importanteField": "Si algo falla recuerda revisar las tildes y faltas de ortografía.\nLos comandos se tiene que poner sin los ``<>``.\n[¿No sabes como copiar una ID?](https://docs.discordsafe.com/docs/ayuda/copiar-ids).\nSi tienes dudas pregúntalas en [el servidor de soporte](https://discordsafe.com/discord).",
+        "importanteField": "Si algo falla recuerda revisar las tildes y faltas de ortografía.\nLos comandos se tiene que poner sin los ``<>``.\n[¿No sabes como copiar una ID?](https://docs.discordsafe.com/docs/guide/copy-ids).\nSi tienes dudas pregúntalas en [el servidor de soporte](https://discordsafe.com/discord).",
         "doc": "❯ Guía de configuración",
-        "doc2": "Toda la **guía de configuración de la verificación** está mejor explicada en la **[documentación](https://docs.discordsafe.com/docs/intro/configuration#verificación)**.",
+        "doc2": "Toda la **guía de configuración de la verificación** está mejor explicada en la **[documentación](https://docs.discordsafe.com/docs/config/lang)**.",
         "mensajeField": "**Esto solo es necesario para el modo de __reacción__** donde será el mensaje al que los usuarios tengan que reaccionar.\nPara ponerlo usa ``d.verification setmessage MensajeID``",
         "footerAyuda": "docs.discordsafe.com",
         "errorNoArgs": "**Error:** Debe indicar un argumento.\n**Ayuda:** ``d.verification help``",
