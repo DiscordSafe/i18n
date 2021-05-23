@@ -9,7 +9,7 @@
         "título": "New role: {{rol}}"
     },
     "roleDelete": {
-        "título": "Deleted role: {{rol}} - ``{{rolid}}``"
+        "título": "Deleted role: {{rol}} - `{{rolid}}`"
     },
     "roleUpdate": {
         "título": "Updated role:",
@@ -19,7 +19,7 @@
         "NoLoggersAvanzado": "**[Advanced Anti Iplogger]** Is not allowed to send iplogger or malicious links.",
         "NoSpam": "**[AntiSpam]** Your message has been classified as spam.",
         "NoFlood": "**[AntiFlood]** Don't send so many messages.",
-        "infoPrefix": "Hello 👋,\nMy prefix on this server is:\n``{{prefix}}``",
+        "infoPrefix": "Hello 👋,\nMy prefix on this server is:\n`{{prefix}}`",
         "infoComandos": "To see my commands use: {{prefix}}commands",
         "palabraBloqueada": "Blocked word.",
         "logAdmin": "Admin command used:",
@@ -83,10 +83,10 @@
         "ningunaRazón": "None"
     },
     "channelDelete": {
-        "canalEliminado": "Deleted channel: {{canal}} - ``{{canal}}``"
+        "canalEliminado": "Deleted channel: {{canal}} - `{{canal}}`"
     },
     "channelCreate": {
-        "canalCreado": "New channel: <#{{canal}}> - ``{{canal}}``"
+        "canalCreado": "New channel: <#{{canal}}> - `{{canal}}`"
     },
     "channelUpdate": {
         "canal": "Channel",

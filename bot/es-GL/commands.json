@@ -129,13 +129,13 @@
         "fverificacion": "❯ Verificación"
     },
     "approve": {
-        "errorNoConfig": "No está configurada la verificación. Para configurarla use ``.verificacion``",
-        "errorNoAprobación": "Este comando es solo para el modo Aprobación. Para configurar la verificación use ``.verificacion``",
-        "errorRoles": "Debe configurar primero el rol No Verificado y el rol Usuario. Para configurarlo use ``.verificacion``",
-        "errorCanal": "Este comando solo se puede usar en el canal de verificación. Para configurar la verificación use ``.verificacion``",
-        "errorMención": "Debe mencionar a un usuario. Para configurar la verificación use ``.verificacion``",
-        "errorNoRoles": "Los roles que ha configurado para la verificación no existen o no estoy por encima de ellos. Para configurar la verificación use ``.verificacion``",
-        "errorNoVerificado": "El usuario no tiene el rol de No Verificado. Para configurar la verificación use ``.verificacion``",
+        "errorNoConfig": "No está configurada la verificación. Para configurarla use `.verificacion`",
+        "errorNoAprobación": "Este comando es solo para el modo Aprobación. Para configurar la verificación use `.verificacion`",
+        "errorRoles": "Debe configurar primero el rol No Verificado y el rol Usuario. Para configurarlo use `.verificacion`",
+        "errorCanal": "Este comando solo se puede usar en el canal de verificación. Para configurar la verificación use `.verificacion`",
+        "errorMención": "Debe mencionar a un usuario. Para configurar la verificación use `.verificacion`",
+        "errorNoRoles": "Los roles que ha configurado para la verificación no existen o no estoy por encima de ellos. Para configurar la verificación use `.verificacion`",
+        "errorNoVerificado": "El usuario no tiene el rol de No Verificado. Para configurar la verificación use `.verificacion`",
         "aprobado": " Ha sido aprobado."
     },
     "botinfo": {
@@ -212,13 +212,13 @@
         "desactivado": "Los logs han sido desactivados, dejará de recibirlos."
     },
     "verifyme": {
-        "errorNoConfig": "No está configurada la verificación. Para configurarla use ``.verificacion``",
-        "errorNoAprobación": "Este comando es solo para el modo Verificación. Para configurar la verificación use ``.verificacion``",
-        "errorRoles": "Debe configurar primero el rol No Verificado y el rol Usuario. Para configurarlo use ``.verificacion``",
-        "errorCanal": "Este comando solo se puede usar en el canal de verificación. Para configurar la verificación use ``.verificacion``",
-        "errorMención": "Debe mencionar a un usuario. Para configurar la verificación use ``.verificacion``",
-        "errorNoRoles": "Los roles que ha configurado para la verificación no existen o no estoy por encima de ellos. Para configurar la verificación use ``.verificacion``",
-        "errorNoVerificado": "Necesitas tener el rol de No Verificado. Para configurar la verificación use ``.verificacion``",
+        "errorNoConfig": "No está configurada la verificación. Para configurarla use `.verificacion`",
+        "errorNoAprobación": "Este comando es solo para el modo Verificación. Para configurar la verificación use `.verificacion`",
+        "errorRoles": "Debe configurar primero el rol No Verificado y el rol Usuario. Para configurarlo use `.verificacion`",
+        "errorCanal": "Este comando solo se puede usar en el canal de verificación. Para configurar la verificación use `.verificacion`",
+        "errorMención": "Debe mencionar a un usuario. Para configurar la verificación use `.verificacion`",
+        "errorNoRoles": "Los roles que ha configurado para la verificación no existen o no estoy por encima de ellos. Para configurar la verificación use `.verificacion`",
+        "errorNoVerificado": "Necesitas tener el rol de No Verificado. Para configurar la verificación use `.verificacion`",
         "aprobado": " Has sido verificado."
     }
 }

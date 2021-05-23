@@ -6,7 +6,7 @@
         "NoSpam": "**[AntiSpam]** Su mensaje ha sido clasificado como spam.",
         "NoNSFW": "**[Filtro Imágenes Premium]** No se permite contenido NSFW fuera de canales NSFW.",
         "NoFlood": "**[AntiFlood]** No envies tantos mensajes.",
-        "infoPrefix": "Hola 👋, \nMi prefijo en este servidor es: \n``{{prefix}}``",
+        "infoPrefix": "Hola 👋, \nMi prefijo en este servidor es: \n`{{prefix}}`",
         "infoComandos": "Para ver mis comandos usa: {{prefix}}commands",
         "palabraBloqueada": "Palabra bloqueada.",
         "logAdmin": "Comando de administrador ejecutado:",
@@ -146,7 +146,7 @@
         "título": "Rol creado: {{rol}}"
     },
     "roleDelete": {
-        "título": "Rol eliminado: {{rol}} - ``{{rolid}}``"
+        "título": "Rol eliminado: {{rol}} - `{{rolid}}`"
     },
     "roleUpdate": {
         "título": "Rol actualizado",
