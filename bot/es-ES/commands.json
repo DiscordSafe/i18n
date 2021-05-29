@@ -171,6 +171,15 @@
         "servidoresshard": "❯ Servidores en este shard",
         "procesador": "Procesador: {{cpu}}"
     },
+    "cases": {
+        "userEmbedMore": "{{warns}} casos de {{memberTag}} ({{memberID}})",
+        "userEmbedOne": "Casos de {{memberTag}} ({{memberID}})",
+        "noWarns": "No hay ningún caso.",
+        "noWarn": "No hay ningún caso de moderación en el servidor.",
+        "noMention": "**Error**, debe mencionar a un usuario.",
+        "sancionado": "Caso: {{case}} Acción: {{action}} | Usuario: {{user}}~~~{{reason}} - Moderador: {{mod}} Fecha: {{date}}",
+        "noSancionado": "**Error**, El usuario no tiene ningún caso."
+    },
     "changelog": {
         "follow": " | Se ha seguido el canal de actualizaciones del bot.\nAhora recibirá seguimiento de mis actualizaciones."
     },
@@ -771,7 +780,7 @@
         "noWarns": "No hay ninguna advertencia.",
         "noWarn": "No tiene advertencias.",
         "noMention": "**Error**, debe mencionar a un usuario.",
-        "sancionado": "[`{{code}}`] {{user}} | Moderador: {{mod}}\n{{razón}}",
+        "sancionado": "Caso: {{case}} | Usuario: {{user}} | Moderador: {{mod}}~~~{{reason}} - {{date}}",
         "noSancionado": "**Error**, El usuario no ha sido sancionado."
     },
     "whitelist": {
