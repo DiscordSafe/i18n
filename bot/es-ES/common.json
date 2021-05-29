@@ -46,6 +46,7 @@
         "amount": "Cantidad",
         "channel": "Canal",
         "reason": "Razón",
-        "time": "Duración"
+        "time": "Duración",
+        "case": "Caso"
     }
 }
