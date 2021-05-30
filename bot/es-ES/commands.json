@@ -171,6 +171,14 @@
         "servidoresshard": "❯ Servidores en este shard",
         "procesador": "Procesador: {{cpu}}"
     },
+    "case": {
+        "title": "Información del caso #{{case}}",
+        "action": "Acción",
+        "mod": "Moderador",
+        "user": "Usuario",
+        "date": "Fecha",
+        "desc": "{{reason}}"
+    },
     "cases": {
         "userEmbedMore": "{{warns}} casos de {{memberTag}} ({{memberID}})",
         "userEmbedOne": "Casos de {{memberTag}} ({{memberID}})",
@@ -400,6 +408,12 @@
         "muteadoMD": "Has sido muteado en **{{guild}}** por: **{{reason}}**.",
         "desmuteadoMD": "Has sido desmuteado en **{{guild}}** durante **{{time}}** por: **{{reason}}**.",
         "changelog": "{{reason}}.\nTime: {{time}}\nMod: {{modTag}} ({{modID}})"
+    },
+    "reason": {
+        "noCase": "**Error**, no se ha encontrado el caso, comprueba que el ID del caso sea correcto.",
+        "noReason": "**Error**, debe indicar la razón que desea actualizar.",
+        "reasonLimit": "**Error**, la razón sobrepasa el límite de 50 caracteres o es menor a 3 caracteres.",
+        "success": "{{emoji}} Se ha establecido la razón del caso `{{caseid}}` a `{{reason}}`."
     },
     "softban": {
         "exito": "{{emoji}} **{{memberTag}} fue baneado (softban)**",

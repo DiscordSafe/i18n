@@ -104,6 +104,16 @@
         "usage": "[@Usuario/Usuario ID/Nombre miembro] <Razón> <--md>",
         "example": "@Vicente#0001 Romper la regla 4."
     },
+    "case": {
+        "description": "Muestra la información de un caso de moderación.",
+        "usage": "[ID Caso]",
+        "example": "5"
+    },
+    "cases": {
+        "description": "Muestra la lista de casos de moderación del servidor.",
+        "usage": "<@Usuario>",
+        "example": ""
+    },
     "clear": {
         "description": "Borra una cantidad de mensajes.",
         "usage": "[Cantidad(2-100)]\n[@Usuario/Usuario ID] [Cantidad(2-100)]\nall\nmatch [Texto] [Cantidad(2-100)]\nnot [Texto] [Cantidad(2-100)]\nstartswith [Texto] [Cantidad(2-100)]\nendswith [Texto] [Cantidad(2-100)]\nlinks [Cantidad(2-100)]\ninvites [Cantidad(2-100)]\nimages [Cantidad(2-100)]\nmentions [Cantidad(2-100)]\nembeds [Cantidad(2-100)]\nbots [Cantidad(2-100)]\nbefore [ID Mensaje] [Cantidad(2-100)]\nafter [ID Mensaje] [Cantidad(2-100)]\naround [ID Mensaje] [Cantidad(2-100)]",
@@ -124,10 +134,20 @@
         "usage": "[@Usuario/Usuario ID/Nombre miembro] <Razón> <--md>",
         "example": "Discord#0000 Romper la regla 8."
     },
+    "modstat": {
+        "description": "Muestra estadísticas de los casos de moderación del servidor",
+        "usage": "actions / mods",
+        "example": "mods"
+    },
     "mute": {
         "description": "Silencia a un miembro.",
         "usage": "[@Usuario/Usuario ID] <Tiempo> <s/m/h> <Razón> <--md>",
         "example": "@Clyde#0001 15m Romper regla 14."
+    },
+    "reason": {
+        "description": "Establece la razón de un caso de moderación.",
+        "usage": "[ID Caso] [Razón]",
+        "example": "54 Roptura de la regla 16: No se permite spam en el servidor."
     },
     "softban": {
         "description": "Banea e inmediatamente desbanea a un miembro para borrar mensajes.",
