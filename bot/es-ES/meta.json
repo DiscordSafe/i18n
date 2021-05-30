@@ -134,7 +134,7 @@
         "usage": "[@Usuario/Usuario ID/Nombre miembro] <Razón> <--md>",
         "example": "Discord#0000 Romper la regla 8."
     },
-    "modstat": {
+    "modstats": {
         "description": "Muestra estadísticas de los casos de moderación del servidor",
         "usage": "actions / mods",
         "example": "mods"
