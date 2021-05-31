@@ -241,7 +241,7 @@
     "deafen": {
         "errorConectado": "**Error**, el miembro no está conectado a un canal de voz.",
         "errorMención": "**Error**: Falta mencionar al usuario.",
-        "errorAutor": "**Error**, No te puedes dar ensordecer a ti mismo.",
+        "errorAutor": "**Error**, No te puedes ensordecer a ti mismo.",
         "errorYaEnsordecido": "**Error**, Ese usuario ya está ensordecido, usa `d.undeafen` para desensordecerlo.",
         "sinRazón": "Sin razón",
         "exito": "{{emoji}} **{{memberTag}}** ha sido ensordecido.",
@@ -251,7 +251,7 @@
     "undeafen": {
         "errorConectado": "**Error**, el miembro no está conectado a un canal de voz.",
         "errorMención": "**Error**: Falta mencionar al usuario.",
-        "errorAutor": "**Error**, No te puedes dar ensordecer a ti mismo.",
+        "errorAutor": "**Error**, No te puedes ensordecer a ti mismo.",
         "errorYaEnsordecido": "**Error**, Ese usuario no está ensordecido.",
         "sinRazón": "Sin razón",
         "exito": "{{emoji}} **{{memberTag}}** ha sido desensordecido.",
