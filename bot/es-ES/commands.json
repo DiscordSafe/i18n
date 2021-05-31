@@ -391,6 +391,19 @@
         "changelog": "{{reason}}.\nMod: {{modTag}} ({{modID}})",
         "errorGuild": "**Error**, el usuario no está en el servidor."
     },
+    "modstats": {
+        "noCases": "**Error**, no hay suficientes casos para generar gráficos.",
+        "author": "Estadísticas de casos de moderación",
+        "desc": "Visualiza estadísticas y gráficos de los casos de moderación del servidor.",
+        "fieldt": "Opciones",
+        "fieldd": "{{emojione}} Muestra gráfico de las acciones.\n{{emojitwo}} Muestra gráfico con los moderadores con más acciones.\n{{emojicancel}} Cancela la selección.",
+        "actions": {
+            "author": "Gráfico de las acciones"
+        },
+        "mods": {
+            "author": "Gráfico de moderadores"
+        }
+    },
     "clearbans": {
         "limpiando": "Limpiando los baneados…",
         "errorNoBans": "No puedo limpiar baneados que no existen.",
