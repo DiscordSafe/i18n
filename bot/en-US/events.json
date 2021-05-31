@@ -1,110 +1,189 @@
 {
-    "messageDeleteBulk": {
-        "fs2": " Message ID: {{id}}\nMessage: {{content}}",
-        "cantidad": "Amount",
-        "fs1": "Messages deleted on {{fecha}}",
-        "título": "A large number of messages have been deleted"
-    },
-    "roleCreate": {
-        "título": "New role: {{rol}}"
-    },
-    "roleDelete": {
-        "título": "Deleted role: {{rol}} - `{{rolid}}`"
-    },
-    "roleUpdate": {
-        "título": "Updated role:",
-        "realizado": "Made by:"
-    },
-    "message": {
-        "NoLoggersAvanzado": "**[Advanced Anti Iplogger]** Is not allowed to send iplogger or malicious links.",
-        "NoSpam": "**[AntiSpam]** Your message has been classified as spam.",
-        "NoFlood": "**[AntiFlood]** Don't send so many messages.",
-        "infoPrefix": "Hello 👋,\nMy prefix on this server is:\n`{{prefix}}`",
-        "infoComandos": "To see my commands use: {{prefix}}commands",
-        "palabraBloqueada": "Blocked word.",
-        "logAdmin": "Admin command used:",
-        "logAutor": "Author: {{autor}}",
-        "logCanal": "Channel:",
-        "reminderTitle": "New commands reminder",
-        "reminderField1": "❯ New command name",
-        "NoInvitaciones": "Invites to other servers are not allowed.",
-        "NoLoggersBásico": "**[Basic Anti Iplogger]** Is not allowed to send iplogger or malicious links.",
-        "NoNSFW": "**[Premium Image Filter]** NSFW content is not allowed outside NSFW channels.",
-        "reminderDescription": "I've had a [new update](https://blog.discordsafe.com/Registro-de-cambios/version-4-2) where commands have been **renamed, updated and grouped**.\nThe new name of the command you are trying to use is below, thanks for using me!"
-    },
-    "messageDelete": {
-        "título": "Deleted message"
-    },
-    "guildMemberUpdate": {
-        "actualizadoAp": "Updated nickname",
-        "nuevoAp": "New:",
-        "porAp": "By",
-        "rolSuprimido": "Removed role",
-        "rolAgregado": "Added role",
-        "anteriorAp": "Previous:"
-    },
-    "guildMemberRemove": {
-        "usuarioSalio": "User left",
-        "creación": "Created: "
-    },
-    "guildMemberAdd": {
-        "usuarioDa": "⛔❯ Harmful user: ",
-        "forceban": "It is not in the forceban.",
-        "nuevoUsuario": "New user",
-        "creación": "Created: ",
-        "captchaTitle": "Welcome to {{server}}",
-        "porQué": "Why?",
-        "captchaField2": "This is to protect the server from spam bots and multi-accounts.",
-        "captchaFooter": "Invite me, discordsafe.com/invite",
-        "captchaErrorTiempo": "**Time is over**, you have not completed the verification so you will be kicked.",
-        "kick": "Verification not completed.",
-        "captchaErrorIntentos": "**You have reached the limit of attempts**, you have not completed the verification so you will be kicked.",
-        "captchaIntento": "**Error**, you have {{intentos}} attempts left.",
-        "captchacTitle": "Thanks!",
-        "captchacDes": "You now have access to {{server}}",
-        "alertaTitle": "Alert",
-        "alertaDes": "A member classified as malicious has entered your server",
-        "alertaM": "Member",
-        "alertaR": "Reason",
-        "alertaP": "Proof",
-        "alertaFooter": "You can disable these alerts using {{prefix}}notifications",
-        "expulsadoRazón": "Minimum days of account creation.",
-        "alarma": "The server **{{server}}** is on alarm mode and does not allow new users to enter, please try again in a few minutes.",
-        "captchaField1": "Before continuing, you must answer this **captcha**, do it to be able to access the server. You have **{{intentos}} attempts** and ** {{minutos}} minutes** to complete.",
-        "captchacFooter": "Do you want to invite me to your server? discordsafe.com/invite",
-        "expulsado": "You have been kicked from the server **{{server}}** because your account does not exceed the minimum of **{{age}}** days."
-    },
-    "guildBanRemove": {
-        "miembroDesbaneado": "Unbanned member"
-    },
-    "guildBanAdd": {
-        "guildBanAdd": "Member banned",
-        "razón": "Reason:",
-        "ningunaRazón": "None"
-    },
-    "channelDelete": {
-        "canalEliminado": "Deleted channel: {{canal}} - `{{canal}}`"
-    },
-    "channelCreate": {
-        "canalCreado": "New channel: <#{{canal}}> - `{{canal}}`"
-    },
-    "channelUpdate": {
-        "canal": "Channel",
-        "título": "Updated channel",
-        "nombreh": "Name (now)",
-        "nombrea": "Name (before)",
-        "temah": "Topic (after)",
-        "temaa": "Topic (before)",
-        "nsfwh": "NSFW (after)",
-        "nsfwa": "NSFW (before)",
-        "activado": "Activated.",
-        "desactivado": "Deactivated.",
-        "nada": "None"
-    },
-    "messageUpdate": {
-        "nuevo": "Message ID",
-        "content": "New content",
-        "título": "Updated message",
-        "tiempos": "Time difference"
-    }
+  "channelCreate": {
+    "canalCreado": "New channel: <#{{canal}}> - `{{canal}}`",
+    "desc": "",
+    "title": "",
+    "type": ""
+  },
+  "channelDelete": {
+    "canalEliminado": "Deleted channel: {{canal}} - `{{canal}}`",
+    "desc": "",
+    "title": "",
+    "type": ""
+  },
+  "channelUpdate": {
+    "activado": "Activated.",
+    "canal": "Channel",
+    "coola": "",
+    "coolh": "",
+    "desactivado": "Deactivated.",
+    "nada": "None",
+    "nombrea": "Name (before)",
+    "nombreh": "Name (now)",
+    "none": "",
+    "nsfwa": "NSFW (before)",
+    "nsfwh": "NSFW (after)",
+    "temaa": "Topic (before)",
+    "temah": "Topic (after)",
+    "title": "",
+    "typea": "",
+    "typeh": "",
+    "título": "Updated channel"
+  },
+  "guildBanAdd": {
+    "banned": "",
+    "guildBanAdd": "Member banned",
+    "mod": "",
+    "ningunaRazón": "None",
+    "razón": "Reason:"
+  },
+  "guildBanRemove": {
+    "miembroDesbaneado": "Unbanned member",
+    "mod": "",
+    "ningunaRazón": "",
+    "razón": "",
+    "unbanned": ""
+  },
+  "guildMemberAdd": {
+    "alarma": "The server **{{server}}** is on alarm mode and does not allow new users to enter, please try again in a few minutes.",
+    "alertaDes": "A member classified as malicious has entered your server",
+    "alertaFooter": "You can disable these alerts using {{prefix}}notifications",
+    "alertaM": "Member",
+    "alertaP": "Proof",
+    "alertaR": "Reason",
+    "alertaTitle": "Alert",
+    "badges": "",
+    "bot": "",
+    "captchaErrorIntentos": "**You have reached the limit of attempts**, you have not completed the verification so you will be kicked.",
+    "captchaErrorTiempo": "**Time is over**, you have not completed the verification so you will be kicked.",
+    "captchaField1": "Before continuing, you must answer this **captcha**, do it to be able to access the server. You have **{{intentos}} attempts** and ** {{minutos}} minutes** to complete.",
+    "captchaField2": "This is to protect the server from spam bots and multi-accounts.",
+    "captchaFooter": "Invite me, discordsafe.com/invite",
+    "captchaIntento": "**Error**, you have {{intentos}} attempts left.",
+    "captchaTitle": "Welcome to {{server}}",
+    "captchacDes": "You now have access to {{server}}",
+    "captchacFooter": "Do you want to invite me to your server? discordsafe.com/invite",
+    "captchacTitle": "Thanks!",
+    "creación": "Created: ",
+    "expulsado": "You have been kicked from the server **{{server}}** because your account does not exceed the minimum of **{{age}}** days.",
+    "expulsadoRazón": "Minimum days of account creation.",
+    "forceban": "It is not in the forceban.",
+    "kick": "Verification not completed.",
+    "nuevoUsuario": "New user",
+    "porQué": "Why?",
+    "usuarioDa": "⛔❯ Harmful user: "
+  },
+  "guildMemberRemove": {
+    "badges": "",
+    "bot": "",
+    "creación": "Created: ",
+    "usuarioSalio": "User left"
+  },
+  "guildMemberUpdate": {
+    "actualizadoAp": "Updated nickname",
+    "after": "",
+    "anteriorAp": "Previous:",
+    "before": "",
+    "boostDesc": "",
+    "boostTitle": "",
+    "by": "",
+    "name": "",
+    "nickname": "",
+    "nuevoAp": "New:",
+    "porAp": "By",
+    "rolAgregado": "Added role",
+    "rolSuprimido": "Removed role",
+    "roladded": "",
+    "rolremoved": "",
+    "unboostDesc": "",
+    "unboostTitle": ""
+  },
+  "guildUpdate": {
+    "afkcha": "",
+    "afkchh": "",
+    "afkta": "",
+    "afkth": "",
+    "desca": "",
+    "desch": "",
+    "feaa": "",
+    "feah": "",
+    "levelDowndesc": "",
+    "levelDowntitle": "",
+    "levelUpdesc": "",
+    "levelUptitle": "",
+    "namea": "",
+    "nameh": "",
+    "none": "",
+    "rega": "",
+    "regh": "",
+    "title": "",
+    "vanitya": "",
+    "vanityh": ""
+  },
+  "message": {
+    "NoFlood": "**[AntiFlood]** Don't send so many messages.",
+    "NoInvitaciones": "Invites to other servers are not allowed.",
+    "NoLoggersAvanzado": "**[Advanced Anti Iplogger]** Is not allowed to send iplogger or malicious links.",
+    "NoLoggersBásico": "**[Basic Anti Iplogger]** Is not allowed to send iplogger or malicious links.",
+    "NoNSFW": "**[Premium Image Filter]** NSFW content is not allowed outside NSFW channels.",
+    "NoSpam": "**[AntiSpam]** Your message has been classified as spam.",
+    "infoComandos": "To see my commands use: {{prefix}}commands",
+    "infoPrefix": "Hello 👋,\nMy prefix on this server is:\n`{{prefix}}`",
+    "logAdmin": "Admin command used:",
+    "logAutor": "Author: {{autor}}",
+    "logCanal": "Channel:",
+    "palabraBloqueada": "Blocked word.",
+    "reminderDescription": "I've had a [new update](https://blog.discordsafe.com/Registro-de-cambios/version-4-2) where commands have been **renamed, updated and grouped**.\nThe new name of the command you are trying to use is below, thanks for using me!",
+    "reminderField1": "❯ New command name",
+    "reminderTitle": "New commands reminder"
+  },
+  "messageDelete": {
+    "título": "Deleted message"
+  },
+  "messageDeleteBulk": {
+    "canal": "",
+    "cantidad": "Amount",
+    "fs1": "Messages deleted on {{fecha}}",
+    "fs2": " Message ID: {{id}}\nMessage: {{content}}",
+    "título": "A large number of messages have been deleted"
+  },
+  "messageUpdate": {
+    "content": "New content",
+    "contentPinned": "",
+    "nuevo": "Message ID",
+    "oldContent": "",
+    "pinned": "",
+    "tiempos": "Time difference",
+    "título": "Updated message"
+  },
+  "roleCreate": {
+    "título": "New role: {{rol}}"
+  },
+  "roleDelete": {
+    "título": "Deleted role: {{rol}} - `{{rolid}}`"
+  },
+  "roleUpdate": {
+    "added": "",
+    "added_plural": "",
+    "executor": "",
+    "realizado": "Made by:",
+    "removed": "",
+    "removed_plural": "",
+    "título": "Updated role:"
+  },
+  "voiceStateUpdate": {
+    "channel": "",
+    "deaf": "",
+    "join": "",
+    "leave": "",
+    "mute": "",
+    "newChannel": "",
+    "oldChannel": "",
+    "start-streaming": "",
+    "stop-streaming": "",
+    "switch": "",
+    "undeaf": "",
+    "unmute": "",
+    "user": ""
+  }
 }
