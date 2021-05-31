@@ -15,7 +15,7 @@
         "example": "@Usuario Miembro molesto --md"
     },
     "undeafen": {
-        "description": "Desnsordece a un miembro.",
+        "description": "Desensordece a un miembro.",
         "usage": "[@Usuario/Usuario ID] <Razón> <--md>",
         "example": "@Usuario"
     },
