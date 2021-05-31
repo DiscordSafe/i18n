@@ -39,6 +39,8 @@
         "clearwarn": "Advertencia eliminada",
         "clear": "Mensajes borrados",
         "approve": "Miembro ha sido aprobado",
+        "deafen": "Miembro ensordecido",
+        "undeafen": "Miembro desensordecido",
         "code": "Código",
         "user": "Usuario",
         "member": "Miembro",

@@ -9,6 +9,16 @@
         "usage": "<Código> / all",
         "example": "43das78"
     },
+    "deafen": {
+        "description": "Ensordece a un miembro.",
+        "usage": "[@Usuario/Usuario ID] <Razón> <--md>",
+        "example": "@Usuario Miembro molesto --md"
+    },
+    "undeafen": {
+        "description": "Desnsordece a un miembro.",
+        "usage": "[@Usuario/Usuario ID] <Razón> <--md>",
+        "example": "@Usuario"
+    },
     "filter": {
         "description": "Configura los filtros.",
         "usage": "help / [filtro] enable / [filtro] disable / [filtro] ignore [#Canal/@Rol]",

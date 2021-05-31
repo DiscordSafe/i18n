@@ -238,6 +238,26 @@
         "noCódigo": "El código no existe.",
         "exitoso": "Se ha eliminado la advertencia {{code}} del usuario {{usuario}}."
     },
+    "deafen": {
+        "errorConectado": "**Error**, el miembro no está conectado a un canal de voz.",
+        "errorMención": "**Error**: Falta mencionar al usuario.",
+        "errorAutor": "**Error**, No te puedes dar ensordecer a ti mismo.",
+        "errorYaEnsordecido": "**Error**, Ese usuario ya está ensordecido, usa `d.undeafen` para desensordecerlo.",
+        "sinRazón": "Sin razón",
+        "exito": "{{emoji}} **{{memberTag}}** ha sido ensordecido.",
+        "ensordecido": "Has sido ensordecido en **{{guild}}** por: **{{reason}}**.",
+        "changelog": "{{reason}}.\nMod: {{modTag}} ({{modID}})"
+    },
+    "undeafen": {
+        "errorConectado": "**Error**, el miembro no está conectado a un canal de voz.",
+        "errorMención": "**Error**: Falta mencionar al usuario.",
+        "errorAutor": "**Error**, No te puedes dar ensordecer a ti mismo.",
+        "errorYaEnsordecido": "**Error**, Ese usuario no está ensordecido.",
+        "sinRazón": "Sin razón",
+        "exito": "{{emoji}} **{{memberTag}}** ha sido desensordecido.",
+        "ensordecido": "Has sido desensordecido en **{{guild}}** por: **{{reason}}**.",
+        "changelog": "{{reason}}.\nMod: {{modTag}} ({{modID}})"
+    },
     "commands": {
         "md": "📨 **{{usuario}}**, Revisa tus mensajes privados.",
         "soporte": "Únete a mi servidor de soporte para informar errores y sugerir: ",
