@@ -34,7 +34,7 @@
         "despalabras": "Para configurar las palabras bloquedas use los comandos que se muestran abajo.",
         "panel": "Panel de ajustes de {{guild}}",
         "panelTitle": "Guía de configuración paso a paso",
-        "despanel": "Para cambiar algun ajuste use este comando y el nombre del ajuste que desea cambiar.",
+        "despanel": "Explicaciones y estado de las configuraciones.",
         "fanuncios": "❯ Anuncios",
         "flogs": "❯ Logs",
         "fidioma": "❯ Idioma",
