@@ -12,16 +12,6 @@
     "activado": "Alarm mode has been enabled, new users entry is forbidden.\nTo disable it use the command again.",
     "desactivado": "Alarm mode has been disabled."
   },
-  "announcement": {
-    "actualizado": "Succesfully updated!",
-    "borrado": "Succesfully deleted!",
-    "correcto": "Succesfully registered!",
-    "errorArgs": "**Error**, Invalid arguments, you must mention a channel or put an ID.",
-    "errorCanal": "**Error**, I cannot find the channel, please try again.",
-    "errorID": "**Error**. Error, channel id must be a number.",
-    "errorTexto": "**Error**, You cannot register a non-text channel.",
-    "noCanal": "This server does not have a registered announcements channel."
-  },
   "approve": {
     "aprobado": " Has been approved.",
     "errorArgs": "",
@@ -48,7 +38,6 @@
     "errorNobanneable": "**Error**, I cannot ban the mentioned user.",
     "errorUser": "**Error**, User not found, please try again.",
     "exito": "The ban hammer has hitted successfuly!",
-    "razón": "Without reason.",
     "sinRazón": ""
   },
   "baninfo": {
@@ -88,8 +77,6 @@
     "ninguna": "All words have been successfully unlocked.",
     "packBloqueado0": "The list of recommended words has been blocked successfully.",
     "packsAuthor": "Blocked words packs",
-    "packsAyuda1": "❯ Help",
-    "packsAyuda2": "If you need help check our [configuration guide](https://docs.discordsafe.com/docs/config/blockedwords) or ask our [servidor](https://discordsafe.com/discord)",
     "packsDescription": "Blocked word packs save time and directly block the most common offensive words.\n\n- **Block a pack with:** `{prefix}}{{commandName}} add pack <Number>`\n- **Unlock a pack with:** `{prefix}}{{commandName}} remove pack <Number>`.",
     "packsField1": "❯ Packs",
     "packsField2": "`0` - Recommended words, slightly offensive.\n`1` - Offensive words and insults.\n`2` - Inappropriate and explicit words.",
@@ -150,26 +137,18 @@
     "warnServer": "All warnings on this server have been removed."
   },
   "commands": {
-    "anu1": "Announcements",
-    "anu2": "`announcement`",
     "con1": "Configuration",
-    "con2": "`blockword` `clearwarn` `filter` `logs` `notification` `setlang` `setprefix` `settings` `whitelist`",
     "descripción": "**Prefix:** `{{prefix}}`\n**Type `{{prefix}}help [command]`to see more information about the command.**",
     "doc1": "📚 ━ Documentation",
     "doc2": "Check my [documentation](https://docs.discordsafe.com/) to see my configuration guide.",
     "inf1": "Information",
-    "inf2": "`botinfo` `commands` `help` `ping` `vote` `premium` `reportbug` `server` `support` `suggest`",
     "md": "📨 **{{usuario}}**, Check your private messages.",
     "mod1": "Moderation",
-    "mod2": "`ban` `clear` `forceban` `hackban` `kick` `mute` `unban` `unmute` `warn` `warnings`",
     "rep1": "Reports",
-    "rep2": "`report`",
     "soporte": "Join my support server to report bugs and suggest: ",
     "título": "Available commands",
     "uti1": "Utility",
-    "uti2": "`alarm` `avatar` `baninfo` `clearbans` `detect` `genpassword` `info` `seenon`",
-    "ver1": "Verification",
-    "ver2": "`verification` `approve` `verifyme`"
+    "ver1": "Verification"
   },
   "deafen": {
     "changelog": "",
@@ -209,7 +188,6 @@
     "errorNoRow": "You can't deactivate something that isn't activated, just like you can't kiss a girlfriend who doesn't exist.",
     "errorPermisos": "The bot needs perms to manage messages.",
     "errorTipo": "You have to say the type of filter you want.",
-    "establecidoNivel": "The level has been set correctly to {{level}}.",
     "fimágenes": "Analyzes the images sent outside NSFW channels and deletes them if it detects that it is not valid to all publics and contains explicit content.",
     "finvitaciones": "Deletes the invitations of Discord servers sent by members without permissions.",
     "fiploggers": "Delete the links that contain an IPlogger, to improve the security of your server",
@@ -296,20 +274,15 @@
     "botInfo": "",
     "botInfoDes": "",
     "colorRole": "",
-    "común": "▸ Servers in common:",
     "creadoEl": "▸ Created the:",
-    "error": "Error.",
     "errorNoID": "It is not an ID.",
     "errorNoUsuario": "User not found.",
-    "estado": "▸ Status:",
     "hightestRole": "",
     "hoistRole": "",
     "id": "▸ ID:",
     "joinPosition": "",
-    "jugando": "▸ Playing:",
     "nada": "None.",
     "nickname": "▸ Nickname:",
-    "premium": "▸ Premium User",
     "roles": "▸ Roles:",
     "seUnió": "▸ Joined the server on:"
   },
@@ -332,29 +305,22 @@
   "kick": {
     "autor": "**Error*, You can't ban yourself.",
     "changelog": "",
-    "correcto": "The user was successfully kicked from the server.",
     "errorGuild": "",
-    "errorNoExpulsar": "I cannot kick the user.",
     "errorNoKick": "",
     "errorNokickeable": "",
     "errorUser": "",
-    "errorUso": "**Error**, You must mention a user.",
     "exito": "",
     "kickedMd": "",
     "sinRazón": "Without reason."
   },
   "logs": {
-    "correcto": "The log channel has been set to {{canal}}.",
-    "desactivado": "The logs have been deactivated, you will stop receiving them.",
     "disabled": "",
     "done": "",
     "doneboost": "",
     "donemod": "",
     "errorArgs": "**Error**. Invalid arguments, you must mention a channel or put an ID.",
     "errorConfig": "",
-    "errorNoExiste": "That channel does not exist.",
     "errorPremium": "",
-    "errorTexto": "That channel is not a text channel.",
     "errorValid": "",
     "help": {
       "author": "",
@@ -408,19 +374,12 @@
   },
   "mute": {
     "changelog": "",
-    "desmuteado": "**{{user}}** you have been unmuted in {{guild}}.",
     "desmuteadoMD": "",
-    "error": "Error.",
     "errorAutor": "**Error**, You can't mute yourself.",
-    "errorCantidad": "**Error** Write it as: `d.mute @User Number s/m/h Reason`",
-    "errorMedida": "**Error: Need to add time.**\nWrite it as: `d.mute @User Number s/m/h Reason`",
     "errorMención": "**Error: Need to mention the user.**\nWrite it as: `d.mute @User Number s/m/h Reason`",
     "errorNúmero": "",
-    "errorRazón": "**Error: Need to add reason.**\nWrite it as: `d.mute @User Number s/m/h Reason`",
-    "errorTiempo": "**Error: Need to add time.**\nWrite it as: `d.mute @User Number s/m/h Reason`",
     "errorYaMuteado": "That user is already muted.",
     "exito": "",
-    "muteado": "**{{usermuted}}** has been muted by **{{usermod}}** with the reason : {{razón}}",
     "muteadoMD": "**{{usermuted}}** you have been muted because {{razón}}",
     "sinRazón": ""
   },
@@ -517,9 +476,7 @@
     "descripción": "❯ Description:",
     "error": "In order to attend your report, you must join [our server] (https://discordsafe.com/discord) and use the command there.",
     "errorTiempo": "The time is over.",
-    "mandando": "Sending…",
-    "servidor": "❯ Server:",
-    "shard": "❯ Shard:"
+    "mandando": "Sending…"
   },
   "role": {
     "color": "",
@@ -540,11 +497,6 @@
     "tags": ""
   },
   "seenon": {
-    "errorArgs": "**Error**. Invalid arguments, you must mention a member or enter an ID.",
-    "errorCaracteres": "**Error**. The user is inside too many servers.",
-    "errorNoUsuario": "That user was not found.",
-    "ninguno": "None.",
-    "servidores": ":eyes: **Servers where it has been seen:**\n"
   },
   "server": {
     "2fa": "",
@@ -556,8 +508,6 @@
     "boostLvl3": "",
     "boostNone": "",
     "canales": "▸ Channels",
-    "canalesTexto": "▸ Text channels",
-    "canalesVoz": "▸ Voice channels",
     "creadoEl": "▸ Created the",
     "dmn": "",
     "dueño": "▸ Server Owner",
@@ -565,14 +515,12 @@
     "errorMsg": "",
     "explicitFilter": "",
     "features": "",
-    "humanos": "▸ Humans",
     "images": "",
     "limits": "",
     "miembros": "▸ Members",
     "moreEmojis": "",
     "msgAll": "",
     "msgMention": "",
-    "premium": "▸ Premium Server",
     "región": "▸ Region",
     "specialChannels": "",
     "verification": ""
@@ -649,15 +597,12 @@
   "suggest": {
     "confirmBody": "",
     "confirmación": "Are you sure to send the suggestion? To confirm, answer Yes.",
-    "descripción": "❯ Description:",
     "done": "",
-    "error": "In order to attend to your suggestion, you must enter [our server](https://discordsafe.com/discord) and use the command there.",
     "errorArgs": "",
     "errorChannel": "",
     "errorDes": "",
     "errorNoChannel": "",
     "errorNoConfig": "",
-    "errorTiempo": "The time is over.",
     "mandando": "Sending suggestion…",
     "send": "",
     "suggID": ""
@@ -762,14 +707,10 @@
     "title": ""
   },
   "unban": {
-    "baneado": "**{{user}}** Have been banned successfully.",
     "changelog": "",
     "errorNoUnBan": "",
     "errorUser": "",
     "exito": "",
-    "noBan": "**Error**, The user is not banned.",
-    "noID": "**Error**, invalid ID, please try again.",
-    "noPermisos": "**Error**, I don't have enough permissions to unban that user.",
     "sinRazón": "Without reason.",
     "unbannedMD": ""
   },
@@ -785,8 +726,6 @@
   },
   "unmute": {
     "changelog": "",
-    "desmuteado": "**{{user}}** has been unmuted by **{{mod}}**",
-    "desmuteado2": "* {{user}}** you have been unmuted in **{{guild}}**",
     "desmuteadoMD": "",
     "errorMención": "**Error: Missing the user.**\nWrite it as: `d.unmute @User`",
     "errorNoExiste": "There is no Muted role, I have created and configured it.",
@@ -877,7 +816,6 @@
     "fieldVoteAgain": "You can vote again in "
   },
   "warn": {
-    "correcto": "**{{user}}** has been warned for {{razón}}",
     "errorAutor": "**Error**, You can't warn yourself.",
     "errorCaracteres": "**Error**, the reason have too many characters, write less.",
     "errorMención": "**Error: You must mention the user.**\nWrite it as: `d.warn @User Reason`",

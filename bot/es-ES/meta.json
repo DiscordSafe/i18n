@@ -4,11 +4,6 @@
     "example": "",
     "usage": ""
   },
-  "announcement": {
-    "description": "",
-    "example": "",
-    "usage": ""
-  },
   "approve": {
     "description": "Aprueba la entrada al servidor a los nuevos usuarios.",
     "example": "@Vicente#0001",

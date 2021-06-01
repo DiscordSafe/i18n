@@ -1,23 +1,17 @@
 {
   "channelCreate": {
-    "canalCreado": "New channel: <#{{canal}}> - `{{canal}}`",
     "desc": "",
     "title": "",
     "type": ""
   },
   "channelDelete": {
-    "canalEliminado": "Deleted channel: {{canal}} - `{{canal}}`",
     "desc": "",
     "title": "",
     "type": ""
   },
   "channelUpdate": {
-    "activado": "Activated.",
-    "canal": "Channel",
     "coola": "",
     "coolh": "",
-    "desactivado": "Deactivated.",
-    "nada": "None",
     "nombrea": "Name (before)",
     "nombreh": "Name (now)",
     "none": "",
@@ -27,18 +21,15 @@
     "temah": "Topic (after)",
     "title": "",
     "typea": "",
-    "typeh": "",
-    "título": "Updated channel"
+    "typeh": ""
   },
   "guildBanAdd": {
     "banned": "",
-    "guildBanAdd": "Member banned",
     "mod": "",
     "ningunaRazón": "None",
     "razón": "Reason:"
   },
   "guildBanRemove": {
-    "miembroDesbaneado": "Unbanned member",
     "mod": "",
     "ningunaRazón": "",
     "razón": "",
@@ -80,19 +71,13 @@
     "usuarioSalio": "User left"
   },
   "guildMemberUpdate": {
-    "actualizadoAp": "Updated nickname",
     "after": "",
-    "anteriorAp": "Previous:",
     "before": "",
     "boostDesc": "",
     "boostTitle": "",
     "by": "",
     "name": "",
     "nickname": "",
-    "nuevoAp": "New:",
-    "porAp": "By",
-    "rolAgregado": "Added role",
-    "rolSuprimido": "Removed role",
     "roladded": "",
     "rolremoved": "",
     "unboostDesc": "",
@@ -166,7 +151,6 @@
     "added": "",
     "added_plural": "",
     "executor": "",
-    "realizado": "Made by:",
     "removed": "",
     "removed_plural": "",
     "título": "Updated role:"

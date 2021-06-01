@@ -1,23 +1,17 @@
 {
   "channelCreate": {
-    "canalCreado": "",
     "desc": "",
     "title": "",
     "type": ""
   },
   "channelDelete": {
-    "canalEliminado": "",
     "desc": "",
     "title": "",
     "type": ""
   },
   "channelUpdate": {
-    "activado": "",
-    "canal": "",
     "coola": "",
     "coolh": "",
-    "desactivado": "",
-    "nada": "",
     "nombrea": "",
     "nombreh": "",
     "none": "",
@@ -27,18 +21,15 @@
     "temah": "",
     "title": "",
     "typea": "",
-    "typeh": "",
-    "título": ""
+    "typeh": ""
   },
   "guildBanAdd": {
     "banned": "",
-    "guildBanAdd": "",
     "mod": "",
     "ningunaRazón": "",
     "razón": ""
   },
   "guildBanRemove": {
-    "miembroDesbaneado": "",
     "mod": "",
     "ningunaRazón": "",
     "razón": "",
@@ -80,19 +71,13 @@
     "usuarioSalio": ""
   },
   "guildMemberUpdate": {
-    "actualizadoAp": "",
     "after": "",
-    "anteriorAp": "",
     "before": "",
     "boostDesc": "",
     "boostTitle": "",
     "by": "",
     "name": "",
     "nickname": "",
-    "nuevoAp": "",
-    "porAp": "",
-    "rolAgregado": "",
-    "rolSuprimido": "",
     "roladded": "",
     "rolremoved": "",
     "unboostDesc": "",
@@ -166,7 +151,6 @@
     "added": "",
     "added_plural": "",
     "executor": "",
-    "realizado": "",
     "removed": "",
     "removed_plural": "",
     "título": ""

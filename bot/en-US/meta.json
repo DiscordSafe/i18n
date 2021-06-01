@@ -5,9 +5,6 @@
     "usage": ""
   },
   "announcement": {
-    "description": "Set up an ad channel.",
-    "example": "set #announcements",
-    "usage": "set [#Channel/ChannelID] / del [#Channel/ChannelID]"
   },
   "approve": {
     "description": "",

@@ -13,14 +13,6 @@
     "desactivado": "O modo alarma foi desativado."
   },
   "announcement": {
-    "actualizado": "",
-    "borrado": "",
-    "correcto": "Apagado corretamente!",
-    "errorArgs": "**Erro**, argumentos inválidos, você deve mencionar um canal ou colocar uma ID.",
-    "errorCanal": "",
-    "errorID": "",
-    "errorTexto": "**Erro**, não dá para registrar um canal que não seja de texto.",
-    "noCanal": "Este servidor não tem um canal registrado de anúncios."
   },
   "approve": {
     "aprobado": "",
@@ -48,7 +40,6 @@
     "errorNobanneable": "No puedo banear al usuario.",
     "errorUser": "",
     "exito": "",
-    "razón": "",
     "sinRazón": ""
   },
   "baninfo": {
@@ -88,8 +79,6 @@
     "ninguna": "",
     "packBloqueado0": "",
     "packsAuthor": "",
-    "packsAyuda1": "",
-    "packsAyuda2": "",
     "packsDescription": "",
     "packsField1": "",
     "packsField2": "",
@@ -150,26 +139,18 @@
     "warnServer": ""
   },
   "commands": {
-    "anu1": "",
-    "anu2": "",
     "con1": "",
-    "con2": "",
     "descripción": "",
     "doc1": "",
     "doc2": "",
     "inf1": "",
-    "inf2": "",
     "md": "",
     "mod1": "",
-    "mod2": "",
     "rep1": "",
-    "rep2": "",
     "soporte": "",
     "título": "",
     "uti1": "",
-    "uti2": "",
-    "ver1": "",
-    "ver2": ""
+    "ver1": ""
   },
   "deafen": {
     "changelog": "",
@@ -209,7 +190,6 @@
     "errorNoRow": "",
     "errorPermisos": "",
     "errorTipo": "Debes indicar el tipo de filtro que quieres desactivar.",
-    "establecidoNivel": "",
     "fimágenes": "",
     "finvitaciones": "",
     "fiploggers": "",
@@ -296,20 +276,15 @@
     "botInfo": "",
     "botInfoDes": "",
     "colorRole": "",
-    "común": "❯ Servidores en común:",
     "creadoEl": "❯Creado o:",
-    "error": "Erro.",
     "errorNoID": "Não é uma ID.",
     "errorNoUsuario": "Não se encontrou o usuário.",
-    "estado": "❯Estado:",
     "hightestRole": "",
     "hoistRole": "",
     "id": "❯ID:",
     "joinPosition": "",
-    "jugando": "❯Jogando:",
     "nada": "Nada.",
     "nickname": "❯ Apodo:",
-    "premium": "",
     "roles": "❯Papéis:",
     "seUnió": "❯Entro no servidor o:"
   },
@@ -332,29 +307,22 @@
   "kick": {
     "autor": "",
     "changelog": "",
-    "correcto": "O usuário foi expulso do servidor exitosamente.",
     "errorGuild": "",
-    "errorNoExpulsar": "Não posso expulsar o usuário.",
     "errorNoKick": "",
     "errorNokickeable": "",
     "errorUser": "",
-    "errorUso": "",
     "exito": "",
     "kickedMd": "",
     "sinRazón": ""
   },
   "logs": {
-    "correcto": "",
-    "desactivado": "",
     "disabled": "",
     "done": "",
     "doneboost": "",
     "donemod": "",
     "errorArgs": "",
     "errorConfig": "",
-    "errorNoExiste": "",
     "errorPremium": "",
-    "errorTexto": "",
     "errorValid": "",
     "help": {
       "author": "",
@@ -408,19 +376,12 @@
   },
   "mute": {
     "changelog": "",
-    "desmuteado": "",
     "desmuteadoMD": "",
-    "error": "Erro.",
     "errorAutor": "",
-    "errorCantidad": "**Error** Escríbalo como: .mute @Usuario Número s/m/h Razón",
-    "errorMedida": "**Error: Falta añadir medida.**\nEscríbalo como:.mute @Usuario Número s/m/h Razón",
     "errorMención": "**Error: Falta mencionar al usuario.**\nEscríbalo como: .mute @Usuario Número s/m/h Razón",
     "errorNúmero": "",
-    "errorRazón": "**Error: Falta añadir razón.** \nEscríbalo como:.mute @Usuario Número s/m/h Razón",
-    "errorTiempo": "**Error: Falta añadir tiempo.**\nEscríbalo como: .mute @Usuario Número s/m/h Razón",
     "errorYaMuteado": "",
     "exito": "",
-    "muteado": "",
     "muteadoMD": "",
     "sinRazón": ""
   },
@@ -517,9 +478,7 @@
     "descripción": "",
     "error": "",
     "errorTiempo": "",
-    "mandando": "",
-    "servidor": "",
-    "shard": ""
+    "mandando": ""
   },
   "role": {
     "color": "",
@@ -540,11 +499,6 @@
     "tags": ""
   },
   "seenon": {
-    "errorArgs": "**Error**. Argumentos inválidos, debe mencionar a un miembro o poner una ID.",
-    "errorCaracteres": "",
-    "errorNoUsuario": "",
-    "ninguno": "",
-    "servidores": ""
   },
   "server": {
     "2fa": "",
@@ -556,8 +510,6 @@
     "boostLvl3": "",
     "boostNone": "",
     "canales": "",
-    "canalesTexto": "",
-    "canalesVoz": "",
     "creadoEl": "",
     "dmn": "",
     "dueño": "",
@@ -565,14 +517,12 @@
     "errorMsg": "",
     "explicitFilter": "",
     "features": "",
-    "humanos": "",
     "images": "",
     "limits": "",
     "miembros": "",
     "moreEmojis": "",
     "msgAll": "",
     "msgMention": "",
-    "premium": "",
     "región": "▸ Región",
     "specialChannels": "",
     "verification": ""
@@ -649,15 +599,12 @@
   "suggest": {
     "confirmBody": "",
     "confirmación": "",
-    "descripción": "",
     "done": "",
-    "error": "",
     "errorArgs": "",
     "errorChannel": "",
     "errorDes": "",
     "errorNoChannel": "",
     "errorNoConfig": "",
-    "errorTiempo": "",
     "mandando": "",
     "send": "",
     "suggID": ""
@@ -762,14 +709,10 @@
     "title": ""
   },
   "unban": {
-    "baneado": "",
     "changelog": "",
     "errorNoUnBan": "",
     "errorUser": "",
     "exito": "",
-    "noBan": "",
-    "noID": "",
-    "noPermisos": "",
     "sinRazón": "",
     "unbannedMD": ""
   },
@@ -785,8 +728,6 @@
   },
   "unmute": {
     "changelog": "",
-    "desmuteado": "",
-    "desmuteado2": "",
     "desmuteadoMD": "",
     "errorMención": "**Error: Falta mencionar al usuario.**\nEscríbalo como: .unmute @Usuario",
     "errorNoExiste": "No existe un rol Muted, lo he creado y configurado.",
@@ -877,7 +818,6 @@
     "fieldVoteAgain": ""
   },
   "warn": {
-    "correcto": "",
     "errorAutor": "",
     "errorCaracteres": "",
     "errorMención": "**Error: Falta mencionar al usuario.**\nEscríbalo como: .warn @Usuario Razón",

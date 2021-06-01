@@ -1,23 +1,17 @@
 {
   "channelCreate": {
-    "canalCreado": "",
     "desc": "<#{{canal}}>",
     "title": "Canal creado",
     "type": "Tipo"
   },
   "channelDelete": {
-    "canalEliminado": "",
     "desc": "{{canal}}",
     "title": "Canal eliminado",
     "type": "Tipo"
   },
   "channelUpdate": {
-    "activado": "",
-    "canal": "",
     "coola": "Ratelimit (Antes)",
     "coolh": "Ratelimit (Después)",
-    "desactivado": "",
-    "nada": "",
     "nombrea": "Nombre (Antes)",
     "nombreh": "Nombre (Después)",
     "none": "Ninguno.",
@@ -27,18 +21,15 @@
     "temah": "Tema (Después)",
     "title": "Canal actualizado",
     "typea": "Tipo (Antes)",
-    "typeh": "Tipo (Después)",
-    "título": ""
+    "typeh": "Tipo (Después)"
   },
   "guildBanAdd": {
     "banned": "Miembro baneado",
-    "guildBanAdd": "",
     "mod": "Moderador",
     "ningunaRazón": "Ninguna",
     "razón": "Razón"
   },
   "guildBanRemove": {
-    "miembroDesbaneado": "",
     "mod": "Moderador",
     "ningunaRazón": "Ninguna",
     "razón": "Razón",
@@ -80,19 +71,13 @@
     "usuarioSalio": "Usuario salió"
   },
   "guildMemberUpdate": {
-    "actualizadoAp": "",
     "after": "Después:",
-    "anteriorAp": "",
     "before": "Antes:",
     "boostDesc": "<@{{memberID}}> gracias por apoyar este servidor con tu boost. <3",
     "boostTitle": "¡Gracias por tu boost!",
     "by": "Por",
     "name": "Nombre de usuario cambiado",
     "nickname": "Apodo actualizado",
-    "nuevoAp": "",
-    "porAp": "",
-    "rolAgregado": "",
-    "rolSuprimido": "",
     "roladded": "Rol agregado",
     "rolremoved": "Rol retirado",
     "unboostDesc": "<@{{memberID}}> gracias por haber apoyado este servidor, ojalá volverte a ver.",
@@ -166,7 +151,6 @@
     "added": "Permiso añadido",
     "added_plural": "Permisos añadidos",
     "executor": "Realizado por",
-    "realizado": "",
     "removed": "Permiso quitado",
     "removed_plural": "Permisos quitados",
     "título": "Rol actualizado"
