@@ -12,8 +12,6 @@
     "activado": "",
     "desactivado": ""
   },
-  "announcement": {
-  },
   "approve": {
     "aprobado": " Ha sido aprobado.",
     "errorArgs": "",
@@ -497,8 +495,6 @@
     "tagBot": "",
     "tagIntegration": "",
     "tags": ""
-  },
-  "seenon": {
   },
   "server": {
     "2fa": "",
