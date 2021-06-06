@@ -75,7 +75,8 @@
     "ignoreErrorNoRl": "**Error**, el rol no existe.",
     "ignoreRl": "El rol <@&{{role}}> ha sido __ignorado__ exitosamente.",
     "ninguna": "Ninguna palabra bloqueada.",
-    "packBloqueado0": "Se ha bloqueado el pack de palabras con éxito.",
+    "packBloqueado": "Se ha bloqueado el pack `{{packName}}`.",
+    "packDesbloqueado": "Se ha desbloqueado el pack `{{packName}}`.",
     "packsAuthor": "Packs de palabras bloqueadas",
     "packsDescription": "Con los packs de palabras bloqueadas se ahorra tiempo y bloquea directamente las palabras más habituales ofensivas.\n\n- **Bloquee un pack con:** `{{prefix}}{{commandName}} add pack <Nombre>`\n- **Desbloquee un pack con:** `{{prefix}}{{commandName}} remove pack <Nombre>`.",
     "packsField1": "❯ Packs",
@@ -310,7 +311,7 @@
     "errorNokickeable": "**Error**, no puedo expulsar al usuario.",
     "errorUser": "**Error**, no se encontró al usuario, pruebe de nuevo.",
     "exito": "{{emoji}} **{{memberTag}}** fue expulsado.",
-    "kickedMd": "Has sido expulsado en **{{guild}}** por: **{{reason}}**.",
+    "kickedMD": "Has sido expulsado en **{{guild}}** por: **{{reason}}**.",
     "sinRazón": "Sin razón"
   },
   "logs": {
@@ -419,6 +420,7 @@
       "done": " <@{{user}}> ha recibido su key, **¡felicidades!**",
       "multiplePremiums": "Tiene varios premiums, ¿cual desea canjear?"
     },
+    "errorNoRepeated": "**Error**, en este servidor ya se ha canejado un premium.",
     "noEstablecido": "No establecido",
     "infinito": "Infinito.",
     "canjeado": "El premium ha sido canjeado exitosamente en {{server}}.",
