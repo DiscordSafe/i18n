@@ -1,4 +1,11 @@
 {
+    "actions": {
+        "confirm": "Confirmar",
+        "cancel": "Cancelar",
+        "destroy": "Suprimir",
+        "number": "",
+        "customID": ""
+    },
     "error": "Error",
     "canal": "Canal.",
     "attachment": "Era un embed o un attachment.",
