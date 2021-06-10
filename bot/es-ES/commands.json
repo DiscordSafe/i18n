@@ -591,6 +591,7 @@
     "prefix": "❯ Prefix"
   },
   "setup": {
+    "embedAuthor": "Menú de configuración automática",
     "verification": {
       "defaultAuthor": "Configuración de la verificación",
       "modeTitle": "Modo de verificación",
