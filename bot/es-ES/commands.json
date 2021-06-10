@@ -590,6 +590,18 @@
     "panelTitle": "Guía de configuración paso a paso",
     "prefix": "❯ Prefix"
   },
+  "setup": {
+    "verification": {
+      "defaultAuthor": "Configuración de la verificación",
+      "modeTitle": "Modo de verificación",
+      "channelTitle": "Canal de verificación",
+      "channelDesc": "He seleccionado algunos roles que parecen encajar con este ajuste, haga click en alguno de los siguientes o envíe una mención del canal para uno personalizado.\n\n",
+      "noverifiedTitle": "Rol no verificado",
+      "noverifiedDesc": "**Este será el rol que se les dará a los nuevos usuarios al entrar al servidor antes de verificarse.**\nHe mirado seleccionado algunos roles que parecen encajar con este ajuste, haga click en alguno de los siguientes o envíe una mención del rol para uno personalizado.\n\n",
+      "userTitle": "Rol usuario",
+      "userDesc": "**Este será el rol que se les dará a los nuevos usuarios al verificarse.**\nHe mirado algunos roles que parecen encajar con este ajuste, haga click en alguno de los siguientes o envíe una mención del rol para uno personalizado.\n\n"
+    }
+  },
   "softban": {
     "bannedMD": "Has sido baneado (softban) en **{{guild}}** por: **{{reason}}**.",
     "exito": "{{emoji}} **{{memberTag}} fue baneado (softban)**"
