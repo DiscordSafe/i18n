@@ -4,7 +4,9 @@
         "cancel": "Cancelar",
         "destroy": "Suprimir",
         "number": "",
-        "customID": ""
+        "customID": "",
+        "channel": "",
+        "role": ""
     },
     "error": "Error",
     "canal": "Canal.",

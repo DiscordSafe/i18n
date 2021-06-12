@@ -600,7 +600,17 @@
       "noverifiedTitle": "Rol no verificado",
       "noverifiedDesc": "**Este será el rol que se les dará a los nuevos usuarios al entrar al servidor antes de verificarse.**\nHe mirado seleccionado algunos roles que parecen encajar con este ajuste, haga click en alguno de los siguientes o envíe una mención del rol para uno personalizado.\n\n",
       "userTitle": "Rol usuario",
-      "userDesc": "**Este será el rol que se les dará a los nuevos usuarios al verificarse.**\nHe mirado algunos roles que parecen encajar con este ajuste, haga click en alguno de los siguientes o envíe una mención del rol para uno personalizado.\n\n"
+      "userDesc": "**Este será el rol que se les dará a los nuevos usuarios al verificarse.**\nHe mirado algunos roles que parecen encajar con este ajuste, haga click en alguno de los siguientes o envíe una mención del rol para uno personalizado.\n\n",
+      "msgTitle": "Mensaje de verificación",
+      "msgDesc": "**Establezca el mensaje al que tendrán que reaccionar los No Verificados al unirse a su servidor. Importante, el mensaje que establezca debe de estar dentro del canal que configuró anteriormente.**\nDebe enviar una ID del mensaje. [¿Cómo copiar una ID?](https://docs.discordsafe.com/docs/ayuda/copiar-ids)",
+      "trysTitle": "Máximo de intentos (opcional)",
+      "tryDesc": "**Opcionalmente puede establecer el máximo de intentos que puede hacer con el captcha.**\nPresione {{cancelEmoji}} para cancelarlo y dejarlo por defecto.",
+      "minTitle": "Máximo de minutos (opcional)",
+      "minDesc": "**Opcionalmente puede establecer el máximo de minutos para esperar a que un usuario complete el captcha.**\nPresione {{cancelEmoji}} para cancelarlo y dejarlo por defecto.",
+      "ageTitle": "Mínimo de edad (opcional)",
+      "ageDesc": "**Establezca el mínimo de días que deben tener las cuentas cuando se unen a su servidor, así evita que entren multicuentas o self-bots de spam.**\nPresione {{cancelEmoji}} para cancelarlo y dejarlo por defecto.",
+      "doneTitle": "Configuración completada",
+      "doneDesc": "Has completado la configuración de la **verificación** con éxito.\nPuedes usar `{{prefix}}verification` para ver la configuración actual."
     }
   },
   "softban": {
