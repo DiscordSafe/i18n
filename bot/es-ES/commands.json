@@ -29,9 +29,9 @@
     "noAvatar": "**Error**, El usuario {{user}} no tiene avatar."
   },
   "ban": {
-    "autor": "**Error**, no te puedes banear a ti mismo.",
-    "bannedMD": "Has sido baneado en **{{guild}}** por: **{{reason}}**.",
+    "reason": "Has sido baneado en **{{guild}}** por: **{{reason}}**.",
     "changelog": "{{reason}}.\nMod: {{modTag}} ({{modID}})",
+    "autor": "**Error**, no te puedes banear a ti mismo.",
     "errorArgs": "**Error**, debe mencionar, indicar la ID o el nombre de un usuario.",
     "errorGuild": "**Error**, el usuario no está en el servidor.\nUse el comando `hackban` para banearlo.",
     "errorNoBan": "**Error**, no puedo banear al usuario mencionado.",
@@ -152,8 +152,8 @@
     "ver1": "Verificación"
   },
   "deafen": {
+    "reason": "Has sido ensordecido en **{{guild}}** por: **{{reason}}**.",
     "changelog": "{{reason}}.\nMod: {{modTag}} ({{modID}})",
-    "ensordecido": "Has sido ensordecido en **{{guild}}** por: **{{reason}}**.",
     "errorAutor": "**Error**, No te puedes ensordecer a ti mismo.",
     "errorConectado": "**Error**, el miembro no está conectado a un canal de voz.",
     "errorMención": "**Error**: Falta mencionar al usuario.",
@@ -304,14 +304,14 @@
     "uses": "▸ Usos"
   },
   "kick": {
-    "autor": "**Error**, No te puedes expulsar a ti mismo.",
+    "reason": "Has sido expulsado en **{{guild}}** por: **{{reason}}**.",
     "changelog": "{{reason}}.\nMod: {{modTag}} ({{modID}})",
+    "autor": "**Error**, No te puedes expulsar a ti mismo.",
     "errorGuild": "**Error**, el usuario no está en el servidor.",
     "errorNoKick": "**Error**, no puedo expulsar al usuario mencionado.",
     "errorNokickeable": "**Error**, no puedo expulsar al usuario.",
     "errorUser": "**Error**, no se encontró al usuario, pruebe de nuevo.",
     "exito": "{{emoji}} **{{memberTag}}** fue expulsado.",
-    "kickedMD": "Has sido expulsado en **{{guild}}** por: **{{reason}}**.",
     "sinRazón": "Sin razón"
   },
   "logs": {
@@ -374,14 +374,14 @@
     "noCases": "**Error**, no hay suficientes casos para generar gráficos."
   },
   "mute": {
+    "reason": "Has sido muteado en **{{guild}}** por: **{{reason}}**.",
+    "reason_time": "Has sido muteado en **{{guild}}** durante **{{time}}** por: **{{reason}}**.",
     "changelog": "{{reason}}.\nTime: {{time}}\nMod: {{modTag}} ({{modID}})",
-    "desmuteadoMD": "Has sido desmuteado en **{{guild}}** durante **{{time}}** por: **{{reason}}**.",
     "errorAutor": "**Error**, No te puedes dar mutear a ti mismo.",
     "errorMención": "**Error**: Falta mencionar al usuario.\nEscríbalo como: `d.mute @Usuario Tiempo s/m/h Razón`",
     "errorNúmero": "**Error**: El tiempo debe de ser un número.\nEscríbalo como: `d.mute @Usuario Tiempo s/m/h Razón`",
     "errorYaMuteado": "**Error**, Ese usuario ya está muteado.",
     "exito": "{{emoji}} **{{memberTag}}** ha sido muteado.",
-    "muteadoMD": "Has sido muteado en **{{guild}}** por: **{{reason}}**.",
     "sinRazón": "Sin razón"
   },
   "notification": {
@@ -544,54 +544,67 @@
     "establecido": "El prefix ha sido establecido a "
   },
   "settings": {
-    "activado": "Activado.",
+    "panel": "Panel de ajustes de {{guild}}",
+    "panelTitle": "Guía de configuración paso a paso",
+    "despanel": "Explicaciones y estado de las configuraciones.",
+    "ninguno": "Ninguno.",
+    "prefix": "Prefix",
+    "estado": "Estado",
+    "comandos": "Comandos",
     "ajalertas": "Ajustes de los avisos de entradas de raiders",
     "ajanuncios": "Ajustes de los anuncios",
+    "falertas": "Aviso entrada raiders",
     "ajfiltros": "Ajustes de los filtros",
     "ajignorados": "Ajustes de los ignorados",
-    "ajlang": "Ajustes del lenguaje",
+    "ajlang": "Ajustes del idioma",
     "ajlogs": "Ajustes de los logs",
     "ajpalabras": "Ajustes de las palabras bloqueadas",
     "ajprefix": "Ajustes del prefijo",
     "ajsugerencias": "Ajustes de las sugerencias",
     "ajverificacion": "Ajustes de la verificación",
-    "canalanuncios": "❯ Canal anuncios",
-    "canallogs": "❯ Canal logs",
-    "comandos": "❯ Comandos",
-    "desactivado": "Desactivado.",
+    "ajmoderacion": "Ajustes de la moderación",
+    "fidioma": "Idioma",
+    "fignorados": "Whitelist",
+    "finvitaciones": "Filtro Invitaciones",
+    "floggers": "Filtro Iploggers",
+    "flogs": "Logs",
+    "fmalware": "Filtro Anti-Spam",
+    "fnsfw": "Filtro Imágenes",
+    "fpalabras": "Palabras bloqueadas",
+    "fsugerencias": "Sugerencias",
+    "fverificacion": "Verificación",
+    "fnotifyUsers": "Notificar usuarios",
+    "fdeleteCmds": "Borrar comandos después de ejecución",
+    "idioma": "Idioma",
+    "ignorados": "Ignorados",
+    "canallogs": "Canal de logs generales",
+    "logsmod": "Canal de logs de moderación",
+    "logsboost": "Canal de logs de boosts",
+    "desmoderacion": "Configure el comportamiento de las acciones de moderación.",
     "desalertas": "Avisa al owner del servidor cuando un usuario malicioso que está en nuestro forceban entra al servidor. Para configurarlo use el comando que se muestra debajo.",
-    "desanuncios": "Para configurar los anuncios use los comandos que se muestran abajo.",
-    "desfiltros": "Para configurar los filtros use el comando `{{prefix}}filters` y `{{prefix}}filters help`",
+    "desfiltros": "Los filtros permiten proteger tu servidor para **evitar que se mande contenido malicioso** y que tus canales sean un sitio limpio.\n**Para saber como configurarlo use:** `{{prefix}}filter help`",
     "designorados": "Para configurar los ignorados use los comandos que se muestran abajo.",
-    "deslang": "Para configurar el lenguaje use los comandos que se muestran abajo.",
-    "deslogs": "Para configurar los logs use los comandos que se muestran abajo.",
-    "despalabras": "Para configurar las palabras bloquedas use los comandos que se muestran abajo.",
-    "despanel": "Explicaciones y estado de las configuraciones.",
+    "deslang": "Configure el idioma del bot en su servidor.",
+    "deslogs": "Poderosos logs con muchos detalles para registrar todas las acciones que ocurran en su servidor.",
+    "despalabras": "Bloqueo de palabras para moderar automáticamente.",
     "desprefix": "Para cambiar el prefijo/prefix del bot en este servidor use el comando `{{prefix}}setprefix`.",
     "dessugerencias": "Reciba feedback de sus usuarios mediantes sugerencias completamente customizables.\nPara configurarlo revise la documentación o consulte los comandos debajo.",
-    "desverificacion": "Para configurar la verificación use los comandos que se muestran abajo.",
-    "estado": "❯ Estado",
-    "falertas": "❯ Aviso entrada raiders",
-    "fanuncios": "❯ Anuncios",
-    "fidioma": "❯ Idioma",
-    "fignorados": "❯ Whitelist",
-    "finvitaciones": "❯ Filtro Invitaciones",
-    "floggers": "❯ Filtro Iploggers",
-    "flogs": "❯ Logs",
-    "fmalware": "❯ Filtro Anti-Spam",
-    "fnsfw": "❯ Filtro Imágenes",
-    "fpalabras": "❯ Palabras bloqueadas",
-    "fsugerencias": "❯ Sugerencias",
-    "fverificacion": "❯ Verificación",
-    "idioma": "❯ Idioma",
-    "ignorados": "❯ Ignorados",
-    "ninguno": "Ninguno.",
-    "panel": "Panel de ajustes de {{guild}}",
-    "panelTitle": "Guía de configuración paso a paso",
-    "prefix": "❯ Prefix"
+    "desverificacion": "Para configurar la verificación use los comandos que se muestran abajo."
   },
   "setup": {
     "embedAuthor": "Menú de configuración automática",
+    "moderation": {
+      "defaultAuthor": "Configuración de la moderación",
+      "notifyUsers": "Notificar al sancionado al sancionarle",
+      "notifyUsers_footer": "Esta opción se puede sobreescribir añadiendo `--md` al final del comando.",
+      "deleteCmds": "Borrar mensajes después de usar comandos de moderación",
+      "deleteCmds_footer": "Esta opción se puede sobreescribir añadiendo `--del` al final del comando.",
+      "replyWithReason": "Notificar con la razón de la sanción",
+      "replyWithReason_footer": "Esta opción se puede sobreescribir añadiendo `--reason` al final del comando.",
+      "doneTitle": "Configuración completada",
+      "doneDesc": "Has completado la configuración de la **moderación** con éxito."
+
+    },
     "verification": {
       "defaultAuthor": "Configuración de la verificación",
       "modeTitle": "Modo de verificación",
@@ -614,7 +627,7 @@
     }
   },
   "softban": {
-    "bannedMD": "Has sido baneado (softban) en **{{guild}}** por: **{{reason}}**.",
+    "reason": "Has sido baneado (softban) en **{{guild}}** por: **{{reason}}**.",
     "exito": "{{emoji}} **{{memberTag}} fue baneado (softban)**"
   },
   "suggest": {
@@ -730,16 +743,16 @@
     "title": ":trophy: Top bots"
   },
   "unban": {
+    "reason": "Has sido desbaneado en **{{guild}}** por: **{{reason}}**.",
     "changelog": "{{reason}}.\nMod: {{modTag}} ({{modID}})",
     "errorNoUnBan": "**Error**, no puedo desbanear al usuario.",
     "errorUser": "**Error**, no se encontró baneado al usuario, pruebe de nuevo.",
     "exito": "{{emoji}} **{{memberTag}}** ha sido desbaneado.",
-    "sinRazón": "Sin razón",
-    "unbannedMD": "Has sido baneado en **{{guild}}** por: **{{reason}}**."
+    "sinRazón": "Sin razón"
   },
   "undeafen": {
+    "reason": "Has sido desensordecido en **{{guild}}** por: **{{reason}}**.",
     "changelog": "{{reason}}.\nMod: {{modTag}} ({{modID}})",
-    "ensordecido": "Has sido desensordecido en **{{guild}}** por: **{{reason}}**.",
     "errorAutor": "**Error**, No te puedes ensordecer a ti mismo.",
     "errorConectado": "**Error**, el miembro no está conectado a un canal de voz.",
     "errorMención": "**Error**: Falta mencionar al usuario.",
@@ -748,8 +761,8 @@
     "sinRazón": "Sin razón"
   },
   "unmute": {
+    "reason": "Has sido desmuteado en **{{guild}}** por **{{reason}}**.",
     "changelog": "{{reason}}.\nMod: {{modTag}} ({{modID}})",
-    "desmuteadoMD": "Has sido desmuteado en **{{guild}}** por **{{reason}}**.",
     "errorMención": "**Error: Falta mencionar al usuario.\nEscríbalo como: `d.unmute @Usuario/ID Usuario`",
     "errorNoExiste": "**Error**, no existe un rol **Muted**, lo he creado y configurado :).",
     "errorNoMuteado": "**Error**, el usuario no está muteado.",
@@ -758,10 +771,10 @@
   },
   "verification": {
     "autorAyuda": "Panel de ayuda sobre verificación",
-    "canal": "❯ Canal",
+    "canal": "Canal",
     "desactivado": "Has desactivado la verificación exitosamente.",
     "desactivadoCorrecto": "EL límite mínimo de tiempo de la cuenta se ha desactivado correctamente.",
-    "desactivar": "❯ Desactivar",
+    "desactivar": "Desactivar",
     "desactivarField": "Para desactivar la verificación use `d.verification disable`.",
     "descripciónAyuda": "Establezca la verificación en su servidor con uno de nuestros poderosos modos para evitar usuarios conflictivos, multicuentas o bots de spam.",
     "doc": "❯ Guía de configuración",
@@ -803,21 +816,21 @@
     "establecidoVerificación": "El modo ha sido establecido a `verification`",
     "footerAyuda": "docs.discordsafe.com",
     "guía": "Guía de configuración",
-    "importante": "❯ Importante",
+    "importante": "Importante",
     "importanteField": "Si algo falla recuerda revisar las tildes y faltas de ortografía.\nLos comandos se tiene que poner sin los `<>`.\n[¿No sabes como copiar una ID?](https://docs.discordsafe.com/docs/guide/copy-ids).\nSi tienes dudas pregúntalas en [el servidor de soporte](https://discordsafe.com/discord).",
-    "intentos": "❯ Máximo de intentos",
+    "intentos": "Máximo de intentos",
     "intentos2": "intentos",
-    "mensaje": "❯ Mensaje",
+    "mensaje": "Mensaje",
     "mensajeField": "**Esto solo es necesario para el modo de __reacción__** donde será el mensaje al que los usuarios tengan que reaccionar.\nPara ponerlo usa `d.verification setmessage MensajeID`",
-    "minutos": "❯ Minutos",
+    "minutos": "Minutos",
     "minutos2": "minutos",
-    "modo": "❯ Modo",
+    "modo": "Modo",
     "noArgsAutor": "Configuración de la verificación de {{server}}",
     "noArgsDescripción": "Establezca la verificación en su servidor con uno de nuestros poderosos modos para evitar usuarios conflictivos, multicuentas o bots de spam.",
     "noArgsFooter": "Para saber como configurarlo use d.verification help",
-    "rolnoverificado": "❯ Rol No verificado",
-    "rolusuario": "❯ Rol Usuario",
-    "tiempo": "❯ Mínimo de creación"
+    "rolnoverificado": "Rol No verificado",
+    "rolusuario": "Rol Usuario",
+    "tiempo": "Mínimo de creación"
   },
   "verifyme": {
     "aprobado": " Has sido verificado.",
@@ -839,13 +852,13 @@
     "fieldVoteAgain": "Puedes volver a votar en "
   },
   "warn": {
+    "reason": "Has sido advertido en **{{guild}}** por: **{{reason}}**.",
     "errorAutor": "**Error**, No te puedes dar warn a ti mismo.",
     "errorCaracteres": "**Error**, la razón lleva demasiados caracteres, escriba menos.",
     "errorMención": "**Error**: Falta mencionar al usuario.\nEscríbalo como: `d.mute [@Usuario/ID Usuario] <Razón>`",
     "errorRazón": "**Error**: Falta la razón.",
     "errorUser": "**Error**, no se encontró al usuario, pruebe de nuevo, debe añadir argumentos válidos.",
-    "exito": "{{emoji}} **{{memberTag}}** ha sido advertido.",
-    "warnMD": "Has sido advertido en **{{guild}}** por: **{{reason}}**."
+    "exito": "{{emoji}} **{{memberTag}}** ha sido advertido."
   },
   "warnings": {
     "noMention": "**Error**, debe mencionar a un usuario.",

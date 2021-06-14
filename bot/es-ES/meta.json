@@ -194,6 +194,11 @@
     "example": "",
     "usage": ""
   },
+  "setup": {
+    "description": "Configure los ajustes del bot de forma sencilla con reacciones y botones.",
+    "example": "",
+    "usage": ""
+  },
   "softban": {
     "description": "Banea e inmediatamente desbanea a un miembro para borrar mensajes.",
     "example": "@Clyde#0001 Flood en el chat --md",
