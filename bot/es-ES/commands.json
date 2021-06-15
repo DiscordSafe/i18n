@@ -80,7 +80,7 @@
     "packsAuthor": "Packs de palabras bloqueadas",
     "packsDescription": "Con los packs de palabras bloqueadas se ahorra tiempo y bloquea directamente las palabras más habituales ofensivas.\n\n- **Bloquee un pack con:** `{{prefix}}{{commandName}} add pack <Nombre>`\n- **Desbloquee un pack con:** `{{prefix}}{{commandName}} remove pack <Nombre>`.",
     "packsField1": "❯ Packs",
-    "packsField2": "`en` - Palabras ofensivas en __Inglés__.\n`es` - Palabras ofensivas en __Español__\n`lgbt` - Insultos a la comunidad lgbt.\n`nsfw` - Palabras ofensivas explícitas.\n`racists` - Insultos racistas.",
+    "packsField2": "`en` - Palabras ofensivas en __Inglés__.\n`es` - Palabras ofensivas en __Español__\n`lgbt` - Insultos a la comunidad lgbt.\n`nsfw` - Palabras ofensivas explícitas.\n`racists` - Insultos racistas.\n`pacman` - Pacmans (`:v`).",
     "palabraBloqueadaExito": "Palabra bloqueada con éxito",
     "palabraDesbloqueadaExito": "Palabra desbloqueada con éxito.",
     "palabrasReseteadasExito": "Se han desbloqueado todas las palabras con éxito.",
