@@ -67,7 +67,7 @@
   "commands": {
     "description": "Lista de comandos.",
     "example": "",
-    "usage": ""
+    "usage": "<--channel>"
   },
   "deafen": {
     "description": "Ensordece a un miembro.",
