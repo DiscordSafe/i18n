@@ -169,5 +169,27 @@
     "undeaf": "Desensordecido del canal de voz",
     "unmute": "Desmuteado del canal de voz",
     "user": "Usuario"
+  },
+  "stageInstanceCreate": {
+    "title": "Evento de escenario creado",
+    "channel": "Canal",
+    "createdAt": "Creado el",
+    "privacyLevel": "Privacidad",
+    "discoverable": "Descubrible",
+    "public": "Público",
+    "guildonly": "Solo para el servidor",
+    "instanceID": "ID de la instancia: {{id}}",
+    "region": "Región",
+    "members": "Cantidad de miembros"
+  },
+  "stageInstanceDelete": {
+    "title": "Evento de escenario eliminado"
+  },
+  "stageInstanceUpdate": {
+    "title": "Evento de escenario actualizado",
+    "topica": "Tema (Antes)",
+    "topicd": "Tema (Después)",
+    "privacya": "Privacidad (Antes)",
+    "privacyd": "Privacidad (Después)"
   }
 }
