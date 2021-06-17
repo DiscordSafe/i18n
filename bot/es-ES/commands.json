@@ -89,13 +89,17 @@
     "unIgnoreRl": "El rol <@&{{role}}> ha __dejado de ser ignorado__ exitosamente."
   },
   "botinfo": {
-    "info": "Información de D-Safe",
-    "librería": "❯ Librería",
+    "info": "Información de {{botName}}",
+    "library": "❯ Librería",
     "procesador": "Procesador: {{cpu}}",
     "servidores": "❯ Servidores",
     "servidoresshard": "❯ Servidores en este shard",
     "usuarios": "❯ Usuarios",
-    "versión": "❯ Versión"
+    "version": "❯ Versión",
+    "uptime": "❯ Uptime",
+    "shard": "❯ Shard",
+    "ram": "❯ RAM",
+    "developers": "❯ Desarrolladores"
   },
   "case": {
     "action": "Acción",
@@ -298,7 +302,6 @@
     "features": "▸ Características del servidor",
     "inviter": "▸ Invitador",
     "member": "▸ Miembros",
-    "presence": "▸ Cantidad de actividades",
     "temporal": "▸ Temporal",
     "url": "▸ URL",
     "uses": "▸ Usos"
@@ -523,7 +526,22 @@
     "msgMention": "Solo @menciones",
     "región": "▸ Región",
     "specialChannels": "▸ Canales especiales",
-    "verification": "▸ Nivel de verificación"
+    "verification": "▸ Nivel de verificación",
+    "roles": "▸ Roles",
+    "bans": "▸ Bans",
+    "webhooks": "▸ Webhooks",
+    "boosts": "▸ Boosts",
+    "afk": "▸ AFK",
+    "widget": "▸ Widget",
+    "emojis": "▸ Emojis",
+    "total": "Total:",
+    "nsfw_level": "▸ Nivel de NSFW",
+    "nsfw_levels": {
+      "default": "Por defecto",
+      "explicit": "Explícito",
+      "safe": "Seguro",
+      "age_restricted": "Restringido por edad"
+    }
   },
   "setlang": {
     "conf1": "Configuración del idioma en {{server}}",
