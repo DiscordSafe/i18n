@@ -108,8 +108,8 @@
   "message": {
     "NoFlood": "**[AntiFlood]** No envies tantos mensajes.",
     "NoInvitaciones": "No se permiten invitaciones a otros servidores de discord.",
-    "NoLoggersAvanzado": "**[Anti Iplogger Avanzado]** No se permiten enviar enlaces iploggers o maliciosos.",
-    "NoLoggersBásico": "**[Anti Iplogger Básico]** No se permiten enviar enlaces iploggers o maliciosos.",
+    "NoLoggersAvanzado": "**[Anti Iplogger Avanzado]** No se permite enviar enlaces iploggers o maliciosos.",
+    "NoLoggersBásico": "**[Anti Iplogger Básico]** No se permite enviar enlaces iploggers o maliciosos.",
     "NoNSFW": "**[Filtro Imágenes Premium]** No se permite contenido NSFW fuera de canales NSFW.",
     "NoSpam": "**[AntiSpam]** Su mensaje ha sido clasificado como spam.",
     "infoComandos": "Para ver mis comandos usa: {{prefix}}commands",
