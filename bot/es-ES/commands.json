@@ -269,7 +269,12 @@
     "embedSuggestion3": "Puedes establecer mi prefijo con `{{prefix}}setprefix`.",
     "embedSuggestion4": "Puedes especificar de quién quieres que borre los mensajes con `{{prefix}}clear @Usuario`.",
     "field3": "Enlaces útiles",
-    "field4": "{{safeadd}} [Invítame](https://discordsafe.com/invite)\n{{safewebsite}} [Página web](https://discordsafe.com/)\n{{safediscord}} [Servidor soporte](https://discordsafe.com/discord)\n{{safedoc}} [Documentación](https://docs.discordsafe.com)\n{{safepatreon}} [Patreon](https://www.patreon.com/discordsafe)\n{{safetwitter}} [Twitter](https://twitter.com/DiscordSafe)",
+    "inviteme": "Invítame",
+    "website": "Página web",
+    "support": "Soporte",
+    "documentation": "Documentación",
+    "patreon": "Patreon",
+    "twitter": "Twitter",
     "footer": "Shard {{shardID}}",
     "ninguno": "Ninguno."
   },
