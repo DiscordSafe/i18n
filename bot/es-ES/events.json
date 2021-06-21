@@ -56,7 +56,7 @@
     "captchacFooter": "¿Quieres invitarme a tu servidor? discordsafe.com/invite",
     "captchacTitle": "¡Gracias!",
     "creación": "Creación",
-    "expulsado": "Has sido expulsado del servidor **{{server}}** porque su cuenta no supera el mímimo de **{{age}}** días.",
+    "expulsado": "Has sido expulsado del servidor **{{server}}** porque su cuenta no supera el mínimo de **{{age}}** días.",
     "expulsadoRazón": "Mínimo de días de la creación de la cuenta.",
     "forceban": "Forceban",
     "kick": "Verificación no completada.",

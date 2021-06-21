@@ -642,6 +642,24 @@
       "ageDesc": "**Establezca el mínimo de días que deben tener las cuentas cuando se unen a su servidor, así evita que entren multicuentas o self-bots de spam.**\nPresione {{cancelEmoji}} para cancelarlo y dejarlo por defecto.",
       "doneTitle": "Configuración completada",
       "doneDesc": "Has completado la configuración de la **verificación** con éxito.\nPuedes usar `{{prefix}}verification` para ver la configuración actual."
+    },
+    "filters": {
+      "defaultAuthor": "Configuración de los filtros",
+      "inviteFilter": "Filtro de invitaciones",
+      "inviteFilter_desc": "Bloquea las invitaciones a otros servidores de Discord.",
+      "iploggersFilter": "Filtro anti-iploggers",
+      "iploggersFilter_desc": "Borra los enlaces que contengan un iplogger, los iploggers son sitios webs que rastrean la información del usuario.",
+      "spamFilter": "Filtro anti-spam",
+      "spamFilter_desc": "Bloquea mensajes con muchas mayúsculas, palabras duplicadas y copypastas.",
+      "spamLevel": "Niveles del filtro anti-spam",
+      "spamLevel_desc": "{{emoji1}} **Nivel 1**, prohíbe un mensaje con muchas mayúsculas o spam.\n{{emoji2}} **Nivel 2**, prohíbe los mensajes duplicados, mayúsculas y spam.\n{{emoji3}} **Nivel 3**, prohíbe todos los mensajes duplicados, mayúsculas, copypastas y spam.",
+      "imagesFilter": "Filtro de imágenes NSFW",
+      "imagesFilter_desc": "Bloquea las imágenes detectadas como explícitas fuera de canales NSFW.",
+      "doneTitle": "Configuración completada",
+      "doneDesc":"Has completado la configuración de los **filtros** con éxito.",
+      "level1": "Nivel 1",
+      "level2": "Nivel 2",
+      "level3": "Nivel 3"
     }
   },
   "softban": {
