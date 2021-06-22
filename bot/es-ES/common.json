@@ -1,4 +1,5 @@
 {
+    "whatisthis": "*[¿Qué es esto?]({{link}})*",
     "actions": {
         "confirm": "Confirmar",
         "cancel": "Cancelar",
