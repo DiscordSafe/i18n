@@ -171,6 +171,9 @@
     "noPeligro": "No se ha encontrado ningún usuario peligroso, ¡muy bien!",
     "usuarios": ":eyes: {{num}} usuarios detectados."
   },
+  "emoji": {
+    "noEncontrado": "**Error**, no se ha encontrado el emoji."
+  },
   "filter": {
     "activadoImágenes": "Se ha activado correctamente el filtro de imágenes.",
     "activadoInvitaciones": "Se ha activado correctamente el filtro de invitaciones.",

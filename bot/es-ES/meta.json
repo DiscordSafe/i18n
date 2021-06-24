@@ -79,6 +79,11 @@
     "example": "",
     "usage": ""
   },
+  "emoji": {
+    "description": "Muestra el emoji en grande.",
+    "example": ":pepeamor:",
+    "usage": "[Emoji]"
+  },
   "filter": {
     "description": "Configura los filtros.",
     "example": "activate anti-spam",
