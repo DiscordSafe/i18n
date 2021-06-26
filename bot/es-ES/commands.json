@@ -409,13 +409,14 @@
   "premium": {
     "help": {
       "title": "D-Safe Premium",
-      "desc": "Obtén una tonelada de ventajas para potenciar tu comunidad.",
+      "desc": "Mejora tu comunidad con D-Safe Premium y apoya el desarrollo del bot para poder traer actualizaciones mejor trabajadas y con las características que esperas.",
       "field1": "Beneficios",
-      "field1d": "• Filtro IPlogger Avanzado.\n• Filtro imágenes NSFW.\n• Auto Forceban.\n• Establecer el rol de encargados de sugerencias.\n• Customizar la paleta de colores.\n• Establecer el canal único donde enviar sugerencias.\n• Establecer el tiempo de espera para sugerir.\n• Customizar los emojis de las reacciones.\n• Mejor tiempo de respuesta.\n• Logs de boosts con agradecimientos.\n• Soporte prioritario.\n• Roles y canales exclusivos.\n• Forma parte del programa de testers y prueba las futuras características.",
+      "field1d": "• Filtro IPlogger Avanzado.\n• Filtro imágenes NSFW.\n• Auto Forceban.\n• Rol encargado de sugerencias.\n• Paleta de colores customizada.\n• Canal solo para sugerencias.\n• Cooldown entre sugerencias.\n• Emojis customizados en las reacciones.\n• Mayor tiempo de respuesta.\n• Logs de mejoras del servidor.\n• Insignia especial.\n• Soporte prioritario.\n• Roles y canales exclusivos.\n• Forma parte del programa de Testers.",
       "field2": "Consíguelo",
-      "field2d": "• Apoyándonos económicamente en [Patreon](https://patreon.com/join/DiscordSafe).\n• ",
+      "field2d": "• Apoyándonos en [Patreon](https://patreon.com/join/DiscordSafe).\n• De forma gratuita votándonos en listas de bots, [más información](https://docs.discordsafe.com/docs/support-us).",
       "field3": "Comandos",
-      "field3d": "• `redeem` Canjea tu premium en el servidor.\n• `info` Muestra el estado actual de tu premium.\n• `safergen` Genera un premium si tienes los requisitos de votos."
+      "field3d": "• `redeem`, canjea tu premium en el servidor.\n• `info`, muestra el estado actual de tu premium.\n• `safergen`, genera un premium si tienes los requisitos de votos.",
+      "image": "https://i.imgur.com/ee7uS79.png"
     },
     "safer": {
       "author": "¡Felicidades! Has obtenido D-Safe Premium",
