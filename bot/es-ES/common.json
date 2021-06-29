@@ -9,6 +9,12 @@
         "channel": "",
         "role": ""
     },
+    "paginationButton": {
+        "back": "Anterior",
+        "next": "Siguiente",
+        "close": "Cerrar",
+        "home": "Inicio"
+    },
     "error": "Error",
     "canal": "Canal",
     "attachment": "Era un embed o un attachment.",
