@@ -356,20 +356,27 @@
     }
   },
   "mail": {
-    "borrarCorreosLeídos": "Borrar correos leídos",
+    "borrarCorreosLeídos": "Borrar correos",
     "buzónDeCorreos": "Buzón de correos",
     "correosLeídos": "Correos leídos",
     "correosNoLeídos": "{{emoji}} Ver correos no leídos `{{number}}`",
     "correosNoLeídosDes": "Vea el correo reciente no leído.",
     "correosNoLeídosT": "Correos no leídos",
-    "eliminado": " | Se ha eliminado correctamente el correo **#{{id}}**.",
-    "eliminarCorreos": "{{emoji}} Eliminar correos leídos `{{number}}`",
+    "eliminado": " Se ha eliminado correctamente el correo **#{{id}}**.",
+    "eliminarCorreos": "{{emoji}} Eliminar correos `{{number}}`",
     "eliminarCorreosDes": "Elimine el correo leído de su buzón.",
     "leyendoCorreo": "Leyendo el correo #{{id}}",
     "vaya": "Vaya...",
     "vayaDes": "aquí no hay nada.",
-    "volverLeer": "{{emoji}} Volver a leer correos leídos `{{number}}`",
-    "volverLeerDes": "Vuelva a leer correos ya leídos."
+    "volverLeer": "{{emoji}} Volver a leer correos `{{number}}`",
+    "volverLeerDes": "Vuelva a leer correos leídos.",
+    "components": {
+      "readButtom": "Ver correos no leídos",
+      "rereadButtom": "Volver a leer correos",
+      "deleteButtom": "Borrar correos",
+      "selectPlaceholder": "Seleccione un correo para leer",
+      "deletePlaceholder": "Seleccione un correo para borrar"
+    }
   },
   "modstats": {
     "actions": {
