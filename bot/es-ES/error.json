@@ -1,15 +1,15 @@
 {
-    "comandoError": "Ha ocurrido un error al ejecutar el comando.\nSe ha notificado a los desarrolladores.\nSi necesita ayuda pregunte en nuestro servidor de soporte, https://discordsafe.com/discord",
-    "argumentos": "Este comando necesita argumentos, **Use:** {{prefijo}}{{commandName}} ",
-    "guild": "No puedes usar este comando fuera de un servidor.",
-    "palabra": "Esa palabra está bloqueada.",
-    "idioma": "El idioma del servidor es inglés, para cambiarlo use ",
-    "nsfw": "Este comando es solo para canales NSFW.",
-    "bloqueado": "Se te ha prohibido mi uso, estás bloqueado jaja.",
-    "permisos": "No tienes permisos suficientes para usar este comando.",
-    "servidorOnly": "No puedes usar este comando.",
-    "cooldown": "Debes que esperar {{segundos}} segundo/s para volver a usar este comando.",
-    "desactivado": "Este comando ha sido desactivado temporalmente para arreglar errores y que funcione correctamente.",
-    "botPerms": "No tengo suficientes permisos para usar este comando, necesito el permiso de {{permiso}}.",
-    "ownerOnly": "Este comando solo puede ser ejecutado por el dueño del servidor."
+  "comandoError": "Ha ocurrido un error al ejecutar el comando.\nSe ha notificado a los desarrolladores.\nSi necesita ayuda pregunte en nuestro servidor de soporte, https://discordsafe.com/discord",
+  "argumentos": "Este comando necesita argumentos, **Use:** {{prefijo}}{{commandName}} ",
+  "guild": "No puedes usar este comando fuera de un servidor.",
+  "palabra": "Esa palabra está bloqueada.",
+  "idioma": "El idioma del servidor es inglés, para cambiarlo use ",
+  "nsfw": "Este comando es solo para canales NSFW.",
+  "bloqueado": "Se te ha prohibido mi uso, estás bloqueado jaja.",
+  "permisos": "No tienes permisos suficientes para usar este comando.",
+  "servidorOnly": "No puedes usar este comando.",
+  "cooldown": "Debes que esperar {{segundos}} segundo/s para volver a usar este comando.",
+  "desactivado": "Este comando ha sido desactivado temporalmente para arreglar errores y que funcione correctamente.",
+  "botPerms": "No tengo suficientes permisos para usar este comando, necesito el permiso de {{permiso}}.",
+  "ownerOnly": "Este comando solo puede ser ejecutado por el dueño del servidor."
 }

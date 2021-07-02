@@ -637,7 +637,6 @@
       "replyWithReason_footer": "Esta opción se puede sobreescribir añadiendo `--reason` al final del comando.",
       "doneTitle": "Configuración completada",
       "doneDesc": "Has completado la configuración de la **moderación** con éxito."
-
     },
     "verification": {
       "defaultAuthor": "Configuración de la verificación",
@@ -672,7 +671,7 @@
       "imagesFilter": "Filtro de imágenes NSFW",
       "imagesFilter_desc": "Bloquea las imágenes detectadas como explícitas fuera de canales NSFW.",
       "doneTitle": "Configuración completada",
-      "doneDesc":"Has completado la configuración de los **filtros** con éxito.",
+      "doneDesc": "Has completado la configuración de los **filtros** con éxito.",
       "level1": "Nivel 1",
       "level2": "Nivel 2",
       "level3": "Nivel 3"
