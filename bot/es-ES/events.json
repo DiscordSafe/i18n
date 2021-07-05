@@ -191,5 +191,40 @@
     "topicd": "Tema (Después)",
     "privacya": "Privacidad (Antes)",
     "privacyd": "Privacidad (Después)"
+  },
+  "threadCreate": {
+    "title": "Hilo creado",
+    "name": "Nombre",
+    "threadType": "Tipo",
+    "threadID": "ID del hilo: {{id}}",
+    "owner": "Creador",
+    "archived": "Archivado",
+    "archivedAt": "Archivado el",
+    "autoArchive": "Se autoarchivará en",
+    "createdAt": "Creado el",
+    "members": "Cantidad de miembros",
+    "locked": "Bloqueado",
+    "messageCount": "Cantidad de mensajes",
+    "parent": "Canal padre",
+    "private": "Privado",
+    "public": "Público",
+    "news": "Anuncios"
+  },
+  "threadDelete": {
+    "title": "Hilo eliminado"
+  },
+  "threadMembersUpdate": {
+    "join": "Se unió al hilo #{{thread}}",
+    "leave": "Abandonó el hilo #{{thread}}",
+    "thread": "Hilo"
+  },
+  "threadUpdate": {
+    "title": "Hilo actualizado",
+    "namea": "Nombre (Antes)",
+    "named": "Nombre (Después)",
+    "archiveda": "Archivado (Antes)",
+    "archivedd": "Archivado (Después)",
+    "autoArchivea": "Tiempo de autoarchivación (Antes)",
+    "autoArchived": "Tiempo de autoarchivación (Después)"
   }
 }
