@@ -37,7 +37,7 @@
         "errorNoBan": "**Error**, I cannot ban the mentioned user.",
         "errorNobanneable": "**Error**, I cannot ban the mentioned user.",
         "errorUser": "**Error**, User not found, please try again.",
-        "exito": "The ban hammer has hitted successfuly!",
+        "exito": "{{emoji}} **{{memberTag}} was banned**",
         "sinRazón": ""
     },
     "baninfo": {
