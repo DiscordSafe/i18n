@@ -30,7 +30,6 @@
     },
     "ban": {
         "autor": "**Error**, You can't ban yourself.",
-        "bannedMD": "",
         "changelog": "",
         "errorArgs": "",
         "errorGuild": "**Error**, the user is not on the server.\nBan it with the `hackban`.",
@@ -75,7 +74,6 @@
         "ignoreErrorNoRl": "",
         "ignoreRl": "",
         "ninguna": "All words have been successfully unlocked.",
-        "packBloqueado0": "The list of recommended words has been blocked successfully.",
         "packsAuthor": "Blocked words packs",
         "packsDescription": "Blocked word packs save time and directly block the most common offensive words.\n\n- **Block a pack with:** `{prefix}}{{commandName}} add pack <Number>`\n- **Unlock a pack with:** `{prefix}}{{commandName}} remove pack <Number>`.",
         "packsField1": "❯ Packs",
@@ -89,12 +87,10 @@
     },
     "botinfo": {
         "info": "About D-Safe",
-        "librería": "❯ Library",
         "procesador": "Processor: {{cpu}}",
         "servidores": "❯ Guilds",
         "servidoresshard": "❯ Guilds in this shard",
-        "usuarios": "❯ Users",
-        "versión": "❯ Version"
+        "usuarios": "❯ Users"
     },
     "case": {
         "action": "",
@@ -152,7 +148,6 @@
     },
     "deafen": {
         "changelog": "",
-        "ensordecido": "",
         "errorAutor": "",
         "errorConectado": "",
         "errorMención": "",
@@ -264,7 +259,6 @@
         "embedSuggestion3": "You can set my prefix with`{{prefix}}setprefix`.",
         "embedSuggestion4": "You can specify from whom you want me to delete the messages with `{{prefix}}clear @Usuario`.",
         "field3": "Helpful Links",
-        "field4": "{{safeadd}} [Invite me](https://discordsafe.com/invite)\n{{safewebsite}} [Website](https://discordsafe.com/)\n{{safediscord}} [Support server](https://discordsafe.com/discord)\n{{safedoc}} [Documentation](https://docs.discordsafe.com)\n{{safepatreon}} [Patreon](https://www.patreon.com/discordsafe)\n{{safetwitter}} [Twitter](https://twitter.com/DiscordSafe)",
         "footer": "Shard {{shardID}}",
         "ninguno": "None."
     },
@@ -297,7 +291,6 @@
         "features": "",
         "inviter": "",
         "member": "",
-        "presence": "",
         "temporal": "",
         "url": "",
         "uses": ""
@@ -310,7 +303,6 @@
         "errorNokickeable": "",
         "errorUser": "",
         "exito": "",
-        "kickedMd": "",
         "sinRazón": "Without reason."
     },
     "logs": {
@@ -374,13 +366,11 @@
     },
     "mute": {
         "changelog": "",
-        "desmuteadoMD": "",
         "errorAutor": "**Error**, You can't mute yourself.",
         "errorMención": "**Error: Need to mention the user.**\nWrite it as: `d.mute @User Number s/m/h Reason`",
         "errorNúmero": "",
         "errorYaMuteado": "That user is already muted.",
         "exito": "",
-        "muteadoMD": "**{{usermuted}}** you have been muted because {{razón}}",
         "sinRazón": ""
     },
     "notification": {
@@ -398,43 +388,29 @@
         "cargando": "Loading…"
     },
     "premium": {
-        "ayudaDes": "The system works by means of keys, when you obtain it you are assigned a key with your username that cannot be exchanged by another person, therefore you must exchange it on the server you want and it only lasts 1 month until you get another one in this way you can use the benefits on one server per month.\nIn the case of partners, they will have a key only associated with their server for an unlimited time or until their partner is removed and therefore the benefits.",
         "ayudaField1": "× Advanced IpLogger filter - Blocks the triple of directions (+800) and links than the basic filter.\n× Image filter - Blocks and deletes NSFW images (porn or gore) that are sent out of NSFW channels.\n× Auto Forceban - Bans or unbans users that are added or removed from the forceban automatically.",
-        "ayudaField2": "`redeem` Lets you redeem your key in the server you are.\n`info` It shows the current information of your benefits (time you have left, etc).\n`safergen` Generates your key if you are Safer II in our server.",
         "ayudaFooter": "Remember that you need to write the prefix when using a command and that you don't need to put <>.",
-        "ayudaTitle": "D-Safe Premium Help Panel",
         "beneficios": "❯ Benefits",
         "canjeado": "Premium has been redeemed in {{server}}",
-        "comandos": "❯ Commands",
         "comoConseguirlo": "❯  How to obtain it?",
-        "errorNoKey": "You don't have a key to open my heart :(.",
         "errorNoPremium": "You aren't a premium user.",
-        "errorNoSafer": "You aren't Safer II.",
         "errorNoServidor": "You can only use this command in our server, `https://discordsafe.com/discord`.",
         "errorPartner": "You are partner and can't redeem your premium in another server.",
         "errorYaKey": "You already have a key, you can't have two, I'm not ready for a polyamorous relationship yet.",
         "infoAuthor": "Premium of {{user}}",
-        "infoField1": "Key",
         "infoField2": "Server",
-        "infoField3": "Untill",
         "infoFooter": "Remember that only you can use your key, sharing it would do nothing.",
         "md": "📨 **{{user}}**, check out your private messages!",
         "noArgsDes": "It is a premium benefit for Partners, Safers and donors.",
-        "noArgsField1": "× Advanced Iplogger Filter (+800 blocked).\n× Filter images (NSFW or gore out of nsfw channels).\n× Auto Forceban every time a user is added or removed.\n× More coming soon.",
         "noArgsField2": "× Obtaining Safer II, [learn more on our server](https://discordsafe.com/discord).\n× Being a partner in [our server](https://discordsafe.com/discord).\n× [Patreon](https://patreon.com/DiscordSafe).",
-        "noArgsFooter": "To obtain more information use d.premium help",
         "noArgsTitle": "D-Safe Premium",
-        "noCanjeado": "Not redeemed.",
         "saferAuthor": "Congratulations! You have obtained D-Safe Premium",
-        "saferDes1": "Now you can redeem these benefits on a server using ` d. {{commandName}} redeem` inside the server where you want to redeem it.\nRemember that you can lose these benefits if you stop voting for 4 days or leave our server.",
         "saferDoneI": "You obtained your role, ¡Thanks for voting!",
         "saferDoneII": "You have obtained your role, ¡Thanks for voting for us!\nUse the command again to generate a D-Safe Premium key.",
         "saferErrorBadRequest": "An error has happened, try again.",
         "saferErrorNoReq": "You don't have the requisites to obtain the Safer, keep voting.",
         "saferErrorNoVote": "You haven't voted or an error has happened, try in some minutes.",
-        "saferField1": "Clave",
         "saferField2": "Server",
-        "saferField3": "Until the day",
         "saferFooter": "Remember that this key cannot be used by another user as it is associated with you, it will not do you any good to share it."
     },
     "reason": {
@@ -501,9 +477,7 @@
         "afkChannel": "",
         "afkMin": "",
         "badgesSafe": "",
-        "boostLvl1": "",
         "boostLvl2": "",
-        "boostLvl3": "",
         "boostNone": "",
         "canales": "▸ Channels",
         "creadoEl": "▸ Created the",
@@ -542,7 +516,6 @@
         "establecido": "Prefix has been set to "
     },
     "settings": {
-        "activado": "Activated.",
         "ajalertas": "Raiders join notification settings",
         "ajanuncios": "Settings of the announcements",
         "ajfiltros": "Filters settings",
@@ -553,12 +526,9 @@
         "ajprefix": "Prefix settings",
         "ajsugerencias": "",
         "ajverificacion": "Verification settings",
-        "canalanuncios": "❯ Announcements channel",
         "canallogs": "❯ Logs channel",
         "comandos": "❯ Commands",
-        "desactivado": "Desactivated.",
         "desalertas": "Notifies the guild owner when a malicious user present in our forceban joins the server. To set it up use the command provided below.",
-        "desanuncios": "To configure the announcements use the commands that are showed below.",
         "desfiltros": "To set up filters use the following command `{{prefix}}filters` y `{{prefix}}filters help`",
         "designorados": "To set up ignored use the commands provided below.",
         "deslang": "To set up language use the commands provided below.",
@@ -570,7 +540,6 @@
         "desverificacion": "To set up verification use the commands provided below.",
         "estado": "❯ Status",
         "falertas": "❯ Raider join notification",
-        "fanuncios": "❯ Announcements",
         "fidioma": "❯ Language",
         "fignorados": "❯ Whitelist",
         "finvitaciones": "❯ Invites filter",
@@ -589,7 +558,6 @@
         "prefix": "❯ Prefix"
     },
     "softban": {
-        "bannedMD": "",
         "exito": ""
     },
     "suggest": {
@@ -709,12 +677,10 @@
         "errorNoUnBan": "",
         "errorUser": "",
         "exito": "",
-        "sinRazón": "Without reason.",
-        "unbannedMD": ""
+        "sinRazón": "Without reason."
     },
     "undeafen": {
         "changelog": "",
-        "ensordecido": "",
         "errorAutor": "",
         "errorConectado": "",
         "errorMención": "",
@@ -724,7 +690,6 @@
     },
     "unmute": {
         "changelog": "",
-        "desmuteadoMD": "",
         "errorMención": "**Error: Missing the user.**\nWrite it as: `d.unmute @User`",
         "errorNoExiste": "There is no Muted role, I have created and configured it.",
         "errorNoMuteado": "**Error**, That user is not muted.",
@@ -819,8 +784,7 @@
         "errorMención": "**Error: You must mention the user.**\nWrite it as: `d.warn @User Reason`",
         "errorRazón": "**Error**: The reason is missing.",
         "errorUser": "",
-        "exito": "",
-        "warnMD": ""
+        "exito": ""
     },
     "warnings": {
         "noMention": "**Error**, you have to mention a user.",
