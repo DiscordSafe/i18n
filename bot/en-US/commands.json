@@ -37,7 +37,8 @@
         "errorNobanneable": "**Error**, I cannot ban the mentioned user.",
         "errorUser": "**Error**, User not found, please try again.",
         "exito": "{{emoji}} **{{memberTag}} was banned**",
-        "sinRazón": ""
+        "sinRazón": "",
+        "reason": ""
     },
     "baninfo": {
         "footer": "You can ignore this member from the forceban using d.whitelist add <ID>.",
@@ -90,7 +91,10 @@
         "procesador": "Processor: {{cpu}}",
         "servidores": "❯ Guilds",
         "servidoresshard": "❯ Guilds in this shard",
-        "usuarios": "❯ Users"
+        "usuarios": "❯ Users",
+        "library": "",
+        "version": "",
+        "shard": ""
     },
     "case": {
         "action": "",
