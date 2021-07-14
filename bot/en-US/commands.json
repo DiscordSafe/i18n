@@ -388,23 +388,19 @@
         "cargando": "Loading…"
     },
     "premium": {
-        "ayudaFooter": "Remember that you need to write the prefix when using a command and that you don't need to put <>.",
         "canjeado": "Premium has been redeemed in {{server}}",
         "errorNoPremium": "You aren't a premium user.",
         "errorNoServidor": "You can only use this command in our server, `https://discordsafe.com/discord`.",
         "errorPartner": "You are partner and can't redeem your premium in another server.",
         "errorYaKey": "You already have a key, you can't have two, I'm not ready for a polyamorous relationship yet.",
         "infoAuthor": "Premium of {{user}}",
-        "infoFooter": "Remember that only you can use your key, sharing it would do nothing.",
         "md": "📨 **{{user}}**, check out your private messages!",
         "noArgsDes": "It is a premium benefit for Partners, Safers and donors.",
-        "noArgsTitle": "D-Safe Premium",
         "saferDoneI": "You obtained your role, ¡Thanks for voting!",
         "saferDoneII": "You have obtained your role, ¡Thanks for voting for us!\nUse the command again to generate a D-Safe Premium key.",
         "saferErrorBadRequest": "An error has happened, try again.",
         "saferErrorNoReq": "You don't have the requisites to obtain the Safer, keep voting.",
-        "saferErrorNoVote": "You haven't voted or an error has happened, try in some minutes.",
-        "saferFooter": "Remember that this key cannot be used by another user as it is associated with you, it will not do you any good to share it."
+        "saferErrorNoVote": "You haven't voted or an error has happened, try in some minutes."
     },
     "reason": {
         "noCase": "",
@@ -470,7 +466,6 @@
         "afkChannel": "",
         "afkMin": "",
         "badgesSafe": "",
-        "boostNone": "",
         "canales": "▸ Channels",
         "creadoEl": "▸ Created the",
         "dmn": "",
