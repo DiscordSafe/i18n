@@ -54,5 +54,6 @@
     "actions": {
         "confirm": "Confirm",
         "cancel": "Cancel"
-    }
+    },
+    "whatisthis": "*[¿What's this?]({{link}})*"
 }
