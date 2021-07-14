@@ -35,25 +35,33 @@
         "kick": "",
         "member": "",
         "mod": "",
-        "mute": "",
+        "mute": "Muted member",
         "reason": "",
         "softban": "",
         "time": "",
         "unban": "",
         "undeafen": "",
-        "unmute": "",
+        "unmute": "Member unmute",
         "user": "",
         "warn": ""
     },
-    "no": "",
+    "no": "No",
     "notFound": "It has not been found.",
-    "notification": "",
+    "notification": "Notification",
     "page": "Page",
     "tiempo": "The time is over.",
-    "yes": "",
+    "yes": "Yes",
     "actions": {
         "confirm": "Confirm",
-        "cancel": "Cancel"
+        "cancel": "Cancel",
+        "destroy": "Suppress"
     },
-    "whatisthis": "*[¿What's this?]({{link}})*"
+    "whatisthis": "*[¿What's this?]({{link}})*",
+    "paginationButton": {
+        "back": "Previous",
+        "next": "Next",
+        "close": "Close",
+        "home": "Start"
+    },
+    "error": "Error"
 }
