@@ -59,6 +59,11 @@
     "example": "",
     "usage": ""
   },
+  "delrole": {
+    "description": "Borra el rol mencionado.",
+    "example": "@RolPrueba",
+    "usage": ""
+  },
   "clearwarn": {
     "description": "Elimina una advertencia del servidor.",
     "example": "43das78",
