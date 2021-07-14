@@ -388,23 +388,19 @@
         "cargando": "Cargando..."
     },
     "premium": {
-        "ayudaFooter": "",
         "canjeado": "",
         "errorNoPremium": "",
         "errorNoServidor": "",
         "errorPartner": "",
         "errorYaKey": "",
         "infoAuthor": "",
-        "infoFooter": "",
         "md": "",
         "noArgsDes": "",
-        "noArgsTitle": "",
         "saferDoneI": "",
         "saferDoneII": "",
         "saferErrorBadRequest": "",
         "saferErrorNoReq": "",
-        "saferErrorNoVote": "",
-        "saferFooter": ""
+        "saferErrorNoVote": ""
     },
     "reason": {
         "noCase": "",
@@ -470,7 +466,6 @@
         "afkChannel": "",
         "afkMin": "",
         "badgesSafe": "",
-        "boostNone": "",
         "canales": "▸ Canales",
         "creadoEl": "▸ Creado el",
         "dmn": "",
