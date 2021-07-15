@@ -1,173 +1,173 @@
 {
-  "channelCreate": {
-    "desc": "",
-    "title": "",
-    "type": ""
-  },
-  "channelDelete": {
-    "desc": "",
-    "title": "",
-    "type": ""
-  },
-  "channelUpdate": {
-    "coola": "",
-    "coolh": "",
-    "nombrea": "Name (before)",
-    "nombreh": "Name (now)",
-    "none": "",
-    "nsfwa": "NSFW (before)",
-    "nsfwh": "NSFW (after)",
-    "temaa": "Topic (before)",
-    "temah": "Topic (after)",
-    "title": "",
-    "typea": "",
-    "typeh": ""
-  },
-  "guildBanAdd": {
-    "banned": "",
-    "mod": "",
-    "ningunaRazón": "None",
-    "razón": "Reason:"
-  },
-  "guildBanRemove": {
-    "mod": "",
-    "ningunaRazón": "",
-    "razón": "",
-    "unbanned": ""
-  },
-  "guildMemberAdd": {
-    "alarma": "The server **{{server}}** is on alarm mode and does not allow new users to enter, please try again in a few minutes.",
-    "alertaDes": "A member classified as malicious has entered your server",
-    "alertaFooter": "You can disable these alerts using {{prefix}}notifications",
-    "alertaM": "Member",
-    "alertaP": "Proof",
-    "alertaR": "Reason",
-    "alertaTitle": "Alert",
-    "badges": "",
-    "bot": "",
-    "captchaErrorIntentos": "**You have reached the limit of attempts**, you have not completed the verification so you will be kicked.",
-    "captchaErrorTiempo": "**Time is over**, you have not completed the verification so you will be kicked.",
-    "captchaField1": "Before continuing, you must answer this **captcha**, do it to be able to access the server. You have **{{intentos}} attempts** and ** {{minutos}} minutes** to complete.",
-    "captchaField2": "This is to protect the server from spam bots and multi-accounts.",
-    "captchaFooter": "Invite me, discordsafe.com/invite",
-    "captchaIntento": "**Error**, you have {{intentos}} attempts left.",
-    "captchaTitle": "Welcome to {{server}}",
-    "captchacDes": "You now have access to {{server}}",
-    "captchacFooter": "Do you want to invite me to your server? discordsafe.com/invite",
-    "captchacTitle": "Thanks!",
-    "creación": "Created: ",
-    "expulsado": "You have been kicked from the server **{{server}}** because your account does not exceed the minimum of **{{age}}** days.",
-    "expulsadoRazón": "Minimum days of account creation.",
-    "forceban": "It is not in the forceban.",
-    "kick": "Verification not completed.",
-    "nuevoUsuario": "New user",
-    "porQué": "Why?",
-    "usuarioDa": "⛔❯ Harmful user: "
-  },
-  "guildMemberRemove": {
-    "badges": "",
-    "bot": "",
-    "creación": "Created: ",
-    "usuarioSalio": "User left"
-  },
-  "guildMemberUpdate": {
-    "after": "",
-    "before": "",
-    "boostDesc": "",
-    "boostTitle": "",
-    "by": "",
-    "name": "",
-    "nickname": "",
-    "roladded": "",
-    "rolremoved": "",
-    "unboostDesc": "",
-    "unboostTitle": ""
-  },
-  "guildUpdate": {
-    "afkcha": "",
-    "afkchh": "",
-    "afkta": "",
-    "afkth": "",
-    "desca": "",
-    "desch": "",
-    "feaa": "",
-    "feah": "",
-    "levelDowndesc": "",
-    "levelDowntitle": "",
-    "levelUpdesc": "",
-    "levelUptitle": "",
-    "namea": "",
-    "nameh": "",
-    "none": "",
-    "rega": "",
-    "regh": "",
-    "title": "",
-    "vanitya": "",
-    "vanityh": ""
-  },
-  "message": {
-    "NoFlood": "**[AntiFlood]** Don't send so many messages.",
-    "NoInvitaciones": "Invites to other servers are not allowed.",
-    "NoLoggersAvanzado": "**[Advanced Anti Iplogger]** Is not allowed to send iplogger or malicious links.",
-    "NoLoggersBásico": "**[Basic Anti Iplogger]** Is not allowed to send iplogger or malicious links.",
-    "NoNSFW": "**[Premium Image Filter]** NSFW content is not allowed outside NSFW channels.",
-    "NoSpam": "**[AntiSpam]** Your message has been classified as spam.",
-    "infoComandos": "To see my commands use: {{prefix}}commands",
-    "infoPrefix": "Hello 👋,\nMy prefix on this server is:\n`{{prefix}}`",
-    "logAdmin": "Admin command used:",
-    "logAutor": "Author: {{autor}}",
-    "logCanal": "Channel:",
-    "palabraBloqueada": "Blocked word.",
-    "reminderDescription": "I've had a [new update](https://blog.discordsafe.com/Registro-de-cambios/version-4-2) where commands have been **renamed, updated and grouped**.\nThe new name of the command you are trying to use is below, thanks for using me!",
-    "reminderField1": "❯ New command name",
-    "reminderTitle": "New commands reminder"
-  },
-  "messageDelete": {
-    "título": "Deleted message"
-  },
-  "messageDeleteBulk": {
-    "canal": "",
-    "cantidad": "Amount",
-    "fs1": "Messages deleted on {{fecha}}",
-    "fs2": " Message ID: {{id}}\nMessage: {{content}}",
-    "título": "A large number of messages have been deleted"
-  },
-  "messageUpdate": {
-    "content": "New content",
-    "contentPinned": "",
-    "nuevo": "Message ID",
-    "oldContent": "",
-    "pinned": "",
-    "tiempos": "Time difference",
-    "título": "Updated message"
-  },
-  "roleCreate": {
-    "título": "New role: {{rol}}"
-  },
-  "roleDelete": {
-    "título": "Deleted role: {{rol}} - `{{rolid}}`"
-  },
-  "roleUpdate": {
-    "added": "",
-    "added_plural": "",
-    "executor": "",
-    "removed": "",
-    "removed_plural": "",
-    "título": "Updated role:"
-  },
-  "voiceStateUpdate": {
-    "channel": "",
-    "deaf": "",
-    "join": "",
-    "leave": "",
-    "mute": "",
-    "newChannel": "",
-    "oldChannel": "",
-    "start-streaming": "",
-    "stop-streaming": "",
-    "switch": "",
-    "undeaf": "",
-    "unmute": "",
-    "user": ""
-  }
+    "channelCreate": {
+        "desc": "<#{{canal}}>",
+        "title": "",
+        "type": ""
+    },
+    "channelDelete": {
+        "desc": "",
+        "title": "",
+        "type": ""
+    },
+    "channelUpdate": {
+        "coola": "",
+        "coolh": "",
+        "nombrea": "Name (before)",
+        "nombreh": "Name (now)",
+        "none": "",
+        "nsfwa": "NSFW (before)",
+        "nsfwh": "NSFW (after)",
+        "temaa": "Topic (before)",
+        "temah": "Topic (after)",
+        "title": "",
+        "typea": "",
+        "typeh": ""
+    },
+    "guildBanAdd": {
+        "banned": "",
+        "mod": "",
+        "ningunaRazón": "None",
+        "razón": "Reason:"
+    },
+    "guildBanRemove": {
+        "mod": "",
+        "ningunaRazón": "",
+        "razón": "",
+        "unbanned": ""
+    },
+    "guildMemberAdd": {
+        "alarma": "The server **{{server}}** is on alarm mode and does not allow new users to enter, please try again in a few minutes.",
+        "alertaDes": "A member classified as malicious has entered your server",
+        "alertaFooter": "You can disable these alerts using {{prefix}}notifications",
+        "alertaM": "Member",
+        "alertaP": "Proof",
+        "alertaR": "Reason",
+        "alertaTitle": "Alert",
+        "badges": "",
+        "bot": "",
+        "captchaErrorIntentos": "**You have reached the limit of attempts**, you have not completed the verification so you will be kicked.",
+        "captchaErrorTiempo": "**Time is over**, you have not completed the verification so you will be kicked.",
+        "captchaField1": "Before continuing, you must answer this **captcha**, do it to be able to access the server. You have **{{intentos}} attempts** and ** {{minutos}} minutes** to complete.",
+        "captchaField2": "This is to protect the server from spam bots and multi-accounts.",
+        "captchaFooter": "Invite me, discordsafe.com/invite",
+        "captchaIntento": "**Error**, you have {{intentos}} attempts left.",
+        "captchaTitle": "Welcome to {{server}}",
+        "captchacDes": "You now have access to {{server}}",
+        "captchacFooter": "Do you want to invite me to your server? discordsafe.com/invite",
+        "captchacTitle": "Thanks!",
+        "creación": "Created: ",
+        "expulsado": "You have been kicked from the server **{{server}}** because your account does not exceed the minimum of **{{age}}** days.",
+        "expulsadoRazón": "Minimum days of account creation.",
+        "forceban": "It is not in the forceban.",
+        "kick": "Verification not completed.",
+        "nuevoUsuario": "New user",
+        "porQué": "Why?",
+        "usuarioDa": "⛔❯ Harmful user: "
+    },
+    "guildMemberRemove": {
+        "badges": "",
+        "bot": "",
+        "creación": "Created: ",
+        "usuarioSalio": "User left"
+    },
+    "guildMemberUpdate": {
+        "after": "",
+        "before": "",
+        "boostDesc": "",
+        "boostTitle": "",
+        "by": "",
+        "name": "",
+        "nickname": "",
+        "roladded": "",
+        "rolremoved": "",
+        "unboostDesc": "",
+        "unboostTitle": ""
+    },
+    "guildUpdate": {
+        "afkcha": "",
+        "afkchh": "",
+        "afkta": "",
+        "afkth": "",
+        "desca": "",
+        "desch": "",
+        "feaa": "",
+        "feah": "",
+        "levelDowndesc": "",
+        "levelDowntitle": "",
+        "levelUpdesc": "",
+        "levelUptitle": "",
+        "namea": "",
+        "nameh": "",
+        "none": "",
+        "rega": "",
+        "regh": "",
+        "title": "",
+        "vanitya": "",
+        "vanityh": ""
+    },
+    "message": {
+        "NoFlood": "**[AntiFlood]** Don't send so many messages.",
+        "NoInvitaciones": "Invites to other servers are not allowed.",
+        "NoLoggersAvanzado": "**[Advanced Anti Iplogger]** Is not allowed to send iplogger or malicious links.",
+        "NoLoggersBásico": "**[Basic Anti Iplogger]** Is not allowed to send iplogger or malicious links.",
+        "NoNSFW": "**[Premium Image Filter]** NSFW content is not allowed outside NSFW channels.",
+        "NoSpam": "**[AntiSpam]** Your message has been classified as spam.",
+        "infoComandos": "To see my commands use: {{prefix}}commands",
+        "infoPrefix": "Hello 👋,\nMy prefix on this server is:\n`{{prefix}}`",
+        "logAdmin": "Admin command used:",
+        "logAutor": "Author: {{autor}}",
+        "logCanal": "Channel:",
+        "palabraBloqueada": "Blocked word.",
+        "reminderDescription": "I've had a [new update](https://blog.discordsafe.com/Registro-de-cambios/version-4-2) where commands have been **renamed, updated and grouped**.\nThe new name of the command you are trying to use is below, thanks for using me!",
+        "reminderField1": "❯ New command name",
+        "reminderTitle": "New commands reminder"
+    },
+    "messageDelete": {
+        "título": "Deleted message"
+    },
+    "messageDeleteBulk": {
+        "canal": "",
+        "cantidad": "Amount",
+        "fs1": "Messages deleted on {{fecha}}",
+        "fs2": " Message ID: {{id}}\nMessage: {{content}}",
+        "título": "A large number of messages have been deleted"
+    },
+    "messageUpdate": {
+        "content": "New content",
+        "contentPinned": "",
+        "nuevo": "Message ID",
+        "oldContent": "",
+        "pinned": "",
+        "tiempos": "Time difference",
+        "título": "Updated message"
+    },
+    "roleCreate": {
+        "título": "New role: {{rol}}"
+    },
+    "roleDelete": {
+        "título": "Deleted role: {{rol}} - `{{rolid}}`"
+    },
+    "roleUpdate": {
+        "added": "",
+        "added_plural": "",
+        "executor": "",
+        "removed": "",
+        "removed_plural": "",
+        "título": "Updated role:"
+    },
+    "voiceStateUpdate": {
+        "channel": "",
+        "deaf": "",
+        "join": "",
+        "leave": "",
+        "mute": "",
+        "newChannel": "",
+        "oldChannel": "",
+        "start-streaming": "",
+        "stop-streaming": "",
+        "switch": "",
+        "undeaf": "",
+        "unmute": "",
+        "user": ""
+    }
 }
