@@ -721,7 +721,7 @@
         "errorRolEncima": "The rol of the bot needs to be in a higher position than that rol .",
         "errorRolMención": "**Error:** The rol need to be a mention or an ID.\n**Ayuda:** `d.verification help`",
         "errorRolNoExiste": "That rol doesn't exists.",
-        "errorRolPermisos": "**Error:** The bot need permissions of __Manage Roles__\n**Help:** `d.verification help`",
+        "errorRolPermisos": "**Error:** The bot needs the permission of __Manage Roles__\n**Help:** `d.verification help`",
         "establecidoAprobación": "The mode has been established to `approval`",
         "establecidoCanal": "The channel has been established to ",
         "establecidoCaptcha": "The mode has been established to `captcha`",
