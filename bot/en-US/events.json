@@ -27,7 +27,7 @@
         "banned": "",
         "mod": "",
         "ningunaRazón": "None",
-        "razón": "Reason:"
+        "razón": "Reason"
     },
     "guildBanRemove": {
         "mod": "",
@@ -55,19 +55,19 @@
         "captchacDes": "You now have access to {{server}}",
         "captchacFooter": "Do you want to invite me to your server? discordsafe.com/invite",
         "captchacTitle": "Thanks!",
-        "creación": "Created: ",
+        "creación": "Created",
         "expulsado": "You have been kicked from the server **{{server}}** because your account does not exceed the minimum of **{{age}}** days.",
         "expulsadoRazón": "Minimum days of account creation.",
-        "forceban": "It is not in the forceban.",
+        "forceban": "Forceban",
         "kick": "Verification not completed.",
         "nuevoUsuario": "New user",
         "porQué": "Why?",
-        "usuarioDa": "⛔❯ Harmful user: "
+        "usuarioDa": "⛔❯ Harmful user: {{reason}}"
     },
     "guildMemberRemove": {
         "badges": "",
         "bot": "",
-        "creación": "Created: ",
+        "creación": "Created",
         "usuarioSalio": "User left"
     },
     "guildMemberUpdate": {
@@ -153,7 +153,7 @@
         "executor": "",
         "removed": "",
         "removed_plural": "",
-        "título": "Updated role:"
+        "título": "Updated role"
     },
     "voiceStateUpdate": {
         "channel": "",
