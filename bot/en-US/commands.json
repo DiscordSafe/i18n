@@ -489,13 +489,9 @@
         "verification": ""
     },
     "setlang": {
-        "conf1": "Language configuration in {{server}}",
         "conf2": "Set the bot language on the server using the command `{{prefijo}}{{commandName}}`.",
-        "conf3": "Available languages:",
         "conf4": "¡Help us translate! 💖",
-        "conf5": "Help us to improve and keep the translation of the bot in other languages, [ask on the support server](https://discordsafe.com/invite).",
         "easterEggDescription": "Next you have to confirm that you want to change the server language to **{{idioma}}**, please note that **the texts may be unintelligible or I may have errors if applicable** so return to the previous language ASAP to avoid confusion.\nIf you need help contact [our server](https://discordsafe.com/discord).\n**Are you really sure you want to continue????**\nAnswer with **yes**.",
-        "easterEggTitle": "You have discovered an easter egg! :eyes:",
         "establecido": "The server language has been set to {{idioma}}.",
         "noDisponible": "Language not available yet",
         "noDisponibleDes": "The language `{{idioma}}` **is not available yet**, we are working on it to do it as soon as possible.",
