@@ -67,5 +67,34 @@
     "reason": "Razón",
     "time": "Duración",
     "case": "Caso"
+  },
+  "languages": {
+    "es-ES": {
+      "emoji": "🇪🇸",
+      "value": "Español (España)"
+    },
+    "en-US": {
+      "emoji": "🇺🇸",
+      "value": "Inglés (Estados Unidos)"
+    },
+    "pt-BR": {
+      "emoji": "🇧🇷",
+      "value": "Portugués (Brasil)"
+    },
+    "owo": {
+      "value": "owo",
+      "description": "uwu owo uwu owo uwu owo uwu",
+      "emoji": "<:uwu:865567462391939084>"
+    },
+    "upsidedown": {
+      "value": "uʍopǝpᴉsdn",
+      "description": "Oh no Will Byers no te metas ahí!",
+      "emoji": "<:pain:865567631347286047>"
+    },
+    "andaluh": {
+      "value": "Andaluh",
+      "description": "biba el Andalûh",
+      "emoji": "<:flag_an:865567274664329226>"
+    }
   }
 }
