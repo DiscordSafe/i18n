@@ -482,6 +482,7 @@
         "estado": "📊❯ Estado",
         "id": "🆔❯ ID:",
         "mandando": "Mandando reporte…",
+        "enviado": "{{emoji}} ¡Reporte enviado!",
         "nuevoReporte": "¡Nuevo reporte!",
         "prueba": "🔗❯ Prueba:",
         "razón": "📃❯ Razón:",
