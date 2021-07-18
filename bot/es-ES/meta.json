@@ -5,9 +5,9 @@
         "usage": ""
     },
     "approve": {
-        "description": "Aprueba la entrada al servidor a los nuevos usuarios.",
+        "description": "Aprueba de los nuevos usuarios al servidor.",
         "example": "@Vicente#0001",
-        "usage": "<@Usuario>"
+        "usage": "[@Usuario/UsuarioID/all]"
     },
     "avatar": {
         "description": "Muestra el avatar de un usuario.",

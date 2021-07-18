@@ -13,16 +13,13 @@
         "desactivado": "El modo alarma ha sido desactivado."
     },
     "approve": {
-        "aprobado": " Ha sido aprobado.",
-        "errorArgs": "Este comando necesita argumentos, **Use:** {{prefijo}}{{commandName}} @Usuario / all\n:bulb: **Quizá quiera usar:** `{{prefijo}}suggestions approve`",
-        "errorCanal": "Este comando solo se puede usar en el canal de verificación. Para configurar la verificación use `d.verification`",
-        "errorMención": "Debe mencionar a un usuario. Para configurar la verificación use `d.verification`",
-        "errorNoAprobación": "Este comando es solo para el modo Aprobación. Para configurar la verificación use `d.verification`",
+        "aprobado": " ha sido aprobado.",
+        "errorArgs": "Este comando necesita argumentos, **Use:** {{prefijo}}{{commandName}} @Usuario/UsuarioID/all\n:bulb: **Quizá quiera usar:** `{{prefijo}}suggestions approve`",
         "errorNoConfig": "No está configurada la verificación. Para configurarla use `d.verification`",
         "errorNoRoles": "Los roles que ha configurado para la verificación no existen o no estoy por encima de ellos. Para configurar la verificación use `d.verificacion`",
         "errorNoVerificado": "El usuario no tiene el rol de No Verificado. Para configurar la verificación use `d.verification`",
         "errorRoles": "Debe configurar primero el rol No Verificado y el rol Usuario. Para configurarlo use `d.verification`",
-        "todos": "Todos los usuarios han sido aprobados."
+        "all": "Todos los usuarios han sido aprobados."
     },
     "avatar": {
         "avatar": "Avatar de {{user}}",
