@@ -15,14 +15,11 @@
     "approve": {
         "aprobado": " Has been approved.",
         "errorArgs": "",
-        "errorCanal": "This command can only be used inside the verification channel. To set the verification up use `d.verification`",
         "errorMención": "You must mention an user. To set the verification up use `d.verification`",
-        "errorNoAprobación": "This command is only for Aproval mode. To set the verification up use `d.verification`",
         "errorNoConfig": "Verification is not configured. To set it up use `d.verification`",
         "errorNoRoles": "The roles you have configured for verification do not exist or I am not above them. To configure verification use `d.verification`",
         "errorNoVerificado": "The user does not have the Unverified role. To configure verification use `d.verification`",
-        "errorRoles": "You must set up not verified and user roles first. To set it up use `d.verification`",
-        "todos": "All users have been approved."
+        "errorRoles": "You must set up not verified and user roles first. To set it up use `d.verification`"
     },
     "avatar": {
         "avatar": "{{user}}'s avatar",
@@ -489,7 +486,6 @@
         "verification": ""
     },
     "setlang": {
-        "conf4": "¡Help us translate! 💖",
         "establecido": "The server language has been set to {{idioma}}.",
         "noDisponible": "Language not available yet",
         "noDisponibleDes": "The language `{{idioma}}` **is not available yet**, we are working on it to do it as soon as possible.",
