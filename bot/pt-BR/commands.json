@@ -1,7 +1,7 @@
 {
     "aceptar": {
         "aceptado": "✅Aceptado por: ",
-        "estado": "",
+        "estado": "📊❯ Estado:",
         "id": "🆔❯ ID:",
         "md": "",
         "prueba": "🔗❯ Prueba:",
@@ -15,7 +15,6 @@
     "approve": {
         "aprobado": "",
         "errorArgs": "",
-        "errorMención": "Debe mencionar a un usuario. Para configurar la verificación use `.verificacion`",
         "errorNoConfig": "No está configurada la verificación. Para configurarla use `.verificacion`",
         "errorNoRoles": "Los roles que ha configurado para la verificación no existen o no estoy por encima de ellos. Para configurar la verificación use `.verificacion`",
         "errorNoVerificado": "El usuario no tiene el rol de No Verificado. Para configurar la verificación use `.verificacion`",
@@ -53,11 +52,11 @@
         "correcto": "",
         "doc": "",
         "doc2": "",
-        "embedAuthor": "",
+        "embedAuthor": "Palavras bloqueadas",
         "embedDes": "",
         "embedField1": "",
         "embedField2": "",
-        "embedField3": "",
+        "embedField3": "❯ Comandos",
         "embedField4": "",
         "embedRAuthor": "",
         "embedRDescription": "",
@@ -167,7 +166,7 @@
         "ayudaDes": "",
         "comandosBlockedWord": "",
         "comandosDefault": "",
-        "comandosField": "",
+        "comandosField": "❯ Comandos",
         "desactivadoImágenes": "",
         "desactivadoInvitaciones": "",
         "desactivadoIploggers": "",
@@ -243,7 +242,7 @@
         "embedFeature1t": "",
         "embedFeature2d": "",
         "embedFeature2t": "",
-        "embedFeature3d": "",
+        "embedFeature3d": "Nos ajude a melhorar e manter a tradução do bot em outros idiomas, [Pergunte no servidor de soporte] (https://discordsafe.com/invite).",
         "embedFeature3t": "",
         "embedFeature4d": "",
         "embedFeature4t": "",
@@ -257,7 +256,7 @@
         "embedSuggestion4": "",
         "field3": "",
         "footer": "",
-        "ninguno": ""
+        "ninguno": "Nenhum."
     },
     "info": {
         "badges": "",
@@ -280,7 +279,7 @@
     "invite": {
         "channel": "",
         "code": "",
-        "creation": "",
+        "creation": "▸ Criação",
         "description": "",
         "errorArgs": "",
         "errorNotFound": "",
@@ -320,7 +319,7 @@
             },
             "field2": {
                 "d": "",
-                "t": ""
+                "t": "❯ Comandos"
             },
             "title": ""
         },
@@ -376,7 +375,7 @@
         "errorNoActivado": "",
         "noArgsAuthor": "",
         "noArgsDes": "",
-        "noArgsField": "",
+        "noArgsField": "Estado",
         "noArgsFooter": "",
         "sactivado": "",
         "sdesactivado": ""
@@ -397,7 +396,10 @@
         "saferDoneII": "",
         "saferErrorBadRequest": "",
         "saferErrorNoReq": "",
-        "saferErrorNoVote": ""
+        "saferErrorNoVote": "",
+        "help": {
+            "field3": "Comandos"
+        }
     },
     "reason": {
         "noCase": "",
@@ -424,12 +426,12 @@
         "id": "🆔❯ ID:",
         "mandando": "",
         "nuevoReporte": "",
-        "prueba": "",
-        "razón": "",
+        "prueba": "🔗❯ Prova:",
+        "razón": "📃❯ Razão:",
         "reportadoPor": "",
         "reporteGenerado": "Su reporte fue generado.",
         "reporteTítulo": "🗃Reporte",
-        "usuario": "",
+        "usuario": "👤❯ Usuário Reportado:",
         "verificación": ""
     },
     "reportbug": {
@@ -442,12 +444,12 @@
     },
     "role": {
         "color": "",
-        "creation": "",
+        "creation": "▸ Criado",
         "embedTitle": "",
         "errorArgs": "",
         "errorNotFound": "",
         "hoist": "",
-        "id": "",
+        "id": "▸ ID",
         "mention": "",
         "mentionable": "",
         "name": "",
@@ -464,14 +466,14 @@
         "afkMin": "",
         "badgesSafe": "",
         "canales": "",
-        "creadoEl": "",
+        "creadoEl": "▸ Criado o",
         "dmn": "",
         "dueño": "",
         "errorFetch": "",
         "errorMsg": "",
         "explicitFilter": "",
         "features": "",
-        "images": "",
+        "images": "▸ Imagens",
         "limits": "",
         "miembros": "",
         "moreEmojis": "",
@@ -479,7 +481,8 @@
         "msgMention": "",
         "región": "▸ Región",
         "specialChannels": "",
-        "verification": ""
+        "verification": "",
+        "roles": "▸ Cargos"
     },
     "setlang": {
         "establecido": "",
@@ -577,7 +580,7 @@
         "embedApprovedTitle": "",
         "embedAuthor": "",
         "embedAutoAccept": "",
-        "embedCommands": "",
+        "embedCommands": "Comandos",
         "embedCommands1": "",
         "embedCommandsChannel": "",
         "embedCooldown": "",
@@ -642,7 +645,7 @@
         "statsQuestion": ""
     },
     "support": {
-        "confirmación": "¿Estás seguro de pedir soporte?\nPara confirmar responda: Sí.\n__**Si no es un tema urgente serás sancionado.**__",
+        "confirmación": "**¿Você está seguro de pedir soporte?** \nPara confirmar responda: Sim.\n__**Caso não seja um tema urgente, você será sancionado.**__",
         "correcto": "Se ha notificado a los agentes que ha solicitado ayuda, se le atenderá lo antes posible."
     },
     "topbots": {
