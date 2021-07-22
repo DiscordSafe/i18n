@@ -404,7 +404,7 @@
         "desactivado": "desactivado",
         "errorNoActivado": "No puedes desactivar algo que no existe, sería como dejar a una novia que no tienes.",
         "noArgsAuthor": "Configuración de los avisos en {{server}}",
-        "noArgsDes": "Para activas los avisos al dueño del servidor cuando un usuario malicioso entra al servidor use `{{prefix}}{{comando}} {{uso}}`",
+        "noArgsDes": "Para notificar al dueño del servidor cuando un posible usuario malicioso entre al servidor, use `{{prefix}}{{comando}} {{uso}}`.  Un usuario puede ser clasificado como malicioso por: raid, spam bot o estafas.",
         "noArgsField": "Estado",
         "noArgsFooter": "Si algo falla revise que ha escrito todo bien",
         "sactivado": "Los avisos han sido activados exitosamente.",
