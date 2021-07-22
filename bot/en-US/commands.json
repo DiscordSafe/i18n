@@ -15,7 +15,6 @@
     "approve": {
         "aprobado": " Has been approved.",
         "errorArgs": "",
-        "errorMención": "You must mention an user. To set the verification up use `d.verification`",
         "errorNoConfig": "Verification is not configured. To set it up use `d.verification`",
         "errorNoRoles": "The roles you have configured for verification do not exist or I am not above them. To configure verification use `d.verification`",
         "errorNoVerificado": "The user does not have the Unverified role. To configure verification use `d.verification`",
@@ -379,7 +378,7 @@
         "desactivado": "deactivated",
         "errorNoActivado": "You can't deactivate something that doesn't exist, it would be like leaving a girlfriend you don't have.",
         "noArgsAuthor": "Configuration of notifications in {{server}}",
-        "noArgsDes": "To activate the notifications to the server owner when a malicious user join the server use `{{prefix}} {{command}} {{use}}`",
+        "noArgsDes": "To notify the server owner when a possibly malicious user joins, use `{{prefix}}{{comando}} {{uso}}`. A user might be seen as malicious for any one of the following: raid, spam bot or scams.",
         "noArgsField": "Status",
         "noArgsFooter": "If something fails, check that you have written everything correctly",
         "sactivado": "The notifications have been activated successfully.",
