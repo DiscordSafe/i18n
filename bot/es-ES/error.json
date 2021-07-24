@@ -11,5 +11,21 @@
   "cooldown": "Debes que esperar {{segundos}} segundo/s para volver a usar este comando.",
   "desactivado": "Este comando ha sido desactivado temporalmente para arreglar errores y que funcione correctamente.",
   "botPerms": "No tengo suficientes permisos para usar este comando, necesito el permiso de {{permiso}}.",
-  "ownerOnly": "Este comando solo puede ser ejecutado por el dueño del servidor."
+  "ownerOnly": "Este comando solo puede ser ejecutado por el dueño del servidor.",
+  "slashy": {
+    "string": {
+      "maxLength": "Debe introducir un texto más corto."
+    },
+    "user": {
+      "acceptSelf": "No puedes usarte a tí mismo como parámetro.",
+      "acceptBot": "No se aceptan usuarios como parámetro, solo bots.",
+      "acceptUser": "No se aceptan bots como parámetro, solo usuarios.",
+      "acceptDeveloper": "No se aceptan a los desarrolladores del bot como parámetro."
+    },
+    "integer": {
+      "min": "El número no debe ser menor a {{min}}.",
+      "max": "El número no debe ser mayor a {{max}}.",
+      "invalid": "Número inválido."
+    }
+  }
 }
