@@ -15,7 +15,6 @@
     "approve": {
         "aprobado": " Ha sido aprobado.",
         "errorArgs": "",
-        "errorMención": "Debe mencionar a un usuario. Para configurar la verificación use `.verificacion`",
         "errorNoConfig": "No está configurada la verificación. Para configurarla use `.verificacion`",
         "errorNoRoles": "Los roles que ha configurado para la verificación no existen o no estoy por encima de ellos. Para configurar la verificación use `.verificacion`",
         "errorNoVerificado": "El usuario no tiene el rol de No Verificado. Para configurar la verificación use `.verificacion`",
