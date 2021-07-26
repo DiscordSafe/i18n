@@ -13,8 +13,8 @@
         "desactivado": "Alarm mode has been disabled."
     },
     "approve": {
-        "aprobado": " Has been approved.",
-        "errorArgs": "",
+        "aprobado": " has been approved.",
+        "errorArgs": "This command needs arguments, **Use:**** {{prefijo}}{{commandName}} @User/UserID/all\n:bulb: **Maybe you want to use:** `{{prefijo}}suggestions approve`",
         "errorNoConfig": "Verification is not configured. To set it up use `d.verification`",
         "errorNoRoles": "The roles you have configured for verification do not exist or I am not above them. To configure verification use `d.verification`",
         "errorNoVerificado": "The user does not have the Unverified role. To configure verification use `d.verification`",
@@ -26,15 +26,15 @@
     },
     "ban": {
         "autor": "**Error**, You can't ban yourself.",
-        "changelog": "",
+        "changelog": "{{reason}}.\nMod: {{modTag}} ({{modID}})",
         "errorArgs": "",
         "errorGuild": "**Error**, the user is not on the server.\nBan it with the `hackban`.",
         "errorNoBan": "**Error**, I cannot ban the mentioned user.",
         "errorNobanneable": "**Error**, I cannot ban the mentioned user.",
         "errorUser": "**Error**, User not found, please try again.",
         "exito": "{{emoji}} **{{memberTag}} was banned**",
-        "sinRazón": "",
-        "reason": ""
+        "sinRazón": "No reason",
+        "reason": "You have been banned in **{{guild}}** because: **{{reason}}**."
     },
     "baninfo": {
         "footer": "You can ignore this member from the forceban using d.whitelist add <ID>.",
@@ -65,7 +65,7 @@
         "errorNoPalabras": "**Error**, to remove a word you must first block one.",
         "errorPack": "**Error*, that pack number doesn't exist.",
         "guía": "Configuration guide",
-        "ignoreCh": "",
+        "ignoreCh": "The channel <#{{channel}}> has been __ignored__ successfully.",
         "ignoreErrorArg": "",
         "ignoreErrorNoCh": "",
         "ignoreErrorNoRl": "",
@@ -89,20 +89,23 @@
         "servidoresshard": "❯ Guilds in this shard",
         "usuarios": "❯ Users",
         "library": "",
-        "version": "",
-        "shard": ""
+        "version": "❯ Version",
+        "shard": "❯ Shard",
+        "ram": "❯ RAM",
+        "uptime": "❯ Uptime",
+        "developers": "❯ Developers"
     },
     "case": {
-        "action": "",
+        "action": "Action",
         "date": "",
-        "desc": "",
-        "mod": "",
+        "desc": "{{reason}}",
+        "mod": "Moderator",
         "title": "",
-        "user": ""
+        "user": "User"
     },
     "cases": {
-        "noMention": "",
-        "noSancionado": "",
+        "noMention": "**Error**, you must mention someone.",
+        "noSancionado": "**Error**, The user does not have",
         "noWarn": "",
         "noWarns": "",
         "sancionado": "",
