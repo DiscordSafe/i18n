@@ -58,17 +58,17 @@
         "embedField1": "❯ Help",
         "embedField2": "If you need help check out our [configuration guide](https://docs.discordsafe.com/docs/config/blockedwords) or ask on our [support server](https://discordsafe.com/discord).",
         "embedField3": "❯ Commands",
-        "embedField4": "`blockword add` - Add one or more words.\n`blockword remove` - Remove one or more words.\n`blockword add pack` - Blocks a group of pre-selected words.\n`blockword remove pack` - Unlocks a group of pre-selected words.\n`blockword list` - Shows the list of blocked words on the server.\n`blockword reset` - Removes all words.",
+        "embedField4": "`blockword add` - Add one or more words.\n`blockword remove` - Removes one or several words.\n`blockword add pack` - Blocks a group of preselected words.\n`blockword remove pack` - Unblock a group of preselected words.\n`blockword list` - Displays the list of blocked words on the server.\n`blockword ignore [#Channel/@Role]` - Ignores a channel or role from the blocked words.\n`blockword reset` - Removes all words.",
         "embedRAuthor": "Reset blocked words",
-        "embedRDescription": "**This action is irreversible.\nAre you sure? You have 30 seconds.\nAnswer with **yes**.",
+        "embedRDescription": "**This action is irreversible.**\n¿Are you sure?",
         "errorNoArgs": "**Error**, you have to add an argument.",
         "errorNoPalabras": "**Error**, to remove a word you must first block one.",
         "errorPack": "**Error*, that pack number doesn't exist.",
         "guía": "Configuration guide",
         "ignoreCh": "The channel <#{{channel}}> has been __ignored__ successfully.",
         "ignoreErrorArg": "**Error**, you must mention the channel or role you want to ignore.",
-        "ignoreErrorNoCh": "",
-        "ignoreErrorNoRl": "",
+        "ignoreErrorNoCh": "**Error**, the channel does not exist.",
+        "ignoreErrorNoRl": "**Error**, the role does not exist.",
         "ignoreRl": "",
         "ninguna": "All words have been successfully unlocked.",
         "packsAuthor": "Blocked words packs",
@@ -80,7 +80,8 @@
         "palabrasReseteadasExito": "All words have been successfully unlocked.",
         "servidor": "Blocked words on the server {{server}}",
         "unIgnoreCh": "",
-        "unIgnoreRl": ""
+        "unIgnoreRl": "",
+        "packBloqueado": "The pack `{{packName}}` has been blocked."
     },
     "botinfo": {
         "info": "About D-Safe",
@@ -88,7 +89,7 @@
         "servidores": "❯ Guilds",
         "servidoresshard": "❯ Guilds in this shard",
         "usuarios": "❯ Users",
-        "library": "",
+        "library": "❯ Library",
         "version": "❯ Version",
         "shard": "❯ Shard",
         "ram": "❯ RAM",
@@ -105,7 +106,7 @@
     },
     "cases": {
         "noMention": "**Error**, you have to mention a user.",
-        "noSancionado": "**Error**, The user does not have",
+        "noSancionado": "**Error**, The user has no case.",
         "noWarn": "",
         "noWarns": "",
         "sancionado": "",
@@ -120,12 +121,12 @@
         "errorNoMensajes": "There aren't any messages to delete.",
         "errorNoMiembro": "I can't find that member.",
         "errorTiempo": "I cannot delete messages longer than 14 days.",
-        "mensajesBorrados": "Deleted messages. "
+        "mensajesBorrados": " **{{msgCount}}** messages deleted."
     },
     "clearbans": {
         "correcto": "All banned users have been cleared.",
-        "embedAuthor": "",
-        "embedDes": "",
+        "embedAuthor": "Cleaning of banned people in {{guildName}}",
+        "embedDes": "**This action is irreversible**.\nAre you sure? You have 30 seconds. To accept react to ✅, to reject react to ❎.",
         "errorNoBans": "I can't clear banned users that don't exist.",
         "limpiando": "Clearing the banned list…"
     },
