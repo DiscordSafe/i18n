@@ -11,5 +11,21 @@
     "comandoError": "An error occurred while executing the command.\nDevelopers have been notified.\nIf you need help ask our support server, https://discordsafe.com/discord",
     "permisos": "You don't have enough permissions to use this command.",
     "desactivado": "This command has been temporarily disabled to fix bugs.",
-    "cooldown": "You must wait {{segundos}} second/s to use this command again."
+    "cooldown": "You must wait {{segundos}} second/s to use this command again.",
+    "slashy": {
+        "string": {
+            "maxLength": "You must enter a shorter text."
+        },
+        "user": {
+            "acceptSelf": "You cannot use yourself as a parameter.",
+            "acceptBot": "Users are not accepted as parameters, only bots.",
+            "acceptUser": "Bots are not accepted as a parameter, only users.",
+            "acceptDeveloper": "Bot developers are not accepted as a parameter."
+        },
+        "integer": {
+            "min": "The number must not be less than {{min}}.",
+            "max": "The number must not be greater than {{max}}.",
+            "invalid": "Invalid number."
+        }
+    }
 }
