@@ -9,7 +9,7 @@
         "usuarioReportado": "👤❯ Reported User:"
     },
     "alarm": {
-        "activado": "Alarm mode has been enabled, new users entry is forbidden.\nTo disable it use the command again.",
+        "activado": "Alarm mode has been enabled, new users are not allowed to join in the server, use the command again to disable it.",
         "desactivado": "Alarm mode has been disabled."
     },
     "approve": {
@@ -27,13 +27,13 @@
     "ban": {
         "autor": "**Error**, You can't ban yourself.",
         "changelog": "{{reason}}.\nMod: {{modTag}} ({{modID}})",
-        "errorArgs": "",
+        "errorArgs": "**Error**, you must mention a user or provide the ID or nickname of a user.",
         "errorGuild": "**Error**, the user is not on the server.\nBan it with the `hackban`.",
         "errorNoBan": "**Error**, I cannot ban the mentioned user.",
         "errorNobanneable": "**Error**, I cannot ban the mentioned user.",
         "errorUser": "**Error**, User not found, please try again.",
         "exito": "{{emoji}} **{{memberTag}} was banned**",
-        "sinRazón": "No reason",
+        "sinRazón": "Without reason.",
         "reason": "You have been banned in **{{guild}}** because: **{{reason}}**."
     },
     "baninfo": {
@@ -66,7 +66,7 @@
         "errorPack": "**Error*, that pack number doesn't exist.",
         "guía": "Configuration guide",
         "ignoreCh": "The channel <#{{channel}}> has been __ignored__ successfully.",
-        "ignoreErrorArg": "",
+        "ignoreErrorArg": "**Error**, you must mention the channel or role you want to ignore.",
         "ignoreErrorNoCh": "",
         "ignoreErrorNoRl": "",
         "ignoreRl": "",
@@ -97,14 +97,14 @@
     },
     "case": {
         "action": "Action",
-        "date": "",
+        "date": "Date",
         "desc": "{{reason}}",
         "mod": "Moderator",
         "title": "",
         "user": "User"
     },
     "cases": {
-        "noMention": "**Error**, you must mention someone.",
+        "noMention": "**Error**, you have to mention a user.",
         "noSancionado": "**Error**, The user does not have",
         "noWarn": "",
         "noWarns": "",
@@ -156,7 +156,7 @@
         "errorMención": "",
         "errorYaEnsordecido": "",
         "exito": "",
-        "sinRazón": ""
+        "sinRazón": "Without reason"
     },
     "detect": {
         "description": "These users have been classified as malicious, the date they will be removed, the reason and the evidence are shown.\nThese users **can be ignored ** from the __forceban__ using `d.ignore ''.",
@@ -173,7 +173,7 @@
         "ayudaDes": "The filters let you protect your server to **prevent malicious content from being sent** and that your channels be a clean place\n\n**Activate: ** `{{prefix}}{{commandName}} activate <filter>`.\n**Deactivate: ** `{{prefix}}{{commandName}} deactivate <filter>`.",
         "comandosBlockedWord": "",
         "comandosDefault": "",
-        "comandosField": "",
+        "comandosField": "❯ Commands",
         "desactivadoImágenes": "The image filter has been deactivated correctly.",
         "desactivadoInvitaciones": "The invitation filter has been deactivated correctly.",
         "desactivadoIploggers": "The anti-iplogger filter has been deactivated correctly.",
@@ -286,14 +286,14 @@
     "invite": {
         "channel": "",
         "code": "",
-        "creation": "",
+        "creation": "▸ Invite creation",
         "description": "",
         "errorArgs": "",
         "errorNotFound": "",
         "expiration": "",
         "features": "",
         "inviter": "",
-        "member": "",
+        "member": "▸ Members",
         "temporal": "",
         "url": "",
         "uses": ""
@@ -318,24 +318,24 @@
         "errorPremium": "",
         "errorValid": "",
         "help": {
-            "author": "",
+            "author": "Logs",
             "description": "",
             "field1": {
                 "d": "",
-                "t": ""
+                "t": "❯ Help"
             },
             "field2": {
                 "d": "",
-                "t": ""
+                "t": "❯ Commands"
             },
-            "title": ""
+            "title": "Configuration guide"
         },
         "list": {
             "author": "",
             "boost": "",
             "general": "",
             "mod": "",
-            "title": ""
+            "title": "Step by step configuration guide"
         }
     },
     "mail": {
@@ -374,7 +374,7 @@
         "errorNúmero": "",
         "errorYaMuteado": "That user is already muted.",
         "exito": "",
-        "sinRazón": ""
+        "sinRazón": "Without reason"
     },
     "notification": {
         "activado": "activated",
@@ -403,7 +403,13 @@
         "saferDoneII": "You have obtained your role, ¡Thanks for voting for us!\nUse the command again to generate a D-Safe Premium key.",
         "saferErrorBadRequest": "An error has happened, try again.",
         "saferErrorNoReq": "You don't have the requisites to obtain the Safer, keep voting.",
-        "saferErrorNoVote": "You haven't voted or an error has happened, try in some minutes."
+        "saferErrorNoVote": "You haven't voted or an error has happened, try in some minutes.",
+        "help": {
+            "field3": "Commands"
+        },
+        "safer": {
+            "field3": "Level"
+        }
     },
     "reason": {
         "noCase": "",
