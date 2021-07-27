@@ -33,7 +33,7 @@
         "errorNobanneable": "**Error**, I cannot ban the mentioned user.",
         "errorUser": "**Error**, User not found, please try again.",
         "exito": "{{emoji}} **{{memberTag}} was banned**",
-        "sinRazón": "Without reason.",
+        "sinRazón": "No reason",
         "reason": "You have been banned in **{{guild}}** because: **{{reason}}**."
     },
     "baninfo": {
