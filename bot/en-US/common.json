@@ -63,5 +63,34 @@
         "close": "Close",
         "home": "Home"
     },
-    "error": "Error"
+    "error": "Error",
+    "languages": {
+        "owo": {
+            "description": "uwu owo uwu owo uwu owo uwu",
+            "value": "owo",
+            "emoji": "<:uwu:865567462391939084>"
+        },
+        "andaluh": {
+            "emoji": "<:flag_an:865567274664329226>",
+            "value": "Andaluh",
+            "description": "biba el Andalûh"
+        },
+        "es-ES": {
+            "emoji": "🇬🇧",
+            "value": "Spanish (Spain )"
+        },
+        "en-US": {
+            "emoji": "🇺🇲",
+            "value": "English (United States)"
+        },
+        "pt-BR": {
+            "emoji": "🇧🇷",
+            "value": "Portuguese (Brazil)"
+        },
+        "upsidedown": {
+            "description": "Oh no Will Byers don't get in there!",
+            "value": "uʍopǝpᴉsdn",
+            "emoji": "<:pain:865567631347286047>"
+        }
+    }
 }
