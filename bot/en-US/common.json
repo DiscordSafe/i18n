@@ -56,7 +56,7 @@
         "cancel": "Cancel",
         "destroy": "Suppress"
     },
-    "whatisthis": "*[¿What's this?]({{link}})*",
+    "whatisthis": "*[¿What is this?]({{link}})*",
     "paginationButton": {
         "back": "Previous",
         "next": "Next",
