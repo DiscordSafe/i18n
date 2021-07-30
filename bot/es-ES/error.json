@@ -26,6 +26,12 @@
       "min": "El número no debe ser menor a {{min}}.",
       "max": "El número no debe ser mayor a {{max}}.",
       "invalid": "Número inválido."
+    },
+    "channel": {
+      "invalidType": "No se aceptan canales de **{{type}}**."
+    },
+    "role": {
+      "highest": "El rol está por encima de tu rol más alto, no puedes usarlo."
     }
   }
 }
