@@ -1,5 +1,18 @@
 {
   "whatisthis": "*[¿Qué es esto?]({{link}})*",
+  "channelTypes": {
+    "text": "texto",
+    "voice": "voz",
+    "dm": "dm",
+    "group": "grupo",
+    "category": "categoría",
+    "news": "noticias",
+    "store": "tienda",
+    "news_thread": "hilo de noticias",
+    "public_thread": "hilo público",
+    "private_thread": "hilo privado",
+    "stage": "escenario"
+  },
   "actions": {
     "confirm": "Confirmar",
     "cancel": "Cancelar",
