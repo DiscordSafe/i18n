@@ -313,7 +313,7 @@
         "errorGuild": "**Error**, the user is not in the server.",
         "errorNoKick": "**Error**, I can't kick the mentioned user.",
         "errorNokickeable": "**Error**, I can't kick the user.",
-        "errorUser": "**Error**, the user was not found, try again.",
+        "errorUser": "**Error**, User not found, please try again.",
         "exito": "{{emoji}} **{{memberTag}}** was kicked.",
         "sinRazón": "Without reason.",
         "reason": "You have been kicked in **{{guild}}** for: **{{reason}}**."
