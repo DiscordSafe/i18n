@@ -324,14 +324,14 @@
         "doneboost": "The boost log channel has been set to {{canal}}.",
         "donemod": "The mod log channel has been set to {{canal}}.",
         "errorArgs": "**Error**. Invalid arguments, you must mention a channel or put an ID.",
-        "errorConfig": "",
+        "errorConfig": "**Error**, you can't disable something that doesn't exist, but... *what is existence? what means to exist? **Do I exist??** (ಥ﹏ಥ)\nI am at the edge of an emotional collapse in the midst of an identity crisis questioning about my future thinking about my failure while I broke myself internally, I need responses...\n>>> **Existence**\nIn philosophy, existence is, in general terms, the reality of an entity. This concept is usually contrasted with that of essence.\nEtymology\nThe word existence comes from the Latin term existentia, a late derivative of the verb existere, composed of ex- (\"outside\") and sistere (\"to stop\") or stare (\"to stand straight\"), and which means \"to go out, appear, appear\"; or “to be, to be.” Thus, according to its etymology, the word existence means “what is there” or “what is outside”.\nThe ancient Greek philosophers distinguished true existence from the sensitive and changing appearance - the phenomenal. They considered and studied the reality or essence of all things as arché (ἀρχή): beginning, origin and cause of all things.\nPre-Socratic philosophers were concerned with determining what exists, rather than explaining the very existence of things. Thus, they theorized that \"what there is\" (what really exists) is water (Thales), air (Anaximenes) , the apeiron (Anaximander), or the numbers (Pythagoras).\nHeraclitus suggests that there are no essences, that things do not exist, what truly exists is movement, change or becoming.\nWith Parmenides the problem acquires a new meaning in terms of intelligibility as an Idea of ​​being.\nPlato, Aristotle, and Christian philosophers dealt with the subject with reference to the reality of ideas, understood as forms of matter in its relationship with the world. They therefore considered two fundamental modes of existence: matter and form.\nThe first writings that deal with this subject specifically are the dialogues of Phaedo, The Republic, the Politician and the Timaeus of Plato and the Metaphysics of Aristotle. ",
         "errorPremium": "**Error**, you need to be premium to use this feature. \nhttps://discordsafe.com/premium",
         "errorValid": "**Error**, the channel does not exist of it isn't of text.",
         "help": {
             "author": "Logs",
-            "description": "",
+            "description": "Register all the activity of your server with the logs.",
             "field1": {
-                "d": "",
+                "d": "If you need help, check our [configuration](https://docs.discordsafe.com/docs/config/logs) guide or ask in our [server](https://discordsafe.com/discord).",
                 "t": "❯ Help"
             },
             "field2": {
