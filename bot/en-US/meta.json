@@ -81,7 +81,7 @@
     },
     "filter": {
         "description": "Set up the filters.",
-        "example": "activate anti-spam",
+        "example": "anti-spam enable",
         "usage": "help / [filter] enable / [filter] disable / [filter] ignore [#Channel/@Role]"
     },
     "forceban": {
