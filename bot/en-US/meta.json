@@ -75,7 +75,7 @@
         "usage": "[@User/User ID] <Reason> <--md>"
     },
     "detect": {
-        "description": "",
+        "description": "Detects dangerous users in the server.",
         "example": "",
         "usage": ""
     },
@@ -91,7 +91,7 @@
     },
     "genpassword": {
         "description": "Generates a password according to the parameters provided.",
-        "example": "",
+        "example": "high 26",
         "usage": "<Level(low/medium/high)> <Length(5-50)>"
     },
     "hackban": {
