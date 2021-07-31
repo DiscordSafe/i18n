@@ -1,39 +1,39 @@
 {
     "channelCreate": {
         "desc": "<#{{canal}}>",
-        "title": "",
-        "type": ""
+        "title": "Channel created",
+        "type": "Type"
     },
     "channelDelete": {
-        "desc": "",
+        "desc": "{{canal}}",
         "title": "",
-        "type": ""
+        "type": "Type"
     },
     "channelUpdate": {
-        "coola": "",
-        "coolh": "",
+        "coola": "Ratelimit (Before)",
+        "coolh": "Ratelimit (After)",
         "nombrea": "Name (before)",
         "nombreh": "Name (now)",
-        "none": "",
+        "none": "None.",
         "nsfwa": "NSFW (before)",
         "nsfwh": "NSFW (after)",
         "temaa": "Topic (before)",
         "temah": "Topic (after)",
-        "title": "",
-        "typea": "",
-        "typeh": ""
+        "title": "Channel updated",
+        "typea": "Type (Before)",
+        "typeh": "Type (After)"
     },
     "guildBanAdd": {
-        "banned": "",
-        "mod": "",
+        "banned": "Member banned",
+        "mod": "Moderator",
         "ningunaRazón": "None",
         "razón": "Reason"
     },
     "guildBanRemove": {
-        "mod": "",
-        "ningunaRazón": "",
-        "razón": "",
-        "unbanned": ""
+        "mod": "Moderator",
+        "ningunaRazón": "None",
+        "razón": "Reason",
+        "unbanned": "Member unbanned"
     },
     "guildMemberAdd": {
         "alarma": "The server **{{server}}** is on alarm mode and does not allow new users to enter, please try again in a few minutes.",
@@ -43,8 +43,8 @@
         "alertaP": "Proof",
         "alertaR": "Reason",
         "alertaTitle": "Alert",
-        "badges": "",
-        "bot": "",
+        "badges": "Badges",
+        "bot": "Bot",
         "captchaErrorIntentos": "**You have reached the limit of attempts**, you have not completed the verification so you will be kicked.",
         "captchaErrorTiempo": "**Time is over**, you have not completed the verification so you will be kicked.",
         "captchaField1": "Before continuing, you must answer this **captcha**, do it to be able to access the server. You have **{{intentos}} attempts** and ** {{minutos}} minutes** to complete.",
