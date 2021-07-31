@@ -6,7 +6,7 @@
     },
     "channelDelete": {
         "desc": "{{canal}}",
-        "title": "",
+        "title": "Channel deleted",
         "type": "Type"
     },
     "channelUpdate": {
@@ -65,21 +65,21 @@
         "usuarioDa": "⛔❯ Harmful user: {{reason}}"
     },
     "guildMemberRemove": {
-        "badges": "",
-        "bot": "",
+        "badges": "Badges",
+        "bot": "Bot",
         "creación": "Created",
         "usuarioSalio": "User left"
     },
     "guildMemberUpdate": {
-        "after": "",
-        "before": "",
-        "boostDesc": "",
-        "boostTitle": "",
-        "by": "",
+        "after": "After:",
+        "before": "Before:",
+        "boostDesc": "<@{{memberID}}>, Thanks for supporting this server with your boost. <3",
+        "boostTitle": "Thanks for your boost!",
+        "by": "Updated by",
         "name": "",
-        "nickname": "",
-        "roladded": "",
-        "rolremoved": "",
+        "nickname": "Nickname changed",
+        "roladded": "Role added",
+        "rolremoved": "Role removed",
         "unboostDesc": "",
         "unboostTitle": ""
     },
@@ -126,18 +126,18 @@
         "título": "Deleted message"
     },
     "messageDeleteBulk": {
-        "canal": "",
+        "canal": "Channel",
         "cantidad": "Amount",
         "fs1": "Messages deleted on {{fecha}}",
         "fs2": " Message ID: {{id}}\nMessage: {{content}}",
-        "título": "A large number of messages have been deleted"
+        "título": "Messages Purged"
     },
     "messageUpdate": {
         "content": "New content",
         "contentPinned": "",
         "nuevo": "Message ID",
-        "oldContent": "",
-        "pinned": "",
+        "oldContent": "Before content",
+        "pinned": "New message pinned",
         "tiempos": "Time difference",
         "título": "Updated message"
     },
@@ -148,26 +148,42 @@
         "título": "Deleted role: {{rol}} - `{{rolid}}`"
     },
     "roleUpdate": {
-        "added": "",
-        "added_plural": "",
-        "executor": "",
-        "removed": "",
-        "removed_plural": "",
-        "título": "Updated role"
+        "added": "Permission added",
+        "added_plural": "Permissions added",
+        "executor": "Edited by",
+        "removed": "Permission removed",
+        "removed_plural": "Permissions removed",
+        "título": "Role updated"
     },
     "voiceStateUpdate": {
-        "channel": "",
-        "deaf": "",
-        "join": "",
-        "leave": "",
-        "mute": "",
-        "newChannel": "",
-        "oldChannel": "",
-        "start-streaming": "",
-        "stop-streaming": "",
-        "switch": "",
-        "undeaf": "",
-        "unmute": "",
-        "user": ""
+        "channel": "Channel",
+        "deaf": "Deafened in voice channel",
+        "join": "Joined voice channel",
+        "leave": "Left voice channel",
+        "mute": "Muted in voice channel",
+        "newChannel": "New channel",
+        "oldChannel": "Previous channel",
+        "start-streaming": "Started streaming in voice channel",
+        "stop-streaming": "Stopped streaming in voice channel",
+        "switch": "Switched voice channels",
+        "undeaf": "Undeafened in voice channel",
+        "unmute": "Unmuted in voice channel",
+        "user": "User"
+    },
+    "stageInstanceCreate": {
+        "title": "Stage channel opened",
+        "channel": "Channel",
+        "createdAt": "Created on",
+        "privacyLevel": "Privacy Level",
+        "discoverable": "Discoverable",
+        "public": "Public",
+        "guildonly": "Only for this server",
+        "instanceID": "Instance ID: `{{id}}`",
+        "members": "Member count",
+        "region": "Region"
+    },
+    "threadUpdate": {
+        "namea": "Name (Before)",
+        "named": "Name (After)"
     }
 }
