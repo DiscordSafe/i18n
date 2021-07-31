@@ -5,9 +5,9 @@
         "usage": ""
     },
     "approve": {
-        "description": "Approves new users to join the server.",
+        "description": "Approves new users.",
         "example": "@Vicente#0001",
-        "usage": "<@User>"
+        "usage": "[@User/UserID/all]"
     },
     "avatar": {
         "description": "Display a user's avatar.",
@@ -96,7 +96,7 @@
     },
     "hackban": {
         "description": "Bans members trough their ID.",
-        "example": "",
+        "example": "124545463433127 124545463433127 124545463433127",
         "usage": "[ID] <ID> <ID>..."
     },
     "help": {
