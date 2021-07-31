@@ -5,7 +5,7 @@
         "usage": ""
     },
     "approve": {
-        "description": "Aprueba de los nuevos usuarios al servidor.",
+        "description": "Aprueba a los nuevos usuarios.",
         "example": "@Vicente#0001",
         "usage": "[@Usuario/UsuarioID/all]"
     },
@@ -80,7 +80,7 @@
         "usage": "[@Usuario/Usuario ID] <Razón> <--md>"
     },
     "detect": {
-        "description": "Detecta a usuarios peligrosos presentes en el servidor.",
+        "description": "Detecta a usuarios peligrosos en el servidor.",
         "example": "",
         "usage": ""
     },
@@ -101,7 +101,7 @@
     },
     "genpassword": {
         "description": "Genera una contraseña acorde a los parámetros proporcionados.",
-        "example": "Alto 26",
+        "example": "high 26",
         "usage": "<Nivel(low/medium/high)> <Longitud(5-50)>"
     },
     "hackban": {
