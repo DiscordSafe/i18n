@@ -91,7 +91,7 @@
     },
     "filter": {
         "description": "Configura los filtros.",
-        "example": "activate anti-spam",
+        "example": "anti-spam enable",
         "usage": "help / [filtro] enable / [filtro] disable / [filtro] ignore [#Canal/@Rol]"
     },
     "forceban": {
