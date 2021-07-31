@@ -92,5 +92,18 @@
             "value": "uʍopǝpᴉsdn",
             "emoji": "<:pain:865567631347286047>"
         }
+    },
+    "channelTypes": {
+        "text": "text",
+        "voice": "voice",
+        "dm": "dm",
+        "group": "group",
+        "category": "category",
+        "news": "news",
+        "store": "store",
+        "news_thread": "news thread",
+        "public_thread": "public thread",
+        "private_thread": "private thread",
+        "stage": "stage"
     }
 }
