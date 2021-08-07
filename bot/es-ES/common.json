@@ -1,17 +1,17 @@
 {
   "whatisthis": "*[¿Qué es esto?]({{link}})*",
   "channelTypes": {
-    "text": "texto",
-    "voice": "voz",
-    "dm": "dm",
-    "group": "grupo",
-    "category": "categoría",
-    "news": "noticias",
-    "store": "tienda",
-    "news_thread": "hilo de noticias",
-    "public_thread": "hilo público",
-    "private_thread": "hilo privado",
-    "stage": "escenario"
+    "GUILD_TEXT": "texto",
+    "GUILD_VOICE": "voz",
+    "DM": "dm",
+    "GROUP_DM": "grupo",
+    "CATEGORY": "categoría",
+    "GUILD_NEWS": "noticias",
+    "GUILD_STORE": "tienda",
+    "GUILD_NEWS_THREAD": "hilo de noticias",
+    "GUILD_PUBLIC_THREAD": "hilo público",
+    "GUILD_PRIVATE_THREAD": "hilo privado",
+    "GUILD_STAGE_VOICE": "escenario"
   },
   "actions": {
     "confirm": "Confirmar",
