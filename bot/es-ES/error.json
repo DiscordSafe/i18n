@@ -1,4 +1,5 @@
 {
+  "dm": "**Error**, este comando no se puede usar en mensajes directos.",
   "comandoError": "Ha ocurrido un error al ejecutar el comando.\nSe ha notificado a los desarrolladores.\nSi necesita ayuda pregunte en nuestro servidor de soporte, https://discordsafe.com/discord",
   "argumentos": "Este comando necesita argumentos, **Use:** {{prefijo}}{{commandName}} ",
   "guild": "No puedes usar este comando fuera de un servidor.",
