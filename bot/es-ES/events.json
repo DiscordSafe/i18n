@@ -148,12 +148,14 @@
     "título": "Rol eliminado: {{rol}} - `{{rolid}}`"
   },
   "roleUpdate": {
+    "defaultTitle": "Rol modificado",
     "added": "Permiso añadido",
     "added_plural": "Permisos añadidos",
     "executor": "Realizado por",
     "removed": "Permiso quitado",
     "removed_plural": "Permisos quitados",
-    "título": "Rol actualizado"
+    "título": "Rol actualizado",
+    "roleID": "Rol ID: {{roleID}}"
   },
   "voiceStateUpdate": {
     "channel": "Canal",
