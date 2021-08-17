@@ -27,5 +27,6 @@
             "max": "The number must not be greater than {{max}}.",
             "invalid": "Invalid number."
         }
-    }
+    },
+    "dm": "**Error, this command cannot be used in direct messages."
 }
