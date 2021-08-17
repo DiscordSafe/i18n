@@ -104,6 +104,17 @@
         "news_thread": "news thread",
         "public_thread": "public thread",
         "private_thread": "private thread",
-        "stage": "stage"
+        "stage": "stage",
+        "GUILD_TEXT": "text",
+        "GUILD_VOICE": "voice",
+        "DM": "dm",
+        "GROUP_DM": "group",
+        "CATEGORY": "category",
+        "GUILD_NEWS": "news",
+        "GUILD_STORE": "store",
+        "GUILD_NEWS_THREAD": "news thread",
+        "GUILD_PUBLIC_THREAD": "public thread",
+        "GUILD_PRIVATE_THREAD": "private thread",
+        "GUILD_STAGE_VOICE": "stage"
     }
 }
