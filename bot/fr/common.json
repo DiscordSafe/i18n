@@ -1,1 +1,49 @@
-{}
+{
+    "channelTypes": {
+        "GUILD_TEXT": "texte",
+        "GUILD_VOICE": "voix",
+        "DM": "dm",
+        "CATEGORY": "catégorie",
+        "GUILD_NEWS": "informations",
+        "GUILD_STORE": "boutique",
+        "GUILD_NEWS_THREAD": "fil d'actualité",
+        "GUILD_PUBLIC_THREAD": "fil public",
+        "GUILD_PRIVATE_THREAD": "fil privé",
+        "GUILD_STAGE_VOICE": "étape",
+        "GROUP_DM": "grouper"
+    },
+    "actions": {
+        "confirm": "Confirmer",
+        "cancel": "Annuler",
+        "destroy": "Réprimer"
+    },
+    "paginationButton": {
+        "next": "Suivant",
+        "close": "Fermer",
+        "home": "Début",
+        "back": "Précédent"
+    },
+    "error": "Erreur",
+    "attachment": "C'était un embed ou un attachment.",
+    "notFound": "Il n'a pas été trouvé.",
+    "autor": "Auteur: {{autorid}}",
+    "mensajeID": "Message ID: {{id}}",
+    "notification": "Notification",
+    "yes": "Oui",
+    "no": "Ne pas",
+    "page": "Page",
+    "AntiSpam": {
+        "noMuteRole": "Aucun rôle Muted trouvé, j'en ai créé un nouveau.",
+        "muteEmbedAuthor": "AutoMute",
+        "muteEmbedField1": "Membre en sourdine:",
+        "muteEmbedField2": "Météo",
+        "muteEmbedField3": "Raison",
+        "muteEmbedField4": "Date",
+        "unmuteEmbedAuthor": "Auto Unmute",
+        "MuteRoleCreated": "J'ai créé le rôle **Muted** (appliqué à la personne muette) car aucun rôle Muted n'a été trouvé."
+    },
+    "canal": "Canal",
+    "whatisthis": "*[Qu'est ce que c'est?]({{link}}]*",
+    "tiempo": "Le temps est écoulé.",
+    "errorCompare": "**Erreur**, vous ne pouvez pas utiliser cette commande sur un membre ayant plus de pouvoirs que vous."
+}
