@@ -18,7 +18,8 @@
         "errorNoConfig": "Verification is not configured. To set it up use `d.verification`",
         "errorNoRoles": "The roles you have configured for verification do not exist or I am not above them. To configure verification use `d.verification`",
         "errorNoVerificado": "The user does not have the Unverified role. To configure verification use `d.verification`",
-        "errorRoles": "You must set up not verified and user roles first. To set it up use `d.verification`"
+        "errorRoles": "You must set up not verified and user roles first. To set it up use `d.verification`",
+        "all": "All the users have been approved."
     },
     "avatar": {
         "avatar": "{{user}}'s avatar",
@@ -341,10 +342,10 @@
             "title": "Configuration guide"
         },
         "list": {
-            "author": "",
-            "boost": "",
-            "general": "",
-            "mod": "",
+            "author": "Logs settings in {{guild}}",
+            "boost": "❯ Boost logs",
+            "general": "❯ General logs",
+            "mod": "❯ Moderation logs",
             "title": "Step by step configuration guide"
         }
     },
