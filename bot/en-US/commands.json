@@ -336,7 +336,7 @@
                 "t": "❯ Help"
             },
             "field2": {
-                "d": "",
+                "d": "`logs help` - Shows this help menu.\n`logs list` - Shows list of the set-up log modules.\n`logs [#Channel/ChannelID/disable]` - Adjusts server’s main activity logs.\n`logs mod [#Channel/ChannelID/disable]` - Adjusts moderation actions logs.\n`logs boost [#Channel/ChannelID/disable]` - Adjusts boosts and server upgrades logs.",
                 "t": "❯ Commands"
             },
             "title": "Configuration guide"
@@ -350,20 +350,23 @@
         }
     },
     "mail": {
-        "borrarCorreosLeídos": "",
-        "buzónDeCorreos": "",
-        "correosLeídos": "",
-        "correosNoLeídos": "",
-        "correosNoLeídosDes": "",
-        "correosNoLeídosT": "",
-        "eliminado": "",
-        "eliminarCorreos": "",
-        "eliminarCorreosDes": "",
-        "leyendoCorreo": "",
-        "vaya": "",
-        "vayaDes": "",
-        "volverLeer": "",
-        "volverLeerDes": ""
+        "borrarCorreosLeídos": "Delete mails",
+        "buzónDeCorreos": "Mail inbox",
+        "correosLeídos": "Read mail",
+        "correosNoLeídos": "{{emoji}} View unread mail `{{number}}`",
+        "correosNoLeídosDes": "View recent unread mail.",
+        "correosNoLeídosT": "Unread mails",
+        "eliminado": " Mail **#{{id}}** has been successfully deleted.",
+        "eliminarCorreos": "{{emoji}} Delete mails `{{number}}`",
+        "eliminarCorreosDes": "Delete unread mail from your inbox.",
+        "leyendoCorreo": "Reading mail #{{id}}",
+        "vaya": "Opss…",
+        "vayaDes": "here there is nothing.",
+        "volverLeer": "{{emoji}} Re-read mails `{{number}}`",
+        "volverLeerDes": "Re-read mails.",
+        "components": {
+            "readButtom": "View unread mails"
+        }
     },
     "modstats": {
         "actions": {
