@@ -26,6 +26,9 @@
             "min": "The number must not be less than {{min}}.",
             "max": "The number must not be greater than {{max}}.",
             "invalid": "Invalid number."
+        },
+        "channel": {
+            "invalidType": "Channels of **{{{type}}** are not accepted."
         }
     },
     "dm": "**Error, this command cannot be used in direct messages."
