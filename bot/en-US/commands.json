@@ -474,12 +474,12 @@
     },
     "role": {
         "color": "",
-        "creation": "",
+        "creation": "▸ Creation",
         "embedTitle": "",
         "errorArgs": "",
         "errorNotFound": "",
         "hoist": "",
-        "id": "",
+        "id": "▸ ID",
         "mention": "",
         "mentionable": "",
         "name": "",
@@ -503,7 +503,7 @@
         "errorMsg": "",
         "explicitFilter": "",
         "features": "",
-        "images": "",
+        "images": "▸ Images",
         "limits": "",
         "miembros": "▸ Members",
         "moreEmojis": "",
@@ -511,13 +511,15 @@
         "msgMention": "",
         "región": "▸ Region",
         "specialChannels": "",
-        "verification": ""
+        "verification": "",
+        "roles": "▸ Roles"
     },
     "setlang": {
         "establecido": "The server language has been set to {{idioma}}.",
         "noDisponible": "Language not available yet",
         "noDisponibleDes": "The language `{{idioma}}` **is not available yet**, we are working on it to do it as soon as possible.",
-        "yaEstablecido": "The language is already set as {{idioma}}."
+        "yaEstablecido": "The language is already set as {{idioma}}.",
+        "helpus2": "Help us to improve and maintain the translation of the bot in other languages, [ask in the support server](https://discordsafe.com/invite)."
     },
     "setprefix": {
         "errorLength": "**Error**, The prefix can't be that long, It needs to be less of **5** characters.",
@@ -609,7 +611,7 @@
         "embedApprovedTitle": "",
         "embedAuthor": "",
         "embedAutoAccept": "",
-        "embedCommands": "",
+        "embedCommands": "Commands",
         "embedCommands1": "",
         "embedCommandsChannel": "",
         "embedCooldown": "",
@@ -682,28 +684,28 @@
         "title": ""
     },
     "unban": {
-        "changelog": "",
+        "changelog": "{{reason}}.\nMod: {{modTag}} ({{modID}})",
         "errorNoUnBan": "",
         "errorUser": "",
         "exito": "",
         "sinRazón": "Without reason."
     },
     "undeafen": {
-        "changelog": "",
-        "errorAutor": "",
-        "errorConectado": "",
-        "errorMención": "",
+        "changelog": "{{reason}}.\nMod: {{modTag}} ({{modID}})",
+        "errorAutor": "**Error**, you can't deafen yourself.",
+        "errorConectado": "**Error**, the member is not connected to a voice channel.",
+        "errorMención": "**Error**: The user has not been mentioned.",
         "errorYaEnsordecido": "",
         "exito": "",
-        "sinRazón": ""
+        "sinRazón": "Without reason"
     },
     "unmute": {
-        "changelog": "",
+        "changelog": "{{reason}}.\nMod: {{modTag}} ({{modID}})",
         "errorMención": "**Error: Missing the user.**\nWrite it as: `d.unmute @User`",
         "errorNoExiste": "There is no Muted role, I have created and configured it.",
         "errorNoMuteado": "**Error**, That user is not muted.",
         "exito": "",
-        "sinRazón": ""
+        "sinRazón": "Without reason"
     },
     "verification": {
         "autorAyuda": "Help panel about verification",
@@ -818,5 +820,14 @@
     },
     "emoji": {
         "noEncontrado": "**Error**, emoji not found."
+    },
+    "setup": {
+        "verification": {
+            "userTitle": "User role",
+            "noverifiedTitle": "Not verified role"
+        },
+        "filters": {
+            "spamFilter": "Anti-spam filter"
+        }
     }
 }
