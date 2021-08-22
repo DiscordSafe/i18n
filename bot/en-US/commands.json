@@ -19,7 +19,7 @@
         "errorNoRoles": "The roles you have configured for verification do not exist or I am not above them. To configure verification use `d.verification`",
         "errorNoVerificado": "The user does not have the Unverified role. To configure verification use `d.verification`",
         "errorRoles": "You must set up not verified and user roles first. To set it up use `d.verification`",
-        "all": "All users have been approve."
+        "all": "All users have been approved."
     },
     "avatar": {
         "avatar": "{{user}}'s avatar",
@@ -365,7 +365,8 @@
         "volverLeer": "{{emoji}} Re-read mails `{{number}}`",
         "volverLeerDes": "Re-read mails.",
         "components": {
-            "readButtom": "View unread mails"
+            "readButtom": "View unread mails",
+            "selectPlaceholder": "Select a mail to read"
         }
     },
     "modstats": {
@@ -382,7 +383,7 @@
         "noCases": ""
     },
     "mute": {
-        "changelog": "",
+        "changelog": "{{reason}}.\nTime: {{time}}\nMod: {{modTag}} ({{modID}})",
         "errorAutor": "**Error**, You can't mute yourself.",
         "errorMención": "**Error: Need to mention the user.**\nWrite it as: `d.mute @User Number s/m/h Reason`",
         "errorNúmero": "",
