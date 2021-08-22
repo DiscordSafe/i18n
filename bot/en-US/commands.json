@@ -366,7 +366,9 @@
         "volverLeerDes": "Re-read mails.",
         "components": {
             "readButtom": "View unread mails",
-            "selectPlaceholder": "Select a mail to read"
+            "selectPlaceholder": "Select a mail to read",
+            "deleteButtom": "Delete mails",
+            "deletePlaceholder": "Select a mail to delete"
         }
     },
     "modstats": {
@@ -376,7 +378,7 @@
         "author": "",
         "desc": "",
         "fieldd": "",
-        "fieldt": "",
+        "fieldt": "Options",
         "mods": {
             "author": ""
         },
@@ -386,10 +388,12 @@
         "changelog": "{{reason}}.\nTime: {{time}}\nMod: {{modTag}} ({{modID}})",
         "errorAutor": "**Error**, You can't mute yourself.",
         "errorMención": "**Error: Need to mention the user.**\nWrite it as: `d.mute @User Number s/m/h Reason`",
-        "errorNúmero": "",
+        "errorNúmero": "**Error**: The time must be a number.\nWrite it as: `d.mute @User Time s/m/h Reason`",
         "errorYaMuteado": "That user is already muted.",
-        "exito": "",
-        "sinRazón": "Without reason"
+        "exito": "{{emoji}} **{{memberTag}}** has been muted.",
+        "sinRazón": "Without reason",
+        "reason": "You have been muted in **{{guild}}** for: **{{reason}}**.",
+        "reason_time": "You have been muted in **{{guild}}** for **{{time}}** for: **{{reason}}**."
     },
     "notification": {
         "activado": "enabled",
@@ -420,7 +424,8 @@
         "saferErrorNoReq": "You don't have the requisites to obtain the Safer, keep voting.",
         "saferErrorNoVote": "You haven't voted or an error has happened, try in some minutes.",
         "help": {
-            "field3": "Commands"
+            "field3": "Commands",
+            "title": "D-Safe Premium"
         },
         "safer": {
             "field3": "Level"
