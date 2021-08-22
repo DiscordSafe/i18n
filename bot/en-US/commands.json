@@ -425,10 +425,13 @@
         "saferErrorNoVote": "You haven't voted or an error has happened, try in some minutes.",
         "help": {
             "field3": "Commands",
-            "title": "D-Safe Premium"
+            "title": "D-Safe Premium",
+            "field1": "Benefits",
+            "field2": "Get it"
         },
         "safer": {
-            "field3": "Level"
+            "field3": "Level",
+            "author": "Congratulations! You have obtained D-Safe Premium"
         }
     },
     "reason": {
