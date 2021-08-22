@@ -29,6 +29,9 @@
         },
         "channel": {
             "invalidType": "Channels of **{{{type}}** are not accepted."
+        },
+        "role": {
+            "highest": "The role is upper your highest role, you can't use it."
         }
     },
     "dm": "**Error, this command cannot be used in direct messages."
