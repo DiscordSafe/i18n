@@ -80,12 +80,12 @@
         "nickname": "Nickname changed",
         "roladded": "Role added",
         "rolremoved": "Role removed",
-        "unboostDesc": "",
-        "unboostTitle": ""
+        "unboostDesc": "<@{{memberID}}> Thanks for supporting this server, we hope to see you again.",
+        "unboostTitle": "A boost has over :("
     },
     "guildUpdate": {
-        "afkcha": "",
-        "afkchh": "",
+        "afkcha": "AFK's channel (Before)",
+        "afkchh": "AFK's channel (After)",
         "afkta": "",
         "afkth": "AFK Time (After)",
         "desca": "",
