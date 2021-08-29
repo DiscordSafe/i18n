@@ -885,13 +885,13 @@
         },
         "moderation": {
             "defaultAuthor": "Moderation setup",
-            "notifyUsers": "Notify the punishment target when it is warned",
-            "notifyUsers_footer": "This option can be overwritten adding `--md` at the end of the command.",
+            "notifyUsers": "Notify the target when it is punished",
+            "notifyUsers_footer": "This option can be overwritten by adding `--md` at the end of the command.",
             "replyWithReason": "Notify with the punishment reason",
             "deleteCmds": "Delete messages after using moderation commands",
-            "deleteCmds_footer": "This option can be overwritten adding `--del` at the end of the command."
+            "deleteCmds_footer": "This option can be overwritten by adding `--del` at the end of the command."
         },
-        "cancelDesc": "Cancel the selection and sets the default.",
-        "embedAuthor": "Automatic configuration menu"
+        "cancelDesc": "Cancels the selection and sets the default.",
+        "embedAuthor": "Automatic set-up menu"
     }
 }
