@@ -86,24 +86,24 @@
     "guildUpdate": {
         "afkcha": "AFK's channel (Before)",
         "afkchh": "AFK's channel (After)",
-        "afkta": "",
+        "afkta": "AFK Time (before)",
         "afkth": "AFK Time (After)",
-        "desca": "",
+        "desca": "Description (Before)",
         "desch": "",
-        "feaa": "",
-        "feah": "",
-        "levelDowndesc": "",
-        "levelDowntitle": "",
-        "levelUpdesc": "",
-        "levelUptitle": "",
-        "namea": "",
+        "feaa": "Features (Before)",
+        "feah": "Features (After)",
+        "levelDowndesc": "The server has descended to **{{level}}**.",
+        "levelDowntitle": "Level descent",
+        "levelUpdesc": "The server has risen to **{{level}}**.",
+        "levelUptitle": "Level rise",
+        "namea": "Name (Before)",
         "nameh": "",
         "none": "",
         "rega": "",
         "regh": "",
         "title": "",
-        "vanitya": "",
-        "vanityh": ""
+        "vanitya": "Vanity URL (Before)",
+        "vanityh": "Vanity URL (After)"
     },
     "message": {
         "NoFlood": "**[AntiFlood]** Don't send so many messages.",
@@ -134,7 +134,7 @@
     },
     "messageUpdate": {
         "content": "New content",
-        "contentPinned": "",
+        "contentPinned": "Message",
         "nuevo": "Message ID",
         "oldContent": "Before content",
         "pinned": "New message pinned",
@@ -153,7 +153,9 @@
         "executor": "Edited by",
         "removed": "Permission removed",
         "removed_plural": "Permissions removed",
-        "título": "Role updated"
+        "título": "Role updated",
+        "defaultTitle": "Modified role",
+        "roleID": "Role ID: {{roleID}}"
     },
     "voiceStateUpdate": {
         "channel": "Channel",
@@ -184,6 +186,47 @@
     },
     "threadUpdate": {
         "namea": "Name (Before)",
-        "named": "Name (After)"
+        "named": "Name (After)",
+        "autoArchived": "Autoarchivation time (After)",
+        "autoArchivea": "Autoarchivation time (Before)",
+        "title": "Updated thread",
+        "archiveda": "Archived (Before)",
+        "archivedd": "Archived (After)"
+    },
+    "threadCreate": {
+        "members": "Member count",
+        "locked": "Locked",
+        "messageCount": "Message count",
+        "parent": "Parent channel",
+        "private": "Private",
+        "public": "Public",
+        "news": "News",
+        "title": "Created thread",
+        "name": "Name",
+        "threadType": "Type",
+        "threadID": "Thread ID: {{id}}",
+        "owner": "Owner",
+        "archived": "Archived",
+        "archivedAt": "Archived at",
+        "autoArchive": "It will be autoarchived at",
+        "createdAt": "Created at"
+    },
+    "threadDelete": {
+        "title": "Deleted thread"
+    },
+    "threadMembersUpdate": {
+        "join": "Joined the thread #{{thread}}",
+        "leave": "Left the thread #{{thread}}",
+        "thread": "Thread"
+    },
+    "stageInstanceDelete": {
+        "title": "Stage event deleted"
+    },
+    "stageInstanceUpdate": {
+        "title": "Stage event updated",
+        "topica": "Topic (Before)",
+        "topicd": "Topic (After)",
+        "privacya": "Privacy (Before)",
+        "privacyd": "Privacy (After)"
     }
 }
