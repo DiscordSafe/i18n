@@ -595,7 +595,7 @@
         "despalabras": "To set up blocked words use the commands provided below.",
         "despanel": "To change any setting use this command and the name of the setting you want to change.\n**Example:** `{{prefix}}{{commandName}} prefix/announcements/blockedwords/whitelist/logs/lang/verification/filters/notifications`",
         "desprefix": "To change the bot's prefix in this server use the following command `{{prefix}}setprefix`.",
-        "dessugerencias": "",
+        "dessugerencias": "Receive feedback of your users trough completely customizable suggestions.",
         "desverificacion": "To set up verification use the commands provided below.",
         "estado": "❯ Status",
         "falertas": "❯ Raider join notification",
@@ -882,6 +882,16 @@
         },
         "filters": {
             "spamFilter": "Anti-spam filter"
-        }
+        },
+        "moderation": {
+            "defaultAuthor": "Moderation setup",
+            "notifyUsers": "Notify the punishment target when it is warned",
+            "notifyUsers_footer": "This option can be overwritten adding `--md` at the end of the command.",
+            "replyWithReason": "Notify with the punishment reason",
+            "deleteCmds": "Delete messages after using moderation commands",
+            "deleteCmds_footer": "This option can be overwritten adding `--del` at the end of the command."
+        },
+        "cancelDesc": "Cancel the selection and sets the default.",
+        "embedAuthor": "Automatic configuration menu"
     }
 }
