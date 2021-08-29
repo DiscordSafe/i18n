@@ -878,7 +878,14 @@
     "setup": {
         "verification": {
             "userTitle": "User role",
-            "noverifiedTitle": "Not verified role"
+            "noverifiedTitle": "Not verified role",
+            "channelDesc": "**This will be the verification channel.**\nSelect a text channel in the next select menu.",
+            "noverifiedDesc": "**This will be the role that will be given to the new users when they join the server before being verified.**\nSelect a role in the next select menu.",
+            "channelPlaceholder": "Select a text channel",
+            "noverifiedPlaceholder": "Select a role",
+            "defaultAuthor": "Verification setup",
+            "modeTitle": "Verification setup",
+            "channelTitle": "Verification channel"
         },
         "filters": {
             "spamFilter": "Anti-spam filter"
@@ -889,7 +896,10 @@
             "notifyUsers_footer": "This option can be overwritten by adding `--md` at the end of the command.",
             "replyWithReason": "Notify with the punishment reason",
             "deleteCmds": "Delete messages after using moderation commands",
-            "deleteCmds_footer": "This option can be overwritten by adding `--del` at the end of the command."
+            "deleteCmds_footer": "This option can be overwritten by adding `--del` at the end of the command.",
+            "doneDesc": "You have completed the **moderation** setup successfully.",
+            "replyWithReason_footer": "This option can be overwritten adding `--reason` at the end of the command.",
+            "doneTitle": "Setup completed"
         },
         "cancelDesc": "Cancels the selection and sets the default.",
         "embedAuthor": "Automatic set-up menu"
