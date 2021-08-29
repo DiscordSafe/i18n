@@ -719,15 +719,15 @@
         "massDeleteDone": "The suggestion **{{suggID}}** was deleted successfully.",
         "removedAuto": "The **autoaccept** was deleted successfully.",
         "removedQuestion": "The interrogation option (:question:) on the suggestions was disabled successfully.",
-        "setChannelDone": "",
-        "setChannelDoneApproved": "",
-        "setChannelDoneDenied": "",
+        "setChannelDone": "The suggestions channel has been set properly to **<#{{channel}}>**.",
+        "setChannelDoneApproved": "The approved suggestions channel has been set properly to **<#{{channel}}>**.",
+        "setChannelDoneDenied": "The denied suggestions channel has been set properly to **<#{{channel}}>**.",
         "setChannelUndoneApproved": "The approved suggestions channel has been disabled properly.",
         "setChannelUndoneDenied": "The denied suggestions channel has been disabled properly.",
         "setCustomPalette": "The **{{id}}** has been set to **{{value}}**.",
         "staffCommentField": "{{emoji}} Staff comment",
         "stats": "Summary: **{{resumen}}**\nPositive votes: **{{approved}} `{{approvedPercent}}%` **\nNegative votes: **{{denied}} ** `{{deniedPercent}}%`",
-        "statsField": "",
+        "statsField": "{{emoji}} Statistics",
         "statsQuestion": "Summary **{{resumen}}**\nPositive votes: **{{approved}} `{{approvedPercent}}%`**\nUndecided votes: **{{question}}** `{{questionPercent}}%`\nNegative votes: **{{denied}}** `{{deniedPercent}}%`"
     },
     "support": {
@@ -736,14 +736,15 @@
     },
     "topbots": {
         "error": "**Error**, an error has happened and I cannot fetch the list.",
-        "title": ""
+        "title": ":trophy: Top bots"
     },
     "unban": {
         "changelog": "{{reason}}.\nMod: {{modTag}} ({{modID}})",
-        "errorNoUnBan": "",
+        "errorNoUnBan": "**Error**, I can't unban the user.",
         "errorUser": "**Error**, the user was not found banned, try again.",
-        "exito": "",
-        "sinRazón": "Without reason."
+        "exito": "{{emoji}} **{{memberTag}}** has been unbanned.",
+        "sinRazón": "Without reason.",
+        "reason": "You have been unbanned in **{{guild}}** for: **{{reason}}**."
     },
     "undeafen": {
         "changelog": "{{reason}}.\nMod: {{modTag}} ({{modID}})",
@@ -760,8 +761,9 @@
         "errorMención": "**Error: Missing the user.**\nWrite it as: `d.unmute @User`",
         "errorNoExiste": "There is no Muted role, I have created and configured it.",
         "errorNoMuteado": "**Error**, That user is not muted.",
-        "exito": "",
-        "sinRazón": "Without reason"
+        "exito": "{{emoji}} **{{memberTag}}** has been unmuted.",
+        "sinRazón": "Without reason",
+        "reason": "You have been unmuted in **{{guild}}** for **{{reason}}**."
     },
     "verification": {
         "autorAyuda": "Help panel about verification",
@@ -851,7 +853,8 @@
         "errorMención": "**Error: You must mention the user.**\nWrite it as: `d.warn @User Reason`",
         "errorRazón": "**Error**: The reason is missing.",
         "errorUser": "**Error**, the user was not found, try again, you should add valid arguments.",
-        "exito": ""
+        "exito": "{{emoji}} **{{memberTag}}** has been warned.",
+        "reason": "You have been warned in **{{guild}}** for: **{{reason}}**."
     },
     "warnings": {
         "noMention": "**Error**, you have to mention a user.",
@@ -860,7 +863,7 @@
         "noWarns": "There isn't any warnings.",
         "sancionado": "`{{code}}` - User sanctionated {{user}} by {{mod}} reason: {{razón}}",
         "userEmbedMore": "{{warns}} warnings of {{memberTag}} ({{memberID}})",
-        "userEmbedOne": ""
+        "userEmbedOne": "Warnings of {{memberTag}} ({{memberID}})"
     },
     "whitelist": {
         "añadido": "Added to whitelist: {{user}}",
