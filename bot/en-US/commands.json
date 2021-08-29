@@ -361,28 +361,29 @@
         "eliminarCorreosDes": "Delete unread mail from your inbox.",
         "leyendoCorreo": "Reading mail #{{id}}",
         "vaya": "Opss…",
-        "vayaDes": "here there is nothing.",
-        "volverLeer": "{{emoji}} Re-read mails `{{number}}`",
-        "volverLeerDes": "Re-read mails.",
+        "vayaDes": "there is nothing here.",
+        "volverLeer": "{{emoji}} Read again mails `{{number}}`",
+        "volverLeerDes": "Read again read mails.",
         "components": {
             "readButtom": "View unread mails",
             "selectPlaceholder": "Select a mail to read",
             "deleteButtom": "Delete mails",
-            "deletePlaceholder": "Select a mail to delete"
+            "deletePlaceholder": "Select a mail to delete",
+            "rereadButtom": "Read mails again"
         }
     },
     "modstats": {
         "actions": {
-            "author": ""
+            "author": "Action graphics"
         },
-        "author": "",
-        "desc": "",
-        "fieldd": "",
+        "author": "Moderation cases statistics",
+        "desc": "View statistics and graphics of the moderation cases in the server.",
+        "fieldd": "{{emojione}} Shows a graphic of the actions.\n{{emojitwo}} Shows a graphic with the moderators with more actions.\n{{emojicancel}} Cancels the selection.",
         "fieldt": "Options",
         "mods": {
-            "author": ""
+            "author": "Moderator graphic"
         },
-        "noCases": ""
+        "noCases": "**Error**, there are not enough cases to generate graphics."
     },
     "mute": {
         "changelog": "{{reason}}.\nTime: {{time}}\nMod: {{modTag}} ({{modID}})",
@@ -427,18 +428,35 @@
             "field3": "Commands",
             "title": "D-Safe Premium",
             "field1": "Benefits",
-            "field2": "Get it"
+            "field2": "Get it",
+            "field1d": "• Advanced IPlogger filter.\n• NSFW images filter.\n• Automatic forceban.\n• Suggestion manager role.\n• Custom color palette.\n• Suggestions-only channel.\n• Cooldown within suggestions.\n• Customized emojis in the reactions.\n• Lower response time.\n• Server boost logs.\n• Special badge.\n• Prioritary support.\n• Exclusive roles and channels.\n• Be part of the Testers program.",
+            "desc": "Improve your community with D-Safe Premium and support the bot's development to make possible bringing better worked updates and with the features you wait.",
+            "field2d": "• Supporting us in [Patreon](https://patreon.com/join/DiscordSafe).\n• In a free way voting us in botlists, [more information](https://docs.discordsafe.com/docs/support-us).",
+            "field3d": "• `redeem`, redeems your premium in the server.\n• `info`, shows the actual status of your premium.\n• `safergen`, generates a premium if you have the vote requirements.",
+            "image": "https://i.imgur.com/ee7uS79.png"
         },
         "safer": {
             "field3": "Level",
-            "author": "Congratulations! You have obtained D-Safe Premium"
-        }
+            "author": "Congratulations! You have obtained D-Safe Premium",
+            "desc": "Now you will can redeem this benefits in a server using `d.{{commandName}} redeem` in the server that you want to redeem it.",
+            "field1": "Server",
+            "field2": "Until the day",
+            "footer": "Thank you very much to support the development of D-Safe <3",
+            "noReedem": "Not redeemed, use `d.{{commandName}} redeem` in the server that you want to redeem it.",
+            "done": " <@{{user}}> has received its key, **congrats!**",
+            "multiplePremiums": "You have multiple premiums, ¿what one do you want to redeem?"
+        },
+        "errorNoRepeated": "**Error**, a premium has been already redeemed on this server.",
+        "noEstablecido": "Not established",
+        "infinito": "Infinite.",
+        "errorAllRedeem": "**Error**, all the premiums have been redeemed.",
+        "infoAuthor_plural": "{{user}}'s premiums"
     },
     "reason": {
-        "noCase": "",
-        "noReason": "",
-        "reasonLimit": "",
-        "success": ""
+        "noCase": "**Error**, the case was not found, check that the case ID is correct.",
+        "noReason": "**Error**, you need to specify the reason that you wanna update.",
+        "reasonLimit": "**Error**, the reason surpasses the limit of 50 characteres or is lower than 3 characters.",
+        "success": "{{emoji}} The reason of the case `{{caseid}}` has been set to `{{reason}}`."
     },
     "rechazar": {
         "md": "Your report to {{user}} was rejected with the reason: `{{razón}}`",
@@ -465,10 +483,11 @@
         "reporteGenerado": "Your report was succesfully sent, we will answer you as soon as possible.",
         "reporteTítulo": "Sent Report",
         "usuario": "👤❯ Reported User:",
-        "verificación": "In verification"
+        "verificación": "In verification",
+        "enviado": "{{emoji}} Report sended!"
     },
     "reportbug": {
-        "args": "",
+        "args": "This command needs arguments, example: `d.reportbug Report title | Bug description`",
         "confirmación": "Are you sure to send the bug report? To confirm, answer Yes.",
         "descripción": "❯ Description:",
         "error": "In order to attend your report, you must join [our server] (https://discordsafe.com/discord) and use the command there.",
@@ -476,53 +495,79 @@
         "mandando": "Sending…"
     },
     "role": {
-        "color": "",
+        "color": "▸ Color",
         "creation": "▸ Creation",
-        "embedTitle": "",
-        "errorArgs": "",
-        "errorNotFound": "",
-        "hoist": "",
+        "embedTitle": "▸ Role information",
+        "errorArgs": "**Error**, you need to mention a role or put an ID.",
+        "errorNotFound": "**Error**, the role was not found, try again.",
+        "hoist": "▸ Hoisted",
         "id": "▸ ID",
-        "mention": "",
-        "mentionable": "",
-        "name": "",
+        "mention": "▸ Mention",
+        "mentionable": "▸ Mentionable",
+        "name": "▸ Name",
         "permissions": "▸ Permissions",
-        "position": "",
-        "tagBoost": "",
-        "tagBot": "",
-        "tagIntegration": "",
-        "tags": ""
+        "position": "▸ Position",
+        "tagBoost": "Booster: {{emoji}}",
+        "tagBot": "Bot: <@{{botID}}>",
+        "tagIntegration": "Integration: <@{{integrationID}}>",
+        "tags": "▸ Tags"
     },
     "server": {
-        "2fa": "",
-        "afkChannel": "",
-        "afkMin": "",
-        "badgesSafe": "",
+        "2fa": "▸ 2 factor authentication",
+        "afkChannel": "Channel: {{channel}} ",
+        "afkMin": "({{timeout}} min)",
+        "badgesSafe": "▸ D-Safe badges",
         "canales": "▸ Channels",
         "creadoEl": "▸ Created the",
-        "dmn": "",
+        "dmn": "▸ Default message notification",
         "dueño": "▸ Server Owner",
-        "errorFetch": "",
-        "errorMsg": "",
-        "explicitFilter": "",
-        "features": "",
+        "errorFetch": "**Error**, an error was trown, try again later.",
+        "errorMsg": "**Error**, an unexpected error was trown, try again later.",
+        "explicitFilter": "▸ Explicit content filter",
+        "features": "▸ Features",
         "images": "▸ Images",
-        "limits": "",
+        "limits": "▸ Server limits",
         "miembros": "▸ Members",
-        "moreEmojis": "",
-        "msgAll": "",
-        "msgMention": "",
+        "moreEmojis": " and {{size}} more.",
+        "msgAll": "All messages",
+        "msgMention": "Only @mentions",
         "región": "▸ Region",
-        "specialChannels": "",
-        "verification": "",
-        "roles": "▸ Roles"
+        "specialChannels": "▸ Special channels",
+        "verification": "▸ Verification level",
+        "roles": "▸ Roles",
+        "afk": "▸ AFK",
+        "nsfw_levels": {
+            "age_restricted": "Age restricted",
+            "default": "Default",
+            "explicit": "Explicit",
+            "safe": "Safe"
+        },
+        "TIER_1": "<:boostlvl1:825059663610511417> Tier 1",
+        "TIER_2": "<:boostlvl2:825059664227729438> Tier 2",
+        "TIER_3": "<:boostlvl3:825059663627812864> Tier 3",
+        "NONE": "Tier: None :(",
+        "bans": "▸ Bans",
+        "webhooks": "▸ Webhooks",
+        "boosts": "▸ Boosts",
+        "widget": "▸ Widget",
+        "emojis": "▸ Emojis",
+        "total": "Total:",
+        "nsfw_level": "▸ NSFW level"
     },
     "setlang": {
         "establecido": "The server language has been set to {{idioma}}.",
         "noDisponible": "Language not available yet",
         "noDisponibleDes": "The language `{{idioma}}` **is not available yet**, we are working on it to do it as soon as possible.",
         "yaEstablecido": "The language is already set as {{idioma}}.",
-        "helpus2": "Help us to improve and maintain the translation of the bot in other languages, [ask in the support server](https://discordsafe.com/invite)."
+        "helpus2": "Help us to improve and maintain the translation of the bot in other languages, [ask in the support server](https://discordsafe.com/invite).",
+        "title": "Language configuration in {{server}}",
+        "easterEgg": {
+            "replyDescription": "**Consider that this special languages are only jokes and will be confusing or will break the bot in any moment, please only use them to test them and go back to the language you had previously.** If you help contact in [our server](https://discordsafe.com/discord).",
+            "label": "Special languages???",
+            "replyTitle": "You have discovered an easter egg! :eyes:"
+        },
+        "helpus1": "Help us translating! 💖",
+        "select": "Select the language."
     },
     "setprefix": {
         "errorLength": "**Error**, The prefix can't be that long, It needs to be less of **5** characters.",
@@ -538,7 +583,7 @@
         "ajlogs": "Logs settings",
         "ajpalabras": "Blocked words settings",
         "ajprefix": "Prefix settings",
-        "ajsugerencias": "",
+        "ajsugerencias": "Suggestions settings",
         "ajverificacion": "Verification settings",
         "canallogs": "❯ Logs channel",
         "comandos": "❯ Commands",
@@ -562,14 +607,20 @@
         "fmalware": "❯ Malicious filter",
         "fnsfw": "❯ Images filter",
         "fpalabras": "❯ Blocked words",
-        "fsugerencias": "",
+        "fsugerencias": "Suggestions",
         "fverificacion": "❯ Verification",
         "idioma": "❯ Language",
         "ignorados": "❯ Ignored",
         "ninguno": "None.",
         "panel": "Settings panel of {{guild}}",
         "panelTitle": "Step by step set up guide",
-        "prefix": "❯ Prefix"
+        "prefix": "❯ Prefix",
+        "fdeleteCmds": "Delete commands after execution",
+        "ajmoderacion": "Moderation settings",
+        "fnotifyUsers": "Notify users",
+        "logsmod": "Moderation logs channel",
+        "logsboost": "Boost logs channel",
+        "desmoderacion": "Configure the behaviour of the moderation actions."
     },
     "softban": {
         "exito": ""
