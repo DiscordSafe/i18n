@@ -888,7 +888,7 @@
             "channelTitle": "Verification channel",
             "msgTitle": "Verification message",
             "msgDesc": "**Set the message that the guests will have to react to when joining your server. Important, the message that you are setting needs to be in the channel that you configured previously.**\nYou have to send a message ID. [How to copy an ID?](https://docs.discordsafe.com/docs/ayuda/copiar-ids)",
-            "userDesc": "**This will be the role that will be given to the new users when they are verified.**\nSelect a role in the next select menu.",
+            "userDesc": "**This will be the role given to the new users when they are verified.**\nSelect a role in the next select menu.",
             "userPlaceholder": "Select a role"
         },
         "filters": {
