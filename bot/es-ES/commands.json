@@ -790,7 +790,9 @@
         "staffCommentField": "{{emoji}} Comentario del staff",
         "stats": "Resumen: **{{resumen}}**\nVotos positivos: **{{approved}} `{{approvedPercent}}%`**\nVotos negativos: **{{denied}}** `{{deniedPercent}}%`",
         "statsField": "{{emoji}} Estadísticas",
-        "statsQuestion": "Resumen **{{resumen}}**\nVotos positivos: **{{approved}} `{{approvedPercent}}%`**\nVotos indecisos: **{{question}}** `{{questionPercent}}%`\nVotos negativos: **{{denied}}** `{{deniedPercent}}%`"
+        "statsQuestion": "Resumen **{{resumen}}**\nVotos positivos: **{{approved}} `{{approvedPercent}}%`**\nVotos indecisos: **{{question}}** `{{questionPercent}}%`\nVotos negativos: **{{denied}}** `{{deniedPercent}}%`",
+        "approvedFooter": "Aprobada",
+        "deniedFooter": "Rechazada"
     },
     "support": {
         "confirmación": "**¿Está seguro/a de pedir soporte?**\n__**Si no es un tema urgente serás sancionado.**__",
