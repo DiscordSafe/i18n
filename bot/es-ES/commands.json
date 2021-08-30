@@ -116,7 +116,7 @@
         "userEmbedOne": "Casos de {{memberTag}} ({{memberID}})",
         "desc": "Elige el orden en el que quieras que se muestren los casos",
         "fieldt": "Orden",
-        "fieldd": "{{emojione}} Ascendente (Mas antiguos primero)\n{{emojitwo}} Descendente (Más recientes primero)\n{{emojicancel}} Cancela el comando",
+        "fieldd": "{{emojione}} Ascendente (Más antiguos primero)\n{{emojitwo}} Descendente (Más recientes primero)\n{{emojicancel}} Cancela el comando",
         "last24h": "Últimas 24 horas",
         "last7d": "Última semana",
         "total": "Total",
