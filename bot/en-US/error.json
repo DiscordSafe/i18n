@@ -6,7 +6,7 @@
     "nsfw": "This command is only for NSFW channels.",
     "bloqueado": "You are blocked haha.",
     "servidorOnly": "You can't use this command.",
-    "botPerms": "I am missing permissions for this command. Missing permissions: {{permiso}}.",
+    "botPerms": "I have not enough permissions to execute this command, I need the **{{perm}}** permission.",
     "ownerOnly": "This command can only be executed by the server owner.",
     "comandoError": "An error occurred while executing the command.\nDevelopers have been notified.\nIf you need help ask our support server, https://discordsafe.com/discord",
     "permisos": "You don't have enough permissions to use this command.",
@@ -34,5 +34,9 @@
             "highest": "The role is upper your highest role, you can't use it."
         }
     },
-    "dm": "**Error, this command cannot be used in direct messages."
+    "dm": "**Error, this command cannot be used in direct messages.",
+    "userPerms": "You do not have enough permissions to use this command.",
+    "userPerms_detailed": "You do not have enough permissions to use this command, you need the **{{perm}}** permission.",
+    "userPerms_detailed_plural": "You do not have enough permissions to use this command, you need **{{perm}}** permissions.",
+    "botPerms_plural": "I do not have enough permissions to execute this command, I need **{{perm}}** permissions."
 }
