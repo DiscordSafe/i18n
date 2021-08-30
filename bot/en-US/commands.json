@@ -1,7 +1,7 @@
 {
     "aceptar": {
         "aceptado": "✅ Accepted by: ",
-        "estado": "📊 tatus:",
+        "estado": "📊 Status:",
         "id": "🆔 ID:",
         "md": "Your report to {{user}} was accepted.",
         "prueba": "🔗 Proof:",
