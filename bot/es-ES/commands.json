@@ -113,7 +113,15 @@
         "noWarns": "No hay ningún caso.",
         "sancionado": "Caso: {{case}} Acción: {{action}} | Usuario: {{user}}~~~{{reason}} - Moderador: {{mod}} Fecha: {{date}}",
         "userEmbedMore": "{{warns}} casos de {{memberTag}} ({{memberID}})",
-        "userEmbedOne": "Casos de {{memberTag}} ({{memberID}})"
+        "userEmbedOne": "Casos de {{memberTag}} ({{memberID}})",
+        "desc": "Elige el orden en el que quieras que se muestren los casos",
+        "fieldt": "Orden",
+        "fieldd": "{{emojione}} Ascendente (Mas antiguos primero)\n{{emojitwo}}Descendente (Más recientes primero)\n{{emojicancel}} Cancela el comando",
+        "last24h": "Últimas 24 horas",
+        "last7d": "Última semana",
+        "total": "Total",
+        "warnings": "{{count}} sanción",
+        "warnings_plural": "{{count}} sanciones"
     },
     "changelog": {
         "follow": " | Se ha seguido el canal de actualizaciones del bot.\nAhora recibirá seguimiento de mis actualizaciones."
@@ -418,7 +426,7 @@
             "title": "D-Safe Premium",
             "desc": "Mejora tu comunidad con D-Safe Premium y apoya el desarrollo del bot para poder traer actualizaciones mejor trabajadas y con las características que esperas.",
             "field1": "Beneficios",
-            "field1d": "• Filtro IPlogger Avanzado.\n• Filtro imágenes NSFW.\n• Auto Forceban.\n• Rol encargado de sugerencias.\n• Paleta de colores customizada.\n• Canal solo para sugerencias.\n• Cooldown entre sugerencias.\n• Emojis customizados en las reacciones.\n• Mayor tiempo de respuesta.\n• Logs de mejoras del servidor.\n• Insignia especial.\n• Soporte prioritario.\n• Roles y canales exclusivos.\n• Forma parte del programa de Testers.",
+            "field1d": "• Filtro IPlogger Avanzado.\n• Filtro imágenes NSFW.\n• Auto Forceban.\n• Rol encargado de sugerencias.\n• Paleta de colores customizada.\n• Canal solo para sugerencias.\n• Cooldown entre sugerencias.\n• Emojis customizados en las reacciones.\n• Menor tiempo de respuesta.\n• Logs de mejoras del servidor.\n• Insignia especial.\n• Soporte prioritario.\n• Roles y canales exclusivos.\n• Forma parte del programa de Testers.",
             "field2": "Consíguelo",
             "field2d": "• Apoyándonos en [Patreon](https://patreon.com/join/DiscordSafe).\n• De forma gratuita votándonos en listas de bots, [más información](https://docs.discordsafe.com/docs/support-us).",
             "field3": "Comandos",

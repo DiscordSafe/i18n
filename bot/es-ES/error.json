@@ -7,11 +7,14 @@
   "idioma": "El idioma del servidor es inglés, para cambiarlo use ",
   "nsfw": "Este comando es solo para canales NSFW.",
   "bloqueado": "Se te ha prohibido mi uso, estás bloqueado jaja.",
-  "permisos": "No tienes permisos suficientes para usar este comando.",
   "servidorOnly": "No puedes usar este comando.",
   "cooldown": "Debes que esperar {{segundos}} segundo/s para volver a usar este comando.",
   "desactivado": "Este comando ha sido desactivado temporalmente para arreglar errores y que funcione correctamente.",
-  "botPerms": "No tengo suficientes permisos para usar este comando, necesito el permiso de {{permiso}}.",
+  "userPerms": "No tienes suficientes permisos para usar este comando.",
+  "userPerms_detailed": "No tienes suficientes permisos para usar este comando, necesitas el permiso de **{{perm}}**.",
+  "userPerms_detailed_plural": "No tienes suficientes permisos para usar este comando, necesitas los permisos de **{{perm}}**.",
+  "botPerms": "No tengo suficientes permisos para usar este comando, necesito el permiso de **{{perm}}**.",
+  "botPerms_plural": "No tengo suficientes permisos para usar este comando, necesito los permiso de **{{perm}}**.",
   "ownerOnly": "Este comando solo puede ser ejecutado por el dueño del servidor.",
   "slashy": {
     "string": {

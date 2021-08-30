@@ -12,7 +12,12 @@
     "avatar": {
         "description": "Muestra el avatar de un usuario.",
         "example": "",
-        "usage": "<@Usuario>"
+        "usage": "<@Usuario>",
+        "options": {
+            "member": {
+                "description": "El miembro a obtener el avatar."
+            }
+        }
     },
     "ban": {
         "description": "Banea a un miembro del servidor.",
@@ -47,7 +52,15 @@
     "changelog": {
         "description": "Muestra el último registro de cambios.",
         "example": "",
-        "usage": ""
+        "usage": "",
+        "options": {
+            "view": {
+                "description": "Muestra el último registro de cambios."
+            },
+            "follow": {
+                "description": "Sigue nuestro canal de anuncios en este canal."
+            }
+        }
     },
     "clear": {
         "description": "Borra una cantidad de mensajes.",
