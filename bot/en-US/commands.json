@@ -376,7 +376,7 @@
         "actions": {
             "author": "Action graphics"
         },
-        "author": "Moderation cases statistics",
+        "author": "Moderation cases stats",
         "desc": "View statistics and graphics of the moderation cases in the server.",
         "fieldd": "{{emojione}} Shows a graphic of the actions.\n{{emojitwo}} Shows a graphic with the moderators with more actions.\n{{emojicancel}} Cancels the selection.",
         "fieldt": "Options",
@@ -727,7 +727,7 @@
         "setCustomPalette": "The **{{id}}** has been set to **{{value}}**.",
         "staffCommentField": "{{emoji}} Staff comment",
         "stats": "Summary: **{{resumen}}**\nPositive votes: **{{approved}} `{{approvedPercent}}%` **\nNegative votes: **{{denied}} ** `{{deniedPercent}}%`",
-        "statsField": "{{emoji}} Statistics",
+        "statsField": "{{emoji}} Stats",
         "statsQuestion": "Summary **{{resumen}}**\nPositive votes: **{{approved}} `{{approvedPercent}}%`**\nUndecided votes: **{{question}}** `{{questionPercent}}%`\nNegative votes: **{{denied}}** `{{deniedPercent}}%`"
     },
     "support": {
@@ -750,7 +750,7 @@
         "changelog": "{{reason}}.\nMod: {{modTag}} ({{modID}})",
         "errorAutor": "**Error**, you can't deafen yourself.",
         "errorConectado": "**Error**, the member is not connected to a voice channel.",
-        "errorMención": "**Error**: The user has not been mentioned.",
+        "errorMención": "**Error**: You have to mention the user.",
         "errorYaEnsordecido": "**Error**, that user is not deafened.",
         "exito": "{{emoji}} **{{memberTag}}** has been undeafened.",
         "sinRazón": "Without reason",
@@ -843,7 +843,7 @@
         "embedFooter": " • End of the streak: ",
         "embedTitle": "Vote me here",
         "fieldLinks": ":link: Links",
-        "fieldStats": ":bar_chart: Statistics",
+        "fieldStats": ":bar_chart: Stats",
         "fieldStats2": "``md\n- Streak: {{userStreak}}\n- Month: {{userMonthly}}\n- Total: {{userTotal}}\n``\n",
         "fieldVoteAgain": "You can vote again in "
     },
