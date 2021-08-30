@@ -14,7 +14,7 @@
   "userPerms_detailed": "No tienes suficientes permisos para usar este comando, necesitas el permiso de **{{perm}}**.",
   "userPerms_detailed_plural": "No tienes suficientes permisos para usar este comando, necesitas los permisos de **{{perm}}**.",
   "botPerms": "No tengo suficientes permisos para usar este comando, necesito el permiso de **{{perm}}**.",
-  "botPerms_plural": "No tengo suficientes permisos para usar este comando, necesito los permiso de **{{perm}}**.",
+  "botPerms_plural": "No tengo suficientes permisos para usar este comando, necesito los permisos de **{{perm}}**.",
   "ownerOnly": "Este comando solo puede ser ejecutado por el dueño del servidor.",
   "slashy": {
     "string": {
