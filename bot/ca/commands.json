@@ -1,1 +1,32 @@
-{}
+{
+    "aceptar": {
+        "estado": "📊 Estat:",
+        "id": "🆔 ID:",
+        "md": "El seu informe a {{user}} va ser acceptat.",
+        "prueba": "🔗 Prova:",
+        "razón": "📃 Raó:",
+        "aceptado": "",
+        "usuarioReportado": "👤 Usuari Reportat:"
+    },
+    "approve": {
+        "aprobado": " ha estat aprovat.",
+        "errorNoConfig": "No està configurada la verificació. Per configurar-la feu servir `d.verification`",
+        "errorNoVerificado": "L'usuari no té el rol de No Verificat. Per configurar la verificació faci servir `d.verification`",
+        "errorRoles": "Heu de configurar primer el rol No Verificat i el rol Usuari. Per configurar-usi `d.verification`",
+        "all": "Tots els usuaris han estat aprovats.",
+        "errorArgs": "Aquesta comanda necessita arguments, **Es dirà:** {{prefijo}}{{commandName}} @Usuario/IDUsuario/all\n:bulb: **Potser vulgui utilitzar:** `{{prefix}}suggestions approve`",
+        "errorNoRoles": "Els rols que ha configurat per a la verificació no existeixen o no estic per sobre d'ells. Per configurar la verificació faci servir `d.verification`"
+    },
+    "avatar": {
+        "avatar": "Avatar de {{user}}",
+        "noAvatar": "**Error**, L'usuari {{user}} no té avatar."
+    },
+    "ban": {
+        "reason": "Has estat banejat en **{{guild}}** per: **{{reason}}**.",
+        "changelog": "{{reason}}.\nMod: {{modTag}} ({{modID}})"
+    },
+    "alarm": {
+        "activado": "La manera alarma ha estat activat, es prohibeix l'entrada de nous usuaris, torneu a fer servir la comanda per desactivar-lo.",
+        "desactivado": "La manera alarma ha estat desactivat."
+    }
+}
