@@ -16,7 +16,7 @@
         "aprobado": " ha sido aprobado.",
         "errorArgs": "Este comando necesita argumentos, **Use:** {{prefijo}}{{commandName}} @Usuario/UsuarioID/all\n:bulb: **Quizá quiera usar:** `{{prefijo}}suggestions approve`",
         "errorNoConfig": "No está configurada la verificación. Para configurarla use `d.verification`",
-        "errorNoRoles": "Los roles que ha configurado para la verificación no existen o no estoy por encima de ellos. Para configurar la verificación use `d.verificacion`",
+        "errorNoRoles": "Los roles que ha configurado para la verificación no existen o no estoy por encima de ellos. Para configurar la verificación use `d.verification`",
         "errorNoVerificado": "El usuario no tiene el rol de No Verificado. Para configurar la verificación use `d.verification`",
         "errorRoles": "Debe configurar primero el rol No Verificado y el rol Usuario. Para configurarlo use `d.verification`",
         "all": "Todos los usuarios han sido aprobados."
@@ -850,7 +850,7 @@
         "días": "\n{{days}} días",
         "errorArgs": "**Error**, debe espeficar el número de días de antigüedad de la cuenta entre el **1-30**.",
         "errorArgsAttempts": "**Error**, debe especificar un número entre **2 y 6**.",
-        "errorCanalMención": "**Error:** El canal debe de ser una mención o una ID.\n**Ayuda:** `d.verificacion help`",
+        "errorCanalMención": "**Error:** El canal debe de ser una mención o una ID.\n**Ayuda:** `d.verification help`",
         "errorCanalNoExiste": "Ese canal no existe.",
         "errorCanalNoTexto": "No es un canal de texto.",
         "errorFooter": "d.verification help",
@@ -862,7 +862,7 @@
         "errorMensajeNoEncuentra": "No se encuentra el mensaje.",
         "errorMensajePermisos": "El bot necesita permisos de modificar el mensaje.",
         "errorModo": "**Error:** Los modos deben ser: `approval / reaction / verification / captcha`.\n**Ayuda:** `d.verification help`",
-        "errorModoPrimero": "**Error:** Debe seleccionar el modo primero.\n**Ayuda:** `d.verificacion help`",
+        "errorModoPrimero": "**Error:** Debe seleccionar el modo primero.\n**Ayuda:** `d.verification help`",
         "errorNoArgs": "**Error:** Debe indicar un argumento.\n**Ayuda:** `d.verification help`",
         "errorNoCanal": "**Error:** Debe indicar un canal.\n**Ayuda:** `d.verification help`",
         "errorNoCanalEstablecido": "Por favor vuelve a configurar el canal primero.",
@@ -902,13 +902,13 @@
     },
     "verifyme": {
         "aprobado": " Has sido verificado.",
-        "errorCanal": "Este comando solo se puede usar en el canal de verificación. Para configurar la verificación use `d.verificacion`",
-        "errorMención": "Debe mencionar a un usuario. Para configurar la verificación use `d.verificacion`",
-        "errorNoAprobación": "Este comando es solo para el modo Verificación. Para configurar la verificación use `d.verificacion`",
-        "errorNoConfig": "No está configurada la verificación. Para configurarla use `d.verificacion`",
-        "errorNoRoles": "Los roles que ha configurado para la verificación no existen o no estoy por encima de ellos. Para configurar la verificación use `d.verificacion`",
-        "errorNoVerificado": "Necesitas tener el rol de No Verificado. Para configurar la verificación use `d.verificacion`",
-        "errorRoles": "Debe configurar primero el rol No Verificado y el rol Usuario. Para configurarlo use `d.verificacion`"
+        "errorCanal": "Este comando solo se puede usar en el canal de verificación. Para configurar la verificación use `d.verification`",
+        "errorMención": "Debe mencionar a un usuario. Para configurar la verificación use `d.verification`",
+        "errorNoAprobación": "Este comando es solo para el modo Verificación. Para configurar la verificación use `d.verification`",
+        "errorNoConfig": "No está configurada la verificación. Para configurarla use `d.verification`",
+        "errorNoRoles": "Los roles que ha configurado para la verificación no existen o no estoy por encima de ellos. Para configurar la verificación use `d.verification`",
+        "errorNoVerificado": "Necesitas tener el rol de No Verificado. Para configurar la verificación use `d.verification`",
+        "errorRoles": "Debe configurar primero el rol No Verificado y el rol Usuario. Para configurarlo use `d.verification`"
     },
     "vote": {
         "embedDescription": "¡Vótame y recibe recompensas y ventajas!",

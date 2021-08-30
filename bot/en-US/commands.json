@@ -788,7 +788,7 @@
         "días": "\n{{days}} days",
         "errorArgs": "**Error**, you must specify the number of days old of the account between **1-30**.",
         "errorArgsAttempts": "** Error**, you must specify a number between **2 and 6**.",
-        "errorCanalMención": "**Error:** The channel need to be a mention or an ID.\n**Help:** `d.verificacion help`",
+        "errorCanalMención": "**Error:** The channel need to be a mention or an ID.\n**Help:** `d.verification help`",
         "errorCanalNoExiste": "That channel doesn't exists.",
         "errorCanalNoTexto": "That isn't a text channel.",
         "errorFooter": "d.verification help",
@@ -800,7 +800,7 @@
         "errorMensajeNoEncuentra": "I can't find that message.",
         "errorMensajePermisos": "The bot needs permissions of modify messages.",
         "errorModo": "**Error:** The modes need to be one of this: `approval / reaction / verification / captcha`.\n**Help:** `d.verification help`",
-        "errorModoPrimero": "**Error:** You need to select the mode first.\n**Help:** `d.verificacion help`",
+        "errorModoPrimero": "**Error:** You need to select the mode first.\n**Help:** `d.verification help`",
         "errorNoArgs": "**Error:** You need to indicate an argument.\n**Help:** `d.verification help`",
         "errorNoCanal": "**Error:** You need to indicate a channel.\n**Help:** `d.verification help`",
         "errorNoCanalEstablecido": "Please first configure the channel again.",
@@ -840,13 +840,13 @@
     },
     "verifyme": {
         "aprobado": " You have been verified.",
-        "errorCanal": "This command can just be used in the verification channel. To configurate the verification use `d.verificacion`",
-        "errorMención": "You have to mention a user. To configurate the verification use `d.verificacion`",
-        "errorNoAprobación": "This command is just usable for verified mode. To configurate the verification use `d.verificacion`",
-        "errorNoConfig": "The verification isn't configurated. To configurate use `d.verificacion`",
-        "errorNoRoles": "The roles that you have configurated for the verification doesn't exist or i'm not above them. To configurate the verification use `d.verificacion`",
-        "errorNoVerificado": "You need the Not Verified role. To configurate the verification use `d.verificacion`",
-        "errorRoles": "First you have to set the Not verified role and the user role. To configurate it use `d.verificacion`"
+        "errorCanal": "This command can just be used in the verification channel. To configurate the verification use `d.verification`",
+        "errorMención": "You have to mention a user. To configurate the verification use `d.verification`",
+        "errorNoAprobación": "This command is just usable for verified mode. To configurate the verification use `d.verification`",
+        "errorNoConfig": "The verification isn't configurated. To configurate use `d.verification`",
+        "errorNoRoles": "The roles that you have configurated for the verification doesn't exist or i'm not above them. To configurate the verification use `d.verification`",
+        "errorNoVerificado": "You need the Not Verified role. To configurate the verification use `d.verification`",
+        "errorRoles": "First you have to set the Not verified role and the user role. To configurate it use `d.verification`"
     },
     "vote": {
         "embedDescription": "¡Vote me and receive rewards and benefits!",
