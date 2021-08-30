@@ -1,12 +1,12 @@
 {
     "aceptar": {
-        "aceptado": "✅Aceptado por: ",
-        "estado": "📊❯ Estado:",
-        "id": "🆔❯ ID:",
+        "aceptado": "✅ Aceptado por: ",
+        "estado": "📊 Estado:",
+        "id": "🆔 ID:",
         "md": "Su reporte a {{user}} fue aceptado.",
-        "prueba": "🔗❯ Prueba:",
-        "razón": "📃❯ Razón:",
-        "usuarioReportado": "👤❯ Usuario Reportado:"
+        "prueba": "🔗 Prueba:",
+        "razón": "📃 Razón:",
+        "usuarioReportado": "👤 Usuario Reportado:"
     },
     "alarm": {
         "activado": "El modo alarma ha sido activado, se prohíbe la entrada de nuevos usuarios, vuelva a usar el comando para desactivarlo.",
@@ -44,21 +44,21 @@
         "noDefinido": "No definido.",
         "noForceban": "Ese usuario no está en el forceban.",
         "prueba": "Prueba.",
-        "pruebas": "❯ Pruebas",
-        "razón": "❯ Razón",
-        "tiempo": "❯ Tiempo",
+        "pruebas": "Pruebas",
+        "razón": "Razón",
+        "tiempo": "Tiempo",
         "título": "Información del baneo",
-        "usuario": "❯ Usuario"
+        "usuario": "Usuario"
     },
     "blockword": {
         "correcto": "Abra el siguiente archivo para ver la lista de palabras bloquedas.",
-        "doc": "❯ Guía de configuración",
+        "doc": "Guía de configuración",
         "doc2": "Desde la [documentación](https://docs.discordsafe.com/docs/config/blockedwords) podrás acceder a una guía de configuración.",
         "embedAuthor": "Palabras bloqueadas",
         "embedDes": "Esta característica le permite bloquear palabras.",
-        "embedField1": "❯ Ayuda",
+        "embedField1": "Ayuda",
         "embedField2": "Si necesitas ayuda revisa nuestra [guía de configuración](https://docs.discordsafe.com/docs/config/blockedwords) o pregunta en nuestro [servidor](https://discordsafe.com/discord).",
-        "embedField3": "❯ Comandos",
+        "embedField3": "Comandos",
         "embedField4": "`blockword add` - Añade una o varias palabras.\n`blockword remove` - Quita una o varias palabras.\n`blockword add pack` - Bloquea un grupo de palabras preseleccionadas.\n`blockword remove pack` - Desbloquea un grupo de palabras preseleccionadas.\n`blockword list` - Muestra la lista de las palabras bloqueadas en el servidor.\n`blockword ignore [#Canal/@Rol]` - Ignora un canal o rol de las palabras bloqueadas.\n`blockword reset` - Quita todas las palabras.",
         "embedRAuthor": "Resetear palabras bloqueadas",
         "embedRDescription": "**Esta acción es irreversible.**\n¿Está seguro/a?",
@@ -76,7 +76,7 @@
         "packDesbloqueado": "Se ha desbloqueado el pack `{{packName}}`.",
         "packsAuthor": "Packs de palabras bloqueadas",
         "packsDescription": "Con los packs de palabras bloqueadas se ahorra tiempo y bloquea directamente las palabras más habituales ofensivas.\n\n- **Bloquee un pack con:** `{{prefix}}{{commandName}} add pack <Nombre>`\n- **Desbloquee un pack con:** `{{prefix}}{{commandName}} remove pack <Nombre>`.",
-        "packsField1": "❯ Packs",
+        "packsField1": "Packs",
         "packsField2": "`en` - Palabras ofensivas en __Inglés__.\n`es` - Palabras ofensivas en __Español__\n`lgbt` - Insultos a la comunidad lgbt.\n`nsfw` - Palabras ofensivas explícitas.\n`racists` - Insultos racistas.\n`pacman` - Pacmans (`:v`).",
         "palabraBloqueadaExito": "Palabra bloqueada con éxito",
         "palabraDesbloqueadaExito": "Palabra desbloqueada con éxito.",
@@ -87,16 +87,16 @@
     },
     "botinfo": {
         "info": "Información de {{botName}}",
-        "library": "❯ Librería",
+        "library": "Librería",
         "procesador": "Procesador: {{cpu}}",
-        "servidores": "❯ Servidores",
-        "servidoresshard": "❯ Servidores en este shard",
-        "usuarios": "❯ Usuarios",
-        "version": "❯ Versión",
-        "uptime": "❯ Uptime",
-        "shard": "❯ Shard",
-        "ram": "❯ RAM",
-        "developers": "❯ Desarrolladores"
+        "servidores": "Servidores",
+        "servidoresshard": "Servidores en este shard",
+        "usuarios": "Usuarios",
+        "version": "Versión",
+        "uptime": "Uptime",
+        "shard": "Shard",
+        "ram": "RAM",
+        "developers": "Desarrolladores"
     },
     "case": {
         "action": "Acción",
@@ -188,7 +188,7 @@
         "ayudaDes": "Los filtros permiten proteger tu servidor para **evitar que se mande contenido malicioso** y que tus canales sean un sitio limpio.\n\n**Activar:** `{{prefix}}{{commandName}} [filtro] enable`.\n**Desactivar:** `{{prefix}}{{commandName}} [filtro] disable`.\n**Ignorar:** `{{prefix}}{{commandName}} [filtro] ignore [#Canal/@Rol]`.",
         "comandosBlockedWord": "• Bloquea una o varias palabras: `{{prefix}}blockword add [palabra] <palabra>`\n• Desbloquea una o varias palabras: `{{prefix}}blockword remove [palabra] <palabra>`\n• Ignorar un canal o rol: `{{prefix}}blockword ignore [#Canal/@Rol]`\n• [Más información](https://docs.discordsafe.com/docs/config/blockedwords).",
         "comandosDefault": "• Activar: `{{prefix}}{{commandName}} {{filter}} enable`.\n• Desactivar: `{{prefix}}{{commandName}} {{filter}} disable`.\n• Ignorar canales/roles: `{{prefix}}{{commandName}} {{filter}} ignore [#Canal/@Rol]`.",
-        "comandosField": "❯ Comandos",
+        "comandosField": "Comandos",
         "desactivadoImágenes": "Se ha desactivado correctamente el filtro de imágenes.",
         "desactivadoInvitaciones": "Se ha desactivado correctamente el filtro de invitaciones.",
         "desactivadoIploggers": "Se ha desactivado correctamente el filtro anti-iploggers.",
@@ -216,7 +216,7 @@
         "iploggers": "Anti-Iploggers",
         "levelAuthor": "Configuración del nivel de anti-spam",
         "levelDes": "Establezca el nivel del **filtro anti-spam** en su servidor con `{{prefix}}{{commandName}} anti-spam enable <Número nivel>`",
-        "levelField": "❯ Niveles",
+        "levelField": "Niveles",
         "levelLevels": "Puedes ajustar el nivel del anti-spam añadiendo el nivel al comando, ejemplo: `{{prefix}}{{commandName}} anti-spam enable 2`.\n{{emoji1}} **Nivel 1**, prohíbe un mensaje con muchas mayúsculas o spam.\n{{emoji2}} **Nivel 2**, prohíbe los mensajes duplicados, mayúsculas y spam.\n{{emoji3}} **Nivel 3**, prohíbe todos los mensajes duplicados, mayúsculas, copypastas y spam.",
         "malicioso": "Anti-Spam",
         "noArgsAutor": "Configuración de los filtros en {{server}}",
@@ -336,7 +336,7 @@
         "doneboost": "El canal de logs de boosts ha sido establecido a {{canal}}.",
         "donemod": "El canal de logs de moderación ha sido establecido a {{canal}}.",
         "errorArgs": "**Error**, argumentos inválidos, debe mencionar el canal o su ID.",
-        "errorConfig": "**Error**, no puedes desactivar algo que no existe, pero... *¿qué es la existencia? ¿qué significa existir?* **¿¿Yo existo??** (ಥ﹏ಥ)\nEstoy al borde de un colapso emocional en medio de una crisis de identidad cuestionándome mi futuro pensando en mi facaso mientras me destrozo internamente, necesito respuestas...\n\n>>> **Existencia**\nEn filosofía, la existencia es, en términos generales, la realidad de un ente. A este concepto se lo suele contrastar con el de esencia.\nEtimología\nLa palabra existencia proviene del término latino existentia, derivado tardío del verbo existere, compuesto de ex- («fuera»)​ y sistere («detenerse») o stare («estar derecho»)​, y que significa «salir, aparecer, mostrarse»; o bien «ser, estar».​ Así, atendiendo a su etimología, la palabra existencia significa «lo que está ahí» o «lo que está afuera».\nLos filósofos de la Antigua Grecia distinguían la existencia verdadera de la apariencia sensible y cambiante — lo fenoménico. Consideraron y estudiaron la realidad o esencia de todas las cosas como arché (ἀρχή): principio, origen y causa de todas las cosas.\nA los filósofos presocráticos les preocupó determinar qué es lo que existe, más que explicar la misma existencia de las cosas.Así, teorizaban que “lo que hay” (lo que realmente existe) es el agua (Tales), el aire (Anaxímenes), lo ápeiron (Anaximandro), o los números (Pitágoras).\nHeráclito plantea no haber esencias, no existir las cosas, lo que verdaderamente existe es el movimiento, el cambio o devenir.\nCon Parménides el problema adquiere un nuevo sentido en cuanto a la inteligibilidad como Idea del ser.\nPlatón, Aristóteles, y los filósofos cristianos trataron el tema con referencia a la realidad de las ideas, entendidas como formas de la materia en su relación con el mundo. Consideraron, pues dos modos fundamentales de existencia: la materia y la forma.\nLos primeros escritos que tratan este tema específicamente son los diálogos de Fedón, La República, el Político y el Timeo de Platón y la Metafísica de Aristóteles. ",
+        "errorConfig": "**Error**, no puedes desactivar algo que no existe, pero... *¿qué es la existencia? ¿qué significa existir?* **¿¿Yo existo??** (ಥ﹏ಥ)",
         "errorPremium": "**Error**, debes ser premium para usar esta característica.\nhttps://discordsafe.com/premium",
         "errorValid": "**Error**, el canal no existe o no es de texto.",
         "help": {
@@ -344,19 +344,19 @@
             "description": "Registre toda la actividad de su servidor con los logs.",
             "field1": {
                 "d": "Si necesitas ayuda revisa nuestra guía de [configuración](https://docs.discordsafe.com/docs/config/logs) o pregunta en nuestro [servidor](https://discordsafe.com/discord).",
-                "t": "❯ Ayuda"
+                "t": "Ayuda"
             },
             "field2": {
                 "d": "`logs help` - Muestra este menú de ayuda.\n`logs list` - Muestra la lista de módulos de logs configurados.\n`logs [#Canal/CanalID/disable]` - Ajusta los logs generales de la actividad del servidor.\n`logs mod [#Canal/CanalID/disable]` - Ajusta los logs de acciones de moderación.\n`logs boost [#Canal/CanalID/disable]` - Ajusta los logs de boosts y mejoras del servidor.",
-                "t": "❯ Comandos"
+                "t": "Comandos"
             },
             "title": "Guía de configuración"
         },
         "list": {
             "author": "Ajustes de logs en {{guild}}",
-            "boost": "❯ Logs de boosts",
-            "general": "❯ Logs generales",
-            "mod": "❯ Logs de moderación",
+            "boost": "Logs de boosts",
+            "general": "Logs generales",
+            "mod": "Logs de moderación",
             "title": "Guía de configuración paso a paso"
         }
     },
@@ -474,7 +474,7 @@
         "rechazado": "❌Rechazado por:"
     },
     "report": {
-        "autor": "📤❯ Autor",
+        "autor": "📤Autor",
         "confirmación": "¿Está seguro/a de mandar el reporte?",
         "errorAntiguedad": "**Error**, Su cuenta debe tener más de 10 días creada.",
         "errorArgs": "**Error**, escríbalo como en el siguiente ejemplo:\n\n`{{prefix}}report Usuario|ID|Razón|Prueba`\n❗ Es necesario poner pruebas para que el reporte sea aceptado.\n📍 Recomendamos poner la prueba en **imgur**: `https://imgur.com/upload`",
@@ -484,17 +484,17 @@
         "errorRazon": "**Error**, La razón es demasiado corta.",
         "errorTag": "**Error**, El usuario debe contener incluir el discriminador o tag, ejemplo: `Vicente#0001`.",
         "errorTiempo": "Se acabo el tiempo.",
-        "estado": "📊❯ Estado",
-        "id": "🆔❯ ID:",
+        "estado": "📊 Estado",
+        "id": "🆔 ID:",
         "mandando": "Mandando reporte…",
         "enviado": "{{emoji}} ¡Reporte enviado!",
         "nuevoReporte": "¡Nuevo reporte!",
-        "prueba": "🔗❯ Prueba:",
-        "razón": "📃❯ Razón:",
+        "prueba": "🔗 Prueba:",
+        "razón": "📃 Razón:",
         "reportadoPor": "Reportado por: ",
         "reporteGenerado": "Se ha enviado su reporte correctamente, le responderemos lo antes posible.",
         "reporteTítulo": "Reporte enviado",
-        "usuario": "👤❯ Usuario Reportado:",
+        "usuario": "👤 Usuario Reportado:",
         "verificación": "En verificación"
     },
     "reportbug": {
@@ -845,7 +845,7 @@
         "desactivar": "Desactivar",
         "desactivarField": "Para desactivar la verificación use `d.verification disable`.",
         "descripciónAyuda": "Establezca la verificación en su servidor con uno de nuestros poderosos modos para evitar usuarios conflictivos, multicuentas o bots de spam.",
-        "doc": "❯ Guía de configuración",
+        "doc": "Guía de configuración",
         "doc2": "Toda la **guía de configuración de la verificación** está mejor explicada en la **[documentación](https://docs.discordsafe.com/docs/config/lang)**.",
         "días": "\n{{days}} días",
         "errorArgs": "**Error**, debe espeficar el número de días de antigüedad de la cuenta entre el **1-30**.",

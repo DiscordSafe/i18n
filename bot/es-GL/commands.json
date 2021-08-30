@@ -1,12 +1,12 @@
 {
     "aceptar": {
-        "aceptado": "✅Aceptado por: ",
+        "aceptado": "✅ Aceptado por: ",
         "estado": "",
-        "id": "🆔❯ ID:",
+        "id": "🆔 ID:",
         "md": "",
-        "prueba": "🔗❯ Prueba:",
-        "razón": "📃❯ Razón:",
-        "usuarioReportado": "👤❯ Usuario Reportado:"
+        "prueba": "🔗 Prueba:",
+        "razón": "📃 Razón:",
+        "usuarioReportado": "👤 Usuario Reportado:"
     },
     "alarm": {
         "activado": "",
@@ -43,10 +43,10 @@
         "noForceban": "Ese usuario no está en el forceban.",
         "prueba": "",
         "pruebas": "",
-        "razón": "❯ Razón",
+        "razón": "Razón",
         "tiempo": "",
         "título": "",
-        "usuario": "❯ Usuario"
+        "usuario": "Usuario"
     },
     "blockword": {
         "correcto": "Abra el siguiente archivo para ver la lista de palabras bloquedas.",
@@ -84,9 +84,9 @@
     "botinfo": {
         "info": "Información de Discord Safe",
         "procesador": "Procesador: {{cpu}}",
-        "servidores": "❯ Servidores",
-        "servidoresshard": "❯ Servidores en este shard",
-        "usuarios": "❯ Usuarios"
+        "servidores": "Servidores",
+        "servidoresshard": "Servidores en este shard",
+        "usuarios": "Usuarios"
     },
     "case": {
         "action": "",
@@ -264,17 +264,17 @@
         "botInfo": "",
         "botInfoDes": "",
         "colorRole": "",
-        "creadoEl": "❯ Creado el:",
+        "creadoEl": "Creado el:",
         "errorNoID": "No es una ID.",
         "errorNoUsuario": "No se ha encontrado el usuario.",
         "hightestRole": "",
         "hoistRole": "",
-        "id": "❯ ID:",
+        "id": "ID:",
         "joinPosition": "",
         "nada": "Nada.",
-        "nickname": "❯ Apodo:",
-        "roles": "❯ Roles:",
-        "seUnió": "❯ Se unio al server el:"
+        "nickname": "Apodo:",
+        "roles": "Roles:",
+        "seUnió": "Se unio al server el:"
     },
     "invite": {
         "channel": "",
@@ -434,7 +434,7 @@
     "reportbug": {
         "args": "",
         "confirmación": "¿Estás seguro de mandar el reporte del error? Para confirmar responda Sí.",
-        "descripción": "❯ Descripción:",
+        "descripción": "Descripción:",
         "error": "Para poder atender tu reporte debes entrar a [nuestro servidor](https://discordsafe.com/discord) y usar el comando allí.",
         "errorTiempo": "Se acabó el tiempo.",
         "mandando": "Mandando..."
@@ -502,8 +502,8 @@
         "ajprefix": "",
         "ajsugerencias": "",
         "ajverificacion": "Ajustes de la verificación",
-        "canallogs": "❯ Canal logs",
-        "comandos": "❯ Comandos",
+        "canallogs": "Canal logs",
+        "comandos": "Comandos",
         "desalertas": "",
         "desfiltros": "",
         "designorados": "Para configurar los ignorados use los comandos que se muestran abajo.",
@@ -514,20 +514,20 @@
         "desprefix": "",
         "dessugerencias": "",
         "desverificacion": "Para configurar la verificación use los comandos que se muestran abajo.",
-        "estado": "❯ Estado",
+        "estado": "Estado",
         "falertas": "",
-        "fidioma": "❯ Idioma",
-        "fignorados": "❯ Ignorados / Whitelist",
+        "fidioma": "Idioma",
+        "fignorados": "Ignorados / Whitelist",
         "finvitaciones": "",
         "floggers": "",
-        "flogs": "❯ Logs",
+        "flogs": "Logs",
         "fmalware": "",
         "fnsfw": "",
-        "fpalabras": "❯ Palabras",
+        "fpalabras": "Palabras",
         "fsugerencias": "",
-        "fverificacion": "❯ Verificación",
-        "idioma": "❯ Idioma",
-        "ignorados": "❯ Ignorados",
+        "fverificacion": "Verificación",
+        "idioma": "Idioma",
+        "ignorados": "Ignorados",
         "ninguno": "Ninguno.",
         "panel": "Panel de configuración de {{guild]]",
         "panelTitle": "",

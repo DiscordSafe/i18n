@@ -62,7 +62,7 @@
     "kick": "Verificación no completada.",
     "nuevoUsuario": "Nuevo usuario",
     "porQué": "¿Por qué?",
-    "usuarioDa": "⛔❯ Usuario dañino: {{reason}}"
+    "usuarioDa": "⛔ Usuario dañino: {{reason}}"
   },
   "guildMemberRemove": {
     "badges": "Insignias",
@@ -119,7 +119,7 @@
     "logCanal": "Canal:",
     "palabraBloqueada": "Palabra bloqueada.",
     "reminderDescription": "He tenido una [nueva actualización](https://blog.discordsafe.com/Registro-de-cambios/version-4-2) donde se han **renombrado, actualizado y juntado comandos**.\nEl nuevo nombre del comando que intentas usar está debajo, ¡gracias por usarme!",
-    "reminderField1": "❯ Nuevo nombre del comando",
+    "reminderField1": "Nuevo nombre del comando",
     "reminderTitle": "Recordatorio de nuevos comandos"
   },
   "messageDelete": {
