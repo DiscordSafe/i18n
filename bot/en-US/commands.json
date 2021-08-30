@@ -113,7 +113,15 @@
         "noWarns": "There isn't any case.",
         "sancionado": "Case: {{case}} Action: {{action}} | User: {{user}}~~~{{reason}} - Moderator: {{mod}} Date: {{date}}",
         "userEmbedMore": "{{warns}} cases of {{memberTag}} ({{memberID}})",
-        "userEmbedOne": "Cases of {{memberTag}} ({{memberID}})"
+        "userEmbedOne": "Cases of {{memberTag}} ({{memberID}})",
+        "desc": "Select the order that you want the cases to be shown",
+        "fieldt": "Order",
+        "last24h": "Last 24 hours",
+        "last7d": "Last week",
+        "total": "Total",
+        "warnings": "{{count}} punishment",
+        "warnings_plural": "{{count}} punishments",
+        "fieldd": "{{emojione}} Ascendant (Older first)\n{{emojitwo}} Descendant (Newer first)\n{{emojicancel}} Cancels the command"
     },
     "changelog": {
         "follow": " The channel for the bot updates has been followed.\nNow you will receive following of my updates."
@@ -728,7 +736,9 @@
         "staffCommentField": "{{emoji}} Staff comment",
         "stats": "Summary: **{{resumen}}**\nPositive votes: **{{approved}} `{{approvedPercent}}%` **\nNegative votes: **{{denied}} ** `{{deniedPercent}}%`",
         "statsField": "{{emoji}} Stats",
-        "statsQuestion": "Summary **{{resumen}}**\nPositive votes: **{{approved}} `{{approvedPercent}}%`**\nUndecided votes: **{{question}}** `{{questionPercent}}%`\nNegative votes: **{{denied}}** `{{deniedPercent}}%`"
+        "statsQuestion": "Summary **{{resumen}}**\nPositive votes: **{{approved}} `{{approvedPercent}}%`**\nUndecided votes: **{{question}}** `{{questionPercent}}%`\nNegative votes: **{{denied}}** `{{deniedPercent}}%`",
+        "approvedFooter": "Approved",
+        "deniedFooter": "Denied"
     },
     "support": {
         "confirmación": "**Are you sure to ask for support?**\n__**If it is not an urgent matter, you will be sanctioned. **__",
