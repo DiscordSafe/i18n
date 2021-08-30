@@ -192,8 +192,8 @@
         "errorTipo": "You have to say the type of filter you want.",
         "fimágenes": "**This filter is premium**, more information `{{prefix}} premium`.\nIt scans images submitted outside NSFW channels and deletes them if it detects that they are not suitable for all audiences and contain explicit content.",
         "finvitaciones": "Deletes the invitations of Discord servers sent by members without permissions.",
-        "fiploggers": "Delete the links that contain an IPlogger, to improve the security of your server",
-        "fmalicioso": "Analyzes the messages and links and if it detects that it is spam, it will delete it.\n",
+        "fiploggers": "Delete links containing iploggers, to improve the security of your server.\n\n{{premium}} **Get the advanced filter** which blocks __+800 iploggers__, more information `{{prefix}}}premium`.",
+        "fmalicioso": "Analyzes the messages and links and if it detects that it is spam, it will delete it.",
         "fpalabras": "Blocked words filter, to add use `{{prefix}}blockword <word>`.",
         "ignoreCh": "The channel <#{{channel}}> has been __ignored__ of the **{{filter}}** filter.",
         "ignoreErrorArg": "**Error**, you should mention the channel or role that you want to ignore.",
@@ -206,7 +206,7 @@
         "levelAuthor": "Anti-spam level configuration",
         "levelDes": "Set the level of the **anti-spam filter** in your server with `{{prefix}}{{commandName}} anti-spam enable <Level number>",
         "levelField": "Levels",
-        "levelLevels": "{{emoji1}} - **Level 1**\n{{emoji2}}- **Level 2**\n{{emoji3}} - **Level 3**",
+        "levelLevels": "You can set the anti-spam level by adding the level to the command, example: `{{prefix}}{{commandName}} anti-spam enable 2`.\n{{emoji1}} **Level 1**, blocks a message with a lot of capital letters or spam.\n{{emoji2}} **Level 2**, blocks duplicated messages, capital letters and spam.\n{{emoji3}} **Level 3**, blocks duplicated messages, capital letters, copypasta and spam.",
         "malicioso": "Anti-Spam",
         "noArgsAutor": "Configuration of the filters in {{server}}",
         "noArgsDes": "The filters let you protect your server to **prevent malicious content from being sent** and that your channels be a clean place\n**To know how to configure it use:** `{{prefix}}filter help`",
@@ -281,17 +281,17 @@
         "botInfo": "▸ Bot info",
         "botInfoDes": "**Prefix:** `{{prefix}}`\n**Servers:** {{guilds}}\n**Owners:** {{owners}}\n**Library:** {{library}}\n**[Website]({{website}})** - **[Invite]({{invite}})** - **[Support]({{support}})**",
         "colorRole": "▸ Role color",
-        "creadoEl": "▸ Created the:",
+        "creadoEl": "▸ Creation",
         "errorNoID": "It is not an ID.",
         "errorNoUsuario": "User not found.",
         "hightestRole": "▸ Higher role",
         "hoistRole": "▸ Separator role",
-        "id": "▸ ID:",
+        "id": "▸ ID",
         "joinPosition": "▸ Join position",
-        "nada": "None.",
-        "nickname": "▸ Nickname:",
-        "roles": "▸ Roles:",
-        "seUnió": "▸ Joined the server on:"
+        "nada": "None",
+        "nickname": "▸ Nickname",
+        "roles": "▸ Roles",
+        "seUnió": "▸ Join date"
     },
     "invite": {
         "channel": "▸ Channel",
@@ -316,7 +316,7 @@
         "errorNokickeable": "**Error**, I can't kick the user.",
         "errorUser": "**Error**, User not found, please try again.",
         "exito": "{{emoji}} **{{memberTag}}** was kicked.",
-        "sinRazón": "Without reason.",
+        "sinRazón": "Without reason",
         "reason": "You have been kicked in **{{guild}}** for: **{{reason}}**."
     },
     "logs": {
@@ -336,7 +336,7 @@
                 "t": "Help"
             },
             "field2": {
-                "d": "`logs help` - Shows this help menu.\n`logs list` - Shows list of the set-up log modules.\n`logs [#Channel/ChannelID/disable]` - Adjusts server’s main activity logs.\n`logs mod [#Channel/ChannelID/disable]` - Adjusts moderation actions logs.\n`logs boost [#Channel/ChannelID/disable]` - Adjusts boosts and server upgrades logs.",
+                "d": "`logs help` - Shows this help menu.\n`logs list` - Shows the list of the configured log modules.\n`logs [#Channel/ChannelID/disable]` - Sets server’s main activity logs.\n`logs mod [#Channel/ChannelID/disable]` - Sets moderation actions logs.\n`logs boost [#Channel/ChannelID/disable]` - Sets boosts and server upgrades logs.",
                 "t": "Commands"
             },
             "title": "Configuration guide"
@@ -411,8 +411,8 @@
         "cargando": "Loading…"
     },
     "premium": {
-        "canjeado": "Premium has been redeemed in {{server}}",
-        "errorNoPremium": "You aren't a premium user.",
+        "canjeado": "The premium has been successfully redeemed on {{server}}.",
+        "errorNoPremium": "You don't have premium, [what are you waiting for?] (Https://discordsafe.com/premium)",
         "errorNoServidor": "You can only use this command in our server, `https://discordsafe.com/discord`.",
         "errorPartner": "You are partner and can't redeem your premium in another server.",
         "errorYaKey": "You already have a key, you can't have two, I'm not ready for a polyamorous relationship yet.",
@@ -464,7 +464,7 @@
     },
     "report": {
         "autor": "📤 Author",
-        "confirmación": "Are you sure to send the report? To confirm, answer yes.",
+        "confirmación": "Are you sure to send the report?",
         "errorAntiguedad": "**Error**, Your account must be more than 10 days old.",
         "errorArgs": "** Error **, write it as in the following example:\n\n` {{prefix}} report User|ID|Reason|Proof`\n❗ Evidence is required for the report to be accepted.\n📍 We recommend using ** imgur ** to send us proof: ` https://imgur.com/upload`",
         "errorId": "**Error**, ID is invalid, try again.",
@@ -488,7 +488,7 @@
     },
     "reportbug": {
         "args": "This command needs arguments, example: `d.reportbug Report title | Bug description`",
-        "confirmación": "Are you sure to send the bug report? To confirm, answer Yes.",
+        "confirmación": "Are you sure to send the bug report?",
         "descripción": "Description:",
         "error": "In order to attend your report, you must join [our server] (https://discordsafe.com/discord) and use the command there.",
         "errorTiempo": "The time is over.",
@@ -588,12 +588,12 @@
         "canallogs": "Logs channel",
         "comandos": "Commands",
         "desalertas": "Notifies the guild owner when a malicious user present in our forceban joins the server. To set it up use the command provided below.",
-        "desfiltros": "To set up filters use the following command `{{prefix}}filters` y `{{prefix}}filters help`",
+        "desfiltros": "Filters allow you to protect your server to **prevent malicious content from being sent** and keep your channels clean.",
         "designorados": "To set up ignored use the commands provided below.",
         "deslang": "To set up language use the commands provided below.",
         "deslogs": "To set up logs use the commands provided below.",
         "despalabras": "To set up blocked words use the commands provided below.",
-        "despanel": "To change any setting use this command and the name of the setting you want to change.\n**Example:** `{{prefix}}{{commandName}} prefix/announcements/blockedwords/whitelist/logs/lang/verification/filters/notifications`",
+        "despanel": "Bot configuration status.\nUse the buttons to move between the different modules.",
         "desprefix": "To change the bot's prefix in this server use the following command `{{prefix}}setprefix`.",
         "dessugerencias": "Receive feedback of your users trough completely customizable suggestions.",
         "desverificacion": "To set up verification use the commands provided below.",
@@ -628,7 +628,7 @@
     },
     "suggest": {
         "confirmBody": "Suggestion: `{{arg}}`",
-        "confirmación": "Are you sure to send the suggestion? To confirm, answer Yes.",
+        "confirmación": "**Are you sure to send the suggestion?**",
         "done": "The suggestion **{{suggID}}** has been sent, you can see it [here]({{link}}).",
         "errorArgs": "**Error**, you need to add arguments.",
         "errorChannel": "**Error**, the suggestion command only can be used in {{channel}}.",
@@ -731,7 +731,7 @@
         "statsQuestion": "Summary **{{resumen}}**\nPositive votes: **{{approved}} `{{approvedPercent}}%`**\nUndecided votes: **{{question}}** `{{questionPercent}}%`\nNegative votes: **{{denied}}** `{{deniedPercent}}%`"
     },
     "support": {
-        "confirmación": "**Are you sure to ask for support?**\nTo confirm, answer: Yes.\n__**If it is not an urgent matter, you will be sanctioned. **__",
+        "confirmación": "**Are you sure to ask for support?**\n__**If it is not an urgent matter, you will be sanctioned. **__",
         "correcto": "Support has been notified that you have requested help, you will be served as soon as possible, please be patient."
     },
     "topbots": {
@@ -743,7 +743,7 @@
         "errorNoUnBan": "**Error**, I can't unban the user.",
         "errorUser": "**Error**, the user was not found banned, try again.",
         "exito": "{{emoji}} **{{memberTag}}** has been unbanned.",
-        "sinRazón": "Without reason.",
+        "sinRazón": "Without reason",
         "reason": "You have been unbanned in **{{guild}}** for: **{{reason}}**."
     },
     "undeafen": {
@@ -782,7 +782,7 @@
         "errorCanalNoExiste": "That channel doesn't exists.",
         "errorCanalNoTexto": "That isn't a text channel.",
         "errorFooter": "d.verification help",
-        "errorMensaje": "The message needs to be in {{channel}}",
+        "errorMensaje": "The command must be used in {{channel}}, on the same channel as the message you wish to set.",
         "errorMensajeCanal": "**Error:** You need to indicate a channel first.\n**Help:** `d.verification help`",
         "errorMensajeID": "**Error:** It needs to be a ID from a message.\n**Help:** `d.verification help`",
         "errorMensajeModo": "**Error:** This option is only necessary if you use the mode __{{mode}}__.\n**Help:** `d.verification help`",
@@ -934,7 +934,7 @@
             "deleteCmds_footer": "This option can be overwritten by adding `--del` at the end of the command.",
             "doneDesc": "You have successfully completed the **moderation** setup.",
             "replyWithReason_footer": "This option can be overwritten by adding `--reason` at the end of the command.",
-            "doneTitle": "Setup complete"
+            "doneTitle": "Finished setting up"
         },
         "cancelDesc": "Cancels the selection and sets the default.",
         "embedAuthor": "Automatic set-up menu"
