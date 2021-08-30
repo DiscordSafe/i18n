@@ -588,7 +588,7 @@
     "settings": {
         "panel": "Panel de ajustes de {{guild}}",
         "panelTitle": "Guía de configuración paso a paso",
-        "despanel": "Estado de la configuración del bot.\nUse las reacciones para moverse entre los distintos módulos.",
+        "despanel": "Estado de la configuración del bot.\nUse los botones para moverse entre los distintos módulos.",
         "ninguno": "Ninguno.",
         "prefix": "Prefix",
         "estado": "Estado",
@@ -854,7 +854,7 @@
         "errorCanalNoExiste": "Ese canal no existe.",
         "errorCanalNoTexto": "No es un canal de texto.",
         "errorFooter": "d.verification help",
-        "errorMensaje": "El comando debe usarlo {{channel}}, en el mismo canal donde está el mensaje que desea establecer.",
+        "errorMensaje": "El comando debe usarlo en {{channel}}, el mismo canal donde está el mensaje que desea establecer.",
         "errorMensajeCanal": "**Error:** Debe indicar el canal primero.\n**Ayuda:** `d.verification help`",
         "errorMensajeID": "**Error:** Debe de ser la ID de un mensaje.\n**Ayuda:** `d.verification help`",
         "errorMensajeModo": "**Error:** Este ajuste es únicamente para el modo __{{mode}}__.\n**Ayuda:** `d.verification help`",
