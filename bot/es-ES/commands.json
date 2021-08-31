@@ -935,7 +935,10 @@
         "noWarns": "No hay ninguna advertencia.",
         "sancionado": "Caso: {{case}} | Usuario: {{user}} | Moderador: {{mod}}~~~{{reason}} - {{date}}",
         "userEmbedMore": "{{warns}} advertencias de {{memberTag}} ({{memberID}})",
-        "userEmbedOne": "Advertencias de {{memberTag}} ({{memberID}})"
+        "userEmbedOne": "Advertencias de {{memberTag}} ({{memberID}})",
+        "desc": "Elige el orden en el que quieras que se muestren las advertencias",
+        "warnings": "{{count}} advertencia",
+        "warnings_plural": "{{count}} advertencias"
     },
     "whitelist": {
         "añadido": "Añadido a la whitelist: {{user}}",
