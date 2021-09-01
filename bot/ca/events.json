@@ -1,1 +1,101 @@
-{}
+{
+    "channelCreate": {
+        "desc": "<#{{canal}}>",
+        "title": "Canal creat",
+        "type": "Tipus"
+    },
+    "channelDelete": {
+        "desc": "{{canal}}",
+        "title": "Canal eliminat",
+        "type": "Tipus"
+    },
+    "channelUpdate": {
+        "coola": "Ratelimit (Abans)",
+        "coolh": "Ratelimit (Després)",
+        "nombrea": "Nom (Abans)",
+        "nombreh": "Nom (Després)",
+        "none": "Cap.",
+        "nsfwa": "NSFW (Abans)",
+        "nsfwh": "NSFW (Després)",
+        "temaa": "Tema (Abans)",
+        "temah": "Tema (Després)",
+        "title": "Canal actualitzat",
+        "typea": "Tipus (Abans)",
+        "typeh": "Tipus (Després)"
+    },
+    "guildBanAdd": {
+        "banned": "Membre baneado",
+        "mod": "Moderador",
+        "ningunaRazón": "Cap",
+        "razón": "Raó"
+    },
+    "guildBanRemove": {
+        "mod": "Moderador",
+        "ningunaRazón": "Cap",
+        "razón": "Raó",
+        "unbanned": "Membre desbaneado"
+    },
+    "guildMemberAdd": {
+        "alertaDes": "Un membre classificat com a maliciós ha entrat al seu servidor",
+        "alertaM": "Membre",
+        "alertaP": "Prova",
+        "alertaR": "Raó",
+        "alertaTitle": "Alerta",
+        "badges": "Insígnies",
+        "bot": "Bot",
+        "captchaErrorIntentos": "**Ha aconseguit el límit d'intents**, no has completat la verificació així que seràs expulsat.",
+        "captchaField1": "Abans de continuar, has de respondre aquest **captcha**, fes-ho per a poder accedir al servidor. Tens **{{intents}} intents** i **{{minuts}} minuts** per a completar-ho.",
+        "captchaField2": "Això és per a protegir el servidor dels bots de spam i multicomptes.",
+        "captchaFooter": "Convida'm, discordsafe.com/invite",
+        "captchaIntento": "**Error**, li queden {{intents}} intents.",
+        "captchaTitle": "Bivenvenid@ a {{server}}",
+        "captchacFooter": "Vols convidar-me al teu servidor? discordsafe.com/invite",
+        "captchacTitle": "Gràcies!",
+        "creación": "Creació",
+        "expulsadoRazón": "Mínim de dies de la creació del compte.",
+        "forceban": "Forceban",
+        "kick": "Verificació no completada.",
+        "nuevoUsuario": "Nou usuari",
+        "porQué": "Per què?",
+        "alarma": "El servidor **{{server}}** està en manera alarma i ha prohibit l'entrada a nous usuaris, si us plau torni a intentar d'aquí a uns minuts.",
+        "alertaFooter": "Pot desactivar aquestes alertes usant {{prefix}}notifications",
+        "captchaErrorTiempo": "**S'ha acabat el temps**, no has passat la verificació així que hauràs de ser expulsat.",
+        "captchacDes": "Ja tens accés a {{server}}",
+        "expulsado": "Has estat expulsat del servidor **{{server}}** perquè el seu compte no supera el mínim de **{{age}}** dies.",
+        "usuarioDa": "⛔ Usuari nociu: {{reason}}"
+    },
+    "guildMemberRemove": {
+        "badges": "Insígnies",
+        "bot": "Bot",
+        "creación": "Creació",
+        "usuarioSalio": "Usuari va sortir"
+    },
+    "guildMemberUpdate": {
+        "after": "Després:",
+        "before": "Abans:",
+        "boostTitle": "Gràcies per la teva boost!",
+        "by": "Per",
+        "name": "Nom d'usuari canviat",
+        "nickname": "Sobrenom actualitzat",
+        "roladded": "Rol agregat",
+        "rolremoved": "Rol retirat",
+        "unboostDesc": "<@{{memberID}}> gràcies per haver donat suport a aquest servidor, tant de bo tornar-te a veure.",
+        "unboostTitle": "S'ha acabat un boost :(",
+        "boostDesc": "<@{{memberID}}> gràcies per donar suport a aquest servidor amb el teu boost. <3"
+    },
+    "guildUpdate": {
+        "afkcha": "Canal AFK (Abans)",
+        "afkchh": "Canal AFK (Després)",
+        "afkta": "Temps AFK (Abans)",
+        "desca": "Descripció (Abans)",
+        "desch": "Descripció (Després)",
+        "feaa": "Característiques (Abans)",
+        "feah": "Característiques (Després)",
+        "levelDowntitle": "Baixada de nivell",
+        "levelUptitle": "Pujada de nivell",
+        "namea": "Nom (Abans)",
+        "levelDowndesc": "El servidor ha baixat a *{{level}}**.",
+        "afkth": "Temps AFK (Després)",
+        "levelUpdesc": "El servidor ha pujat a *{{level}}**."
+    }
+}
