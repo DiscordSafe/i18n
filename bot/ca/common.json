@@ -54,8 +54,56 @@
     "modEmbed": {
         "mute": "Membre muteado",
         "unmute": "Membre desmuteado",
-        "kick": "Membre expulsat"
+        "kick": "Membre expulsat",
+        "ban": "Membre baneado",
+        "hackban": "Membre baneado (hackban)",
+        "softban": "Membre baneado i desbaneado (softban)",
+        "unban": "Membre desbaneado",
+        "clearwarn": "Advertiment eliminat",
+        "approve": "Membre ha estat aprovat",
+        "deafen": "Membre ensordit",
+        "undeafen": "Membre desensordecido",
+        "code": "Codi",
+        "user": "Usuari",
+        "member": "Membre",
+        "mod": "Moderador",
+        "amount": "Quantitat",
+        "channel": "Canal",
+        "reason": "Raó",
+        "time": "Durada",
+        "case": "Cas",
+        "warn": "Membre advertit",
+        "clear": "Missatges esborrats"
     },
     "notification": "Notificació",
-    "errorCompare": "**Error**, no pots usar aquest comando amb un membre amb més poders que tu."
+    "errorCompare": "**Error**, no pots usar aquest comando amb un membre amb més poders que tu.",
+    "languages": {
+        "es-ES": {
+            "emoji": "🇪🇸",
+            "value": "Español (Espanya)"
+        },
+        "en-US": {
+            "emoji": "🇺🇸",
+            "value": "Inglés (els Estats Units)"
+        },
+        "pt-BR": {
+            "emoji": "🇧🇷",
+            "value": "Portuguès (el Brasil)"
+        },
+        "owo": {
+            "value": "owo",
+            "description": "uwu owo uwu owo uwu owo uwu",
+            "emoji": "<:uwu:865567462391939084>"
+        },
+        "upsidedown": {
+            "description": "Oh no Will Byers no et fiquis aquí!",
+            "emoji": "<:pain:865567631347286047>",
+            "value": "uʍopǝpᴉsdn"
+        },
+        "andaluh": {
+            "value": "Andaluh",
+            "description": "biba el Andalûh",
+            "emoji": "<:flag_an:865567274664329226>"
+        }
+    }
 }
