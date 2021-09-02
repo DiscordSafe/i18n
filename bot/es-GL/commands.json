@@ -129,13 +129,10 @@
         "warnServer": "Se han eliminado todas las advertencias en este servidor."
     },
     "commands": {
-        "descripción": "",
         "doc1": "",
         "doc2": "",
         "md": "",
-        "rep1": "",
-        "título": "",
-        "ver1": ""
+        "título": ""
     },
     "deafen": {
         "changelog": "",
@@ -237,7 +234,6 @@
         "embedFeature1t": "",
         "embedFeature2d": "",
         "embedFeature2t": "",
-        "embedFeature3t": "",
         "embedFeature4d": "",
         "embedFeature4t": "",
         "embedFeedbackFormd": "",

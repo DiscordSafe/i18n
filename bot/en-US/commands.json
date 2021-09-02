@@ -147,13 +147,10 @@
         "warnServer": "All warnings on this server have been removed."
     },
     "commands": {
-        "descripción": "**Prefix:** `{{prefix}}`\n**Type `{{prefix}}help [command]`to see more information about the command.**",
         "doc1": "📚 ━ Documentation",
         "doc2": "Check my [documentation](https://docs.discordsafe.com/) to see my configuration guide.",
         "md": "📨 **{{usuario}}**, Check your private messages.",
-        "rep1": "Reports",
-        "título": "Available commands",
-        "ver1": "Verification"
+        "título": "Available commands"
     },
     "deafen": {
         "changelog": "{{reason}}.\nMod: {{modTag}} ({{modID}})",
@@ -256,7 +253,6 @@
         "embedFeature1t": "{{safenews}} ━ Last Update",
         "embedFeature2d": "[Vote me for support](https://top.gg/bot/461171501715161108/vote) while you get improvements with [D-Safe Premium](https://discordsafe.com/premium), check out our [Discord server](https://discordsafe.com/discord).",
         "embedFeature2t": "{{safepremium}} ━ ¡Vote For Me!",
-        "embedFeature3t": "{{safeheart}} ━ Help me translate",
         "embedFeature4d": "If you find a bad translation, please report it to [the support server](https://discordsafe.com/discord).",
         "embedFeature4t": ":map: ━ Help us to improve translations",
         "embedFeedbackFormd": "Opinion and first impressions of new users are important to enhance my development, complete this anonymus [form](https://discordsafe.com/encuesta) in 1 minute, I appreciate it a lot. <3",
