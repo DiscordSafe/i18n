@@ -147,17 +147,12 @@
         "warnServer": "All warnings on this server have been removed."
     },
     "commands": {
-        "con1": "Configuration",
         "descripción": "**Prefix:** `{{prefix}}`\n**Type `{{prefix}}help [command]`to see more information about the command.**",
         "doc1": "📚 ━ Documentation",
         "doc2": "Check my [documentation](https://docs.discordsafe.com/) to see my configuration guide.",
-        "inf1": "Information",
         "md": "📨 **{{usuario}}**, Check your private messages.",
-        "mod1": "Moderation",
         "rep1": "Reports",
-        "soporte": "Join my support server to report bugs and suggest: ",
         "título": "Available commands",
-        "uti1": "Utility",
         "ver1": "Verification"
     },
     "deafen": {
@@ -261,7 +256,6 @@
         "embedFeature1t": "{{safenews}} ━ Last Update",
         "embedFeature2d": "[Vote me for support](https://top.gg/bot/461171501715161108/vote) while you get improvements with [D-Safe Premium](https://discordsafe.com/premium), check out our [Discord server](https://discordsafe.com/discord).",
         "embedFeature2t": "{{safepremium}} ━ ¡Vote For Me!",
-        "embedFeature3d": "Help us to improve and maintain the translation of the bot in other languages, [ask in the support server](https://discordsafe.com/invite).",
         "embedFeature3t": "{{safeheart}} ━ Help me translate",
         "embedFeature4d": "If you find a bad translation, please report it to [the support server](https://discordsafe.com/discord).",
         "embedFeature4t": ":map: ━ Help us to improve translations",
@@ -269,11 +263,9 @@
         "embedFeedbackFormt": "{{safeform}} ━ Give us your opinion in 1 minute!",
         "embedMaild": "You can read my update changelog, use `{{prefix}}mail` to read it.",
         "embedMailt": "{{emoji}} ━ You have got {{number}} unread mail(s)!",
-        "embedSuggestion": ":question: ━ Did you know that",
         "embedSuggestion2": "You can ban multiple users with `{{prefix}}hackban`.",
         "embedSuggestion3": "You can set my prefix with`{{prefix}}setprefix`.",
         "embedSuggestion4": "You can specify from whom you want me to delete the messages with `{{prefix}}clear @Usuario`.",
-        "field3": "Helpful Links",
         "footer": "Shard {{shardID}}",
         "ninguno": "None.",
         "twitter": "Twitter",

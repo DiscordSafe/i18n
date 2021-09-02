@@ -129,17 +129,12 @@
         "warnServer": ""
     },
     "commands": {
-        "con1": "",
         "descripción": "",
         "doc1": "",
         "doc2": "",
-        "inf1": "",
         "md": "",
-        "mod1": "",
         "rep1": "",
-        "soporte": "",
         "título": "",
-        "uti1": "",
         "ver1": ""
     },
     "deafen": {
@@ -242,7 +237,6 @@
         "embedFeature1t": "",
         "embedFeature2d": "",
         "embedFeature2t": "",
-        "embedFeature3d": "Nos ajude a melhorar e manter a tradução do bot em outros idiomas, [Pergunte no servidor de soporte] (https://discordsafe.com/invite).",
         "embedFeature3t": "",
         "embedFeature4d": "",
         "embedFeature4t": "",
@@ -250,11 +244,9 @@
         "embedFeedbackFormt": "",
         "embedMaild": "",
         "embedMailt": "",
-        "embedSuggestion": "",
         "embedSuggestion2": "",
         "embedSuggestion3": "",
         "embedSuggestion4": "",
-        "field3": "",
         "footer": "",
         "ninguno": "Nenhum."
     },
