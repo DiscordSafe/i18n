@@ -147,10 +147,9 @@
         "warnServer": "All warnings on this server have been removed."
     },
     "commands": {
-        "doc1": "📚 ━ Documentation",
+        "doc1": "{{docEmoji}} ━ Documentation",
         "doc2": "Check my [documentation](https://docs.discordsafe.com/) to see my configuration guide.",
-        "md": "📨 **{{usuario}}**, Check your private messages.",
-        "título": "Available commands"
+        "md": "📨 **{{usuario}}**, Check your private messages."
     },
     "deafen": {
         "changelog": "{{reason}}.\nMod: {{modTag}} ({{modID}})",
