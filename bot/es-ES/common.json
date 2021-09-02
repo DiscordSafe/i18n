@@ -11,7 +11,9 @@
     "GUILD_NEWS_THREAD": "hilo de noticias",
     "GUILD_PUBLIC_THREAD": "hilo público",
     "GUILD_PRIVATE_THREAD": "hilo privado",
-    "GUILD_STAGE_VOICE": "escenario"
+    "GUILD_STAGE_VOICE": "escenario",
+    "RULES": "reglas",
+    "UNKNOWN": "desconocido"
   },
   "actions": {
     "confirm": "Confirmar",
@@ -82,6 +84,10 @@
     "case": "Caso"
   },
   "languages": {
+    "ca": {
+      "emoji": "",
+      "value": "Catalán"
+    },
     "es-ES": {
       "emoji": "🇪🇸",
       "value": "Español (España)"
