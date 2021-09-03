@@ -449,7 +449,8 @@
             "footer": "Muchas gracias por apoyar el desarrollo de D-Safe <3",
             "noReedem": "No canjeado, use `d.{{commandName}} redeem` en el servidor donde desee canjearlo.",
             "done": " <@{{user}}> ha recibido su key, **¡felicidades!**",
-            "multiplePremiums": "Tiene varios premiums, ¿cual desea canjear?"
+            "multiplePremiums": "Selección de premium",
+            "multiplePremiums_description": "Tienes varios premiums, debes selecciona uno para canjear en este servidor."
         },
         "errorNoRepeated": "**Error**, en este servidor ya se ha canejado un premium.",
         "noEstablecido": "No establecido",

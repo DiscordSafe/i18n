@@ -81,7 +81,12 @@
         "roladded": "Rol agregado",
         "rolremoved": "Rol retirado",
         "unboostDesc": "<@{{memberID}}> gracias por haber apoyado este servidor, ojalá volverte a ver.",
-        "unboostTitle": "Se ha acabado un boost :("
+        "unboostTitle": "Se ha acabado un boost :(",
+        "autopremium": {
+            "title": "¡Has obtenido premium!",
+            "title_plural": "¡Has obtenido {{count}} premiums!",
+            "description": "Muchas gracias por apoyar mi desarrollo, contribuyes a que pueda seguir manteniéndome estable y actualizándome con mejores características.\n- Los desarrolladores <3.\n\nAh sí, ahora solo tienes que vincular el premium a un servidor usando `/premium`."
+        }
     },
     "guildUpdate": {
         "afkcha": "Canal AFK (Antes)",
