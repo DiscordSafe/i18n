@@ -91,6 +91,10 @@
             "description": "Oh no Will Byers don't get in there!",
             "value": "uʍopǝpᴉsdn",
             "emoji": "<:pain:865567631347286047>"
+        },
+        "ca": {
+            "emoji": "<:flag_cat:883009423910526986>",
+            "value": "Catalan"
         }
     },
     "channelTypes": {
@@ -115,6 +119,8 @@
         "GUILD_NEWS_THREAD": "news thread",
         "GUILD_PUBLIC_THREAD": "public thread",
         "GUILD_PRIVATE_THREAD": "private thread",
-        "GUILD_STAGE_VOICE": "stage"
+        "GUILD_STAGE_VOICE": "stage",
+        "RULES": "rules",
+        "UNKNOWN": "unknown"
     }
 }
