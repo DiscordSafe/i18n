@@ -34,7 +34,6 @@
         "errorNobanneable": "**Error**, I cannot ban the mentioned user.",
         "errorUser": "**Error**, User not found, please try again.",
         "exito": "{{emoji}} **{{memberTag}} was banned**",
-        "sinRazón": "No reason",
         "reason": "You have been banned in **{{guild}}** because: **{{reason}}**."
     },
     "baninfo": {
@@ -158,7 +157,6 @@
         "errorMención": "**Error**: The user has not been mentioned.",
         "errorYaEnsordecido": "**Error**, that user is already deafened, use `d.undeafen` to undeafen it.",
         "exito": "{{emoji}} **{{memberTag}}** has been deafened.",
-        "sinRazón": "Without reason",
         "reason": "You have been deafened in **{{guild}}** for: **{{reason}}**."
     },
     "detect": {
@@ -311,7 +309,6 @@
         "errorNokickeable": "**Error**, I can't kick the user.",
         "errorUser": "**Error**, User not found, please try again.",
         "exito": "{{emoji}} **{{memberTag}}** was kicked.",
-        "sinRazón": "Without reason",
         "reason": "You have been kicked in **{{guild}}** for: **{{reason}}**."
     },
     "logs": {
@@ -387,7 +384,6 @@
         "errorNúmero": "**Error**: The time must be a number.\nWrite it as: `d.mute @User Time s/m/h Reason`",
         "errorYaMuteado": "That user is already muted.",
         "exito": "{{emoji}} **{{memberTag}}** has been muted.",
-        "sinRazón": "Without reason",
         "reason": "You have been muted in **{{guild}}** for: **{{reason}}**.",
         "reason_time": "You have been muted in **{{guild}}** for **{{time}}** for: **{{reason}}**."
     },
@@ -412,21 +408,16 @@
         "errorPartner": "You are partner and can't redeem your premium in another server.",
         "errorYaKey": "You already have a key, you can't have two, I'm not ready for a polyamorous relationship yet.",
         "infoAuthor": "Premium of {{user}}",
-        "md": "📨 **{{user}}**, check out your private messages!",
         "noArgsDes": "It is a premium benefit for Partners, Safers and donors.",
-        "saferDoneI": "You obtained your role, ¡Thanks for voting!",
         "saferDoneII": "You have obtained your role, ¡Thanks for voting for us!\nUse the command again to generate a D-Safe Premium key.",
         "saferErrorBadRequest": "An error has happened, try again.",
         "saferErrorNoReq": "You don't have the requisites to obtain the Safer, keep voting.",
         "saferErrorNoVote": "You haven't voted or an error has happened, try in some minutes.",
         "help": {
-            "field3": "Commands",
             "title": "D-Safe Premium",
             "field1": "Benefits",
-            "field2": "Get it",
             "field1d": "• Advanced IPlogger filter.\n• NSFW images filter.\n• Automatic forceban.\n• Suggestion manager role.\n• Custom color palette.\n• Suggestions-only channel.\n• Cooldown within suggestions.\n• Customized emojis in the reactions.\n• Lower response time.\n• Server boost logs.\n• Special badge.\n• Prioritary support.\n• Exclusive roles and channels.\n• Be part of the Testers program.",
             "desc": "Improve your community with D-Safe Premium and support the bot's development to make possible bringing better worked updates and with the features you wait.",
-            "field2d": "• Supporting us in [Patreon](https://patreon.com/join/DiscordSafe).\n• In a free way voting us in botlists, [more information](https://docs.discordsafe.com/docs/support-us).",
             "field3d": "• `redeem`, redeems your premium in the server.\n• `info`, shows the actual status of your premium.\n• `safergen`, generates a premium if you have the vote requirements.",
             "image": "https://i.imgur.com/ee7uS79.png"
         },
@@ -435,7 +426,6 @@
             "author": "Congratulations! You have obtained D-Safe Premium",
             "desc": "Now you will can redeem this benefits in a server using `d.{{commandName}} redeem` in the server that you want to redeem it.",
             "field1": "Server",
-            "field2": "Until the day",
             "footer": "Thank you very much to support the development of D-Safe <3",
             "noReedem": "Not redeemed, use `d.{{commandName}} redeem` in the server that you want to redeem it.",
             "done": " <@{{user}}> has received its key, **congrats!**",
@@ -740,7 +730,6 @@
         "errorNoUnBan": "**Error**, I can't unban the user.",
         "errorUser": "**Error**, the user was not found banned, try again.",
         "exito": "{{emoji}} **{{memberTag}}** has been unbanned.",
-        "sinRazón": "Without reason",
         "reason": "You have been unbanned in **{{guild}}** for: **{{reason}}**."
     },
     "undeafen": {
@@ -750,7 +739,6 @@
         "errorMención": "**Error**: You have to mention the user.",
         "errorYaEnsordecido": "**Error**, that user is not deafened.",
         "exito": "{{emoji}} **{{memberTag}}** has been undeafened.",
-        "sinRazón": "Without reason",
         "reason": "You have been undeafened in **{{guild}}** for: **{{reason}}**."
     },
     "unmute": {
@@ -759,7 +747,6 @@
         "errorNoExiste": "There is no Muted role, I have created and configured it.",
         "errorNoMuteado": "**Error**, That user is not muted.",
         "exito": "{{emoji}} **{{memberTag}}** has been unmuted.",
-        "sinRazón": "Without reason",
         "reason": "You have been unmuted in **{{guild}}** for **{{reason}}**."
     },
     "verification": {

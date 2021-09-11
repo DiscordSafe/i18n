@@ -32,8 +32,7 @@
         "errorNoBan": "No puedo banear al usuario mencionado.",
         "errorNobanneable": "No puedo banear al usuario.",
         "errorUser": "",
-        "exito": "¡El martillo del ban ha acertado exitosamente!",
-        "sinRazón": ""
+        "exito": "¡El martillo del ban ha acertado exitosamente!"
     },
     "baninfo": {
         "footer": "",
@@ -139,8 +138,7 @@
         "errorConectado": "",
         "errorMención": "",
         "errorYaEnsordecido": "",
-        "exito": "",
-        "sinRazón": ""
+        "exito": ""
     },
     "detect": {
         "description": "",
@@ -285,8 +283,7 @@
         "errorNoKick": "",
         "errorNokickeable": "",
         "errorUser": "",
-        "exito": "",
-        "sinRazón": ""
+        "exito": ""
     },
     "logs": {
         "disabled": "",
@@ -353,8 +350,7 @@
         "errorMención": "**Error: Falta mencionar al usuario.**\nEscríbalo como: .mute @Usuario Número s/m/h Razón",
         "errorNúmero": "",
         "errorYaMuteado": "Ese usuario ya está muteado.",
-        "exito": "",
-        "sinRazón": ""
+        "exito": ""
     },
     "notification": {
         "activado": "",
@@ -377,9 +373,7 @@
         "errorPartner": "",
         "errorYaKey": "",
         "infoAuthor": "",
-        "md": "",
         "noArgsDes": "",
-        "saferDoneI": "",
         "saferDoneII": "",
         "saferErrorBadRequest": "",
         "saferErrorNoReq": "",
@@ -639,8 +633,7 @@
         "changelog": "",
         "errorNoUnBan": "",
         "errorUser": "",
-        "exito": "",
-        "sinRazón": ""
+        "exito": ""
     },
     "undeafen": {
         "changelog": "",
@@ -648,16 +641,14 @@
         "errorConectado": "",
         "errorMención": "",
         "errorYaEnsordecido": "",
-        "exito": "",
-        "sinRazón": ""
+        "exito": ""
     },
     "unmute": {
         "changelog": "",
         "errorMención": "**Error: Falta mencionar al usuario.**\nEscríbalo como: .unmute @Usuario",
         "errorNoExiste": "No existe un rol Muted, lo he creado y configurado.",
         "errorNoMuteado": "Ese usuario no está muteado.",
-        "exito": "",
-        "sinRazón": ""
+        "exito": ""
     },
     "verification": {
         "autorAyuda": "",

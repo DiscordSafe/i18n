@@ -28,7 +28,6 @@
         "errorNoBan": "**Error**, no puc banear a l'usuari esmentat.",
         "errorUser": "**Error**, no es va trobar a l'usuari, provi de nou.",
         "exito": "{{emoji}} **{{memberTag}} va ser banejat**",
-        "sinRazón": "Sense raó",
         "autor": "**Error**, no et pots banear a tu mateix.",
         "errorArgs": "**Error**, ha d'esmentar, indicar la ID o el nom d'un usuari.",
         "errorNobanneable": "**Error**, no puc banear a l'usuari."
