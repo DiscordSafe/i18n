@@ -1,5 +1,6 @@
 {
   "whatisthis": "*[¿Qué es esto?]({{link}})*",
+  "noreason": "Sin razón",
   "channelTypes": {
     "GUILD_TEXT": "texto",
     "GUILD_VOICE": "voz",

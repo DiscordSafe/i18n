@@ -34,8 +34,7 @@
         "errorNoBan": "**Error**, no puedo banear al usuario mencionado.",
         "errorNobanneable": "**Error**, no puedo banear al usuario.",
         "errorUser": "**Error**, no se encontró al usuario, pruebe de nuevo.",
-        "exito": "{{emoji}} **{{memberTag}} fue baneado**",
-        "sinRazón": "Sin razón"
+        "exito": "{{emoji}} **{{memberTag}} fue baneado**"
     },
     "baninfo": {
         "footer": "Puede ignorar a este miembro del forceban usando d.whitelist add <ID>.",
@@ -161,6 +160,10 @@
         "msgcommands": "Comandos vía mensaje",
         "slashcommands": "Comandos de barra diagonal"
     },
+    "delrole": {
+        "reason": "{{reason}}.\nMod: {{modTag}} ({{modID}})",
+        "success": "Rol eliminado."
+    },
     "deafen": {
         "reason": "Has sido ensordecido en **{{guild}}** por: **{{reason}}**.",
         "changelog": "{{reason}}.\nMod: {{modTag}} ({{modID}})",
@@ -168,8 +171,7 @@
         "errorConectado": "**Error**, el miembro no está conectado a un canal de voz.",
         "errorMención": "**Error**: Falta mencionar al usuario.",
         "errorYaEnsordecido": "**Error**, Ese usuario ya está ensordecido, usa `d.undeafen` para desensordecerlo.",
-        "exito": "{{emoji}} **{{memberTag}}** ha sido ensordecido.",
-        "sinRazón": "Sin razón"
+        "exito": "{{emoji}} **{{memberTag}}** ha sido ensordecido."
     },
     "detect": {
         "description": "Estos usuarios han sido clasificados como maliciosos, se muestran la fecha que serán quitados, la razón y las pruebas.\nEstos usuarios **pueden ser ignorados** del __forceban__ usando `d.ignore`.",
@@ -334,8 +336,7 @@
         "errorNoKick": "**Error**, no puedo expulsar al usuario mencionado.",
         "errorNokickeable": "**Error**, no puedo expulsar al usuario.",
         "errorUser": "**Error**, no se encontró al usuario, pruebe de nuevo.",
-        "exito": "{{emoji}} **{{memberTag}}** fue expulsado.",
-        "sinRazón": "Sin razón"
+        "exito": "{{emoji}} **{{memberTag}}** fue expulsado."
     },
     "logs": {
         "disabled": "Los logs han sido desactivados, dejará de recibirlos.",
@@ -411,8 +412,7 @@
         "errorMención": "**Error**: Falta mencionar al usuario.\nEscríbalo como: `d.mute @Usuario Tiempo s/m/h Razón`",
         "errorNúmero": "**Error**: El tiempo debe de ser un número.\nEscríbalo como: `d.mute @Usuario Tiempo s/m/h Razón`",
         "errorYaMuteado": "**Error**, Ese usuario ya está muteado.",
-        "exito": "{{emoji}} **{{memberTag}}** ha sido muteado.",
-        "sinRazón": "Sin razón"
+        "exito": "{{emoji}} **{{memberTag}}** ha sido muteado."
     },
     "notification": {
         "activado": "activado",
@@ -431,44 +431,36 @@
     "premium": {
         "help": {
             "title": "D-Safe Premium",
-            "desc": "Mejora tu comunidad con D-Safe Premium y apoya el desarrollo del bot para poder traer actualizaciones mejor trabajadas y con las características que esperas.",
+            "desc": "Mejora tu comunidad con D-Safe Premium y apoya el desarrollo del bot para poder traer mejores actualizaciones y con las características que esperas.",
             "field1": "Beneficios",
             "field1d": "• Filtro IPlogger Avanzado.\n• Filtro imágenes NSFW.\n• Auto Forceban.\n• Rol encargado de sugerencias.\n• Paleta de colores customizada.\n• Canal solo para sugerencias.\n• Cooldown entre sugerencias.\n• Emojis customizados en las reacciones.\n• Menor tiempo de respuesta.\n• Logs de mejoras del servidor.\n• Insignia especial.\n• Soporte prioritario.\n• Roles y canales exclusivos.\n• Forma parte del programa de Testers.",
-            "field2": "Consíguelo",
-            "field2d": "• Apoyándonos en [Patreon](https://patreon.com/join/DiscordSafe).\n• De forma gratuita votándonos en listas de bots, [más información](https://docs.discordsafe.com/docs/support-us).",
-            "field3": "Comandos",
-            "field3d": "• `redeem`, canjea tu premium en el servidor.\n• `info`, muestra el estado actual de tu premium.\n• `safergen`, genera un premium si tienes los requisitos de votos.",
             "image": "https://i.imgur.com/ee7uS79.png"
         },
         "safer": {
             "author": "¡Felicidades! Has obtenido D-Safe Premium",
-            "desc": "Ahora podrás canjear este beneficios en un servidor usando `d.{{commandName}} redeem` dentro del servidor donde quieras canjearlo.",
+            "desc": "Ahora podrás canjear este beneficios en un servidor usando `/{{commandName}} redeem` dentro del servidor donde quieras canjearlo.",
             "field1": "Servidor",
-            "field2": "Hasta el día",
             "field3": "Nivel",
             "footer": "Muchas gracias por apoyar el desarrollo de D-Safe <3",
-            "noReedem": "No canjeado, use `d.{{commandName}} redeem` en el servidor donde desee canjearlo.",
+            "noReedem": "No canjeado, use `/{{commandName}} redeem` en el servidor donde desee canjearlo.",
             "done": " <@{{user}}> ha recibido su key, **¡felicidades!**",
             "multiplePremiums": "Selección de premium",
             "multiplePremiums_description": "Tienes varios premiums, debes selecciona uno para canjear en este servidor."
         },
         "errorNoRepeated": "**Error**, en este servidor ya se ha canejado un premium.",
-        "noEstablecido": "No establecido",
+        "noEstablecido": "No establecido.",
         "infinito": "Infinito.",
         "canjeado": "El premium ha sido canjeado exitosamente en {{server}}.",
         "errorNoPremium": "No eres premium, [¿a qué estás esperando?](https://discordsafe.com/premium)",
         "errorAllRedeem": "**Error**, todos los premiums los tiene canjeados.",
-        "errorNoServidor": "Este comando solo se puede usar en nuestro servidor, https://discordsafe.com/discord.",
+        "errorNoServidor": "Debes de estar en nuestro servidor, https://discordsafe.com/discord.",
         "errorPartner": "Eres partner y no puede canjear su premium en otro lado.",
-        "errorYaKey": "Ya tiene una key, puede obtener premium en otro servidor si lo desea [aquí](https://discordsafe.com/premium).",
+        "errorYaKey": "Ya tienes un premium, no puedes canjear más de uno mediante votos, puedes obtener premium en otro servidor mediante [patreon](https://patreon.com/DiscordSafe).",
         "infoAuthor": "Premium de {{user}}",
         "infoAuthor_plural": "Premiums de {{user}}",
-        "md": "📨 **{{user}}**, ¡Revisa tus mensajes privados!",
         "noArgsDes": "Obtén una tonelada de beneficios para mejorar tu comunidad.",
-        "saferDoneI": "Has obtenido tu rol, ¡gracias por votarnos!",
-        "saferDoneII": "Has obtenido tu rol, ¡gracias por votarnos!\nVuelve a usar el comando para generar una key de D-Safe Premium.",
         "saferErrorBadRequest": "Ha ocurrido un error, intente de nuevo.",
-        "saferErrorNoReq": "No cumples los requisitos para obtener el Safer, sigue votando, te faltan {{votes}} votos.",
+        "saferErrorNoReq": "No cumples los requisitos para obtener el el premium, sigue votando, te faltan {{votes}} votos.",
         "saferErrorNoVote": "No has votado o ha ocurrido un error, pruebe dentro de unos minutos."
     },
     "reason": {
@@ -511,7 +503,7 @@
         "descripción": "Descripción:",
         "error": "Para poder atender tu reporte debes entrar a [nuestro servidor](https://discordsafe.com/discord) y usar el comando allí.",
         "errorTiempo": "Se acabó el tiempo.",
-        "mandando": "Mandando…"
+        "mandando": "Enviado."
     },
     "role": {
         "color": "▸ Color",
@@ -823,8 +815,7 @@
         "changelog": "{{reason}}.\nMod: {{modTag}} ({{modID}})",
         "errorNoUnBan": "**Error**, no puedo desbanear al usuario.",
         "errorUser": "**Error**, no se encontró baneado al usuario, pruebe de nuevo.",
-        "exito": "{{emoji}} **{{memberTag}}** ha sido desbaneado.",
-        "sinRazón": "Sin razón"
+        "exito": "{{emoji}} **{{memberTag}}** ha sido desbaneado."
     },
     "undeafen": {
         "reason": "Has sido desensordecido en **{{guild}}** por: **{{reason}}**.",
@@ -833,8 +824,7 @@
         "errorConectado": "**Error**, el miembro no está conectado a un canal de voz.",
         "errorMención": "**Error**: Falta mencionar al usuario.",
         "errorYaEnsordecido": "**Error**, Ese usuario no está ensordecido.",
-        "exito": "{{emoji}} **{{memberTag}}** ha sido desensordecido.",
-        "sinRazón": "Sin razón"
+        "exito": "{{emoji}} **{{memberTag}}** ha sido desensordecido."
     },
     "unmute": {
         "reason": "Has sido desmuteado en **{{guild}}** por **{{reason}}**.",
@@ -842,8 +832,7 @@
         "errorMención": "**Error: Falta mencionar al usuario.\nEscríbalo como: `d.unmute @Usuario/ID Usuario`",
         "errorNoExiste": "**Error**, no existe un rol **Muted**, lo he creado y configurado :).",
         "errorNoMuteado": "**Error**, el usuario no está muteado.",
-        "exito": "{{emoji}} **{{memberTag}}** ha sido desmuteado.",
-        "sinRazón": "Sin razón"
+        "exito": "{{emoji}} **{{memberTag}}** ha sido desmuteado."
     },
     "verification": {
         "autorAyuda": "Panel de ayuda sobre verificación",

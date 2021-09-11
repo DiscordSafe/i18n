@@ -9,7 +9,7 @@
   "bloqueado": "Se te ha prohibido mi uso, estás bloqueado jaja.",
   "servidorOnly": "No puedes usar este comando.",
   "cooldown": "Debes que esperar {{segundos}} segundo/s para volver a usar este comando.",
-  "desactivado": "Este comando ha sido desactivado temporalmente para arreglar errores y que funcione correctamente.",
+  "desactivado": "Este comando solo está disponible como comando de barra diagonal, usa `/{{commandName}}` para usarlo.",
   "userPerms": "No tienes suficientes permisos para usar este comando.",
   "userPerms_detailed": "No tienes suficientes permisos para usar este comando, necesitas el permiso de **{{perm}}**.",
   "userPerms_detailed_plural": "No tienes suficientes permisos para usar este comando, necesitas los permisos de **{{perm}}**.",
@@ -18,7 +18,8 @@
   "ownerOnly": "Este comando solo puede ser ejecutado por el dueño del servidor.",
   "slashy": {
     "string": {
-      "maxLength": "Debe introducir un texto más corto."
+      "maxLength": "Debe introducir un texto más corto, menor de {{max}} caracteres.",
+      "minLength": "Debe introducir un texto más largo, mayor de {{min}} caracteres."
     },
     "user": {
       "acceptSelf": "No puedes usarte a tí mismo como parámetro.",

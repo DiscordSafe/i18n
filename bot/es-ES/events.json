@@ -85,7 +85,7 @@
         "autopremium": {
             "title": "¡Has obtenido premium!",
             "title_plural": "¡Has obtenido {{count}} premiums!",
-            "description": "Muchas gracias por apoyar mi desarrollo, contribuyes a que pueda seguir manteniéndome estable y actualizándome con mejores características.\n- Los desarrolladores <3.\n\nAh sí, ahora solo tienes que vincular el premium a un servidor usando `/premium`."
+            "description": "Muchas gracias por apoyar mi desarrollo, contribuyes a que pueda seguir manteniéndome estable y actualizándome con mejores características.\n- Los desarrolladores <3.\n\nAhora solo tienes que vincular el premium a un servidor usando `/premium`."
         }
     },
     "guildUpdate": {

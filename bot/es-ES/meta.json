@@ -14,8 +14,8 @@
         "example": "",
         "usage": "<@Usuario>",
         "options": {
-            "member": {
-                "description": "El miembro a obtener el avatar."
+            "user": {
+                "description": "El miembro a obtener el avatar"
             }
         }
     },
@@ -55,10 +55,10 @@
         "usage": "",
         "options": {
             "view": {
-                "description": "Muestra el último registro de cambios."
+                "description": "Muestra el último registro de cambios"
             },
             "follow": {
-                "description": "Sigue nuestro canal de anuncios en este canal."
+                "description": "Sigue nuestro canal de anuncios en este canal"
             }
         }
     },
@@ -75,7 +75,15 @@
     "delrole": {
         "description": "Borra el rol mencionado.",
         "example": "@RolPrueba",
-        "usage": ""
+        "usage": "",
+        "options": {
+            "role": {
+                "description": "Rol a borrar"
+            },
+            "reason": {
+                "description": "Razón por la que se borra el rol"
+            }
+        }
     },
     "clearwarn": {
         "description": "Elimina una advertencia del servidor.",
@@ -85,7 +93,12 @@
     "commands": {
         "description": "Lista de comandos.",
         "example": "",
-        "usage": "<--channel>"
+        "usage": "<--channel>",
+        "options": {
+            "in-channel": {
+                "description": "Si envía la respuesta en el canal en vez de por MD"
+            }
+        }
     },
     "deafen": {
         "description": "Ensordece a un miembro.",
@@ -100,7 +113,12 @@
     "emoji": {
         "description": "Muestra el emoji en grande.",
         "example": ":pepeamor:",
-        "usage": "[Emoji]"
+        "usage": "[Emoji]",
+        "options": {
+            "emoji": {
+                "description": "El emoji a mostrar"
+            }
+        }
     },
     "filter": {
         "description": "Configura los filtros.",
@@ -115,7 +133,15 @@
     "genpassword": {
         "description": "Genera una contraseña acorde a los parámetros proporcionados.",
         "example": "high 26",
-        "usage": "<Nivel(low/medium/high)> <Longitud(5-50)>"
+        "usage": "<Nivel(low/medium/high)> <Longitud(5-50)>",
+        "options": {
+            "level": { 
+                "description": "Nivel de seguridad de la contraseña"
+            },
+            "length": {
+                "description": "Longitud de la contraseña"
+            }
+        }
     },
     "hackban": {
         "description": "Banea a miembros mediante su ID.",
@@ -174,8 +200,8 @@
     },
     "premium": {
         "description": "Panel de control de D-Safe Premium.",
-        "example": "help",
-        "usage": "help / redeem / info / safergen"
+        "example": "",
+        "usage": ""
     },
     "reason": {
         "description": "Establece la razón de un caso de moderación.",
@@ -190,7 +216,15 @@
     "reportbug": {
         "description": "Reporta un error a mi desarrollador para que sea solucionado.",
         "example": "La alarma se enciende sola y no hay manera de apagarla.",
-        "usage": "<Descripción detallada del error>"
+        "usage": "<Descripción detallada del error>",
+        "options": {
+            "title": {
+                "description": "Escriba un título descriptivo del bug"
+            },
+            "description": {
+                "description": "Describa el bug y pasos para reproducirlo"
+            }
+        }
     },
     "role": {
         "description": "Muestra la información de un rol.",
@@ -230,7 +264,12 @@
     "suggest": {
         "description": "Envía una sugerencia.",
         "example": "Me gustaría que creen un canal de #gaming donde los usuarios podemos hablar sobre ese tema allí.",
-        "usage": "<Descripción de la sugerencia>"
+        "usage": "<Descripción de la sugerencia>",
+        "options": {
+            "description": {
+                "description": "Descrición de la sugerencia"
+            }
+        }
     },
     "suggestions": {
         "description": "Ajustes e información de las sugerencias.",
