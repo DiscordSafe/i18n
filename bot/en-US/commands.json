@@ -409,7 +409,6 @@
         "errorYaKey": "You already have a key, you can't have two, I'm not ready for a polyamorous relationship yet.",
         "infoAuthor": "Premium of {{user}}",
         "noArgsDes": "It is a premium benefit for Partners, Safers and donors.",
-        "saferDoneII": "You have obtained your role, ¡Thanks for voting for us!\nUse the command again to generate a D-Safe Premium key.",
         "saferErrorBadRequest": "An error has happened, try again.",
         "saferErrorNoReq": "You don't have the requisites to obtain the Safer, keep voting.",
         "saferErrorNoVote": "You haven't voted or an error has happened, try in some minutes.",
@@ -418,7 +417,6 @@
             "field1": "Benefits",
             "field1d": "• Advanced IPlogger filter.\n• NSFW images filter.\n• Automatic forceban.\n• Suggestion manager role.\n• Custom color palette.\n• Suggestions-only channel.\n• Cooldown within suggestions.\n• Customized emojis in the reactions.\n• Lower response time.\n• Server boost logs.\n• Special badge.\n• Prioritary support.\n• Exclusive roles and channels.\n• Be part of the Testers program.",
             "desc": "Improve your community with D-Safe Premium and support the bot's development to make possible bringing better worked updates and with the features you wait.",
-            "field3d": "• `redeem`, redeems your premium in the server.\n• `info`, shows the actual status of your premium.\n• `safergen`, generates a premium if you have the vote requirements.",
             "image": "https://i.imgur.com/ee7uS79.png"
         },
         "safer": {
