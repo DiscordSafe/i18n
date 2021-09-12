@@ -7,7 +7,20 @@
     "approve": {
         "description": "Aprueba a los nuevos usuarios.",
         "example": "@Vicente#0001",
-        "usage": "[@Usuario/UsuarioID/all]"
+        "usage": "[@Usuario/UsuarioID/all]",
+        "options": {
+            "all": {
+                "description": "Aprueba a todos los usuarios"
+            },
+            "user": {
+                "description": "Aprueba a un usuario",
+                "options": {
+                    "user": {
+                        "description": "El usuario a aprobar"
+                    }
+                }
+            }
+        }
     },
     "avatar": {
         "description": "Muestra el avatar de un usuario.",
