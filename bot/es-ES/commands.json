@@ -64,6 +64,8 @@
         "errorNoArgs": "**Error**, debe añadir un argumento.",
         "errorNoPalabras": "**Error**, para quitar una palabra primero debe bloquear una.",
         "errorPack": "**Error**, ese pack no existe.",
+        "errorRepeated": "**Error**, la palabra `{{word}}` ya está bloqueda.",
+        "errorRepeated_plural": "**Error**, las palabras `{{word}}` ya están bloqueadas.",
         "guía": "Guía de configuración",
         "ignoreCh": "El canal <#{{channel}}> ha sido __ignorado__ exitosamente.",
         "ignoreErrorArg": "**Error**, debe mencionar al canal o rol que desea ignorar.",
