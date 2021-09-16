@@ -164,7 +164,12 @@
     "help": {
         "description": "Menú de ayuda e información de comandos.",
         "example": "ban",
-        "usage": "<Comando>"
+        "usage": "<Comando>",
+        "options": {
+            "command": {
+                "description": "Mostrar información de este comando"
+            }
+        }
     },
     "info": {
         "description": "Muestra la información de un usuario.",
