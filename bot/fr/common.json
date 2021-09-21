@@ -10,7 +10,9 @@
         "GUILD_PUBLIC_THREAD": "fil public",
         "GUILD_PRIVATE_THREAD": "fil privé",
         "GUILD_STAGE_VOICE": "étape",
-        "GROUP_DM": "grouper"
+        "GROUP_DM": "grouper",
+        "RULES": "règles",
+        "UNKNOWN": "inconnu"
     },
     "actions": {
         "confirm": "Confirmer",
@@ -45,5 +47,6 @@
     "canal": "Canal",
     "whatisthis": "*[Qu'est ce que c'est?]({{link}}]*",
     "tiempo": "Le temps est écoulé.",
-    "errorCompare": "**Erreur**, vous ne pouvez pas utiliser cette commande sur un membre ayant plus de pouvoirs que vous."
+    "errorCompare": "**Erreur**, vous ne pouvez pas utiliser cette commande sur un membre ayant plus de pouvoirs que vous.",
+    "noreason": "Sans raison"
 }
