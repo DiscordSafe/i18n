@@ -148,7 +148,17 @@
     "commands": {
         "doc1": "{{docEmoji}} ━ Documentation",
         "doc2": "Check my [documentation](https://docs.discordsafe.com/) to see my configuration guide.",
-        "md": "📨 **{{usuario}}**, Check your private messages."
+        "md": "📨 **{{usuario}}**, Check your private messages.",
+        "title": "Commands list",
+        "description": "**Prefix:** `{{prefix}}`\n**Type `{{prefix}}help [command]` to get all the information about a command.**",
+        "con": "Configuration",
+        "inf": "Information",
+        "mod": "Moderation",
+        "rep": "Reports",
+        "uti": "Utility",
+        "ver": "Verification",
+        "msgcommands": "Commands via message",
+        "slashcommands": "SlashCommands"
     },
     "deafen": {
         "changelog": "{{reason}}.\nMod: {{modTag}} ({{modID}})",
@@ -266,7 +276,17 @@
         "website": "Website",
         "support": "Support",
         "documentation": "Documentation",
-        "patreon": "Patreon"
+        "patreon": "Patreon",
+        "embedMailt_plural": "{{emoji}} ━ ¡You have {{count}} pending mails!",
+        "embedSuggestionTitle": ":question: ━ Did you know that",
+        "embedSuggestion1": "You can ban multiple users with `{{prefix}}hackban`.",
+        "embedSuggestion5": "I have a bunch of slash commands, look at them by typing a **/**.",
+        "links": "Links",
+        "seecommands": "See commands",
+        "seemore": "See more",
+        "msgcommand": "Command via message",
+        "slashcommand": "Slash command",
+        "slashyAvailable": "{{emoji}} **Available as a slash command, use `/{{commandName}}`**."
     },
     "info": {
         "badges": "▸ Badges",
@@ -427,10 +447,11 @@
             "footer": "Thank you very much to support the development of D-Safe <3",
             "noReedem": "Not redeemed, use `d.{{commandName}} redeem` in the server that you want to redeem it.",
             "done": " <@{{user}}> has received its key, **congrats!**",
-            "multiplePremiums": "Premium selection"
+            "multiplePremiums": "Premium selection",
+            "multiplePremiums_description": "You have several premiums, you must select one to redeem on this server."
         },
         "errorNoRepeated": "**Error**, a premium has been already redeemed on this server.",
-        "noEstablecido": "Not established",
+        "noEstablecido": "Not established.",
         "infinito": "Infinite.",
         "errorAllRedeem": "**Error**, all the premiums have been redeemed.",
         "infoAuthor_plural": "{{user}}'s premiums"
@@ -475,7 +496,7 @@
         "descripción": "Description:",
         "error": "In order to attend your report, you must join [our server] (https://discordsafe.com/discord) and use the command there.",
         "errorTiempo": "The time is over.",
-        "mandando": "Sending…"
+        "mandando": "Sent."
     },
     "role": {
         "color": "▸ Color",
@@ -845,7 +866,10 @@
         "noWarns": "There isn't any warnings.",
         "sancionado": "`{{code}}` - User sanctionated {{user}} by {{mod}} reason: {{razón}}",
         "userEmbedMore": "{{warns}} warnings of {{memberTag}} ({{memberID}})",
-        "userEmbedOne": "Warnings of {{memberTag}} ({{memberID}})"
+        "userEmbedOne": "Warnings of {{memberTag}} ({{memberID}})",
+        "desc": "Choose the order in which you want the warnings to be displayed",
+        "warnings": "{{count}} warning",
+        "warnings_plural": "{{count}} warnings"
     },
     "whitelist": {
         "añadido": "Added to whitelist: {{user}}",
