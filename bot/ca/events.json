@@ -81,7 +81,12 @@
         "rolremoved": "Rol retirat",
         "unboostDesc": "<@{{memberID}}> gràcies per haver donat suport a aquest servidor, tant de bo tornar-te a veure.",
         "unboostTitle": "S'ha acabat un boost :(",
-        "boostDesc": "<@{{memberID}}> gràcies per donar suport a aquest servidor amb el teu boost. <3"
+        "boostDesc": "<@{{memberID}}> gràcies per donar suport a aquest servidor amb el teu boost. <3",
+        "autopremium": {
+            "title": "Has obtingut premium!",
+            "title_plural": "Has obtingut {{count}} premiums!",
+            "description": "Moltes gràcies per donar suport al meu desenvolupament, contribueixes al fet que pugui continuar mantenint-me estable i actualitzant-me amb millors característiques.\n- Els desenvolupadors <3.\n\nAra només has de vincular el premium a un servidor usant `/premium`."
+        }
     },
     "guildUpdate": {
         "afkcha": "Canal AFK (Abans)",
@@ -137,6 +142,43 @@
         "contentPinned": "Missatge",
         "nuevo": "ID del missatge",
         "oldContent": "Anterior contingut",
-        "pinned": "Nou missatge ancorat"
+        "pinned": "Nou missatge ancorat",
+        "tiempos": "Diferència de temps",
+        "título": "Missatge actualitzat"
+    },
+    "voiceStateUpdate": {
+        "leave": "Ha abandonat un canal de veu",
+        "channel": "Canal",
+        "deaf": "Ensordit del canal de veu",
+        "join": "Ha entrat a un canal de veu",
+        "mute": "Muteado del canal de veu",
+        "newChannel": "Canal nou",
+        "oldChannel": "Canal anterior",
+        "start-streaming": "Va iniciar directe en canal de veu",
+        "stop-streaming": "Va acabar directe en canal de veu",
+        "switch": "Es va moure de canal de veu",
+        "undeaf": "Desensordecido del canal de veu",
+        "unmute": "Desmuteado del canal de veu",
+        "user": "Usuari"
+    },
+    "roleCreate": {
+        "título": "Rol creat: {{rol}}"
+    },
+    "roleDelete": {
+        "título": "Rol eliminat: {{rol}} - `{{rolid}}`"
+    },
+    "roleUpdate": {
+        "defaultTitle": "Rol modificat",
+        "added": "Permís afegit",
+        "added_plural": "Permisos afegits",
+        "executor": "Realitzat per",
+        "removed": "Permís llevat",
+        "removed_plural": "Permisos llevats",
+        "título": "Rol actualitzat",
+        "roleID": "Rol ID: {{roleID}}"
+    },
+    "stageInstanceCreate": {
+        "title": "Esdeveniment d'escenari creat",
+        "channel": "Canal"
     }
 }
