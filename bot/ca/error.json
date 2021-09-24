@@ -7,14 +7,15 @@
     "nsfw": "Aquest comando és només per a canals NSFW.",
     "bloqueado": "Se t'ha prohibit el meu ús, estàs bloquejat jaja.",
     "servidorOnly": "No pots usar aquest comando.",
-    "desactivado": "Aquest comando ha estat desactivat temporalment per a arreglar errors i que funcioni correctament.",
+    "desactivado": "Aquest comando només està disponible com a comando de barra diagonal, usa `/{{commandName}}` per a usar-ho.",
     "userPerms": "No tens suficients permisos per a usar aquest comando.",
     "userPerms_detailed_plural": "No tens suficients permisos per a usar aquest comando, necessites els permisos de **{{perm}}**.",
     "botPerms": "No tinc suficients permisos per a usar aquest comando, necessito el permís de **{{perm}}**.",
     "ownerOnly": "Aquest comando només pot ser executat per l'amo del servidor.",
     "slashy": {
         "string": {
-            "maxLength": "Ha d'introduir un text més curt."
+            "maxLength": "Ha d'introduir un text més curt, menor de {{max}} caràcters.",
+            "minLength": "Ha d'introduir un text més llarg, major de {{min}} caràcters."
         },
         "user": {
             "acceptSelf": "No pots usar-te a tu mateix com a paràmetre.",
