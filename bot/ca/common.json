@@ -11,7 +11,9 @@
         "GUILD_PUBLIC_THREAD": "fil públic",
         "GUILD_PRIVATE_THREAD": "fil privat",
         "GUILD_STAGE_VOICE": "escenari",
-        "GUILD_NEWS": "notícies"
+        "GUILD_NEWS": "notícies",
+        "RULES": "regles",
+        "UNKNOWN": "desconegut"
     },
     "actions": {
         "confirm": "Confirmar",
@@ -104,6 +106,11 @@
             "value": "Andaluh",
             "description": "biba el Andalûh",
             "emoji": "<:flag_an:865567274664329226>"
+        },
+        "ca": {
+            "emoji": "<:flag_cat:883009423910526986>",
+            "value": "Català"
         }
-    }
+    },
+    "noreason": "Sense raó"
 }
