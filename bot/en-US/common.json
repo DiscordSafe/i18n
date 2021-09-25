@@ -122,5 +122,6 @@
         "GUILD_STAGE_VOICE": "stage",
         "RULES": "rules",
         "UNKNOWN": "unknown"
-    }
+    },
+    "noreason": "No reason"
 }
