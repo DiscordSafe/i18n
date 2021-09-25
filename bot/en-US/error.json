@@ -10,11 +10,12 @@
     "ownerOnly": "This command can only be executed by the server owner.",
     "comandoError": "An error occurred while executing the command.\nDevelopers have been notified.\nIf you need help ask our support server, https://discordsafe.com/discord",
     "permisos": "You don't have enough permissions to use this command.",
-    "desactivado": "This command has been temporarily disabled to fix bugs.",
+    "desactivado": "This command is only available as a slash command, use `/{{commandName}}` to use it.",
     "cooldown": "You must wait {{segundos}} second/s to use this command again.",
     "slashy": {
         "string": {
-            "maxLength": "You must enter a shorter text."
+            "maxLength": "You must enter a shorter text, less than {{max}} characters.",
+            "minLength": "You must enter a longer text, longer than {{min}} characters."
         },
         "user": {
             "acceptSelf": "You cannot use yourself as a parameter.",
@@ -32,6 +33,15 @@
         },
         "role": {
             "highest": "The role is upper your highest role, you can't use it."
+        },
+        "color": {
+            "invalidFormat": "Invalid color format, must be one of the following: {{validColors}}.\nYou can select a color at https://htmlcolorcodes.com/."
+        },
+        "emoji": {
+            "emojiNotFound": "The emoji was not found in this server, try again sending an emoji from the server."
+        },
+        "list": {
+            "notMatch": "The parameters are wrongly separated, you must put it right.\nExample: {{example}}."
         }
     },
     "dm": "**Error, this command cannot be used in direct messages.",
