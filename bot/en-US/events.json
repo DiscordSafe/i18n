@@ -81,7 +81,12 @@
         "roladded": "Role added",
         "rolremoved": "Role removed",
         "unboostDesc": "<@{{memberID}}> Thanks for supporting this server, we hope to see you again.",
-        "unboostTitle": "A boost has over :("
+        "unboostTitle": "A boost has over :(",
+        "autopremium": {
+            "description": "Thank you very much for supporting my development, you contribute so that I can continue to stay stable and update with better features.\n- Developers <3.\n\nNow you just have to link the premium to a server using `/premium`.",
+            "title": "¡You have obtained premium!",
+            "title_plural": "¡You have obtained {{count}} premiums!"
+        }
     },
     "guildUpdate": {
         "afkcha": "AFK's channel (Before)",
