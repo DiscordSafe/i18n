@@ -32,11 +32,17 @@
       "max": "El número no debe ser mayor a {{max}}.",
       "invalid": "Número inválido."
     },
-    "channel": {
-      "invalidType": "No se aceptan canales de **{{type}}**."
-    },
     "role": {
       "highest": "El rol está por encima de tu rol más alto, no puedes usarlo."
+    },
+    "color": {
+      "invalidFormat": "Formato de color no válido, debe ser uno de los siguientes: {{validColors}}.\nPuede seleccionar un color en https://htmlcolorcodes.com/."
+    },
+    "emoji": {
+      "emojiNotFound": "No se ha encontrado el emoji en este servidor, vuelva a intentarlo enviando un emoji del servidor."
+    },
+    "list": {
+      "notMatch": "Los parámetros están mal separados, debes ponerlo bien.\nEjemplo: {{example}}."
     }
   }
 }

@@ -174,7 +174,12 @@
     "info": {
         "description": "Muestra la información de un usuario.",
         "example": "@Vicente#0001",
-        "usage": "<@Usuario/Usuario ID>"
+        "usage": "<@Usuario/Usuario ID>",
+        "options": {
+            "user": {
+                "description": "Mostrar información de este usuario"
+            }
+        }
     },
     "invite": {
         "description": "Muestra la información de una invitación",
@@ -292,7 +297,211 @@
     "suggestions": {
         "description": "Ajustes e información de las sugerencias.",
         "example": "setchannel #sugerencias",
-        "usage": "help \nlist\napprove [IDSugerencia] <Comentario>\ndeny [IDSugerencia] <Comentario>\ndelete [IDSugerencia]\nsetchannel [CanalID/#Canal/disable]\nsetapproved [CanalID/#Canal/disable]\nsetdenied [CanalID/#Canal/disable]\nquestionEmoji enable / disable\nautoaccept [Número(1-1000)] / disable\nmassapprove [IDSugerencia]...\nmassdeny [IDSugerencia]...\nmassdelete [IDSugerencia]...\neditcomment [SuggestionID] [New staff comment]\nsetrole [Rol ID/@Rol]\nsetpalette ayu / tailwind / default / p1 / p2 / p3 / n1 / n2 / n3\nsetcommandschannel [CanalID/#Canal]\nsetcooldown [Número(1-60)] / disable\nsetemoji [EmojiPositivo] [EmojiNegativo] <EmojiIndeciso> / disable"
+        "usage": "help \nlist\napprove [IDSugerencia] <Comentario>\ndeny [IDSugerencia] <Comentario>\ndelete [IDSugerencia]\nsetchannel [CanalID/#Canal/disable]\nsetapproved [CanalID/#Canal/disable]\nsetdenied [CanalID/#Canal/disable]\nquestionEmoji enable / disable\nautoaccept [Número(1-1000)] / disable\nmassapprove [IDSugerencia]...\nmassdeny [IDSugerencia]...\nmassdelete [IDSugerencia]...\neditcomment [SuggestionID] [New staff comment]\nsetrole [Rol ID/@Rol]\nsetpalette ayu / tailwind / default / p1 / p2 / p3 / n1 / n2 / n3\nsetcommandschannel [CanalID/#Canal]\nsetcooldown [Número(1-60)] / disable\nsetemoji [EmojiPositivo] [EmojiNegativo] <EmojiIndeciso> / disable",
+        "options": {
+            "help": {
+                "description": "Muestra la ayuda sobre las sugerencias"
+            },
+            "list": {
+                "description": "Muestra una lista de las sugerencias",
+                "options": {
+                    "type": {
+                        "description": "Filtrar por estado de las sugerencias"
+                    }
+                }
+            },
+            "approve": {
+                "description": "Aprueba una sugerencia",
+                "options": {
+                    "suggestionid": {
+                        "description": "ID de la sugerencia"
+                    },
+                    "comment": {
+                        "description": "Comentario"
+                    },
+                    "no-md": {
+                        "description": "Si notificar al usuario de que su sugerencia ha sido aprobada"
+                    }
+                }
+            },
+            "deny": {
+                "description": "Rechaza una sugerencia",
+                "options": {
+                    "suggestionid": {
+                        "description": "ID de la sugerencia"
+                    },
+                    "comment": {
+                        "description": "Comentario"
+                    },
+                    "no-md": {
+                        "description": "Si notificar al usuario de que su sugerencia ha sido aprobada"
+                    }
+                }
+            },
+            "delete": {
+                "description": "Elimina una sugerencia",
+                "options": {
+                    "suggestionid": {
+                        "description": "ID de la sugerencia"
+                    }
+                }
+            },
+            "disable": {
+                "description": "Desactiva el módulo de sugerencias"
+            },
+            "question-emoji": {
+                "description": "Configura el emoji de pregunta/confuso como opción en las sugerencias",
+                "options": {
+                    "enabled": {
+                        "description": "Si está activado: true para activar, false para desactivar"
+                    }
+                }
+            },
+            "editcomment": {
+                "description": "Edita el comentario de una sugerencia",
+                "options": {
+                    "suggestionid": { 
+                        "description": "ID de la sugerencia" 
+                    },
+                    "new-comment": {
+                        "description": "Nuevo comentario"
+                    }
+                }
+            },
+            "massaction": {
+                "description": "Realiza una acción en masa",
+                "options": {
+                    "action": {
+                        "description": "La acción que realizar"
+                    },
+                    "suggestionids": {
+                        "description": "Las ids de las sugerencias separadas por una coma, ej: 1,5,9,13"
+                    }
+                }
+            },
+            "autoapprove": {
+                "description": "Configura la aprobación automática de sugerencias",
+                "options": {
+                    "disable": {
+                        "description": "Desactiva la aprobación automática"
+                    },
+                    "set": {
+                        "description": "Establece el número",
+                        "options": {
+                            "number": {
+                                "description": "Un número entre 1 y 1000"
+                            }
+                        }
+                    }
+                }
+            },
+            "channels": {
+                "description": "Configura el canal de sugerencias",
+                "options": {
+                    "set": {
+                        "description": "Establece el canal de sugerencias",
+                        "options": {
+                            "type": {
+                                "description": "El tipo de canal de sugerencias"
+                            },
+                            "channel": {
+                                "description": "El canal a establecer"
+                            }
+                        }
+                    },
+                    "disable": {
+                        "description": "Desactiva un canal de sugerencias",
+                        "options": {
+                            "type": {
+                                "description": "El tipo de canal de sugerencias"
+                            }
+                        }
+                    }
+                }
+            },
+            "cooldown": {
+                "description": "[Premium] Establece un cooldown customizado para enviar sugerencias",
+                "options": {
+                    "set": {
+                        "description": "Establece el cooldown customizado",
+                        "options": {
+                            "number": {
+                                "description": "Número entre 1 y 60"
+                            }
+                        }
+                    },
+                    "disable": {
+                        "description": "Desactiva el cooldown customizado"
+                    }
+                }
+            },
+            "customemojis": {
+                "description": "[Premium] Customiza los emojis de las reacciones",
+                "options": {
+                    "set": {
+                        "description": "Establece los emojis",
+                        "options": {
+                            "emojipositive": {
+                                "description": "Emoji positivo"
+                            },
+                            "emojinegative": {
+                                "description": "Emoji negativo"
+                            },
+                            "emojiquestion": {
+                                "description": "Emoji pregunta"
+                            }
+                        }
+                    },
+                    "disable": {
+                        "description": "Vuelve a poner los emojis por defecto"
+                    }
+                }
+            },
+            "palette": {
+                "description": "Configura la paleta de colores",
+                "options": {
+                    "help": {
+                        "description": "Muestra la ayuda sobre la paleta de colores"
+                    },
+                    "set": {
+                        "description": "Cambia la paleta de colores",
+                        "options": {
+                            "palette": {
+                                "description": "Seleccione una paleta para establecerla"
+                            }
+                        }
+                    },
+                    "setcolor": {
+                        "description": "Crea tu propia paleta de colores estableciendo cada color",
+                        "options": {
+                            "color-type": {
+                                "description": "Categoría de color a modificar"
+                            },
+                            "color": {
+                                "description": "Color nuevo"
+                            }
+                        }
+                    }
+                }
+            },
+            "role": {
+                "description": "[Premium] Establece el rol de manager de sugerencias",
+                "options": {
+                    "set": {
+                        "description": "Establece el rol",
+                        "options": {
+                            "role": {
+                                "description": "Rol a establecer"
+                            }
+                        }
+                    },
+                    "disable": {
+                        "description": "Desactiva el rol manager de sugerencias"
+                    }
+                }
+            }
+
+        }
     },
     "support": {
         "description": "Pide soporte a nuestro personal en caso de raid.",
