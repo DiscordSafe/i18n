@@ -7,7 +7,12 @@
     "approve": {
         "description": "Approves new users.",
         "example": "@Vicente#0001",
-        "usage": "[@User/UserID/all]"
+        "usage": "[@User/UserID/all]",
+        "options": {
+            "all": {
+                "description": "Approves all users"
+            }
+        }
     },
     "avatar": {
         "description": "Display a user's avatar.",
