@@ -53,14 +53,24 @@
         "usage": ""
     },
     "case": {
-        "description": "Muestra la información de un caso de moderación.",
+        "description": "Muestra la información de un caso de moderación",
         "example": "5",
-        "usage": "[ID Caso]"
+        "usage": "[ID Caso]",
+        "options": {
+            "caseid": {
+                "description": "El número identificador del caso"
+            }
+        }
     },
     "cases": {
-        "description": "Muestra la lista de casos de moderación del servidor.",
+        "description": "Muestra la lista de casos de moderación del servidor",
         "example": "",
-        "usage": "<@Usuario>"
+        "usage": "<@Usuario>",
+        "options": {
+            "user": {
+                "description": "Filtrar por los casos de este usuario"
+            }
+        }
     },
     "changelog": {
         "description": "Muestra el último registro de cambios.",
@@ -99,9 +109,27 @@
         }
     },
     "clearwarn": {
-        "description": "Elimina una advertencia del servidor.",
+        "description": "Elimina advertencias",
         "example": "43das78",
-        "usage": "<Código> / all"
+        "usage": "<Código> / all",
+        "options": {
+            "all": {
+                "description": "Elimina todas las sugerencias",
+                "options": {
+                    "user": {
+                        "description": "Elimina todas las advertencias de un usuario"
+                    }
+                }
+            },
+            "warn": {
+                "description": "Elimina una advertencia",
+                "options": {
+                    "number": {
+                        "description": "Número de la advertencia"
+                    }
+                }
+            }
+        }
     },
     "commands": {
         "description": "Lista de comandos.",
@@ -171,8 +199,8 @@
             }
         }
     },
-    "info": {
-        "description": "Muestra la información de un usuario.",
+    "userinfo": {
+        "description": "Muestra la información de un usuario",
         "example": "@Vicente#0001",
         "usage": "<@Usuario/Usuario ID>",
         "options": {
@@ -181,10 +209,15 @@
             }
         }
     },
-    "invite": {
+    "inviteinfo": {
         "description": "Muestra la información de una invitación",
         "example": "discord-testers",
-        "usage": "<Código invitación/Enlace invitación>"
+        "usage": "<Código invitación/Enlace invitación>",
+        "options": {
+            "invite": {
+                "description": "Introduzca una invitación de discord ej: discord.gg/discord-townhall"
+            }
+        }
     },
     "kick": {
         "description": "Expulsa a un miembro del servidor.",
@@ -194,7 +227,26 @@
     "logs": {
         "description": "Configura los los del servidor.",
         "example": "#logs",
-        "usage": "help / list / [#Canal/CanalID/disable] / mod [#Canal/CanalID/disable] / boost [#Canal/CanalID/disable]"
+        "usage": "help / list / [#Canal/CanalID/disable] / mod [#Canal/CanalID/disable] / boost [#Canal/CanalID/disable]",
+        "options": {
+            "help": {
+                "description": "Muestra la ayuda sobre los logs"
+            },
+            "list": {
+                "description": "Muestra la configuración actual de los logs"
+            },
+            "set": {
+                "description": "Establece un canal del logs",
+                "options": {
+                    "type": {
+                        "description": "Selecciona el tipo de logs que se recibirán en el canal"
+                    },
+                    "channel": {
+                        "description": "Establece el canal"
+                    }
+                }
+            }
+        }
     },
     "mail": {
         "description": "Muestra el buzón de correos.",
@@ -229,7 +281,15 @@
     "reason": {
         "description": "Establece la razón de un caso de moderación.",
         "example": "54 Roptura de la regla 16: No se permite spam en el servidor.",
-        "usage": "[ID Caso] [Razón]"
+        "usage": "[ID Caso] [Razón]",
+        "options": {
+            "caseid": {
+                "description": "El número identificador del caso"
+            },
+            "reason": {
+                "description": "La razón a establecer"
+            }
+        }
     },
     "report": {
         "description": "Reporta a un usuario para ser añadido al forceban.",
@@ -249,20 +309,30 @@
             }
         }
     },
-    "role": {
-        "description": "Muestra la información de un rol.",
+    "roleinfo": {
+        "description": "Muestra la información de un rol",
         "example": "@Usuario",
-        "usage": "<@Rol/Rol ID>"
+        "usage": "<@Rol/Rol ID>",
+        "options": {
+            "role": {
+                "description": "Seleccione un rol"
+            }
+        }
     },
-    "server": {
-        "description": "Muestra la información del servidor.",
+    "serverinfo": {
+        "description": "Muestra la información del servidor",
         "example": "",
         "usage": ""
     },
     "setlang": {
         "description": "Establece el idioma del bot en el servidor.",
         "example": "es-ES",
-        "usage": "es-ES / en-US"
+        "usage": "es-ES / en-US",
+        "options": {
+            "language": {
+                "decription": "Selecciona un idioma"
+            }
+        }
     },
     "setprefix": {
         "description": "Establece el prefijo en el servidor.",
@@ -544,14 +614,33 @@
         "usage": " / <@Usuario>"
     },
     "warn": {
-        "description": "Advierte a un usuario de su mal comportamiento.",
+        "description": "Advierte a un usuario",
         "example": "@Juan#4449 Romper la regla 3.",
-        "usage": "[@Usuario/Usuario ID] <Razón> <--md>"
+        "usage": "[@Usuario/Usuario ID] <Razón> <--md>",
+        "options": {
+            "user": {
+                "description": "Usuario a advertir"
+            },
+            "reason": {
+                "description": "Razón, máximo 500 caracteres."
+            },
+            "--md": {
+                "description": "Si notificar al usuario por MD, puedes activar que siempre sea sí por defecto usando /setup"
+            },
+            "--ephemeral": {
+                "description": "Si mostrar la respuesta solo para tí"
+            }
+        }
     },
     "warnings": {
-        "description": "Muestra lista de advertencias del servidor o miembro.",
+        "description": "Muestra lista de advertencias del servidor o miembro",
         "example": "@Vicente#0001",
-        "usage": "[@Usuario/Usuario ID]"
+        "usage": "[@Usuario/Usuario ID]",
+        "options": {
+            "user": {
+                "description": "Filtrar por las advertencias de este usuario"
+            }
+        }
     },
     "whitelist": {
         "description": "Configura la Whitelist de su servidor.",

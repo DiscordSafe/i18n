@@ -112,6 +112,7 @@
         "noSancionado": "**Error**, El usuario no tiene ningún caso.",
         "noWarn": "No hay ningún caso de moderación en el servidor.",
         "noWarns": "No hay ningún caso.",
+        "noCasesUser": "Este usuario no tiene ningún caso.",
         "sancionado": "Caso: {{case}} Acción: {{action}} | Usuario: {{user}}~~~{{reason}} - Moderador: {{mod}} Fecha: {{date}}",
         "userEmbedMore": "{{warns}} casos de {{memberTag}} ({{memberID}})",
         "userEmbedOne": "Casos de {{memberTag}} ({{memberID}})",
@@ -145,7 +146,8 @@
         "exitoso": "Se ha eliminado la advertencia {{code}} del usuario {{usuario}}.",
         "noCódigo": "El código no existe.",
         "noWarn": "No tiene advertencias.",
-        "warnServer": "Se han eliminado todas las advertencias en este servidor."
+        "warnServer": "Se han eliminado todas las advertencias del servidor.",
+        "warnUser": "Se han eliminado todas las advertencias de {{user}}."
     },
     "commands": {
         "title": "Lista de comandos",
@@ -297,7 +299,7 @@
         "slashcommand": "Comando de barra diagonal",
         "slashyAvailable": "{{emoji}} **Disponible como comando de barra diagonal, usa `/{{commandName}}`**."
     },
-    "info": {
+    "userinfo": {
         "badges": "▸ Insignias",
         "bot": "▸ Bot",
         "botInfo": "▸ Información del bot",
@@ -315,13 +317,14 @@
         "roles": "▸ Roles",
         "seUnió": "▸ Entrada al servidor"
     },
-    "invite": {
+    "inviteinfo": {
         "channel": "▸ Canal",
         "code": "▸ Código",
         "creation": "▸ Creación",
         "description": "▸ Descripción del servidor",
         "errorArgs": "**Error**, invitación no válida, ponga un enlace o el código de la invitación.",
         "errorNotFound": "**Error**, no se ha encontrado la invitación.",
+        "errorNoInvite": "**Error**, debe introducir una invitación de Discord válida.",
         "expiration": "▸ Expiración",
         "features": "▸ Características del servidor",
         "inviter": "▸ Invitador",
@@ -342,7 +345,7 @@
     },
     "logs": {
         "disabled": "Los logs han sido desactivados, dejará de recibirlos.",
-        "done": "El canal de logs ha sido establecido a {{canal}}.",
+        "donegeneral": "El canal de logs ha sido establecido a {{canal}}.",
         "doneboost": "El canal de logs de boosts ha sido establecido a {{canal}}.",
         "donemod": "El canal de logs de moderación ha sido establecido a {{canal}}.",
         "errorArgs": "**Error**, argumentos inválidos, debe mencionar el canal o su ID.",
@@ -507,7 +510,7 @@
         "errorTiempo": "Se acabó el tiempo.",
         "mandando": "Enviado."
     },
-    "role": {
+    "roleinfo": {
         "color": "▸ Color",
         "creation": "▸ Creación",
         "embedTitle": "Información del rol",
@@ -525,7 +528,7 @@
         "tagIntegration": "Integración: <@{{integrationID}}",
         "tags": "▸ Etiquetas"
     },
-    "server": {
+    "serverinfo": {
         "2fa": "▸ Autenticación de dos factores",
         "afkChannel": "Canal: {{channel}} ",
         "afkMin": "({{timeout}} min)",
