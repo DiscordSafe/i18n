@@ -244,21 +244,14 @@
         "ninguno": ""
     },
     "info": {
-        "bot": "",
         "botInfoDes": "",
-        "creadoEl": "Creado el:",
         "errorNoUsuario": "No se ha encontrado el usuario.",
-        "hoistRole": "",
         "joinPosition": "",
-        "nickname": "Apodo:",
         "seUnió": "Se unio al server el:"
     },
     "invite": {
-        "code": "",
         "description": "",
-        "errorNotFound": "",
         "features": "",
-        "member": "",
         "url": ""
     },
     "kick": {
@@ -404,25 +397,16 @@
         "mandando": "Mandando..."
     },
     "role": {
-        "creation": "",
         "errorArgs": "",
-        "hoist": "",
         "mention": "",
-        "name": "",
         "position": "",
-        "tagBot": "",
         "tags": ""
     },
     "server": {
-        "afkChannel": "",
         "badgesSafe": "",
-        "creadoEl": "▸ Creado el",
         "dueño": "▸ Dueño del Servidor",
-        "errorMsg": "",
         "features": "",
-        "limits": "",
         "moreEmojis": "",
-        "msgMention": "",
         "specialChannels": ""
     },
     "setlang": {
@@ -540,7 +524,6 @@
         "errorBorrar": "",
         "errorError": "",
         "errorInvalidEmoji": "",
-        "errorNoArgsCh": "",
         "errorNoArgsRole": "",
         "errorNoChannel": "",
         "errorNoConfig": "",
@@ -562,7 +545,6 @@
         "massDeleteDone": "",
         "removedAuto": "",
         "removedQuestion": "",
-        "setChannelUndoneApproved": "",
         "setCustomPalette": "",
         "staffCommentField": "",
         "stats": "",

@@ -289,21 +289,14 @@
         "slashyAvailable": "{{emoji}} **Available as a slash command, use `/{{commandName}}`**."
     },
     "info": {
-        "bot": "▸ Bot",
         "botInfoDes": "**Prefix:** `{{prefix}}`\n**Servers:** {{guilds}}\n**Owners:** {{owners}}\n**Library:** {{library}}\n**[Website]({{website}})** - **[Invite]({{invite}})** - **[Support]({{support}})**",
-        "creadoEl": "▸ Creation",
         "errorNoUsuario": "User not found.",
-        "hoistRole": "▸ Separator role",
         "joinPosition": "▸ Join position",
-        "nickname": "▸ Nickname",
         "seUnió": "▸ Join date"
     },
     "invite": {
-        "code": "▸ Code",
         "description": "▸ Server description",
-        "errorNotFound": "**Error**, the invite has not been found.",
         "features": "▸ Server features",
-        "member": "▸ Members",
         "url": "▸ URL"
     },
     "kick": {
@@ -483,37 +476,23 @@
         "mandando": "Sent."
     },
     "role": {
-        "creation": "▸ Creation",
         "errorArgs": "**Error**, you need to mention a role or put an ID.",
-        "hoist": "▸ Hoisted",
         "mention": "▸ Mention",
-        "name": "▸ Name",
         "position": "▸ Position",
-        "tagBot": "Bot: <@{{botID}}>",
         "tags": "▸ Tags"
     },
     "server": {
-        "afkChannel": "Channel: {{channel}} ",
         "badgesSafe": "▸ D-Safe badges",
-        "creadoEl": "▸ Created the",
         "dueño": "▸ Server Owner",
-        "errorMsg": "**Error**, an unexpected error was trown, try again later.",
         "features": "▸ Features",
-        "limits": "▸ Server limits",
         "moreEmojis": " and {{size}} more.",
-        "msgMention": "Only @mentions",
         "specialChannels": "▸ Special channels",
-        "roles": "▸ Roles",
         "nsfw_levels": {
-            "age_restricted": "Age restricted",
-            "explicit": "Explicit"
+            "age_restricted": "Age restricted"
         },
         "TIER_1": "<:boostlvl1:825059663610511417> Tier 1",
-        "TIER_3": "<:boostlvl3:825059663627812864> Tier 3",
         "bans": "▸ Bans",
-        "boosts": "▸ Boosts",
-        "emojis": "▸ Emojis",
-        "nsfw_level": "▸ NSFW level"
+        "emojis": "▸ Emojis"
     },
     "setlang": {
         "establecido": "The server language has been set to {{idioma}}.",
@@ -646,7 +625,6 @@
         "errorBorrar": "**Error**, I cannot delete the message of the suggestion because it surpasses the 14-day limit.",
         "errorError": "**Error**, there was an error when deleting the suggestion message, I cannot delete messages older than 14 days.",
         "errorInvalidEmoji": "**Error**, the emoji `{{emoji}}` is invalid.",
-        "errorNoArgsRole": "**Error**, you should mention a role or specify the role ID.",
         "errorNoChannel": "**Error**, the channel was not found.",
         "errorNoConfig": "**Error**, you should setup the suggestions channel first.",
         "errorNoPremium": "**Error**, you need to be premium to be able to use this feature.",
