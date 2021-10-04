@@ -1,7 +1,7 @@
 {
   "dm": "**Error**, este comando no se puede usar en mensajes directos.",
   "comandoError": "Ha ocurrido un error al ejecutar el comando.\nSe ha notificado a los desarrolladores.\nSi necesita ayuda pregunte en nuestro servidor de soporte, https://discordsafe.com/discord",
-  "argumentos": "Este comando necesita argumentos, **Use:** {{prefijo}}{{commandName}} ",
+  "argumentos": "Este comando necesita argumentos, **use:** {{prefijo}}{{commandName}} ",
   "guild": "No puedes usar este comando fuera de un servidor.",
   "palabra": "Esa palabra está bloqueada.",
   "idioma": "El idioma del servidor es inglés, para cambiarlo use ",
@@ -43,6 +43,9 @@
     },
     "list": {
       "notMatch": "Los parámetros están mal separados, debes ponerlo bien.\nEjemplo: {{example}}."
+    },
+    "messageid": {
+      "notId": "Debe proporcionar una ID válida."
     }
   }
 }

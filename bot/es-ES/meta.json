@@ -33,9 +33,17 @@
         }
     },
     "ban": {
-        "description": "Banea a un miembro del servidor.",
+        "description": "Banea a un miembro del servidor",
         "example": "@Vicente#0001 Romper la regla 4.",
-        "usage": "[@Usuario/Usuario ID/Nombre miembro] <Razón> <--md> <--save>"
+        "usage": "[@Usuario/Usuario ID/Nombre miembro] <Razón> <--md> <--save>",
+        "options": {
+            "user": {
+                "description": "El usuario a banear"
+            },
+            "--save": {
+                "description": "Si guardar los mensajes del usuario o borrarlos todos"
+            }
+        }
     },
     "baninfo": {
         "description": "Muestra el motivo de forceban de un usuario.",
@@ -86,9 +94,79 @@
         }
     },
     "clear": {
-        "description": "Borra una cantidad de mensajes.",
+        "description": "Borra una cantidad de mensajes",
         "example": "@Seyron#5532 15\nmatch RAID 100",
-        "usage": "[Cantidad(2-100)]\n[@Usuario/Usuario ID] [Cantidad(2-100)]\nall\nmatch [Texto] [Cantidad(2-100)]\nnot [Texto] [Cantidad(2-100)]\nstartswith [Texto] [Cantidad(2-100)]\nendswith [Texto] [Cantidad(2-100)]\nlinks [Cantidad(2-100)]\ninvites [Cantidad(2-100)]\nimages [Cantidad(2-100)]\nmentions [Cantidad(2-100)]\nembeds [Cantidad(2-100)]\nbots [Cantidad(2-100)]\nbefore [ID Mensaje] [Cantidad(2-100)]\nafter [ID Mensaje] [Cantidad(2-100)]\naround [ID Mensaje] [Cantidad(2-100)]"
+        "usage": "[Cantidad(2-100)]\n[@Usuario/Usuario ID] [Cantidad(2-100)]\nall\nmatch [Texto] [Cantidad(2-100)]\nnot [Texto] [Cantidad(2-100)]\nstartswith [Texto] [Cantidad(2-100)]\nendswith [Texto] [Cantidad(2-100)]\nlinks [Cantidad(2-100)]\ninvites [Cantidad(2-100)]\nimages [Cantidad(2-100)]\nmentions [Cantidad(2-100)]\nembeds [Cantidad(2-100)]\nbots [Cantidad(2-100)]\nbefore [ID Mensaje] [Cantidad(2-100)]\nafter [ID Mensaje] [Cantidad(2-100)]\naround [ID Mensaje] [Cantidad(2-100)]",
+        "options": {
+            "basic": {
+                "options": {
+                    "quantity": {
+                        "description": "Borra una cantidad de mensajes",
+                        "options": {
+                            "quantity": {
+                                "description": "La cantidad a borrar"
+                            },
+                            "user": {
+                                "description": "Filtra por los mensajes de un usuario"
+                            }
+                        }
+                    }
+                }
+            },
+            "advanced": {
+                "options": {
+                    "match": {
+                        "description": "Borra los mensajes que contengan el texto indicado",
+                        "options": {
+                            "text": {
+                                "description": "Filtrar por este texto"
+                            }
+                        }
+                    },
+                    "not": {
+                        "description": "Borra los mensajes que no contengan el texto indicado"
+                    },
+                    "startswith": {
+                        "description": "Borra los mensajes que empiecen por el texto indicado"
+                    },
+                    "endswith": {
+                        "description": "Borra los mensajes que acaben por el texto indicado"
+                    },
+                    "links": {
+                        "description": "Borra enlaces"
+                    },
+                    "invites": {
+                        "description": "Borra invitaciones"
+                    },
+                    "images": {
+                        "description": "Borra imágenes"
+                    },
+                    "mentions": {
+                        "description": "Borra menciones"
+                    },
+                    "embeds": {
+                        "description": "Borra embeds"
+                    },
+                    "bots": {
+                        "description": "Borra mensajes de bots"
+                    },
+                    "before": {
+                        "description": "Borra los mensajes anteriores al mensaje indicado",
+                        "options": {
+                            "messageid": {
+                                "description": "Filtrar por la ID de un mensaje"
+                            }
+                        }
+                    },
+                    "after": {
+                        "description": "Borra los mensajes posteriores al mensaje indicado"
+                    },
+                    "around": {
+                        "description": "Borra los mensajes cercanos al mensaje indicado"
+                    }
+                }
+            }
+        }
     },
     "clearbans": {
         "description": "Quita todos los baneos del servidor.",
@@ -142,9 +220,14 @@
         }
     },
     "deafen": {
-        "description": "Ensordece a un miembro.",
+        "description": "Ensordece a un miembro",
         "example": "@Usuario Miembro molesto --md",
-        "usage": "[@Usuario/Usuario ID] <Razón> <--md>"
+        "usage": "[@Usuario/Usuario ID] <Razón> <--md>",
+        "options": {
+            "user": {
+                "description": "El usuario a ensordecer"
+            }
+        }
     },
     "detect": {
         "description": "Detecta a usuarios peligrosos en el servidor.",
@@ -220,9 +303,14 @@
         }
     },
     "kick": {
-        "description": "Expulsa a un miembro del servidor.",
+        "description": "Expulsa a un miembro del servidor",
         "example": "Discord#0000 Romper la regla 8.",
-        "usage": "[@Usuario/Usuario ID/Nombre miembro] <Razón> <--md>"
+        "usage": "[@Usuario/Usuario ID/Nombre miembro] <Razón> <--md>",
+        "options": {
+            "user": {
+                "description": "El usuario a expulsar"
+            }
+        }
     },
     "logs": {
         "description": "Configura los los del servidor.",
@@ -259,9 +347,20 @@
         "usage": "actions / mods"
     },
     "mute": {
-        "description": "Silencia a un miembro.",
+        "description": "Mutea a un miembro",
         "example": "@Clyde#0001 15m Romper regla 14.",
-        "usage": "[@Usuario/Usuario ID] <Tiempo> <s/m/h> <Razón> <--md>"
+        "usage": "[@Usuario/Usuario ID] <Tiempo> <s/m/h> <Razón> <--md>",
+        "options": {
+            "user": {
+                "description": "El usuario a mutear"
+            },
+            "time": {
+                "description": "El tiempo que estará muteado"
+            },
+            "unit": {
+                "description": "Unidad de tiempo"
+            }
+        }
     },
     "notification": {
         "description": "Configura los avisos de entrada de usuarios maliciosos.",
@@ -325,12 +424,12 @@
         "usage": ""
     },
     "setlang": {
-        "description": "Establece el idioma del bot en el servidor.",
+        "description": "Establece el idioma del bot en el servidor",
         "example": "es-ES",
         "usage": "es-ES / en-US",
         "options": {
             "language": {
-                "decription": "Selecciona un idioma"
+                "description": "Selecciona un idioma"
             }
         }
     },
@@ -622,7 +721,7 @@
                 "description": "Usuario a advertir"
             },
             "reason": {
-                "description": "Razón, máximo 500 caracteres."
+                "description": "Razón, máximo 500 caracteres"
             },
             "--md": {
                 "description": "Si notificar al usuario por MD, puedes activar que siempre sea sí por defecto usando /setup"
