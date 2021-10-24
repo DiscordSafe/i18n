@@ -53,7 +53,78 @@
     "blockword": {
         "description": "Bloquea el uso de palabras en el servidor.",
         "example": "add pack 0",
-        "usage": "add [Palabra/Pack] / remove [Palabra/Pack] / ignore [#Canal/@Rol] / list / reset"
+        "usage": "add [Palabra/Pack] / remove [Palabra/Pack] / ignore [#Canal/@Rol] / list / reset",
+        "options": {
+            "help": {
+                "description": "Muestra la ayuda sobre las palabras bloqueadas"
+            },
+            "list": {
+                "description": "Muestra la lista de palabras bloqueadas"
+            },
+            "reset": {
+                "description": "Borra la lista de palabras bloqueadas"
+            },
+            "word": {
+                "options": {
+                    "add": {
+                        "description": "Bloquea una palabra",
+                        "options": {
+                            "word": {
+                                "description": "La palabra a bloquear"
+                            }
+                        }
+                    },
+                    "remove": {
+                        "description": "Desbloquea una palabra",
+                        "options": {
+                            "word": {
+                                "description": "La palabra a desbloquear"
+                            }
+                        }
+                    }
+                }
+            },
+            "pack": {
+                "options": {
+                    "add": {
+                        "description": "Bloquea un pack de palabras",
+                        "options": {
+                            "pack": {
+                                "description": "El pack a bloquear"
+                            }
+                        }
+                    },
+                    "remove": {
+                        "description": "Desbloquea un pack de palabras",
+                        "options": {
+                            "pack": {
+                                "description": "El pack a desbloquear"
+                            }
+                        }
+                    }
+                }
+            },
+            "ignore": {
+                "options": {
+                    "channel": {
+                        "description": "Ignora un canal",
+                        "options": {
+                            "channel": {
+                                "description": "El canal a ignorar"
+                            }
+                        }
+                    },
+                    "role": {
+                        "description": "Ignora un rol",
+                        "options": {
+                            "role": {
+                                "description": "El rol a ignorar"
+                            }
+                        }
+                    }
+                }
+            }
+        }
     },
     "botinfo": {
         "description": "Muestra la información del bot.",
@@ -268,9 +339,14 @@
         }
     },
     "hackban": {
-        "description": "Banea a miembros mediante su ID.",
+        "description": "Banea a miembros mediante su ID",
         "example": "124545463433127 124545463433127 124545463433127",
-        "usage": "[ID] <ID> <ID>..."
+        "usage": "[ID] <ID> <ID>...",
+        "options": {
+            "user": {
+                "description": "Pon aquí la ID del usuario"
+            }
+        }
     },
     "help": {
         "description": "Menú de ayuda e información de comandos.",
@@ -434,9 +510,14 @@
         }
     },
     "setprefix": {
-        "description": "Establece el prefijo en el servidor.",
+        "description": "Establece el prefijo en el servidor",
         "example": "!!",
-        "usage": "[Prefijo]"
+        "usage": "[Prefijo]",
+        "options": {
+            "prefix": {
+                "description": "El prefijo a establecer"
+            }
+        }
     },
     "settings": {
         "description": "Muestra los ajustes del servidor e información sobre cómo configurarlo.",
@@ -449,9 +530,14 @@
         "usage": ""
     },
     "softban": {
-        "description": "Banea e inmediatamente desbanea a un miembro para borrar mensajes.",
+        "description": "Banea e inmediatamente desbanea a un miembro para borrar mensajes",
         "example": "@Clyde#0001 Flood en el chat --md",
-        "usage": "[@Usuario/Usuario ID] <Razón> <--md>"
+        "usage": "[@Usuario/Usuario ID] <Razón> <--md>",
+        "options": {
+            "user":{
+                "description": "El usuario a softbanear"
+            }
+        }
     },
     "suggest": {
         "description": "Envía una sugerencia.",
@@ -683,19 +769,34 @@
         "usage": ""
     },
     "unban": {
-        "description": "Desbanea a un usuario del servidor.",
+        "description": "Desbanea a un usuario del servidor",
         "example": "287574458963722240",
-        "usage": "[@Usuario/Usuario ID/Nombre miembro] <Razón> <--md>"
+        "usage": "[@Usuario/Usuario ID/Nombre miembro] <Razón> <--md>",
+        "options": {
+            "user": {
+                "description": "El usuario a desbanear"
+            }
+        }
     },
     "undeafen": {
-        "description": "Desensordece a un miembro.",
+        "description": "Desensordece a un miembro",
         "example": "@Usuario",
-        "usage": "[@Usuario/Usuario ID] <Razón> <--md>"
+        "usage": "[@Usuario/Usuario ID] <Razón> <--md>",
+        "options": {
+            "user": {
+                "description": "El usuario a desensordecer"
+            }
+        }
     },
     "unmute": {
-        "description": "Desilencia a un miembro silenciado.",
+        "description": "Desilencia a un miembro silenciado",
         "example": "182866681520062465",
-        "usage": "[@Usuario/Usuario ID] <Razón> <--md>"
+        "usage": "[@Usuario/Usuario ID] <Razón> <--md>",
+        "options": {
+            "user": {
+                "description": "El usuario a desmutear"
+            }
+        }
     },
     "verification": {
         "description": "Modifica la configuración de la verificación.",
@@ -721,7 +822,7 @@
                 "description": "Usuario a advertir"
             },
             "reason": {
-                "description": "Razón, máximo 500 caracteres"
+                "description": "Razón, máximo 100 caracteres"
             },
             "--md": {
                 "description": "Si notificar al usuario por MD, puedes activar que siempre sea sí por defecto usando /setup"
