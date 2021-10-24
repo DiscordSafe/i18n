@@ -244,15 +244,11 @@
         "ninguno": "Nenhum."
     },
     "info": {
-        "botInfoDes": "",
         "errorNoUsuario": "Não se encontrou o usuário.",
-        "joinPosition": "",
         "seUnió": "Entro no servidor o:"
     },
     "invite": {
-        "description": "",
-        "features": "",
-        "url": ""
+        "features": ""
     },
     "kick": {
         "autor": "",
@@ -397,17 +393,12 @@
         "mandando": ""
     },
     "role": {
-        "errorArgs": "",
         "mention": "",
-        "position": "",
         "tags": ""
     },
     "server": {
-        "badgesSafe": "",
         "dueño": "",
-        "features": "",
-        "moreEmojis": "",
-        "specialChannels": ""
+        "moreEmojis": ""
     },
     "setlang": {
         "establecido": "",
@@ -524,7 +515,6 @@
         "errorBorrar": "",
         "errorError": "",
         "errorInvalidEmoji": "",
-        "errorNoArgsRole": "",
         "errorNoChannel": "",
         "errorNoConfig": "",
         "errorNoPremium": "",

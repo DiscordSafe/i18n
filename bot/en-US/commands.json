@@ -289,15 +289,11 @@
         "slashyAvailable": "{{emoji}} **Available as a slash command, use `/{{commandName}}`**."
     },
     "info": {
-        "botInfoDes": "**Prefix:** `{{prefix}}`\n**Servers:** {{guilds}}\n**Owners:** {{owners}}\n**Library:** {{library}}\n**[Website]({{website}})** - **[Invite]({{invite}})** - **[Support]({{support}})**",
         "errorNoUsuario": "User not found.",
-        "joinPosition": "▸ Join position",
         "seUnió": "▸ Join date"
     },
     "invite": {
-        "description": "▸ Server description",
-        "features": "▸ Server features",
-        "url": "▸ URL"
+        "features": "▸ Server features"
     },
     "kick": {
         "autor": "**Error*, You can't ban yourself.",
@@ -476,23 +472,16 @@
         "mandando": "Sent."
     },
     "role": {
-        "errorArgs": "**Error**, you need to mention a role or put an ID.",
         "mention": "▸ Mention",
-        "position": "▸ Position",
         "tags": "▸ Tags"
     },
     "server": {
-        "badgesSafe": "▸ D-Safe badges",
         "dueño": "▸ Server Owner",
-        "features": "▸ Features",
         "moreEmojis": " and {{size}} more.",
-        "specialChannels": "▸ Special channels",
         "nsfw_levels": {
             "age_restricted": "Age restricted"
         },
-        "TIER_1": "<:boostlvl1:825059663610511417> Tier 1",
-        "bans": "▸ Bans",
-        "emojis": "▸ Emojis"
+        "bans": "▸ Bans"
     },
     "setlang": {
         "establecido": "The server language has been set to {{idioma}}.",
