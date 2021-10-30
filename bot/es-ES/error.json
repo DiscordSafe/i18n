@@ -16,6 +16,9 @@
   "botPerms": "No tengo suficientes permisos para usar este comando, necesito el permiso de **{{perm}}**.",
   "botPerms_plural": "No tengo suficientes permisos para usar este comando, necesito los permisos de **{{perm}}**.",
   "ownerOnly": "Este comando solo puede ser ejecutado por el dueño del servidor.",
+  "requirements": {
+    "premium": "Este comando es solo para premium, consigue premium usando `/premium`."
+  },
   "slashy": {
     "string": {
       "maxLength": "Debe introducir un texto más corto, menor de {{max}} caracteres.",

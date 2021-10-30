@@ -316,9 +316,59 @@
         }
     },
     "filter": {
-        "description": "Configura los filtros.",
+        "description": "Configura los filtros",
         "example": "anti-spam enable",
-        "usage": "help / [filtro] enable / [filtro] disable / [filtro] ignore [#Canal/@Rol]"
+        "usage": "help / [filtro] enable / [filtro] disable / [filtro] ignore [#Canal/@Rol]",
+        "options": {
+            "help": {
+                "description": "Muestra el menú de ayuda"
+            },
+            "ignore": {
+                "options": {
+                    "role": {
+                        "description": "Ignora a un rol de un filtro",
+                        "options": {
+                            "filter": {
+                                "description": "El filtro que ignorará"
+                            },
+                            "role": {
+                                "description": "El rol a ignorar"
+                            }
+                        }
+                    },
+                    "channel": {
+                        "description": "Ignora a un canal de un filtro",
+                        "options": {
+                            "filter": {
+                                "description": "El filtro que ignorará"
+                            },
+                            "channel": {
+                                "description": "El canal a ignorar"
+                            }
+                        }
+                    }
+                }
+            },
+            "invites": {
+                "options": {
+                    "toggle": {
+                        "description": "Activa o desactiva el filtro"
+                    }
+                }
+            },
+            "anti-spam": {
+                "options": {
+                    "set-level": {
+                        "description": "Establece el nivel del anti-spam",
+                        "options": {
+                            "level": {
+                                "description": "El nivel a establecer"
+                            }
+                        }
+                    }
+                }
+            }
+        }
     },
     "forceban": {
         "description": "Banea a los usuarios reportados como peligrosos.",
