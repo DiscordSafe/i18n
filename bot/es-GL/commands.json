@@ -147,36 +147,27 @@
         "usuarios": ""
     },
     "filter": {
-        "activadoImágenes": "",
         "activadoInvitaciones": "",
-        "activadoIploggers": "",
         "activadoMalicioso": "",
         "ayudaAutor": "",
         "ayudaDes": "",
         "comandosBlockedWord": "",
         "comandosDefault": "",
         "comandosField": "",
-        "desactivadoImágenes": "",
         "desactivadoInvitaciones": "",
-        "desactivadoIploggers": "",
         "desactivadoMalicioso": "",
         "doc1": "",
         "doc2": "",
         "doc3": "",
-        "errorArgsOnOff": "",
         "errorLevel": "",
-        "errorNoRow": "",
         "errorPermisos": "",
-        "errorTipo": "",
         "fimágenes": "",
         "finvitaciones": "",
         "fiploggers": "",
         "fmalicioso": "",
         "fpalabras": "",
         "ignoreCh": "",
-        "ignoreErrorArg": "",
         "ignoreErrorNoCh": "",
-        "ignoreErrorNoRl": "",
         "ignoreRl": "",
         "imágenes": "",
         "invitaciones": "",
@@ -244,11 +235,7 @@
         "ninguno": ""
     },
     "info": {
-        "errorNoUsuario": "No se ha encontrado el usuario.",
         "seUnió": "Se unio al server el:"
-    },
-    "invite": {
-        "features": ""
     },
     "kick": {
         "autor": "",
@@ -393,11 +380,9 @@
         "mandando": "Mandando..."
     },
     "role": {
-        "mention": "",
         "tags": ""
     },
     "server": {
-        "dueño": "▸ Dueño del Servidor",
         "moreEmojis": ""
     },
     "setlang": {

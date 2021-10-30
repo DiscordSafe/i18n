@@ -147,36 +147,27 @@
         "usuarios": ":eyes: {{num}} usuários detectados."
     },
     "filter": {
-        "activadoImágenes": "",
         "activadoInvitaciones": "",
-        "activadoIploggers": "",
         "activadoMalicioso": "Se ha activado correctamente el filtro contra el contenido malicioso.",
         "ayudaAutor": "Panel de ayuda sobre filtros",
         "ayudaDes": "",
         "comandosBlockedWord": "",
         "comandosDefault": "",
         "comandosField": "Comandos",
-        "desactivadoImágenes": "",
         "desactivadoInvitaciones": "",
-        "desactivadoIploggers": "",
         "desactivadoMalicioso": "Se ha desactivado correctamente el filtro contra el contenido malicioso.",
         "doc1": "",
         "doc2": "",
         "doc3": "",
-        "errorArgsOnOff": "",
         "errorLevel": "",
-        "errorNoRow": "",
         "errorPermisos": "",
-        "errorTipo": "Debes indicar el tipo de filtro que quieres desactivar.",
         "fimágenes": "",
         "finvitaciones": "",
         "fiploggers": "",
         "fmalicioso": "",
         "fpalabras": "Filtro de palabras bloqueadas, para añadir usa `.bloquearpalabra <palabra>`.",
         "ignoreCh": "",
-        "ignoreErrorArg": "",
         "ignoreErrorNoCh": "",
-        "ignoreErrorNoRl": "",
         "ignoreRl": "",
         "imágenes": "Imágenes (PREMIUM)",
         "invitaciones": "Invitaciones",
@@ -244,11 +235,7 @@
         "ninguno": "Nenhum."
     },
     "info": {
-        "errorNoUsuario": "Não se encontrou o usuário.",
         "seUnió": "Entro no servidor o:"
-    },
-    "invite": {
-        "features": ""
     },
     "kick": {
         "autor": "",
@@ -393,11 +380,9 @@
         "mandando": ""
     },
     "role": {
-        "mention": "",
         "tags": ""
     },
     "server": {
-        "dueño": "",
         "moreEmojis": ""
     },
     "setlang": {
