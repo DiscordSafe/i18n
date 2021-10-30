@@ -147,19 +147,16 @@
         "usuarios": ":eyes: {{num}} usuários detectados."
     },
     "filter": {
-        "activadoInvitaciones": "",
         "activadoMalicioso": "Se ha activado correctamente el filtro contra el contenido malicioso.",
         "ayudaAutor": "Panel de ayuda sobre filtros",
         "ayudaDes": "",
         "comandosBlockedWord": "",
         "comandosDefault": "",
         "comandosField": "Comandos",
-        "desactivadoInvitaciones": "",
         "desactivadoMalicioso": "Se ha desactivado correctamente el filtro contra el contenido malicioso.",
         "doc1": "",
         "doc2": "",
         "doc3": "",
-        "errorLevel": "",
         "errorPermisos": "",
         "fimágenes": "",
         "finvitaciones": "",
@@ -167,7 +164,6 @@
         "fmalicioso": "",
         "fpalabras": "Filtro de palabras bloqueadas, para añadir usa `.bloquearpalabra <palabra>`.",
         "ignoreCh": "",
-        "ignoreErrorNoCh": "",
         "ignoreRl": "",
         "imágenes": "Imágenes (PREMIUM)",
         "invitaciones": "Invitaciones",
@@ -233,9 +229,6 @@
         "embedSuggestion4": "",
         "footer": "",
         "ninguno": "Nenhum."
-    },
-    "info": {
-        "seUnió": "Entro no servidor o:"
     },
     "kick": {
         "autor": "",
@@ -378,9 +371,6 @@
         "error": "",
         "errorTiempo": "",
         "mandando": ""
-    },
-    "role": {
-        "tags": ""
     },
     "server": {
         "moreEmojis": ""

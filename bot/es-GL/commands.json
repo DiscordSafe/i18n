@@ -147,19 +147,16 @@
         "usuarios": ""
     },
     "filter": {
-        "activadoInvitaciones": "",
         "activadoMalicioso": "",
         "ayudaAutor": "",
         "ayudaDes": "",
         "comandosBlockedWord": "",
         "comandosDefault": "",
         "comandosField": "",
-        "desactivadoInvitaciones": "",
         "desactivadoMalicioso": "",
         "doc1": "",
         "doc2": "",
         "doc3": "",
-        "errorLevel": "",
         "errorPermisos": "",
         "fimágenes": "",
         "finvitaciones": "",
@@ -167,7 +164,6 @@
         "fmalicioso": "",
         "fpalabras": "",
         "ignoreCh": "",
-        "ignoreErrorNoCh": "",
         "ignoreRl": "",
         "imágenes": "",
         "invitaciones": "",
@@ -233,9 +229,6 @@
         "embedSuggestion4": "",
         "footer": "",
         "ninguno": ""
-    },
-    "info": {
-        "seUnió": "Se unio al server el:"
     },
     "kick": {
         "autor": "",
@@ -378,9 +371,6 @@
         "error": "Para poder atender tu reporte debes entrar a [nuestro servidor](https://discordsafe.com/discord) y usar el comando allí.",
         "errorTiempo": "Se acabó el tiempo.",
         "mandando": "Mandando..."
-    },
-    "role": {
-        "tags": ""
     },
     "server": {
         "moreEmojis": ""

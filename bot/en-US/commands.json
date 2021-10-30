@@ -176,19 +176,16 @@
         "usuarios": ":eyes: {{num}} detected users."
     },
     "filter": {
-        "activadoInvitaciones": "The invites filter has been successfully enabled.",
         "activadoMalicioso": "The anti-spam filter with level {{level}} has been successfully enabled.",
         "ayudaAutor": "Help panel about filters {{server}}",
         "ayudaDes": "Filters allow you to protect your server to **prevent malicious content** and keep your channels clean.\n\n**Enable:** `{{prefix}}{{commandName}} [filter] enable`.\n**Disable:** `{{prefix}}{{commandName}} [filter] disable`.\n**Ignore:** `{{prefix}}{{commandName}} [filter] ignore [#Channel/@Role]`.",
         "comandosBlockedWord": "• Block one or many words: `{{prefix}}blockword add [word] <word>`\n• Unblock one or many words: `{{prefix}}blockword remove [word] <word>`\n• Ignore a channel or role: `{{prefix}}blockword ignore [#Channel/@Role]`\n• [More information](https://docs.discordsafe.com/docs/config/blockedwords).",
         "comandosDefault": "• Enable: `{{prefix}}{{commandName}} {{filter}} enable`.\n• Disable: `{{prefix}}{{commandName}} {{filter}} disable`.\n• Ignore channels/roles: `{{prefix}}{{commandName}} {{filter}} ignore [#Channel/@Role]`.",
         "comandosField": "Commands",
-        "desactivadoInvitaciones": "The invites filter has been successfully disabled.",
         "desactivadoMalicioso": "The anti-spam filter has been successfully disabled.",
         "doc1": "Step by step configuration guide",
         "doc2": "📚 ━ Documentation",
         "doc3": "Access a **filter configuration guide** in the [documentation] (https://docs.discordsafe.com/docs/config/filters).",
-        "errorLevel": "**Error**, that level is not valid, select one between 1 and 3.",
         "errorPermisos": "The bot needs perms to manage messages.",
         "fimágenes": "**This filter is premium**, more information `{{prefix}} premium`.\nIt scans images submitted outside NSFW channels and deletes them if it detects that they are not suitable for all audiences and contain explicit content.",
         "finvitaciones": "Deletes the invitations of Discord servers sent by members without permissions.",
@@ -196,7 +193,6 @@
         "fmalicioso": "Analyzes the messages and links and if it detects that it is spam, it will delete it.",
         "fpalabras": "Blocked words filter, to add use `{{prefix}}blockword <word>`.",
         "ignoreCh": "The channel <#{{channel}}> has been __ignored__ of the **{{filter}}** filter.",
-        "ignoreErrorNoCh": "**Error**, the channel does not exist.",
         "ignoreRl": "The role <@&{{role}}> has been __ignored__ from the **{{filter}}** filter.",
         "imágenes": "Images",
         "invitaciones": "Invites",
@@ -278,9 +274,6 @@
         "msgcommand": "Command via message",
         "slashcommand": "Slash command",
         "slashyAvailable": "{{emoji}} **Available as a slash command, use `/{{commandName}}`**."
-    },
-    "info": {
-        "seUnió": "▸ Join date"
     },
     "kick": {
         "autor": "**Error*, You can't ban yourself.",
@@ -458,12 +451,8 @@
         "errorTiempo": "The time is over.",
         "mandando": "Sent."
     },
-    "role": {
-        "tags": "▸ Tags"
-    },
     "server": {
-        "moreEmojis": " and {{size}} more.",
-        "bans": "▸ Bans"
+        "moreEmojis": " and {{size}} more."
     },
     "setlang": {
         "establecido": "The server language has been set to {{idioma}}.",
