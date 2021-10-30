@@ -570,7 +570,7 @@
         }
     },
     "settings": {
-        "description": "Muestra los ajustes del servidor e información sobre cómo configurarlo.",
+        "description": "Muestra los ajustes del servidor e información sobre cómo configurarlo",
         "example": "",
         "usage": ""
     },
