@@ -36,7 +36,8 @@
       "invalid": "Número inválido."
     },
     "role": {
-      "highest": "El rol está por encima de tu rol más alto, no puedes usarlo."
+      "highest": "El rol está por encima de tu rol más alto, no puedes usarlo.",
+      "editable": "No puedo editar este rol, asegúrate de que mi rol más alto esté por encima de este rol."
     },
     "color": {
       "invalidFormat": "Formato de color no válido, debe ser uno de los siguientes: {{validColors}}.\nPuede seleccionar un color en https://htmlcolorcodes.com/."

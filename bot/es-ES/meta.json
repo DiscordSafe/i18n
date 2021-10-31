@@ -276,7 +276,7 @@
         }
     },
     "commands": {
-        "description": "Lista de comandos.",
+        "description": "Muestra la lista de comandos",
         "example": "",
         "usage": "<--channel>",
         "options": {
@@ -819,9 +819,87 @@
         }
     },
     "verification": {
-        "description": "Modifica la configuración de la verificación.",
+        "description": "Configura la verificación",
         "example": "setuser @Verificado",
-        "usage": "off / setmode <Modo(approval, reaction, verification, captcha)> / setguest <@Rol / Rol ID> / setuser <@Rol / Rol ID> setchannel <#Canal / Canal ID> / setmessage <Mensaje ID>"
+        "usage": "off / setmode <Modo(approval, reaction, verification, captcha)> / setguest <@Rol / Rol ID> / setuser <@Rol / Rol ID> setchannel <#Canal / Canal ID> / setmessage <Mensaje ID>",
+        "options": {
+            "disable": {
+                "description": "Desactiva la verificación"
+            },
+            "help": {
+                "description": "Muestra la ayuda sobre la verificación"
+            },
+            "setchannel": {
+                "description": "Establece el canal donde se mandarán los mensajes de verificación",
+                "options": {
+                    "channel": {
+                        "description": "El canal a establecer"
+                    }
+                }
+            },
+            "setguest": {
+                "description": "Establece el rol de no verificado, que recibirán al entrar",
+                "options": {
+                    "role": {
+                        "description": "El rol a establecer"
+                    }
+                }
+            },
+            "setmessage": {
+                "description": "[Modo Reaction] Establece el mensaje donde reaccionarán los nuevos usuarios",
+                "options": {
+                    "messageid": {
+                        "description": "La ID del mensaje a esteblecer"
+                    }
+                }
+            },
+            "setmode": {
+                "description": "Establece el modo de la verificación",
+                "options": {
+                    "mode": {
+                        "description": "Seleccione uno de estos modos"
+                    }
+                }
+            },
+            "setuser": {
+                "description": "Estalbece el rol de usuario, que recibirán al verificarse"
+            },
+            "showconfig": {
+                "description": "Muestra la configración actual de la verificación"
+            },
+            "settime": {
+                "description": "[Modo Captcha] Establece el tiempo máximo para verificarse",
+                "options": {
+                    "time": {
+                        "description": "El tiempo a establecer"
+                    }
+                }
+            },
+            "setattempts": {
+                "description": "[Modo Captcha] Establece el máximo de intentos",
+                "options": {
+                    "attempts": {
+                        "description": "La cantidad de intentos"
+                    }
+                }
+            },
+            "setage": {
+                "description": "Establece la edad mínima de la cuenta que tienen que tener para entrar",
+                "options": {
+                    "set": {
+                        "description": "Establece la edad mínima de la cuenta",
+                        "options": {
+                            "age": {
+                                "description": "La edad a establecer (1-30)"
+                            }
+                        }
+                    },
+                    "disable": {
+                        "description": "Desactiva el requisito de edad mínima de la cuenta"
+                    }
+                }
+            }
+        }
     },
     "verifyme": {
         "description": "Te da el rol de usuario en el servidor.",
