@@ -45,11 +45,6 @@
             }
         }
     },
-    "baninfo": {
-        "description": "Muestra el motivo de forceban de un usuario.",
-        "example": "287574458963722240",
-        "usage": "[ID]"
-    },
     "blockword": {
         "description": "Bloquea el uso de palabras en el servidor.",
         "example": "add pack 0",
@@ -300,11 +295,6 @@
             }
         }
     },
-    "detect": {
-        "description": "Detecta a usuarios peligrosos en el servidor.",
-        "example": "",
-        "usage": ""
-    },
     "emoji": {
         "description": "Muestra el emoji en grande.",
         "example": ":pepeamor:",
@@ -369,11 +359,6 @@
                 }
             }
         }
-    },
-    "forceban": {
-        "description": "Banea a los usuarios reportados como peligrosos.",
-        "example": "",
-        "usage": ""
     },
     "genpassword": {
         "description": "Genera una contraseña acorde a los parámetros proporcionados.",
@@ -488,11 +473,6 @@
             }
         }
     },
-    "notification": {
-        "description": "Configura los avisos de entrada de usuarios maliciosos.",
-        "example": "on",
-        "usage": "on / off"
-    },
     "ping": {
         "description": "Muestra el ping del bot.",
         "example": "",
@@ -515,11 +495,6 @@
                 "description": "La razón a establecer"
             }
         }
-    },
-    "report": {
-        "description": "Reporta a un usuario para ser añadido al forceban.",
-        "example": ".sknahTT#1785|318327338226155541|Hacer SPAM al md|https://imgur.com/abc",
-        "usage": "[Usuario]|[ID]|[Razón]|[Prueba]"
     },
     "reportbug": {
         "description": "Reporta un error a mi desarrollador para que sea solucionado.",
@@ -808,11 +783,6 @@
 
         }
     },
-    "support": {
-        "description": "Pide soporte a nuestro personal en caso de raid.",
-        "example": "",
-        "usage": ""
-    },
     "topbots": {
         "description": "Muestra la lista de top bots de Discord.",
         "example": "",
@@ -891,10 +861,5 @@
                 "description": "Filtrar por las advertencias de este usuario"
             }
         }
-    },
-    "whitelist": {
-        "description": "Configura la Whitelist de su servidor.",
-        "example": "add 461171501715161108",
-        "usage": "add <ID> / remove <ID> / list / reset"
     }
 }

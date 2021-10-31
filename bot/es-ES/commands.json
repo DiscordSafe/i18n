@@ -1,13 +1,4 @@
 {
-    "aceptar": {
-        "aceptado": "✅ Aceptado por: ",
-        "estado": "📊 Estado:",
-        "id": "🆔 ID:",
-        "md": "Su reporte a {{user}} fue aceptado.",
-        "prueba": "🔗 Prueba:",
-        "razón": "📃 Razón:",
-        "usuarioReportado": "👤 Usuario Reportado:"
-    },
     "alarm": {
         "activado": "El modo alarma ha sido activado, se prohíbe la entrada de nuevos usuarios, vuelva a usar el comando para desactivarlo.",
         "desactivado": "El modo alarma ha sido desactivado."
@@ -35,19 +26,6 @@
         "errorNobanneable": "**Error**, no puedo banear al usuario.",
         "errorUser": "**Error**, no se encontró al usuario, pruebe de nuevo.",
         "exito": "{{emoji}} **{{memberTag}} fue baneado**"
-    },
-    "baninfo": {
-        "footer": "Puede ignorar a este miembro del forceban usando d.whitelist add <ID>.",
-        "hasta": "Hasta el día {{time}}",
-        "ninguna": "Ninguna.",
-        "noDefinido": "No definido.",
-        "noForceban": "Ese usuario no está en el forceban.",
-        "prueba": "Prueba.",
-        "pruebas": "Pruebas",
-        "razón": "Razón",
-        "tiempo": "Tiempo",
-        "título": "Información del baneo",
-        "usuario": "Usuario"
     },
     "blockword": {
         "correcto": "Abra el siguiente archivo para ver la lista de palabras bloquedas.",
@@ -160,7 +138,6 @@
         "con": "Configuración",
         "inf": "Información",
         "mod": "Moderación",
-        "rep": "Reportes",
         "uti": "Utilidad",
         "ver": "Verificación",
         "msgcommands": "Comandos vía mensaje",
@@ -178,12 +155,6 @@
         "errorMención": "**Error**: Falta mencionar al usuario.",
         "errorYaEnsordecido": "**Error**, Ese usuario ya está ensordecido, usa `d.undeafen` para desensordecerlo.",
         "exito": "{{emoji}} **{{memberTag}}** ha sido ensordecido."
-    },
-    "detect": {
-        "description": "Estos usuarios han sido clasificados como maliciosos, se muestran la fecha que serán quitados, la razón y las pruebas.\nEstos usuarios **pueden ser ignorados** del __forceban__ usando `d.ignore`.",
-        "footer": "discordsafe.com",
-        "noPeligro": "No se ha encontrado ningún usuario peligroso, ¡muy bien!",
-        "usuarios": ":eyes: {{num}} usuarios detectados."
     },
     "emoji": {
         "noEncontrado": "**Error**, no se ha encontrado el emoji."
@@ -223,11 +194,6 @@
         "ignoreRl": "El rol <@&{{role}}> ha sido __ignorado__ del **{{filter}}**.",
         "unIgnoreCh": "El canal <#{{channel}}> ha __dejado de ser ignorado__ en el filtro **{{filter}}**.",
         "unIgnoreRl": "El rol <@&{{role}}> ha __dejado de ser ignorado__ en el filtro **{{filter}}**."
-    },
-    "forceban": {
-        "baneando": "Baneando a {{number}} usuarios peligrosos y desbaneando a usuarios eliminados del forceban, tenga paciencia estás acción tomará unos minutos.",
-        "completado": "Baneados con éxito **{{number}}** usuarios peligrosos.",
-        "completadoUnban": "Desbaneados con éxito **{{number}}** usuarios eliminados del forceban."
     },
     "genpassword": {
         "contraseña": "Contraseña",
@@ -409,17 +375,6 @@
         "errorYaMuteado": "**Error**, Ese usuario ya está muteado.",
         "exito": "{{emoji}} **{{memberTag}}** ha sido muteado."
     },
-    "notification": {
-        "activado": "activado",
-        "desactivado": "desactivado",
-        "errorNoActivado": "No puedes desactivar algo que no existe, sería como dejar a una novia que no tienes.",
-        "noArgsAuthor": "Configuración de los avisos en {{server}}",
-        "noArgsDes": "Para notificar al dueño del servidor cuando un posible usuario malicioso entre al servidor, use `{{prefix}}{{comando}} {{uso}}`.  Un usuario puede ser clasificado como malicioso por: raid, spam bot o estafas.",
-        "noArgsField": "Estado",
-        "noArgsFooter": "Si algo falla revise que ha escrito todo bien",
-        "sactivado": "Los avisos han sido activados exitosamente.",
-        "sdesactivado": "Los avisos han sido desactivados exitosamente."
-    },
     "ping": {
         "cargando": "Cargando…"
     },
@@ -428,7 +383,7 @@
             "title": "D-Safe Premium",
             "desc": "Mejora tu comunidad con D-Safe Premium y apoya el desarrollo del bot para poder traer mejores actualizaciones y con las características que esperas.",
             "field1": "Beneficios",
-            "field1d": "• Filtro IPlogger Avanzado.\n• Filtro imágenes NSFW.\n• Auto Forceban.\n• Rol encargado de sugerencias.\n• Paleta de colores customizada.\n• Canal solo para sugerencias.\n• Cooldown entre sugerencias.\n• Emojis customizados en las reacciones.\n• Menor tiempo de respuesta.\n• Logs de mejoras del servidor.\n• Insignia especial.\n• Soporte prioritario.\n• Roles y canales exclusivos.\n• Forma parte del programa de Testers.",
+            "field1d": "• Filtro IPlogger Avanzado.\n• Filtro imágenes NSFW.\n• Rol encargado de sugerencias.\n• Paleta de colores customizada.\n• Canal solo para sugerencias.\n• Cooldown entre sugerencias.\n• Emojis customizados en las reacciones.\n• Menor tiempo de respuesta.\n• Logs de mejoras del servidor.\n• Insignia especial.\n• Soporte prioritario.\n• Roles y canales exclusivos.\n• Forma parte del programa de Testers.",
             "image": "https://i.imgur.com/ee7uS79.png"
         },
         "safer": {
@@ -463,34 +418,6 @@
         "noReason": "**Error**, debe indicar la razón que desea actualizar.",
         "reasonLimit": "**Error**, la razón sobrepasa el límite de 50 caracteres o es menor a 3 caracteres.",
         "success": "{{emoji}} Se ha establecido la razón del caso `{{caseid}}` a `{{reason}}`."
-    },
-    "rechazar": {
-        "md": "Su reporte a {{user}} fue rechazado con la razón: `{{razón}}`",
-        "rechazado": "❌Rechazado por:"
-    },
-    "report": {
-        "autor": "📤Autor",
-        "confirmación": "¿Está seguro/a de mandar el reporte?",
-        "errorAntiguedad": "**Error**, Su cuenta debe tener más de 10 días creada.",
-        "errorArgs": "**Error**, escríbalo como en el siguiente ejemplo:\n\n`{{prefix}}report Usuario|ID|Razón|Prueba`\n❗ Es necesario poner pruebas para que el reporte sea aceptado.\n📍 Recomendamos poner la prueba en **imgur**: `https://imgur.com/upload`",
-        "errorId": "**Error**, La ID no es válida, pruebe otra vez.",
-        "errorIpLogger": "Lo siento, su reporte contiene un IPLogger no somos tontos crack.",
-        "errorPrueba": "**Error**, La prueba debe de incluir un enlace.",
-        "errorRazon": "**Error**, La razón es demasiado corta.",
-        "errorTag": "**Error**, El usuario debe contener incluir el discriminador o tag, ejemplo: `Vicente#0001`.",
-        "errorTiempo": "Se acabo el tiempo.",
-        "estado": "📊 Estado",
-        "id": "🆔 ID:",
-        "mandando": "Mandando reporte…",
-        "enviado": "{{emoji}} ¡Reporte enviado!",
-        "nuevoReporte": "¡Nuevo reporte!",
-        "prueba": "🔗 Prueba:",
-        "razón": "📃 Razón:",
-        "reportadoPor": "Reportado por: ",
-        "reporteGenerado": "Se ha enviado su reporte correctamente, le responderemos lo antes posible.",
-        "reporteTítulo": "Reporte enviado",
-        "usuario": "👤 Usuario Reportado:",
-        "verificación": "En verificación"
     },
     "reportbug": {
         "args": "Este comandos necesita argumentos, ejemplo: `d.reportbug Título reporte | Descripción del bug`",
@@ -588,11 +515,8 @@
         "prefix": "Prefix",
         "estado": "Estado",
         "comandos": "Comandos",
-        "ajalertas": "Ajustes de los avisos de entradas de raiders",
         "ajanuncios": "Ajustes de los anuncios",
-        "falertas": "Aviso entrada raiders",
         "ajfiltros": "Ajustes de los filtros",
-        "ajignorados": "Ajustes de los ignorados",
         "ajlang": "Ajustes del idioma",
         "ajlogs": "Ajustes de los logs",
         "ajpalabras": "Ajustes de las palabras bloqueadas",
@@ -601,7 +525,6 @@
         "ajverificacion": "Ajustes de la verificación",
         "ajmoderacion": "Ajustes de la moderación",
         "fidioma": "Idioma",
-        "fignorados": "Whitelist",
         "finvitaciones": "Filtro Invitaciones",
         "floggers": "Filtro Iploggers",
         "flogs": "Logs",
@@ -613,14 +536,11 @@
         "fnotifyUsers": "Notificar usuarios",
         "fdeleteCmds": "Borrar comandos después de ejecución",
         "idioma": "Idioma",
-        "ignorados": "Ignorados",
         "canallogs": "Canal de logs generales",
         "logsmod": "Canal de logs de moderación",
         "logsboost": "Canal de logs de boosts",
         "desmoderacion": "Configure el comportamiento de las acciones de moderación.",
-        "desalertas": "Avisa al owner del servidor cuando un usuario malicioso que está en nuestro forceban entra al servidor.",
         "desfiltros": "Los filtros permiten proteger tu servidor para **evitar que se mande contenido malicioso** y que tus canales sean un sitio limpio.",
-        "designorados": "Usuarios ignorados del forceban.",
         "deslang": "Configure el idioma del bot en su servidor.",
         "deslogs": "Poderosos logs con muchos detalles para registrar todas las acciones que ocurran en su servidor.",
         "despalabras": "Bloqueo de palabras para moderar automáticamente.",
@@ -788,10 +708,6 @@
         "approvedFooter": "Aprobada",
         "deniedFooter": "Rechazada"
     },
-    "support": {
-        "confirmación": "**¿Está seguro/a de pedir soporte?**\n__**Si no es un tema urgente serás sancionado.**__",
-        "correcto": "Se ha notificado al soporte que ha solicitado ayuda, se le atenderá lo antes posible, tenga paciencia."
-    },
     "topbots": {
         "error": "**Error**, ha ocurrido un error y no puedo obtener la lista.",
         "title": ":trophy: Top bots"
@@ -922,17 +838,5 @@
         "desc": "Elige el orden en el que quieras que se muestren las advertencias",
         "warnings": "{{count}} advertencia",
         "warnings_plural": "{{count}} advertencias"
-    },
-    "whitelist": {
-        "añadido": "Añadido a la whitelist: {{user}}",
-        "correcto": "Abra el siguiente archivo para ver la whitelist.",
-        "errorArgs": "**Error**, debe añadir la ID de un usuario.",
-        "errorNaN": "**Error**, el argumento debe de ser la ID de un usuario.",
-        "errorNadie": "**Error**, no hay ningún usuario en la whitelist.",
-        "errorNoRaider": "**Error**, no puede añadir a la whitelist a un usuario que no está clasificado como malicioso.",
-        "errorNoWhitelist": "**Error**, ese usuario no está en la whitelist del servidor.",
-        "quitado": "El usuario {{user}} ha sido quitado de la whitelist.",
-        "reset": "La whitelist ha sido reseteada con exito.",
-        "servidor": "Whitelist del servidor {{server}}"
     }
 }

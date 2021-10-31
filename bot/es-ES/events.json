@@ -36,13 +36,6 @@
         "unbanned": "Miembro desbaneado"
     },
     "guildMemberAdd": {
-        "alarma": "El servidor **{{server}}** está en modo alarma y ha prohibido la entrada a nuevos usuarios, por favor vuelva a intentar dentro de unos minutos.",
-        "alertaDes": "Un miembro clasificado como malicioso ha entrado a su servidor",
-        "alertaFooter": "Puede desactivar estas alertas usando {{prefix}}notifications",
-        "alertaM": "Miembro",
-        "alertaP": "Prueba",
-        "alertaR": "Razón",
-        "alertaTitle": "Alerta",
         "badges": "Insignias",
         "bot": "Bot",
         "captchaErrorIntentos": "**Ha alcanzado el límite de intentos**, no has completado la verificación así que serás expulsado.",
@@ -58,11 +51,8 @@
         "creación": "Creación",
         "expulsado": "Has sido expulsado del servidor **{{server}}** porque su cuenta no supera el mínimo de **{{age}}** días.",
         "expulsadoRazón": "Mínimo de días de la creación de la cuenta.",
-        "forceban": "Forceban",
         "kick": "Verificación no completada.",
-        "nuevoUsuario": "Nuevo usuario",
-        "porQué": "¿Por qué?",
-        "usuarioDa": "⛔ Usuario dañino: {{reason}}"
+        "nuevoUsuario": "Nuevo usuario"
     },
     "guildMemberRemove": {
         "badges": "Insignias",
