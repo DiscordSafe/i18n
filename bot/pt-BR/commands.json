@@ -1,8 +1,6 @@
 {
     "aceptar": {
-        "estado": "📊 Estado:",
-        "md": "",
-        "razón": "📃 Razón:"
+        "md": ""
     },
     "alarm": {
         "activado": "",
@@ -31,11 +29,8 @@
         "exito": ""
     },
     "baninfo": {
-        "hasta": "",
         "noDefinido": "",
-        "prueba": "",
-        "razón": "",
-        "título": ""
+        "razón": ""
     },
     "blockword": {
         "correcto": "",
@@ -131,7 +126,6 @@
         "exito": ""
     },
     "detect": {
-        "footer": "",
         "usuarios": ":eyes: {{num}} usuários detectados."
     },
     "filter": {
@@ -165,9 +159,6 @@
         "premiumImágenes": "",
         "unIgnoreCh": "",
         "unIgnoreRl": ""
-    },
-    "forceban": {
-        "completado": ""
     },
     "genpassword": {
         "contraseña": "",
@@ -289,9 +280,7 @@
         "exito": ""
     },
     "notification": {
-        "desactivado": "",
         "noArgsAuthor": "",
-        "noArgsField": "Estado",
         "sactivado": ""
     },
     "ping": {
@@ -315,20 +304,12 @@
         "reasonLimit": "",
         "success": ""
     },
-    "rechazar": {
-        "rechazado": ""
-    },
     "report": {
         "confirmación": "",
-        "errorArgs": "**Error** escríbalo como en el siguiente ejemplo:\n\n`.reportar Usuario|ID|Razón|Prueba`\n❗Es necesario poner pruebas para que el reporte sea aceptado.\n📍Recomendamos poner la prueba en **imgur**: `https://imgur.com/upload`",
         "errorIpLogger": "",
-        "errorRazon": "",
         "errorTiempo": "<:nopesafe:835956644965908483> | Se acabó el tiempo.",
-        "id": "🆔ID:",
         "nuevoReporte": "",
-        "razón": "📃Razão:",
-        "reporteGenerado": "Su reporte fue generado.",
-        "usuario": "👤Usuário Reportado:"
+        "reporteGenerado": "Su reporte fue generado."
     },
     "reportbug": {
         "args": "",
@@ -472,9 +453,6 @@
         "statsField": "",
         "statsQuestion": ""
     },
-    "support": {
-        "correcto": "Se ha notificado a los agentes que ha solicitado ayuda, se le atenderá lo antes posible."
-    },
     "topbots": {
         "error": "",
         "title": ""
@@ -511,40 +489,28 @@
         "doc": "",
         "doc2": "",
         "días": "",
-        "errorArgs": "",
         "errorArgsAttempts": "",
-        "errorCanalMención": "**Error:** El canal debe de ser una mención o una ID.\n**Ayuda:** `.verificacion ayuda`",
         "errorCanalNoExiste": "",
         "errorCanalNoTexto": "",
         "errorFooter": ".verificacion ayuda",
         "errorMensaje": "",
         "errorMensajeCanal": "**Error:** Debe indicar el canal primero.\n**Ayuda:** `.verificacion ayuda`",
-        "errorMensajeID": "**Error:** Debe de ser la ID de un mensaje.\n**Ayuda:** `.verificacion ayuda`",
         "errorMensajeModo": "**Error:** El mensaje es solo necesario indicarlo para el modo __reacción__.\n**Ayuda:** `.verificacion ayuda`",
-        "errorMensajeNoArgs": "**Error:** Debe indicar el mensaje.\n**Ayuda:** `.verificacion ayuda`",
         "errorMensajeNoEncuentra": "",
         "errorMensajePermisos": "",
-        "errorModo": "**Error:** Los modos deben ser: `aprobación / reacción / verificación`.\n**Ayuda:** `.verificacion ayuda`",
         "errorModoPrimero": "**Error:** Debe seleccionar el modo primero.\n**Ayuda:** `.verificacion ayuda`",
-        "errorNoArgs": "**Error:** Debe indicar un argumento.\n**Ayuda:** `.verificacion ayuda`",
         "errorNoCanal": "**Error:** Debe indicar un canal.\n**Ayuda:** `.verificacion ayuda`",
         "errorNoCanalEstablecido": "",
         "errorNoRow": "",
-        "errorRol": "**Error:** Debe indicar el rol.\n**Ayuda:** `.verificacion ayuda`",
         "errorRolEncima": "",
-        "errorRolMención": "**Error:** El rol debe de ser una mención o una ID.\n**Ayuda:** `.verificacion ayuda`",
         "errorRolNoExiste": "",
-        "errorRolPermisos": "**Error:** El bot necesita permisos de __Gestionar roles__\n**Ayuda:** `.verificacion ayuda`",
         "establecidoAprobación": "El modo ha sido establecido a `aprobación`",
-        "establecidoCanal": "",
         "establecidoCaptcha": "",
         "establecidoIntentos": "",
         "establecidoMensaje": "",
         "establecidoMinutos": "",
-        "establecidoReacción": "El modo ha sido establecido a `reacción`",
         "establecidoRol": "",
         "establecidoTiempo": "",
-        "establecidoVerificación": "El modo ha sido establecido a `verificación`",
         "footerAyuda": "docs.discordsafe.com",
         "guía": "",
         "importante": "",
@@ -600,10 +566,7 @@
         "userEmbedOne": ""
     },
     "whitelist": {
-        "correcto": "",
         "errorNaN": "",
-        "errorNoRaider": "",
-        "quitado": "",
-        "servidor": ""
+        "quitado": ""
     }
 }

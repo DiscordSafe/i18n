@@ -1,8 +1,6 @@
 {
     "aceptar": {
-        "id": "🆔 ID:",
-        "prueba": "🔗 Prova:",
-        "aceptado": "✅ Acceptat per: "
+        "prueba": "🔗 Prova:"
     },
     "approve": {
         "aprobado": " ha estat aprovat.",
@@ -33,11 +31,8 @@
         "desactivado": "La manera alarma ha estat desactivat."
     },
     "baninfo": {
-        "noDefinido": "No definit.",
         "prueba": "Prova.",
-        "razón": "Raó",
-        "título": "Informació de l'baneo",
-        "footer": "Podeu ignorar a aquest membre de l'forceban usant d.whitelist add <ID>."
+        "título": "Informació de l'baneo"
     },
     "blockword": {
         "correcto": "Obriu el següent arxiu per veure la llista de paraules bloquejades.",

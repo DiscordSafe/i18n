@@ -1,8 +1,6 @@
 {
     "aceptar": {
-        "estado": "📊 Status:",
-        "md": "Your report to {{user}} was accepted.",
-        "razón": "📃 Reason:"
+        "md": "Your report to {{user}} was accepted."
     },
     "alarm": {
         "activado": "Alarm mode has been enabled, new users are not allowed to join in the server, use the command again to disable it.",
@@ -33,11 +31,8 @@
         "reason": "You have been banned in **{{guild}}** because: **{{reason}}**."
     },
     "baninfo": {
-        "hasta": "Until the day {{time}}",
         "noDefinido": "Undefined.",
-        "prueba": "Proof.",
-        "razón": "Reason",
-        "título": "Ban info"
+        "razón": "Reason"
     },
     "blockword": {
         "correcto": "Open the following file to view the list of blocked words.",
@@ -159,7 +154,6 @@
         "reason": "You have been deafened in **{{guild}}** for: **{{reason}}**."
     },
     "detect": {
-        "footer": "discordsafe.com",
         "usuarios": ":eyes: {{num}} detected users."
     },
     "filter": {
@@ -193,9 +187,6 @@
         "premiumImágenes": "Your server is not premium.",
         "unIgnoreCh": "The channel <#{{channel}}> has been __no longer ignored__ on the **{{filter}}** filter.",
         "unIgnoreRl": "The role <@&{{role}}> has been __no longer ignored__ on the **{{filter}}** filter."
-    },
-    "forceban": {
-        "completado": "Successfully banned **{{number}}** dangerous users."
     },
     "genpassword": {
         "contraseña": "Password",
@@ -343,9 +334,7 @@
         "reason_time": "You have been muted in **{{guild}}** for **{{time}}** for: **{{reason}}**."
     },
     "notification": {
-        "desactivado": "disabled",
         "noArgsAuthor": "Configuration of notifications in {{server}}",
-        "noArgsField": "Status",
         "sactivado": "The notifications have been successfully enabled."
     },
     "ping": {
@@ -392,20 +381,12 @@
         "reasonLimit": "**Error**, the reason surpasses the limit of 50 characteres or is lower than 3 characters.",
         "success": "{{emoji}} The reason of the case `{{caseid}}` has been set to `{{reason}}`."
     },
-    "rechazar": {
-        "rechazado": "❌Rejected by:"
-    },
     "report": {
         "confirmación": "Are you sure to send the report?",
-        "errorArgs": "** Error **, write it as in the following example:\n\n` {{prefix}} report User|ID|Reason|Proof`\n❗ Evidence is required for the report to be accepted.\n📍 We recommend using ** imgur ** to send us proof: ` https://imgur.com/upload`",
         "errorIpLogger": "Sorry, your report contains an IPLogger we are not idiots crack.",
-        "errorRazon": "**Error**, Reason is too short.",
         "errorTiempo": "Time is over.",
-        "id": "🆔 ID:",
         "nuevoReporte": "¡New report!",
-        "razón": "📃 Reason:",
         "reporteGenerado": "Your report was succesfully sent, we will answer you as soon as possible.",
-        "usuario": "👤 Reported User:",
         "enviado": "{{emoji}} Report sended!"
     },
     "reportbug": {
@@ -568,9 +549,6 @@
         "approvedFooter": "Approved",
         "deniedFooter": "Denied"
     },
-    "support": {
-        "correcto": "Support has been notified that you have requested help, you will be served as soon as possible, please be patient."
-    },
     "topbots": {
         "error": "**Error**, an error has happened and I cannot fetch the list.",
         "title": ":trophy: Top bots"
@@ -610,40 +588,28 @@
         "doc": "Configuration guide",
         "doc2": "All the **guide to verify** is better explained here **[documentación](https://docs.discordsafe.com/docs/config/lang)**.",
         "días": "\n{{days}} days",
-        "errorArgs": "**Error**, you must specify the number of days old of the account between **1-30**.",
         "errorArgsAttempts": "** Error**, you must specify a number between **2 and 6**.",
-        "errorCanalMención": "**Error:** The channel need to be a mention or an ID.\n**Help:** `d.verification help`",
         "errorCanalNoExiste": "That channel doesn't exists.",
         "errorCanalNoTexto": "That isn't a text channel.",
         "errorFooter": "d.verification help",
         "errorMensaje": "The command must be used in {{channel}}, on the same channel as the message you wish to set.",
         "errorMensajeCanal": "**Error:** You need to indicate a channel first.\n**Help:** `d.verification help`",
-        "errorMensajeID": "**Error:** It needs to be a ID from a message.\n**Help:** `d.verification help`",
         "errorMensajeModo": "**Error:** This option is only necessary if you use the mode __{{mode}}__.\n**Help:** `d.verification help`",
-        "errorMensajeNoArgs": "**Error:** You need to indicate a message.\n**Help:** `d.verification help`",
         "errorMensajeNoEncuentra": "I can't find that message.",
         "errorMensajePermisos": "The bot needs permissions of modify messages.",
-        "errorModo": "**Error:** The modes need to be one of this: `approval / reaction / verification / captcha`.\n**Help:** `d.verification help`",
         "errorModoPrimero": "**Error:** You need to select the mode first.\n**Help:** `d.verification help`",
-        "errorNoArgs": "**Error:** You need to indicate an argument.\n**Help:** `d.verification help`",
         "errorNoCanal": "**Error:** You need to indicate a channel.\n**Help:** `d.verification help`",
         "errorNoCanalEstablecido": "Please first configure the channel again.",
         "errorNoRow": "You can't disable something that hasn't been enabled.",
-        "errorRol": "**Error:** You need to indicate a rol.\n**Help:** `d.verification help`",
         "errorRolEncima": "The rol of the bot needs to be in a higher position than that rol .",
-        "errorRolMención": "**Error:** The rol need to be a mention or an ID.\n**Ayuda:** `d.verification help`",
         "errorRolNoExiste": "That rol doesn't exists.",
-        "errorRolPermisos": "**Error:** The bot needs the permission of __Manage Roles__\n**Help:** `d.verification help`",
         "establecidoAprobación": "The mode has been established to `approval`",
-        "establecidoCanal": "The channel has been established to ",
         "establecidoCaptcha": "The mode has been established to `captcha`",
         "establecidoIntentos": "The maximum number of verification attempts has been set to **{{intentos}} attempts **.",
         "establecidoMensaje": "The message has been established to ",
         "establecidoMinutos": "Verification minutes have been set to **{{minutos}} minutes**.",
-        "establecidoReacción": "The mode has been established to `reaction`",
         "establecidoRol": "The rol has been established to ",
         "establecidoTiempo": "The minimum account time for new users have been set to **{{age}}** days.",
-        "establecidoVerificación": "The mode has been established to `verification`",
         "footerAyuda": "docs.discordsafe.com",
         "guía": "Configuration guide",
         "importante": "Important",
@@ -703,11 +669,8 @@
         "warnings_plural": "{{count}} warnings"
     },
     "whitelist": {
-        "correcto": "Open the following file to see the whitelist.",
         "errorNaN": "**Error**, the argument must be an User ID.",
-        "errorNoRaider": "**Error**, you cannot whitelist a user who is not classified as malicious.",
-        "quitado": "The user {{user}} has been eliminated from the whitelist.",
-        "servidor": "Server Whitelist {{server}}"
+        "quitado": "The user {{user}} has been eliminated from the whitelist."
     },
     "emoji": {
         "noEncontrado": "**Error**, emoji not found."

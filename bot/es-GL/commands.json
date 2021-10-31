@@ -1,8 +1,6 @@
 {
     "aceptar": {
-        "estado": "",
-        "md": "",
-        "razón": "📃 Razón:"
+        "md": ""
     },
     "alarm": {
         "activado": "",
@@ -31,11 +29,8 @@
         "exito": "¡El martillo del ban ha acertado exitosamente!"
     },
     "baninfo": {
-        "hasta": "",
         "noDefinido": "",
-        "prueba": "",
-        "razón": "Razón",
-        "título": ""
+        "razón": "Razón"
     },
     "blockword": {
         "correcto": "Abra el siguiente archivo para ver la lista de palabras bloquedas.",
@@ -131,7 +126,6 @@
         "exito": ""
     },
     "detect": {
-        "footer": "",
         "usuarios": ""
     },
     "filter": {
@@ -165,9 +159,6 @@
         "premiumImágenes": "",
         "unIgnoreCh": "",
         "unIgnoreRl": ""
-    },
-    "forceban": {
-        "completado": ""
     },
     "genpassword": {
         "contraseña": "Contraseña",
@@ -289,9 +280,7 @@
         "exito": ""
     },
     "notification": {
-        "desactivado": "",
         "noArgsAuthor": "",
-        "noArgsField": "",
         "sactivado": ""
     },
     "ping": {
@@ -315,20 +304,12 @@
         "reasonLimit": "",
         "success": ""
     },
-    "rechazar": {
-        "rechazado": ""
-    },
     "report": {
         "confirmación": "",
-        "errorArgs": "",
         "errorIpLogger": "",
-        "errorRazon": "",
         "errorTiempo": "",
-        "id": "",
         "nuevoReporte": "",
-        "razón": "",
-        "reporteGenerado": "",
-        "usuario": ""
+        "reporteGenerado": ""
     },
     "reportbug": {
         "args": "",
@@ -472,9 +453,6 @@
         "statsField": "",
         "statsQuestion": ""
     },
-    "support": {
-        "correcto": "Se ha notificado a los agentes que ha solicitado ayuda, se le atenderá lo antes posible."
-    },
     "topbots": {
         "error": "",
         "title": ""
@@ -511,40 +489,28 @@
         "doc": "",
         "doc2": "",
         "días": "",
-        "errorArgs": "",
         "errorArgsAttempts": "",
-        "errorCanalMención": "",
         "errorCanalNoExiste": "",
         "errorCanalNoTexto": "",
         "errorFooter": "",
         "errorMensaje": "",
         "errorMensajeCanal": "",
-        "errorMensajeID": "",
         "errorMensajeModo": "",
-        "errorMensajeNoArgs": "",
         "errorMensajeNoEncuentra": "",
         "errorMensajePermisos": "",
-        "errorModo": "",
         "errorModoPrimero": "",
-        "errorNoArgs": "",
         "errorNoCanal": "",
         "errorNoCanalEstablecido": "",
         "errorNoRow": "",
-        "errorRol": "",
         "errorRolEncima": "",
-        "errorRolMención": "",
         "errorRolNoExiste": "",
-        "errorRolPermisos": "",
         "establecidoAprobación": "",
-        "establecidoCanal": "",
         "establecidoCaptcha": "",
         "establecidoIntentos": "",
         "establecidoMensaje": "",
         "establecidoMinutos": "",
-        "establecidoReacción": "",
         "establecidoRol": "",
         "establecidoTiempo": "",
-        "establecidoVerificación": "",
         "footerAyuda": "",
         "guía": "",
         "importante": "",
@@ -600,10 +566,7 @@
         "userEmbedOne": ""
     },
     "whitelist": {
-        "correcto": "Abra el siguiente archivo para ver la whitelist.",
         "errorNaN": "",
-        "errorNoRaider": "",
-        "quitado": "",
-        "servidor": ""
+        "quitado": ""
     }
 }
