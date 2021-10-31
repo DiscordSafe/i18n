@@ -1,5 +1,5 @@
 {
-    "argumentos": "This command needs arguments, **Use:** {{prefijo}}{{commandName}} ",
+    "argumentos": "This command needs arguments, **use:** {{prefijo}}{{commandName}} ",
     "guild": "You cannot use this command outside a server.",
     "palabra": "That word is blocked.",
     "idioma": "The server language is English, to change it use ",
