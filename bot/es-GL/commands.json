@@ -1,12 +1,8 @@
 {
     "aceptar": {
-        "aceptado": "✅ Aceptado por: ",
         "estado": "",
-        "id": "🆔 ID:",
         "md": "",
-        "prueba": "🔗 Prueba:",
-        "razón": "📃 Razón:",
-        "usuarioReportado": "👤 Usuario Reportado:"
+        "razón": "📃 Razón:"
     },
     "alarm": {
         "activado": "",
@@ -35,17 +31,11 @@
         "exito": "¡El martillo del ban ha acertado exitosamente!"
     },
     "baninfo": {
-        "footer": "",
         "hasta": "",
-        "ninguna": "",
         "noDefinido": "",
-        "noForceban": "Ese usuario no está en el forceban.",
         "prueba": "",
-        "pruebas": "",
         "razón": "Razón",
-        "tiempo": "",
-        "título": "",
-        "usuario": "Usuario"
+        "título": ""
     },
     "blockword": {
         "correcto": "Abra el siguiente archivo para ver la lista de palabras bloquedas.",
@@ -141,23 +131,18 @@
         "exito": ""
     },
     "detect": {
-        "description": "",
         "footer": "",
-        "noPeligro": "",
         "usuarios": ""
     },
     "filter": {
-        "activadoMalicioso": "",
         "ayudaAutor": "",
         "ayudaDes": "",
         "comandosBlockedWord": "",
         "comandosDefault": "",
         "comandosField": "",
-        "desactivadoMalicioso": "",
         "doc1": "",
         "doc2": "",
         "doc3": "",
-        "errorPermisos": "",
         "fimágenes": "",
         "finvitaciones": "",
         "fiploggers": "",
@@ -182,9 +167,7 @@
         "unIgnoreRl": ""
     },
     "forceban": {
-        "baneando": "",
-        "completado": "",
-        "completadoUnban": ""
+        "completado": ""
     },
     "genpassword": {
         "contraseña": "Contraseña",
@@ -306,15 +289,10 @@
         "exito": ""
     },
     "notification": {
-        "activado": "",
         "desactivado": "",
-        "errorNoActivado": "",
         "noArgsAuthor": "",
-        "noArgsDes": "",
         "noArgsField": "",
-        "noArgsFooter": "",
-        "sactivado": "",
-        "sdesactivado": ""
+        "sactivado": ""
     },
     "ping": {
         "cargando": "Cargando..."
@@ -338,31 +316,19 @@
         "success": ""
     },
     "rechazar": {
-        "md": "",
         "rechazado": ""
     },
     "report": {
-        "autor": "",
         "confirmación": "",
-        "errorAntiguedad": "",
         "errorArgs": "",
-        "errorId": "",
         "errorIpLogger": "",
-        "errorPrueba": "",
         "errorRazon": "",
-        "errorTag": "",
         "errorTiempo": "",
-        "estado": "",
         "id": "",
-        "mandando": "",
         "nuevoReporte": "",
-        "prueba": "",
         "razón": "",
-        "reportadoPor": "",
         "reporteGenerado": "",
-        "reporteTítulo": "",
-        "usuario": "",
-        "verificación": ""
+        "usuario": ""
     },
     "reportbug": {
         "args": "",
@@ -371,9 +337,6 @@
         "error": "Para poder atender tu reporte debes entrar a [nuestro servidor](https://discordsafe.com/discord) y usar el comando allí.",
         "errorTiempo": "Se acabó el tiempo.",
         "mandando": "Mandando..."
-    },
-    "server": {
-        "moreEmojis": ""
     },
     "setlang": {
         "establecido": "",
@@ -387,10 +350,8 @@
         "establecido": ""
     },
     "settings": {
-        "ajalertas": "",
         "ajanuncios": "Ajustes de los anuncios",
         "ajfiltros": "",
-        "ajignorados": "Ajustes de los ignorados",
         "ajlang": "Ajustes del lenguaje",
         "ajlogs": "Ajustes de los logs",
         "ajpalabras": "Ajustes de las palabras bloqueadas",
@@ -399,9 +360,7 @@
         "ajverificacion": "Ajustes de la verificación",
         "canallogs": "Canal logs",
         "comandos": "Comandos",
-        "desalertas": "",
         "desfiltros": "",
-        "designorados": "Para configurar los ignorados use los comandos que se muestran abajo.",
         "deslang": "Para configurar el lenguaje use los comandos que se muestran abajo.",
         "deslogs": "Para configurar los logs use los comandos que se muestran abajo.",
         "despalabras": "Para configurar las palabras bloquedas use los comandos que se muestran abajo.",
@@ -410,9 +369,7 @@
         "dessugerencias": "",
         "desverificacion": "Para configurar la verificación use los comandos que se muestran abajo.",
         "estado": "Estado",
-        "falertas": "",
         "fidioma": "Idioma",
-        "fignorados": "Ignorados / Whitelist",
         "finvitaciones": "",
         "floggers": "",
         "flogs": "Logs",
@@ -422,7 +379,6 @@
         "fsugerencias": "",
         "fverificacion": "Verificación",
         "idioma": "Idioma",
-        "ignorados": "Ignorados",
         "ninguno": "Ninguno.",
         "panel": "Panel de configuración de {{guild]]",
         "panelTitle": "",
@@ -517,7 +473,6 @@
         "statsQuestion": ""
     },
     "support": {
-        "confirmación": "¿Estás seguro de pedir soporte?\nPara confirmar responda: Sí.\n__**Si no es un tema urgente serás sancionado.**__",
         "correcto": "Se ha notificado a los agentes que ha solicitado ayuda, se le atenderá lo antes posible."
     },
     "topbots": {
@@ -645,15 +600,10 @@
         "userEmbedOne": ""
     },
     "whitelist": {
-        "añadido": "",
         "correcto": "Abra el siguiente archivo para ver la whitelist.",
-        "errorArgs": "",
         "errorNaN": "",
-        "errorNadie": "",
         "errorNoRaider": "",
-        "errorNoWhitelist": "",
         "quitado": "",
-        "reset": "",
         "servidor": ""
     }
 }

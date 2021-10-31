@@ -1,12 +1,8 @@
 {
     "aceptar": {
-        "estado": "📊 Estat:",
         "id": "🆔 ID:",
-        "md": "El seu informe a {{user}} va ser acceptat.",
         "prueba": "🔗 Prova:",
-        "razón": "📃 Raó:",
-        "aceptado": "✅ Acceptat per: ",
-        "usuarioReportado": "👤 Usuari Reportat:"
+        "aceptado": "✅ Acceptat per: "
     },
     "approve": {
         "aprobado": " ha estat aprovat.",
@@ -37,17 +33,11 @@
         "desactivado": "La manera alarma ha estat desactivat."
     },
     "baninfo": {
-        "ninguna": "Cap.",
         "noDefinido": "No definit.",
-        "noForceban": "Aquest usuari no està en el forceban.",
         "prueba": "Prova.",
-        "pruebas": "Proves",
         "razón": "Raó",
-        "tiempo": "Temps",
         "título": "Informació de l'baneo",
-        "usuario": "Usuari",
-        "footer": "Podeu ignorar a aquest membre de l'forceban usant d.whitelist add <ID>.",
-        "hasta": "Fins al dia {{time}}"
+        "footer": "Podeu ignorar a aquest membre de l'forceban usant d.whitelist add <ID>."
     },
     "blockword": {
         "correcto": "Obriu el següent arxiu per veure la llista de paraules bloquejades.",

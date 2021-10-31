@@ -1,12 +1,8 @@
 {
     "aceptar": {
-        "aceptado": "✅ Aceptado por: ",
         "estado": "📊 Estado:",
-        "id": "🆔 ID:",
         "md": "",
-        "prueba": "🔗 Prueba:",
-        "razón": "📃 Razón:",
-        "usuarioReportado": "👤 Usuario Reportado:"
+        "razón": "📃 Razón:"
     },
     "alarm": {
         "activado": "",
@@ -35,17 +31,11 @@
         "exito": ""
     },
     "baninfo": {
-        "footer": "",
         "hasta": "",
-        "ninguna": "",
         "noDefinido": "",
-        "noForceban": "",
         "prueba": "",
-        "pruebas": "",
         "razón": "",
-        "tiempo": "",
-        "título": "",
-        "usuario": ""
+        "título": ""
     },
     "blockword": {
         "correcto": "",
@@ -141,23 +131,18 @@
         "exito": ""
     },
     "detect": {
-        "description": "",
         "footer": "",
-        "noPeligro": "Não se encontrou nenhum usuário perigoso, muito bem!",
         "usuarios": ":eyes: {{num}} usuários detectados."
     },
     "filter": {
-        "activadoMalicioso": "Se ha activado correctamente el filtro contra el contenido malicioso.",
         "ayudaAutor": "Panel de ayuda sobre filtros",
         "ayudaDes": "",
         "comandosBlockedWord": "",
         "comandosDefault": "",
         "comandosField": "Comandos",
-        "desactivadoMalicioso": "Se ha desactivado correctamente el filtro contra el contenido malicioso.",
         "doc1": "",
         "doc2": "",
         "doc3": "",
-        "errorPermisos": "",
         "fimágenes": "",
         "finvitaciones": "",
         "fiploggers": "",
@@ -182,9 +167,7 @@
         "unIgnoreRl": ""
     },
     "forceban": {
-        "baneando": "",
-        "completado": "",
-        "completadoUnban": ""
+        "completado": ""
     },
     "genpassword": {
         "contraseña": "",
@@ -306,15 +289,10 @@
         "exito": ""
     },
     "notification": {
-        "activado": "",
         "desactivado": "",
-        "errorNoActivado": "",
         "noArgsAuthor": "",
-        "noArgsDes": "",
         "noArgsField": "Estado",
-        "noArgsFooter": "",
-        "sactivado": "",
-        "sdesactivado": ""
+        "sactivado": ""
     },
     "ping": {
         "cargando": ""
@@ -338,31 +316,19 @@
         "success": ""
     },
     "rechazar": {
-        "md": "",
         "rechazado": ""
     },
     "report": {
-        "autor": "",
         "confirmación": "",
-        "errorAntiguedad": "",
         "errorArgs": "**Error** escríbalo como en el siguiente ejemplo:\n\n`.reportar Usuario|ID|Razón|Prueba`\n❗Es necesario poner pruebas para que el reporte sea aceptado.\n📍Recomendamos poner la prueba en **imgur**: `https://imgur.com/upload`",
-        "errorId": "",
         "errorIpLogger": "",
-        "errorPrueba": "",
         "errorRazon": "",
-        "errorTag": "",
         "errorTiempo": "<:nopesafe:835956644965908483> | Se acabó el tiempo.",
-        "estado": "📊Estado",
         "id": "🆔ID:",
-        "mandando": "",
         "nuevoReporte": "",
-        "prueba": "🔗Prova:",
         "razón": "📃Razão:",
-        "reportadoPor": "",
         "reporteGenerado": "Su reporte fue generado.",
-        "reporteTítulo": "🗃Reporte",
-        "usuario": "👤Usuário Reportado:",
-        "verificación": ""
+        "usuario": "👤Usuário Reportado:"
     },
     "reportbug": {
         "args": "",
@@ -371,9 +337,6 @@
         "error": "",
         "errorTiempo": "",
         "mandando": ""
-    },
-    "server": {
-        "moreEmojis": ""
     },
     "setlang": {
         "establecido": "",
@@ -387,10 +350,8 @@
         "establecido": ""
     },
     "settings": {
-        "ajalertas": "",
         "ajanuncios": "Configuração dos anúncios",
         "ajfiltros": "",
-        "ajignorados": "",
         "ajlang": "Configurações de idioma",
         "ajlogs": "",
         "ajpalabras": "",
@@ -399,9 +360,7 @@
         "ajverificacion": "",
         "canallogs": "",
         "comandos": "Comandos",
-        "desalertas": "",
         "desfiltros": "",
-        "designorados": "",
         "deslang": "",
         "deslogs": "",
         "despalabras": "",
@@ -410,9 +369,7 @@
         "dessugerencias": "",
         "desverificacion": "",
         "estado": "Estado",
-        "falertas": "",
         "fidioma": "",
-        "fignorados": "Ignorados / Whitelist",
         "finvitaciones": "",
         "floggers": "",
         "flogs": "",
@@ -422,7 +379,6 @@
         "fsugerencias": "",
         "fverificacion": "",
         "idioma": "",
-        "ignorados": "",
         "ninguno": "Nenhum.",
         "panel": "",
         "panelTitle": "",
@@ -517,7 +473,6 @@
         "statsQuestion": ""
     },
     "support": {
-        "confirmación": "**¿Você está seguro de pedir soporte?** \nPara confirmar responda: Sim.\n__**Caso não seja um tema urgente, você será sancionado.**__",
         "correcto": "Se ha notificado a los agentes que ha solicitado ayuda, se le atenderá lo antes posible."
     },
     "topbots": {
@@ -645,15 +600,10 @@
         "userEmbedOne": ""
     },
     "whitelist": {
-        "añadido": "Agregado à whitelist",
         "correcto": "",
-        "errorArgs": "",
         "errorNaN": "",
-        "errorNadie": "",
         "errorNoRaider": "",
-        "errorNoWhitelist": "",
         "quitado": "",
-        "reset": "",
         "servidor": ""
     }
 }

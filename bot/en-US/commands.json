@@ -1,12 +1,8 @@
 {
     "aceptar": {
-        "aceptado": "✅ Accepted by: ",
         "estado": "📊 Status:",
-        "id": "🆔 ID:",
         "md": "Your report to {{user}} was accepted.",
-        "prueba": "🔗 Proof:",
-        "razón": "📃 Reason:",
-        "usuarioReportado": "👤 Reported User:"
+        "razón": "📃 Reason:"
     },
     "alarm": {
         "activado": "Alarm mode has been enabled, new users are not allowed to join in the server, use the command again to disable it.",
@@ -37,17 +33,11 @@
         "reason": "You have been banned in **{{guild}}** because: **{{reason}}**."
     },
     "baninfo": {
-        "footer": "You can ignore this member from the forceban using d.whitelist add <ID>.",
         "hasta": "Until the day {{time}}",
-        "ninguna": "None.",
         "noDefinido": "Undefined.",
-        "noForceban": "That user is not in the forceban.",
         "prueba": "Proof.",
-        "pruebas": "Proof",
         "razón": "Reason",
-        "tiempo": "Time",
-        "título": "Ban info",
-        "usuario": "User"
+        "título": "Ban info"
     },
     "blockword": {
         "correcto": "Open the following file to view the list of blocked words.",
@@ -154,7 +144,6 @@
         "con": "Configuration",
         "inf": "Information",
         "mod": "Moderation",
-        "rep": "Reports",
         "uti": "Utility",
         "ver": "Verification",
         "msgcommands": "Commands via message",
@@ -170,9 +159,7 @@
         "reason": "You have been deafened in **{{guild}}** for: **{{reason}}**."
     },
     "detect": {
-        "description": "These users have been classified as malicious, the date they will be removed, the reason and the evidence are shown.\nThese users **can be ignored ** from the __forceban__ using `d.ignore ''.",
         "footer": "discordsafe.com",
-        "noPeligro": "No dangerous users found, ¡great!",
         "usuarios": ":eyes: {{num}} detected users."
     },
     "filter": {
@@ -208,9 +195,7 @@
         "unIgnoreRl": "The role <@&{{role}}> has been __no longer ignored__ on the **{{filter}}** filter."
     },
     "forceban": {
-        "baneando": "Banning {{number}} dangerous users and unbanning deleted users from the forceban, have patience this actions will take some minutes.",
-        "completado": "Successfully banned **{{number}}** dangerous users.",
-        "completadoUnban": "Successfully unbanned **{{number}}** users removed from the forceban."
+        "completado": "Successfully banned **{{number}}** dangerous users."
     },
     "genpassword": {
         "contraseña": "Password",
@@ -358,15 +343,10 @@
         "reason_time": "You have been muted in **{{guild}}** for **{{time}}** for: **{{reason}}**."
     },
     "notification": {
-        "activado": "enabled",
         "desactivado": "disabled",
-        "errorNoActivado": "You can't disable something that doesn't exist, it would be like leaving a girlfriend you don't have.",
         "noArgsAuthor": "Configuration of notifications in {{server}}",
-        "noArgsDes": "To notify the server owner when a possibly malicious user joins, use `{{prefix}}{{comando}} {{uso}}`. A user might be seen as malicious for any one of the following: raid, spam bot or scams.",
         "noArgsField": "Status",
-        "noArgsFooter": "If something fails, check that you have written everything correctly",
-        "sactivado": "The notifications have been successfully enabled.",
-        "sdesactivado": "The notifications have been successfully disabled."
+        "sactivado": "The notifications have been successfully enabled."
     },
     "ping": {
         "cargando": "Loading…"
@@ -413,31 +393,19 @@
         "success": "{{emoji}} The reason of the case `{{caseid}}` has been set to `{{reason}}`."
     },
     "rechazar": {
-        "md": "Your report to {{user}} was rejected with the reason: `{{razón}}`",
         "rechazado": "❌Rejected by:"
     },
     "report": {
-        "autor": "📤 Author",
         "confirmación": "Are you sure to send the report?",
-        "errorAntiguedad": "**Error**, Your account must be more than 10 days old.",
         "errorArgs": "** Error **, write it as in the following example:\n\n` {{prefix}} report User|ID|Reason|Proof`\n❗ Evidence is required for the report to be accepted.\n📍 We recommend using ** imgur ** to send us proof: ` https://imgur.com/upload`",
-        "errorId": "**Error**, ID is invalid, try again.",
         "errorIpLogger": "Sorry, your report contains an IPLogger we are not idiots crack.",
-        "errorPrueba": "**Error**, The proof must include a link.",
         "errorRazon": "**Error**, Reason is too short.",
-        "errorTag": "**Error**, The user must include the discriminator or tag, example: ` Vicente#0001`.",
         "errorTiempo": "Time is over.",
-        "estado": "📊 Status",
         "id": "🆔 ID:",
-        "mandando": "Sending report…",
         "nuevoReporte": "¡New report!",
-        "prueba": "🔗 Proof:",
         "razón": "📃 Reason:",
-        "reportadoPor": "Reported by: ",
         "reporteGenerado": "Your report was succesfully sent, we will answer you as soon as possible.",
-        "reporteTítulo": "Sent Report",
         "usuario": "👤 Reported User:",
-        "verificación": "In verification",
         "enviado": "{{emoji}} Report sended!"
     },
     "reportbug": {
@@ -469,10 +437,8 @@
         "establecido": "Prefix has been set to "
     },
     "settings": {
-        "ajalertas": "Raiders join notification settings",
         "ajanuncios": "Settings of the announcements",
         "ajfiltros": "Filters settings",
-        "ajignorados": "Ignored settings",
         "ajlang": "Settings of the language",
         "ajlogs": "Logs settings",
         "ajpalabras": "Blocked words settings",
@@ -481,9 +447,7 @@
         "ajverificacion": "Verification settings",
         "canallogs": "Logs channel",
         "comandos": "Commands",
-        "desalertas": "Notifies the guild owner when a malicious user present in our forceban joins the server. To set it up use the command provided below.",
         "desfiltros": "Filters allow you to protect your server to **prevent malicious content from being sent** and keep your channels clean.",
-        "designorados": "To set up ignored use the commands provided below.",
         "deslang": "To set up language use the commands provided below.",
         "deslogs": "To set up logs use the commands provided below.",
         "despalabras": "To set up blocked words use the commands provided below.",
@@ -492,9 +456,7 @@
         "dessugerencias": "Receive feedback of your users trough completely customizable suggestions.",
         "desverificacion": "To set up verification use the commands provided below.",
         "estado": "Status",
-        "falertas": "Raider join notification",
         "fidioma": "Language",
-        "fignorados": "Whitelist",
         "finvitaciones": "Invites filter",
         "floggers": "Iploggers filter",
         "flogs": "Logs",
@@ -504,7 +466,6 @@
         "fsugerencias": "Suggestions",
         "fverificacion": "Verification",
         "idioma": "Language",
-        "ignorados": "Ignored",
         "ninguno": "None.",
         "panel": "Settings panel of {{guild}}",
         "panelTitle": "Step by step set up guide",
@@ -608,7 +569,6 @@
         "deniedFooter": "Denied"
     },
     "support": {
-        "confirmación": "**Are you sure to ask for support?**\n__**If it is not an urgent matter, you will be sanctioned. **__",
         "correcto": "Support has been notified that you have requested help, you will be served as soon as possible, please be patient."
     },
     "topbots": {
@@ -743,15 +703,10 @@
         "warnings_plural": "{{count}} warnings"
     },
     "whitelist": {
-        "añadido": "Added to whitelist: {{user}}",
         "correcto": "Open the following file to see the whitelist.",
-        "errorArgs": "**Error**, you have to add the ID of an user.",
         "errorNaN": "**Error**, the argument must be an User ID.",
-        "errorNadie": "**Error**, the whitelist is empty.",
         "errorNoRaider": "**Error**, you cannot whitelist a user who is not classified as malicious.",
-        "errorNoWhitelist": "**Error**, that user is not on the server whitelist.",
         "quitado": "The user {{user}} has been eliminated from the whitelist.",
-        "reset": "The whitelist have been successfully reset.",
         "servidor": "Server Whitelist {{server}}"
     },
     "emoji": {
