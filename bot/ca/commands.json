@@ -1,52 +1,49 @@
 {
-  "approve": {
-    "aprobado": " ha estat aprovat.",
-    "errorNoConfig": "No està configurada la verificació. Per configurar-la feu servir `d.verification`",
-    "errorNoVerificado": "L'usuari no té el rol de No Verificat. Per configurar la verificació faci servir `d.verification`",
-    "errorRoles": "Heu de configurar primer el rol No Verificat i el rol Usuari. Per configurar-usi `d.verification`",
-    "all": "Tots els usuaris han estat aprovats.",
-    "errorArgs": "Aquesta comanda necessita arguments, **Es dirà:** {{prefijo}}{{commandName}} @Usuario/IDUsuario/all\n:bulb: **Potser vulgui utilitzar:** `{{prefix}}suggestions approve`",
-    "errorNoRoles": "Els rols que ha configurat per a la verificació no existeixen o no estic per sobre d'ells. Per configurar la verificació faci servir `d.verification`"
-  },
-  "avatar": {
-    "avatar": "Avatar de {{user}}",
-    "noAvatar": "**Error**, L'usuari {{user}} no té avatar."
-  },
-  "ban": {
-    "reason": "Has estat banejat en **{{guild}}** per: **{{reason}}**.",
-    "changelog": "{{reason}}.\nMod: {{modTag}} ({{modID}})",
-    "errorGuild": "**Error**, l'usuari no està al servidor.\nUtilitza la comanda `hackban` per banearlo.",
-    "errorNoBan": "**Error**, no puc banear a l'usuari esmentat.",
-    "errorUser": "**Error**, no es va trobar a l'usuari, provi de nou.",
-    "exito": "{{emoji}} **{{memberTag}} va ser banejat**",
-    "autor": "**Error**, no et pots banear a tu mateix.",
-    "errorArgs": "**Error**, ha d'esmentar, indicar la ID o el nom d'un usuari.",
-    "errorNobanneable": "**Error**, no puc banear a l'usuari."
-  },
-  "alarm": {
-    "activado": "La manera alarma ha estat activat, es prohibeix l'entrada de nous usuaris, torneu a fer servir la comanda per desactivar-lo.",
-    "desactivado": "La manera alarma ha estat desactivat."
-  },
-  "baninfo": {
-    "título": "Informació de l'baneo"
-  },
-  "blockword": {
-    "correcto": "Obriu el següent arxiu per veure la llista de paraules bloquejades.",
-    "doc": "Guia de configuració",
-    "embedAuthor": "Paraules bloquejades",
-    "embedDes": "Aquesta característica li permet bloquejar paraules.",
-    "embedField1": "Ajuda",
-    "embedRAuthor": "Reinicialitzar paraules bloquejades",
-    "embedRDescription": "**Aquesta acció és irreversible.**\nEstà segur/a?",
-    "errorNoArgs": "**Error**, ha d'afegir un argument.",
-    "guía": "Guia de configuració",
-    "ignoreCh": "El canal <#{{channel}}> ha estat __ignorat__ reeixidament.",
-    "ignoreErrorArg": "**Error**, ha d'esmentar el canal o rol que desitja ignorar.",
-    "doc2": "Des de la [documentació](https://docs.discordsafe.com/docs/config/blockedwords) podràs accedir a una guia de configuració.",
-    "embedField2": "Si necessites ajuda revisa nostra [guia de configuració](https://docs.discordsafe.com/docs/config/blockedwords) o pregunta en el nostre [servidor](https://discordsafe.com/discord).",
-    "embedField3": "Comandos",
-    "embedField4": "`blockword add` - Afegeix una o diverses paraules.\n`blockword remove` - Quitació una o diverses paraules.\n`blockword add pack` - Bloqueja un grup de paraules preseleccionades.\n`blockword remove pack` - Desbloqueja un grup de paraules preseleccionades.\n`blockword list` - Mostra la llista de les paraules bloquejades en el servidor.\n`blockword ignore [#Canal/@Rol]` - Ignora un canal o rol de les paraules bloquejades.\n`blockword reset` - Quitació totes les paraules.",
-    "errorNoPalabras": "**Error**, per a llevar una paraula primer ha de bloquejar una.",
-    "errorPack": "**Error**, aquest pack no existeix."
-  }
+    "approve": {
+        "aprobado": " ha estat aprovat.",
+        "errorNoConfig": "No està configurada la verificació. Per configurar-la feu servir `d.verification`",
+        "errorNoVerificado": "L'usuari no té el rol de No Verificat. Per configurar la verificació faci servir `d.verification`",
+        "errorRoles": "Heu de configurar primer el rol No Verificat i el rol Usuari. Per configurar-usi `d.verification`",
+        "all": "Tots els usuaris han estat aprovats.",
+        "errorArgs": "Aquesta comanda necessita arguments, **Es dirà:** {{prefijo}}{{commandName}} @Usuario/IDUsuario/all\n:bulb: **Potser vulgui utilitzar:** `{{prefix}}suggestions approve`",
+        "errorNoRoles": "Els rols que ha configurat per a la verificació no existeixen o no estic per sobre d'ells. Per configurar la verificació faci servir `d.verification`"
+    },
+    "avatar": {
+        "avatar": "Avatar de {{user}}",
+        "noAvatar": "**Error**, L'usuari {{user}} no té avatar."
+    },
+    "ban": {
+        "reason": "Has estat banejat en **{{guild}}** per: **{{reason}}**.",
+        "changelog": "{{reason}}.\nMod: {{modTag}} ({{modID}})",
+        "errorGuild": "**Error**, l'usuari no està al servidor.\nUtilitza la comanda `hackban` per banearlo.",
+        "errorNoBan": "**Error**, no puc banear a l'usuari esmentat.",
+        "errorUser": "**Error**, no es va trobar a l'usuari, provi de nou.",
+        "exito": "{{emoji}} **{{memberTag}} va ser banejat**",
+        "autor": "**Error**, no et pots banear a tu mateix.",
+        "errorArgs": "**Error**, ha d'esmentar, indicar la ID o el nom d'un usuari.",
+        "errorNobanneable": "**Error**, no puc banear a l'usuari."
+    },
+    "alarm": {
+        "activado": "La manera alarma ha estat activat, es prohibeix l'entrada de nous usuaris, torneu a fer servir la comanda per desactivar-lo.",
+        "desactivado": "La manera alarma ha estat desactivat."
+    },
+    "blockword": {
+        "correcto": "Obriu el següent arxiu per veure la llista de paraules bloquejades.",
+        "doc": "Guia de configuració",
+        "embedAuthor": "Paraules bloquejades",
+        "embedDes": "Aquesta característica li permet bloquejar paraules.",
+        "embedField1": "Ajuda",
+        "embedRAuthor": "Reinicialitzar paraules bloquejades",
+        "embedRDescription": "**Aquesta acció és irreversible.**\nEstà segur/a?",
+        "errorNoArgs": "**Error**, ha d'afegir un argument.",
+        "guía": "Guia de configuració",
+        "ignoreCh": "El canal <#{{channel}}> ha estat __ignorat__ reeixidament.",
+        "ignoreErrorArg": "**Error**, ha d'esmentar el canal o rol que desitja ignorar.",
+        "doc2": "Des de la [documentació](https://docs.discordsafe.com/docs/config/blockedwords) podràs accedir a una guia de configuració.",
+        "embedField2": "Si necessites ajuda revisa nostra [guia de configuració](https://docs.discordsafe.com/docs/config/blockedwords) o pregunta en el nostre [servidor](https://discordsafe.com/discord).",
+        "embedField3": "Comandos",
+        "embedField4": "`blockword add` - Afegeix una o diverses paraules.\n`blockword remove` - Quitació una o diverses paraules.\n`blockword add pack` - Bloqueja un grup de paraules preseleccionades.\n`blockword remove pack` - Desbloqueja un grup de paraules preseleccionades.\n`blockword list` - Mostra la llista de les paraules bloquejades en el servidor.\n`blockword ignore [#Canal/@Rol]` - Ignora un canal o rol de les paraules bloquejades.\n`blockword reset` - Quitació totes les paraules.",
+        "errorNoPalabras": "**Error**, per a llevar una paraula primer ha de bloquejar una.",
+        "errorPack": "**Error**, aquest pack no existeix."
+    }
 }
