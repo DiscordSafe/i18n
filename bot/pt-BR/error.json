@@ -1,15 +1,13 @@
 {
-  "argumentos": "",
-  "bloqueado": "",
-  "botPerms": "",
-  "comandoError": "",
-  "cooldown": "",
-  "desactivado": "",
-  "guild": "",
-  "idioma": "",
-  "nsfw": "",
-  "ownerOnly": "",
-  "palabra": "",
-  "permisos": "",
-  "servidorOnly": ""
+    "argumentos": "",
+    "bloqueado": "",
+    "comandoError": "",
+    "cooldown": "",
+    "desactivado": "",
+    "guild": "",
+    "idioma": "",
+    "nsfw": "",
+    "ownerOnly": "",
+    "palabra": "",
+    "servidorOnly": ""
 }

@@ -1,42 +1,39 @@
 {
-  "dm": "*Error**, aquest comando no es pot usar en missatges directes.",
-  "argumentos": "Aquest comando necessita arguments, **Usi:** {{prefix}}{{commandName}} ",
-  "guild": "No pots usar aquest comando fora d'un servidor.",
-  "palabra": "Aquesta paraula està bloquejada.",
-  "idioma": "L'idioma del servidor és anglès, per a canviar-lo usi ",
-  "nsfw": "Aquest comando és només per a canals NSFW.",
-  "bloqueado": "Se t'ha prohibit el meu ús, estàs bloquejat jaja.",
-  "servidorOnly": "No pots usar aquest comando.",
-  "desactivado": "Aquest comando només està disponible com a comando de barra diagonal, usa `/{{commandName}}` per a usar-ho.",
-  "userPerms": "No tens suficients permisos per a usar aquest comando.",
-  "userPerms_detailed_other": "No tens suficients permisos per a usar aquest comando, necessites els permisos de **{{perm}}**.",
-  "botPerms_one": "No tinc suficients permisos per a usar aquest comando, necessito el permís de **{{perm}}**.",
-  "ownerOnly": "Aquest comando només pot ser executat per l'amo del servidor.",
-  "slashy": {
-    "string": {
-      "maxLength": "Ha d'introduir un text més curt, menor de {{max}} caràcters.",
-      "minLength": "Ha d'introduir un text més llarg, major de {{min}} caràcters."
+    "dm": "*Error**, aquest comando no es pot usar en missatges directes.",
+    "argumentos": "Aquest comando necessita arguments, **Usi:** {{prefix}}{{commandName}} ",
+    "guild": "No pots usar aquest comando fora d'un servidor.",
+    "palabra": "Aquesta paraula està bloquejada.",
+    "idioma": "L'idioma del servidor és anglès, per a canviar-lo usi ",
+    "nsfw": "Aquest comando és només per a canals NSFW.",
+    "bloqueado": "Se t'ha prohibit el meu ús, estàs bloquejat jaja.",
+    "servidorOnly": "No pots usar aquest comando.",
+    "desactivado": "Aquest comando només està disponible com a comando de barra diagonal, usa `/{{commandName}}` per a usar-ho.",
+    "userPerms": "No tens suficients permisos per a usar aquest comando.",
+    "userPerms_detailed_other": "No tens suficients permisos per a usar aquest comando, necessites els permisos de **{{perm}}**.",
+    "botPerms_one": "No tinc suficients permisos per a usar aquest comando, necessito el permís de **{{perm}}**.",
+    "ownerOnly": "Aquest comando només pot ser executat per l'amo del servidor.",
+    "slashy": {
+        "string": {
+            "maxLength": "Ha d'introduir un text més curt, menor de {{max}} caràcters.",
+            "minLength": "Ha d'introduir un text més llarg, major de {{min}} caràcters."
+        },
+        "user": {
+            "acceptSelf": "No pots usar-te a tu mateix com a paràmetre.",
+            "acceptUser": "No s'accepten bots com a paràmetre, només usuaris.",
+            "acceptDeveloper": "No s'accepten als desenvolupadors del bot com a paràmetre.",
+            "acceptBot": "No s'accepten usuaris com a paràmetre, només bots."
+        },
+        "integer": {
+            "min": "El número no ha de ser menor a {{min}}.",
+            "max": "El número no ha de ser major a {{max}}.",
+            "invalid": "Número invàlid."
+        },
+        "role": {
+            "highest": "El rol està per sobre del teu rol més alt, no pots usar-lo."
+        }
     },
-    "user": {
-      "acceptSelf": "No pots usar-te a tu mateix com a paràmetre.",
-      "acceptUser": "No s'accepten bots com a paràmetre, només usuaris.",
-      "acceptDeveloper": "No s'accepten als desenvolupadors del bot com a paràmetre.",
-      "acceptBot": "No s'accepten usuaris com a paràmetre, només bots."
-    },
-    "integer": {
-      "min": "El número no ha de ser menor a {{min}}.",
-      "max": "El número no ha de ser major a {{max}}.",
-      "invalid": "Número invàlid."
-    },
-    "channel": {
-      "invalidType": "No s'accepten canals de **{{type}}**."
-    },
-    "role": {
-      "highest": "El rol està per sobre del teu rol més alt, no pots usar-lo."
-    }
-  },
-  "comandoError": "Ha ocorregut un error en executar el comando.\nS'ha notificat als desenvolupadors.\nSi necessita ajuda pregunti en el nostre servidor de suport, https://discordsafe.com/discord",
-  "cooldown": "Deus que esperar {{segundos}} segon/s per a tornar a usar aquest comando.",
-  "userPerms_detailed_one": "No tens suficients permisos per a usar aquest comando, necessites el permís de **{{perm}}**.",
-  "botPerms_other": "No tinc suficients permisos per a usar aquest comando, necessito els permisos de **{{perm}}**."
+    "comandoError": "Ha ocorregut un error en executar el comando.\nS'ha notificat als desenvolupadors.\nSi necessita ajuda pregunti en el nostre servidor de suport, https://discordsafe.com/discord",
+    "cooldown": "Deus que esperar {{segundos}} segon/s per a tornar a usar aquest comando.",
+    "userPerms_detailed_one": "No tens suficients permisos per a usar aquest comando, necessites el permís de **{{perm}}**.",
+    "botPerms_other": "No tinc suficients permisos per a usar aquest comando, necessito els permisos de **{{perm}}**."
 }
