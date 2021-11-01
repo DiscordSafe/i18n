@@ -1,227 +1,227 @@
 {
-    "channelCreate": {
-        "desc": "<#{{canal}}>",
-        "title": "Canal creado",
-        "type": "Tipo"
-    },
-    "channelDelete": {
-        "desc": "{{canal}}",
-        "title": "Canal eliminado",
-        "type": "Tipo"
-    },
-    "channelUpdate": {
-        "coola": "Ratelimit (Antes)",
-        "coolh": "Ratelimit (Después)",
-        "nombrea": "Nombre (Antes)",
-        "nombreh": "Nombre (Después)",
-        "none": "Ninguno.",
-        "nsfwa": "NSFW (Antes)",
-        "nsfwh": "NSFW (Después)",
-        "temaa": "Tema (Antes)",
-        "temah": "Tema (Después)",
-        "title": "Canal actualizado",
-        "typea": "Tipo (Antes)",
-        "typeh": "Tipo (Después)"
-    },
-    "guildBanAdd": {
-        "banned": "Miembro baneado",
-        "mod": "Moderador",
-        "ningunaRazón": "Ninguna",
-        "razón": "Razón"
-    },
-    "guildBanRemove": {
-        "mod": "Moderador",
-        "ningunaRazón": "Ninguna",
-        "razón": "Razón",
-        "unbanned": "Miembro desbaneado"
-    },
-    "guildMemberAdd": {
-        "badges": "Insignias",
-        "bot": "Bot",
-        "captchaErrorIntentos": "**Ha alcanzado el límite de intentos**, no has completado la verificación así que serás expulsado.",
-        "captchaErrorTiempo": "**Se ha acabado el tiempo**, no has pasado la verificación así que tendrás que ser expulsado.",
-        "captchaField1": "Antes de continuar, debes responder este **captcha**, hazlo para poder acceder al servidor. Tienes **{{intentos}} intentos** y **{{minutos}} minutos** para completarlo.",
-        "captchaField2": "Esto es para proteger el servidor de los bots de spam y multicuentas.",
-        "captchaFooter": "Invítame, discordsafe.com/invite",
-        "captchaIntento": "**Error**, le quedan {{intentos}} intentos.",
-        "captchaTitle": "Bivenvenid@ a {{server}}",
-        "captchacDes": "Ya tienes acceso a {{server}}",
-        "captchacFooter": "¿Quieres invitarme a tu servidor? discordsafe.com/invite",
-        "captchacTitle": "¡Gracias!",
-        "creación": "Creación",
-        "expulsado": "Has sido expulsado del servidor **{{server}}** porque su cuenta no supera el mínimo de **{{age}}** días.",
-        "expulsadoRazón": "Mínimo de días de la creación de la cuenta.",
-        "kick": "Verificación no completada.",
-        "nuevoUsuario": "Nuevo usuario"
-    },
-    "guildMemberRemove": {
-        "badges": "Insignias",
-        "bot": "Bot",
-        "creación": "Creación",
-        "usuarioSalio": "Usuario salió"
-    },
-    "guildMemberUpdate": {
-        "after": "Después:",
-        "before": "Antes:",
-        "boostDesc": "<@{{memberID}}> gracias por apoyar este servidor con tu boost. <3",
-        "boostTitle": "¡Gracias por tu boost!",
-        "by": "Por",
-        "name": "Nombre de usuario cambiado",
-        "nickname": "Apodo actualizado",
-        "roladded": "Rol agregado",
-        "rolremoved": "Rol retirado",
-        "unboostDesc": "<@{{memberID}}> gracias por haber apoyado este servidor, ojalá volverte a ver.",
-        "unboostTitle": "Se ha acabado un boost :(",
-        "autopremium": {
-            "title": "¡Has obtenido premium!",
-            "title_plural": "¡Has obtenido {{count}} premiums!",
-            "description": "Muchas gracias por apoyar mi desarrollo, contribuyes a que pueda seguir manteniéndome estable y actualizándome con mejores características.\n- Los desarrolladores <3.\n\nAhora solo tienes que vincular el premium a un servidor usando `/premium`."
-        }
-    },
-    "guildUpdate": {
-        "afkcha": "Canal AFK (Antes)",
-        "afkchh": "Canal AFK (Después)",
-        "afkta": "Tiempo AFK (Antes)",
-        "afkth": "Tiempo AFK (Después)",
-        "desca": "Descripción (Antes)",
-        "desch": "Descripción (Después)",
-        "feaa": "Características (Antes)",
-        "feah": "Características (Después)",
-        "levelDowndesc": "El servidor ha bajado ha **{{level}}**.",
-        "levelDowntitle": "Bajada de nivel",
-        "levelUpdesc": "El servidor ha subido a **{{level}}**.",
-        "levelUptitle": "Subida de nivel",
-        "namea": "Nombre (Antes)",
-        "nameh": "Nombre (Después)",
-        "none": "Ninguna.",
-        "rega": "Región (Antes)",
-        "regh": "Región (Después)",
-        "title": "Servidor actualizado",
-        "vanitya": "URL Personalizada (Antes)",
-        "vanityh": "URL Personalizada (Después)"
-    },
-    "message": {
-        "NoFlood": "**[AntiFlood]** No envies tantos mensajes.",
-        "NoInvitaciones": "No se permiten invitaciones a otros servidores de discord.",
-        "NoLoggersAvanzado": "**[Anti Iplogger Avanzado]** No se permite enviar enlaces iploggers o maliciosos.",
-        "NoLoggersBásico": "**[Anti Iplogger Básico]** No se permite enviar enlaces iploggers o maliciosos.",
-        "NoNSFW": "**[Filtro Imágenes Premium]** No se permite contenido NSFW fuera de canales NSFW.",
-        "NoSpam": "**[AntiSpam]** Su mensaje ha sido clasificado como spam.",
-        "infoComandos": "Para ver mis comandos usa: {{prefix}}commands",
-        "infoPrefix": "Hola 👋, \nMi prefijo en este servidor es: \n`{{prefix}}`",
-        "logAdmin": "Comando de administrador ejecutado:",
-        "logAutor": "Autor: {{autor}}",
-        "logCanal": "Canal:",
-        "palabraBloqueada": "Palabra bloqueada.",
-        "reminderDescription": "He tenido una [nueva actualización](https://blog.discordsafe.com/Registro-de-cambios/version-4-2) donde se han **renombrado, actualizado y juntado comandos**.\nEl nuevo nombre del comando que intentas usar está debajo, ¡gracias por usarme!",
-        "reminderField1": "Nuevo nombre del comando",
-        "reminderTitle": "Recordatorio de nuevos comandos"
-    },
-    "messageDelete": {
-        "título": "Mensaje eliminado"
-    },
-    "messageDeleteBulk": {
-        "canal": "Canal",
-        "cantidad": "Cantidad",
-        "fs1": "Mensajes borrados el {{fecha}}",
-        "fs2": " Mensaje ID: {{id}}\nMensaje: {{contenido}}",
-        "título": "Han sido borrados una gran cantidad de mensajes"
-    },
-    "messageUpdate": {
-        "content": "Nuevo contenido",
-        "contentPinned": "Mensaje",
-        "nuevo": "ID del mensaje",
-        "oldContent": "Anterior contenido",
-        "pinned": "Nuevo mensaje anclado",
-        "tiempos": "Diferencia de tiempo",
-        "título": "Mensaje actualizado"
-    },
-    "roleCreate": {
-        "título": "Rol creado: {{rol}}"
-    },
-    "roleDelete": {
-        "título": "Rol eliminado: {{rol}} - `{{rolid}}`"
-    },
-    "roleUpdate": {
-        "defaultTitle": "Rol modificado",
-        "added": "Permiso añadido",
-        "added_plural": "Permisos añadidos",
-        "executor": "Realizado por",
-        "removed": "Permiso quitado",
-        "removed_plural": "Permisos quitados",
-        "título": "Rol actualizado",
-        "roleID": "Rol ID: {{roleID}}"
-    },
-    "voiceStateUpdate": {
-        "channel": "Canal",
-        "deaf": "Ensordecido del canal de voz",
-        "join": "Ha entrado a un canal de voz",
-        "leave": "Ha abandonado un canal de voz",
-        "mute": "Muteado del canal de voz",
-        "newChannel": "Canal nuevo",
-        "oldChannel": "Canal anterior",
-        "start-streaming": "Inició directo en canal de voz",
-        "stop-streaming": "Acabó directo en canal de voz",
-        "switch": "Se movió de canal de voz",
-        "undeaf": "Desensordecido del canal de voz",
-        "unmute": "Desmuteado del canal de voz",
-        "user": "Usuario"
-    },
-    "stageInstanceCreate": {
-        "title": "Evento de escenario creado",
-        "channel": "Canal",
-        "createdAt": "Creado el",
-        "privacyLevel": "Privacidad",
-        "discoverable": "Descubrible",
-        "public": "Público",
-        "guildonly": "Solo para el servidor",
-        "instanceID": "ID de la instancia: {{id}}",
-        "region": "Región",
-        "members": "Cantidad de miembros"
-    },
-    "stageInstanceDelete": {
-        "title": "Evento de escenario eliminado"
-    },
-    "stageInstanceUpdate": {
-        "title": "Evento de escenario actualizado",
-        "topica": "Tema (Antes)",
-        "topicd": "Tema (Después)",
-        "privacya": "Privacidad (Antes)",
-        "privacyd": "Privacidad (Después)"
-    },
-    "threadCreate": {
-        "title": "Hilo creado",
-        "name": "Nombre",
-        "threadType": "Tipo",
-        "threadID": "ID del hilo: {{id}}",
-        "owner": "Creador",
-        "archived": "Archivado",
-        "archivedAt": "Archivado el",
-        "autoArchive": "Se autoarchivará en",
-        "createdAt": "Creado el",
-        "members": "Cantidad de miembros",
-        "locked": "Bloqueado",
-        "messageCount": "Cantidad de mensajes",
-        "parent": "Canal padre",
-        "private": "Privado",
-        "public": "Público",
-        "news": "Anuncios"
-    },
-    "threadDelete": {
-        "title": "Hilo eliminado"
-    },
-    "threadMembersUpdate": {
-        "join": "Se unió al hilo #{{thread}}",
-        "leave": "Abandonó el hilo #{{thread}}",
-        "thread": "Hilo"
-    },
-    "threadUpdate": {
-        "title": "Hilo actualizado",
-        "namea": "Nombre (Antes)",
-        "named": "Nombre (Después)",
-        "archiveda": "Archivado (Antes)",
-        "archivedd": "Archivado (Después)",
-        "autoArchivea": "Tiempo de autoarchivación (Antes)",
-        "autoArchived": "Tiempo de autoarchivación (Después)"
+  "channelCreate": {
+    "desc": "<#{{canal}}>",
+    "title": "Canal creado",
+    "type": "Tipo"
+  },
+  "channelDelete": {
+    "desc": "{{canal}}",
+    "title": "Canal eliminado",
+    "type": "Tipo"
+  },
+  "channelUpdate": {
+    "coola": "Ratelimit (Antes)",
+    "coolh": "Ratelimit (Después)",
+    "nombrea": "Nombre (Antes)",
+    "nombreh": "Nombre (Después)",
+    "none": "Ninguno.",
+    "nsfwa": "NSFW (Antes)",
+    "nsfwh": "NSFW (Después)",
+    "temaa": "Tema (Antes)",
+    "temah": "Tema (Después)",
+    "title": "Canal actualizado",
+    "typea": "Tipo (Antes)",
+    "typeh": "Tipo (Después)"
+  },
+  "guildBanAdd": {
+    "banned": "Miembro baneado",
+    "mod": "Moderador",
+    "ningunaRazón": "Ninguna",
+    "razón": "Razón"
+  },
+  "guildBanRemove": {
+    "mod": "Moderador",
+    "ningunaRazón": "Ninguna",
+    "razón": "Razón",
+    "unbanned": "Miembro desbaneado"
+  },
+  "guildMemberAdd": {
+    "badges": "Insignias",
+    "bot": "Bot",
+    "captchaErrorIntentos": "**Ha alcanzado el límite de intentos**, no has completado la verificación así que serás expulsado.",
+    "captchaErrorTiempo": "**Se ha acabado el tiempo**, no has pasado la verificación así que tendrás que ser expulsado.",
+    "captchaField1": "Antes de continuar, debes responder este **captcha**, hazlo para poder acceder al servidor. Tienes **{{intentos}} intentos** y **{{minutos}} minutos** para completarlo.",
+    "captchaField2": "Esto es para proteger el servidor de los bots de spam y multicuentas.",
+    "captchaFooter": "Invítame, discordsafe.com/invite",
+    "captchaIntento": "**Error**, le quedan {{intentos}} intentos.",
+    "captchaTitle": "Bivenvenid@ a {{server}}",
+    "captchacDes": "Ya tienes acceso a {{server}}",
+    "captchacFooter": "¿Quieres invitarme a tu servidor? discordsafe.com/invite",
+    "captchacTitle": "¡Gracias!",
+    "creación": "Creación",
+    "expulsado": "Has sido expulsado del servidor **{{server}}** porque su cuenta no supera el mínimo de **{{age}}** días.",
+    "expulsadoRazón": "Mínimo de días de la creación de la cuenta.",
+    "kick": "Verificación no completada.",
+    "nuevoUsuario": "Nuevo usuario"
+  },
+  "guildMemberRemove": {
+    "badges": "Insignias",
+    "bot": "Bot",
+    "creación": "Creación",
+    "usuarioSalio": "Usuario salió"
+  },
+  "guildMemberUpdate": {
+    "after": "Después:",
+    "before": "Antes:",
+    "boostDesc": "<@{{memberID}}> gracias por apoyar este servidor con tu boost. <3",
+    "boostTitle": "¡Gracias por tu boost!",
+    "by": "Por",
+    "name": "Nombre de usuario cambiado",
+    "nickname": "Apodo actualizado",
+    "roladded": "Rol agregado",
+    "rolremoved": "Rol retirado",
+    "unboostDesc": "<@{{memberID}}> gracias por haber apoyado este servidor, ojalá volverte a ver.",
+    "unboostTitle": "Se ha acabado un boost :(",
+    "autopremium": {
+      "title_one": "¡Has obtenido premium!",
+      "title_other": "¡Has obtenido {{count}} premiums!",
+      "description": "Muchas gracias por apoyar mi desarrollo, contribuyes a que pueda seguir manteniéndome estable y actualizándome con mejores características.\n- Los desarrolladores <3.\n\nAhora solo tienes que vincular el premium a un servidor usando `/premium`."
     }
+  },
+  "guildUpdate": {
+    "afkcha": "Canal AFK (Antes)",
+    "afkchh": "Canal AFK (Después)",
+    "afkta": "Tiempo AFK (Antes)",
+    "afkth": "Tiempo AFK (Después)",
+    "desca": "Descripción (Antes)",
+    "desch": "Descripción (Después)",
+    "feaa": "Características (Antes)",
+    "feah": "Características (Después)",
+    "levelDowndesc": "El servidor ha bajado ha **{{level}}**.",
+    "levelDowntitle": "Bajada de nivel",
+    "levelUpdesc": "El servidor ha subido a **{{level}}**.",
+    "levelUptitle": "Subida de nivel",
+    "namea": "Nombre (Antes)",
+    "nameh": "Nombre (Después)",
+    "none": "Ninguna.",
+    "rega": "Región (Antes)",
+    "regh": "Región (Después)",
+    "title": "Servidor actualizado",
+    "vanitya": "URL Personalizada (Antes)",
+    "vanityh": "URL Personalizada (Después)"
+  },
+  "message": {
+    "NoFlood": "**[AntiFlood]** No envies tantos mensajes.",
+    "NoInvitaciones": "No se permiten invitaciones a otros servidores de discord.",
+    "NoLoggersAvanzado": "**[Anti Iplogger Avanzado]** No se permite enviar enlaces iploggers o maliciosos.",
+    "NoLoggersBásico": "**[Anti Iplogger Básico]** No se permite enviar enlaces iploggers o maliciosos.",
+    "NoNSFW": "**[Filtro Imágenes Premium]** No se permite contenido NSFW fuera de canales NSFW.",
+    "NoSpam": "**[AntiSpam]** Su mensaje ha sido clasificado como spam.",
+    "infoComandos": "Para ver mis comandos usa: {{prefix}}commands",
+    "infoPrefix": "Hola 👋, \nMi prefijo en este servidor es: \n`{{prefix}}`",
+    "logAdmin": "Comando de administrador ejecutado:",
+    "logAutor": "Autor: {{autor}}",
+    "logCanal": "Canal:",
+    "palabraBloqueada": "Palabra bloqueada.",
+    "reminderDescription": "He tenido una [nueva actualización](https://blog.discordsafe.com/Registro-de-cambios/version-4-2) donde se han **renombrado, actualizado y juntado comandos**.\nEl nuevo nombre del comando que intentas usar está debajo, ¡gracias por usarme!",
+    "reminderField1": "Nuevo nombre del comando",
+    "reminderTitle": "Recordatorio de nuevos comandos"
+  },
+  "messageDelete": {
+    "título": "Mensaje eliminado"
+  },
+  "messageDeleteBulk": {
+    "canal": "Canal",
+    "cantidad": "Cantidad",
+    "fs1": "Mensajes borrados el {{fecha}}",
+    "fs2": " Mensaje ID: {{id}}\nMensaje: {{contenido}}",
+    "título": "Han sido borrados una gran cantidad de mensajes"
+  },
+  "messageUpdate": {
+    "content": "Nuevo contenido",
+    "contentPinned": "Mensaje",
+    "nuevo": "ID del mensaje",
+    "oldContent": "Anterior contenido",
+    "pinned": "Nuevo mensaje anclado",
+    "tiempos": "Diferencia de tiempo",
+    "título": "Mensaje actualizado"
+  },
+  "roleCreate": {
+    "título": "Rol creado: {{rol}}"
+  },
+  "roleDelete": {
+    "título": "Rol eliminado: {{rol}} - `{{rolid}}`"
+  },
+  "roleUpdate": {
+    "defaultTitle": "Rol modificado",
+    "added_one": "Permiso añadido",
+    "added_other": "Permisos añadidos",
+    "executor": "Realizado por",
+    "removed_one": "Permiso quitado",
+    "removed_other": "Permisos quitados",
+    "título": "Rol actualizado",
+    "roleID": "Rol ID: {{roleID}}"
+  },
+  "voiceStateUpdate": {
+    "channel": "Canal",
+    "deaf": "Ensordecido del canal de voz",
+    "join": "Ha entrado a un canal de voz",
+    "leave": "Ha abandonado un canal de voz",
+    "mute": "Muteado del canal de voz",
+    "newChannel": "Canal nuevo",
+    "oldChannel": "Canal anterior",
+    "start-streaming": "Inició directo en canal de voz",
+    "stop-streaming": "Acabó directo en canal de voz",
+    "switch": "Se movió de canal de voz",
+    "undeaf": "Desensordecido del canal de voz",
+    "unmute": "Desmuteado del canal de voz",
+    "user": "Usuario"
+  },
+  "stageInstanceCreate": {
+    "title": "Evento de escenario creado",
+    "channel": "Canal",
+    "createdAt": "Creado el",
+    "privacyLevel": "Privacidad",
+    "discoverable": "Descubrible",
+    "public": "Público",
+    "guildonly": "Solo para el servidor",
+    "instanceID": "ID de la instancia: {{id}}",
+    "region": "Región",
+    "members": "Cantidad de miembros"
+  },
+  "stageInstanceDelete": {
+    "title": "Evento de escenario eliminado"
+  },
+  "stageInstanceUpdate": {
+    "title": "Evento de escenario actualizado",
+    "topica": "Tema (Antes)",
+    "topicd": "Tema (Después)",
+    "privacya": "Privacidad (Antes)",
+    "privacyd": "Privacidad (Después)"
+  },
+  "threadCreate": {
+    "title": "Hilo creado",
+    "name": "Nombre",
+    "threadType": "Tipo",
+    "threadID": "ID del hilo: {{id}}",
+    "owner": "Creador",
+    "archived": "Archivado",
+    "archivedAt": "Archivado el",
+    "autoArchive": "Se autoarchivará en",
+    "createdAt": "Creado el",
+    "members": "Cantidad de miembros",
+    "locked": "Bloqueado",
+    "messageCount": "Cantidad de mensajes",
+    "parent": "Canal padre",
+    "private": "Privado",
+    "public": "Público",
+    "news": "Anuncios"
+  },
+  "threadDelete": {
+    "title": "Hilo eliminado"
+  },
+  "threadMembersUpdate": {
+    "join": "Se unió al hilo #{{thread}}",
+    "leave": "Abandonó el hilo #{{thread}}",
+    "thread": "Hilo"
+  },
+  "threadUpdate": {
+    "title": "Hilo actualizado",
+    "namea": "Nombre (Antes)",
+    "named": "Nombre (Después)",
+    "archiveda": "Archivado (Antes)",
+    "archivedd": "Archivado (Después)",
+    "autoArchivea": "Tiempo de autoarchivación (Antes)",
+    "autoArchived": "Tiempo de autoarchivación (Después)"
+  }
 }

@@ -1,946 +1,945 @@
 {
-    "alarm": {
-        "description": "Configura la alarma en el servidor y prohibe la entrada a nuevos usuarios.",
-        "example": "",
-        "usage": ""
-    },
-    "approve": {
-        "description": "Aprueba a los nuevos usuarios.",
-        "example": "@Vicente#0001",
-        "usage": "[@Usuario/UsuarioID/all]",
+  "alarm": {
+    "description": "Configura la alarma en el servidor y prohibe la entrada a nuevos usuarios.",
+    "example": "",
+    "usage": ""
+  },
+  "approve": {
+    "description": "Aprueba a los nuevos usuarios.",
+    "example": "@Vicente#0001",
+    "usage": "[@Usuario/UsuarioID/all]",
+    "options": {
+      "all": {
+        "description": "Aprueba a todos los usuarios"
+      },
+      "user": {
+        "description": "Aprueba a un usuario",
         "options": {
-            "all": {
-                "description": "Aprueba a todos los usuarios"
-            },
-            "user": {
-                "description": "Aprueba a un usuario",
-                "options": {
-                    "user": {
-                        "description": "El usuario a aprobar"
-                    }
-                }
-            }
+          "user": {
+            "description": "El usuario a aprobar"
+          }
         }
-    },
-    "avatar": {
-        "description": "Muestra el avatar de un usuario.",
-        "example": "",
-        "usage": "<@Usuario>",
-        "options": {
-            "user": {
-                "description": "El miembro a obtener el avatar"
-            },
-            "server-avatar": {
-                "description": "Si mostrar el avatar de servidor del usuario en vez del global"
-            }
-        }
-    },
-    "ban": {
-        "description": "Banea a un miembro del servidor",
-        "example": "@Vicente#0001 Romper la regla 4.",
-        "usage": "[@Usuario/Usuario ID/Nombre miembro] <Razón> <--md> <--save>",
-        "options": {
-            "user": {
-                "description": "El usuario a banear"
-            },
-            "--save": {
-                "description": "Si guardar los mensajes del usuario o borrarlos todos"
-            }
-        }
-    },
-    "blockword": {
-        "description": "Bloquea el uso de palabras en el servidor.",
-        "example": "add pack 0",
-        "usage": "add [Palabra/Pack] / remove [Palabra/Pack] / ignore [#Canal/@Rol] / list / reset",
-        "options": {
-            "help": {
-                "description": "Muestra la ayuda sobre las palabras bloqueadas"
-            },
-            "list": {
-                "description": "Muestra la lista de palabras bloqueadas"
-            },
-            "reset": {
-                "description": "Borra la lista de palabras bloqueadas"
-            },
-            "word": {
-                "options": {
-                    "add": {
-                        "description": "Bloquea una palabra",
-                        "options": {
-                            "word": {
-                                "description": "La palabra a bloquear"
-                            }
-                        }
-                    },
-                    "remove": {
-                        "description": "Desbloquea una palabra",
-                        "options": {
-                            "word": {
-                                "description": "La palabra a desbloquear"
-                            }
-                        }
-                    }
-                }
-            },
-            "pack": {
-                "options": {
-                    "add": {
-                        "description": "Bloquea un pack de palabras",
-                        "options": {
-                            "pack": {
-                                "description": "El pack a bloquear"
-                            }
-                        }
-                    },
-                    "remove": {
-                        "description": "Desbloquea un pack de palabras",
-                        "options": {
-                            "pack": {
-                                "description": "El pack a desbloquear"
-                            }
-                        }
-                    }
-                }
-            },
-            "ignore": {
-                "options": {
-                    "channel": {
-                        "description": "Ignora un canal",
-                        "options": {
-                            "channel": {
-                                "description": "El canal a ignorar"
-                            }
-                        }
-                    },
-                    "role": {
-                        "description": "Ignora un rol",
-                        "options": {
-                            "role": {
-                                "description": "El rol a ignorar"
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    },
-    "botinfo": {
-        "description": "Muestra la información del bot.",
-        "example": "",
-        "usage": ""
-    },
-    "case": {
-        "description": "Muestra la información de un caso de moderación",
-        "example": "5",
-        "usage": "[ID Caso]",
-        "options": {
-            "caseid": {
-                "description": "El número identificador del caso"
-            }
-        }
-    },
-    "cases": {
-        "description": "Muestra la lista de casos de moderación del servidor",
-        "example": "",
-        "usage": "<@Usuario>",
-        "options": {
-            "user": {
-                "description": "Filtrar por los casos de este usuario"
-            }
-        }
-    },
-    "changelog": {
-        "description": "Muestra el último registro de cambios.",
-        "example": "",
-        "usage": "",
-        "options": {
-            "view": {
-                "description": "Muestra el último registro de cambios"
-            },
-            "follow": {
-                "description": "Sigue nuestro canal de anuncios en este canal"
-            }
-        }
-    },
-    "clear": {
-        "description": "Borra una cantidad de mensajes",
-        "example": "@Seyron#5532 15\nmatch RAID 100",
-        "usage": "[Cantidad(2-100)]\n[@Usuario/Usuario ID] [Cantidad(2-100)]\nall\nmatch [Texto] [Cantidad(2-100)]\nnot [Texto] [Cantidad(2-100)]\nstartswith [Texto] [Cantidad(2-100)]\nendswith [Texto] [Cantidad(2-100)]\nlinks [Cantidad(2-100)]\ninvites [Cantidad(2-100)]\nimages [Cantidad(2-100)]\nmentions [Cantidad(2-100)]\nembeds [Cantidad(2-100)]\nbots [Cantidad(2-100)]\nbefore [ID Mensaje] [Cantidad(2-100)]\nafter [ID Mensaje] [Cantidad(2-100)]\naround [ID Mensaje] [Cantidad(2-100)]",
-        "options": {
-            "basic": {
-                "options": {
-                    "quantity": {
-                        "description": "Borra una cantidad de mensajes",
-                        "options": {
-                            "quantity": {
-                                "description": "La cantidad a borrar"
-                            },
-                            "user": {
-                                "description": "Filtra por los mensajes de un usuario"
-                            }
-                        }
-                    }
-                }
-            },
-            "advanced": {
-                "options": {
-                    "match": {
-                        "description": "Borra los mensajes que contengan el texto indicado",
-                        "options": {
-                            "text": {
-                                "description": "Filtrar por este texto"
-                            }
-                        }
-                    },
-                    "not": {
-                        "description": "Borra los mensajes que no contengan el texto indicado"
-                    },
-                    "startswith": {
-                        "description": "Borra los mensajes que empiecen por el texto indicado"
-                    },
-                    "endswith": {
-                        "description": "Borra los mensajes que acaben por el texto indicado"
-                    },
-                    "links": {
-                        "description": "Borra enlaces"
-                    },
-                    "invites": {
-                        "description": "Borra invitaciones"
-                    },
-                    "images": {
-                        "description": "Borra imágenes"
-                    },
-                    "mentions": {
-                        "description": "Borra menciones"
-                    },
-                    "embeds": {
-                        "description": "Borra embeds"
-                    },
-                    "bots": {
-                        "description": "Borra mensajes de bots"
-                    },
-                    "before": {
-                        "description": "Borra los mensajes anteriores al mensaje indicado",
-                        "options": {
-                            "messageid": {
-                                "description": "Filtrar por la ID de un mensaje"
-                            }
-                        }
-                    },
-                    "after": {
-                        "description": "Borra los mensajes posteriores al mensaje indicado"
-                    },
-                    "around": {
-                        "description": "Borra los mensajes cercanos al mensaje indicado"
-                    }
-                }
-            }
-        }
-    },
-    "clearbans": {
-        "description": "Quita todos los baneos del servidor.",
-        "example": "",
-        "usage": ""
-    },
-    "delrole": {
-        "description": "Borra el rol mencionado.",
-        "example": "@RolPrueba",
-        "usage": "",
-        "options": {
-            "role": {
-                "description": "Rol a borrar"
-            },
-            "reason": {
-                "description": "Razón por la que se borra el rol"
-            }
-        }
-    },
-    "clearwarn": {
-        "description": "Elimina advertencias",
-        "example": "43das78",
-        "usage": "<Código> / all",
-        "options": {
-            "all": {
-                "description": "Elimina todas las sugerencias",
-                "options": {
-                    "user": {
-                        "description": "Elimina todas las advertencias de un usuario"
-                    }
-                }
-            },
-            "warn": {
-                "description": "Elimina una advertencia",
-                "options": {
-                    "number": {
-                        "description": "Número de la advertencia"
-                    }
-                }
-            }
-        }
-    },
-    "commands": {
-        "description": "Muestra la lista de comandos",
-        "example": "",
-        "usage": "<--channel>",
-        "options": {
-            "in-channel": {
-                "description": "Si envía la respuesta en el canal en vez de por MD"
-            }
-        }
-    },
-    "deafen": {
-        "description": "Ensordece a un miembro",
-        "example": "@Usuario Miembro molesto --md",
-        "usage": "[@Usuario/Usuario ID] <Razón> <--md>",
-        "options": {
-            "user": {
-                "description": "El usuario a ensordecer"
-            }
-        }
-    },
-    "emoji": {
-        "description": "Muestra el emoji en grande.",
-        "example": ":pepeamor:",
-        "usage": "[Emoji]",
-        "options": {
-            "emoji": {
-                "description": "El emoji a mostrar"
-            }
-        }
-    },
-    "filter": {
-        "description": "Configura los filtros",
-        "example": "anti-spam enable",
-        "usage": "help / [filtro] enable / [filtro] disable / [filtro] ignore [#Canal/@Rol]",
-        "options": {
-            "help": {
-                "description": "Muestra el menú de ayuda"
-            },
-            "ignore": {
-                "options": {
-                    "role": {
-                        "description": "Ignora a un rol de un filtro",
-                        "options": {
-                            "filter": {
-                                "description": "El filtro que ignorará"
-                            },
-                            "role": {
-                                "description": "El rol a ignorar"
-                            }
-                        }
-                    },
-                    "channel": {
-                        "description": "Ignora a un canal de un filtro",
-                        "options": {
-                            "filter": {
-                                "description": "El filtro que ignorará"
-                            },
-                            "channel": {
-                                "description": "El canal a ignorar"
-                            }
-                        }
-                    }
-                }
-            },
-            "invites": {
-                "options": {
-                    "toggle": {
-                        "description": "Activa o desactiva el filtro"
-                    }
-                }
-            },
-            "anti-spam": {
-                "options": {
-                    "set-level": {
-                        "description": "Establece el nivel del anti-spam",
-                        "options": {
-                            "level": {
-                                "description": "El nivel a establecer"
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    },
-    "genpassword": {
-        "description": "Genera una contraseña acorde a los parámetros proporcionados.",
-        "example": "high 26",
-        "usage": "<Nivel(low/medium/high)> <Longitud(5-50)>",
-        "options": {
-            "level": { 
-                "description": "Nivel de seguridad de la contraseña"
-            },
-            "length": {
-                "description": "Longitud de la contraseña"
-            }
-        }
-    },
-    "hackban": {
-        "description": "Banea a miembros mediante su ID",
-        "example": "124545463433127 124545463433127 124545463433127",
-        "usage": "[ID] <ID> <ID>...",
-        "options": {
-            "user": {
-                "description": "Pon aquí la ID del usuario"
-            }
-        }
-    },
-    "help": {
-        "description": "Menú de ayuda e información de comandos.",
-        "example": "ban",
-        "usage": "<Comando>",
-        "options": {
-            "command": {
-                "description": "Mostrar información de este comando"
-            }
-        }
-    },
-    "userinfo": {
-        "description": "Muestra la información de un usuario",
-        "example": "@Vicente#0001",
-        "usage": "<@Usuario/Usuario ID>",
-        "options": {
-            "user": {
-                "description": "Mostrar información de este usuario"
-            }
-        }
-    },
-    "inviteinfo": {
-        "description": "Muestra la información de una invitación",
-        "example": "discord-testers",
-        "usage": "<Código invitación/Enlace invitación>",
-        "options": {
-            "invite": {
-                "description": "Introduzca una invitación de discord ej: discord.gg/discord-townhall"
-            }
-        }
-    },
-    "kick": {
-        "description": "Expulsa a un miembro del servidor",
-        "example": "Discord#0000 Romper la regla 8.",
-        "usage": "[@Usuario/Usuario ID/Nombre miembro] <Razón> <--md>",
-        "options": {
-            "user": {
-                "description": "El usuario a expulsar"
-            }
-        }
-    },
-    "logs": {
-        "description": "Configura los los del servidor.",
-        "example": "#logs",
-        "usage": "help / list / [#Canal/CanalID/disable] / mod [#Canal/CanalID/disable] / boost [#Canal/CanalID/disable]",
-        "options": {
-            "help": {
-                "description": "Muestra la ayuda sobre los logs"
-            },
-            "list": {
-                "description": "Muestra la configuración actual de los logs"
-            },
-            "set": {
-                "description": "Establece un canal del logs",
-                "options": {
-                    "type": {
-                        "description": "Selecciona el tipo de logs que se recibirán en el canal"
-                    },
-                    "channel": {
-                        "description": "Establece el canal"
-                    }
-                }
-            }
-        }
-    },
-    "mail": {
-        "description": "Muestra el buzón de correos.",
-        "example": "",
-        "usage": ""
-    },
-    "modstats": {
-        "description": "Muestra estadísticas de los casos de moderación del servidor",
-        "example": "mods",
-        "usage": "actions / mods"
-    },
-    "mute": {
-        "description": "Mutea a un miembro",
-        "example": "@Clyde#0001 15m Romper regla 14.",
-        "usage": "[@Usuario/Usuario ID] <Tiempo> <s/m/h> <Razón> <--md>",
-        "options": {
-            "user": {
-                "description": "El usuario a mutear"
-            },
-            "time": {
-                "description": "El tiempo que estará muteado"
-            },
-            "unit": {
-                "description": "Unidad de tiempo"
-            }
-        }
-    },
-    "ping": {
-        "description": "Muestra el ping del bot.",
-        "example": "",
-        "usage": ""
-    },
-    "premium": {
-        "description": "Panel de control de D-Safe Premium.",
-        "example": "",
-        "usage": ""
-    },
-    "reason": {
-        "description": "Establece la razón de un caso de moderación.",
-        "example": "54 Roptura de la regla 16: No se permite spam en el servidor.",
-        "usage": "[ID Caso] [Razón]",
-        "options": {
-            "caseid": {
-                "description": "El número identificador del caso"
-            },
-            "reason": {
-                "description": "La razón a establecer"
-            }
-        }
-    },
-    "reportbug": {
-        "description": "Reporta un error a mi desarrollador para que sea solucionado.",
-        "example": "La alarma se enciende sola y no hay manera de apagarla.",
-        "usage": "<Descripción detallada del error>",
-        "options": {
-            "title": {
-                "description": "Escriba un título descriptivo del bug"
-            },
-            "description": {
-                "description": "Describa el bug y pasos para reproducirlo"
-            }
-        }
-    },
-    "roleinfo": {
-        "description": "Muestra la información de un rol",
-        "example": "@Usuario",
-        "usage": "<@Rol/Rol ID>",
-        "options": {
-            "role": {
-                "description": "Seleccione un rol"
-            }
-        }
-    },
-    "serverinfo": {
-        "description": "Muestra la información del servidor",
-        "example": "",
-        "usage": ""
-    },
-    "setlang": {
-        "description": "Establece el idioma del bot en el servidor",
-        "example": "es-ES",
-        "usage": "es-ES / en-US",
-        "options": {
-            "language": {
-                "description": "Selecciona un idioma"
-            }
-        }
-    },
-    "setprefix": {
-        "description": "Establece el prefijo en el servidor",
-        "example": "!!",
-        "usage": "[Prefijo]",
-        "options": {
-            "prefix": {
-                "description": "El prefijo a establecer"
-            }
-        }
-    },
-    "settings": {
-        "description": "Muestra los ajustes del servidor e información sobre cómo configurarlo",
-        "example": "",
-        "usage": ""
-    },
-    "setup": {
-        "description": "Configure los ajustes del bot de forma sencilla con reacciones y botones.",
-        "example": "",
-        "usage": ""
-    },
-    "softban": {
-        "description": "Banea e inmediatamente desbanea a un miembro para borrar mensajes",
-        "example": "@Clyde#0001 Flood en el chat --md",
-        "usage": "[@Usuario/Usuario ID] <Razón> <--md>",
-        "options": {
-            "user":{
-                "description": "El usuario a softbanear"
-            }
-        }
-    },
-    "suggest": {
-        "description": "Envía una sugerencia.",
-        "example": "Me gustaría que creen un canal de #gaming donde los usuarios podemos hablar sobre ese tema allí.",
-        "usage": "<Descripción de la sugerencia>",
-        "options": {
-            "description": {
-                "description": "Descrición de la sugerencia"
-            }
-        }
-    },
-    "suggestions": {
-        "description": "Ajustes e información de las sugerencias.",
-        "example": "setchannel #sugerencias",
-        "usage": "help \nlist\napprove [IDSugerencia] <Comentario>\ndeny [IDSugerencia] <Comentario>\ndelete [IDSugerencia]\nsetchannel [CanalID/#Canal/disable]\nsetapproved [CanalID/#Canal/disable]\nsetdenied [CanalID/#Canal/disable]\nquestionEmoji enable / disable\nautoaccept [Número(1-1000)] / disable\nmassapprove [IDSugerencia]...\nmassdeny [IDSugerencia]...\nmassdelete [IDSugerencia]...\neditcomment [SuggestionID] [New staff comment]\nsetrole [Rol ID/@Rol]\nsetpalette ayu / tailwind / default / p1 / p2 / p3 / n1 / n2 / n3\nsetcommandschannel [CanalID/#Canal]\nsetcooldown [Número(1-60)] / disable\nsetemoji [EmojiPositivo] [EmojiNegativo] <EmojiIndeciso> / disable",
-        "options": {
-            "help": {
-                "description": "Muestra la ayuda sobre las sugerencias"
-            },
-            "list": {
-                "description": "Muestra una lista de las sugerencias",
-                "options": {
-                    "type": {
-                        "description": "Filtrar por estado de las sugerencias"
-                    }
-                }
-            },
-            "approve": {
-                "description": "Aprueba una sugerencia",
-                "options": {
-                    "suggestionid": {
-                        "description": "ID de la sugerencia"
-                    },
-                    "comment": {
-                        "description": "Comentario"
-                    },
-                    "no-md": {
-                        "description": "Si notificar al usuario de que su sugerencia ha sido aprobada"
-                    }
-                }
-            },
-            "deny": {
-                "description": "Rechaza una sugerencia",
-                "options": {
-                    "suggestionid": {
-                        "description": "ID de la sugerencia"
-                    },
-                    "comment": {
-                        "description": "Comentario"
-                    },
-                    "no-md": {
-                        "description": "Si notificar al usuario de que su sugerencia ha sido aprobada"
-                    }
-                }
-            },
-            "delete": {
-                "description": "Elimina una sugerencia",
-                "options": {
-                    "suggestionid": {
-                        "description": "ID de la sugerencia"
-                    }
-                }
-            },
-            "disable": {
-                "description": "Desactiva el módulo de sugerencias"
-            },
-            "question-emoji": {
-                "description": "Configura el emoji de pregunta/confuso como opción en las sugerencias",
-                "options": {
-                    "enabled": {
-                        "description": "Si está activado: true para activar, false para desactivar"
-                    }
-                }
-            },
-            "editcomment": {
-                "description": "Edita el comentario de una sugerencia",
-                "options": {
-                    "suggestionid": { 
-                        "description": "ID de la sugerencia" 
-                    },
-                    "new-comment": {
-                        "description": "Nuevo comentario"
-                    }
-                }
-            },
-            "massaction": {
-                "description": "Realiza una acción en masa",
-                "options": {
-                    "action": {
-                        "description": "La acción que realizar"
-                    },
-                    "suggestionids": {
-                        "description": "Las ids de las sugerencias separadas por una coma, ej: 1,5,9,13"
-                    }
-                }
-            },
-            "autoapprove": {
-                "description": "Configura la aprobación automática de sugerencias",
-                "options": {
-                    "disable": {
-                        "description": "Desactiva la aprobación automática"
-                    },
-                    "set": {
-                        "description": "Establece el número",
-                        "options": {
-                            "number": {
-                                "description": "Un número entre 1 y 1000"
-                            }
-                        }
-                    }
-                }
-            },
-            "channels": {
-                "description": "Configura el canal de sugerencias",
-                "options": {
-                    "set": {
-                        "description": "Establece el canal de sugerencias",
-                        "options": {
-                            "type": {
-                                "description": "El tipo de canal de sugerencias"
-                            },
-                            "channel": {
-                                "description": "El canal a establecer"
-                            }
-                        }
-                    },
-                    "disable": {
-                        "description": "Desactiva un canal de sugerencias",
-                        "options": {
-                            "type": {
-                                "description": "El tipo de canal de sugerencias"
-                            }
-                        }
-                    }
-                }
-            },
-            "cooldown": {
-                "description": "[Premium] Establece un cooldown customizado para enviar sugerencias",
-                "options": {
-                    "set": {
-                        "description": "Establece el cooldown customizado",
-                        "options": {
-                            "number": {
-                                "description": "Número entre 1 y 60"
-                            }
-                        }
-                    },
-                    "disable": {
-                        "description": "Desactiva el cooldown customizado"
-                    }
-                }
-            },
-            "customemojis": {
-                "description": "[Premium] Customiza los emojis de las reacciones",
-                "options": {
-                    "set": {
-                        "description": "Establece los emojis",
-                        "options": {
-                            "emojipositive": {
-                                "description": "Emoji positivo"
-                            },
-                            "emojinegative": {
-                                "description": "Emoji negativo"
-                            },
-                            "emojiquestion": {
-                                "description": "Emoji pregunta"
-                            }
-                        }
-                    },
-                    "disable": {
-                        "description": "Vuelve a poner los emojis por defecto"
-                    }
-                }
-            },
-            "palette": {
-                "description": "Configura la paleta de colores",
-                "options": {
-                    "help": {
-                        "description": "Muestra la ayuda sobre la paleta de colores"
-                    },
-                    "set": {
-                        "description": "Cambia la paleta de colores",
-                        "options": {
-                            "palette": {
-                                "description": "Seleccione una paleta para establecerla"
-                            }
-                        }
-                    },
-                    "setcolor": {
-                        "description": "Crea tu propia paleta de colores estableciendo cada color",
-                        "options": {
-                            "color-type": {
-                                "description": "Categoría de color a modificar"
-                            },
-                            "color": {
-                                "description": "Color nuevo"
-                            }
-                        }
-                    }
-                }
-            },
-            "role": {
-                "description": "[Premium] Establece el rol de manager de sugerencias",
-                "options": {
-                    "set": {
-                        "description": "Establece el rol",
-                        "options": {
-                            "role": {
-                                "description": "Rol a establecer"
-                            }
-                        }
-                    },
-                    "disable": {
-                        "description": "Desactiva el rol manager de sugerencias"
-                    }
-                }
-            }
-
-        }
-    },
-    "topbots": {
-        "description": "Muestra la lista de top bots de Discord.",
-        "example": "",
-        "usage": ""
-    },
-    "unban": {
-        "description": "Desbanea a un usuario del servidor",
-        "example": "287574458963722240",
-        "usage": "[@Usuario/Usuario ID/Nombre miembro] <Razón> <--md>",
-        "options": {
-            "user": {
-                "description": "El usuario a desbanear"
-            }
-        }
-    },
-    "undeafen": {
-        "description": "Desensordece a un miembro",
-        "example": "@Usuario",
-        "usage": "[@Usuario/Usuario ID] <Razón> <--md>",
-        "options": {
-            "user": {
-                "description": "El usuario a desensordecer"
-            }
-        }
-    },
-    "unmute": {
-        "description": "Desilencia a un miembro silenciado",
-        "example": "182866681520062465",
-        "usage": "[@Usuario/Usuario ID] <Razón> <--md>",
-        "options": {
-            "user": {
-                "description": "El usuario a desmutear"
-            }
-        }
-    },
-    "verification": {
-        "description": "Configura la verificación",
-        "example": "setuser @Verificado",
-        "usage": "off / setmode <Modo(approval, reaction, verification, captcha)> / setguest <@Rol / Rol ID> / setuser <@Rol / Rol ID> setchannel <#Canal / Canal ID> / setmessage <Mensaje ID>",
-        "options": {
-            "disable": {
-                "description": "Desactiva la verificación"
-            },
-            "help": {
-                "description": "Muestra la ayuda sobre la verificación"
-            },
-            "setchannel": {
-                "description": "Establece el canal donde se mandarán los mensajes de verificación",
-                "options": {
-                    "channel": {
-                        "description": "El canal a establecer"
-                    }
-                }
-            },
-            "setguest": {
-                "description": "Establece el rol de no verificado, que recibirán al entrar",
-                "options": {
-                    "role": {
-                        "description": "El rol a establecer"
-                    }
-                }
-            },
-            "setmessage": {
-                "description": "[Modo Reaction] Establece el mensaje donde reaccionarán los nuevos usuarios",
-                "options": {
-                    "messageid": {
-                        "description": "La ID del mensaje a esteblecer"
-                    }
-                }
-            },
-            "setmode": {
-                "description": "Establece el modo de la verificación",
-                "options": {
-                    "mode": {
-                        "description": "Seleccione uno de estos modos"
-                    }
-                }
-            },
-            "setuser": {
-                "description": "Estalbece el rol de usuario, que recibirán al verificarse"
-            },
-            "showconfig": {
-                "description": "Muestra la configración actual de la verificación"
-            },
-            "settime": {
-                "description": "[Modo Captcha] Establece el tiempo máximo para verificarse",
-                "options": {
-                    "time": {
-                        "description": "El tiempo a establecer"
-                    }
-                }
-            },
-            "setattempts": {
-                "description": "[Modo Captcha] Establece el máximo de intentos",
-                "options": {
-                    "attempts": {
-                        "description": "La cantidad de intentos"
-                    }
-                }
-            },
-            "setage": {
-                "description": "Establece la edad mínima de la cuenta que tienen que tener para entrar",
-                "options": {
-                    "set": {
-                        "description": "Establece la edad mínima de la cuenta",
-                        "options": {
-                            "age": {
-                                "description": "La edad a establecer (1-30)"
-                            }
-                        }
-                    },
-                    "disable": {
-                        "description": "Desactiva el requisito de edad mínima de la cuenta"
-                    }
-                }
-            }
-        }
-    },
-    "verifyme": {
-        "description": "Te da el rol de usuario en el servidor.",
-        "example": "",
-        "usage": ""
-    },
-    "vote": {
-        "description": "Muestra la información acerca de los votos.",
-        "example": "",
-        "usage": " / <@Usuario>"
-    },
-    "warn": {
-        "description": "Advierte a un usuario",
-        "example": "@Juan#4449 Romper la regla 3.",
-        "usage": "[@Usuario/Usuario ID] <Razón> <--md>",
-        "options": {
-            "user": {
-                "description": "Usuario a advertir"
-            },
-            "reason": {
-                "description": "Razón, máximo 100 caracteres"
-            },
-            "--md": {
-                "description": "Si notificar al usuario por MD, puedes activar que siempre sea sí por defecto usando /setup"
-            },
-            "--ephemeral": {
-                "description": "Si mostrar la respuesta solo para tí"
-            }
-        }
-    },
-    "warnings": {
-        "description": "Muestra lista de advertencias del servidor o miembro",
-        "example": "@Vicente#0001",
-        "usage": "[@Usuario/Usuario ID]",
-        "options": {
-            "user": {
-                "description": "Filtrar por las advertencias de este usuario"
-            }
-        }
+      }
     }
+  },
+  "avatar": {
+    "description": "Muestra el avatar de un usuario.",
+    "example": "",
+    "usage": "<@Usuario>",
+    "options": {
+      "user": {
+        "description": "El miembro a obtener el avatar"
+      },
+      "server-avatar": {
+        "description": "Si mostrar el avatar de servidor del usuario en vez del global"
+      }
+    }
+  },
+  "ban": {
+    "description": "Banea a un miembro del servidor",
+    "example": "@Vicente#0001 Romper la regla 4.",
+    "usage": "[@Usuario/Usuario ID/Nombre miembro] <Razón> <--md> <--save>",
+    "options": {
+      "user": {
+        "description": "El usuario a banear"
+      },
+      "--save": {
+        "description": "Si guardar los mensajes del usuario o borrarlos todos"
+      }
+    }
+  },
+  "blockword": {
+    "description": "Bloquea el uso de palabras en el servidor.",
+    "example": "add pack 0",
+    "usage": "add [Palabra/Pack] / remove [Palabra/Pack] / ignore [#Canal/@Rol] / list / reset",
+    "options": {
+      "help": {
+        "description": "Muestra la ayuda sobre las palabras bloqueadas"
+      },
+      "list": {
+        "description": "Muestra la lista de palabras bloqueadas"
+      },
+      "reset": {
+        "description": "Borra la lista de palabras bloqueadas"
+      },
+      "word": {
+        "options": {
+          "add": {
+            "description": "Bloquea una palabra",
+            "options": {
+              "word": {
+                "description": "La palabra a bloquear"
+              }
+            }
+          },
+          "remove": {
+            "description": "Desbloquea una palabra",
+            "options": {
+              "word": {
+                "description": "La palabra a desbloquear"
+              }
+            }
+          }
+        }
+      },
+      "pack": {
+        "options": {
+          "add": {
+            "description": "Bloquea un pack de palabras",
+            "options": {
+              "pack": {
+                "description": "El pack a bloquear"
+              }
+            }
+          },
+          "remove": {
+            "description": "Desbloquea un pack de palabras",
+            "options": {
+              "pack": {
+                "description": "El pack a desbloquear"
+              }
+            }
+          }
+        }
+      },
+      "ignore": {
+        "options": {
+          "channel": {
+            "description": "Ignora un canal",
+            "options": {
+              "channel": {
+                "description": "El canal a ignorar"
+              }
+            }
+          },
+          "role": {
+            "description": "Ignora un rol",
+            "options": {
+              "role": {
+                "description": "El rol a ignorar"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "botinfo": {
+    "description": "Muestra la información del bot.",
+    "example": "",
+    "usage": ""
+  },
+  "case": {
+    "description": "Muestra la información de un caso de moderación",
+    "example": "5",
+    "usage": "[ID Caso]",
+    "options": {
+      "caseid": {
+        "description": "El número identificador del caso"
+      }
+    }
+  },
+  "cases": {
+    "description": "Muestra la lista de casos de moderación del servidor",
+    "example": "",
+    "usage": "<@Usuario>",
+    "options": {
+      "user": {
+        "description": "Filtrar por los casos de este usuario"
+      }
+    }
+  },
+  "changelog": {
+    "description": "Muestra el último registro de cambios.",
+    "example": "",
+    "usage": "",
+    "options": {
+      "view": {
+        "description": "Muestra el último registro de cambios"
+      },
+      "follow": {
+        "description": "Sigue nuestro canal de anuncios en este canal"
+      }
+    }
+  },
+  "clear": {
+    "description": "Borra una cantidad de mensajes",
+    "example": "@Seyron#5532 15\nmatch RAID 100",
+    "usage": "[Cantidad(2-100)]\n[@Usuario/Usuario ID] [Cantidad(2-100)]\nall\nmatch [Texto] [Cantidad(2-100)]\nnot [Texto] [Cantidad(2-100)]\nstartswith [Texto] [Cantidad(2-100)]\nendswith [Texto] [Cantidad(2-100)]\nlinks [Cantidad(2-100)]\ninvites [Cantidad(2-100)]\nimages [Cantidad(2-100)]\nmentions [Cantidad(2-100)]\nembeds [Cantidad(2-100)]\nbots [Cantidad(2-100)]\nbefore [ID Mensaje] [Cantidad(2-100)]\nafter [ID Mensaje] [Cantidad(2-100)]\naround [ID Mensaje] [Cantidad(2-100)]",
+    "options": {
+      "basic": {
+        "options": {
+          "quantity": {
+            "description": "Borra una cantidad de mensajes",
+            "options": {
+              "quantity": {
+                "description": "La cantidad a borrar"
+              },
+              "user": {
+                "description": "Filtra por los mensajes de un usuario"
+              }
+            }
+          }
+        }
+      },
+      "advanced": {
+        "options": {
+          "match": {
+            "description": "Borra los mensajes que contengan el texto indicado",
+            "options": {
+              "text": {
+                "description": "Filtrar por este texto"
+              }
+            }
+          },
+          "not": {
+            "description": "Borra los mensajes que no contengan el texto indicado"
+          },
+          "startswith": {
+            "description": "Borra los mensajes que empiecen por el texto indicado"
+          },
+          "endswith": {
+            "description": "Borra los mensajes que acaben por el texto indicado"
+          },
+          "links": {
+            "description": "Borra enlaces"
+          },
+          "invites": {
+            "description": "Borra invitaciones"
+          },
+          "images": {
+            "description": "Borra imágenes"
+          },
+          "mentions": {
+            "description": "Borra menciones"
+          },
+          "embeds": {
+            "description": "Borra embeds"
+          },
+          "bots": {
+            "description": "Borra mensajes de bots"
+          },
+          "before": {
+            "description": "Borra los mensajes anteriores al mensaje indicado",
+            "options": {
+              "messageid": {
+                "description": "Filtrar por la ID de un mensaje"
+              }
+            }
+          },
+          "after": {
+            "description": "Borra los mensajes posteriores al mensaje indicado"
+          },
+          "around": {
+            "description": "Borra los mensajes cercanos al mensaje indicado"
+          }
+        }
+      }
+    }
+  },
+  "clearbans": {
+    "description": "Quita todos los baneos del servidor.",
+    "example": "",
+    "usage": ""
+  },
+  "delrole": {
+    "description": "Borra el rol mencionado.",
+    "example": "@RolPrueba",
+    "usage": "",
+    "options": {
+      "role": {
+        "description": "Rol a borrar"
+      },
+      "reason": {
+        "description": "Razón por la que se borra el rol"
+      }
+    }
+  },
+  "clearwarn": {
+    "description": "Elimina advertencias",
+    "example": "43das78",
+    "usage": "<Código> / all",
+    "options": {
+      "all": {
+        "description": "Elimina todas las sugerencias",
+        "options": {
+          "user": {
+            "description": "Elimina todas las advertencias de un usuario"
+          }
+        }
+      },
+      "warn": {
+        "description": "Elimina una advertencia",
+        "options": {
+          "number": {
+            "description": "Número de la advertencia"
+          }
+        }
+      }
+    }
+  },
+  "commands": {
+    "description": "Muestra la lista de comandos",
+    "example": "",
+    "usage": "<--channel>",
+    "options": {
+      "in-channel": {
+        "description": "Si envía la respuesta en el canal en vez de por MD"
+      }
+    }
+  },
+  "deafen": {
+    "description": "Ensordece a un miembro",
+    "example": "@Usuario Miembro molesto --md",
+    "usage": "[@Usuario/Usuario ID] <Razón> <--md>",
+    "options": {
+      "user": {
+        "description": "El usuario a ensordecer"
+      }
+    }
+  },
+  "emoji": {
+    "description": "Muestra el emoji en grande.",
+    "example": ":pepeamor:",
+    "usage": "[Emoji]",
+    "options": {
+      "emoji": {
+        "description": "El emoji a mostrar"
+      }
+    }
+  },
+  "filter": {
+    "description": "Configura los filtros",
+    "example": "anti-spam enable",
+    "usage": "help / [filtro] enable / [filtro] disable / [filtro] ignore [#Canal/@Rol]",
+    "options": {
+      "help": {
+        "description": "Muestra el menú de ayuda"
+      },
+      "ignore": {
+        "options": {
+          "role": {
+            "description": "Ignora a un rol de un filtro",
+            "options": {
+              "filter": {
+                "description": "El filtro que ignorará"
+              },
+              "role": {
+                "description": "El rol a ignorar"
+              }
+            }
+          },
+          "channel": {
+            "description": "Ignora a un canal de un filtro",
+            "options": {
+              "filter": {
+                "description": "El filtro que ignorará"
+              },
+              "channel": {
+                "description": "El canal a ignorar"
+              }
+            }
+          }
+        }
+      },
+      "invites": {
+        "options": {
+          "toggle": {
+            "description": "Activa o desactiva el filtro"
+          }
+        }
+      },
+      "anti-spam": {
+        "options": {
+          "set-level": {
+            "description": "Establece el nivel del anti-spam",
+            "options": {
+              "level": {
+                "description": "El nivel a establecer"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "genpassword": {
+    "description": "Genera una contraseña acorde a los parámetros proporcionados.",
+    "example": "high 26",
+    "usage": "<Nivel(low/medium/high)> <Longitud(5-50)>",
+    "options": {
+      "level": {
+        "description": "Nivel de seguridad de la contraseña"
+      },
+      "length": {
+        "description": "Longitud de la contraseña"
+      }
+    }
+  },
+  "hackban": {
+    "description": "Banea a miembros mediante su ID",
+    "example": "124545463433127 124545463433127 124545463433127",
+    "usage": "[ID] <ID> <ID>...",
+    "options": {
+      "user": {
+        "description": "Pon aquí la ID del usuario"
+      }
+    }
+  },
+  "help": {
+    "description": "Menú de ayuda e información de comandos.",
+    "example": "ban",
+    "usage": "<Comando>",
+    "options": {
+      "command": {
+        "description": "Mostrar información de este comando"
+      }
+    }
+  },
+  "userinfo": {
+    "description": "Muestra la información de un usuario",
+    "example": "@Vicente#0001",
+    "usage": "<@Usuario/Usuario ID>",
+    "options": {
+      "user": {
+        "description": "Mostrar información de este usuario"
+      }
+    }
+  },
+  "inviteinfo": {
+    "description": "Muestra la información de una invitación",
+    "example": "discord-testers",
+    "usage": "<Código invitación/Enlace invitación>",
+    "options": {
+      "invite": {
+        "description": "Introduzca una invitación de discord ej: discord.gg/discord-townhall"
+      }
+    }
+  },
+  "kick": {
+    "description": "Expulsa a un miembro del servidor",
+    "example": "Discord#0000 Romper la regla 8.",
+    "usage": "[@Usuario/Usuario ID/Nombre miembro] <Razón> <--md>",
+    "options": {
+      "user": {
+        "description": "El usuario a expulsar"
+      }
+    }
+  },
+  "logs": {
+    "description": "Configura los los del servidor.",
+    "example": "#logs",
+    "usage": "help / list / [#Canal/CanalID/disable] / mod [#Canal/CanalID/disable] / boost [#Canal/CanalID/disable]",
+    "options": {
+      "help": {
+        "description": "Muestra la ayuda sobre los logs"
+      },
+      "list": {
+        "description": "Muestra la configuración actual de los logs"
+      },
+      "set": {
+        "description": "Establece un canal del logs",
+        "options": {
+          "type": {
+            "description": "Selecciona el tipo de logs que se recibirán en el canal"
+          },
+          "channel": {
+            "description": "Establece el canal"
+          }
+        }
+      }
+    }
+  },
+  "mail": {
+    "description": "Muestra el buzón de correos.",
+    "example": "",
+    "usage": ""
+  },
+  "modstats": {
+    "description": "Muestra estadísticas de los casos de moderación del servidor",
+    "example": "mods",
+    "usage": "actions / mods"
+  },
+  "mute": {
+    "description": "Mutea a un miembro",
+    "example": "@Clyde#0001 15m Romper regla 14.",
+    "usage": "[@Usuario/Usuario ID] <Tiempo> <s/m/h> <Razón> <--md>",
+    "options": {
+      "user": {
+        "description": "El usuario a mutear"
+      },
+      "time": {
+        "description": "El tiempo que estará muteado"
+      },
+      "unit": {
+        "description": "Unidad de tiempo"
+      }
+    }
+  },
+  "ping": {
+    "description": "Muestra el ping del bot.",
+    "example": "",
+    "usage": ""
+  },
+  "premium": {
+    "description": "Panel de control de D-Safe Premium.",
+    "example": "",
+    "usage": ""
+  },
+  "reason": {
+    "description": "Establece la razón de un caso de moderación.",
+    "example": "54 Roptura de la regla 16: No se permite spam en el servidor.",
+    "usage": "[ID Caso] [Razón]",
+    "options": {
+      "caseid": {
+        "description": "El número identificador del caso"
+      },
+      "reason": {
+        "description": "La razón a establecer"
+      }
+    }
+  },
+  "reportbug": {
+    "description": "Reporta un error a mi desarrollador para que sea solucionado.",
+    "example": "La alarma se enciende sola y no hay manera de apagarla.",
+    "usage": "<Descripción detallada del error>",
+    "options": {
+      "title": {
+        "description": "Escriba un título descriptivo del bug"
+      },
+      "description": {
+        "description": "Describa el bug y pasos para reproducirlo"
+      }
+    }
+  },
+  "roleinfo": {
+    "description": "Muestra la información de un rol",
+    "example": "@Usuario",
+    "usage": "<@Rol/Rol ID>",
+    "options": {
+      "role": {
+        "description": "Seleccione un rol"
+      }
+    }
+  },
+  "serverinfo": {
+    "description": "Muestra la información del servidor",
+    "example": "",
+    "usage": ""
+  },
+  "setlang": {
+    "description": "Establece el idioma del bot en el servidor",
+    "example": "es-ES",
+    "usage": "es-ES / en-US",
+    "options": {
+      "language": {
+        "description": "Selecciona un idioma"
+      }
+    }
+  },
+  "setprefix": {
+    "description": "Establece el prefijo en el servidor",
+    "example": "!!",
+    "usage": "[Prefijo]",
+    "options": {
+      "prefix": {
+        "description": "El prefijo a establecer"
+      }
+    }
+  },
+  "settings": {
+    "description": "Muestra los ajustes del servidor e información sobre cómo configurarlo",
+    "example": "",
+    "usage": ""
+  },
+  "setup": {
+    "description": "Configure los ajustes del bot de forma sencilla con reacciones y botones.",
+    "example": "",
+    "usage": ""
+  },
+  "softban": {
+    "description": "Banea e inmediatamente desbanea a un miembro para borrar mensajes",
+    "example": "@Clyde#0001 Flood en el chat --md",
+    "usage": "[@Usuario/Usuario ID] <Razón> <--md>",
+    "options": {
+      "user": {
+        "description": "El usuario a softbanear"
+      }
+    }
+  },
+  "suggest": {
+    "description": "Envía una sugerencia.",
+    "example": "Me gustaría que creen un canal de #gaming donde los usuarios podemos hablar sobre ese tema allí.",
+    "usage": "<Descripción de la sugerencia>",
+    "options": {
+      "description": {
+        "description": "Descrición de la sugerencia"
+      }
+    }
+  },
+  "suggestions": {
+    "description": "Ajustes e información de las sugerencias.",
+    "example": "setchannel #sugerencias",
+    "usage": "help \nlist\napprove [IDSugerencia] <Comentario>\ndeny [IDSugerencia] <Comentario>\ndelete [IDSugerencia]\nsetchannel [CanalID/#Canal/disable]\nsetapproved [CanalID/#Canal/disable]\nsetdenied [CanalID/#Canal/disable]\nquestionEmoji enable / disable\nautoaccept [Número(1-1000)] / disable\nmassapprove [IDSugerencia]...\nmassdeny [IDSugerencia]...\nmassdelete [IDSugerencia]...\neditcomment [SuggestionID] [New staff comment]\nsetrole [Rol ID/@Rol]\nsetpalette ayu / tailwind / default / p1 / p2 / p3 / n1 / n2 / n3\nsetcommandschannel [CanalID/#Canal]\nsetcooldown [Número(1-60)] / disable\nsetemoji [EmojiPositivo] [EmojiNegativo] <EmojiIndeciso> / disable",
+    "options": {
+      "help": {
+        "description": "Muestra la ayuda sobre las sugerencias"
+      },
+      "list": {
+        "description": "Muestra una lista de las sugerencias",
+        "options": {
+          "type": {
+            "description": "Filtrar por estado de las sugerencias"
+          }
+        }
+      },
+      "approve": {
+        "description": "Aprueba una sugerencia",
+        "options": {
+          "suggestionid": {
+            "description": "ID de la sugerencia"
+          },
+          "comment": {
+            "description": "Comentario"
+          },
+          "no-md": {
+            "description": "Si notificar al usuario de que su sugerencia ha sido aprobada"
+          }
+        }
+      },
+      "deny": {
+        "description": "Rechaza una sugerencia",
+        "options": {
+          "suggestionid": {
+            "description": "ID de la sugerencia"
+          },
+          "comment": {
+            "description": "Comentario"
+          },
+          "no-md": {
+            "description": "Si notificar al usuario de que su sugerencia ha sido aprobada"
+          }
+        }
+      },
+      "delete": {
+        "description": "Elimina una sugerencia",
+        "options": {
+          "suggestionid": {
+            "description": "ID de la sugerencia"
+          }
+        }
+      },
+      "disable": {
+        "description": "Desactiva el módulo de sugerencias"
+      },
+      "question-emoji": {
+        "description": "Configura el emoji de pregunta/confuso como opción en las sugerencias",
+        "options": {
+          "enabled": {
+            "description": "Si está activado: true para activar, false para desactivar"
+          }
+        }
+      },
+      "editcomment": {
+        "description": "Edita el comentario de una sugerencia",
+        "options": {
+          "suggestionid": {
+            "description": "ID de la sugerencia"
+          },
+          "new-comment": {
+            "description": "Nuevo comentario"
+          }
+        }
+      },
+      "massaction": {
+        "description": "Realiza una acción en masa",
+        "options": {
+          "action": {
+            "description": "La acción que realizar"
+          },
+          "suggestionids": {
+            "description": "Las ids de las sugerencias separadas por una coma, ej: 1,5,9,13"
+          }
+        }
+      },
+      "autoapprove": {
+        "description": "Configura la aprobación automática de sugerencias",
+        "options": {
+          "disable": {
+            "description": "Desactiva la aprobación automática"
+          },
+          "set": {
+            "description": "Establece el número",
+            "options": {
+              "number": {
+                "description": "Un número entre 1 y 1000"
+              }
+            }
+          }
+        }
+      },
+      "channels": {
+        "description": "Configura el canal de sugerencias",
+        "options": {
+          "set": {
+            "description": "Establece el canal de sugerencias",
+            "options": {
+              "type": {
+                "description": "El tipo de canal de sugerencias"
+              },
+              "channel": {
+                "description": "El canal a establecer"
+              }
+            }
+          },
+          "disable": {
+            "description": "Desactiva un canal de sugerencias",
+            "options": {
+              "type": {
+                "description": "El tipo de canal de sugerencias"
+              }
+            }
+          }
+        }
+      },
+      "cooldown": {
+        "description": "[Premium] Establece un cooldown customizado para enviar sugerencias",
+        "options": {
+          "set": {
+            "description": "Establece el cooldown customizado",
+            "options": {
+              "number": {
+                "description": "Número entre 1 y 60"
+              }
+            }
+          },
+          "disable": {
+            "description": "Desactiva el cooldown customizado"
+          }
+        }
+      },
+      "customemojis": {
+        "description": "[Premium] Customiza los emojis de las reacciones",
+        "options": {
+          "set": {
+            "description": "Establece los emojis",
+            "options": {
+              "emojipositive": {
+                "description": "Emoji positivo"
+              },
+              "emojinegative": {
+                "description": "Emoji negativo"
+              },
+              "emojiquestion": {
+                "description": "Emoji pregunta"
+              }
+            }
+          },
+          "disable": {
+            "description": "Vuelve a poner los emojis por defecto"
+          }
+        }
+      },
+      "palette": {
+        "description": "Configura la paleta de colores",
+        "options": {
+          "help": {
+            "description": "Muestra la ayuda sobre la paleta de colores"
+          },
+          "set": {
+            "description": "Cambia la paleta de colores",
+            "options": {
+              "palette": {
+                "description": "Seleccione una paleta para establecerla"
+              }
+            }
+          },
+          "setcolor": {
+            "description": "Crea tu propia paleta de colores estableciendo cada color",
+            "options": {
+              "color-type": {
+                "description": "Categoría de color a modificar"
+              },
+              "color": {
+                "description": "Color nuevo"
+              }
+            }
+          }
+        }
+      },
+      "role": {
+        "description": "[Premium] Establece el rol de manager de sugerencias",
+        "options": {
+          "set": {
+            "description": "Establece el rol",
+            "options": {
+              "role": {
+                "description": "Rol a establecer"
+              }
+            }
+          },
+          "disable": {
+            "description": "Desactiva el rol manager de sugerencias"
+          }
+        }
+      }
+    }
+  },
+  "topbots": {
+    "description": "Muestra la lista de top bots de Discord.",
+    "example": "",
+    "usage": ""
+  },
+  "unban": {
+    "description": "Desbanea a un usuario del servidor",
+    "example": "287574458963722240",
+    "usage": "[@Usuario/Usuario ID/Nombre miembro] <Razón> <--md>",
+    "options": {
+      "user": {
+        "description": "El usuario a desbanear"
+      }
+    }
+  },
+  "undeafen": {
+    "description": "Desensordece a un miembro",
+    "example": "@Usuario",
+    "usage": "[@Usuario/Usuario ID] <Razón> <--md>",
+    "options": {
+      "user": {
+        "description": "El usuario a desensordecer"
+      }
+    }
+  },
+  "unmute": {
+    "description": "Desilencia a un miembro silenciado",
+    "example": "182866681520062465",
+    "usage": "[@Usuario/Usuario ID] <Razón> <--md>",
+    "options": {
+      "user": {
+        "description": "El usuario a desmutear"
+      }
+    }
+  },
+  "verification": {
+    "description": "Configura la verificación",
+    "example": "setuser @Verificado",
+    "usage": "off / setmode <Modo(approval, reaction, verification, captcha)> / setguest <@Rol / Rol ID> / setuser <@Rol / Rol ID> setchannel <#Canal / Canal ID> / setmessage <Mensaje ID>",
+    "options": {
+      "disable": {
+        "description": "Desactiva la verificación"
+      },
+      "help": {
+        "description": "Muestra la ayuda sobre la verificación"
+      },
+      "setchannel": {
+        "description": "Establece el canal donde se mandarán los mensajes de verificación",
+        "options": {
+          "channel": {
+            "description": "El canal a establecer"
+          }
+        }
+      },
+      "setguest": {
+        "description": "Establece el rol de no verificado, que recibirán al entrar",
+        "options": {
+          "role": {
+            "description": "El rol a establecer"
+          }
+        }
+      },
+      "setmessage": {
+        "description": "[Modo Reaction] Establece el mensaje donde reaccionarán los nuevos usuarios",
+        "options": {
+          "messageid": {
+            "description": "La ID del mensaje a esteblecer"
+          }
+        }
+      },
+      "setmode": {
+        "description": "Establece el modo de la verificación",
+        "options": {
+          "mode": {
+            "description": "Seleccione uno de estos modos"
+          }
+        }
+      },
+      "setuser": {
+        "description": "Estalbece el rol de usuario, que recibirán al verificarse"
+      },
+      "showconfig": {
+        "description": "Muestra la configración actual de la verificación"
+      },
+      "settime": {
+        "description": "[Modo Captcha] Establece el tiempo máximo para verificarse",
+        "options": {
+          "time": {
+            "description": "El tiempo a establecer"
+          }
+        }
+      },
+      "setattempts": {
+        "description": "[Modo Captcha] Establece el máximo de intentos",
+        "options": {
+          "attempts": {
+            "description": "La cantidad de intentos"
+          }
+        }
+      },
+      "setage": {
+        "description": "Establece la edad mínima de la cuenta que tienen que tener para entrar",
+        "options": {
+          "set": {
+            "description": "Establece la edad mínima de la cuenta",
+            "options": {
+              "age": {
+                "description": "La edad a establecer (1-30)"
+              }
+            }
+          },
+          "disable": {
+            "description": "Desactiva el requisito de edad mínima de la cuenta"
+          }
+        }
+      }
+    }
+  },
+  "verifyme": {
+    "description": "Te da el rol de usuario en el servidor.",
+    "example": "",
+    "usage": ""
+  },
+  "vote": {
+    "description": "Muestra la información acerca de los votos.",
+    "example": "",
+    "usage": " / <@Usuario>"
+  },
+  "warn": {
+    "description": "Advierte a un usuario",
+    "example": "@Juan#4449 Romper la regla 3.",
+    "usage": "[@Usuario/Usuario ID] <Razón> <--md>",
+    "options": {
+      "user": {
+        "description": "Usuario a advertir"
+      },
+      "reason": {
+        "description": "Razón, máximo 100 caracteres"
+      },
+      "--md": {
+        "description": "Si notificar al usuario por MD, puedes activar que siempre sea sí por defecto usando /setup"
+      },
+      "--ephemeral": {
+        "description": "Si mostrar la respuesta solo para tí"
+      }
+    }
+  },
+  "warnings": {
+    "description": "Muestra lista de advertencias del servidor o miembro",
+    "example": "@Vicente#0001",
+    "usage": "[@Usuario/Usuario ID]",
+    "options": {
+      "user": {
+        "description": "Filtrar por las advertencias de este usuario"
+      }
+    }
+  }
 }

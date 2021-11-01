@@ -149,10 +149,10 @@
   },
   "roleUpdate": {
     "added": "",
-    "added_plural": "",
+    "added_other": "",
     "executor": "",
     "removed": "",
-    "removed_plural": "",
+    "removed_other": "",
     "título": ""
   },
   "voiceStateUpdate": {

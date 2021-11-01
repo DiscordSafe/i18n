@@ -1,52 +1,52 @@
 {
-    "argumentos": "This command needs arguments, **use:** {{prefijo}}{{commandName}} ",
-    "guild": "You cannot use this command outside a server.",
-    "palabra": "That word is blocked.",
-    "idioma": "The server language is English, to change it use ",
-    "nsfw": "This command is only for NSFW channels.",
-    "bloqueado": "You are blocked haha.",
-    "servidorOnly": "You can't use this command.",
-    "botPerms": "I have not enough permissions to execute this command, I need the **{{perm}}** permission.",
-    "ownerOnly": "This command can only be executed by the server owner.",
-    "comandoError": "An error occurred while executing the command.\nDevelopers have been notified.\nIf you need help ask our support server, https://discordsafe.com/discord",
-    "permisos": "You don't have enough permissions to use this command.",
-    "desactivado": "This command is only available as a slash command, use `/{{commandName}}` to use it.",
-    "cooldown": "You must wait {{segundos}} second/s to use this command again.",
-    "slashy": {
-        "string": {
-            "maxLength": "You must enter a shorter text, less than {{max}} characters.",
-            "minLength": "You must enter a longer text, longer than {{min}} characters."
-        },
-        "user": {
-            "acceptSelf": "You cannot use yourself as a parameter.",
-            "acceptBot": "Users are not accepted as parameters, only bots.",
-            "acceptUser": "Bots are not accepted as a parameter, only users.",
-            "acceptDeveloper": "Bot developers are not accepted as a parameter."
-        },
-        "integer": {
-            "min": "The number must not be less than {{min}}.",
-            "max": "The number must not be greater than {{max}}.",
-            "invalid": "Invalid number."
-        },
-        "channel": {
-            "invalidType": "Channels of **{{{type}}** are not accepted."
-        },
-        "role": {
-            "highest": "The role is upper your highest role, you can't use it."
-        },
-        "color": {
-            "invalidFormat": "Invalid color format, must be one of the following: {{validColors}}.\nYou can select a color at https://htmlcolorcodes.com/."
-        },
-        "emoji": {
-            "emojiNotFound": "The emoji was not found in this server, try again sending an emoji from the server."
-        },
-        "list": {
-            "notMatch": "The parameters are wrongly separated, you must put it right.\nExample: {{example}}."
-        }
+  "argumentos": "This command needs arguments, **use:** {{prefijo}}{{commandName}} ",
+  "guild": "You cannot use this command outside a server.",
+  "palabra": "That word is blocked.",
+  "idioma": "The server language is English, to change it use ",
+  "nsfw": "This command is only for NSFW channels.",
+  "bloqueado": "You are blocked haha.",
+  "servidorOnly": "You can't use this command.",
+  "botPerms_one": "I have not enough permissions to execute this command, I need the **{{perm}}** permission.",
+  "ownerOnly": "This command can only be executed by the server owner.",
+  "comandoError": "An error occurred while executing the command.\nDevelopers have been notified.\nIf you need help ask our support server, https://discordsafe.com/discord",
+  "permisos": "You don't have enough permissions to use this command.",
+  "desactivado": "This command is only available as a slash command, use `/{{commandName}}` to use it.",
+  "cooldown": "You must wait {{segundos}} second/s to use this command again.",
+  "slashy": {
+    "string": {
+      "maxLength": "You must enter a shorter text, less than {{max}} characters.",
+      "minLength": "You must enter a longer text, longer than {{min}} characters."
     },
-    "dm": "**Error, this command cannot be used in direct messages.",
-    "userPerms": "You do not have enough permissions to use this command.",
-    "userPerms_detailed": "You do not have enough permissions to use this command, you need the **{{perm}}** permission.",
-    "userPerms_detailed_plural": "You do not have enough permissions to use this command, you need **{{perm}}** permissions.",
-    "botPerms_plural": "I do not have enough permissions to execute this command, I need **{{perm}}** permissions."
+    "user": {
+      "acceptSelf": "You cannot use yourself as a parameter.",
+      "acceptBot": "Users are not accepted as parameters, only bots.",
+      "acceptUser": "Bots are not accepted as a parameter, only users.",
+      "acceptDeveloper": "Bot developers are not accepted as a parameter."
+    },
+    "integer": {
+      "min": "The number must not be less than {{min}}.",
+      "max": "The number must not be greater than {{max}}.",
+      "invalid": "Invalid number."
+    },
+    "channel": {
+      "invalidType": "Channels of **{{{type}}** are not accepted."
+    },
+    "role": {
+      "highest": "The role is upper your highest role, you can't use it."
+    },
+    "color": {
+      "invalidFormat": "Invalid color format, must be one of the following: {{validColors}}.\nYou can select a color at https://htmlcolorcodes.com/."
+    },
+    "emoji": {
+      "emojiNotFound": "The emoji was not found in this server, try again sending an emoji from the server."
+    },
+    "list": {
+      "notMatch": "The parameters are wrongly separated, you must put it right.\nExample: {{example}}."
+    }
+  },
+  "dm": "**Error, this command cannot be used in direct messages.",
+  "userPerms": "You do not have enough permissions to use this command.",
+  "userPerms_detailed_one": "You do not have enough permissions to use this command, you need the **{{perm}}** permission.",
+  "userPerms_detailed_other": "You do not have enough permissions to use this command, you need **{{perm}}** permissions.",
+  "botPerms_other": "I do not have enough permissions to execute this command, I need **{{perm}}** permissions."
 }
