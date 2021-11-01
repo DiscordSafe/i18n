@@ -1,7 +1,4 @@
 {
-    "aceptar": {
-        "md": "Your report to {{user}} was accepted."
-    },
     "alarm": {
         "activado": "Alarm mode has been enabled, new users are not allowed to join in the server, use the command again to disable it.",
         "desactivado": "Alarm mode has been disabled."
@@ -31,7 +28,6 @@
         "reason": "You have been banned in **{{guild}}** because: **{{reason}}**."
     },
     "baninfo": {
-        "noDefinido": "Undefined.",
         "razón": "Reason"
     },
     "blockword": {
@@ -152,9 +148,6 @@
         "errorYaEnsordecido": "**Error**, that user is already deafened, use `d.undeafen` to undeafen it.",
         "exito": "{{emoji}} **{{memberTag}}** has been deafened.",
         "reason": "You have been deafened in **{{guild}}** for: **{{reason}}**."
-    },
-    "detect": {
-        "usuarios": ":eyes: {{num}} detected users."
     },
     "filter": {
         "ayudaAutor": "Help panel about filters {{server}}",
@@ -334,7 +327,6 @@
         "reason_time": "You have been muted in **{{guild}}** for **{{time}}** for: **{{reason}}**."
     },
     "notification": {
-        "noArgsAuthor": "Configuration of notifications in {{server}}",
         "sactivado": "The notifications have been successfully enabled."
     },
     "ping": {
@@ -382,11 +374,8 @@
         "success": "{{emoji}} The reason of the case `{{caseid}}` has been set to `{{reason}}`."
     },
     "report": {
-        "confirmación": "Are you sure to send the report?",
         "errorIpLogger": "Sorry, your report contains an IPLogger we are not idiots crack.",
-        "errorTiempo": "Time is over.",
         "nuevoReporte": "¡New report!",
-        "reporteGenerado": "Your report was succesfully sent, we will answer you as soon as possible.",
         "enviado": "{{emoji}} Report sended!"
     },
     "reportbug": {
@@ -588,7 +577,6 @@
         "doc": "Configuration guide",
         "doc2": "All the **guide to verify** is better explained here **[documentación](https://docs.discordsafe.com/docs/config/lang)**.",
         "días": "\n{{days}} days",
-        "errorArgsAttempts": "** Error**, you must specify a number between **2 and 6**.",
         "errorCanalNoExiste": "That channel doesn't exists.",
         "errorCanalNoTexto": "That isn't a text channel.",
         "errorFooter": "d.verification help",
@@ -598,12 +586,9 @@
         "errorMensajeNoEncuentra": "I can't find that message.",
         "errorMensajePermisos": "The bot needs permissions of modify messages.",
         "errorModoPrimero": "**Error:** You need to select the mode first.\n**Help:** `d.verification help`",
-        "errorNoCanal": "**Error:** You need to indicate a channel.\n**Help:** `d.verification help`",
         "errorNoCanalEstablecido": "Please first configure the channel again.",
         "errorNoRow": "You can't disable something that hasn't been enabled.",
-        "errorRolEncima": "The rol of the bot needs to be in a higher position than that rol .",
         "errorRolNoExiste": "That rol doesn't exists.",
-        "establecidoAprobación": "The mode has been established to `approval`",
         "establecidoCaptcha": "The mode has been established to `captcha`",
         "establecidoIntentos": "The maximum number of verification attempts has been set to **{{intentos}} attempts **.",
         "establecidoMensaje": "The message has been established to ",
@@ -669,7 +654,6 @@
         "warnings_plural": "{{count}} warnings"
     },
     "whitelist": {
-        "errorNaN": "**Error**, the argument must be an User ID.",
         "quitado": "The user {{user}} has been eliminated from the whitelist."
     },
     "emoji": {

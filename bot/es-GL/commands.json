@@ -1,7 +1,4 @@
 {
-    "aceptar": {
-        "md": ""
-    },
     "alarm": {
         "activado": "",
         "desactivado": ""
@@ -29,7 +26,6 @@
         "exito": "¡El martillo del ban ha acertado exitosamente!"
     },
     "baninfo": {
-        "noDefinido": "",
         "razón": "Razón"
     },
     "blockword": {
@@ -124,9 +120,6 @@
         "errorMención": "",
         "errorYaEnsordecido": "",
         "exito": ""
-    },
-    "detect": {
-        "usuarios": ""
     },
     "filter": {
         "ayudaAutor": "",
@@ -280,7 +273,6 @@
         "exito": ""
     },
     "notification": {
-        "noArgsAuthor": "",
         "sactivado": ""
     },
     "ping": {
@@ -305,11 +297,8 @@
         "success": ""
     },
     "report": {
-        "confirmación": "",
         "errorIpLogger": "",
-        "errorTiempo": "",
-        "nuevoReporte": "",
-        "reporteGenerado": ""
+        "nuevoReporte": ""
     },
     "reportbug": {
         "args": "",
@@ -489,7 +478,6 @@
         "doc": "",
         "doc2": "",
         "días": "",
-        "errorArgsAttempts": "",
         "errorCanalNoExiste": "",
         "errorCanalNoTexto": "",
         "errorFooter": "",
@@ -499,12 +487,9 @@
         "errorMensajeNoEncuentra": "",
         "errorMensajePermisos": "",
         "errorModoPrimero": "",
-        "errorNoCanal": "",
         "errorNoCanalEstablecido": "",
         "errorNoRow": "",
-        "errorRolEncima": "",
         "errorRolNoExiste": "",
-        "establecidoAprobación": "",
         "establecidoCaptcha": "",
         "establecidoIntentos": "",
         "establecidoMensaje": "",
@@ -566,7 +551,6 @@
         "userEmbedOne": ""
     },
     "whitelist": {
-        "errorNaN": "",
         "quitado": ""
     }
 }

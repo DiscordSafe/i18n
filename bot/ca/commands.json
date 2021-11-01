@@ -1,7 +1,4 @@
 {
-    "aceptar": {
-        "prueba": "🔗 Prova:"
-    },
     "approve": {
         "aprobado": " ha estat aprovat.",
         "errorNoConfig": "No està configurada la verificació. Per configurar-la feu servir `d.verification`",
@@ -31,7 +28,6 @@
         "desactivado": "La manera alarma ha estat desactivat."
     },
     "baninfo": {
-        "prueba": "Prova.",
         "título": "Informació de l'baneo"
     },
     "blockword": {

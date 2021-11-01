@@ -1,7 +1,4 @@
 {
-    "aceptar": {
-        "md": ""
-    },
     "alarm": {
         "activado": "",
         "desactivado": "O modo alarma foi desativado."
@@ -29,7 +26,6 @@
         "exito": ""
     },
     "baninfo": {
-        "noDefinido": "",
         "razón": ""
     },
     "blockword": {
@@ -124,9 +120,6 @@
         "errorMención": "",
         "errorYaEnsordecido": "",
         "exito": ""
-    },
-    "detect": {
-        "usuarios": ":eyes: {{num}} usuários detectados."
     },
     "filter": {
         "ayudaAutor": "Panel de ayuda sobre filtros",
@@ -280,7 +273,6 @@
         "exito": ""
     },
     "notification": {
-        "noArgsAuthor": "",
         "sactivado": ""
     },
     "ping": {
@@ -305,11 +297,8 @@
         "success": ""
     },
     "report": {
-        "confirmación": "",
         "errorIpLogger": "",
-        "errorTiempo": "<:nopesafe:835956644965908483> | Se acabó el tiempo.",
-        "nuevoReporte": "",
-        "reporteGenerado": "Su reporte fue generado."
+        "nuevoReporte": ""
     },
     "reportbug": {
         "args": "",
@@ -489,7 +478,6 @@
         "doc": "",
         "doc2": "",
         "días": "",
-        "errorArgsAttempts": "",
         "errorCanalNoExiste": "",
         "errorCanalNoTexto": "",
         "errorFooter": ".verificacion ayuda",
@@ -499,12 +487,9 @@
         "errorMensajeNoEncuentra": "",
         "errorMensajePermisos": "",
         "errorModoPrimero": "**Error:** Debe seleccionar el modo primero.\n**Ayuda:** `.verificacion ayuda`",
-        "errorNoCanal": "**Error:** Debe indicar un canal.\n**Ayuda:** `.verificacion ayuda`",
         "errorNoCanalEstablecido": "",
         "errorNoRow": "",
-        "errorRolEncima": "",
         "errorRolNoExiste": "",
-        "establecidoAprobación": "El modo ha sido establecido a `aprobación`",
         "establecidoCaptcha": "",
         "establecidoIntentos": "",
         "establecidoMensaje": "",
@@ -566,7 +551,6 @@
         "userEmbedOne": ""
     },
     "whitelist": {
-        "errorNaN": "",
         "quitado": ""
     }
 }
