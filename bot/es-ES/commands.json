@@ -271,7 +271,8 @@
         "nada": "Ninguno",
         "nickname": "▸ Apodo",
         "roles": "▸ Roles",
-        "seUnió": "▸ Entrada al servidor"
+        "seUnió": "▸ Entrada al servidor",
+        "accentColor": "▸ Color de perfil"
     },
     "inviteinfo": {
         "channel": "▸ Canal",
@@ -443,7 +444,8 @@
         "tagBoost": "Booster: {{emoji}}",
         "tagBot": "Bot: <@{{botID}}>",
         "tagIntegration": "Integración: <@{{integrationID}}",
-        "tags": "▸ Etiquetas"
+        "tags": "▸ Etiquetas",
+        "icon": "▸ Icono"
     },
     "serverinfo": {
         "2fa": "▸ Autenticación de dos factores",

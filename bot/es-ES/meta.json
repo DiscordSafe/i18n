@@ -29,6 +29,9 @@
         "options": {
             "user": {
                 "description": "El miembro a obtener el avatar"
+            },
+            "server-avatar": {
+                "description": "Si mostrar el avatar de servidor del usuario en vez del global"
             }
         }
     },
