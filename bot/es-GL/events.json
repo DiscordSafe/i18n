@@ -1,173 +1,165 @@
 {
-  "channelCreate": {
-    "desc": "",
-    "title": "",
-    "type": ""
-  },
-  "channelDelete": {
-    "desc": "",
-    "title": "",
-    "type": ""
-  },
-  "channelUpdate": {
-    "coola": "",
-    "coolh": "",
-    "nombrea": "",
-    "nombreh": "",
-    "none": "",
-    "nsfwa": "",
-    "nsfwh": "",
-    "temaa": "",
-    "temah": "",
-    "title": "",
-    "typea": "",
-    "typeh": ""
-  },
-  "guildBanAdd": {
-    "banned": "",
-    "mod": "",
-    "ningunaRazón": "",
-    "razón": ""
-  },
-  "guildBanRemove": {
-    "mod": "",
-    "ningunaRazón": "",
-    "razón": "",
-    "unbanned": ""
-  },
-  "guildMemberAdd": {
-    "alarma": "",
-    "alertaDes": "",
-    "alertaFooter": "",
-    "alertaM": "",
-    "alertaP": "",
-    "alertaR": "",
-    "alertaTitle": "",
-    "badges": "",
-    "bot": "",
-    "captchaErrorIntentos": "",
-    "captchaErrorTiempo": "",
-    "captchaField1": "",
-    "captchaField2": "",
-    "captchaFooter": "",
-    "captchaIntento": "",
-    "captchaTitle": "",
-    "captchacDes": "",
-    "captchacFooter": "",
-    "captchacTitle": "",
-    "creación": "",
-    "expulsado": "",
-    "expulsadoRazón": "",
-    "forceban": "",
-    "kick": "",
-    "nuevoUsuario": "",
-    "porQué": "",
-    "usuarioDa": ""
-  },
-  "guildMemberRemove": {
-    "badges": "",
-    "bot": "",
-    "creación": "",
-    "usuarioSalio": ""
-  },
-  "guildMemberUpdate": {
-    "after": "",
-    "before": "",
-    "boostDesc": "",
-    "boostTitle": "",
-    "by": "",
-    "name": "",
-    "nickname": "",
-    "roladded": "",
-    "rolremoved": "",
-    "unboostDesc": "",
-    "unboostTitle": ""
-  },
-  "guildUpdate": {
-    "afkcha": "",
-    "afkchh": "",
-    "afkta": "",
-    "afkth": "",
-    "desca": "",
-    "desch": "",
-    "feaa": "",
-    "feah": "",
-    "levelDowndesc": "",
-    "levelDowntitle": "",
-    "levelUpdesc": "",
-    "levelUptitle": "",
-    "namea": "",
-    "nameh": "",
-    "none": "",
-    "rega": "",
-    "regh": "",
-    "title": "",
-    "vanitya": "",
-    "vanityh": ""
-  },
-  "message": {
-    "NoFlood": "",
-    "NoInvitaciones": "",
-    "NoLoggersAvanzado": "",
-    "NoLoggersBásico": "",
-    "NoNSFW": "",
-    "NoSpam": "",
-    "infoComandos": "",
-    "infoPrefix": "",
-    "logAdmin": "",
-    "logAutor": "",
-    "logCanal": "",
-    "palabraBloqueada": "",
-    "reminderDescription": "",
-    "reminderField1": "",
-    "reminderTitle": ""
-  },
-  "messageDelete": {
-    "título": ""
-  },
-  "messageDeleteBulk": {
-    "canal": "",
-    "cantidad": "",
-    "fs1": "",
-    "fs2": "",
-    "título": ""
-  },
-  "messageUpdate": {
-    "content": "",
-    "contentPinned": "",
-    "nuevo": "",
-    "oldContent": "",
-    "pinned": "",
-    "tiempos": "",
-    "título": ""
-  },
-  "roleCreate": {
-    "título": ""
-  },
-  "roleDelete": {
-    "título": ""
-  },
-  "roleUpdate": {
-    "added": "",
-    "added_other": "",
-    "executor": "",
-    "removed": "",
-    "removed_other": "",
-    "título": ""
-  },
-  "voiceStateUpdate": {
-    "channel": "",
-    "deaf": "",
-    "join": "",
-    "leave": "",
-    "mute": "",
-    "newChannel": "",
-    "oldChannel": "",
-    "start-streaming": "",
-    "stop-streaming": "",
-    "switch": "",
-    "undeaf": "",
-    "unmute": "",
-    "user": ""
-  }
+    "channelCreate": {
+        "desc": "",
+        "title": "",
+        "type": ""
+    },
+    "channelDelete": {
+        "desc": "",
+        "title": "",
+        "type": ""
+    },
+    "channelUpdate": {
+        "coola": "",
+        "coolh": "",
+        "nombrea": "",
+        "nombreh": "",
+        "none": "",
+        "nsfwa": "",
+        "nsfwh": "",
+        "temaa": "",
+        "temah": "",
+        "title": "",
+        "typea": "",
+        "typeh": ""
+    },
+    "guildBanAdd": {
+        "banned": "",
+        "mod": "",
+        "ningunaRazón": "",
+        "razón": ""
+    },
+    "guildBanRemove": {
+        "mod": "",
+        "ningunaRazón": "",
+        "razón": "",
+        "unbanned": ""
+    },
+    "guildMemberAdd": {
+        "alertaDes": "",
+        "alertaM": "",
+        "alertaR": "",
+        "badges": "",
+        "bot": "",
+        "captchaErrorIntentos": "",
+        "captchaErrorTiempo": "",
+        "captchaField1": "",
+        "captchaField2": "",
+        "captchaFooter": "",
+        "captchaIntento": "",
+        "captchaTitle": "",
+        "captchacDes": "",
+        "captchacFooter": "",
+        "captchacTitle": "",
+        "creación": "",
+        "expulsado": "",
+        "expulsadoRazón": "",
+        "kick": "",
+        "nuevoUsuario": "",
+        "usuarioDa": ""
+    },
+    "guildMemberRemove": {
+        "badges": "",
+        "bot": "",
+        "creación": "",
+        "usuarioSalio": ""
+    },
+    "guildMemberUpdate": {
+        "after": "",
+        "before": "",
+        "boostDesc": "",
+        "boostTitle": "",
+        "by": "",
+        "name": "",
+        "nickname": "",
+        "roladded": "",
+        "rolremoved": "",
+        "unboostDesc": "",
+        "unboostTitle": ""
+    },
+    "guildUpdate": {
+        "afkcha": "",
+        "afkchh": "",
+        "afkta": "",
+        "afkth": "",
+        "desca": "",
+        "desch": "",
+        "feaa": "",
+        "feah": "",
+        "levelDowndesc": "",
+        "levelDowntitle": "",
+        "levelUpdesc": "",
+        "levelUptitle": "",
+        "namea": "",
+        "nameh": "",
+        "none": "",
+        "rega": "",
+        "regh": "",
+        "title": "",
+        "vanitya": "",
+        "vanityh": ""
+    },
+    "message": {
+        "NoFlood": "",
+        "NoInvitaciones": "",
+        "NoLoggersAvanzado": "",
+        "NoLoggersBásico": "",
+        "NoNSFW": "",
+        "NoSpam": "",
+        "infoComandos": "",
+        "infoPrefix": "",
+        "logAdmin": "",
+        "logAutor": "",
+        "logCanal": "",
+        "palabraBloqueada": "",
+        "reminderDescription": "",
+        "reminderField1": "",
+        "reminderTitle": ""
+    },
+    "messageDelete": {
+        "título": ""
+    },
+    "messageDeleteBulk": {
+        "canal": "",
+        "cantidad": "",
+        "fs1": "",
+        "fs2": "",
+        "título": ""
+    },
+    "messageUpdate": {
+        "content": "",
+        "contentPinned": "",
+        "nuevo": "",
+        "oldContent": "",
+        "pinned": "",
+        "tiempos": "",
+        "título": ""
+    },
+    "roleCreate": {
+        "título": ""
+    },
+    "roleDelete": {
+        "título": ""
+    },
+    "roleUpdate": {
+        "added_other": "",
+        "executor": "",
+        "removed_other": "",
+        "título": ""
+    },
+    "voiceStateUpdate": {
+        "channel": "",
+        "deaf": "",
+        "join": "",
+        "leave": "",
+        "mute": "",
+        "newChannel": "",
+        "oldChannel": "",
+        "start-streaming": "",
+        "stop-streaming": "",
+        "switch": "",
+        "undeaf": "",
+        "unmute": "",
+        "user": ""
+    }
 }

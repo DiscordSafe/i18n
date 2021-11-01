@@ -1,237 +1,231 @@
 {
-  "channelCreate": {
-    "desc": "<#{{canal}}>",
-    "title": "Channel created",
-    "type": "Type"
-  },
-  "channelDelete": {
-    "desc": "{{canal}}",
-    "title": "Channel deleted",
-    "type": "Type"
-  },
-  "channelUpdate": {
-    "coola": "Ratelimit (Before)",
-    "coolh": "Ratelimit (After)",
-    "nombrea": "Name (before)",
-    "nombreh": "Name (now)",
-    "none": "None.",
-    "nsfwa": "NSFW (before)",
-    "nsfwh": "NSFW (after)",
-    "temaa": "Topic (before)",
-    "temah": "Topic (after)",
-    "title": "Channel updated",
-    "typea": "Type (Before)",
-    "typeh": "Type (After)"
-  },
-  "guildBanAdd": {
-    "banned": "Member banned",
-    "mod": "Moderator",
-    "ningunaRazón": "None",
-    "razón": "Reason"
-  },
-  "guildBanRemove": {
-    "mod": "Moderator",
-    "ningunaRazón": "None",
-    "razón": "Reason",
-    "unbanned": "Member unbanned"
-  },
-  "guildMemberAdd": {
-    "alarma": "The server **{{server}}** is on alarm mode and does not allow new users to enter, please try again in a few minutes.",
-    "alertaDes": "A member classified as malicious has entered your server",
-    "alertaFooter": "You can disable these alerts using {{prefix}}notifications",
-    "alertaM": "Member",
-    "alertaP": "Proof",
-    "alertaR": "Reason",
-    "alertaTitle": "Alert",
-    "badges": "Badges",
-    "bot": "Bot",
-    "captchaErrorIntentos": "**You have reached the limit of attempts**, you have not completed the verification so you will be kicked.",
-    "captchaErrorTiempo": "**Time is over**, you have not completed the verification so you will be kicked.",
-    "captchaField1": "Before continuing, you must answer this **captcha**, do it to be able to access the server. You have **{{intentos}} attempts** and ** {{minutos}} minutes** to complete.",
-    "captchaField2": "This is to protect the server from spam bots and multi-accounts.",
-    "captchaFooter": "Invite me, discordsafe.com/invite",
-    "captchaIntento": "**Error**, you have {{intentos}} attempts left.",
-    "captchaTitle": "Welcome to {{server}}",
-    "captchacDes": "You now have access to {{server}}",
-    "captchacFooter": "Do you want to invite me to your server? discordsafe.com/invite",
-    "captchacTitle": "Thanks!",
-    "creación": "Created",
-    "expulsado": "You have been kicked from the server **{{server}}** because your account does not exceed the minimum of **{{age}}** days.",
-    "expulsadoRazón": "Minimum days of account creation.",
-    "forceban": "Forceban",
-    "kick": "Verification not completed.",
-    "nuevoUsuario": "New user",
-    "porQué": "Why?",
-    "usuarioDa": "⛔ Harmful user: {{reason}}"
-  },
-  "guildMemberRemove": {
-    "badges": "Badges",
-    "bot": "Bot",
-    "creación": "Created",
-    "usuarioSalio": "User left"
-  },
-  "guildMemberUpdate": {
-    "after": "After:",
-    "before": "Before:",
-    "boostDesc": "<@{{memberID}}>, Thanks for supporting this server with your boost. <3",
-    "boostTitle": "Thanks for your boost!",
-    "by": "Updated by",
-    "name": "Username changed",
-    "nickname": "Nickname changed",
-    "roladded": "Role added",
-    "rolremoved": "Role removed",
-    "unboostDesc": "<@{{memberID}}> Thanks for supporting this server, we hope to see you again.",
-    "unboostTitle": "A boost has over :(",
-    "autopremium": {
-      "description": "Thank you very much for supporting my development, you contribute so that I can continue to stay stable and update with better features.\n- Developers <3.\n\nNow you just have to link the premium to a server using `/premium`.",
-      "title_one": "¡You have obtained premium!",
-      "title_other": "¡You have obtained {{count}} premiums!"
+    "channelCreate": {
+        "desc": "<#{{canal}}>",
+        "title": "Channel created",
+        "type": "Type"
+    },
+    "channelDelete": {
+        "desc": "{{canal}}",
+        "title": "Channel deleted",
+        "type": "Type"
+    },
+    "channelUpdate": {
+        "coola": "Ratelimit (Before)",
+        "coolh": "Ratelimit (After)",
+        "nombrea": "Name (before)",
+        "nombreh": "Name (now)",
+        "none": "None.",
+        "nsfwa": "NSFW (before)",
+        "nsfwh": "NSFW (after)",
+        "temaa": "Topic (before)",
+        "temah": "Topic (after)",
+        "title": "Channel updated",
+        "typea": "Type (Before)",
+        "typeh": "Type (After)"
+    },
+    "guildBanAdd": {
+        "banned": "Member banned",
+        "mod": "Moderator",
+        "ningunaRazón": "None",
+        "razón": "Reason"
+    },
+    "guildBanRemove": {
+        "mod": "Moderator",
+        "ningunaRazón": "None",
+        "razón": "Reason",
+        "unbanned": "Member unbanned"
+    },
+    "guildMemberAdd": {
+        "alertaDes": "A member classified as malicious has entered your server",
+        "alertaM": "Member",
+        "alertaR": "Reason",
+        "badges": "Badges",
+        "bot": "Bot",
+        "captchaErrorIntentos": "**You have reached the limit of attempts**, you have not completed the verification so you will be kicked.",
+        "captchaErrorTiempo": "**Time is over**, you have not completed the verification so you will be kicked.",
+        "captchaField1": "Before continuing, you must answer this **captcha**, do it to be able to access the server. You have **{{intentos}} attempts** and ** {{minutos}} minutes** to complete.",
+        "captchaField2": "This is to protect the server from spam bots and multi-accounts.",
+        "captchaFooter": "Invite me, discordsafe.com/invite",
+        "captchaIntento": "**Error**, you have {{intentos}} attempts left.",
+        "captchaTitle": "Welcome to {{server}}",
+        "captchacDes": "You now have access to {{server}}",
+        "captchacFooter": "Do you want to invite me to your server? discordsafe.com/invite",
+        "captchacTitle": "Thanks!",
+        "creación": "Created",
+        "expulsado": "You have been kicked from the server **{{server}}** because your account does not exceed the minimum of **{{age}}** days.",
+        "expulsadoRazón": "Minimum days of account creation.",
+        "kick": "Verification not completed.",
+        "nuevoUsuario": "New user",
+        "usuarioDa": "⛔ Harmful user: {{reason}}"
+    },
+    "guildMemberRemove": {
+        "badges": "Badges",
+        "bot": "Bot",
+        "creación": "Created",
+        "usuarioSalio": "User left"
+    },
+    "guildMemberUpdate": {
+        "after": "After:",
+        "before": "Before:",
+        "boostDesc": "<@{{memberID}}>, Thanks for supporting this server with your boost. <3",
+        "boostTitle": "Thanks for your boost!",
+        "by": "Updated by",
+        "name": "Username changed",
+        "nickname": "Nickname changed",
+        "roladded": "Role added",
+        "rolremoved": "Role removed",
+        "unboostDesc": "<@{{memberID}}> Thanks for supporting this server, we hope to see you again.",
+        "unboostTitle": "A boost has over :(",
+        "autopremium": {
+            "description": "Thank you very much for supporting my development, you contribute so that I can continue to stay stable and update with better features.\n- Developers <3.\n\nNow you just have to link the premium to a server using `/premium`.",
+            "title_one": "¡You have obtained premium!",
+            "title_other": "¡You have obtained {{count}} premiums!"
+        }
+    },
+    "guildUpdate": {
+        "afkcha": "AFK's channel (Before)",
+        "afkchh": "AFK's channel (After)",
+        "afkta": "AFK Time (before)",
+        "afkth": "AFK Time (After)",
+        "desca": "Description (Before)",
+        "desch": "Description (After)",
+        "feaa": "Features (Before)",
+        "feah": "Features (After)",
+        "levelDowndesc": "The server has descended to **{{level}}**.",
+        "levelDowntitle": "Level descent",
+        "levelUpdesc": "The server has risen to **{{level}}**.",
+        "levelUptitle": "Level rise",
+        "namea": "Name (Before)",
+        "nameh": "Name (After)",
+        "none": "None.",
+        "rega": "Region (Before)",
+        "regh": "Region (After)",
+        "title": "Updated server",
+        "vanitya": "Vanity URL (Before)",
+        "vanityh": "Vanity URL (After)"
+    },
+    "message": {
+        "NoFlood": "**[AntiFlood]** Don't send so many messages.",
+        "NoInvitaciones": "Invites to other servers are not allowed.",
+        "NoLoggersAvanzado": "**[Advanced Anti Iplogger]** Is not allowed to send iplogger or malicious links.",
+        "NoLoggersBásico": "**[Basic Anti Iplogger]** Is not allowed to send iplogger or malicious links.",
+        "NoNSFW": "**[Premium Image Filter]** NSFW content is not allowed outside NSFW channels.",
+        "NoSpam": "**[AntiSpam]** Your message has been classified as spam.",
+        "infoComandos": "To see my commands use: {{prefix}}commands",
+        "infoPrefix": "Hello 👋,\nMy prefix on this server is:\n`{{prefix}}`",
+        "logAdmin": "Admin command used:",
+        "logAutor": "Author: {{autor}}",
+        "logCanal": "Channel:",
+        "palabraBloqueada": "Blocked word.",
+        "reminderDescription": "I've had a [new update](https://blog.discordsafe.com/Registro-de-cambios/version-4-2) where commands have been **renamed, updated and grouped**.\nThe new name of the command you are trying to use is below, thanks for using me!",
+        "reminderField1": "New command name",
+        "reminderTitle": "New commands reminder"
+    },
+    "messageDelete": {
+        "título": "Deleted message"
+    },
+    "messageDeleteBulk": {
+        "canal": "Channel",
+        "cantidad": "Amount",
+        "fs1": "Messages deleted on {{fecha}}",
+        "fs2": " Message ID: {{id}}\nMessage: {{content}}",
+        "título": "Messages Purged"
+    },
+    "messageUpdate": {
+        "content": "New content",
+        "contentPinned": "Message",
+        "nuevo": "Message ID",
+        "oldContent": "Before content",
+        "pinned": "New message pinned",
+        "tiempos": "Time difference",
+        "título": "Updated message"
+    },
+    "roleCreate": {
+        "título": "New role: {{rol}}"
+    },
+    "roleDelete": {
+        "título": "Deleted role: {{rol}} - `{{rolid}}`"
+    },
+    "roleUpdate": {
+        "added_one": "Permission added",
+        "added_other": "Permissions added",
+        "executor": "Edited by",
+        "removed_one": "Permission removed",
+        "removed_other": "Permissions removed",
+        "título": "Role updated",
+        "defaultTitle": "Modified role",
+        "roleID": "Role ID: {{roleID}}"
+    },
+    "voiceStateUpdate": {
+        "channel": "Channel",
+        "deaf": "Deafened in voice channel",
+        "join": "Joined voice channel",
+        "leave": "Left voice channel",
+        "mute": "Muted in voice channel",
+        "newChannel": "New channel",
+        "oldChannel": "Previous channel",
+        "start-streaming": "Started streaming in voice channel",
+        "stop-streaming": "Stopped streaming in voice channel",
+        "switch": "Switched voice channels",
+        "undeaf": "Undeafened in voice channel",
+        "unmute": "Unmuted in voice channel",
+        "user": "User"
+    },
+    "stageInstanceCreate": {
+        "title": "Stage channel opened",
+        "channel": "Channel",
+        "createdAt": "Created on",
+        "privacyLevel": "Privacy Level",
+        "discoverable": "Discoverable",
+        "public": "Public",
+        "guildonly": "Only for this server",
+        "instanceID": "Instance ID: `{{id}}`",
+        "members": "Member count",
+        "region": "Region"
+    },
+    "threadUpdate": {
+        "namea": "Name (Before)",
+        "named": "Name (After)",
+        "autoArchived": "Autoarchivation time (After)",
+        "autoArchivea": "Autoarchivation time (Before)",
+        "title": "Updated thread",
+        "archiveda": "Archived (Before)",
+        "archivedd": "Archived (After)"
+    },
+    "threadCreate": {
+        "members": "Member count",
+        "locked": "Locked",
+        "messageCount": "Message count",
+        "parent": "Parent channel",
+        "private": "Private",
+        "public": "Public",
+        "news": "News",
+        "title": "Created thread",
+        "name": "Name",
+        "threadType": "Type",
+        "threadID": "Thread ID: {{id}}",
+        "owner": "Owner",
+        "archived": "Archived",
+        "archivedAt": "Archived at",
+        "autoArchive": "It will be autoarchived at",
+        "createdAt": "Created at"
+    },
+    "threadDelete": {
+        "title": "Deleted thread"
+    },
+    "threadMembersUpdate": {
+        "join": "Joined the thread #{{thread}}",
+        "leave": "Left the thread #{{thread}}",
+        "thread": "Thread"
+    },
+    "stageInstanceDelete": {
+        "title": "Stage event deleted"
+    },
+    "stageInstanceUpdate": {
+        "title": "Stage event updated",
+        "topica": "Topic (Before)",
+        "topicd": "Topic (After)",
+        "privacya": "Privacy (Before)",
+        "privacyd": "Privacy (After)"
     }
-  },
-  "guildUpdate": {
-    "afkcha": "AFK's channel (Before)",
-    "afkchh": "AFK's channel (After)",
-    "afkta": "AFK Time (before)",
-    "afkth": "AFK Time (After)",
-    "desca": "Description (Before)",
-    "desch": "Description (After)",
-    "feaa": "Features (Before)",
-    "feah": "Features (After)",
-    "levelDowndesc": "The server has descended to **{{level}}**.",
-    "levelDowntitle": "Level descent",
-    "levelUpdesc": "The server has risen to **{{level}}**.",
-    "levelUptitle": "Level rise",
-    "namea": "Name (Before)",
-    "nameh": "Name (After)",
-    "none": "None.",
-    "rega": "Region (Before)",
-    "regh": "Region (After)",
-    "title": "Updated server",
-    "vanitya": "Vanity URL (Before)",
-    "vanityh": "Vanity URL (After)"
-  },
-  "message": {
-    "NoFlood": "**[AntiFlood]** Don't send so many messages.",
-    "NoInvitaciones": "Invites to other servers are not allowed.",
-    "NoLoggersAvanzado": "**[Advanced Anti Iplogger]** Is not allowed to send iplogger or malicious links.",
-    "NoLoggersBásico": "**[Basic Anti Iplogger]** Is not allowed to send iplogger or malicious links.",
-    "NoNSFW": "**[Premium Image Filter]** NSFW content is not allowed outside NSFW channels.",
-    "NoSpam": "**[AntiSpam]** Your message has been classified as spam.",
-    "infoComandos": "To see my commands use: {{prefix}}commands",
-    "infoPrefix": "Hello 👋,\nMy prefix on this server is:\n`{{prefix}}`",
-    "logAdmin": "Admin command used:",
-    "logAutor": "Author: {{autor}}",
-    "logCanal": "Channel:",
-    "palabraBloqueada": "Blocked word.",
-    "reminderDescription": "I've had a [new update](https://blog.discordsafe.com/Registro-de-cambios/version-4-2) where commands have been **renamed, updated and grouped**.\nThe new name of the command you are trying to use is below, thanks for using me!",
-    "reminderField1": "New command name",
-    "reminderTitle": "New commands reminder"
-  },
-  "messageDelete": {
-    "título": "Deleted message"
-  },
-  "messageDeleteBulk": {
-    "canal": "Channel",
-    "cantidad": "Amount",
-    "fs1": "Messages deleted on {{fecha}}",
-    "fs2": " Message ID: {{id}}\nMessage: {{content}}",
-    "título": "Messages Purged"
-  },
-  "messageUpdate": {
-    "content": "New content",
-    "contentPinned": "Message",
-    "nuevo": "Message ID",
-    "oldContent": "Before content",
-    "pinned": "New message pinned",
-    "tiempos": "Time difference",
-    "título": "Updated message"
-  },
-  "roleCreate": {
-    "título": "New role: {{rol}}"
-  },
-  "roleDelete": {
-    "título": "Deleted role: {{rol}} - `{{rolid}}`"
-  },
-  "roleUpdate": {
-    "added_one": "Permission added",
-    "added_other": "Permissions added",
-    "executor": "Edited by",
-    "removed_one": "Permission removed",
-    "removed_other": "Permissions removed",
-    "título": "Role updated",
-    "defaultTitle": "Modified role",
-    "roleID": "Role ID: {{roleID}}"
-  },
-  "voiceStateUpdate": {
-    "channel": "Channel",
-    "deaf": "Deafened in voice channel",
-    "join": "Joined voice channel",
-    "leave": "Left voice channel",
-    "mute": "Muted in voice channel",
-    "newChannel": "New channel",
-    "oldChannel": "Previous channel",
-    "start-streaming": "Started streaming in voice channel",
-    "stop-streaming": "Stopped streaming in voice channel",
-    "switch": "Switched voice channels",
-    "undeaf": "Undeafened in voice channel",
-    "unmute": "Unmuted in voice channel",
-    "user": "User"
-  },
-  "stageInstanceCreate": {
-    "title": "Stage channel opened",
-    "channel": "Channel",
-    "createdAt": "Created on",
-    "privacyLevel": "Privacy Level",
-    "discoverable": "Discoverable",
-    "public": "Public",
-    "guildonly": "Only for this server",
-    "instanceID": "Instance ID: `{{id}}`",
-    "members": "Member count",
-    "region": "Region"
-  },
-  "threadUpdate": {
-    "namea": "Name (Before)",
-    "named": "Name (After)",
-    "autoArchived": "Autoarchivation time (After)",
-    "autoArchivea": "Autoarchivation time (Before)",
-    "title": "Updated thread",
-    "archiveda": "Archived (Before)",
-    "archivedd": "Archived (After)"
-  },
-  "threadCreate": {
-    "members": "Member count",
-    "locked": "Locked",
-    "messageCount": "Message count",
-    "parent": "Parent channel",
-    "private": "Private",
-    "public": "Public",
-    "news": "News",
-    "title": "Created thread",
-    "name": "Name",
-    "threadType": "Type",
-    "threadID": "Thread ID: {{id}}",
-    "owner": "Owner",
-    "archived": "Archived",
-    "archivedAt": "Archived at",
-    "autoArchive": "It will be autoarchived at",
-    "createdAt": "Created at"
-  },
-  "threadDelete": {
-    "title": "Deleted thread"
-  },
-  "threadMembersUpdate": {
-    "join": "Joined the thread #{{thread}}",
-    "leave": "Left the thread #{{thread}}",
-    "thread": "Thread"
-  },
-  "stageInstanceDelete": {
-    "title": "Stage event deleted"
-  },
-  "stageInstanceUpdate": {
-    "title": "Stage event updated",
-    "topica": "Topic (Before)",
-    "topicd": "Topic (After)",
-    "privacya": "Privacy (Before)",
-    "privacyd": "Privacy (After)"
-  }
 }
