@@ -1,267 +1,247 @@
 {
-  "alarm": {
-    "description": "",
-    "example": "",
-    "usage": ""
-  },
-  "approve": {
-    "description": "",
-    "example": "",
-    "usage": ""
-  },
-  "avatar": {
-    "description": "",
-    "example": "",
-    "usage": ""
-  },
-  "ban": {
-    "description": "",
-    "example": "",
-    "usage": ""
-  },
-  "baninfo": {
-    "description": "",
-    "example": "",
-    "usage": ""
-  },
-  "blockword": {
-    "description": "",
-    "example": "",
-    "usage": ""
-  },
-  "botinfo": {
-    "description": "",
-    "example": "",
-    "usage": ""
-  },
-  "case": {
-    "description": "",
-    "example": "",
-    "usage": ""
-  },
-  "cases": {
-    "description": "",
-    "example": "",
-    "usage": ""
-  },
-  "changelog": {
-    "description": "",
-    "example": "",
-    "usage": ""
-  },
-  "clear": {
-    "description": "",
-    "example": "",
-    "usage": ""
-  },
-  "clearbans": {
-    "description": "",
-    "example": "",
-    "usage": ""
-  },
-  "clearwarn": {
-    "description": "",
-    "example": "",
-    "usage": ""
-  },
-  "commands": {
-    "description": "",
-    "example": "",
-    "usage": ""
-  },
-  "deafen": {
-    "description": "",
-    "example": "",
-    "usage": ""
-  },
-  "detect": {
-    "description": "",
-    "example": "",
-    "usage": ""
-  },
-  "filter": {
-    "description": "",
-    "example": "",
-    "usage": ""
-  },
-  "forceban": {
-    "description": "",
-    "example": "",
-    "usage": ""
-  },
-  "genpassword": {
-    "description": "",
-    "example": "",
-    "usage": ""
-  },
-  "hackban": {
-    "description": "",
-    "example": "",
-    "usage": ""
-  },
-  "help": {
-    "description": "",
-    "example": "",
-    "usage": ""
-  },
-  "info": {
-    "description": "",
-    "example": "",
-    "usage": ""
-  },
-  "invite": {
-    "description": "",
-    "example": "",
-    "usage": ""
-  },
-  "kick": {
-    "description": "",
-    "example": "",
-    "usage": ""
-  },
-  "logs": {
-    "description": "",
-    "example": "",
-    "usage": ""
-  },
-  "mail": {
-    "description": "",
-    "example": "",
-    "usage": ""
-  },
-  "modstats": {
-    "description": "",
-    "example": "",
-    "usage": ""
-  },
-  "mute": {
-    "description": "",
-    "example": "",
-    "usage": ""
-  },
-  "notification": {
-    "description": "",
-    "example": "",
-    "usage": ""
-  },
-  "ping": {
-    "description": "",
-    "example": "",
-    "usage": ""
-  },
-  "premium": {
-    "description": "",
-    "example": "",
-    "usage": ""
-  },
-  "reason": {
-    "description": "",
-    "example": "",
-    "usage": ""
-  },
-  "report": {
-    "description": "",
-    "example": "",
-    "usage": ""
-  },
-  "reportbug": {
-    "description": "",
-    "example": "",
-    "usage": ""
-  },
-  "role": {
-    "description": "",
-    "example": "",
-    "usage": ""
-  },
-  "server": {
-    "description": "",
-    "example": "",
-    "usage": ""
-  },
-  "setlang": {
-    "description": "",
-    "example": "",
-    "usage": ""
-  },
-  "setprefix": {
-    "description": "",
-    "example": "",
-    "usage": ""
-  },
-  "settings": {
-    "description": "",
-    "example": "",
-    "usage": ""
-  },
-  "softban": {
-    "description": "",
-    "example": "",
-    "usage": ""
-  },
-  "suggest": {
-    "description": "",
-    "example": "",
-    "usage": ""
-  },
-  "suggestions": {
-    "description": "",
-    "example": "",
-    "usage": ""
-  },
-  "support": {
-    "description": "",
-    "example": "",
-    "usage": ""
-  },
-  "topbots": {
-    "description": "",
-    "example": "",
-    "usage": ""
-  },
-  "unban": {
-    "description": "",
-    "example": "",
-    "usage": ""
-  },
-  "undeafen": {
-    "description": "",
-    "example": "",
-    "usage": ""
-  },
-  "unmute": {
-    "description": "",
-    "example": "",
-    "usage": ""
-  },
-  "verification": {
-    "description": "",
-    "example": "",
-    "usage": ""
-  },
-  "verifyme": {
-    "description": "",
-    "example": "",
-    "usage": ""
-  },
-  "vote": {
-    "description": "",
-    "example": "",
-    "usage": ""
-  },
-  "warn": {
-    "description": "",
-    "example": "",
-    "usage": ""
-  },
-  "warnings": {
-    "description": "",
-    "example": "",
-    "usage": ""
-  },
-  "whitelist": {
-    "description": "",
-    "example": "",
-    "usage": ""
-  }
+    "alarm": {
+        "description": "",
+        "example": "",
+        "usage": ""
+    },
+    "approve": {
+        "description": "",
+        "example": "",
+        "usage": ""
+    },
+    "avatar": {
+        "description": "",
+        "example": "",
+        "usage": ""
+    },
+    "ban": {
+        "description": "",
+        "example": "",
+        "usage": ""
+    },
+    "baninfo": {
+        "example": ""
+    },
+    "blockword": {
+        "description": "",
+        "example": "",
+        "usage": ""
+    },
+    "botinfo": {
+        "description": "",
+        "example": "",
+        "usage": ""
+    },
+    "case": {
+        "description": "",
+        "example": "",
+        "usage": ""
+    },
+    "cases": {
+        "description": "",
+        "example": "",
+        "usage": ""
+    },
+    "changelog": {
+        "description": "",
+        "example": "",
+        "usage": ""
+    },
+    "clear": {
+        "description": "",
+        "example": "",
+        "usage": ""
+    },
+    "clearbans": {
+        "description": "",
+        "example": "",
+        "usage": ""
+    },
+    "clearwarn": {
+        "description": "",
+        "example": "",
+        "usage": ""
+    },
+    "commands": {
+        "description": "",
+        "example": "",
+        "usage": ""
+    },
+    "deafen": {
+        "description": "",
+        "example": "",
+        "usage": ""
+    },
+    "detect": {
+        "example": ""
+    },
+    "filter": {
+        "description": "",
+        "example": "",
+        "usage": ""
+    },
+    "forceban": {
+        "example": ""
+    },
+    "genpassword": {
+        "description": "",
+        "example": "",
+        "usage": ""
+    },
+    "hackban": {
+        "description": "",
+        "example": "",
+        "usage": ""
+    },
+    "help": {
+        "description": "",
+        "example": "",
+        "usage": ""
+    },
+    "info": {
+        "example": ""
+    },
+    "invite": {
+        "description": "",
+        "usage": ""
+    },
+    "kick": {
+        "description": "",
+        "example": "",
+        "usage": ""
+    },
+    "logs": {
+        "description": "",
+        "example": "",
+        "usage": ""
+    },
+    "mail": {
+        "description": "",
+        "example": "",
+        "usage": ""
+    },
+    "modstats": {
+        "description": "",
+        "example": "",
+        "usage": ""
+    },
+    "mute": {
+        "description": "",
+        "example": "",
+        "usage": ""
+    },
+    "notification": {
+        "example": ""
+    },
+    "ping": {
+        "description": "",
+        "example": "",
+        "usage": ""
+    },
+    "premium": {
+        "description": "",
+        "example": "",
+        "usage": ""
+    },
+    "reason": {
+        "description": "",
+        "example": "",
+        "usage": ""
+    },
+    "report": {
+        "example": ""
+    },
+    "reportbug": {
+        "description": "",
+        "example": "",
+        "usage": ""
+    },
+    "role": {
+        "example": ""
+    },
+    "server": {
+        "description": "",
+        "usage": ""
+    },
+    "setlang": {
+        "description": "",
+        "example": "",
+        "usage": ""
+    },
+    "setprefix": {
+        "description": "",
+        "example": "",
+        "usage": ""
+    },
+    "settings": {
+        "description": "",
+        "example": "",
+        "usage": ""
+    },
+    "softban": {
+        "description": "",
+        "example": "",
+        "usage": ""
+    },
+    "suggest": {
+        "description": "",
+        "example": "",
+        "usage": ""
+    },
+    "suggestions": {
+        "description": "",
+        "example": "",
+        "usage": ""
+    },
+    "support": {
+        "example": ""
+    },
+    "topbots": {
+        "description": "",
+        "example": "",
+        "usage": ""
+    },
+    "unban": {
+        "description": "",
+        "example": "",
+        "usage": ""
+    },
+    "undeafen": {
+        "description": "",
+        "example": "",
+        "usage": ""
+    },
+    "unmute": {
+        "description": "",
+        "example": "",
+        "usage": ""
+    },
+    "verification": {
+        "description": "",
+        "example": "",
+        "usage": ""
+    },
+    "verifyme": {
+        "description": "",
+        "example": "",
+        "usage": ""
+    },
+    "vote": {
+        "description": "",
+        "example": "",
+        "usage": ""
+    },
+    "warn": {
+        "description": "",
+        "example": "",
+        "usage": ""
+    },
+    "warnings": {
+        "description": "",
+        "example": "",
+        "usage": ""
+    },
+    "whitelist": {
+        "example": ""
+    }
 }

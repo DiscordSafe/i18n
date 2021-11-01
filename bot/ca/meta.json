@@ -1,24 +1,19 @@
 {
-  "alarm": {
-    "description": "Configura l'alarma en el servidor i prohibeix l'entrada a nous usuaris."
-  },
-  "approve": {
-    "description": "Aprova als nous usuaris.",
-    "example": "@Vicente#0001",
-    "usage": "[@Usuari/UsuariID/all]"
-  },
-  "avatar": {
-    "description": "Mostra l'avatar d'un usuari.",
-    "usage": "<@Usuari>",
-    "options": {
-      "member": {
-        "description": "El membre a obtenir l'avatar."
-      }
+    "alarm": {
+        "description": "Configura l'alarma en el servidor i prohibeix l'entrada a nous usuaris."
+    },
+    "approve": {
+        "description": "Aprova als nous usuaris.",
+        "example": "@Vicente#0001",
+        "usage": "[@Usuari/UsuariID/all]"
+    },
+    "avatar": {
+        "description": "Mostra l'avatar d'un usuari.",
+        "usage": "<@Usuari>"
+    },
+    "ban": {
+        "description": "Banea a un membre del servidor.",
+        "example": "@Vicente#0001 Trencar la regla 4.",
+        "usage": "[@Usuari/Usuari ID/Nom membre] <Raó> <--md> <--save>"
     }
-  },
-  "ban": {
-    "description": "Banea a un membre del servidor.",
-    "example": "@Vicente#0001 Trencar la regla 4.",
-    "usage": "[@Usuari/Usuari ID/Nom membre] <Raó> <--md> <--save>"
-  }
 }

@@ -1,297 +1,272 @@
 {
-  "alarm": {
-    "description": "Configure the alarm on the server and kick all new users.",
-    "example": "",
-    "usage": ""
-  },
-  "approve": {
-    "description": "Approves new users.",
-    "example": "@Vicente#0001",
-    "usage": "[@User/UserID/all]",
-    "options": {
-      "all": {
-        "description": "Approves all users"
-      }
+    "alarm": {
+        "description": "Configure the alarm on the server and kick all new users.",
+        "example": "",
+        "usage": ""
+    },
+    "approve": {
+        "description": "Approves new users.",
+        "example": "@Vicente#0001",
+        "usage": "[@User/UserID/all]",
+        "options": {
+            "all": {
+                "description": "Approves all users"
+            }
+        }
+    },
+    "avatar": {
+        "description": "Display a user's avatar.",
+        "example": "",
+        "usage": "<@User>"
+    },
+    "ban": {
+        "description": "Bans a member from the server.",
+        "example": "@Vicente#0001 Breaking the rule 4.",
+        "usage": "[@User/User ID/Username] <Reason> <--md> <--save>"
+    },
+    "baninfo": {
+        "example": "287574458963722240"
+    },
+    "blockword": {
+        "description": "Blocks the use of words on the server.",
+        "example": "add pack 0",
+        "usage": "add [Word/Pack] / remove [Word/Pack] / list / reset"
+    },
+    "botinfo": {
+        "description": "Displays bot information.",
+        "example": "",
+        "usage": ""
+    },
+    "case": {
+        "description": "Displays the information of a moderation case.",
+        "example": "5",
+        "usage": "[Case ID]"
+    },
+    "cases": {
+        "description": "Displays the list of server moderation cases.",
+        "example": "",
+        "usage": "<@User>"
+    },
+    "changelog": {
+        "description": "Displays the latest changelog.",
+        "example": "",
+        "usage": "",
+        "options": {
+            "follow": {
+                "description": "Follows our news channel in this channel."
+            },
+            "view": {
+                "description": "Shows the last changelog."
+            }
+        }
+    },
+    "clear": {
+        "description": "Deletes a number of messages.",
+        "example": "@Seyron#5532 15\nmatch RAID 100",
+        "usage": "[Amount(2-100)]\n[@User/User ID] [Amount(2-100)]\nall\nmatch [Text] [Amount(2-100)]\nnot [Text] [Amount(2-100)]\nstartswith [Text] [Amount(2-100)]\nendswith [Text] [Amount(2-100)]\nlinks [Amount(2-100)]\ninvites [Amount(2-100)]\nimages [Amount(2-100)]\nmentions [Amount(2-100)]\nembeds [Amount(2-100)]\nbots [Amount(2-100)]\nbefore [Message ID] [Amount(2-100)]\nafter [Message ID] [Amount(2-100)]\naround [Message ID] [Amount(2-100)]"
+    },
+    "clearbans": {
+        "description": "Removes server bans.",
+        "example": "",
+        "usage": ""
+    },
+    "clearwarn": {
+        "description": "Removes a warning from the server.",
+        "example": "43das78",
+        "usage": "<Code> / all"
+    },
+    "commands": {
+        "description": "Commands list.",
+        "example": "",
+        "usage": "<--channel>"
+    },
+    "deafen": {
+        "description": "Deafens a member.",
+        "example": "@User Annoying member --md",
+        "usage": "[@User/User ID] <Reason> <--md>"
+    },
+    "detect": {
+        "example": ""
+    },
+    "filter": {
+        "description": "Set up the filters.",
+        "example": "anti-spam enable",
+        "usage": "help / [filter] enable / [filter] disable / [filter] ignore [#Channel/@Role]"
+    },
+    "forceban": {
+        "example": ""
+    },
+    "genpassword": {
+        "description": "Generates a password according to the parameters provided.",
+        "example": "high 26",
+        "usage": "<Level(low/medium/high)> <Length(5-50)>"
+    },
+    "hackban": {
+        "description": "Bans members trough their ID.",
+        "example": "124545463433127 124545463433127 124545463433127",
+        "usage": "[ID] <ID> <ID>..."
+    },
+    "help": {
+        "description": "Help menu and command information.",
+        "example": "ban",
+        "usage": "<Command>"
+    },
+    "info": {
+        "example": "@Vicente#0001"
+    },
+    "invite": {
+        "description": "Shows the information of an invite",
+        "usage": "<Invite code/Invite link>"
+    },
+    "kick": {
+        "description": "Kicks a member from the server.",
+        "example": "Discord#0000 Break the 8th rule.",
+        "usage": "[@User/User ID/Member name] <Reason> <--md>"
+    },
+    "logs": {
+        "description": "Configures the server logs.",
+        "example": "#logs",
+        "usage": "help / list / [#Channel/ChannelID/disable] / mod [#Channel/ChannelID/disable] / boost [#Channel/ChannelID/disable]"
+    },
+    "mail": {
+        "description": "Shows the mail inbox.",
+        "example": "",
+        "usage": ""
+    },
+    "modstats": {
+        "description": "Shows the stats of the server moderation cases",
+        "example": "mods",
+        "usage": "actions / mods"
+    },
+    "mute": {
+        "description": "Mutes a member.",
+        "example": "@Clyde#0001 15m Breaking the 14th rule.",
+        "usage": "[@User/User ID] <Time> <s/m/h> <Reason> <--md>"
+    },
+    "notification": {
+        "example": "on"
+    },
+    "ping": {
+        "description": "Shows the bot's ping.",
+        "example": "",
+        "usage": ""
+    },
+    "premium": {
+        "description": "Control panel for D-Safe Premium.",
+        "example": "help",
+        "usage": "help / redeem / info /safergen"
+    },
+    "reason": {
+        "description": "Sets the reason of a moderation case.",
+        "example": "54 Breaking 16th rule: Spam is not allowed in the server.",
+        "usage": "[Case ID] [Reason]"
+    },
+    "report": {
+        "example": ".sknahTT#1785|318327338226155541|Do SPAM into md|https://imgur.com/abc"
+    },
+    "reportbug": {
+        "description": "Reports an error to my developers to make it be solved.",
+        "example": "The alarm turns on by itself and there is no way to turn it off.",
+        "usage": "<Detailed description of the error>"
+    },
+    "role": {
+        "example": "@User"
+    },
+    "server": {
+        "description": "Shows the server information.",
+        "usage": ""
+    },
+    "setlang": {
+        "description": "Sets the bot language in the server.",
+        "example": "es-ES",
+        "usage": "es-ES / en-US"
+    },
+    "setprefix": {
+        "description": "Sets the server prefix.",
+        "example": "!!",
+        "usage": "[Prefix]"
+    },
+    "settings": {
+        "description": "Shows the server settings and information of how to configure it.",
+        "example": "",
+        "usage": ""
+    },
+    "softban": {
+        "description": "Bans and innmediatly unbans a member to delete messages.",
+        "example": "@Clyde#0001 Flood in the chat --md",
+        "usage": "[@User/User ID] <Reason> <--md>"
+    },
+    "suggest": {
+        "description": "Sends a suggestion.",
+        "example": "I'd like you to create a #gaming channel where the users can speak about that theme there.",
+        "usage": "<Suggestion description>"
+    },
+    "suggestions": {
+        "description": "Settings and suggestion info.",
+        "example": "setchannel #suggestions",
+        "usage": "help\nlist\napprove [SuggestionID] <Comment>\ndeny [SuggestionID] <Comment>\ndelete [SuggestionID]\nsetchannel [ChannelID/#Channel/disable]\nsetapproved [ChannelID/#Channel/disable]\nsetdenied [ChannelID/#Channel/disable]\nquestionEmoji enable / disable\nautoaccept [Number(1-1000)] / disable\nmassapprove [SuggestionID]...\nmassdeny [SuggestionID]...\nmassdelete [SuggestionID]...\neditcomment [SuggestionID] [New staff comment]\nsetrole [RoleID/@Role]\nsetpalette ayu / tailwind / default / p1 / p2 / p3 / n1 / n2 / n3\nsetcommandschannel [ChannelID/#Channel]\nsetcooldown [Number(1-60)] / disable\nsetemoji [PositiveEmoji] [NegativeEmoji] <UndecidedEmoji> / disable"
+    },
+    "support": {
+        "example": ""
+    },
+    "topbots": {
+        "description": "Shows the top Discord bot list.",
+        "example": "",
+        "usage": ""
+    },
+    "unban": {
+        "description": "Unbans a user from the server.",
+        "example": "287574458963722240",
+        "usage": "[@User/User ID/Member username] <Reason> <--md>"
+    },
+    "undeafen": {
+        "description": "Undeafens a member.",
+        "example": "@User",
+        "usage": "[@User/User ID] <Reason> <--md>"
+    },
+    "unmute": {
+        "description": "Unmutes a silenced member.",
+        "example": "182866681520062465",
+        "usage": "[@User/User ID] <Reason> <--md>"
+    },
+    "verification": {
+        "description": "Modifies the verification configuration.",
+        "example": "setuser @Verified",
+        "usage": "off / setmode <Mode(approval, reaction, verification, captcha)> / setguest <@Role / Role ID> / setuser <@Role / Role ID> / setchannel <#Channel / Channel ID> / setmessage <Message ID>"
+    },
+    "verifyme": {
+        "description": "Gives you the user role in the server.",
+        "example": "",
+        "usage": ""
+    },
+    "vote": {
+        "description": "Shows information about the votes.",
+        "example": "",
+        "usage": " /<@User>"
+    },
+    "warn": {
+        "description": "Adverts a user from its bad behavior.",
+        "example": "@Juan#4449 Breaking the 3rd rule.",
+        "usage": "[@User/User ID] <Reason> <--md>"
+    },
+    "warnings": {
+        "description": "Shows the warn list of the server or member.",
+        "example": "@Vicente#0001",
+        "usage": "[@User/User ID]"
+    },
+    "whitelist": {
+        "example": "add 461171501715161108"
+    },
+    "delrole": {
+        "description": "Deletes the mentioned role.",
+        "example": "@TestRole"
+    },
+    "emoji": {
+        "description": "Displays the emoji in large.",
+        "example": ":pepelove:",
+        "usage": "[Emoji]"
+    },
+    "setup": {
+        "description": "Setup the bot settings in a simple way with reactions and buttons."
     }
-  },
-  "avatar": {
-    "description": "Display a user's avatar.",
-    "example": "",
-    "usage": "<@User>",
-    "options": {
-      "member": {
-        "description": "The member to get the avatar."
-      }
-    }
-  },
-  "ban": {
-    "description": "Bans a member from the server.",
-    "example": "@Vicente#0001 Breaking the rule 4.",
-    "usage": "[@User/User ID/Username] <Reason> <--md> <--save>"
-  },
-  "baninfo": {
-    "description": "Displays a user's forceban reason.",
-    "example": "287574458963722240",
-    "usage": "[ID]"
-  },
-  "blockword": {
-    "description": "Blocks the use of words on the server.",
-    "example": "add pack 0",
-    "usage": "add [Word/Pack] / remove [Word/Pack] / list / reset"
-  },
-  "botinfo": {
-    "description": "Displays bot information.",
-    "example": "",
-    "usage": ""
-  },
-  "case": {
-    "description": "Displays the information of a moderation case.",
-    "example": "5",
-    "usage": "[Case ID]"
-  },
-  "cases": {
-    "description": "Displays the list of server moderation cases.",
-    "example": "",
-    "usage": "<@User>"
-  },
-  "changelog": {
-    "description": "Displays the latest changelog.",
-    "example": "",
-    "usage": "",
-    "options": {
-      "follow": {
-        "description": "Follows our news channel in this channel."
-      },
-      "view": {
-        "description": "Shows the last changelog."
-      }
-    }
-  },
-  "clear": {
-    "description": "Deletes a number of messages.",
-    "example": "@Seyron#5532 15\nmatch RAID 100",
-    "usage": "[Amount(2-100)]\n[@User/User ID] [Amount(2-100)]\nall\nmatch [Text] [Amount(2-100)]\nnot [Text] [Amount(2-100)]\nstartswith [Text] [Amount(2-100)]\nendswith [Text] [Amount(2-100)]\nlinks [Amount(2-100)]\ninvites [Amount(2-100)]\nimages [Amount(2-100)]\nmentions [Amount(2-100)]\nembeds [Amount(2-100)]\nbots [Amount(2-100)]\nbefore [Message ID] [Amount(2-100)]\nafter [Message ID] [Amount(2-100)]\naround [Message ID] [Amount(2-100)]"
-  },
-  "clearbans": {
-    "description": "Removes server bans.",
-    "example": "",
-    "usage": ""
-  },
-  "clearwarn": {
-    "description": "Removes a warning from the server.",
-    "example": "43das78",
-    "usage": "<Code> / all"
-  },
-  "commands": {
-    "description": "Commands list.",
-    "example": "",
-    "usage": "<--channel>"
-  },
-  "deafen": {
-    "description": "Deafens a member.",
-    "example": "@User Annoying member --md",
-    "usage": "[@User/User ID] <Reason> <--md>"
-  },
-  "detect": {
-    "description": "Detects dangerous users in the server.",
-    "example": "",
-    "usage": ""
-  },
-  "filter": {
-    "description": "Set up the filters.",
-    "example": "anti-spam enable",
-    "usage": "help / [filter] enable / [filter] disable / [filter] ignore [#Channel/@Role]"
-  },
-  "forceban": {
-    "description": "Bans users reported as dangerous.",
-    "example": "",
-    "usage": ""
-  },
-  "genpassword": {
-    "description": "Generates a password according to the parameters provided.",
-    "example": "high 26",
-    "usage": "<Level(low/medium/high)> <Length(5-50)>"
-  },
-  "hackban": {
-    "description": "Bans members trough their ID.",
-    "example": "124545463433127 124545463433127 124545463433127",
-    "usage": "[ID] <ID> <ID>..."
-  },
-  "help": {
-    "description": "Help menu and command information.",
-    "example": "ban",
-    "usage": "<Command>"
-  },
-  "info": {
-    "description": "Shows the information of an user.",
-    "example": "@Vicente#0001",
-    "usage": "<@User/User ID>"
-  },
-  "invite": {
-    "description": "Shows the information of an invite",
-    "example": "discord-testers",
-    "usage": "<Invite code/Invite link>"
-  },
-  "kick": {
-    "description": "Kicks a member from the server.",
-    "example": "Discord#0000 Break the 8th rule.",
-    "usage": "[@User/User ID/Member name] <Reason> <--md>"
-  },
-  "logs": {
-    "description": "Configures the server logs.",
-    "example": "#logs",
-    "usage": "help / list / [#Channel/ChannelID/disable] / mod [#Channel/ChannelID/disable] / boost [#Channel/ChannelID/disable]"
-  },
-  "mail": {
-    "description": "Shows the mail inbox.",
-    "example": "",
-    "usage": ""
-  },
-  "modstats": {
-    "description": "Shows the stats of the server moderation cases",
-    "example": "mods",
-    "usage": "actions / mods"
-  },
-  "mute": {
-    "description": "Mutes a member.",
-    "example": "@Clyde#0001 15m Breaking the 14th rule.",
-    "usage": "[@User/User ID] <Time> <s/m/h> <Reason> <--md>"
-  },
-  "notification": {
-    "description": "Configures the alarm of malicious user joins.",
-    "example": "on",
-    "usage": "on / off"
-  },
-  "ping": {
-    "description": "Shows the bot's ping.",
-    "example": "",
-    "usage": ""
-  },
-  "premium": {
-    "description": "Control panel for D-Safe Premium.",
-    "example": "help",
-    "usage": "help / redeem / info /safergen"
-  },
-  "reason": {
-    "description": "Sets the reason of a moderation case.",
-    "example": "54 Breaking 16th rule: Spam is not allowed in the server.",
-    "usage": "[Case ID] [Reason]"
-  },
-  "report": {
-    "description": "Reports an user to be added to the forceban.",
-    "example": ".sknahTT#1785|318327338226155541|Do SPAM into md|https://imgur.com/abc",
-    "usage": "[User]|[ID]|[Reason]|[Proof]"
-  },
-  "reportbug": {
-    "description": "Reports an error to my developers to make it be solved.",
-    "example": "The alarm turns on by itself and there is no way to turn it off.",
-    "usage": "<Detailed description of the error>"
-  },
-  "role": {
-    "description": "Shows the information of a role.",
-    "example": "@User",
-    "usage": "<@Role/Role ID>"
-  },
-  "server": {
-    "description": "Shows the server information.",
-    "example": "",
-    "usage": ""
-  },
-  "setlang": {
-    "description": "Sets the bot language in the server.",
-    "example": "es-ES",
-    "usage": "es-ES / en-US"
-  },
-  "setprefix": {
-    "description": "Sets the server prefix.",
-    "example": "!!",
-    "usage": "[Prefix]"
-  },
-  "settings": {
-    "description": "Shows the server settings and information of how to configure it.",
-    "example": "",
-    "usage": ""
-  },
-  "softban": {
-    "description": "Bans and innmediatly unbans a member to delete messages.",
-    "example": "@Clyde#0001 Flood in the chat --md",
-    "usage": "[@User/User ID] <Reason> <--md>"
-  },
-  "suggest": {
-    "description": "Sends a suggestion.",
-    "example": "I'd like you to create a #gaming channel where the users can speak about that theme there.",
-    "usage": "<Suggestion description>"
-  },
-  "suggestions": {
-    "description": "Settings and suggestion info.",
-    "example": "setchannel #suggestions",
-    "usage": "help\nlist\napprove [SuggestionID] <Comment>\ndeny [SuggestionID] <Comment>\ndelete [SuggestionID]\nsetchannel [ChannelID/#Channel/disable]\nsetapproved [ChannelID/#Channel/disable]\nsetdenied [ChannelID/#Channel/disable]\nquestionEmoji enable / disable\nautoaccept [Number(1-1000)] / disable\nmassapprove [SuggestionID]...\nmassdeny [SuggestionID]...\nmassdelete [SuggestionID]...\neditcomment [SuggestionID] [New staff comment]\nsetrole [RoleID/@Role]\nsetpalette ayu / tailwind / default / p1 / p2 / p3 / n1 / n2 / n3\nsetcommandschannel [ChannelID/#Channel]\nsetcooldown [Number(1-60)] / disable\nsetemoji [PositiveEmoji] [NegativeEmoji] <UndecidedEmoji> / disable"
-  },
-  "support": {
-    "description": "Request support to our staff in case of raid.",
-    "example": "",
-    "usage": ""
-  },
-  "topbots": {
-    "description": "Shows the top Discord bot list.",
-    "example": "",
-    "usage": ""
-  },
-  "unban": {
-    "description": "Unbans a user from the server.",
-    "example": "287574458963722240",
-    "usage": "[@User/User ID/Member username] <Reason> <--md>"
-  },
-  "undeafen": {
-    "description": "Undeafens a member.",
-    "example": "@User",
-    "usage": "[@User/User ID] <Reason> <--md>"
-  },
-  "unmute": {
-    "description": "Unmutes a silenced member.",
-    "example": "182866681520062465",
-    "usage": "[@User/User ID] <Reason> <--md>"
-  },
-  "verification": {
-    "description": "Modifies the verification configuration.",
-    "example": "setuser @Verified",
-    "usage": "off / setmode <Mode(approval, reaction, verification, captcha)> / setguest <@Role / Role ID> / setuser <@Role / Role ID> / setchannel <#Channel / Channel ID> / setmessage <Message ID>"
-  },
-  "verifyme": {
-    "description": "Gives you the user role in the server.",
-    "example": "",
-    "usage": ""
-  },
-  "vote": {
-    "description": "Shows information about the votes.",
-    "example": "",
-    "usage": " /<@User>"
-  },
-  "warn": {
-    "description": "Adverts a user from its bad behavior.",
-    "example": "@Juan#4449 Breaking the 3rd rule.",
-    "usage": "[@User/User ID] <Reason> <--md>"
-  },
-  "warnings": {
-    "description": "Shows the warn list of the server or member.",
-    "example": "@Vicente#0001",
-    "usage": "[@User/User ID]"
-  },
-  "whitelist": {
-    "description": "Configures the whitelist in your server.",
-    "example": "add 461171501715161108",
-    "usage": "add <ID> / remove <ID> / list / reset"
-  },
-  "delrole": {
-    "description": "Deletes the mentioned role.",
-    "example": "@TestRole"
-  },
-  "emoji": {
-    "description": "Displays the emoji in large.",
-    "example": ":pepelove:",
-    "usage": "[Emoji]"
-  },
-  "setup": {
-    "description": "Setup the bot settings in a simple way with reactions and buttons."
-  }
 }
