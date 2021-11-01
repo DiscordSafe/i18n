@@ -1,127 +1,121 @@
 {
-  "AntiSpam": {
-    "MuteMessage": "{{emojiMute}} **[Anti-Spam]** You have been muted for sending so many messages.",
-    "MuteRoleCreated": "I have created the **Muted** role because a Muted role was not found.",
-    "WarnMessage": "{{emojiWarn}} **[Anti-Spam]** Please don't send so many messages.",
-    "errorMute": "Oops, I don't have enough permissions to mute {{user}}.",
-    "muteEmbedAuthor": "AutoMute",
-    "muteEmbedField1": "Muted member:",
-    "muteEmbedField2": "Time",
-    "muteEmbedField3": "Reason",
-    "muteEmbedField4": "Date",
-    "noMuteRole": "Muted role not found, I have created a new one.",
-    "seconds": "{{MuteTime}} minutes",
-    "unmuteEmbedAuthor": "Auto Unmute",
-    "unmuteEmbedField1": "Unmuted member",
-    "unmuteEmbedField2": "Reason",
-    "unmuteEmbedReason": "Time over."
-  },
-  "attachment": "It was an embed or an attachment.",
-  "autor": "Author: {{autorid}}",
-  "canal": "Channel",
-  "errorCompare": "**Error**, you can't use this command with a member with more permissions than you.",
-  "mensajeID": "Message ID: {{id}}",
-  "modEmbed": {
-    "amount": "Quantity",
-    "approve": "Member has been approved",
-    "ban": "Member banned",
-    "case": "Case",
-    "channel": "Channel",
-    "clear": "Deleted messages",
-    "clearwarn": "Warning removed",
-    "code": "Code",
-    "deafen": "Member deafened",
-    "hackban": "Member banned (hackban)",
-    "kick": "Member kicked",
-    "member": "Member",
-    "mod": "Moderator",
-    "mute": "Muted member",
-    "reason": "Reason",
-    "softban": "Member banned and unbanned (softban)",
-    "time": "Duration",
-    "unban": "Member unbanned",
-    "undeafen": "Member undeafened",
-    "unmute": "Unmuted member",
-    "user": "User",
-    "warn": "Member warned"
-  },
-  "no": "No",
-  "notFound": "It has not been found.",
-  "notification": "Notification",
-  "page": "Page",
-  "tiempo": "The time is over.",
-  "yes": "Yes",
-  "actions": {
-    "confirm": "Confirm",
-    "cancel": "Cancel",
-    "destroy": "Suppress"
-  },
-  "whatisthis": "*[¿What is this?]({{link}})*",
-  "paginationButton": {
-    "back": "Previous",
-    "next": "Next",
-    "close": "Close",
-    "home": "Home"
-  },
-  "error": "Error",
-  "languages": {
-    "owo": {
-      "description": "uwu owo uwu owo uwu owo uwu",
-      "value": "owo",
-      "emoji": "<:uwu:865567462391939084>"
+    "AntiSpam": {
+        "MuteMessage": "{{emojiMute}} **[Anti-Spam]** You have been muted for sending so many messages.",
+        "MuteRoleCreated": "I have created the **Muted** role because a Muted role was not found.",
+        "WarnMessage": "{{emojiWarn}} **[Anti-Spam]** Please don't send so many messages.",
+        "errorMute": "Oops, I don't have enough permissions to mute {{user}}.",
+        "muteEmbedAuthor": "AutoMute",
+        "muteEmbedField1": "Muted member:",
+        "muteEmbedField2": "Time",
+        "muteEmbedField3": "Reason",
+        "muteEmbedField4": "Date",
+        "noMuteRole": "Muted role not found, I have created a new one.",
+        "seconds": "{{MuteTime}} minutes",
+        "unmuteEmbedAuthor": "Auto Unmute",
+        "unmuteEmbedField1": "Unmuted member",
+        "unmuteEmbedField2": "Reason",
+        "unmuteEmbedReason": "Time over."
     },
-    "andaluh": {
-      "emoji": "<:flag_an:865567274664329226>",
-      "value": "Andaluh",
-      "description": "biba el Andalûh"
+    "attachment": "It was an embed or an attachment.",
+    "autor": "Author: {{autorid}}",
+    "canal": "Channel",
+    "errorCompare": "**Error**, you can't use this command with a member with more permissions than you.",
+    "mensajeID": "Message ID: {{id}}",
+    "modEmbed": {
+        "amount": "Quantity",
+        "approve": "Member has been approved",
+        "ban": "Member banned",
+        "case": "Case",
+        "channel": "Channel",
+        "clear": "Deleted messages",
+        "clearwarn": "Warning removed",
+        "code": "Code",
+        "deafen": "Member deafened",
+        "hackban": "Member banned (hackban)",
+        "kick": "Member kicked",
+        "member": "Member",
+        "mod": "Moderator",
+        "mute": "Muted member",
+        "reason": "Reason",
+        "softban": "Member banned and unbanned (softban)",
+        "time": "Duration",
+        "unban": "Member unbanned",
+        "undeafen": "Member undeafened",
+        "unmute": "Unmuted member",
+        "user": "User",
+        "warn": "Member warned"
     },
-    "es-ES": {
-      "emoji": "🇪🇸",
-      "value": "Spanish (Spain)"
+    "no": "No",
+    "notFound": "It has not been found.",
+    "notification": "Notification",
+    "page": "Page",
+    "tiempo": "The time is over.",
+    "yes": "Yes",
+    "actions": {
+        "confirm": "Confirm",
+        "cancel": "Cancel",
+        "destroy": "Suppress"
     },
-    "en-US": {
-      "emoji": "🇺🇲",
-      "value": "English (United States)"
+    "whatisthis": "*[¿What is this?]({{link}})*",
+    "paginationButton": {
+        "back": "Previous",
+        "next": "Next",
+        "close": "Close",
+        "home": "Home"
     },
-    "pt-BR": {
-      "emoji": "🇧🇷",
-      "value": "Portuguese (Brazil)"
+    "error": "Error",
+    "languages": {
+        "owo": {
+            "description": "uwu owo uwu owo uwu owo uwu",
+            "value": "owo",
+            "emoji": "<:uwu:865567462391939084>"
+        },
+        "andaluh": {
+            "emoji": "<:flag_an:865567274664329226>",
+            "value": "Andaluh",
+            "description": "biba el Andalûh"
+        },
+        "es-ES": {
+            "emoji": "🇪🇸",
+            "value": "Spanish (Spain)"
+        },
+        "en-US": {
+            "emoji": "🇺🇲",
+            "value": "English (United States)"
+        },
+        "pt-BR": {
+            "emoji": "🇧🇷",
+            "value": "Portuguese (Brazil)"
+        },
+        "upsidedown": {
+            "description": "Oh no Will Byers don't get in there!",
+            "value": "uʍopǝpᴉsdn",
+            "emoji": "<:pain:865567631347286047>"
+        },
+        "ca": {
+            "emoji": "<:flag_cat:883009423910526986>",
+            "value": "Catalan"
+        }
     },
-    "upsidedown": {
-      "description": "Oh no Will Byers don't get in there!",
-      "value": "uʍopǝpᴉsdn",
-      "emoji": "<:pain:865567631347286047>"
+    "channelTypes": {
+        "voice": "voice",
+        "group": "group",
+        "news": "news",
+        "news_thread": "news thread",
+        "private_thread": "private thread",
+        "GUILD_TEXT": "text",
+        "GUILD_VOICE": "voice",
+        "DM": "dm",
+        "GROUP_DM": "group",
+        "CATEGORY": "category",
+        "GUILD_NEWS": "news",
+        "GUILD_STORE": "store",
+        "GUILD_NEWS_THREAD": "news thread",
+        "GUILD_PUBLIC_THREAD": "public thread",
+        "GUILD_PRIVATE_THREAD": "private thread",
+        "GUILD_STAGE_VOICE": "stage",
+        "RULES": "rules",
+        "UNKNOWN": "unknown"
     },
-    "ca": {
-      "emoji": "<:flag_cat:883009423910526986>",
-      "value": "Catalan"
-    }
-  },
-  "channelTypes": {
-    "text": "text",
-    "voice": "voice",
-    "dm": "dm",
-    "group": "group",
-    "category": "category",
-    "news": "news",
-    "store": "store",
-    "news_thread": "news thread",
-    "public_thread": "public thread",
-    "private_thread": "private thread",
-    "stage": "stage",
-    "GUILD_TEXT": "text",
-    "GUILD_VOICE": "voice",
-    "DM": "dm",
-    "GROUP_DM": "group",
-    "CATEGORY": "category",
-    "GUILD_NEWS": "news",
-    "GUILD_STORE": "store",
-    "GUILD_NEWS_THREAD": "news thread",
-    "GUILD_PUBLIC_THREAD": "public thread",
-    "GUILD_PRIVATE_THREAD": "private thread",
-    "GUILD_STAGE_VOICE": "stage",
-    "RULES": "rules",
-    "UNKNOWN": "unknown"
-  },
-  "noreason": "No reason"
+    "noreason": "No reason"
 }
