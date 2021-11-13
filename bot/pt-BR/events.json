@@ -36,9 +36,7 @@
         "unbanned": ""
     },
     "guildMemberAdd": {
-        "alertaDes": "",
         "alertaM": "",
-        "alertaR": "",
         "badges": "",
         "bot": "",
         "captchaErrorIntentos": "",
@@ -55,8 +53,7 @@
         "expulsado": "",
         "expulsadoRazón": "",
         "kick": "",
-        "nuevoUsuario": "",
-        "usuarioDa": ""
+        "nuevoUsuario": ""
     },
     "guildMemberRemove": {
         "badges": "",

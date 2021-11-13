@@ -36,7 +36,6 @@
         "unbanned": "Membre desbaneado"
     },
     "guildMemberAdd": {
-        "alertaM": "Membre",
         "alertaR": "Raó",
         "badges": "Insígnies",
         "bot": "Bot",
@@ -52,7 +51,6 @@
         "expulsadoRazón": "Mínim de dies de la creació del compte.",
         "kick": "Verificació no completada.",
         "nuevoUsuario": "Nou usuari",
-        "alarma": "El servidor **{{server}}** està en manera alarma i ha prohibit l'entrada a nous usuaris, si us plau torni a intentar d'aquí a uns minuts.",
         "captchaErrorTiempo": "**S'ha acabat el temps**, no has passat la verificació així que hauràs de ser expulsat.",
         "captchacDes": "Ja tens accés a {{server}}",
         "expulsado": "Has estat expulsat del servidor **{{server}}** perquè el seu compte no supera el mínim de **{{age}}** dies."

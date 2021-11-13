@@ -36,9 +36,7 @@
         "unbanned": "Member unbanned"
     },
     "guildMemberAdd": {
-        "alertaDes": "A member classified as malicious has entered your server",
         "alertaM": "Member",
-        "alertaR": "Reason",
         "badges": "Badges",
         "bot": "Bot",
         "captchaErrorIntentos": "**You have reached the limit of attempts**, you have not completed the verification so you will be kicked.",
@@ -55,8 +53,7 @@
         "expulsado": "You have been kicked from the server **{{server}}** because your account does not exceed the minimum of **{{age}}** days.",
         "expulsadoRazón": "Minimum days of account creation.",
         "kick": "Verification not completed.",
-        "nuevoUsuario": "New user",
-        "usuarioDa": "⛔ Harmful user: {{reason}}"
+        "nuevoUsuario": "New user"
     },
     "guildMemberRemove": {
         "badges": "Badges",
