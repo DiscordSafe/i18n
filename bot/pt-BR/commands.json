@@ -288,9 +288,6 @@
         "reasonLimit": "",
         "success": ""
     },
-    "report": {
-        "nuevoReporte": ""
-    },
     "reportbug": {
         "args": "",
         "confirmación": "",
@@ -480,7 +477,6 @@
         "errorModoPrimero": "**Error:** Debe seleccionar el modo primero.\n**Ayuda:** `.verificacion ayuda`",
         "errorNoCanalEstablecido": "",
         "errorNoRow": "",
-        "establecidoCaptcha": "",
         "establecidoIntentos": "",
         "establecidoMensaje": "",
         "establecidoMinutos": "",

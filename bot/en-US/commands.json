@@ -367,9 +367,6 @@
         "reasonLimit": "**Error**, the reason surpasses the limit of 50 characteres or is lower than 3 characters.",
         "success": "{{emoji}} The reason of the case `{{caseid}}` has been set to `{{reason}}`."
     },
-    "report": {
-        "nuevoReporte": "¡New report!"
-    },
     "reportbug": {
         "args": "This command needs arguments, example: `d.reportbug Report title | Bug description`",
         "confirmación": "Are you sure to send the bug report?",
@@ -580,7 +577,6 @@
         "errorModoPrimero": "**Error:** You need to select the mode first.\n**Help:** `d.verification help`",
         "errorNoCanalEstablecido": "Please first configure the channel again.",
         "errorNoRow": "You can't disable something that hasn't been enabled.",
-        "establecidoCaptcha": "The mode has been established to `captcha`",
         "establecidoIntentos": "The maximum number of verification attempts has been set to **{{intentos}} attempts **.",
         "establecidoMensaje": "The message has been established to ",
         "establecidoMinutos": "Verification minutes have been set to **{{minutos}} minutes**.",

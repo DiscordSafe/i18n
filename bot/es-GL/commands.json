@@ -288,9 +288,6 @@
         "reasonLimit": "",
         "success": ""
     },
-    "report": {
-        "nuevoReporte": ""
-    },
     "reportbug": {
         "args": "",
         "confirmación": "¿Estás seguro de mandar el reporte del error? Para confirmar responda Sí.",
@@ -480,7 +477,6 @@
         "errorModoPrimero": "",
         "errorNoCanalEstablecido": "",
         "errorNoRow": "",
-        "establecidoCaptcha": "",
         "establecidoIntentos": "",
         "establecidoMensaje": "",
         "establecidoMinutos": "",
