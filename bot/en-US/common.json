@@ -98,11 +98,8 @@
         }
     },
     "channelTypes": {
-        "voice": "voice",
         "group": "group",
-        "news": "news",
         "news_thread": "news thread",
-        "private_thread": "private thread",
         "GUILD_TEXT": "text",
         "GUILD_VOICE": "voice",
         "DM": "dm",
