@@ -749,6 +749,7 @@
     "doc": "Guía de configuración",
     "doc2": "Toda la **guía de configuración de la verificación** está mejor explicada en la **[documentación](https://docs.discordsafe.com/docs/config/lang)**.",
     "días": "\n{{days}} días",
+    "errorCanalEliminado": "**Error:** El canal de verificación ha sido eliminado, vuelva a esteblecerlo.",
     "errorCanalNoExiste": "Ese canal no existe.",
     "errorCanalNoTexto": "No es un canal de texto.",
     "errorFooter": "d.verification help",
