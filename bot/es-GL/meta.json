@@ -19,9 +19,6 @@
         "example": "",
         "usage": ""
     },
-    "baninfo": {
-        "example": ""
-    },
     "blockword": {
         "description": "",
         "example": "",
@@ -72,16 +69,10 @@
         "example": "",
         "usage": ""
     },
-    "detect": {
-        "example": ""
-    },
     "filter": {
         "description": "",
         "example": "",
         "usage": ""
-    },
-    "forceban": {
-        "example": ""
     },
     "genpassword": {
         "description": "",
@@ -98,12 +89,8 @@
         "example": "",
         "usage": ""
     },
-    "info": {
-        "example": ""
-    },
     "invite": {
-        "description": "",
-        "usage": ""
+        "description": ""
     },
     "kick": {
         "description": "",
@@ -130,9 +117,6 @@
         "example": "",
         "usage": ""
     },
-    "notification": {
-        "example": ""
-    },
     "ping": {
         "description": "",
         "example": "",
@@ -148,20 +132,13 @@
         "example": "",
         "usage": ""
     },
-    "report": {
-        "example": ""
-    },
     "reportbug": {
         "description": "",
         "example": "",
         "usage": ""
     },
-    "role": {
-        "example": ""
-    },
     "server": {
-        "description": "",
-        "usage": ""
+        "description": ""
     },
     "setlang": {
         "description": "",
@@ -192,9 +169,6 @@
         "description": "",
         "example": "",
         "usage": ""
-    },
-    "support": {
-        "example": ""
     },
     "topbots": {
         "description": "",
@@ -240,8 +214,5 @@
         "description": "",
         "example": "",
         "usage": ""
-    },
-    "whitelist": {
-        "example": ""
     }
 }

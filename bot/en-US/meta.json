@@ -24,9 +24,6 @@
         "example": "@Vicente#0001 Breaking the rule 4.",
         "usage": "[@User/User ID/Username] <Reason> <--md> <--save>"
     },
-    "baninfo": {
-        "example": "287574458963722240"
-    },
     "blockword": {
         "description": "Blocks the use of words on the server.",
         "example": "add pack 0",
@@ -85,16 +82,10 @@
         "example": "@User Annoying member --md",
         "usage": "[@User/User ID] <Reason> <--md>"
     },
-    "detect": {
-        "example": ""
-    },
     "filter": {
         "description": "Set up the filters.",
         "example": "anti-spam enable",
         "usage": "help / [filter] enable / [filter] disable / [filter] ignore [#Channel/@Role]"
-    },
-    "forceban": {
-        "example": ""
     },
     "genpassword": {
         "description": "Generates a password according to the parameters provided.",
@@ -111,12 +102,8 @@
         "example": "ban",
         "usage": "<Command>"
     },
-    "info": {
-        "example": "@Vicente#0001"
-    },
     "invite": {
-        "description": "Shows the information of an invite",
-        "usage": "<Invite code/Invite link>"
+        "description": "Shows the information of an invite"
     },
     "kick": {
         "description": "Kicks a member from the server.",
@@ -143,9 +130,6 @@
         "example": "@Clyde#0001 15m Breaking the 14th rule.",
         "usage": "[@User/User ID] <Time> <s/m/h> <Reason> <--md>"
     },
-    "notification": {
-        "example": "on"
-    },
     "ping": {
         "description": "Shows the bot's ping.",
         "example": "",
@@ -161,20 +145,13 @@
         "example": "54 Breaking 16th rule: Spam is not allowed in the server.",
         "usage": "[Case ID] [Reason]"
     },
-    "report": {
-        "example": ".sknahTT#1785|318327338226155541|Do SPAM into md|https://imgur.com/abc"
-    },
     "reportbug": {
         "description": "Reports an error to my developers to make it be solved.",
         "example": "The alarm turns on by itself and there is no way to turn it off.",
         "usage": "<Detailed description of the error>"
     },
-    "role": {
-        "example": "@User"
-    },
     "server": {
-        "description": "Shows the server information.",
-        "usage": ""
+        "description": "Shows the server information."
     },
     "setlang": {
         "description": "Sets the bot language in the server.",
@@ -205,9 +182,6 @@
         "description": "Settings and suggestion info.",
         "example": "setchannel #suggestions",
         "usage": "help\nlist\napprove [SuggestionID] <Comment>\ndeny [SuggestionID] <Comment>\ndelete [SuggestionID]\nsetchannel [ChannelID/#Channel/disable]\nsetapproved [ChannelID/#Channel/disable]\nsetdenied [ChannelID/#Channel/disable]\nquestionEmoji enable / disable\nautoaccept [Number(1-1000)] / disable\nmassapprove [SuggestionID]...\nmassdeny [SuggestionID]...\nmassdelete [SuggestionID]...\neditcomment [SuggestionID] [New staff comment]\nsetrole [RoleID/@Role]\nsetpalette ayu / tailwind / default / p1 / p2 / p3 / n1 / n2 / n3\nsetcommandschannel [ChannelID/#Channel]\nsetcooldown [Number(1-60)] / disable\nsetemoji [PositiveEmoji] [NegativeEmoji] <UndecidedEmoji> / disable"
-    },
-    "support": {
-        "example": ""
     },
     "topbots": {
         "description": "Shows the top Discord bot list.",
@@ -253,9 +227,6 @@
         "description": "Shows the warn list of the server or member.",
         "example": "@Vicente#0001",
         "usage": "[@User/User ID]"
-    },
-    "whitelist": {
-        "example": "add 461171501715161108"
     },
     "delrole": {
         "description": "Deletes the mentioned role.",

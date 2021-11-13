@@ -19,9 +19,6 @@
         "example": "@Vicente#0001 Quebrar a regra 4.",
         "usage": "[@Usuario/Usuário ID/Nome do Usuário] <Razão> <--md> <--save>"
     },
-    "baninfo": {
-        "example": "287574458963722240"
-    },
     "blockword": {
         "description": "Bloqueia o uso de palavras no servidor.",
         "example": "add pack 0",
@@ -72,16 +69,10 @@
         "example": "@Usuário Membro irritante --md",
         "usage": "[@Usuário/Usuário ID] <Razão> <--md>"
     },
-    "detect": {
-        "example": ""
-    },
     "filter": {
         "description": "Configura os filtros.",
         "example": "activate anti-spam",
         "usage": "help / [filtro] enable / [filtro] disable / [filtro] ignore [#Canal/@Cargo]"
-    },
-    "forceban": {
-        "example": ""
     },
     "genpassword": {
         "description": "",
@@ -98,12 +89,8 @@
         "example": "",
         "usage": ""
     },
-    "info": {
-        "example": ""
-    },
     "invite": {
-        "description": "",
-        "usage": ""
+        "description": ""
     },
     "kick": {
         "description": "",
@@ -130,9 +117,6 @@
         "example": "",
         "usage": ""
     },
-    "notification": {
-        "example": ""
-    },
     "ping": {
         "description": "",
         "example": "",
@@ -148,20 +132,13 @@
         "example": "",
         "usage": ""
     },
-    "report": {
-        "example": ""
-    },
     "reportbug": {
         "description": "",
         "example": "",
         "usage": ""
     },
-    "role": {
-        "example": ""
-    },
     "server": {
-        "description": "",
-        "usage": ""
+        "description": ""
     },
     "setlang": {
         "description": "",
@@ -192,9 +169,6 @@
         "description": "",
         "example": "",
         "usage": ""
-    },
-    "support": {
-        "example": ""
     },
     "topbots": {
         "description": "",
@@ -240,9 +214,6 @@
         "description": "",
         "example": "",
         "usage": ""
-    },
-    "whitelist": {
-        "example": ""
     },
     "delrole": {
         "description": "Elimina o cargo mencionado.",
