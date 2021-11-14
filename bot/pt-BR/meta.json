@@ -89,9 +89,6 @@
         "example": "",
         "usage": ""
     },
-    "invite": {
-        "description": ""
-    },
     "kick": {
         "description": "",
         "example": "",
@@ -136,9 +133,6 @@
         "description": "",
         "example": "",
         "usage": ""
-    },
-    "server": {
-        "description": ""
     },
     "setlang": {
         "description": "",
