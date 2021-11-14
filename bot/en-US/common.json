@@ -98,7 +98,6 @@
         }
     },
     "channelTypes": {
-        "group": "group",
         "news_thread": "news thread",
         "GUILD_TEXT": "text",
         "GUILD_VOICE": "voice",
