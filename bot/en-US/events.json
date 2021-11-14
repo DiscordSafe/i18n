@@ -36,7 +36,6 @@
         "unbanned": "Member unbanned"
     },
     "guildMemberAdd": {
-        "alertaM": "Member",
         "badges": "Badges",
         "bot": "Bot",
         "captchaErrorIntentos": "**You have reached the limit of attempts**, you have not completed the verification so you will be kicked.",

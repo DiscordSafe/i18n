@@ -36,7 +36,6 @@
         "unbanned": ""
     },
     "guildMemberAdd": {
-        "alertaM": "",
         "badges": "",
         "bot": "",
         "captchaErrorIntentos": "",

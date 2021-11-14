@@ -36,7 +36,6 @@
         "unbanned": "Membre desbaneado"
     },
     "guildMemberAdd": {
-        "alertaR": "Raó",
         "badges": "Insígnies",
         "bot": "Bot",
         "captchaErrorIntentos": "**Ha aconseguit el límit d'intents**, no has completat la verificació així que seràs expulsat.",
