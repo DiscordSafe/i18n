@@ -426,6 +426,23 @@
       }
     }
   },
+  "lock": {
+    "description": "Bloquea un canal",
+    "options": {
+      "channel": {
+        "description": "El canal a bloquear"
+      },
+      "time": {
+        "description": "El tiempo que estará bloqueado"
+      },
+      "unit": {
+        "description": "Unidad de tiempo"
+      },
+      "reason": {
+        "description": "Razón que será enviada al canal bloqueado"
+      }
+    }
+  },
   "logs": {
     "description": "Configura los los del servidor.",
     "example": "#logs",
@@ -807,6 +824,17 @@
     "options": {
       "user": {
         "description": "El usuario a desensordecer"
+      }
+    }
+  },
+  "unlock": {
+    "description": "Desbloquea un canal",
+    "options": {
+      "channel": {
+        "description": "El canal a desbloquear"
+      },
+      "reason": {
+        "description": "Razón que se enviará al canal desbloqueado"
       }
     }
   },

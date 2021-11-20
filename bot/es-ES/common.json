@@ -82,7 +82,9 @@
     "channel": "Canal",
     "reason": "Razón",
     "time": "Duración",
-    "case": "Caso"
+    "case": "Caso",
+    "lock": "Canal bloqueado",
+    "unlock": "Canal desbloqueado"
   },
   "languages": {
     "ca": {

@@ -300,6 +300,11 @@
     "errorUser": "**Error**, no se encontró al usuario, pruebe de nuevo.",
     "exito": "{{emoji}} **{{memberTag}}** fue expulsado."
   },
+  "lock": {
+    "locked": "**Error**, el canal ya está bloqueado, use `/unlock` para desbloquearlo.",
+    "noManageable": "**Error**, el bot no puede gestionar los permisos de este canal.",
+    "exito": "{{emoji}} **{{channelName}} fue bloqueado**"
+  },
   "logs": {
     "disabled": "Los logs han sido desactivados, dejará de recibirlos.",
     "donegeneral": "El canal de logs ha sido establecido a {{canal}}.",
@@ -729,6 +734,11 @@
     "errorMención": "**Error**: Falta mencionar al usuario.",
     "errorYaEnsordecido": "**Error**, Ese usuario no está ensordecido.",
     "exito": "{{emoji}} **{{memberTag}}** ha sido desensordecido."
+  },
+  "unlock": {
+    "notLocked": "**Error**, el canal no está bloqueado.",
+    "changelog": "{{reason}}.\nMod: {{modTag}} ({{modID}})",
+    "exito": "{{emoji}} **{{channelName}} fue desbloqueado**"
   },
   "unmute": {
     "reason": "Has sido desmuteado en **{{guild}}** por **{{reason}}**.",
