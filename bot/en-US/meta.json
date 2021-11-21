@@ -11,23 +11,118 @@
         "options": {
             "all": {
                 "description": "Approves all users"
+            },
+            "user": {
+                "description": "Approves a user",
+                "options": {
+                    "user": {
+                        "description": "User to approve"
+                    }
+                }
             }
         }
     },
     "avatar": {
         "description": "Display a user's avatar.",
         "example": "",
-        "usage": "<@User>"
+        "usage": "<@User>",
+        "options": {
+            "user": {
+                "description": "Member to get the avatar"
+            },
+            "server-avatar": {
+                "description": "Whether to display the user's server avatar instead of the global avatar"
+            }
+        }
     },
     "ban": {
-        "description": "Bans a member from the server.",
+        "description": "Bans a member from the server",
         "example": "@Vicente#0001 Breaking the rule 4.",
-        "usage": "[@User/User ID/Username] <Reason> <--md> <--save>"
+        "usage": "[@User/User ID/Username] <Reason> <--md> <--save>",
+        "options": {
+            "user": {
+                "description": "User to ban"
+            },
+            "--save": {
+                "description": "Whether to save the user's messages or delete all of them"
+            }
+        }
     },
     "blockword": {
         "description": "Blocks the use of words on the server.",
         "example": "add pack 0",
-        "usage": "add [Word/Pack] / remove [Word/Pack] / list / reset"
+        "usage": "add [Word/Pack] / remove [Word/Pack] / list / reset",
+        "options": {
+            "word": {
+                "options": {
+                    "add": {
+                        "description": "Block a word",
+                        "options": {
+                            "word": {
+                                "description": "Word to block"
+                            }
+                        }
+                    },
+                    "remove": {
+                        "description": "Unblock a word",
+                        "options": {
+                            "word": {
+                                "description": "Word to unblock"
+                            }
+                        }
+                    }
+                }
+            },
+            "pack": {
+                "options": {
+                    "add": {
+                        "description": "Block a word pack",
+                        "options": {
+                            "pack": {
+                                "description": "Word pack to block"
+                            }
+                        }
+                    },
+                    "remove": {
+                        "description": "Unblock a word pack",
+                        "options": {
+                            "pack": {
+                                "description": "Word pack to unblock"
+                            }
+                        }
+                    }
+                }
+            },
+            "ignore": {
+                "options": {
+                    "channel": {
+                        "description": "Ignore a channel",
+                        "options": {
+                            "channel": {
+                                "description": "Channel to ignore"
+                            }
+                        }
+                    },
+                    "role": {
+                        "description": "Ignore a role",
+                        "options": {
+                            "role": {
+                                "description": "Role to ignore"
+                            }
+                        }
+                    }
+                }
+            },
+            "help": {
+                "description": "Displays help on blocked words"
+            },
+            "list": {
+                "description": "Shows the list of blocked words"
+            },
+            "reset": {
+                "description": "Clears the list of blocked words"
+            }
+        }
     },
     "botinfo": {
         "description": "Displays bot information.",
@@ -35,12 +130,12 @@
         "usage": ""
     },
     "case": {
-        "description": "Displays the information of a moderation case.",
+        "description": "Displays the information of a moderation case",
         "example": "5",
         "usage": "[Case ID]"
     },
     "cases": {
-        "description": "Displays the list of server moderation cases.",
+        "description": "Displays the list of server moderation cases",
         "example": "",
         "usage": "<@User>"
     },
@@ -50,15 +145,15 @@
         "usage": "",
         "options": {
             "follow": {
-                "description": "Follows our news channel in this channel."
+                "description": "Follows our news channel in this channel"
             },
             "view": {
-                "description": "Shows the last changelog."
+                "description": "Shows the last changelog"
             }
         }
     },
     "clear": {
-        "description": "Deletes a number of messages.",
+        "description": "Deletes a number of messages",
         "example": "@Seyron#5532 15\nmatch RAID 100",
         "usage": "[Amount(2-100)]\n[@User/User ID] [Amount(2-100)]\nall\nmatch [Text] [Amount(2-100)]\nnot [Text] [Amount(2-100)]\nstartswith [Text] [Amount(2-100)]\nendswith [Text] [Amount(2-100)]\nlinks [Amount(2-100)]\ninvites [Amount(2-100)]\nimages [Amount(2-100)]\nmentions [Amount(2-100)]\nembeds [Amount(2-100)]\nbots [Amount(2-100)]\nbefore [Message ID] [Amount(2-100)]\nafter [Message ID] [Amount(2-100)]\naround [Message ID] [Amount(2-100)]"
     },
@@ -68,22 +163,22 @@
         "usage": ""
     },
     "clearwarn": {
-        "description": "Removes a warning from the server.",
+        "description": "Removes warnings",
         "example": "43das78",
         "usage": "<Code> / all"
     },
     "commands": {
-        "description": "Commands list.",
+        "description": "Displays the list of commands",
         "example": "",
         "usage": "<--channel>"
     },
     "deafen": {
-        "description": "Deafens a member.",
+        "description": "Deafens a member",
         "example": "@User Annoying member --md",
         "usage": "[@User/User ID] <Reason> <--md>"
     },
     "filter": {
-        "description": "Set up the filters.",
+        "description": "Set up the filters",
         "example": "anti-spam enable",
         "usage": "help / [filter] enable / [filter] disable / [filter] ignore [#Channel/@Role]"
     },
@@ -93,7 +188,7 @@
         "usage": "<Level(low/medium/high)> <Length(5-50)>"
     },
     "hackban": {
-        "description": "Bans members trough their ID.",
+        "description": "Bans members trough their ID",
         "example": "124545463433127 124545463433127 124545463433127",
         "usage": "[ID] <ID> <ID>..."
     },
@@ -103,7 +198,7 @@
         "usage": "<Command>"
     },
     "kick": {
-        "description": "Kicks a member from the server.",
+        "description": "Kicks a member from the server",
         "example": "Discord#0000 Break the 8th rule.",
         "usage": "[@User/User ID/Member name] <Reason> <--md>"
     },
@@ -123,7 +218,7 @@
         "usage": "actions / mods"
     },
     "mute": {
-        "description": "Mutes a member.",
+        "description": "Mute a member",
         "example": "@Clyde#0001 15m Breaking the 14th rule.",
         "usage": "[@User/User ID] <Time> <s/m/h> <Reason> <--md>"
     },
@@ -148,22 +243,22 @@
         "usage": "<Detailed description of the error>"
     },
     "setlang": {
-        "description": "Sets the bot language in the server.",
+        "description": "Sets the bot language in the server",
         "example": "es-ES",
         "usage": "es-ES / en-US"
     },
     "setprefix": {
-        "description": "Sets the server prefix.",
+        "description": "Sets the server prefix",
         "example": "!!",
         "usage": "[Prefix]"
     },
     "settings": {
-        "description": "Shows the server settings and information of how to configure it.",
+        "description": "Shows the server settings and information of how to configure it",
         "example": "",
         "usage": ""
     },
     "softban": {
-        "description": "Bans and innmediatly unbans a member to delete messages.",
+        "description": "Bans and innmediatly unbans a member to delete messages",
         "example": "@Clyde#0001 Flood in the chat --md",
         "usage": "[@User/User ID] <Reason> <--md>"
     },
@@ -183,22 +278,22 @@
         "usage": ""
     },
     "unban": {
-        "description": "Unbans a user from the server.",
+        "description": "Unbans a user from the server",
         "example": "287574458963722240",
         "usage": "[@User/User ID/Member username] <Reason> <--md>"
     },
     "undeafen": {
-        "description": "Undeafens a member.",
+        "description": "Undeafens a member",
         "example": "@User",
         "usage": "[@User/User ID] <Reason> <--md>"
     },
     "unmute": {
-        "description": "Unmutes a silenced member.",
+        "description": "Unmutes a silenced member",
         "example": "182866681520062465",
         "usage": "[@User/User ID] <Reason> <--md>"
     },
     "verification": {
-        "description": "Modifies the verification configuration.",
+        "description": "Set up verification",
         "example": "setuser @Verified",
         "usage": "off / setmode <Mode(approval, reaction, verification, captcha)> / setguest <@Role / Role ID> / setuser <@Role / Role ID> / setchannel <#Channel / Channel ID> / setmessage <Message ID>"
     },
@@ -213,12 +308,12 @@
         "usage": " /<@User>"
     },
     "warn": {
-        "description": "Adverts a user from its bad behavior.",
+        "description": "Warns a user",
         "example": "@Juan#4449 Breaking the 3rd rule.",
         "usage": "[@User/User ID] <Reason> <--md>"
     },
     "warnings": {
-        "description": "Shows the warn list of the server or member.",
+        "description": "Shows the warn list of the server or member",
         "example": "@Vicente#0001",
         "usage": "[@User/User ID]"
     },
