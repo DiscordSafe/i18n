@@ -28,7 +28,8 @@
             "invalid": "Invalid number."
         },
         "role": {
-            "highest": "The role is upper your highest role, you can't use it."
+            "highest": "The role is upper your highest role, you can't use it.",
+            "editable": "I can't edit this role, make sure my highest role is above this role."
         },
         "color": {
             "invalidFormat": "Invalid color format, must be one of the following: {{validColors}}.\nYou can select a color at https://htmlcolorcodes.com/."
@@ -38,11 +39,17 @@
         },
         "list": {
             "notMatch": "The parameters are wrongly separated, you must put it right.\nExample: {{example}}."
+        },
+        "messageid": {
+            "notId": "You must provide a valid ID."
         }
     },
     "dm": "**Error, this command cannot be used in direct messages.",
     "userPerms": "You do not have enough permissions to use this command.",
     "userPerms_detailed_one": "You do not have enough permissions to use this command, you need the **{{perm}}** permission.",
     "userPerms_detailed_other": "You do not have enough permissions to use this command, you need **{{perm}}** permissions.",
-    "botPerms_other": "I do not have enough permissions to execute this command, I need **{{perm}}** permissions."
+    "botPerms_other": "I do not have enough permissions to execute this command, I need **{{perm}}** permissions.",
+    "requirements": {
+        "premium": "This command is for premium only, get premium using `/premium`."
+    }
 }
