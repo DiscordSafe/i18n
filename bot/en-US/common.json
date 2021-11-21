@@ -43,7 +43,9 @@
         "undeafen": "Member undeafened",
         "unmute": "Unmuted member",
         "user": "User",
-        "warn": "Member warned"
+        "warn": "Member warned",
+        "unlock": "Channel unlocked",
+        "lock": "Channel blocked"
     },
     "no": "No",
     "notFound": "It has not been found.",
