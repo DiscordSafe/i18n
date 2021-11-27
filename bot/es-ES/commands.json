@@ -17,7 +17,10 @@
     "noAvatar": "**Error**, El usuario {{user}} no tiene avatar."
   },
   "ban": {
-    "reason": "Has sido baneado en **{{guild}}** por: **{{reason}}**.",
+    "reason": "Has sido baneado en **{{guild}}**.",
+    "reason_reason": "Has sido baneado en **{{guild}}** por: **{{reason}}**.",
+    "reason_time": "Has sido baneado en **{{guild}}** durante **{{time}}**.",
+    "reason_reason_time": "Has sido baneado en **{{guild}}** durante **{{time}}** por: **{{reason}}**",
     "changelog": "{{reason}}.\nMod: {{modTag}} ({{modID}})",
     "autor": "**Error**, no te puedes banear a ti mismo.",
     "errorArgs": "**Error**, debe mencionar, indicar la ID o el nombre de un usuario.",
@@ -303,7 +306,7 @@
   "lock": {
     "locked": "**Error**, el canal ya está bloqueado, use `/unlock` para desbloquearlo.",
     "noManageable": "**Error**, el bot no puede gestionar los permisos de este canal.",
-    "exito": "{{emoji}} **{{channelName}} fue bloqueado**"
+    "exito": "{{emoji}} **#{{channelName}} fue bloqueado**"
   },
   "logs": {
     "disabled": "Los logs han sido desactivados, dejará de recibirlos.",
@@ -738,7 +741,7 @@
   "unlock": {
     "notLocked": "**Error**, el canal no está bloqueado.",
     "changelog": "{{reason}}.\nMod: {{modTag}} ({{modID}})",
-    "exito": "{{emoji}} **{{channelName}} fue desbloqueado**"
+    "exito": "{{emoji}} **#{{channelName}} fue desbloqueado**"
   },
   "unmute": {
     "reason": "Has sido desmuteado en **{{guild}}** por **{{reason}}**.",

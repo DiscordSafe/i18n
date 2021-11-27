@@ -43,6 +43,9 @@
       "user": {
         "description": "El usuario a banear"
       },
+      "time": {
+        "description": "El tiempo que estará baneado"
+      },
       "--save": {
         "description": "Si guardar los mensajes del usuario o borrarlos todos"
       }
@@ -435,9 +438,6 @@
       "time": {
         "description": "El tiempo que estará bloqueado"
       },
-      "unit": {
-        "description": "Unidad de tiempo"
-      },
       "reason": {
         "description": "Razón que será enviada al canal bloqueado"
       }
@@ -487,9 +487,6 @@
       },
       "time": {
         "description": "El tiempo que estará muteado"
-      },
-      "unit": {
-        "description": "Unidad de tiempo"
       }
     }
   },

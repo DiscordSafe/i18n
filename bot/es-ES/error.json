@@ -50,6 +50,9 @@
     },
     "messageid": {
       "notId": "Debe proporcionar una ID válida."
+    },
+    "time": {
+      "notValid": "La opción de tiempo no es válida, vuelve a intentarlo."
     }
   }
 }
