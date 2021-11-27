@@ -88,7 +88,6 @@
         "noSancionado": "**Error**, The user has no case.",
         "noWarn": "There it isn't any moderation case in the server.",
         "noWarns": "There isn't any case.",
-        "sancionado": "Case: {{case}} Action: {{action}} | User: {{user}}~~~{{reason}} - Moderator: {{mod}} Date: {{date}}",
         "userEmbedMore": "{{warns}} cases of {{memberTag}} ({{memberID}})",
         "userEmbedOne": "Cases of {{memberTag}} ({{memberID}})",
         "desc": "Select the order that you want the cases to be shown",
