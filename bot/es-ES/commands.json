@@ -88,7 +88,8 @@
     "desc": "{{reason}}",
     "mod": "Moderador",
     "title": "Información del caso #{{case}}",
-    "user": "Usuario"
+    "user": "Usuario",
+    "channel": "Canal"
   },
   "cases": {
     "noMention": "**Error**, debe mencionar a un usuario.",
@@ -96,7 +97,8 @@
     "noWarn": "No hay ningún caso de moderación en el servidor.",
     "noWarns": "No hay ningún caso.",
     "noCasesUser": "Este usuario no tiene ningún caso.",
-    "sancionado": "Caso: {{case}} Acción: {{action}} | Usuario: {{user}}~~~{{reason}} - Moderador: {{mod}} Fecha: {{date}}",
+    "sancionado_user": "Caso: {{case}} Acción: {{action}} | Usuario: {{user}}~~~{{reason}} - Moderador: {{mod}} Fecha: {{date}}",
+    "sancionado_channel": "Caso: {{case}} Acción: {{action}} | Canal: {{channel}}~~~{{reason}} - Moderador: {{mod}} Fecha: {{date}}",
     "userEmbedMore": "{{warns}} casos de {{memberTag}} ({{memberID}})",
     "userEmbedOne": "Casos de {{memberTag}} ({{memberID}})",
     "desc": "Elige el orden en el que quieras que se muestren los casos",
