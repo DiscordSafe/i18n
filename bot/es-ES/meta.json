@@ -301,6 +301,17 @@
       }
     }
   },
+  "duration": {
+    "description": "Cambia la duración de un caso",
+    "options": {
+      "caseid": {
+        "description": "La ID del caso"
+      },
+      "time": {
+        "description": "La nueva duración que tendrá la acción"
+      }
+    }
+  },
   "emoji": {
     "description": "Muestra el emoji en grande.",
     "example": ":pepeamor:",

@@ -89,7 +89,8 @@
     "mod": "Moderador",
     "title": "Información del caso #{{case}}",
     "user": "Usuario",
-    "channel": "Canal"
+    "channel": "Canal",
+    "time": "Duración"
   },
   "cases": {
     "noMention": "**Error**, debe mencionar a un usuario.",
@@ -160,6 +161,10 @@
     "errorMención": "**Error**: Falta mencionar al usuario.",
     "errorYaEnsordecido": "**Error**, Ese usuario ya está ensordecido, usa `d.undeafen` para desensordecerlo.",
     "exito": "{{emoji}} **{{memberTag}}** ha sido ensordecido."
+  },
+  "duration": {
+    "noCase": "**Error**, no se ha encontrado el caso, comprueba que el ID del caso sea correcto.",
+    "done": "La duración ha sido cambiada a **{{newDuration}}**."
   },
   "emoji": {
     "noEncontrado": "**Error**, no se ha encontrado el emoji."
