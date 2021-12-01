@@ -113,6 +113,9 @@
     "warnings_one": "{{count}} sanción",
     "warnings_other": "{{count}} sanciones"
   },
+  "cooldown": {
+    "done": "Se ha establecido el cooldown correctamente."
+  },
   "changelog": {
     "follow": " | Se ha seguido el canal de actualizaciones del bot.\nAhora recibirá seguimiento de mis actualizaciones."
   },
