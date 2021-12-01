@@ -152,6 +152,17 @@
       }
     }
   },
+  "cooldown": {
+    "description": "Cambia el tiempo del modo pausado de un canal",
+    "options": {
+      "channel": {
+        "description": "Canal de texto a usar"
+      },
+      "cooldown": {
+        "description": "El tiempo a establecer"
+      }
+    }
+  },
   "changelog": {
     "description": "Muestra el último registro de cambios.",
     "example": "",
