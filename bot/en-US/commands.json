@@ -382,9 +382,7 @@
         "helpus2": "Help us to improve and maintain the translation of the bot in other languages, [ask in the support server](https://discordsafe.com/invite).",
         "title": "Language configuration in {{server}}",
         "easterEgg": {
-            "replyDescription": "**Consider that this special languages are only jokes and will be confusing or will break the bot in any moment, please only use them to test them and go back to the language you had previously.** If you help contact in [our server](https://discordsafe.com/discord).",
-            "label": "Special languages???",
-            "replyTitle": "You have discovered an easter egg! :eyes:"
+            "label": "Special languages???"
         },
         "helpus1": "Help us translating! 💖",
         "select": "Select the language."
