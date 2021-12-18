@@ -514,11 +514,6 @@
     "helpus1": "¡Ayúdanos a traducir! 💖",
     "helpus2": "Ayúdanos a mejorar y mantener la traducción del bot en otros idiomas, [pregunta en el servidor de soporte](https://discordsafe.com/invite).",
     "select": "Seleccione el idioma.",
-    "easterEgg": {
-      "label": "¿¿¿Idiomas especiales???",
-      "replyTitle": "¡Has descubierto un easter egg! :eyes:",
-      "replyDescription": "**Considere que estos idiomas especiales son solo por las risas y serán confusos o romperán el bot en cualquier momento, por favor solo úselos para probarlos y vuelva al idioma que tenía anteriormente.**Si necesita ayuda contacte en [nuestro servidor](https://discordsafe.com/discord)."
-    },
     "establecido": "El idioma del servidor ha sido establecido a {{idioma}}.",
     "noDisponible": "Idioma no disponible aún",
     "noDisponibleDes": "El idioma `{{idioma}}` **no se encuentra disponible aún**, estamos trabajando en ello para hacerlo lo antes posible.",
