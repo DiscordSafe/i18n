@@ -381,9 +381,6 @@
         "yaEstablecido": "The language is already set as {{idioma}}.",
         "helpus2": "Help us to improve and maintain the translation of the bot in other languages, [ask in the support server](https://discordsafe.com/invite).",
         "title": "Language configuration in {{server}}",
-        "easterEgg": {
-            "label": "Special languages???"
-        },
         "helpus1": "Help us translating! 💖",
         "select": "Select the language."
     },
