@@ -285,7 +285,7 @@
       "warn": {
         "description": "Elimina una advertencia",
         "options": {
-          "number": {
+          "caseid": {
             "description": "Número de la advertencia"
           }
         }
@@ -509,6 +509,9 @@
       },
       "time": {
         "description": "El tiempo que estará muteado"
+      },
+      "unit": {
+        "description": "Unidad de tiempo"
       }
     }
   },
