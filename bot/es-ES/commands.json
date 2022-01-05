@@ -303,7 +303,8 @@
     "member": "▸ Miembros",
     "temporal": "▸ Temporal",
     "url": "▸ URL",
-    "uses": "▸ Usos"
+    "uses": "▸ Usos",
+    "targetApplication": "▸ Aplicación de destino"
   },
   "kick": {
     "reason": "Has sido expulsado en **{{guild}}** por: **{{reason}}**.",
