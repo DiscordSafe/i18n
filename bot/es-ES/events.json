@@ -102,6 +102,8 @@
   },
   "message": {
     "scamBlocked": "Scam bloqueado",
+    "scamDontEnter_one": "🚨 ¡Cuidado! Este dominio es malicioso, este tipo de sitios web pueden robarte información personal, contraseña o cuenta.",
+    "scamDontEnter_other": "🚨 ¡Cuidado! Estos dominios son maliciosos, este tipo de sitios web pueden robarte información personal, contraseña o cuenta.",
     "NoScam": "**[AntiScam]** No se permiten enlaces maliciosos.",
     "NoFlood": "**[AntiFlood]** No envies tantos mensajes.",
     "NoInvitaciones": "No se permiten invitaciones a otros servidores de discord.",
