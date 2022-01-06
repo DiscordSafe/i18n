@@ -112,8 +112,7 @@
         "logAdmin": "Admin command used:",
         "logAutor": "Author: {{autor}}",
         "logCanal": "Channel:",
-        "palabraBloqueada": "Blocked word.",
-        "reminderField1": "New command name"
+        "palabraBloqueada": "Blocked word."
     },
     "messageDelete": {
         "título": "Deleted message"

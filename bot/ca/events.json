@@ -112,7 +112,6 @@
         "logAdmin": "Comando d'administrador executat:",
         "logCanal": "Canal:",
         "palabraBloqueada": "Paraula bloquejada.",
-        "reminderTitle": "Recordatori de nous comandos",
         "logAutor": "Autor: {{autor}}"
     },
     "messageDelete": {
