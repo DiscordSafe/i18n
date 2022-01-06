@@ -112,10 +112,8 @@
         "logAdmin": "Comando d'administrador executat:",
         "logCanal": "Canal:",
         "palabraBloqueada": "Paraula bloquejada.",
-        "reminderField1": "Nou nom del comando",
         "reminderTitle": "Recordatori de nous comandos",
-        "logAutor": "Autor: {{autor}}",
-        "reminderDescription": "He tingut una [nova actualització](https://blog.discordsafe.com/Registro-de-cambios/version-4-2) on s'han *canviat de nom, actualitzat i ajuntat comandos**.\nEl nou nom del comando que intentes usar està sota, gràcies per usar-me!"
+        "logAutor": "Autor: {{autor}}"
     },
     "messageDelete": {
         "título": "Missatge eliminat"
