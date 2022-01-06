@@ -101,6 +101,8 @@
     "vanityh": "URL Personalizada (Después)"
   },
   "message": {
+    "scamBlocked": "Scam bloqueado",
+    "NoScam": "**[AntiScam]** No se permiten enlaces maliciosos.",
     "NoFlood": "**[AntiFlood]** No envies tantos mensajes.",
     "NoInvitaciones": "No se permiten invitaciones a otros servidores de discord.",
     "NoLoggersAvanzado": "**[Anti Iplogger Avanzado]** No se permite enviar enlaces iploggers o maliciosos.",
@@ -112,10 +114,7 @@
     "logAdmin": "Comando de administrador ejecutado:",
     "logAutor": "Autor: {{autor}}",
     "logCanal": "Canal:",
-    "palabraBloqueada": "Palabra bloqueada.",
-    "reminderDescription": "He tenido una [nueva actualización](https://blog.discordsafe.com/Registro-de-cambios/version-4-2) donde se han **renombrado, actualizado y juntado comandos**.\nEl nuevo nombre del comando que intentas usar está debajo, ¡gracias por usarme!",
-    "reminderField1": "Nuevo nombre del comando",
-    "reminderTitle": "Recordatorio de nuevos comandos"
+    "palabraBloqueada": "Palabra bloqueada"
   },
   "messageDelete": {
     "título": "Mensaje eliminado"
