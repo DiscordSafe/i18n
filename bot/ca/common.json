@@ -1,101 +1,100 @@
 {
-  "whatisthis": "*[Què és això?]({{link}})*",
-  "channelTypes": {
-    "GUILD_TEXT": "text",
-    "GUILD_VOICE": "veu",
-    "DM": "dm",
-    "GROUP_DM": "grup",
-    "CATEGORY": "categoria",
-    "GUILD_STORE": "botiga",
-    "GUILD_NEWS_THREAD": "fil de notícies",
-    "GUILD_PUBLIC_THREAD": "fil públic",
-    "GUILD_PRIVATE_THREAD": "fil privat",
-    "GUILD_STAGE_VOICE": "escenari",
-    "GUILD_NEWS": "notícies",
-    "RULES": "regles",
-    "UNKNOWN": "desconegut"
-  },
-  "actions": {
-    "confirm": "Confirmar",
-    "cancel": "Cancel·lar",
-    "destroy": "Suprimir"
-  },
-  "paginationButton": {
-    "back": "Anterior",
-    "next": "Següent",
-    "home": "Inici",
-    "close": "Tancar"
-  },
-  "error": "Error",
-  "canal": "Canal",
-  "attachment": "Era un embed o un attachment.",
-  "notFound": "No s'ha trobat.",
-  "tiempo": "Es va acabar el temps.",
-  "autor": "Autor: {{autorid}}",
-  "mensajeID": "Missatge ID: {{id}}",
-  "yes": "Sí",
-  "no": "No",
-  "page": "Pàgina",
-  "AntiSpam": {
-    "MuteRoleCreated": "He creat el rol **Muted** (aplicat a la persona muteada) pel fet que no es va trobar un rol de Muted.",
-    "noMuteRole": "No es va trobar un rol de Muted, he creat un nou.",
-    "muteEmbedAuthor": "AutoMute",
-    "muteEmbedField1": "Membre muteado:",
-    "muteEmbedField2": "Temps",
-    "muteEmbedField3": "Raó",
-    "muteEmbedField4": "Data",
-    "unmuteEmbedAuthor": "Auto Unmute",
-    "unmuteEmbedField1": "Membre desmuteado",
-    "unmuteEmbedField2": "Raó",
-    "seconds": "{{MuteTime}} minuts",
-    "unmuteEmbedReason": "Temps expirat.",
-    "WarnMessage": "{{emojiWarn}} **[Anti-Spam]** Si us plau, no envie tants missatges.",
-    "MuteMessage": "{{emojiMute}} **[Anti-Spam]** Has estat muteado per enviar tants missatges.",
-    "errorMute": "Ups, sembla que no tinc els suficient permisos de mutear a {{user}}."
-  },
-  "modEmbed": {
-    "mute": "Membre muteado",
-    "unmute": "Membre desmuteado",
-    "kick": "Membre expulsat",
-    "ban": "Membre baneado",
-    "hackban": "Membre baneado (hackban)",
-    "softban": "Membre baneado i desbaneado (softban)",
-    "unban": "Membre desbaneado",
-    "clearwarn": "Advertiment eliminat",
-    "approve": "Membre ha estat aprovat",
-    "deafen": "Membre ensordit",
-    "undeafen": "Membre desensordecido",
-    "code": "Codi",
-    "user": "Usuari",
-    "member": "Membre",
-    "mod": "Moderador",
-    "amount": "Quantitat",
-    "channel": "Canal",
-    "reason": "Raó",
-    "time": "Durada",
-    "case": "Cas",
-    "warn": "Membre advertit",
-    "clear": "Missatges esborrats"
-  },
-  "notification": "Notificació",
-  "errorCompare": "**Error**, no pots usar aquest comando amb un membre amb més poders que tu.",
-  "languages": {
-    "es-ES": {
-      "emoji": "🇪🇸",
-      "value": "Español (Espanya)"
+    "whatisthis": "*[Què és això?]({{link}})*",
+    "channelTypes": {
+        "GUILD_TEXT": "text",
+        "GUILD_VOICE": "veu",
+        "DM": "dm",
+        "GROUP_DM": "grup",
+        "CATEGORY": "categoria",
+        "GUILD_NEWS_THREAD": "fil de notícies",
+        "GUILD_PUBLIC_THREAD": "fil públic",
+        "GUILD_PRIVATE_THREAD": "fil privat",
+        "GUILD_STAGE_VOICE": "escenari",
+        "GUILD_NEWS": "notícies",
+        "RULES": "regles",
+        "UNKNOWN": "desconegut"
     },
-    "en-US": {
-      "emoji": "🇺🇸",
-      "value": "Inglés (els Estats Units)"
+    "actions": {
+        "confirm": "Confirmar",
+        "cancel": "Cancel·lar",
+        "destroy": "Suprimir"
     },
-    "pt-BR": {
-      "emoji": "🇧🇷",
-      "value": "Portuguès (el Brasil)"
+    "paginationButton": {
+        "back": "Anterior",
+        "next": "Següent",
+        "home": "Inici",
+        "close": "Tancar"
     },
-    "ca": {
-      "emoji": "<:flag_cat:883009423910526986>",
-      "value": "Català"
-    }
-  },
-  "noreason": "Sense raó"
+    "error": "Error",
+    "canal": "Canal",
+    "attachment": "Era un embed o un attachment.",
+    "notFound": "No s'ha trobat.",
+    "tiempo": "Es va acabar el temps.",
+    "autor": "Autor: {{autorid}}",
+    "mensajeID": "Missatge ID: {{id}}",
+    "yes": "Sí",
+    "no": "No",
+    "page": "Pàgina",
+    "AntiSpam": {
+        "MuteRoleCreated": "He creat el rol **Muted** (aplicat a la persona muteada) pel fet que no es va trobar un rol de Muted.",
+        "noMuteRole": "No es va trobar un rol de Muted, he creat un nou.",
+        "muteEmbedAuthor": "AutoMute",
+        "muteEmbedField1": "Membre muteado:",
+        "muteEmbedField2": "Temps",
+        "muteEmbedField3": "Raó",
+        "muteEmbedField4": "Data",
+        "unmuteEmbedAuthor": "Auto Unmute",
+        "unmuteEmbedField1": "Membre desmuteado",
+        "unmuteEmbedField2": "Raó",
+        "seconds": "{{MuteTime}} minuts",
+        "unmuteEmbedReason": "Temps expirat.",
+        "WarnMessage": "{{emojiWarn}} **[Anti-Spam]** Si us plau, no envie tants missatges.",
+        "MuteMessage": "{{emojiMute}} **[Anti-Spam]** Has estat muteado per enviar tants missatges.",
+        "errorMute": "Ups, sembla que no tinc els suficient permisos de mutear a {{user}}."
+    },
+    "modEmbed": {
+        "mute": "Membre muteado",
+        "unmute": "Membre desmuteado",
+        "kick": "Membre expulsat",
+        "ban": "Membre baneado",
+        "hackban": "Membre baneado (hackban)",
+        "softban": "Membre baneado i desbaneado (softban)",
+        "unban": "Membre desbaneado",
+        "clearwarn": "Advertiment eliminat",
+        "approve": "Membre ha estat aprovat",
+        "deafen": "Membre ensordit",
+        "undeafen": "Membre desensordecido",
+        "code": "Codi",
+        "user": "Usuari",
+        "member": "Membre",
+        "mod": "Moderador",
+        "amount": "Quantitat",
+        "channel": "Canal",
+        "reason": "Raó",
+        "time": "Durada",
+        "case": "Cas",
+        "warn": "Membre advertit",
+        "clear": "Missatges esborrats"
+    },
+    "notification": "Notificació",
+    "errorCompare": "**Error**, no pots usar aquest comando amb un membre amb més poders que tu.",
+    "languages": {
+        "es-ES": {
+            "emoji": "🇪🇸",
+            "value": "Español (Espanya)"
+        },
+        "en-US": {
+            "emoji": "🇺🇸",
+            "value": "Inglés (els Estats Units)"
+        },
+        "pt-BR": {
+            "emoji": "🇧🇷",
+            "value": "Portuguès (el Brasil)"
+        },
+        "ca": {
+            "emoji": "<:flag_cat:883009423910526986>",
+            "value": "Català"
+        }
+    },
+    "noreason": "Sense raó"
 }
