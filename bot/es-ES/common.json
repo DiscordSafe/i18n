@@ -8,7 +8,6 @@
     "GROUP_DM": "grupo",
     "CATEGORY": "categoría",
     "GUILD_NEWS": "noticias",
-    "GUILD_STORE": "tienda",
     "GUILD_NEWS_THREAD": "hilo de noticias",
     "GUILD_PUBLIC_THREAD": "hilo público",
     "GUILD_PRIVATE_THREAD": "hilo privado",
@@ -41,6 +40,7 @@
   "notification": "Notificación",
   "yes": "Sí",
   "no": "No",
+  "none": "Ninguno",
   "page": "Página",
   "errorCompare": "**Error**, no puedes usar este comando con un miembro con más poderes que tú.",
   "AntiSpam": {
@@ -82,6 +82,7 @@
     "channel": "Canal",
     "reason": "Razón",
     "time": "Duración",
+    "until": "Hasta",
     "case": "Caso",
     "lock": "Canal bloqueado",
     "unlock": "Canal desbloqueado"

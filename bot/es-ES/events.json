@@ -72,6 +72,7 @@
     "rolremoved": "Rol retirado",
     "unboostDesc": "<@{{memberID}}> gracias por haber apoyado este servidor, ojalá volverte a ver.",
     "unboostTitle": "Se ha acabado un boost :(",
+    "timeout": "Aislamiento temporal cambiado",
     "autopremium": {
       "title_one": "¡Has obtenido premium!",
       "title_other": "¡Has obtenido {{count}} premiums!",
@@ -152,6 +153,32 @@
     "removed_other": "Permisos quitados",
     "título": "Rol actualizado",
     "roleID": "Rol ID: {{roleID}}"
+  },
+  "guildScheduledEventCreate": {
+    "title": "Evento programado creado",
+    "creator": "Creador",
+    "location": "Localización",
+    "scheduledAt": "Inicio",
+    "scheduledEnd": "Finalización",
+    "eventId": "ID del evento: {{eventId}}"
+  },
+  "guildScheduledEventDelete": {
+    "title": "Evento programado borrado"
+  },
+  "guildScheduledEventUpdate": {
+    "title": "Evento programado actualizado",
+    "topicA": "Tema (Antes)",
+    "topicD": "Tema (Después)",
+    "descriptionA": "Descripción (Antes)",
+    "descriptionD": "Descripción (Después)",
+    "channelA": "Canal (Antes)",
+    "channelD": "Canal (Después)",
+    "locationA": "Localización (Antes)",
+    "locationD": "Localización (Después)",
+    "startTimeA": "Hora de inicio (Antes)",
+    "startTimeD": "Hora de inicio (Después)",
+    "endTimeA": "Hora de finalización (Antes)",
+    "endTimeD": "Hora de finalización (Después)"
   },
   "voiceStateUpdate": {
     "channel": "Canal",

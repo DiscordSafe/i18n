@@ -392,6 +392,7 @@
   "mute": {
     "reason": "Has sido muteado en **{{guild}}** por: **{{reason}}**.",
     "reason_time": "Has sido muteado en **{{guild}}** durante **{{time}}** por: **{{reason}}**.",
+    "reason_duration": "Has sido muteado en **{{guild}}** hasta el **{{duration}}** ({{durationRelative}}) por: **{{reason}}**.",
     "changelog": "{{reason}}.\nTime: {{time}}\nMod: {{modTag}} ({{modID}})",
     "errorAutor": "**Error**, No te puedes dar mutear a ti mismo.",
     "errorMención": "**Error**: Falta mencionar al usuario.\nEscríbalo como: `d.mute @Usuario Tiempo s/m/h Razón`",
