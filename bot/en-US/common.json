@@ -45,7 +45,8 @@
         "user": "User",
         "warn": "Member warned",
         "unlock": "Channel unlocked",
-        "lock": "Channel blocked"
+        "lock": "Channel blocked",
+        "until": "Until"
     },
     "no": "No",
     "notFound": "It has not been found.",
@@ -98,5 +99,6 @@
         "RULES": "rules",
         "UNKNOWN": "unknown"
     },
-    "noreason": "No reason"
+    "noreason": "No reason",
+    "none": "None"
 }
