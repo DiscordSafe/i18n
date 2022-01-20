@@ -25,7 +25,10 @@
         "errorNobanneable": "**Error**, I cannot ban the mentioned user.",
         "errorUser": "**Error**, User not found, please try again.",
         "exito": "{{emoji}} **{{memberTag}} was banned**",
-        "reason": "You have been banned in **{{guild}}** because: **{{reason}}**."
+        "reason": "You have been banned in **{{guild}}**.",
+        "reason_reason": "You have been banned in **{{guild}}** because: **{{reason}}**.",
+        "reason_time": "You have been banned in **{{guild}}** for **{{time}}**.",
+        "reason_reason_time": "You have been banned in **{{guild}}** for **{{time]]** because: **{{reason}}**"
     },
     "blockword": {
         "correcto": "Open the following file to view the list of blocked words.",
@@ -60,7 +63,10 @@
         "unIgnoreCh": "The channel <#{{channel}}> has __no longer been ignored__ sucessfully.",
         "unIgnoreRl": "The role <@&{{role}}> has been __no longer ignored__ sucessfully.",
         "packBloqueado": "The pack `{{packName}}` has been blocked.",
-        "packDesbloqueado": "The pack `{{packName}}` has been unlocked."
+        "packDesbloqueado": "The pack `{{packName}}` has been unlocked.",
+        "errorNoContent": "**Error**, the message does not have content that can be blocked.",
+        "errorRepeated_one": "**Error**, the word `{{word}}` is already blocked.",
+        "errorRepeated_other": "**Error**, the words `{{word}}` are already blocked."
     },
     "botinfo": {
         "info": "About D-Safe",
@@ -81,7 +87,9 @@
         "desc": "{{reason}}",
         "mod": "Moderator",
         "title": "Information of case #{{case}}",
-        "user": "User"
+        "user": "User",
+        "time": "Duration",
+        "channel": "Channel"
     },
     "cases": {
         "noMention": "**Error**, you have to mention a user.",
@@ -97,7 +105,11 @@
         "total": "Total",
         "warnings_one": "{{count}} punishment",
         "warnings_other": "{{count}} punishments",
-        "fieldd": "{{emojione}} Ascendant (Older first)\n{{emojitwo}} Descendant (Newer first)\n{{emojicancel}} Cancels the command"
+        "fieldd": "{{emojione}} Ascendant (Older first)\n{{emojitwo}} Descendant (Newer first)\n{{emojithree}}\n{{emojicancel}} Cancels the command",
+        "sancionado_user_time": "Case: {{case}} Action: {{action}} | User: {{user}}~~~{{reason}} - Moderator: {{mod}} Date: {{date}} Expiration: {{expiration}}",
+        "sancionado_channel_time": "Case: {{case}} Action: {{action}} | Channel: {{channel}}~~~{{reason}} - Moderator: {{mod}} Date: {{date}} Expiration: {{expiration}}",
+        "sancionado_user": "Case: {{case}} Action: {{action}} | User: {{user}}~~~{{reason}} - Moderator: {{mod}} Date: {{date}}",
+        "sancionado_channel": "Case: {{case}} Action: {{action}} | Channel: {{channel}}~~~{{reason}} - Moderator: {{mod}} Date: {{date}}"
     },
     "changelog": {
         "follow": " The channel for the bot updates has been followed.\nNow you will receive following of my updates."
@@ -175,7 +187,12 @@
         "palabras": "Words",
         "premiumImágenes": "Your server is not premium.",
         "unIgnoreCh": "The channel <#{{channel}}> has been __no longer ignored__ on the **{{filter}}** filter.",
-        "unIgnoreRl": "The role <@&{{role}}> has been __no longer ignored__ on the **{{filter}}** filter."
+        "unIgnoreRl": "The role <@&{{role}}> has been __no longer ignored__ on the **{{filter}}** filter.",
+        "enabled": "The filter **{{filter}}** has been activated succesfully.",
+        "disabled": "The filter **{{filter}}** has been deactivated successfully.",
+        "levelSet": "The level of the anti-spam filter has been set to **{{level}}**.",
+        "enabledAndSet": "The filter **{{filter}}** has been activated successfully with the level **{{level}}**.",
+        "scam": "Anti-Scam"
     },
     "genpassword": {
         "contraseña": "Password",
@@ -574,7 +591,7 @@
         "establecidoIntentos": "The maximum number of verification attempts has been set to **{{intentos}} attempts **.",
         "establecidoMensaje": "The message has been established to ",
         "establecidoMinutos": "Verification minutes have been set to **{{minutos}} minutes**.",
-        "establecidoRol": "The rol has been established to ",
+        "establecidoRol": "The role has been established to <@&{{role}}>.",
         "establecidoTiempo": "The minimum account time for new users have been set to **{{age}}** days.",
         "footerAyuda": "docs.discordsafe.com",
         "guía": "Configuration guide",
@@ -695,5 +712,17 @@
         },
         "cancelDesc": "Cancels the selection and sets the default.",
         "embedAuthor": "Automatic set-up menu"
+    },
+    "delrole": {
+        "reason": "{{reason}}.\nMod: {{modTag}} ({{modID}})",
+        "success": "Role deleted."
+    },
+    "userinfo": {
+        "badges": "▸ Badges",
+        "botInfoDes": "**Prefix:** `{{prefix}}`\n**Servers:** {{guilds}}\n**Owners:** {{owners}}\n**Library:** {{library}}\n**[Website]({{website}})** - **[Invite]({{invite}})** - **[Support]({{support}})**",
+        "bot": "▸ Bot"
+    },
+    "duration": {
+        "done": "The duration has been changed to **{{newDuration}}**."
     }
 }
