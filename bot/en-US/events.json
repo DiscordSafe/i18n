@@ -76,12 +76,13 @@
             "description": "Thank you very much for supporting my development, you contribute so that I can continue to stay stable and update with better features.\n- Developers <3.\n\nNow you just have to link the premium to a server using `/premium`.",
             "title_one": "¡You have obtained premium!",
             "title_other": "¡You have obtained {{count}} premiums!"
-        }
+        },
+        "timeout": "Temporary isolation changed"
     },
     "guildUpdate": {
-        "afkcha": "AFK's channel (Before)",
+        "afkcha": "AFK Channel (Before)",
         "afkchh": "AFK's channel (After)",
-        "afkta": "AFK Time (before)",
+        "afkta": "AFK Time (Before)",
         "afkth": "AFK Time (After)",
         "desca": "Description (Before)",
         "desch": "Description (After)",
@@ -112,7 +113,11 @@
         "logAdmin": "Admin command used:",
         "logAutor": "Author: {{autor}}",
         "logCanal": "Channel:",
-        "palabraBloqueada": "Blocked word."
+        "palabraBloqueada": "Blocked word",
+        "scamDontEnter_one": "🚨 Beware! This domain is malicious, this kind of websites can steal your personal information, password or account.",
+        "scamDontEnter_other": "🚨 Beware! These domains are malicious, these types of websites can steal your personal information, password or account.",
+        "scamBlocked": "Scam blocked",
+        "NoScam": "**[AntiScam]** Malicious links are not allowed."
     },
     "messageDelete": {
         "título": "Deleted message"
@@ -220,5 +225,31 @@
         "topicd": "Topic (After)",
         "privacya": "Privacy (Before)",
         "privacyd": "Privacy (After)"
+    },
+    "guildScheduledEventDelete": {
+        "title": "Scheduled event deleted"
+    },
+    "guildScheduledEventUpdate": {
+        "channelA": "Channel (Before)",
+        "title": "Scheduled event updated",
+        "topicA": "Topic (Before)",
+        "topicD": "Topic (After)",
+        "descriptionA": "Description (Before)",
+        "descriptionD": "Description (After)",
+        "channelD": "Channel (After)",
+        "locationA": "Location (Before)",
+        "locationD": "Location (After)",
+        "startTimeA": "Start time (Before)",
+        "startTimeD": "Start time (After)",
+        "endTimeA": "End time (Before)",
+        "endTimeD": "End time (After)"
+    },
+    "guildScheduledEventCreate": {
+        "title": "Scheduled event created",
+        "creator": "Creator",
+        "location": "Location",
+        "scheduledEnd": "Ending",
+        "eventId": "Event ID: {{eventId}}",
+        "scheduledAt": "Start"
     }
 }
