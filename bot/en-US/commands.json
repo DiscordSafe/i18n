@@ -66,7 +66,8 @@
         "packDesbloqueado": "The pack `{{packName}}` has been unlocked.",
         "errorNoContent": "**Error**, the message does not have content that can be blocked.",
         "errorRepeated_one": "**Error**, the word `{{word}}` is already blocked.",
-        "errorRepeated_other": "**Error**, the words `{{word}}` are already blocked."
+        "errorRepeated_other": "**Error**, the words `{{word}}` are already blocked.",
+        "errorSanitize": "**Error**, the word is invalid."
     },
     "botinfo": {
         "info": "About D-Safe",
@@ -105,11 +106,12 @@
         "total": "Total",
         "warnings_one": "{{count}} punishment",
         "warnings_other": "{{count}} punishments",
-        "fieldd": "{{emojione}} Ascendant (Older first)\n{{emojitwo}} Descendant (Newer first)\n{{emojithree}}\n{{emojicancel}} Cancels the command",
+        "fieldd": "{{emojione}} Ascending (Oldest first)\n{{emojitwo}} Descending (Newest first)\n{{emojithree}} Pending expiring. (e.g., mute with expiration)\n{{emojicancel}} Cancels the command.",
         "sancionado_user_time": "Case: {{case}} Action: {{action}} | User: {{user}}~~~{{reason}} - Moderator: {{mod}} Date: {{date}} Expiration: {{expiration}}",
         "sancionado_channel_time": "Case: {{case}} Action: {{action}} | Channel: {{channel}}~~~{{reason}} - Moderator: {{mod}} Date: {{date}} Expiration: {{expiration}}",
         "sancionado_user": "Case: {{case}} Action: {{action}} | User: {{user}}~~~{{reason}} - Moderator: {{mod}} Date: {{date}}",
-        "sancionado_channel": "Case: {{case}} Action: {{action}} | Channel: {{channel}}~~~{{reason}} - Moderator: {{mod}} Date: {{date}}"
+        "sancionado_channel": "Case: {{case}} Action: {{action}} | Channel: {{channel}}~~~{{reason}} - Moderator: {{mod}} Date: {{date}}",
+        "noCasesUser": "This user has no cases."
     },
     "changelog": {
         "follow": " The channel for the bot updates has been followed.\nNow you will receive following of my updates."
@@ -132,7 +134,8 @@
         "exitoso": "The user {{code}} warning has been removed.",
         "noCódigo": "The code does not exist.",
         "noWarn": "The user has no warnings.",
-        "warnServer": "All warnings on this server have been removed."
+        "warnServer": "All warnings on this server have been removed.",
+        "warnUser": "All {{user}}'s warnings have been removed."
     },
     "commands": {
         "doc1": "{{docEmoji}} ━ Documentation",
@@ -192,7 +195,8 @@
         "disabled": "The filter **{{filter}}** has been deactivated successfully.",
         "levelSet": "The level of the anti-spam filter has been set to **{{level}}**.",
         "enabledAndSet": "The filter **{{filter}}** has been activated successfully with the level **{{level}}**.",
-        "scam": "Anti-Scam"
+        "scam": "Anti-Scam",
+        "fscam": "Delete all messages containing Nitro, Steam or game scam links."
     },
     "genpassword": {
         "contraseña": "Password",
@@ -720,9 +724,18 @@
     "userinfo": {
         "badges": "▸ Badges",
         "botInfoDes": "**Prefix:** `{{prefix}}`\n**Servers:** {{guilds}}\n**Owners:** {{owners}}\n**Library:** {{library}}\n**[Website]({{website}})** - **[Invite]({{invite}})** - **[Support]({{support}})**",
-        "bot": "▸ Bot"
+        "bot": "▸ Bot",
+        "botInfo": "▸ Bot information",
+        "colorRole": "▸ Color role",
+        "errorNoID": "Not an ID.",
+        "creadoEl": "▸ Creation",
+        "errorNoUsuario": "User not found."
     },
     "duration": {
-        "done": "The duration has been changed to **{{newDuration}}**."
+        "done": "The duration has been changed to **{{newDuration}}**.",
+        "noCase": "**Error**, case not found, check that the case ID is correct."
+    },
+    "cooldown": {
+        "done": "The cooldown has been set correctly."
     }
 }
