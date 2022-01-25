@@ -106,7 +106,7 @@
         "total": "Total",
         "warnings_one": "{{count}} punishment",
         "warnings_other": "{{count}} punishments",
-        "fieldd": "{{emojione}} Ascending (Oldest first)\n{{emojitwo}} Descending (Newest first)\n{{emojithree}} Pending expiring. (e.g., mute with expiration)\n{{emojicancel}} Cancels the command.",
+        "fieldd": "{{emojione}} Ascending (Oldest first)\n{{emojitwo}} Descending (Newest first)\n{{emojithree}} Pending expiring. (e.g., mute with expiration)\n{{emojicancel}} Cancels the command",
         "sancionado_user_time": "Case: {{case}} Action: {{action}} | User: {{user}}~~~{{reason}} - Moderator: {{mod}} Date: {{date}} Expiration: {{expiration}}",
         "sancionado_channel_time": "Case: {{case}} Action: {{action}} | Channel: {{channel}}~~~{{reason}} - Moderator: {{mod}} Date: {{date}} Expiration: {{expiration}}",
         "sancionado_user": "Case: {{case}} Action: {{action}} | User: {{user}}~~~{{reason}} - Moderator: {{mod}} Date: {{date}}",
@@ -360,7 +360,7 @@
         "help": {
             "title": "D-Safe Premium",
             "field1": "Benefits",
-            "field1d": "• Advanced IPlogger filter.\n• NSFW images filter.\n• Automatic forceban.\n• Suggestion manager role.\n• Custom color palette.\n• Suggestions-only channel.\n• Cooldown within suggestions.\n• Customized emojis in the reactions.\n• Lower response time.\n• Server boost logs.\n• Special badge.\n• Prioritary support.\n• Exclusive roles and channels.\n• Be part of the Testers program.",
+            "field1d": "• Advanced IPlogger filter.\n• NSFW images filter.\n• Role in charge of suggestions.\n• Suggestion manager role.\n• Custom color palette.\n• Suggestions-only channel.\n• Cooldown within suggestions.\n• Customized emojis in the reactions.\n• Lower response time.\n• Server boost logs.\n• Special badge.\n• Prioritary support.\n• Exclusive roles and channels.\n• Be part of the Testers program.",
             "desc": "Enhance your community with D-Safe Premium and support the development of the bot to bring better updates and features you expect.",
             "image": "https://i.imgur.com/ee7uS79.png"
         },
@@ -729,7 +729,11 @@
         "colorRole": "▸ Color role",
         "errorNoID": "Not an ID.",
         "creadoEl": "▸ Creation",
-        "errorNoUsuario": "User not found."
+        "errorNoUsuario": "User not found.",
+        "hightestRole": "▸ Highest role",
+        "id": "▸ ID",
+        "nada": "None",
+        "nickname": "▸ Nickname"
     },
     "duration": {
         "done": "The duration has been changed to **{{newDuration}}**.",
@@ -737,5 +741,39 @@
     },
     "cooldown": {
         "done": "The cooldown has been set correctly."
+    },
+    "roleinfo": {
+        "tagIntegration": "Integration: <@{{integrationID}}",
+        "tags": "▸ Tags",
+        "errorNotFound": "**Error**, role not found, try again.",
+        "color": "▸ Color",
+        "creation": "▸ Creation",
+        "id": "▸ ID",
+        "mention": "▸ Mention",
+        "mentionable": "▸ Mentionable",
+        "name": "▸ Name",
+        "permissions": "▸ Permissions",
+        "tagBoost": "Booster: {{emoji}}",
+        "tagBot": "Bot: <@{{botID}}>",
+        "position": "▸ Position",
+        "icon": "▸ Icon",
+        "hoist": "▸ Hoisted"
+    },
+    "lock": {
+        "exito": "{{emoji}} **#{{channelName}} was blocked**"
+    },
+    "serverinfo": {
+        "dueño": "▸ Server owner",
+        "afkChannel": "Channel: {{channel}} ",
+        "canales": "▸ Channels",
+        "bans": "▸ Bans",
+        "webhooks": "▸ Webhooks"
+    },
+    "inviteinfo": {
+        "description": "▸ Server description",
+        "uses": "▸ Uses",
+        "channel": "▸ Channel",
+        "code": "▸ Code",
+        "creation": "▸ Creation"
     }
 }
