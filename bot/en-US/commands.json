@@ -755,7 +755,7 @@
         "done": "The cooldown has been set correctly."
     },
     "roleinfo": {
-        "tagIntegration": "Integration: <@{{integrationID}}",
+        "tagIntegration": "Integration: <@{{integrationID}}>",
         "tags": "▸ Tags",
         "errorNotFound": "**Error**, role not found, try again.",
         "color": "▸ Color",
