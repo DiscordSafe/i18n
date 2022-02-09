@@ -42,6 +42,9 @@
         },
         "messageid": {
             "notId": "You must provide a valid ID."
+        },
+        "time": {
+            "notValid": "The time option is invalid, please try again."
         }
     },
     "dm": "**Error, this command cannot be used in direct messages.",
