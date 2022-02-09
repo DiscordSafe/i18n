@@ -25,10 +25,7 @@
         "errorNobanneable": "**Error**, I cannot ban the mentioned user.",
         "errorUser": "**Error**, User not found, please try again.",
         "exito": "{{emoji}} **{{memberTag}} was banned**",
-        "reason": "You have been banned in **{{guild}}**.",
-        "reason_reason": "You have been banned in **{{guild}}** because: **{{reason}}**.",
-        "reason_time": "You have been banned in **{{guild}}** for **{{time}}**.",
-        "reason_reason_time": "You have been banned in **{{guild}}** for **{{time]]** because: **{{reason}}**"
+        "reason": "You have been banned in **{{guild}}** because: **{{reason}}**."
     },
     "blockword": {
         "correcto": "Open the following file to view the list of blocked words.",
@@ -63,11 +60,7 @@
         "unIgnoreCh": "The channel <#{{channel}}> has __no longer been ignored__ sucessfully.",
         "unIgnoreRl": "The role <@&{{role}}> has been __no longer ignored__ sucessfully.",
         "packBloqueado": "The pack `{{packName}}` has been blocked.",
-        "packDesbloqueado": "The pack `{{packName}}` has been unlocked.",
-        "errorNoContent": "**Error**, the message does not have content that can be blocked.",
-        "errorRepeated_one": "**Error**, the word `{{word}}` is already blocked.",
-        "errorRepeated_other": "**Error**, the words `{{word}}` are already blocked.",
-        "errorSanitize": "**Error**, the word is invalid."
+        "packDesbloqueado": "The pack `{{packName}}` has been unlocked."
     },
     "botinfo": {
         "info": "About D-Safe",
@@ -88,9 +81,7 @@
         "desc": "{{reason}}",
         "mod": "Moderator",
         "title": "Information of case #{{case}}",
-        "user": "User",
-        "time": "Duration",
-        "channel": "Channel"
+        "user": "User"
     },
     "cases": {
         "noMention": "**Error**, you have to mention a user.",
@@ -106,12 +97,7 @@
         "total": "Total",
         "warnings_one": "{{count}} punishment",
         "warnings_other": "{{count}} punishments",
-        "fieldd": "{{emojione}} Ascending (Oldest first)\n{{emojitwo}} Descending (Newest first)\n{{emojithree}} Pending expiring. (e.g., mute with expiration)\n{{emojicancel}} Cancels the command",
-        "sancionado_user_time": "Case: {{case}} Action: {{action}} | User: {{user}}~~~{{reason}} - Moderator: {{mod}} Date: {{date}} Expiration: {{expiration}}",
-        "sancionado_channel_time": "Case: {{case}} Action: {{action}} | Channel: {{channel}}~~~{{reason}} - Moderator: {{mod}} Date: {{date}} Expiration: {{expiration}}",
-        "sancionado_user": "Case: {{case}} Action: {{action}} | User: {{user}}~~~{{reason}} - Moderator: {{mod}} Date: {{date}}",
-        "sancionado_channel": "Case: {{case}} Action: {{action}} | Channel: {{channel}}~~~{{reason}} - Moderator: {{mod}} Date: {{date}}",
-        "noCasesUser": "This user has no cases."
+        "fieldd": "{{emojione}} Ascendant (Older first)\n{{emojitwo}} Descendant (Newer first)\n{{emojicancel}} Cancels the command"
     },
     "changelog": {
         "follow": " The channel for the bot updates has been followed.\nNow you will receive following of my updates."
@@ -134,8 +120,7 @@
         "exitoso": "The user {{code}} warning has been removed.",
         "noCódigo": "The code does not exist.",
         "noWarn": "The user has no warnings.",
-        "warnServer": "All warnings on this server have been removed.",
-        "warnUser": "All {{user}}'s warnings have been removed."
+        "warnServer": "All warnings on this server have been removed."
     },
     "commands": {
         "doc1": "{{docEmoji}} ━ Documentation",
@@ -190,13 +175,7 @@
         "palabras": "Words",
         "premiumImágenes": "Your server is not premium.",
         "unIgnoreCh": "The channel <#{{channel}}> has been __no longer ignored__ on the **{{filter}}** filter.",
-        "unIgnoreRl": "The role <@&{{role}}> has been __no longer ignored__ on the **{{filter}}** filter.",
-        "enabled": "The filter **{{filter}}** has been activated succesfully.",
-        "disabled": "The filter **{{filter}}** has been deactivated successfully.",
-        "levelSet": "The level of the anti-spam filter has been set to **{{level}}**.",
-        "enabledAndSet": "The filter **{{filter}}** has been activated successfully with the level **{{level}}**.",
-        "scam": "Anti-Scam",
-        "fscam": "Delete all messages containing Nitro, Steam or game scam links."
+        "unIgnoreRl": "The role <@&{{role}}> has been __no longer ignored__ on the **{{filter}}** filter."
     },
     "genpassword": {
         "contraseña": "Password",
@@ -295,8 +274,7 @@
             "general": "General logs",
             "mod": "Moderation logs",
             "title": "Step by step configuration guide"
-        },
-        "donegeneral": "The logs channel has been set to {{canal}}."
+        }
     },
     "mail": {
         "borrarCorreosLeídos": "Delete mails",
@@ -361,7 +339,7 @@
         "help": {
             "title": "D-Safe Premium",
             "field1": "Benefits",
-            "field1d": "• Advanced IPlogger filter.\n• NSFW images filter.\n• Suggestion manager role.\n• Custom color palette.\n• Suggestions-only channel.\n• Cooldown within suggestions.\n• Customized emojis in the reactions.\n• Lower response time.\n• Server boost logs.\n• Special badge.\n• Prioritary support.\n• Exclusive roles and channels.\n• Be part of the Testers program.",
+            "field1d": "• Advanced IPlogger filter.\n• NSFW images filter.\n• Automatic forceban.\n• Suggestion manager role.\n• Custom color palette.\n• Suggestions-only channel.\n• Cooldown within suggestions.\n• Customized emojis in the reactions.\n• Lower response time.\n• Server boost logs.\n• Special badge.\n• Prioritary support.\n• Exclusive roles and channels.\n• Be part of the Testers program.",
             "desc": "Enhance your community with D-Safe Premium and support the development of the bot to bring better updates and features you expect.",
             "image": "https://i.imgur.com/ee7uS79.png"
         },
@@ -541,13 +519,7 @@
         "statsField": "{{emoji}} Stats",
         "statsQuestion": "Summary **{{resumen}}**\nPositive votes: **{{approved}} `{{approvedPercent}}%`**\nUndecided votes: **{{question}}** `{{questionPercent}}%`\nNegative votes: **{{denied}}** `{{deniedPercent}}%`",
         "approvedFooter": "Approved",
-        "deniedFooter": "Denied",
-        "setChannelUndone_denied": "The denied suggestions channel has been deactivated successfully.",
-        "setChannelDone_approved": "The approved suggestions channel has been successfully set to **<#{{channel}}>**.",
-        "setChannelDone_general": "The suggestions channel has been successfully set to **<#{{channel}}>**.",
-        "setChannelUndone_general": "The suggestions channel has been deactivated successfully.",
-        "setChannelDone_denied": "The denied suggestions channel has been successfully set to **<#{{channel}}>**.",
-        "setChannelUndone_approved": "The approved suggestions channel has been deactivated successfully."
+        "deniedFooter": "Denied"
     },
     "topbots": {
         "error": "**Error**, an error has happened and I cannot fetch the list.",
@@ -600,9 +572,9 @@
         "errorNoCanalEstablecido": "Please first configure the channel again.",
         "errorNoRow": "You can't disable something that hasn't been enabled.",
         "establecidoIntentos": "The maximum number of verification attempts has been set to **{{intentos}} attempts **.",
-        "establecidoMensaje": "The message has been set to `{{msgId}}`",
+        "establecidoMensaje": "The message has been established to ",
         "establecidoMinutos": "Verification minutes have been set to **{{minutos}} minutes**.",
-        "establecidoRol": "The role has been established to <@&{{role}}>.",
+        "establecidoRol": "The rol has been established to ",
         "establecidoTiempo": "The minimum account time for new users have been set to **{{age}}** days.",
         "footerAyuda": "docs.discordsafe.com",
         "guía": "Configuration guide",
@@ -620,9 +592,7 @@
         "noArgsFooter": "To know how to configurate use d.verification help",
         "rolnoverificado": "Not verified role",
         "rolusuario": "User role",
-        "tiempo": "Minimum time of creation",
-        "modeSet": "The mode has been set to **{{mode}}**.",
-        "channelSet": "The channel has been set to <#{{channel}}>."
+        "tiempo": "Minimum time of creation"
     },
     "verifyme": {
         "aprobado": " You have been verified.",
@@ -725,111 +695,5 @@
         },
         "cancelDesc": "Cancels the selection and sets the default.",
         "embedAuthor": "Automatic set-up menu"
-    },
-    "delrole": {
-        "reason": "{{reason}}.\nMod: {{modTag}} ({{modID}})",
-        "success": "Role deleted."
-    },
-    "userinfo": {
-        "badges": "▸ Badges",
-        "botInfoDes": "**Prefix:** `{{prefix}}`\n**Servers:** {{guilds}}\n**Owners:** {{owners}}\n**Library:** {{library}}\n**[Website]({{website}})** - **[Invite]({{invite}})** - **[Support]({{support}})**",
-        "bot": "▸ Bot",
-        "botInfo": "▸ Bot information",
-        "colorRole": "▸ Color role",
-        "errorNoID": "Not an ID.",
-        "creadoEl": "▸ Creation",
-        "errorNoUsuario": "User not found.",
-        "hightestRole": "▸ Highest role",
-        "id": "▸ ID",
-        "nada": "None",
-        "nickname": "▸ Nickname",
-        "accentColor": "▸ Profile color",
-        "joinPosition": "▸ Join position",
-        "roles": "▸ Roles"
-    },
-    "duration": {
-        "done": "The duration has been changed to **{{newDuration}}**.",
-        "noCase": "**Error**, case not found, check that the case ID is correct."
-    },
-    "cooldown": {
-        "done": "The cooldown has been set correctly."
-    },
-    "roleinfo": {
-        "tagIntegration": "Integration: <@{{integrationID}}>",
-        "tags": "▸ Tags",
-        "errorNotFound": "**Error**, role not found, try again.",
-        "color": "▸ Color",
-        "creation": "▸ Creation",
-        "id": "▸ ID",
-        "mention": "▸ Mention",
-        "mentionable": "▸ Mentionable",
-        "name": "▸ Name",
-        "permissions": "▸ Permissions",
-        "tagBoost": "Booster: {{emoji}}",
-        "tagBot": "Bot: <@{{botID}}>",
-        "position": "▸ Position",
-        "icon": "▸ Icon",
-        "hoist": "▸ Hoisted",
-        "embedTitle": "Role information"
-    },
-    "lock": {
-        "exito": "{{emoji}} **#{{channelName}} was blocked**",
-        "locked": "**Error**, channel is already locked, use `/unlock` to unlock it."
-    },
-    "serverinfo": {
-        "dueño": "▸ Server owner",
-        "afkChannel": "Channel: {{channel}} ",
-        "canales": "▸ Channels",
-        "bans": "▸ Bans",
-        "webhooks": "▸ Webhooks",
-        "badgesSafe": "▸ D-Safe Badges",
-        "images": "▸ Images",
-        "2fa": "▸ 2 Factor authentication",
-        "boosts": "▸ Boosts",
-        "TIER_2": "<:boostlvl2:825059664227729438> Level 2",
-        "creadoEl": "▸ Creation",
-        "features": "▸ Features",
-        "región": "▸ Region",
-        "total": "Total:",
-        "nsfw_level": "▸ NSFW level",
-        "limits": "▸ Server limits",
-        "miembros": "▸ Members",
-        "moreEmojis": " and {{size}} more.",
-        "msgMention": "Only @mentions",
-        "afk": "▸ AFK",
-        "TIER_1": "<:boostlvl1:825059663610511417> Level 1",
-        "widget": "▸ Widget",
-        "emojis": "▸ Emojis",
-        "afkMin": "({{timeout}} min)",
-        "specialChannels": "▸ Special channels",
-        "verification": "▸ Verification level",
-        "TIER_3": "<:boostlvl3:825059663627812864> Level 3",
-        "NONE": "Nivel: None :(",
-        "roles": "▸ Roles",
-        "nsfw_levels": {
-            "default": "Default",
-            "explicit": "Explicit",
-            "safe": "Safe",
-            "age_restricted": "Age restricted"
-        }
-    },
-    "inviteinfo": {
-        "description": "▸ Server description",
-        "uses": "▸ Uses",
-        "channel": "▸ Channel",
-        "code": "▸ Code",
-        "creation": "▸ Creation",
-        "errorNotFound": "**Error**, invite not found.",
-        "member": "▸ Members",
-        "expiration": "▸ Expiration",
-        "features": "▸ Server features",
-        "temporal": "▸ Temporal",
-        "url": "▸ URL",
-        "inviter": "▸ Inviter"
-    },
-    "unlock": {
-        "changelog": "{{reason}}.\nMod: {{modTag}} ({{modID}})",
-        "exito": "{{emoji}} **#{{channelName}} was unlocked**",
-        "notLocked": "**Error**, the channel is not blocked."
     }
 }

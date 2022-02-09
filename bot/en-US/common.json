@@ -45,8 +45,7 @@
         "user": "User",
         "warn": "Member warned",
         "unlock": "Channel unlocked",
-        "lock": "Channel blocked",
-        "until": "Until"
+        "lock": "Channel blocked"
     },
     "no": "No",
     "notFound": "It has not been found.",
@@ -92,6 +91,7 @@
         "GROUP_DM": "group",
         "CATEGORY": "category",
         "GUILD_NEWS": "news",
+        "GUILD_STORE": "store",
         "GUILD_NEWS_THREAD": "news thread",
         "GUILD_PUBLIC_THREAD": "public thread",
         "GUILD_PRIVATE_THREAD": "private thread",
@@ -99,6 +99,5 @@
         "RULES": "rules",
         "UNKNOWN": "unknown"
     },
-    "noreason": "No reason",
-    "none": "None"
+    "noreason": "No reason"
 }

@@ -467,7 +467,7 @@
     "position": "▸ Posición",
     "tagBoost": "Booster: {{emoji}}",
     "tagBot": "Bot: <@{{botID}}>",
-    "tagIntegration": "Integración: <@{{integrationID}}>",
+    "tagIntegration": "Integración: <@{{integrationID}}",
     "tags": "▸ Etiquetas",
     "icon": "▸ Icono"
   },
