@@ -1,9 +1,7 @@
 {
     "argumentos": "This command needs arguments, **use:** {{prefijo}}{{commandName}} ",
     "guild": "You cannot use this command outside a server.",
-    "palabra": "That word is blocked.",
     "idioma": "The server language is English, to change it use ",
-    "nsfw": "This command is only for NSFW channels.",
     "bloqueado": "You are blocked haha.",
     "servidorOnly": "You can't use this command.",
     "botPerms_one": "I have not enough permissions to execute this command, I need the **{{perm}}** permission.",
