@@ -101,11 +101,8 @@
         "vanityh": "URL Personalitzada (Després)"
     },
     "message": {
-        "NoFlood": "**[AntiFlood]** No envies tants missatges.",
         "NoInvitaciones": "No es permeten invitacions a altres servidors de discord.",
-        "NoLoggersAvanzado": "**[Anti Iplogger Avançat]** No es permet enviar enllaços iploggers o maliciosos.",
         "NoLoggersBásico": "**[Anti Iplogger Bàsic]** No es permet enviar enllaços iploggers o maliciosos.",
-        "NoNSFW": "**[Filtre Imatges Premium]** No es permet contingut NSFW fora de canals NSFW.",
         "NoSpam": "**[AntiSpam]** El seu missatge ha estat classificat com spam.",
         "infoComandos": "Per a veure els meus comandos usa: {{prefix}}commands",
         "infoPrefix": "Hola 👋, \nEl meu prefix en aquest servidor és: \n`{{prefix}}`",
