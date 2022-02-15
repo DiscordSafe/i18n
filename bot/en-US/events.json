@@ -102,18 +102,12 @@
         "vanityh": "Vanity URL (After)"
     },
     "message": {
-        "NoInvitaciones": "Invites to other servers are not allowed.",
         "NoLoggersBásico": "**[Basic Anti Iplogger]** Is not allowed to send iplogger or malicious links.",
-        "NoSpam": "**[AntiSpam]** Your message has been classified as spam.",
         "infoComandos": "To see my commands use: {{prefix}}commands",
         "infoPrefix": "Hello 👋,\nMy prefix on this server is:\n`{{prefix}}`",
-        "logAdmin": "Admin command used:",
         "logAutor": "Author: {{autor}}",
-        "logCanal": "Channel:",
         "palabraBloqueada": "Blocked word",
-        "scamDontEnter_one": "🚨 Beware! This domain is malicious, this kind of websites can steal your personal information, password or account.",
-        "scamDontEnter_other": "🚨 Beware! These domains are malicious, these types of websites can steal your personal information, password or account.",
-        "scamBlocked": "Scam blocked"
+        "scamDontEnter_other": "🚨 Beware! These domains are malicious, these types of websites can steal your personal information, password or account."
     },
     "messageDelete": {
         "título": "Deleted message"

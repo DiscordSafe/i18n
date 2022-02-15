@@ -101,14 +101,10 @@
         "vanityh": "URL Personalitzada (Després)"
     },
     "message": {
-        "NoInvitaciones": "No es permeten invitacions a altres servidors de discord.",
         "NoLoggersBásico": "**[Anti Iplogger Bàsic]** No es permet enviar enllaços iploggers o maliciosos.",
-        "NoSpam": "**[AntiSpam]** El seu missatge ha estat classificat com spam.",
         "infoComandos": "Per a veure els meus comandos usa: {{prefix}}commands",
         "infoPrefix": "Hola 👋, \nEl meu prefix en aquest servidor és: \n`{{prefix}}`",
-        "logAdmin": "Comando d'administrador executat:",
         "logCanal": "Canal:",
-        "palabraBloqueada": "Paraula bloquejada.",
         "logAutor": "Autor: {{autor}}"
     },
     "messageDelete": {

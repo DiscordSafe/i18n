@@ -96,14 +96,10 @@
         "vanityh": ""
     },
     "message": {
-        "NoInvitaciones": "",
         "NoLoggersBásico": "",
-        "NoSpam": "",
         "infoComandos": "",
         "infoPrefix": "",
-        "logAdmin": "",
         "logAutor": "",
-        "logCanal": "",
         "palabraBloqueada": ""
     },
     "messageDelete": {
