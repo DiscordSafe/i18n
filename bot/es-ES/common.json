@@ -45,7 +45,8 @@
   "page": "Página",
   "errorCompare": "**Error**, no puedes usar este comando con un miembro con más poderes que tú.",
   "AutoMod": {
-    "actionReason": "🚨 Acción tomada por el Automod\n{{infractions}} infracciones en {{time}}.",
+    "actionReason_one": "🚨 Acción tomada por el Automod\n{{infractions}} infracción en {{time}} segundos.",
+    "actionReason_other": "🚨 Acción tomada por el Automod\n{{infractions}} infracciones en {{time}} segundos.",
     "warn": {
       "spam": "**[AntiSpam]** Su mensaje ha sido clasificado como spam.",
       "invites": "No se permiten invitaciones a otros servidores de discord.",
@@ -98,7 +99,8 @@
     "case": "Caso",
     "lock": "Canal bloqueado",
     "unlock": "Canal desbloqueado",
-    "filters": "Filtros infringidos"
+    "filters": "Filtros infringidos",
+    "dangerousLinkWarning": "🚨 ¡Cuidado! El mensaje puede contener enlaces maliciosos, este tipo de sitios web pueden robarte tu información personal, cuenta o contraseñas."
   },
   "languages": {
     "ca": {

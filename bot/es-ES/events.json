@@ -102,15 +102,8 @@
     "vanityh": "URL Personalizada (Después)"
   },
   "message": {
-    "scamBlocked": "Scam bloqueado",
-    "scamDontEnter_one": "🚨 ¡Cuidado! Este dominio es malicioso, este tipo de sitios web pueden robarte información personal, contraseña o cuenta.",
-    "scamDontEnter_other": "🚨 ¡Cuidado! Estos dominios son maliciosos, este tipo de sitios web pueden robarte información personal, contraseña o cuenta.",
     "infoComandos": "Para ver mis comandos usa: {{prefix}}commands",
-    "infoPrefix": "Hola 👋, \nMi prefijo en este servidor es: \n`{{prefix}}`",
-    "logAdmin": "Comando de administrador ejecutado:",
-    "logAutor": "Autor: {{autor}}",
-    "logCanal": "Canal:",
-    "palabraBloqueada": "Palabra bloqueada"
+    "infoPrefix": "Hola 👋, \nMi prefijo en este servidor es: \n`{{prefix}}`"
   },
   "messageDelete": {
     "título": "Mensaje eliminado"
