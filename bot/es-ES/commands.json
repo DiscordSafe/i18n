@@ -353,6 +353,11 @@
       "title": "Guía de configuración paso a paso"
     }
   },
+  "punishment": {
+    "error": "**Error**, ha ocurrido un error, intente de nuevo más tarde.",
+    "added": "El castigo ha sido añadido correctamente.",
+    "empty": "No hay ningún castigo en el servidor, añada uno usando `/punishment add`."
+  },
   "mail": {
     "borrarCorreosLeídos": "Borrar correos",
     "buzónDeCorreos": "Buzón de correos",

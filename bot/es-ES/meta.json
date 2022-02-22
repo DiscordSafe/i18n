@@ -489,6 +489,50 @@
       }
     }
   },
+  "punishment": {
+    "description": "Configura los castigos del AutoMod",
+    "options": {
+      "add": {
+        "description": "Añade un castigo",
+        "options": {
+          "filter": {
+            "description": "El filtro donde se aplicará el castigo"
+          },
+          "action": {
+            "description": "La acción a tomar"
+          },
+          "max-infractions": {
+            "description": "El número máximo de infracciones que debe tener para que se le aplique el castigo"
+          },
+          "time": {
+            "description": "El tiempo entre el que debe infringir el filtro"
+          },
+          "action-time": {
+            "description": "Duración del castigo (en caso de ser ban o mute)"
+          }
+        }
+      },
+      "remove": {
+        "description": "Elimina un castigo",
+        "options": {
+          "id": {
+            "description": "El identificador del castigo, si no se indica podrás seleccionarlo de una lista"
+          }
+        }
+      },
+      "list": {
+        "description": "Muestra una lista de los castigos",
+        "options": {
+          "filter": {
+            "description": "Filtrar por filtro"
+          },
+          "action": {
+            "description": "Filtrar por acción a tomar"
+          }
+        }
+      }
+    }
+  },
   "mail": {
     "description": "Muestra el buzón de correos.",
     "example": "",
