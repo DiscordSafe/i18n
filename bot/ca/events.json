@@ -101,10 +101,8 @@
         "vanityh": "URL Personalitzada (Després)"
     },
     "message": {
-        "NoLoggersBásico": "**[Anti Iplogger Bàsic]** No es permet enviar enllaços iploggers o maliciosos.",
         "infoComandos": "Per a veure els meus comandos usa: {{prefix}}commands",
         "infoPrefix": "Hola 👋, \nEl meu prefix en aquest servidor és: \n`{{prefix}}`",
-        "logCanal": "Canal:",
         "logAutor": "Autor: {{autor}}"
     },
     "messageDelete": {

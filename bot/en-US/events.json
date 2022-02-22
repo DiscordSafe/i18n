@@ -102,12 +102,9 @@
         "vanityh": "Vanity URL (After)"
     },
     "message": {
-        "NoLoggersBásico": "**[Basic Anti Iplogger]** Is not allowed to send iplogger or malicious links.",
         "infoComandos": "To see my commands use: {{prefix}}commands",
         "infoPrefix": "Hello 👋,\nMy prefix on this server is:\n`{{prefix}}`",
-        "logAutor": "Author: {{autor}}",
-        "palabraBloqueada": "Blocked word",
-        "scamDontEnter_other": "🚨 Beware! These domains are malicious, these types of websites can steal your personal information, password or account."
+        "palabraBloqueada": "Blocked word"
     },
     "messageDelete": {
         "título": "Deleted message"
