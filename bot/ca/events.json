@@ -102,8 +102,7 @@
     },
     "message": {
         "infoComandos": "Per a veure els meus comandos usa: {{prefix}}commands",
-        "infoPrefix": "Hola 👋, \nEl meu prefix en aquest servidor és: \n`{{prefix}}`",
-        "logAutor": "Autor: {{autor}}"
+        "infoPrefix": "Hola 👋, \nEl meu prefix en aquest servidor és: \n`{{prefix}}`"
     },
     "messageDelete": {
         "título": "Missatge eliminat"

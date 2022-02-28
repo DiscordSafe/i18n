@@ -97,8 +97,7 @@
     },
     "message": {
         "infoComandos": "",
-        "infoPrefix": "",
-        "palabraBloqueada": ""
+        "infoPrefix": ""
     },
     "messageDelete": {
         "título": ""

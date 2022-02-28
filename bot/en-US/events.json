@@ -103,8 +103,7 @@
     },
     "message": {
         "infoComandos": "To see my commands use: {{prefix}}commands",
-        "infoPrefix": "Hello 👋,\nMy prefix on this server is:\n`{{prefix}}`",
-        "palabraBloqueada": "Blocked word"
+        "infoPrefix": "Hello 👋,\nMy prefix on this server is:\n`{{prefix}}`"
     },
     "messageDelete": {
         "título": "Deleted message"
