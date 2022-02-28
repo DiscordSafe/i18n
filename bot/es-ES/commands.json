@@ -355,8 +355,20 @@
   },
   "punishment": {
     "error": "**Error**, ha ocurrido un error, intente de nuevo más tarde.",
+    "maxPunishments": "**Error**, ha superado el máximo de castigos que puede establecer, si desea añadir más elimine uno existente con `/punishment remove` o desbloquee el [premium](https://discordsafe.com/premium).",
     "added": "El castigo ha sido añadido correctamente.",
-    "empty": "No hay ningún castigo en el servidor, añada uno usando `/punishment add`."
+    "empty": "No hay ningún castigo en el servidor, añada uno usando `/punishment add`.",
+    "listTitle": "Lista de castigos",
+    "listValue_one": "Cuando se cometa **{{infractions}}** infracción en **{{time}}** en **{{filter}}** dar **{{action}}**.",
+    "listValue_other": "Cuando se cometan **{{infractions}}** infracciones en **{{time}}** en **{{filter}}** dar **{{action}}**.",
+    "listValue_one_duration": "Cuando se cometa **{{infractions}}** infracción en **{{time}}** en **{{filter}}** dar **{{action}}** durante **{{duration}}**.",
+    "listValue_other_duration": "Cuando se cometan **{{infractions}}** infracciones en **{{time}}** en **{{filter}}** dar **{{action}}** durante **{{duration}}**.",
+    "remove": {
+      "errorId": "No existe un castigo con ese identificador.",
+      "select": "Seleccione uno o varios castigos",
+      "done_one": "Castigo eliminado correctamente.",
+      "done_other": "Castigos eliminados correctamente."
+    }
   },
   "mail": {
     "borrarCorreosLeídos": "Borrar correos",
@@ -578,7 +590,9 @@
   "setup": {
     "cancelDesc": "Cancela la selección y establece el por defecto.",
     "embedAuthor": "Menú de configuración automática",
+    "select": "Seleccione una opción",
     "moderation": {
+      "name": "Moderación",
       "defaultAuthor": "Configuración de la moderación",
       "notifyUsers": "Notificar al sancionado al sancionarle",
       "notifyUsers_footer": "Esta opción se puede sobreescribir añadiendo `--md` al final del comando.",
@@ -590,6 +604,7 @@
       "doneDesc": "Has completado la configuración de la **moderación** con éxito."
     },
     "verification": {
+      "name": "Verificación",
       "defaultAuthor": "Configuración de la verificación",
       "modeTitle": "Modo de verificación",
       "channelTitle": "Canal de verificación",
@@ -613,9 +628,10 @@
       "ageDesc": "**Establezca el mínimo de días que deben tener las cuentas cuando se unen a su servidor, así evita que entren multicuentas o self-bots de spam.**\nSeleccione una opción en el menú de selección o mande un número, presione {{cancelEmoji}} para cancelarlo y dejarlo por defecto.",
       "agePlaceholder": "Seleccione un número",
       "doneTitle": "Configuración completada",
-      "doneDesc": "Has completado la configuración de la **verificación** con éxito.\nPuedes usar `{{prefix}}verification` para ver la configuración actual."
+      "doneDesc": "Has completado la configuración de la **verificación** con éxito.\nPuedes usar `/verification showconfig` para ver la configuración actual."
     },
     "filters": {
+      "name": "Filtros",
       "defaultAuthor": "Configuración de los filtros",
       "inviteFilter": "Filtro de invitaciones",
       "inviteFilter_desc": "Bloquea las invitaciones a otros servidores de Discord.",
@@ -631,7 +647,16 @@
       "doneDesc": "Has completado la configuración de los **filtros** con éxito.",
       "level1": "Nivel 1",
       "level2": "Nivel 2",
-      "level3": "Nivel 3"
+      "level3": "Nivel 3",
+      "scamFilter": "Filtro anti-scam",
+      "scamFilter_desc": "Bloquea mensajes con enlaces engañosos que se hacen pasar por Discord u otras empresas."
+    },
+    "automod": {
+      "name": "Auto Moderación",
+      "defaultAuthor": "Configuración del AutoMod",
+      "desc": "Seleccione los castigos que desea establecer, los que ya están seleccionados son los recomendados, deje los que ya están seleccionados si no sabe.",
+      "doneDesc": "Has completado la configuración del **AutoMod** con éxito.",
+      "placeholder": "Seleccione los castigos, por defecto los recomendados"
     }
   },
   "softban": {

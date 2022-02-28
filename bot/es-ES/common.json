@@ -73,6 +73,26 @@
     "WarnMessage": "{{emojiWarn}} **[Anti-Spam]** Por favor, no envie tantos mensajes.",
     "MuteMessage": "{{emojiMute}} **[Anti-Spam]** Has sido muteado por enviar tantos mensajes."
   },
+  "punishment": {
+    "filterTypes": {
+      "all": "Todos los filtros",
+      "spam": "Spam",
+      "invites": "Invitaciones",
+      "iploggers": "IPloggers",
+      "images": "Imágenes",
+      "blockword": "Palabras bloqueadas",
+      "scam": "Scam"
+    },
+    "actionTypes": {
+      "delete": "Borrar",
+      "delete_and_warn": "Borrar y advertir",
+      "warn": "Advertencia",
+      "kick": "Expulsión",
+      "mute": "Mute",
+      "softban": "Baneo y desbaneo (softban)",
+      "ban": "Baneo"
+    }
+  },
   "modEmbed": {
     "mute": "Miembro muteado",
     "unmute": "Miembro desmuteado",
