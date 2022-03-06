@@ -52,7 +52,9 @@
     "expulsado": "Has sido expulsado del servidor **{{server}}** porque su cuenta no supera el mínimo de **{{age}}** días.",
     "expulsadoRazón": "Mínimo de días de la creación de la cuenta.",
     "kick": "Verificación no completada.",
-    "nuevoUsuario": "Nuevo usuario"
+    "nuevoUsuario": "Nuevo usuario",
+    "noAvatarKick": "Has sido expulsado del servidor **{{server}}** porque lleva el avatar por defecto, cambielo e intente de nuevo.",
+    "noAvatarReason": "Avatar por defecto."
   },
   "guildMemberRemove": {
     "badges": "Insignias",
