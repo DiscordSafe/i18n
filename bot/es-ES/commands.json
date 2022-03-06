@@ -355,6 +355,7 @@
   },
   "punishment": {
     "error": "**Error**, ha ocurrido un error, intente de nuevo más tarde.",
+    "errorDuplicated": "**Error**, ese castigo ya está añadido.",
     "maxPunishments": "**Error**, ha superado el máximo de castigos que puede establecer, si desea añadir más elimine uno existente con `/punishment remove` o desbloquee el [premium](https://discordsafe.com/premium).",
     "added": "El castigo ha sido añadido correctamente.",
     "empty": "No hay ningún castigo en el servidor, añada uno usando `/punishment add`.",
