@@ -100,5 +100,9 @@
         "UNKNOWN": "unknown"
     },
     "noreason": "No reason",
-    "none": "None"
+    "none": "None",
+    "AutoMod": {
+        "logContent": "# ID: {{message.id}}\n# Date: {{date}} ({{message.createdTimestamp}})\n# Filtros infringidos: {{filters}}\n{{message.content}}"
+    },
+    "total": "Total"
 }
