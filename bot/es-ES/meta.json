@@ -507,7 +507,7 @@
           "time": {
             "description": "El tiempo entre el que debe infringir el filtro"
           },
-          "action-time": {
+          "duration": {
             "description": "Duración del castigo (en caso de ser ban o mute)"
           }
         }
