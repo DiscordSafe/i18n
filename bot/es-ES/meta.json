@@ -124,6 +124,26 @@
             }
           }
         }
+      },
+      "whitelist": {
+        "options": {
+          "add": {
+            "description": "Agrega una palabra a la lista blanca",
+            "options": {
+              "word": {
+                "description": "La palabra a agregar"
+              }
+            }
+          },
+          "remove": {
+            "description": "Retira una palabra de la lista blanca",
+            "options": {
+              "word": {
+                "description": "La palabra a retirar"
+              }
+            }
+          }
+        }
       }
     }
   },

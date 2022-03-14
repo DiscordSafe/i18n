@@ -67,7 +67,15 @@
     "palabrasReseteadasExito": "Se han desbloqueado todas las palabras con éxito.",
     "servidor": "Palabras bloqueadas en el servidor {{servidor}}",
     "unIgnoreCh": "El canal <#{{channel}}> ha __dejado de ser ignorado__ exitosamente.",
-    "unIgnoreRl": "El rol <@&{{role}}> ha __dejado de ser ignorado__ exitosamente."
+    "unIgnoreRl": "El rol <@&{{role}}> ha __dejado de ser ignorado__ exitosamente.",
+    "whitelist": {
+      "errorExactWord": "**Error**, no puede agregar a la lista blanca una palabra exacta bloqueada. Debe ser una palabra que contenga una bloqueada, por ejemplo quieres bloquear `nig` pero permitir `nigeria`.",
+      "errorIsNotIncludedInABlockedWord": "**Error**, debe agregar una palabra que contenga una bloqueada, por ejemplo quieres bloquear `nig` pero permitir `nigeria`.",
+      "errorAlreadyWhitelisted": "**Error**, esa palabra ya está agregada en la lista blanca.",
+      "added": "Palabra agregada a la lista blanca correctamente.",
+      "errorNotWhitelisted": "**Error**, esa palabra no está en la lista blanca.",
+      "removed": "Palabra retirada de la lista blanca correctamente."
+    }
   },
   "botinfo": {
     "info": "Información de {{botName}}",
