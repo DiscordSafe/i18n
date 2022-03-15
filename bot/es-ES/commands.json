@@ -74,7 +74,9 @@
       "errorAlreadyWhitelisted": "**Error**, esa palabra ya está agregada en la lista blanca.",
       "added": "Palabra agregada a la lista blanca correctamente.",
       "errorNotWhitelisted": "**Error**, esa palabra no está en la lista blanca.",
-      "removed": "Palabra retirada de la lista blanca correctamente."
+      "removed": "Palabra retirada de la lista blanca correctamente.",
+      "errorWhitelistEmpty": "**Error**, la lista blanca está vacía. Agregue una palabra usando `/blockword whitelist add`.",
+      "listTitle": "Palabras en la lista blanca de {{server}}"
     }
   },
   "botinfo": {

@@ -142,6 +142,9 @@
                 "description": "La palabra a retirar"
               }
             }
+          },
+          "list": {
+            "description": "Muestra la lista blanca de palabras"
           }
         }
       }
