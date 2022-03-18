@@ -1,6 +1,6 @@
 {
   "alarm": {
-    "description": "Configura la alarma en el servidor y prohibe la entrada a nuevos usuarios.",
+    "description": "Configura la alarma en el servidor y prohíbe la entrada a nuevos usuarios.",
     "example": "",
     "usage": ""
   },
@@ -408,6 +408,32 @@
             }
           }
         }
+      },
+      "setup": {
+        "description": "Configura los filtros mediante selectores"
+      },
+      "links": {
+        "options": {
+          "add": {
+            "description": "Bloquea un enlace",
+            "options": {
+              "link": {
+                "description": "El enlace a bloquear"
+              }
+            }
+          },
+          "remove": {
+            "description": "Desbloquea un enlace",
+            "options": {
+              "link": {
+                "description": "El enlace a desbloquear"
+              }
+            }
+          },
+          "list": {
+            "description": "Muestra la lista de enlaces bloqueados"
+          }
+        }
       }
     }
   },
@@ -594,7 +620,7 @@
   },
   "reason": {
     "description": "Establece la razón de un caso de moderación.",
-    "example": "54 Roptura de la regla 16: No se permite spam en el servidor.",
+    "example": "54 Ruptura de la regla 16: No se permite spam en el servidor.",
     "usage": "[ID Caso] [Razón]",
     "options": {
       "caseid": {
@@ -679,7 +705,7 @@
     "usage": "<Descripción de la sugerencia>",
     "options": {
       "description": {
-        "description": "Descrición de la sugerencia"
+        "description": "Descripción de la sugerencia"
       }
     }
   },
@@ -809,10 +835,10 @@
         }
       },
       "cooldown": {
-        "description": "[Premium] Establece un cooldown customizado para enviar sugerencias",
+        "description": "[Premium] Establece un cooldown personalizado para enviar sugerencias",
         "options": {
           "set": {
-            "description": "Establece el cooldown customizado",
+            "description": "Establece el cooldown personalizado",
             "options": {
               "number": {
                 "description": "Número entre 1 y 60"
@@ -820,12 +846,12 @@
             }
           },
           "disable": {
-            "description": "Desactiva el cooldown customizado"
+            "description": "Desactiva el cooldown personalizado"
           }
         }
       },
       "customemojis": {
-        "description": "[Premium] Customiza los emojis de las reacciones",
+        "description": "[Premium] Personaliza los emojis de las reacciones",
         "options": {
           "set": {
             "description": "Establece los emojis",
@@ -968,7 +994,7 @@
         "description": "[Modo Reaction] Establece el mensaje donde reaccionarán los nuevos usuarios",
         "options": {
           "messageid": {
-            "description": "La ID del mensaje a esteblecer"
+            "description": "La ID del mensaje a establecer"
           }
         }
       },
@@ -981,10 +1007,10 @@
         }
       },
       "setuser": {
-        "description": "Estalbece el rol de usuario, que recibirán al verificarse"
+        "description": "Establece el rol de usuario, que recibirán al verificarse"
       },
       "showconfig": {
-        "description": "Muestra la configración actual de la verificación"
+        "description": "Muestra la configuración actual de la verificación"
       },
       "settime": {
         "description": "[Modo Captcha] Establece el tiempo máximo para verificarse",

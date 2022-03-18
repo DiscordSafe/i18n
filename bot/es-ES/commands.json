@@ -185,44 +185,54 @@
     "noEncontrado": "**Error**, no se ha encontrado el emoji."
   },
   "filter": {
-    "enabled": "Se ha activado correctamente el filtro **{{filter}}**.",
-    "disabled": "Se ha desactivado correctamente el filtro **{{filter}}**.",
+    "setup": {
+      "SPAM": {
+        "name": "Spam",
+        "description": "Borra mensajes con exceso de mayúsculas y palabras repetidas."
+      },
+      "IMAGES": {
+        "name": "Imágenes",
+        "description": "Borra imágenes con contenido explícito fuera de canales restringidos."
+      },
+      "NOAVATAR": {
+        "name": "No avatar",
+        "description": "Expulsa a los nuevos usuarios que no tengan avatar."
+      },
+      "INVITES": {
+        "name": "Invitaciones",
+        "description": "Borra invitaciones de otros servidores de Discord."
+      },
+      "IPLOGGERS": {
+        "name": "IPloggers",
+        "description": "Borra enlaces maliciosos que recopilan direcciones IP de usuarios."
+      },
+      "SCAM": {
+        "name": "Estafas",
+        "description": "Borra enlaces fraudulentos que suplantan a Discord para robar cuentas e información."
+      }
+    },
     "levelSet": "El nivel del filtro anti-spam ha sido establecido a **{{level}}**.",
     "enabledAndSet": "Se ha activado correctamente el filtro **{{filter}}** con el nivel **{{level}}**.",
-    "ayudaAutor": "Panel de ayuda sobre filtros {{server}}",
-    "ayudaDes": "Los filtros permiten proteger su servidor para **evitar que se mande contenido indeseado**.",
-    "comandosBlockedWord": "• Bloquea palabras: `{{prefix}}blockword word add`\n• Desbloquea palabras: `{{prefix}}blockword word remove`\n• Ignorar un canal o rol: `{{prefix}}filter ignore`\n• [Más información](https://docs.discordsafe.com/docs/config/blockedwords).",
-    "comandosDefault": "• Activar/desactivar: `{{prefix}}{{commandName}} {{filter}} toggle`.\n• Ignorar canales/roles: `{{prefix}}{{commandName}} ignore`.",
-    "comandosField": "Comandos",
-    "doc1": "Guía de configuración paso a paso",
-    "doc2": "📚 ━ Documentación",
-    "doc3": "Accede a una **guía de configuración de los filtros** en la [documentación](https://docs.discordsafe.com/docs/config/filters).",
-    "fimágenes": "**Este filtro es premium**, más información `{{prefix}} premium`.\nAnaliza las imágenes enviadas fuera de los canales NSFW y las borra si detecta que no es válida para todos los públicos y contiene contenido explícito.",
-    "finvitaciones": "Borra las invitaciones a servidores de Discord enviadas por miembros sin permisos.",
-    "fiploggers": "Borra los enlaces que contengan un Iploggers, para mejorar la seguridad de su servidor.\n\n{{premium}} **Obtén el filtro avanzado** que bloquea __+800 iploggers__, más información `{{prefix}}premium`.",
-    "fmalicioso": "Analiza los mensajes y enlaces y si detecta que es spam lo borrará.",
-    "fpalabras": "Bloquea palabras en el servidor para prohibir a los usuarios usarlas.",
-    "imágenes": "Imágenes",
-    "invitaciones": "Invitaciones",
-    "iploggers": "Anti-Iploggers",
-    "levelAuthor": "Configuración del nivel de anti-spam",
-    "levelDes": "Establezca el nivel del **filtro anti-spam** en su servidor con `{{prefix}}{{commandName}} anti-spam set-level`",
-    "levelField": "Niveles",
-    "levelLevels": "Puedes ajustar el nivel del filtro con `{{prefix}}{{commandName}} anti-spam set-level`.\n{{emoji1}} **Nivel 1**, prohíbe un mensaje con muchas mayúsculas o spam.\n{{emoji2}} **Nivel 2**, prohíbe los mensajes duplicados, mayúsculas y spam.\n{{emoji3}} **Nivel 3**, prohíbe todos los mensajes duplicados, mayúsculas, copypastas y spam.",
-    "malicioso": "Anti-Spam",
-    "noArgsAutor": "Configuración de los filtros en {{server}}",
-    "noArgsDes": "Los filtros permiten proteger tu servidor para **evitar que se mande contenido malicioso** y que tus canales sean un sitio limpio.\n**Para saber como configurarlo use:** `{{prefix}}filter help`",
-    "noArgsFooter": "Para configurarlo use {{prefix}}{{commandName}} help",
-    "palabras": "Palabras",
-    "scam": "Anti-Scam",
-    "fscam": "Borra todos los mensajes que contengan enlaces de estafas de Nitro, Steam o juegos.",
-    "noAvatar": "No Avatar",
-    "fnoAvatar": "Expulsa a los nuevos usuarios que no tengan avatar para evitar usuarios recién creados y potenciales usuarios automatizados maliciosos.",
-    "premiumImágenes": "Su servidor no es premium.",
+    "errorPremium": "**Error**, el filtro de imágenes es premium, no puede seleccionarlo. [Desbloquea D-Safe Premium y consigue un montón de ventajas](https://discordsafe.com/premium).",
     "ignoreCh": "El canal <#{{channel}}> ha sido __ignorado__ del filtro **{{filter}}**.",
     "ignoreRl": "El rol <@&{{role}}> ha sido __ignorado__ del **{{filter}}**.",
     "unIgnoreCh": "El canal <#{{channel}}> ha __dejado de ser ignorado__ en el filtro **{{filter}}**.",
-    "unIgnoreRl": "El rol <@&{{role}}> ha __dejado de ser ignorado__ en el filtro **{{filter}}**."
+    "unIgnoreRl": "El rol <@&{{role}}> ha __dejado de ser ignorado__ en el filtro **{{filter}}**.",
+    "links": {
+     "errorNoURL": "**Error**, no es un enlace válido.",
+      "add": {
+        "errorAlreadyBlocked": "**Error**, ese enlace ya está bloqueado",
+        "done": "Enlace bloqueado correctamente."
+      },
+      "remove": {
+        "errorNotBlocked": "**Error**, el enlace proporcionado no está bloqueado.",
+        "done": "Enlace desbloqueado correctamente."
+      },
+      "list": {
+        "title": "Enlaces bloqueados en {{server}}",
+        "errorEmpty": "**Error**, no hay ningún enlace bloqueado. Agregue uno con `/filter links add`."
+      }
+    }
   },
   "genpassword": {
     "contraseña": "Contraseña",
@@ -642,27 +652,6 @@
       "agePlaceholder": "Seleccione un número",
       "doneTitle": "Configuración completada",
       "doneDesc": "Has completado la configuración de la **verificación** con éxito.\nPuedes usar `/verification showconfig` para ver la configuración actual."
-    },
-    "filters": {
-      "name": "Filtros",
-      "defaultAuthor": "Configuración de los filtros",
-      "inviteFilter": "Filtro de invitaciones",
-      "inviteFilter_desc": "Bloquea las invitaciones a otros servidores de Discord.",
-      "iploggersFilter": "Filtro anti-iploggers",
-      "iploggersFilter_desc": "Borra los enlaces que contengan un iplogger, los iploggers son sitios webs que rastrean la información del usuario.",
-      "spamFilter": "Filtro anti-spam",
-      "spamFilter_desc": "Bloquea mensajes con muchas mayúsculas, palabras duplicadas y copypastas.",
-      "spamLevel": "Niveles del filtro anti-spam",
-      "spamLevel_desc": "{{emoji1}} **Nivel 1**, prohíbe un mensaje con muchas mayúsculas o spam.\n{{emoji2}} **Nivel 2**, prohíbe los mensajes duplicados, mayúsculas y spam.\n{{emoji3}} **Nivel 3**, prohíbe todos los mensajes duplicados, mayúsculas, copypastas y spam.",
-      "imagesFilter": "Filtro de imágenes NSFW",
-      "imagesFilter_desc": "Bloquea las imágenes detectadas como explícitas fuera de canales NSFW.",
-      "doneTitle": "Configuración completada",
-      "doneDesc": "Has completado la configuración de los **filtros** con éxito.",
-      "level1": "Nivel 1",
-      "level2": "Nivel 2",
-      "level3": "Nivel 3",
-      "scamFilter": "Filtro anti-scam",
-      "scamFilter_desc": "Bloquea mensajes con enlaces engañosos que se hacen pasar por Discord u otras empresas."
     },
     "automod": {
       "name": "Auto Moderación",
