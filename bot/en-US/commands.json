@@ -161,26 +161,18 @@
         "reason": "You have been deafened in **{{guild}}** for: **{{reason}}**."
     },
     "filter": {
-        "ayudaDes": "Filters allow you to protect your server to **prevent malicious content** and keep your channels clean.\n\n**Enable:** `{{prefix}}{{commandName}} [filter] enable`.\n**Disable:** `{{prefix}}{{commandName}} [filter] disable`.\n**Ignore:** `{{prefix}}{{commandName}} [filter] ignore [#Channel/@Role]`.",
         "comandosDefault": "• Enable: `{{prefix}}{{commandName}} {{filter}} enable`.\n• Disable: `{{prefix}}{{commandName}} {{filter}} disable`.\n• Ignore channels/roles: `{{prefix}}{{commandName}} {{filter}} ignore [#Channel/@Role]`.",
-        "doc1": "Step by step configuration guide",
         "doc3": "Access a **filter configuration guide** in the [documentation] (https://docs.discordsafe.com/docs/config/filters).",
-        "finvitaciones": "Deletes the invitations of Discord servers sent by members without permissions.",
         "fmalicioso": "Analyzes the messages and links and if it detects that it is spam, it will delete it.",
         "ignoreCh": "The channel <#{{channel}}> has been __ignored__ of the **{{filter}}** filter.",
         "ignoreRl": "The role <@&{{role}}> has been __ignored__ from the **{{filter}}** filter.",
-        "invitaciones": "Invites",
         "levelAuthor": "Anti-spam level configuration",
-        "levelField": "Levels",
         "malicioso": "Anti-Spam",
-        "noArgsDes": "The filters let you protect your server to **prevent malicious content from being sent** and that your channels be a clean place\n**To know how to configure it use:** `{{prefix}}filter help`",
         "palabras": "Words",
         "unIgnoreCh": "The channel <#{{channel}}> has been __no longer ignored__ on the **{{filter}}** filter.",
         "unIgnoreRl": "The role <@&{{role}}> has been __no longer ignored__ on the **{{filter}}** filter.",
-        "disabled": "The filter **{{filter}}** has been deactivated successfully.",
         "levelSet": "The level of the anti-spam filter has been set to **{{level}}**.",
-        "enabledAndSet": "The filter **{{filter}}** has been activated successfully with the level **{{level}}**.",
-        "fscam": "Delete all messages containing Nitro, Steam or game scam links."
+        "enabledAndSet": "The filter **{{filter}}** has been activated successfully with the level **{{level}}**."
     },
     "genpassword": {
         "contraseña": "Password",

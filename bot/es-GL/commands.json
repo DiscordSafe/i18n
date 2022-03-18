@@ -118,19 +118,13 @@
         "exito": ""
     },
     "filter": {
-        "ayudaDes": "",
         "comandosDefault": "",
-        "doc1": "",
         "doc3": "",
-        "finvitaciones": "",
         "fmalicioso": "",
         "ignoreCh": "",
         "ignoreRl": "",
-        "invitaciones": "",
         "levelAuthor": "",
-        "levelField": "",
         "malicioso": "",
-        "noArgsDes": "",
         "palabras": "",
         "unIgnoreCh": "",
         "unIgnoreRl": ""

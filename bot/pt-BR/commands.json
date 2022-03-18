@@ -118,19 +118,13 @@
         "exito": ""
     },
     "filter": {
-        "ayudaDes": "",
         "comandosDefault": "",
-        "doc1": "",
         "doc3": "",
-        "finvitaciones": "",
         "fmalicioso": "",
         "ignoreCh": "",
         "ignoreRl": "",
-        "invitaciones": "Invitaciones",
         "levelAuthor": "",
-        "levelField": "",
         "malicioso": "Malicioso",
-        "noArgsDes": "Los filtros le ayudan a prevenir que se envien mensajes con contenido malicioso o spam.\n**Para saber como configurarlo use:** `.filtros ayuda`",
         "palabras": "",
         "unIgnoreCh": "",
         "unIgnoreRl": ""
