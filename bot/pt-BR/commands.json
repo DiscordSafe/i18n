@@ -118,14 +118,10 @@
         "exito": ""
     },
     "filter": {
-        "comandosDefault": "",
         "doc3": "",
-        "fmalicioso": "",
         "ignoreCh": "",
         "ignoreRl": "",
-        "levelAuthor": "",
         "malicioso": "Malicioso",
-        "palabras": "",
         "unIgnoreCh": "",
         "unIgnoreRl": ""
     },
