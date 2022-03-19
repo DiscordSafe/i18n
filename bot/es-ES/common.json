@@ -56,7 +56,8 @@
       "iploggers": "**[Anti Iplogger Avanzado]** No se permite enviar enlaces iploggers o maliciosos.",
       "images": "**[Filtro Imágenes Premium]** No se permite contenido NSFW fuera de canales NSFW.",
       "blockword": "Esa palabra está bloqueada",
-      "scam": "**[AntiScam]** No se permiten enlaces maliciosos."
+      "scam": "**[AntiScam]** No se permiten enlaces maliciosos.",
+      "blocklink": "Ese enlace está bloqueado."
     }
   },
   "AntiSpam": {
@@ -73,7 +74,7 @@
     "seconds": "{{MuteTime}} minutos",
     "unmuteEmbedReason": "Tiempo expirado.",
     "errorMute": "Ups, parece que no tengo los suficiente permisos de mutear a {{user}}.",
-    "WarnMessage": "{{emojiWarn}} **[Anti-Spam]** Por favor, no envie tantos mensajes.",
+    "WarnMessage": "{{emojiWarn}} **[Anti-Spam]** Por favor, no envíe tantos mensajes.",
     "MuteMessage": "{{emojiMute}} **[Anti-Spam]** Has sido muteado por enviar tantos mensajes."
   },
   "punishment": {
