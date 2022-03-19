@@ -390,13 +390,6 @@
           }
         }
       },
-      "invites": {
-        "options": {
-          "toggle": {
-            "description": "Activa o desactiva el filtro"
-          }
-        }
-      },
       "anti-spam": {
         "options": {
           "set-level": {
@@ -410,7 +403,7 @@
         }
       },
       "setup": {
-        "description": "Configura los filtros mediante selectores"
+        "description": "Configura los filtros usando selectores"
       },
       "links": {
         "options": {

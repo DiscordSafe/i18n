@@ -209,6 +209,18 @@
       "SCAM": {
         "name": "Estafas",
         "description": "Borra enlaces fraudulentos que suplantan a Discord para robar cuentas e información."
+      },
+      "MALWARE": {
+        "name": "Malware",
+        "description": "Borra enlaces que descargan virus y software malicioso."
+      },
+      "PHISHING": {
+        "name": "Phishing",
+        "description": "Borra enlaces fraudulentos que recopilan información personal."
+      },
+      "PORN": {
+        "name": "Pornografía",
+        "description": "Bloquea los enlaces a páginas de pornografía."
       }
     },
     "levelSet": "El nivel del filtro anti-spam ha sido establecido a **{{level}}**.",

@@ -53,11 +53,14 @@
     "warn": {
       "spam": "**[AntiSpam]** Su mensaje ha sido clasificado como spam.",
       "invites": "No se permiten invitaciones a otros servidores de discord.",
-      "iploggers": "**[Anti Iplogger Avanzado]** No se permite enviar enlaces iploggers o maliciosos.",
+      "iploggers": "**[Anti Iplogger Avanzado]** No se permiten enlaces iploggers.",
       "images": "**[Filtro Imágenes Premium]** No se permite contenido NSFW fuera de canales NSFW.",
       "blockword": "Esa palabra está bloqueada",
-      "scam": "**[AntiScam]** No se permiten enlaces maliciosos.",
-      "blocklink": "Ese enlace está bloqueado."
+      "scam": "No se permiten enlaces fraudulentos.",
+      "blocklink": "Ese enlace está bloqueado.",
+      "malware": "No se permiten enlaces maliciosos.",
+      "phishing": "No se permiten enlaces de phishing.",
+      "porn": "No se permiten enlaces de pornografía."
     }
   },
   "AntiSpam": {
@@ -85,7 +88,12 @@
       "iploggers": "IPloggers",
       "images": "Imágenes",
       "blockword": "Palabras bloqueadas",
-      "scam": "Scam"
+      "scam": "Scam",
+      "blocklink": "Enlaces bloqueados",
+      "malware": "Malware",
+      "phishing": "Phishing",
+      "porn": "Pornografía",
+      "noavatar": "No avatar"
     },
     "actionTypes": {
       "delete": "Borrar",
