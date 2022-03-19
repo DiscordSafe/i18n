@@ -161,10 +161,8 @@
         "reason": "You have been deafened in **{{guild}}** for: **{{reason}}**."
     },
     "filter": {
-        "doc3": "Access a **filter configuration guide** in the [documentation] (https://docs.discordsafe.com/docs/config/filters).",
         "ignoreCh": "The channel <#{{channel}}> has been __ignored__ of the **{{filter}}** filter.",
         "ignoreRl": "The role <@&{{role}}> has been __ignored__ from the **{{filter}}** filter.",
-        "malicioso": "Anti-Spam",
         "unIgnoreCh": "The channel <#{{channel}}> has been __no longer ignored__ on the **{{filter}}** filter.",
         "unIgnoreRl": "The role <@&{{role}}> has been __no longer ignored__ on the **{{filter}}** filter.",
         "levelSet": "The level of the anti-spam filter has been set to **{{level}}**.",

@@ -118,10 +118,8 @@
         "exito": ""
     },
     "filter": {
-        "doc3": "",
         "ignoreCh": "",
         "ignoreRl": "",
-        "malicioso": "Malicioso",
         "unIgnoreCh": "",
         "unIgnoreRl": ""
     },
