@@ -661,17 +661,12 @@
             "minPlaceholder": "Select a number",
             "ageTitle": "Age minimum (optional)",
             "agePlaceholder": "Select a number",
-            "doneTitle": "Setup completed",
             "doneDesc": "You have completed the **verification** setup successfully.\nYou can use `{{prefix}}verification` to view the actual settings."
         },
         "filters": {
-            "spamLevel_desc": "{{emoji1}} **Level 1**, prohibits a message with lots of caps or spam.\n{{emoji2}} **Level 2**, prohibits duplicated messages, caps and spam.\n{{emoji3}} **Level 3**, prohibits all the duplicated messages, caps, copypastas and spam.",
             "level1": "Level 1",
-            "inviteFilter": "Invite filter",
             "iploggersFilter": "Anti-IPlogger filter",
-            "spamFilter_desc": "Blocks messages with lots of caps, duplicated words and copypastas.",
             "imagesFilter": "NSFW image filter",
-            "doneTitle": "Setup completed",
             "level3": "Level 3"
         },
         "moderation": {
