@@ -60,7 +60,8 @@
       "blocklink": "Ese enlace está bloqueado.",
       "malware": "No se permiten enlaces maliciosos.",
       "phishing": "No se permiten enlaces de phishing.",
-      "porn": "No se permiten enlaces de pornografía."
+      "porn": "No se permiten enlaces de pornografía.",
+      "flood": "No envíes mensajes tan rápido."
     }
   },
   "AntiSpam": {
@@ -93,7 +94,8 @@
       "malware": "Malware",
       "phishing": "Phishing",
       "porn": "Pornografía",
-      "noavatar": "No avatar"
+      "noavatar": "No avatar",
+      "flood": "Flood"
     },
     "actionTypes": {
       "delete": "Borrar",

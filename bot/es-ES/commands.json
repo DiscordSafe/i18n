@@ -225,6 +225,10 @@
       "PORN": {
         "name": "Pornografía",
         "description": "Bloquea los enlaces a páginas de pornografía."
+      },
+      "FLOOD": {
+        "name": "Flood",
+        "description": "Borra mensajes enviados rápidamente."
       }
     },
     "levelSet": "El nivel del filtro anti-spam ha sido establecido a **{{level}}**.",
