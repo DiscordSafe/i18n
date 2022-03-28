@@ -62,7 +62,8 @@
       "phishing": "No se permiten enlaces de phishing.",
       "porn": "No se permiten enlaces de pornografía.",
       "flood": "No envíes mensajes tan rápido.",
-      "repeated_words": "Tu mensaje incluye muchas palabras repetidas."
+      "repeated_words": "No se permiten tantas palabras repetidas.",
+      "caps": "No se permiten tantas mayúsculas, no me grites por favor. 😔"
     }
   },
   "AntiSpam": {
@@ -97,7 +98,8 @@
       "porn": "Pornografía",
       "noavatar": "No avatar",
       "flood": "Flood",
-      "repeated_Words": "Palabras repetidas"
+      "repeated_Words": "Palabras repetidas",
+      "caps": "Mayúsculas"
     },
     "actionTypes": {
       "delete": "Borrar",

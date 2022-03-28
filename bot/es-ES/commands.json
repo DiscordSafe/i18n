@@ -233,6 +233,10 @@
       "REPEATED_WORDS": {
         "name": "Palabras repetidas",
         "description": "Borra mensajes con muchas palabras repetidas."
+      },
+      "CAPS": {
+        "name": "Mayúsculas",
+        "description": "Borra mensajes con exceso de mayúsculas."
       }
     },
     "levelSet": "El nivel del filtro anti-spam ha sido establecido a **{{level}}**.",
