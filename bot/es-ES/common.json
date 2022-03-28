@@ -61,7 +61,8 @@
       "malware": "No se permiten enlaces maliciosos.",
       "phishing": "No se permiten enlaces de phishing.",
       "porn": "No se permiten enlaces de pornografía.",
-      "flood": "No envíes mensajes tan rápido."
+      "flood": "No envíes mensajes tan rápido.",
+      "repeated_words": "Tu mensaje incluye muchas palabras repetidas."
     }
   },
   "AntiSpam": {
@@ -95,7 +96,8 @@
       "phishing": "Phishing",
       "porn": "Pornografía",
       "noavatar": "No avatar",
-      "flood": "Flood"
+      "flood": "Flood",
+      "repeated_Words": "Palabras repetidas"
     },
     "actionTypes": {
       "delete": "Borrar",

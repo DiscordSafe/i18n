@@ -229,6 +229,10 @@
       "FLOOD": {
         "name": "Flood",
         "description": "Borra mensajes enviados rápidamente."
+      },
+      "REPEATED_WORDS": {
+        "name": "Palabras repetidas",
+        "description": "Borra mensajes con muchas palabras repetidas."
       }
     },
     "levelSet": "El nivel del filtro anti-spam ha sido establecido a **{{level}}**.",
