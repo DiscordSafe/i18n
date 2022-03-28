@@ -663,9 +663,6 @@
             "agePlaceholder": "Select a number",
             "doneDesc": "You have completed the **verification** setup successfully.\nYou can use `{{prefix}}verification` to view the actual settings."
         },
-        "filters": {
-            "level3": "Level 3"
-        },
         "moderation": {
             "defaultAuthor": "Moderation setup",
             "notifyUsers": "Notify the target when it is punished",
