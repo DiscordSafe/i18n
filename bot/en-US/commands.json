@@ -664,7 +664,6 @@
             "doneDesc": "You have completed the **verification** setup successfully.\nYou can use `{{prefix}}verification` to view the actual settings."
         },
         "filters": {
-            "iploggersFilter": "Anti-IPlogger filter",
             "level3": "Level 3"
         },
         "moderation": {
