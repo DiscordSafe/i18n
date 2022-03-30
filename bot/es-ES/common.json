@@ -63,7 +63,11 @@
       "porn": "No se permiten enlaces de pornografía.",
       "flood": "No envíes mensajes tan rápido.",
       "repeated_words": "No se permiten tantas palabras repetidas.",
-      "caps": "No se permiten tantas mayúsculas, no me grites por favor. 😔"
+      "caps": "No se permiten tantas mayúsculas, no me grites por favor. 😔",
+      "max_lines": "¡No envíes tantas líneas!",
+      "max_mentions": "¡No hagas tantas menciones!",
+      "max_emojis": "¡No envíes tantos emojis!",
+      "link_cooldown": "No puedes enviar enlaces tan seguido."
     }
   },
   "AntiSpam": {
@@ -99,7 +103,11 @@
       "noavatar": "No avatar",
       "flood": "Flood",
       "repeated_Words": "Palabras repetidas",
-      "caps": "Mayúsculas"
+      "caps": "Mayúsculas",
+      "max_lines": "Máximo de líneas por mensaje",
+      "max_mentions": "Máximo de menciones por mensaje",
+      "max_emojis": "Máximo de emojis por mensajes",
+      "link_cooldown": "Cooldown de enlaces"
     },
     "actionTypes": {
       "delete": "Borrar",

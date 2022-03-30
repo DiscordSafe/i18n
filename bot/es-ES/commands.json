@@ -237,6 +237,10 @@
       "CAPS": {
         "name": "Mayúsculas",
         "description": "Borra mensajes con exceso de mayúsculas."
+      },
+      "LINK_COOLDOWN": {
+        "name": "Cooldown de enlaces",
+        "description": "Limita el envío de enlaces a una cantidad por segundos."
       }
     },
     "levelSet": "El nivel del filtro anti-spam ha sido establecido a **{{level}}**.",
