@@ -249,10 +249,8 @@
         "errorNoPremium": "",
         "errorNoServidor": "",
         "errorPartner": "",
-        "errorYaKey": "",
         "noArgsDes": "",
         "saferErrorBadRequest": "",
-        "saferErrorNoReq": "",
         "saferErrorNoVote": ""
     },
     "reason": {
@@ -484,13 +482,9 @@
         "errorRoles": "Debe configurar primero el rol No Verificado y el rol Usuario. Para configurarlo use `.verificacion`"
     },
     "vote": {
-        "embedDescription": "",
         "embedFooter": "",
-        "embedTitle": "",
         "fieldLinks": "",
-        "fieldStats": "",
-        "fieldStats2": "",
-        "fieldVoteAgain": ""
+        "fieldStats2": ""
     },
     "warn": {
         "errorAutor": "",

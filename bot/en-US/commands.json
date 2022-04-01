@@ -322,11 +322,9 @@
         "errorNoPremium": "You don't have premium, [what are you waiting for?] (Https://discordsafe.com/premium)",
         "errorNoServidor": "You must be on our server, https://discordsafe.com/discord.",
         "errorPartner": "You are partner and can't redeem your premium in another server.",
-        "errorYaKey": "You already have a premium, you can't redeem more than one through votes, you can get premium on another server through [patreon](https://patreon.com/DiscordSafe).",
         "infoAuthor_one": "Premium of {{user}}",
         "noArgsDes": "It is a premium benefit for Partners, Safers and donors.",
         "saferErrorBadRequest": "An error has happened, try again.",
-        "saferErrorNoReq": "You do not meet the requirements to get the premium, keep voting, you are missing {{votes}} votes.",
         "saferErrorNoVote": "You haven't voted or an error has happened, try in some minutes.",
         "help": {
             "title": "D-Safe Premium",
@@ -605,13 +603,9 @@
         "errorRoles": "First you have to set the Not verified role and the user role. To configurate it use `d.verification`"
     },
     "vote": {
-        "embedDescription": "¡Vote me and receive rewards and benefits!",
         "embedFooter": " • End of the streak: ",
-        "embedTitle": "Vote me here",
         "fieldLinks": ":link: Links",
-        "fieldStats": ":bar_chart: Stats",
-        "fieldStats2": "``md\n- Streak: {{userStreak}}\n- Month: {{userMonthly}}\n- Total: {{userTotal}}\n``\n",
-        "fieldVoteAgain": "You can vote again in "
+        "fieldStats2": "``md\n- Streak: {{userStreak}}\n- Month: {{userMonthly}}\n- Total: {{userTotal}}\n``\n"
     },
     "warn": {
         "errorAutor": "**Error**, You can't warn yourself.",
