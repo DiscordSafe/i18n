@@ -303,9 +303,7 @@
         "usage": ""
     },
     "vote": {
-        "description": "Shows information about the votes.",
-        "example": "",
-        "usage": " /<@User>"
+        "example": ""
     },
     "warn": {
         "description": "Warns a user",
