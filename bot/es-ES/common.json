@@ -67,7 +67,9 @@
       "max_lines": "¡No envíes tantas líneas!",
       "max_mentions": "¡No hagas tantas menciones!",
       "max_emojis": "¡No envíes tantos emojis!",
-      "link_cooldown": "No puedes enviar enlaces tan seguido."
+      "link_cooldown": "No puedes enviar enlaces tan seguido.",
+      "invite_cooldown": "No puedes enviar invitaciones tan seguido.",
+      "image_cooldown": "No puedes enviar imágenes tan seguido."
     }
   },
   "AntiSpam": {
@@ -107,7 +109,9 @@
       "max_lines": "Máximo de líneas por mensaje",
       "max_mentions": "Máximo de menciones por mensaje",
       "max_emojis": "Máximo de emojis por mensajes",
-      "link_cooldown": "Cooldown de enlaces"
+      "link_cooldown": "Cooldown de enlaces",
+      "invite_cooldown": "Cooldown de invitaciones",
+      "image_cooldown": "Cooldown de imágenes"
     },
     "actionTypes": {
       "delete": "Borrar",

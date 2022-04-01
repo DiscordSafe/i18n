@@ -241,6 +241,14 @@
       "LINK_COOLDOWN": {
         "name": "Cooldown de enlaces",
         "description": "Limita el envío de enlaces a una cantidad por segundos."
+      },
+      "INVITE_COOLDOWN": {
+        "name": "Cooldown de invitaciones",
+        "description": "Limita el envío de invitaciones a una cantidad por segundos."
+      },
+      "IMAGE_COOLDOWN": {
+        "name": "Cooldown de imágenes",
+        "description": "Limita el envío de imágenes a una cantidad por segundos."
       }
     },
     "levelSet": "El nivel del filtro anti-spam ha sido establecido a **{{level}}**.",
