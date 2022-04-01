@@ -510,13 +510,10 @@
     "errorAllRedeem": "**Error**, todos los premiums los tiene canjeados.",
     "errorNoServidor": "Debes de estar en nuestro servidor, https://discordsafe.com/discord.",
     "errorPartner": "Eres partner y no puede canjear su premium en otro lado.",
-    "errorYaKey": "Ya tienes un premium, no puedes canjear más de uno mediante votos, puedes obtener premium en otro servidor mediante [patreon](https://patreon.com/DiscordSafe).",
     "infoAuthor_one": "Premium de {{user}}",
     "infoAuthor_other": "Premiums de {{user}}",
     "noArgsDes": "Obtén una tonelada de beneficios para mejorar tu comunidad.",
-    "saferErrorBadRequest": "Ha ocurrido un error, intente de nuevo.",
-    "saferErrorNoReq": "No cumples los requisitos para obtener el el premium, sigue votando, te faltan {{votes}} votos.",
-    "saferErrorNoVote": "No has votado o ha ocurrido un error, pruebe dentro de unos minutos."
+    "saferErrorBadRequest": "Ha ocurrido un error, intente de nuevo."
   },
   "reason": {
     "noCase": "**Error**, no se ha encontrado el caso, comprueba que el ID del caso sea correcto.",
@@ -892,15 +889,6 @@
     "errorNoRoles": "Los roles que ha configurado para la verificación no existen o no estoy por encima de ellos. Para configurar la verificación use `d.verification`",
     "errorNoVerificado": "Necesitas tener el rol de No Verificado. Para configurar la verificación use `d.verification`",
     "errorRoles": "Debe configurar primero el rol No Verificado y el rol Usuario. Para configurarlo use `d.verification`"
-  },
-  "vote": {
-    "embedDescription": "¡Vótame y recibe recompensas y ventajas!",
-    "embedFooter": " • Fin de la racha: ",
-    "embedTitle": "Vótame aquí",
-    "fieldLinks": ":link: Enlaces",
-    "fieldStats": ":bar_chart: Estadísticas",
-    "fieldStats2": "``md\n- Racha: {{userStreak}}\n- Mes: {{userMonthly}}\n- Totales: {{userTotal}}\n``\n",
-    "fieldVoteAgain": "Puedes volver a votar en "
   },
   "warn": {
     "reason": "Has sido advertido en **{{guild}}** por: **{{reason}}**.",

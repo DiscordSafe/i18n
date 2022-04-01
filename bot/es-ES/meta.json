@@ -1044,11 +1044,6 @@
     "example": "",
     "usage": ""
   },
-  "vote": {
-    "description": "Muestra la información acerca de los votos.",
-    "example": "",
-    "usage": " / <@Usuario>"
-  },
   "warn": {
     "description": "Advierte a un usuario",
     "example": "@Juan#4449 Romper la regla 3.",
