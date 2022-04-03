@@ -45,13 +45,12 @@
   "page": "Página",
   "errorCompare": "**Error**, no puedes usar este comando con un miembro con más poderes que tú.",
   "AutoMod": {
-    "logContent": "# ID: {{message.id}}\n# Fecha: {{date}} ({{message.createdTimestamp}})\n# Filtros infringidos: {{filters}}\n{{message.content}}",
+    "logContent": "# ID: {{message.id}}\n# Fecha: {{date}} ({{message.createdTimestamp}})\n# Filtro infringido: {{filter}}\n{{message.content}}",
     "reportContent": "# Informe de infracciones\n# Generado: {{date}} ({{dateUnix}})\n# Servidor: {{guild.name}} ({{guild.id}})\n# Autor: {{author.username}} ({{author.id}})\n\n",
     "actionReason_one": "🚨 Acción tomada por el Automod.\n{{infractions}} infracción en {{time}} segundos.",
     "actionReason_other": "🚨 Acción tomada por el Automod.\n{{infractions}} infracciones en {{time}} segundos.",
     "lastMessage": "Último mensaje",
     "warn": {
-      "spam": "**[AntiSpam]** Su mensaje ha sido clasificado como spam.",
       "invites": "No se permiten invitaciones a otros servidores de discord.",
       "iploggers": "**[Anti Iplogger Avanzado]** No se permiten enlaces iploggers.",
       "images": "**[Filtro Imágenes Premium]** No se permite contenido NSFW fuera de canales NSFW.",
@@ -92,7 +91,6 @@
   "punishment": {
     "filterTypes": {
       "all": "Todos los filtros",
-      "spam": "Spam",
       "invites": "Invitaciones",
       "iploggers": "IPloggers",
       "images": "Imágenes",

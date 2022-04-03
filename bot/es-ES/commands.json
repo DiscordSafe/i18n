@@ -190,10 +190,6 @@
       "embedDescription": "Seleccione un filtro para activar, deseleccione para desactivar.\n\nLos selectores se dividen por tipo de filtro:\n{{one}} Filtros de mensajes.\n{{two}} Filtros de enlaces.",
       "selectText": "Seleccione los filtros de mensajes",
       "selectLinks": "Seleccione los filtros de enlaces",
-      "SPAM": {
-        "name": "Spam",
-        "description": "Borra mensajes con exceso de mayúsculas y palabras repetidas."
-      },
       "IMAGES": {
         "name": "Imágenes",
         "description": "Borra imágenes con contenido explícito fuera de canales restringidos."
@@ -251,7 +247,6 @@
         "description": "Limita el envío de imágenes a una cantidad por segundos."
       }
     },
-    "levelSet": "El nivel del filtro anti-spam ha sido establecido a **{{level}}**.",
     "enabledAndSet": "Se ha activado correctamente el filtro **{{filter}}** con el nivel **{{level}}**.",
     "errorPremium": "**Error**, el filtro de imágenes es premium, no puede seleccionarlo. [Desbloquea D-Safe Premium y consigue un montón de ventajas](https://discordsafe.com/premium).",
     "ignoreCh": "El canal <#{{channel}}> ha sido __ignorado__ del filtro **{{filter}}**.",
@@ -626,7 +621,6 @@
     "finvitaciones": "Filtro Invitaciones",
     "floggers": "Filtro Iploggers",
     "flogs": "Logs",
-    "fmalware": "Filtro Anti-Spam",
     "fnsfw": "Filtro Imágenes",
     "fscam": "Filtro Anti-Scam",
     "fpalabras": "Palabras bloqueadas",

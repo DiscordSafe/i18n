@@ -390,18 +390,6 @@
           }
         }
       },
-      "anti-spam": {
-        "options": {
-          "set-level": {
-            "description": "Establece el nivel del anti-spam",
-            "options": {
-              "level": {
-                "description": "El nivel a establecer"
-              }
-            }
-          }
-        }
-      },
       "setup": {
         "description": "Configura los filtros usando selectores"
       },
