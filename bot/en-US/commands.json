@@ -165,7 +165,6 @@
         "ignoreRl": "The role <@&{{role}}> has been __ignored__ from the **{{filter}}** filter.",
         "unIgnoreCh": "The channel <#{{channel}}> has been __no longer ignored__ on the **{{filter}}** filter.",
         "unIgnoreRl": "The role <@&{{role}}> has been __no longer ignored__ on the **{{filter}}** filter.",
-        "levelSet": "The level of the anti-spam filter has been set to **{{level}}**.",
         "enabledAndSet": "The filter **{{filter}}** has been activated successfully with the level **{{level}}**."
     },
     "genpassword": {
@@ -325,7 +324,6 @@
         "infoAuthor_one": "Premium of {{user}}",
         "noArgsDes": "It is a premium benefit for Partners, Safers and donors.",
         "saferErrorBadRequest": "An error has happened, try again.",
-        "saferErrorNoVote": "You haven't voted or an error has happened, try in some minutes.",
         "help": {
             "title": "D-Safe Premium",
             "field1": "Benefits",
@@ -403,7 +401,6 @@
         "finvitaciones": "Invites filter",
         "floggers": "Iploggers filter",
         "flogs": "Logs",
-        "fmalware": "Malicious filter",
         "fnsfw": "Images filter",
         "fpalabras": "Blocked words",
         "fsugerencias": "Suggestions",
@@ -603,9 +600,7 @@
         "errorRoles": "First you have to set the Not verified role and the user role. To configurate it use `d.verification`"
     },
     "vote": {
-        "embedFooter": " • End of the streak: ",
-        "fieldLinks": ":link: Links",
-        "fieldStats2": "``md\n- Streak: {{userStreak}}\n- Month: {{userMonthly}}\n- Total: {{userTotal}}\n``\n"
+        "fieldLinks": ":link: Links"
     },
     "warn": {
         "errorAutor": "**Error**, You can't warn yourself.",

@@ -250,8 +250,7 @@
         "errorNoServidor": "",
         "errorPartner": "",
         "noArgsDes": "",
-        "saferErrorBadRequest": "",
-        "saferErrorNoVote": ""
+        "saferErrorBadRequest": ""
     },
     "reason": {
         "noCase": "",
@@ -302,7 +301,6 @@
         "finvitaciones": "",
         "floggers": "",
         "flogs": "",
-        "fmalware": "",
         "fnsfw": "",
         "fpalabras": "Palabras",
         "fsugerencias": "",
@@ -482,9 +480,7 @@
         "errorRoles": "Debe configurar primero el rol No Verificado y el rol Usuario. Para configurarlo use `.verificacion`"
     },
     "vote": {
-        "embedFooter": "",
-        "fieldLinks": "",
-        "fieldStats2": ""
+        "fieldLinks": ""
     },
     "warn": {
         "errorAutor": "",
