@@ -302,9 +302,6 @@
         "example": "",
         "usage": ""
     },
-    "vote": {
-        "example": ""
-    },
     "warn": {
         "description": "Warns a user",
         "example": "@Juan#4449 Breaking the 3rd rule.",
