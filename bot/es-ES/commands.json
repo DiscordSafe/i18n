@@ -185,6 +185,17 @@
     "noEncontrado": "**Error**, no se ha encontrado el emoji."
   },
   "filter": {
+    "showconfig": {
+      "embedAuthor": "Configuración de los filtros en {{guildName}}",
+      "embedDescription": "Esta es la configuración actual de los filtros\n• Usa `/filter setup` para activar o desactivar filtros.\n• Usa `/filter config` para personalizar la configuración.",
+      "enabledFilters": "Filtros activados",
+      "relativeTime": "{{value}} en {{time}}"
+    },
+    "config": {
+      "errorNoFilters": "**Error**, no tiene filtros activados, debe activarlos primero con `/filter setup`.",
+      "errorNoOptions": "**Error**, no ha seleccionado ninguna opción.",
+      "success": "Se ha establecido la configuración correctamente."
+    },
     "setup": {
       "embedAuthor": "Configuración de los filtros",
       "embedDescription": "Seleccione un filtro para activar, deseleccione para desactivar.\n\nLos selectores se dividen por tipo de filtro:\n{{one}} Filtros de mensajes.\n{{two}} Filtros de enlaces.",
@@ -601,7 +612,7 @@
     "establecido": "El prefix ha sido establecido a "
   },
   "settings": {
-    "panel": "Panel de ajustes de {{guild}}",
+    "panel": "Panel de ajustes en {{guild}}",
     "panelTitle": "Guía de configuración paso a paso",
     "despanel": "Estado de la configuración del bot.\nUse los botones para moverse entre los distintos módulos.",
     "ninguno": "Ninguno.",
@@ -867,7 +878,7 @@
     "minutos": "Minutos",
     "minutos2": "minutos",
     "modo": "Modo",
-    "noArgsAutor": "Configuración de la verificación de {{server}}",
+    "noArgsAutor": "Configuración de la verificación en {{server}}",
     "noArgsDescripción": "Establezca la verificación en su servidor con uno de nuestros poderosos modos para evitar usuarios conflictivos, multicuentas o bots de spam.",
     "noArgsFooter": "Para saber como configurarlo use d.verification help",
     "rolnoverificado": "Rol No verificado",

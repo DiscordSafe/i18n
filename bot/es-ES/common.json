@@ -102,7 +102,7 @@
       "porn": "Pornografía",
       "noavatar": "No avatar",
       "flood": "Flood",
-      "repeated_Words": "Palabras repetidas",
+      "repeated_words": "Palabras repetidas",
       "caps": "Mayúsculas",
       "max_lines": "Máximo de líneas por mensaje",
       "max_mentions": "Máximo de menciones por mensaje",
@@ -118,7 +118,9 @@
       "kick": "Expulsión",
       "mute": "Mute",
       "softban": "Baneo y desbaneo (softban)",
-      "ban": "Baneo"
+      "ban": "Baneo",
+      "slowmode": "Establecer modo pausado en el canal",
+      "lock": "Bloquear canal"
     }
   },
   "modEmbed": {

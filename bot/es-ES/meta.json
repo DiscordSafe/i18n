@@ -361,9 +361,6 @@
     "example": "anti-spam enable",
     "usage": "help / [filtro] enable / [filtro] disable / [filtro] ignore [#Canal/@Rol]",
     "options": {
-      "help": {
-        "description": "Muestra el menú de ayuda"
-      },
       "ignore": {
         "options": {
           "role": {
@@ -391,7 +388,7 @@
         }
       },
       "setup": {
-        "description": "Configura los filtros usando selectores"
+        "description": "Activa o desactiva filtros con selectores"
       },
       "links": {
         "options": {
@@ -413,6 +410,44 @@
           },
           "list": {
             "description": "Muestra la lista de enlaces bloqueados"
+          }
+        }
+      },
+      "config": {
+        "description": "Configura los filtros",
+        "options": {
+          "flood-amount": {
+            "description": "Cantidad máxima de mensajes"
+          },
+          "flood-time": {
+            "description": "En cuantos segundos"
+          },
+          "link-amount": {
+            "description": "Cantidad máxima de links"
+          },
+          "invite-amount": {
+            "description": "Cantidad máxima de invitaciones"
+          },
+          "image-amount": {
+            "description": "Cantidad máxima de imágenes"
+          },
+          "repeated-words-percent": {
+            "description": "Porcentaje máximo de palabras repetidas"
+          },
+          "caps-percent": {
+            "description": "Porcentaje máximo de mayúsculas"
+          },
+          "caps-min": {
+            "description": "Mínimo de mayúsculas, por debajo de esta cifra se ignora"
+          },
+          "max-lines": {
+            "description": "Máximo de líneas por mensaje"
+          },
+          "max-mentions": {
+            "description": "Máximo de menciones por mensaje"
+          },
+          "max-emojis": {
+            "description": "Máximo de emojis por mensaje"
           }
         }
       }
