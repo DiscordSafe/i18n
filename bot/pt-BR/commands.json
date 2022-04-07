@@ -479,9 +479,6 @@
         "errorNoVerificado": "Necesitas tener el rol de No Verificado. Para configurar la verificación use `.verificacion`",
         "errorRoles": "Debe configurar primero el rol No Verificado y el rol Usuario. Para configurarlo use `.verificacion`"
     },
-    "vote": {
-        "fieldLinks": ""
-    },
     "warn": {
         "errorAutor": "",
         "errorCaracteres": "",

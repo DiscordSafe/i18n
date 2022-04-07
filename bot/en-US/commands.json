@@ -599,9 +599,6 @@
         "errorNoVerificado": "You need the Not Verified role. To configurate the verification use `d.verification`",
         "errorRoles": "First you have to set the Not verified role and the user role. To configurate it use `d.verification`"
     },
-    "vote": {
-        "fieldLinks": ":link: Links"
-    },
     "warn": {
         "errorAutor": "**Error**, You can't warn yourself.",
         "errorCaracteres": "**Error**, the reason have too many characters, write less.",
