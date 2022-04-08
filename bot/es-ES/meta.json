@@ -450,6 +450,9 @@
             "description": "Máximo de emojis por mensaje"
           }
         }
+      },
+      "showconfig": {
+        "description": "Muestra la configuración"
       }
     }
   },
