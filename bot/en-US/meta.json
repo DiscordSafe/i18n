@@ -294,8 +294,7 @@
     },
     "verification": {
         "description": "Set up verification",
-        "example": "setuser @Verified",
-        "usage": "off / setmode <Mode(approval, reaction, verification, captcha)> / setguest <@Role / Role ID> / setuser <@Role / Role ID> / setchannel <#Channel / Channel ID> / setmessage <Message ID>"
+        "example": "setuser @Verified"
     },
     "verifyme": {
         "description": "Gives you the user role in the server.",
