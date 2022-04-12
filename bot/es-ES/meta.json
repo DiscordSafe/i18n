@@ -35,6 +35,14 @@
       }
     }
   },
+  "antiraid": {
+    "description": "Configuración del anti-raid",
+    "options": {
+      "setup": {
+        "description": "Configura el anti-raid"
+      }
+    }
+  },
   "ban": {
     "description": "Banea a un miembro del servidor",
     "example": "@Vicente#0001 Romper la regla 4.",
@@ -985,13 +993,12 @@
   "verification": {
     "description": "Configura la verificación",
     "example": "setuser @Verificado",
-    "usage": "off / setmode <Modo(approval, reaction, verification, captcha)> / setguest <@Rol / Rol ID> / setuser <@Rol / Rol ID> setchannel <#Canal / Canal ID> / setmessage <Mensaje ID>",
     "options": {
       "disable": {
         "description": "Desactiva la verificación"
       },
       "help": {
-        "description": "Muestra la ayuda sobre la verificación"
+        "description": "Muestra ayuda sobre la verificación"
       },
       "setchannel": {
         "description": "Establece el canal donde se mandarán los mensajes de verificación",
@@ -1047,19 +1054,27 @@
           }
         }
       },
-      "setage": {
+      "minage": {
         "description": "Establece la edad mínima de la cuenta que tienen que tener para entrar",
         "options": {
           "set": {
             "description": "Establece la edad mínima de la cuenta",
             "options": {
               "age": {
-                "description": "La edad a establecer (1-30)"
+                "description": "La edad mínima, si es menor de este tiempo será expulsado"
               }
             }
           },
           "disable": {
             "description": "Desactiva el requisito de edad mínima de la cuenta"
+          }
+        }
+      },
+      "noavatar": {
+        "description": "Filtro que expulsa a los usuarios que no tengan avatar",
+        "options": {
+          "toggle": {
+            "description": "Activa o desactiva el filtro no avatar"
           }
         }
       }

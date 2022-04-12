@@ -43,6 +43,8 @@
   "none": "Ninguno",
   "total": "Total",
   "page": "Página",
+  "enabled": "Activado",
+  "disabled": "Desactivado",
   "errorCompare": "**Error**, no puedes usar este comando con un miembro con más poderes que tú.",
   "AutoMod": {
     "logContent": "# ID: {{message.id}}\n# Fecha: {{date}} ({{message.createdTimestamp}})\n# Filtro infringido: {{filter}}\n{{message.content}}",
@@ -100,7 +102,6 @@
       "malware": "Malware",
       "phishing": "Phishing",
       "porn": "Pornografía",
-      "noavatar": "No avatar",
       "flood": "Flood",
       "repeated_words": "Palabras repetidas",
       "caps": "Mayúsculas",

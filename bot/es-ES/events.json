@@ -55,7 +55,8 @@
     "kick": "Verificación no completada.",
     "nuevoUsuario": "Nuevo usuario",
     "noAvatarKick": "Has sido expulsado del servidor **{{server}}** porque lleva el avatar por defecto, cambielo e intente de nuevo.",
-    "noAvatarReason": "Avatar por defecto."
+    "noAvatarReason": "Avatar por defecto.",
+    "antiRaidReason": "Protección anti-raid"
   },
   "guildMemberRemove": {
     "badges": "Insignias",

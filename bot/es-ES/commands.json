@@ -16,6 +16,15 @@
     "avatar": "Avatar de {{user}}",
     "noAvatar": "**Error**, El usuario {{user}} no tiene avatar."
   },
+  "antiraid": {
+    "setup": {
+      "embedAuthor": "Configuración del antiraid en {{guild}}",
+      "embedDescription": "El antiraid ofrece un sistema avanzado contra selfbots *(cuentas de usuarios automatizadas para enviar spam)*.",
+      "explained": "\n• El bot baneará si entran más de **{{amount}}** usuarios en **{{time}}**.\n• El bot baneará a los usuarios con invitaciones en el nombre.",
+      "moreInfo": "\n\n>>> Si quieres más seguridad configura lo siguiente:\n• La verificación, `/verification setup`.\n• El filtro de no avatar, `/verification noavatar toggle`\n• El mínimo de edad de las nuevas cuentas, `/verification minage set`.",
+      "users": "usuarios"
+    }
+  },
   "ban": {
     "reason": "Has sido baneado en **{{guild}}**.",
     "reason_reason": "Has sido baneado en **{{guild}}** por: **{{reason}}**.",
@@ -204,10 +213,6 @@
       "IMAGES": {
         "name": "Imágenes",
         "description": "Borra imágenes con contenido explícito fuera de canales restringidos."
-      },
-      "NOAVATAR": {
-        "name": "No avatar",
-        "description": "Expulsa a los nuevos usuarios que no tengan avatar."
       },
       "INVITES": {
         "name": "Invitaciones",
@@ -840,7 +845,7 @@
     "autorAyuda": "Panel de ayuda sobre verificación",
     "canal": "Canal",
     "desactivado": "Has desactivado la verificación exitosamente.",
-    "desactivadoCorrecto": "EL límite mínimo de tiempo de la cuenta se ha desactivado correctamente.",
+    "desactivadoCorrecto": "El requisito de edad mínima de la cuenta ha sido desactivado correctamente.",
     "desactivar": "Desactivar",
     "desactivarField": "Para desactivar la verificación use `d.verification disable`.",
     "descripciónAyuda": "Establezca la verificación en su servidor con uno de nuestros poderosos modos para evitar usuarios conflictivos, multicuentas o bots de spam.",
@@ -866,7 +871,7 @@
     "establecidoMensaje": "El mensaje ha sido establecido a `{{msgId}}`",
     "establecidoMinutos": "Se ha establecido los minutos de la verificación a **{{minutos}} minutos**.",
     "establecidoRol": "El rol ha sido establecido a <@&{{role}}>.",
-    "establecidoTiempo": "Se ha establecido el tiempo mínimo de la cuenta de los nuevos usuarios a **{{age}}** días.",
+    "establecidoTiempo": "Se ha establecido la edad mínima de la cuenta de nuevos usuarios a **{{duration}}**.",
     "footerAyuda": "docs.discordsafe.com",
     "guía": "Guía de configuración",
     "importante": "Importante",
@@ -883,7 +888,11 @@
     "noArgsFooter": "Para saber como configurarlo use d.verification help",
     "rolnoverificado": "Rol No verificado",
     "rolusuario": "Rol Usuario",
-    "tiempo": "Mínimo de creación"
+    "tiempo": "Mínimo de creación",
+    "noavatar": {
+      "done_set": "Se ha activado correctamente el filtro no avatar, ahora expulsaré a los usuarios sin avatar.",
+      "done_unset": "Se ha desactivado correctamente el filtro no avatar."
+    }
   },
   "verifyme": {
     "aprobado": " Has sido verificado.",
