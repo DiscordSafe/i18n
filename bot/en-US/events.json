@@ -49,7 +49,6 @@
         "captchacFooter": "Do you want to invite me to your server? discordsafe.com/invite",
         "captchacTitle": "Thanks!",
         "creación": "Created",
-        "expulsado": "You have been kicked from the server **{{server}}** because your account does not exceed the minimum of **{{age}}** days.",
         "expulsadoRazón": "Minimum days of account creation.",
         "kick": "Verification not completed.",
         "nuevoUsuario": "New user"
