@@ -121,7 +121,8 @@
       "softban": "Baneo y desbaneo (softban)",
       "ban": "Baneo",
       "slowmode": "Establecer modo pausado en el canal",
-      "lock": "Bloquear canal"
+      "lock": "Bloquear canal",
+      "remove_roles": "Quitar roles"
     }
   },
   "modEmbed": {
@@ -152,6 +153,32 @@
     "unlock": "Canal desbloqueado",
     "filters": "Filtros infringidos",
     "dangerousLinkWarning": "🚨 ¡Cuidado! El mensaje puede contener enlaces maliciosos, este tipo de sitios web pueden robarte tu información personal, cuenta o contraseñas."
+  },
+  "actionLimiter": {
+    "limitExceded": "{{time}} | <@{{executorId}}> ({{executorId}}) {{description}}.",
+    "embedTitle": "🚨 Límite alcanzado",
+    "ownerDesc": "Se ha alcanzado el límite de **+{{count}} {{limitType}}** en **1 minuto**.",
+    "executorDesc": "Será expulsado o baneado del servidor como medida preventiva.",
+    "executorFooter": "Le llega este mensaje porque usted realizó la acción.",
+    "ownerFooter": "Le llega este mensaje porque usted es dueño/a del servidor {{guildName}}.",
+    "actionTypes": {
+      "channelCreations": "creó el canal **#{{targetName}}** ({{targetId}})",
+      "channelDeletions": "eliminó el canal **#{{targetName}}** ({{targetId}})",
+      "unbans": "desbaneó al usuario **{{targetName}}** ({{targetId}})",
+      "userRemovals": "expulsó al usuario **{{targetName}}** ({{targetId}})",
+      "roleCreations": "creó el rol **@{{targetName}} **({{targetId}})",
+      "roleDeletions": "eliminó el rol **@{{targetName}}** ({{targetId}})",
+      "webhooks": "creó el webhook **{{targetName}}** ({{targetId}})"
+    },
+    "limitsTypes": {
+      "channelCreations": "Canales creados",
+      "channelDeletions": "Canales eliminados",
+      "unbans": "Usuarios desbaneados",
+      "userRemovals": "Usuarios expulsados o baneados",
+      "roleCreations": "Roles creados",
+      "roleDeletions": "Roles eliminados",
+      "webhooks": "Webhooks creados"
+    }
   },
   "languages": {
     "ca": {

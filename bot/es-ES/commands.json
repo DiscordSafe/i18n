@@ -16,9 +16,27 @@
     "avatar": "Avatar de {{user}}",
     "noAvatar": "**Error**, El usuario {{user}} no tiene avatar."
   },
+  "antinuke": {
+    "setlimit": {
+      "done": "Se ha establecido el límite de **{{limit}} {{action}}** en **1 minuto**."
+    },
+    "setpunishment": {
+      "done": "La sanción que daré cuando se alcance un límite será **{{punishment}}**."
+    },
+    "showconfig": {
+      "embedAuthor": "Configuración del anti-nuke en {{guild}}",
+      "embedDescription": "El limitador de acciones o anti-nuke limita las acciones administrativas que los usuarios pueden realizar en 1 minuto.\nSi se alcanza un límite el bot sancionará al usuario *(lo expulsa por defecto)* y avisará al dueño/a y en el canal de logs de moderación *(configurable con `/logs set`)*.\nEl dueño del servidor y el propio bot son los únicos ignorados.",
+      "punishment": "Castigo",
+      "limits": "**+{{limit}} {{action}}** en **1 minuto**."
+    },
+    "toggle": {
+      "enabled": "Se ha activado correctamente.",
+      "disabled": "Se ha desactivado correctamente."
+    }
+  },
   "antiraid": {
     "setup": {
-      "embedAuthor": "Configuración del antiraid en {{guild}}",
+      "embedAuthor": "Configuración del anti-raid en {{guild}}",
       "embedDescription": "El antiraid ofrece un sistema avanzado contra selfbots *(cuentas de usuarios automatizadas para enviar spam)*.",
       "explained": "\n• El bot baneará si entran más de **{{amount}}** usuarios en **{{time}}**.\n• El bot baneará a los usuarios con invitaciones en el nombre.",
       "moreInfo": "\n\n>>> Si quieres más seguridad configura lo siguiente:\n• La verificación, `/verification setup`.\n• El filtro de no avatar, `/verification noavatar toggle`\n• El mínimo de edad de las nuevas cuentas, `/verification minage set`.",

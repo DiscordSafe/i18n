@@ -35,6 +35,36 @@
       }
     }
   },
+  "antinuke": {
+    "description": "Configuración del anti-nuke",
+    "options": {
+      "setlimit": {
+        "description": "Limita una acción",
+        "options": {
+          "action": {
+            "description": "Acción que limitar"
+          },
+          "limit": {
+            "description": "El límite a establecer"
+          }
+        }
+      },
+      "setpunishment": {
+        "description": "Establece la sanción a tomar cuando se alcanza un límite",
+        "options": {
+          "punishment": {
+            "description": "Seleccione el castigo a establecer"
+          }
+        }
+      },
+      "showconfig": {
+        "description": "Muestra la configuración"
+      },
+      "toggle": {
+        "description": "Activa o desactiva el módulo"
+      }
+    }
+  },
   "antiraid": {
     "description": "Configuración del anti-raid",
     "options": {
