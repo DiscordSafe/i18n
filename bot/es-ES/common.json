@@ -168,7 +168,9 @@
       "userRemovals": "expulsó al usuario **{{targetName}}** ({{targetId}})",
       "roleCreations": "creó el rol **@{{targetName}} **({{targetId}})",
       "roleDeletions": "eliminó el rol **@{{targetName}}** ({{targetId}})",
-      "webhooks": "creó el webhook **{{targetName}}** ({{targetId}})"
+      "webhooks": "creó el webhook **{{targetName}}** ({{targetId}})",
+      "givingDangerousPerms": "dio un permiso peligroso",
+      "botInvites": "invitó al bot **{{targetName}}** ({{targetId}})"
     },
     "limitsTypes": {
       "channelCreations": "Canales creados",
@@ -177,7 +179,9 @@
       "userRemovals": "Usuarios expulsados o baneados",
       "roleCreations": "Roles creados",
       "roleDeletions": "Roles eliminados",
-      "webhooks": "Webhooks creados"
+      "webhooks": "Webhooks creados",
+      "givingDangerousPerms": "Dar permisos peligrosos",
+      "botInvites": "Invitar a un bot"
     }
   },
   "languages": {

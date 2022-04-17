@@ -18,6 +18,7 @@
   },
   "antinuke": {
     "setlimit": {
+      "premium": "Este límite es premium, consigue premium usando `/premium`.",
       "done": "Se ha establecido el límite de **{{limit}} {{action}}** en **1 minuto**."
     },
     "setpunishment": {
