@@ -158,7 +158,7 @@
     "limitExceded": "{{time}} | <@{{executorId}}> ({{executorId}}) {{description}}.",
     "embedTitle": "🚨 Límite alcanzado",
     "ownerDesc": "Se ha alcanzado el límite de **+{{count}} {{limitType}}** en **1 minuto**.",
-    "executorDesc": "Será expulsado o baneado del servidor como medida preventiva.",
+    "executorDesc": "Será sancionado como medida preventiva.",
     "executorFooter": "Le llega este mensaje porque usted realizó la acción.",
     "ownerFooter": "Le llega este mensaje porque usted es dueño/a del servidor {{guildName}}.",
     "actionTypes": {
