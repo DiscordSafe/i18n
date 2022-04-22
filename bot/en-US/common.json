@@ -2,7 +2,7 @@
     "AntiSpam": {
         "MuteMessage": "{{emojiMute}} **[Anti-Spam]** You have been muted for sending so many messages.",
         "MuteRoleCreated": "I have created the **Muted** role because a Muted role was not found.",
-        "WarnMessage": "{{emojiWarn}} **[Anti-Spam]** Please don't send so many messages.",
+        "WarnMessage": "{{emojiWarn}} **[Anti-Spam]** Please do not send so many messages.",
         "errorMute": "Oops, I don't have enough permissions to mute {{user}}.",
         "muteEmbedAuthor": "AutoMute",
         "muteEmbedField1": "Muted member:",
@@ -102,7 +102,51 @@
     "noreason": "No reason",
     "none": "None",
     "AutoMod": {
-        "logContent": "# ID: {{message.id}}\n# Date: {{date}} ({{message.createdTimestamp}})\n# Filtros infringidos: {{filters}}\n{{message.content}}"
+        "logContent": "# ID: {{message.id}}\n# Date: {{date}} ({{message.createdTimestamp}})\n# Infringed filter: {{filters}}\n{{message.content}}",
+        "reportContent": "# Infringement report\n# Generated:{{date}} ({{dateUnix}})\n# Server: {{guild.name}} ({{guild.id}})\n# Author:{{author.username}} ({{author.id}})\n\n",
+        "lastMessage": "Last Message",
+        "warn": {
+            "blockword": "This word is blocked",
+            "blocklink": "This link is blocked.",
+            "scam": "Fraudulent links are not allowed.",
+            "invite_cooldown": "You can't send invitations that often.",
+            "image_cooldown": "You can't send images that often.",
+            "invites": "Invitations to other discord servers are not allowed.",
+            "iploggers": "**[Anti Iplogger Avanzado]**No iploggers are allowed.",
+            "images": "**[Filtro Imágenes Premium]**NSFW content is not allowed outside of NSFW channels.",
+            "repeated_words": "No repeated words are allowed.",
+            "max_lines": "Don't send too many lines!",
+            "max_mentions": "Don't make too many mentions!",
+            "max_emojis": "Don't send too many emojis!",
+            "link_cooldown": "You can't send links so often.",
+            "flood": "Do not send messages so fast.",
+            "caps": "No so many capital letters allowed, don't yell at me please. 😔",
+            "malware": "Malicious links are not allowed.",
+            "phishing": "No phishing links are allowed.",
+            "porn": "Pornography links are not allowed."
+        },
+        "actionReason_one": "🚨Action taken by Automod.\n{{infractions}} infringement in {{time}} seconds.",
+        "actionReason_other": "🚨Action taken by Automod.\n{{infractions}} infringement in {{time}} seconds."
     },
-    "total": "Total"
+    "total": "Total",
+    "enabled": "Enabled",
+    "disabled": "Disabled",
+    "punishment": {
+        "filterTypes": {
+            "flood": "Flood",
+            "max_lines": "Max. lines per message",
+            "caps": "Capital letters",
+            "all": "All the filters",
+            "invites": "Invitations",
+            "iploggers": "IPloggers",
+            "images": "Images",
+            "blockword": "Blocked words",
+            "scam": "Scam",
+            "repeated_words": "Repeated words",
+            "blocklink": "Blocked links",
+            "malware": "Malware",
+            "phishing": "Phishing",
+            "porn": "Pornography"
+        }
+    }
 }
