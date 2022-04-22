@@ -322,5 +322,32 @@
     },
     "setup": {
         "description": "Setup the bot settings in a simple way with reactions and buttons."
+    },
+    "antinuke": {
+        "description": "Anti-nuke configuration",
+        "options": {
+            "setlimit": {
+                "description": "Limits an action",
+                "options": {
+                    "action": {
+                        "description": "Action to limit"
+                    },
+                    "limit": {
+                        "description": "The limit to be established"
+                    }
+                }
+            },
+            "setpunishment": {
+                "description": "Establishes the sanction to be taken when a limit is reached",
+                "options": {
+                    "punishment": {
+                        "description": "Select the punishment to set"
+                    }
+                }
+            },
+            "showconfig": {
+                "description": "Displays the configuration"
+            }
+        }
     }
 }
