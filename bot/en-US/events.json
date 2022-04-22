@@ -55,7 +55,8 @@
         "minAgeReason": "Minimum account creation time.",
         "antiRaidReason": "Anti-raid protection",
         "noAvatarKick": "You have been kicked from the server **{{server}}** because you have the default avatar, change it and try again.",
-        "why": "Why?"
+        "why": "Why?",
+        "noAvatarReason": "Default avatar."
     },
     "guildMemberRemove": {
         "badges": "Badges",
