@@ -67,7 +67,12 @@
         "errorNoContent": "**Error**, the message does not have content that can be blocked.",
         "errorRepeated_one": "**Error**, the word `{{word}}` is already blocked.",
         "errorRepeated_other": "**Error**, the words `{{word}}` are already blocked.",
-        "errorSanitize": "**Error**, the word is invalid."
+        "errorSanitize": "**Error**, the word is invalid.",
+        "whitelist": {
+            "errorAlreadyWhitelisted": "**Error**, that word is already whitelisted.",
+            "added": "Word successfully added to the whitelist.",
+            "errorNotWhitelisted": "**Error**, this word isn't on the whitelist."
+        }
     },
     "botinfo": {
         "info": "About D-Safe",
