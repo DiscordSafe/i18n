@@ -71,7 +71,7 @@
         "whitelist": {
             "errorAlreadyWhitelisted": "**Error**, that word is already whitelisted.",
             "added": "Word successfully added to the whitelist.",
-            "errorNotWhitelisted": "**Error**, this word isn't on the whitelist.",
+            "errorNotWhitelisted": "**Error**, that word isn't on the whitelist.",
             "removed": "Word successfully removed from the whitelist."
         }
     },
