@@ -50,7 +50,12 @@
         "captchacTitle": "Thanks!",
         "creación": "Created",
         "kick": "Verification not completed.",
-        "nuevoUsuario": "New user"
+        "nuevoUsuario": "New user",
+        "minAgeKick": "You have been kicked from the server **{{server}}** because the age of your account does not exceed the minimum of **{{age}}**.",
+        "minAgeReason": "Minimum account creation time.",
+        "antiRaidReason": "Anti-raid protection",
+        "noAvatarKick": "You have been kicked from the server **{{server}}** because you have the default avatar, change it and try again.",
+        "why": "Why?"
     },
     "guildMemberRemove": {
         "badges": "Badges",
