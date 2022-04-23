@@ -45,6 +45,9 @@
             },
             "--save": {
                 "description": "Whether to save the user's messages or delete all of them"
+            },
+            "time": {
+                "description": "The time that is going to be banned"
             }
         }
     },
@@ -121,6 +124,29 @@
             },
             "reset": {
                 "description": "Clears the list of blocked words"
+            },
+            "whitelist": {
+                "options": {
+                    "add": {
+                        "description": "Add a word to the whitelist",
+                        "options": {
+                            "word": {
+                                "description": "The word to add"
+                            }
+                        }
+                    },
+                    "remove": {
+                        "description": "Remove a word from the whitelist",
+                        "options": {
+                            "word": {
+                                "description": "The word that is going to be removed"
+                            }
+                        }
+                    },
+                    "list": {
+                        "description": "Show the whitelist of words"
+                    }
+                }
             }
         }
     },
@@ -132,12 +158,22 @@
     "case": {
         "description": "Displays the information of a moderation case",
         "example": "5",
-        "usage": "[Case ID]"
+        "usage": "[Case ID]",
+        "options": {
+            "caseid": {
+                "description": "The number identificative of the case"
+            }
+        }
     },
     "cases": {
         "description": "Displays the list of server moderation cases",
         "example": "",
-        "usage": "<@User>"
+        "usage": "<@User>",
+        "options": {
+            "user": {
+                "description": "Filter for the cases of this user"
+            }
+        }
     },
     "changelog": {
         "description": "Displays the latest changelog.",
@@ -155,7 +191,77 @@
     "clear": {
         "description": "Deletes a number of messages",
         "example": "@Seyron#5532 15\nmatch RAID 100",
-        "usage": "[Amount(2-100)]\n[@User/User ID] [Amount(2-100)]\nall\nmatch [Text] [Amount(2-100)]\nnot [Text] [Amount(2-100)]\nstartswith [Text] [Amount(2-100)]\nendswith [Text] [Amount(2-100)]\nlinks [Amount(2-100)]\ninvites [Amount(2-100)]\nimages [Amount(2-100)]\nmentions [Amount(2-100)]\nembeds [Amount(2-100)]\nbots [Amount(2-100)]\nbefore [Message ID] [Amount(2-100)]\nafter [Message ID] [Amount(2-100)]\naround [Message ID] [Amount(2-100)]"
+        "usage": "[Amount(2-100)]\n[@User/User ID] [Amount(2-100)]\nall\nmatch [Text] [Amount(2-100)]\nnot [Text] [Amount(2-100)]\nstartswith [Text] [Amount(2-100)]\nendswith [Text] [Amount(2-100)]\nlinks [Amount(2-100)]\ninvites [Amount(2-100)]\nimages [Amount(2-100)]\nmentions [Amount(2-100)]\nembeds [Amount(2-100)]\nbots [Amount(2-100)]\nbefore [Message ID] [Amount(2-100)]\nafter [Message ID] [Amount(2-100)]\naround [Message ID] [Amount(2-100)]",
+        "options": {
+            "basic": {
+                "options": {
+                    "quantity": {
+                        "options": {
+                            "user": {
+                                "description": "Filter for the messages of a user"
+                            },
+                            "quantity": {
+                                "description": "The quantity to delete"
+                            }
+                        },
+                        "description": "Delete a quantity of messages"
+                    }
+                }
+            },
+            "advanced": {
+                "options": {
+                    "not": {
+                        "description": "Delete the messages that not contains the text indicated"
+                    },
+                    "startswith": {
+                        "description": "Delete the messages that starts with the text indicated"
+                    },
+                    "images": {
+                        "description": "Delete images"
+                    },
+                    "mentions": {
+                        "description": "Delete mentions"
+                    },
+                    "embeds": {
+                        "description": "Delete embeds"
+                    },
+                    "bots": {
+                        "description": "Delete messages from bots"
+                    },
+                    "before": {
+                        "description": "Delete the messages that are older than the indicated message",
+                        "options": {
+                            "messageid": {
+                                "description": "Filter using the ID of a message"
+                            }
+                        }
+                    },
+                    "endswith": {
+                        "description": "Delete the messages that end with the text indicated"
+                    },
+                    "links": {
+                        "description": "Delete links"
+                    },
+                    "invites": {
+                        "description": "Delete invites"
+                    },
+                    "around": {
+                        "description": "Delete the messages near the indicated message"
+                    },
+                    "match": {
+                        "options": {
+                            "text": {
+                                "description": "Filter using this text"
+                            }
+                        },
+                        "description": "Delete the messages that contains the text indicated"
+                    },
+                    "after": {
+                        "description": "Delete the messages that are newer than the indicated message"
+                    }
+                }
+            }
+        }
     },
     "clearbans": {
         "description": "Removes server bans.",
@@ -165,7 +271,12 @@
     "clearwarn": {
         "description": "Removes warnings",
         "example": "43das78",
-        "usage": "<Code> / all"
+        "usage": "<Code> / all",
+        "options": {
+            "all": {
+                "description": "Delete all the suggestions"
+            }
+        }
     },
     "commands": {
         "description": "Displays the list of commands",
@@ -313,7 +424,15 @@
     },
     "delrole": {
         "description": "Deletes the mentioned role.",
-        "example": "@TestRole"
+        "example": "@TestRole",
+        "options": {
+            "reason": {
+                "description": "Reason why the role is deleted"
+            },
+            "role": {
+                "description": "Rol thats going to be deleted"
+            }
+        }
     },
     "emoji": {
         "description": "Displays the emoji in large.",
@@ -347,6 +466,28 @@
             },
             "showconfig": {
                 "description": "Displays the configuration"
+            },
+            "toggle": {
+                "description": "Enable or disable the module"
+            }
+        }
+    },
+    "cooldown": {
+        "description": "Change the time of the slow mode of a channel",
+        "options": {
+            "channel": {
+                "description": "Text channel to use"
+            },
+            "cooldown": {
+                "description": "The time to establish"
+            }
+        }
+    },
+    "antiraid": {
+        "description": "Config of the anti-raid",
+        "options": {
+            "setup": {
+                "description": "Config the anti-raid"
             }
         }
     }
