@@ -46,7 +46,9 @@
         "warn": "Member warned",
         "unlock": "Channel unlocked",
         "lock": "Channel blocked",
-        "until": "Until"
+        "until": "Until",
+        "filters": "Infringed filters",
+        "dangerousLinkWarning": "🚨 Beware! The message may contain malicious links, this kind of websites can steal your personal information, account or passwords."
     },
     "no": "No",
     "notFound": "It has not been found.",
@@ -146,7 +148,28 @@
             "blocklink": "Blocked links",
             "malware": "Malware",
             "phishing": "Phishing",
-            "porn": "Pornography"
+            "porn": "Pornography",
+            "max_emojis": "Maximum emojis per message",
+            "link_cooldown": "Link cooldown",
+            "max_mentions": "Maximum mentions per message",
+            "invite_cooldown": "Invites cooldown",
+            "image_cooldown": "Images cooldown"
+        },
+        "actionTypes": {
+            "remove_roles": "Remove roles",
+            "delete": "Delete",
+            "delete_and_warn": "Delete and warn",
+            "warn": "Warn",
+            "kick": "Kick",
+            "mute": "Mute",
+            "softban": "Ban and unban (softban)",
+            "ban": "Ban",
+            "slowmode": "Set slow mode on channel",
+            "lock": "Lock channel"
         }
+    },
+    "actionLimiter": {
+        "limitExceded": "{{time}} | <@{{executorId}}> ({{executorId}}) {{description}}.",
+        "embedTitle": "🚨 Limit reached"
     }
 }
