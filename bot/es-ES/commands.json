@@ -524,8 +524,6 @@
       "image": "https://i.imgur.com/ee7uS79.png"
     },
     "safer": {
-      "author": "¡Felicidades! Has obtenido D-Safe Premium",
-      "desc": "Ahora podrás canjear este beneficios en un servidor usando `/{{commandName}} redeem` dentro del servidor donde quieras canjearlo.",
       "field1": "Servidor",
       "field3": "Nivel",
       "footer": "Muchas gracias por apoyar el desarrollo de D-Safe <3",
@@ -534,18 +532,11 @@
       "multiplePremiums": "Selección de premium",
       "multiplePremiums_description": "Tienes varios premiums, debes selecciona uno para canjear en este servidor."
     },
-    "errorNoRepeated": "**Error**, en este servidor ya se ha canejado un premium.",
+    "errorNoRepeated": "**Error**, en este servidor ya se ha canjeado premium.",
     "noEstablecido": "No establecido.",
-    "infinito": "Infinito.",
-    "canjeado": "El premium ha sido canjeado exitosamente en {{server}}.",
-    "errorNoPremium": "No eres premium, [¿a qué estás esperando?](https://discordsafe.com/premium)",
-    "errorAllRedeem": "**Error**, todos los premiums los tiene canjeados.",
-    "errorNoServidor": "Debes de estar en nuestro servidor, https://discordsafe.com/discord.",
-    "errorPartner": "Eres partner y no puede canjear su premium en otro lado.",
+    "canjeado": "El premium ha sido canjeado exitosamente en **{{server}}**.",
     "infoAuthor_one": "Premium de {{user}}",
-    "infoAuthor_other": "Premiums de {{user}}",
-    "noArgsDes": "Obtén una tonelada de beneficios para mejorar tu comunidad.",
-    "saferErrorBadRequest": "Ha ocurrido un error, intente de nuevo."
+    "infoAuthor_other": "Premiums de {{user}}"
   },
   "reason": {
     "noCase": "**Error**, no se ha encontrado el caso, comprueba que el ID del caso sea correcto.",
