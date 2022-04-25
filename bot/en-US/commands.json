@@ -72,7 +72,11 @@
             "errorAlreadyWhitelisted": "**Error**, that word is already whitelisted.",
             "added": "Word successfully added to the whitelist.",
             "errorNotWhitelisted": "**Error**, that word isn't on the whitelist.",
-            "removed": "Word successfully removed from the whitelist."
+            "removed": "Word successfully removed from the whitelist.",
+            "listTitle": "Whitelisted words on {{guild}}",
+            "errorExactWord": "**Error**, you can’t add a blocked word to the whitelist if both words are exactly the same. It must be a word that contains a blocked word, for example if you want to block `nig` while allowing `Nigeria`.",
+            "errorIsNotIncludedInABlockedWord": "**Error**, you must add a word that contains a blocked word, for example if you want to block `nig` while allowing `Nigeria`.",
+            "errorWhitelistEmpty": "**Error**, whitelist is empty. Add a word by using `/blockword whitelist add`."
         }
     },
     "botinfo": {
@@ -171,7 +175,76 @@
         "ignoreRl": "The role <@&{{role}}> has been __ignored__ from the **{{filter}}** filter.",
         "unIgnoreCh": "The channel <#{{channel}}> has been __no longer ignored__ on the **{{filter}}** filter.",
         "unIgnoreRl": "The role <@&{{role}}> has been __no longer ignored__ on the **{{filter}}** filter.",
-        "enabledAndSet": "The filter **{{filter}}** has been activated successfully with the level **{{level}}**."
+        "enabledAndSet": "The filter **{{filter}}** has been activated successfully with the level **{{level}}**.",
+        "setup": {
+            "embedAuthor": "Filters settings",
+            "selectText": "Select message filters",
+            "IMAGES": {
+                "name": "Images",
+                "description": "Deletes images containing explicit material outside NFSW channels."
+            },
+            "INVITES": {
+                "name": "Invite links",
+                "description": "Deletes invite links from other Discord guilds."
+            },
+            "IPLOGGERS": {
+                "name": "IPloggers",
+                "description": "Deletes malicious links which collect IP addresses from users."
+            },
+            "SCAM": {
+                "description": "Deletes fraudulent links which pretend to be Discord to steal accounts and information.",
+                "name": "Scams"
+            },
+            "LINK_COOLDOWN": {
+                "name": "Links cooldown",
+                "description": "Limits how many links can be sent on x seconds."
+            },
+            "FLOOD": {
+                "name": "Flood",
+                "description": "Deletes quickly sent messages."
+            },
+            "REPEATED_WORDS": {
+                "name": "Repeated words",
+                "description": "Deletes messages with various repeated words."
+            },
+            "CAPS": {
+                "description": "Deletes messages with excessive capital letters.",
+                "name": "Capital letters"
+            },
+            "MALWARE": {
+                "name": "Malware",
+                "description": "Deletes links which download viruses and malicious software."
+            },
+            "PHISHING": {
+                "name": "Phishing",
+                "description": "Deletes fraudulent links which collect personal information."
+            },
+            "INVITE_COOLDOWN": {
+                "name": "Invite links cooldowns",
+                "description": "Limits how many invite links can be sent on x seconds."
+            },
+            "IMAGE_COOLDOWN": {
+                "name": "Images cooldown",
+                "description": "Limits how many images can be sent on x seconds."
+            },
+            "PORN": {
+                "name": "Porn",
+                "description": "Blocks links to adult websites."
+            },
+            "embedDescription": "Select a filter to enable it or unselect it to disable it.\n\nSelectors are divided by filter type:\n{{one}} Message filters.\n{{two}} Link filters.",
+            "selectLinks": "Select link filters"
+        },
+        "showconfig": {
+            "embedAuthor": "Filter settings on {{guildName}}",
+            "embedDescription": "Current settings of the filters\n• Use `/filter setup` to toggle filters.\n• Use `/filter config` to customize the settings.",
+            "enabledFilters": "Enabled filters",
+            "relativeTime": "{{value}} on {{time}}"
+        },
+        "config": {
+            "errorNoFilters": "**Error**, no filters are enabled, you must enable them first with `/filter setup`.",
+            "errorNoOptions": "**Error**, you haven’t selected any option.",
+            "success": "Settings applied successfully."
+        }
     },
     "genpassword": {
         "contraseña": "Password",
@@ -778,6 +851,35 @@
     "punishment": {
         "remove": {
             "select": "Select one or more punishments"
+        }
+    },
+    "antinuke": {
+        "showconfig": {
+            "limitsField": "Limits",
+            "embedAuthor": "Anti-nuke settings on {{guild}}",
+            "embedDescription": "Actions limiter or anti-nuke limits the administrative actions that can be performed in 1 minute.\nif a limit is reached the bot will punish the user *(kicks them by default)* and alert the owner using the moderation logs channel *(configurable with `/logs set`)*.\nGuild’s owner and the bot are the only one ignored.",
+            "punishment": "Punishment",
+            "limits": "**+{{limit}} {{action}}** in **1 minute**.",
+            "notEnabled": "**Error**, anti-nuke is disabled, use `/antinuke toggle` to enable it."
+        },
+        "setpunishment": {
+            "done": "The punishment I will give once a limit is reached will be **{{punishment}}**."
+        },
+        "toggle": {
+            "enabled": "Enabled successfully.",
+            "disabled": "Disabled successfully."
+        },
+        "setlimit": {
+            "premium": "This limit is premium, get premium by using `/premium`."
+        }
+    },
+    "antiraid": {
+        "setup": {
+            "embedAuthor": "Anti-raid settings on {{guild}}",
+            "users": "users",
+            "embedDescription": "Antiraid offers an advanced system against selfbots *(automated user accounts used to send spam)*.",
+            "explained": "\n• Bot will ban if more than **{{amount}}** users join the server in **{{time}}**.\n• Bot will ban users whose username has invite links on it.",
+            "moreInfo": "\n\n>>> For further security enable the next settings:\n• Verification, `/verification setup`.\n• No avatar filter, `/verification noavatar toggle`.\n• Minimum age filter for new accounts, `/verification minage set`."
         }
     }
 }
