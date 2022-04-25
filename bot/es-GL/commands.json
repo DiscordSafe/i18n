@@ -246,11 +246,8 @@
     },
     "premium": {
         "canjeado": "",
-        "errorNoPremium": "",
         "errorNoServidor": "",
-        "errorPartner": "",
-        "noArgsDes": "",
-        "saferErrorBadRequest": ""
+        "noArgsDes": ""
     },
     "reason": {
         "noCase": "",

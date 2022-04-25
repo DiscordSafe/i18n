@@ -397,11 +397,8 @@
     },
     "premium": {
         "canjeado": "The premium has been successfully redeemed on {{server}}.",
-        "errorNoPremium": "You don't have premium, [what are you waiting for?] (Https://discordsafe.com/premium)",
         "errorNoServidor": "You must be on our server, https://discordsafe.com/discord.",
-        "errorPartner": "You are partner and can't redeem your premium in another server.",
         "infoAuthor_one": "Premium of {{user}}",
-        "noArgsDes": "It is a premium benefit for Partners, Safers and donors.",
         "saferErrorBadRequest": "An error has happened, try again.",
         "help": {
             "title": "D-Safe Premium",
@@ -412,7 +409,6 @@
         },
         "safer": {
             "field3": "Level",
-            "author": "Congratulations! You have obtained D-Safe Premium",
             "desc": "Now you will be able to redeem this benefit on a server using `/{{commandName}} redeem` inside the server where you want to redeem it.",
             "field1": "Server",
             "footer": "Thank you very much to support the development of D-Safe <3",
@@ -423,7 +419,6 @@
         },
         "errorNoRepeated": "**Error**, a premium has been already redeemed on this server.",
         "noEstablecido": "Not established.",
-        "infinito": "Infinite.",
         "errorAllRedeem": "**Error**, all the premiums have been redeemed.",
         "infoAuthor_other": "{{user}}'s premiums"
     },
