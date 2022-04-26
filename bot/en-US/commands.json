@@ -397,29 +397,23 @@
     },
     "premium": {
         "canjeado": "The premium has been successfully redeemed on {{server}}.",
-        "errorNoServidor": "You must be on our server, https://discordsafe.com/discord.",
         "infoAuthor_one": "Premium of {{user}}",
-        "saferErrorBadRequest": "An error has happened, try again.",
         "help": {
             "title": "D-Safe Premium",
-            "field1": "Benefits",
             "field1d": "• Advanced IPlogger filter.\n• NSFW images filter.\n• Suggestion manager role.\n• Custom color palette.\n• Suggestions-only channel.\n• Cooldown within suggestions.\n• Customized emojis in the reactions.\n• Lower response time.\n• Server boost logs.\n• Special badge.\n• Prioritary support.\n• Exclusive roles and channels.\n• Be part of the Testers program.",
             "desc": "Enhance your community with D-Safe Premium and support the development of the bot to bring better updates and features you expect.",
             "image": "https://i.imgur.com/ee7uS79.png"
         },
         "safer": {
             "field3": "Level",
-            "desc": "Now you will be able to redeem this benefit on a server using `/{{commandName}} redeem` inside the server where you want to redeem it.",
             "field1": "Server",
             "footer": "Thank you very much to support the development of D-Safe <3",
             "noReedem": "Not redeemed, use `/{{commandName}} redeem` on the server where you want to redeem it.",
-            "done": " <@{{user}}> has received its key, **congrats!**",
             "multiplePremiums": "Premium selection",
             "multiplePremiums_description": "You have several premiums, you must select one to redeem on this server."
         },
         "errorNoRepeated": "**Error**, a premium has been already redeemed on this server.",
         "noEstablecido": "Not established.",
-        "errorAllRedeem": "**Error**, all the premiums have been redeemed.",
         "infoAuthor_other": "{{user}}'s premiums"
     },
     "reason": {
