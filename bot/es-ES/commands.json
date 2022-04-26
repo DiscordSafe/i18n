@@ -518,25 +518,43 @@
   "premium": {
     "help": {
       "title": "D-Safe Premium",
-      "desc": "Mejora tu comunidad con D-Safe Premium y apoya el desarrollo del bot para poder traer mejores actualizaciones y con las características que esperas.",
-      "field1": "Beneficios",
-      "field1d": "• Filtro IPlogger Avanzado.\n• Filtro imágenes NSFW.\n• Rol encargado de sugerencias.\n• Paleta de colores customizada.\n• Canal solo para sugerencias.\n• Cooldown entre sugerencias.\n• Emojis customizados en las reacciones.\n• Menor tiempo de respuesta.\n• Logs de mejoras del servidor.\n• Insignia especial.\n• Soporte prioritario.\n• Roles y canales exclusivos.\n• Forma parte del programa de Testers.\n• Informes de infracciones.",
+      "desc": "Desbloquea D-Safe sin límites con las funciones más avanzadas para su comunidad.",
       "image": "https://i.imgur.com/ee7uS79.png"
     },
     "safer": {
       "field1": "Servidor",
       "field3": "Nivel",
-      "footer": "Muchas gracias por apoyar el desarrollo de D-Safe <3",
-      "noReedem": "No canjeado, use `/{{commandName}} redeem` en el servidor donde desee canjearlo.",
-      "done": " <@{{user}}> ha recibido su key, **¡felicidades!**",
+      "footer": "Muchas gracias por apoyar mi desarrollo D-Safe <3",
+      "noReedem": "No canjeado, use `/{{commandName}}` en el servidor donde desea canjearlo.",
       "multiplePremiums": "Selección de premium",
-      "multiplePremiums_description": "Tienes varios premiums, debes selecciona uno para canjear en este servidor."
+      "multiplePremiums_description": "Tienes varios premiums, debes seleccionar el que canjear en este servidor."
     },
     "errorNoRepeated": "**Error**, en este servidor ya se ha canjeado premium.",
     "noEstablecido": "No establecido.",
     "canjeado": "El premium ha sido canjeado exitosamente en **{{server}}**.",
-    "infoAuthor_one": "Premium de {{user}}",
-    "infoAuthor_other": "Premiums de {{user}}"
+    "info": {
+      "author_one": "Premium de {{user}}",
+      "author_other": "Premiums de {{user}}"
+    },
+    "buttons": {
+      "sub": "Suscribirse",
+      "sub1": "Premium en 1 servidor",
+      "sub3": "Premium en 3 servidores (12% descuento)",
+      "sub5": "Premium en 5 servidores (20% descuento)",
+      "info": "Información de su premium",
+      "redeem": "Canjear premium en este servidor",
+      "cancel": "Cancelar una suscripción"
+    },
+    "cancel": {
+      "errorStripe": "**Error**, no se ha podido obtener sus datos\nIntente de nuevo más tarde o [contacte con soporte](https://discordsafe.com/discord).",
+      "errorCanceling": "**Error**, no se ha podido procesar su cancelación correctamente.\nIntente de nuevo más tarde o [contacte con soporte](https://discordsafe.com/discord).",
+      "sureTitle": "¿De verdad quiere cancelar su suscripcion? (´。＿。｀)",
+      "sureDesc": "`Su suscripción de **{{amount}}** será cancelada **inmediatamente** y no se procesará su próximo pago. Su suscripción a premium acabará el **{{date}}**.",
+      "done": "Se ha cancelado su suscripción correctamente, esperamos volver a verle. :(\nSu suscripción acabará el **{{date}}**.",
+      "selectTitle": "Selección de suscripción",
+      "selectDesc": "Como tienes varias suscripciones activas debe seleccionar la que desea cancelar.",
+      "selectPlaceholder": "Seleccione una suscripción"
+    }
   },
   "reason": {
     "noCase": "**Error**, no se ha encontrado el caso, comprueba que el ID del caso sea correcto.",
