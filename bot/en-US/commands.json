@@ -397,10 +397,8 @@
     },
     "premium": {
         "canjeado": "The premium has been successfully redeemed on {{server}}.",
-        "infoAuthor_one": "Premium of {{user}}",
         "help": {
             "title": "D-Safe Premium",
-            "field1d": "• Advanced IPlogger filter.\n• NSFW images filter.\n• Suggestion manager role.\n• Custom color palette.\n• Suggestions-only channel.\n• Cooldown within suggestions.\n• Customized emojis in the reactions.\n• Lower response time.\n• Server boost logs.\n• Special badge.\n• Prioritary support.\n• Exclusive roles and channels.\n• Be part of the Testers program.",
             "desc": "Enhance your community with D-Safe Premium and support the development of the bot to bring better updates and features you expect.",
             "image": "https://i.imgur.com/ee7uS79.png"
         },
@@ -413,8 +411,7 @@
             "multiplePremiums_description": "You have several premiums, you must select one to redeem on this server."
         },
         "errorNoRepeated": "**Error**, a premium has been already redeemed on this server.",
-        "noEstablecido": "Not established.",
-        "infoAuthor_other": "{{user}}'s premiums"
+        "noEstablecido": "Not established."
     },
     "reason": {
         "noCase": "**Error**, the case was not found, check that the case ID is correct.",
