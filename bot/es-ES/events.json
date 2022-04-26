@@ -110,7 +110,9 @@
     "infoPrefix": "Hola 👋, \nMi prefijo en este servidor es: \n`{{prefix}}`"
   },
   "messageDelete": {
-    "título": "Mensaje eliminado"
+    "título": "Mensaje eliminado",
+    "reply": "En respuesta a {{user}}",
+    "seeReply": "Ver mensaje respondido"
   },
   "messageDeleteBulk": {
     "canal": "Canal",
