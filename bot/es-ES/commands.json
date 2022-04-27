@@ -447,6 +447,22 @@
       "title": "Guía de configuración paso a paso"
     }
   },
+  "modroles": {
+    "add": {
+      "errorAlreadyAdded": "**Error**, ese rol ya está añadido, puedes quitarlo con `/modroles remove`.",
+      "errorLimit": "**Error**, el límite de roles moderadores es de 20, ¡¿qué loco pondría más?!",
+      "errorEveryone": "Oh no amigo, no puedes añadir al rol de @everyone como rol moderador, estás loco.",
+      "done": "El rol <@&{{role}}> ha sido añadido a la lista de roles moderadores, ahora los miembros con este rol podrán usar los comandos de moderación."
+    },
+    "remove": {
+      "errorNotAdded": "**Error**, ese rol no está en la lista de roles moderadores, puede agregarlo con `/modroles add`.",
+      "done": "El rol <@&{{role}}> ha sido retirado de la lista de roles moderadores."
+    },
+    "list": {
+      "errorEmpty": "**Error**, no hay roles moderadores establecidos, añada uno con `/modroles add`.",
+      "embedAuthor": "Roles de moderadores en {{guildName}}"
+    }
+  },
   "punishment": {
     "error": "**Error**, ha ocurrido un error, intente de nuevo más tarde.",
     "errorDuplicated": "**Error**, ese castigo ya está añadido.",

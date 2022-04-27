@@ -595,6 +595,30 @@
       }
     }
   },
+  "modroles": {
+    "description": "Gestiona los roles moderadores",
+    "options": {
+      "add": {
+        "description": "Añade un rol moderador",
+        "options": {
+          "role": {
+            "description": "El rol a añadir, este rol podrá usar los comandos de moderación"
+          }
+        }
+      },
+      "remove": {
+        "description": "Retira un rol moderador",
+        "options": {
+          "role": {
+            "description": "El rol a retirar"
+          }
+        }
+      },
+      "list": {
+        "description": "Muestra una lista de los roles moderadores"
+      }
+    }
+  },
   "punishment": {
     "description": "Configura los castigos del AutoMod",
     "options": {
