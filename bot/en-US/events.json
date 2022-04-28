@@ -77,9 +77,7 @@
         "unboostDesc": "<@{{memberID}}> Thanks for supporting this server, we hope to see you again.",
         "unboostTitle": "A boost has over :(",
         "autopremium": {
-            "description": "Thank you very much for supporting my development, you contribute so that I can continue to stay stable and update with better features.\n- Developers <3.\n\nNow you just have to link the premium to a server using `/premium`.",
-            "title_one": "¡You have obtained premium!",
-            "title_other": "¡You have obtained {{count}} premiums!"
+            "title_one": "¡You have obtained premium!"
         },
         "timeout": "Temporary isolation changed"
     },

@@ -71,9 +71,7 @@
         "unboostTitle": "S'ha acabat un boost :(",
         "boostDesc": "<@{{memberID}}> gràcies per donar suport a aquest servidor amb el teu boost. <3",
         "autopremium": {
-            "title_one": "Has obtingut premium!",
-            "title_other": "Has obtingut {{count}} premiums!",
-            "description": "Moltes gràcies per donar suport al meu desenvolupament, contribueixes al fet que pugui continuar mantenint-me estable i actualitzant-me amb millors característiques.\n- Els desenvolupadors <3.\n\nAra només has de vincular el premium a un servidor usant `/premium`."
+            "title_other": "Has obtingut {{count}} premiums!"
         }
     },
     "guildUpdate": {
