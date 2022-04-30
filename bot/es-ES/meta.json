@@ -353,6 +353,33 @@
       }
     }
   },
+  "lockdown": {
+    "description": "Bloquea multiples canales",
+    "options": {
+      "add": {
+        "description": "Agrega un canal a la lista de canales bloqueados",
+        "options": {
+          "channel": {
+            "description": "El canal a agregar"
+          }
+        }
+      },
+      "remove": {
+        "description": "Retira un canal a la lista de canales bloqueados",
+        "options": {
+          "channel": {
+            "description": "El canal a retirar"
+          }
+        }
+      },
+      "list": {
+        "description": "Muestra la lista de canales bloqueados"
+      },
+      "toggle": {
+        "description": "Bloquea o desbloquea los canales en la lista"
+      }
+    }
+  },
   "commands": {
     "description": "Muestra la lista de comandos",
     "example": "",

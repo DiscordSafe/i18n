@@ -180,6 +180,26 @@
     "warnServer": "Se han eliminado todas las advertencias del servidor.",
     "warnUser": "Se han eliminado todas las advertencias de {{user}}."
   },
+  "lockdown": {
+    "add": {
+      "errorAlreadyAdded": "**Error**, ese canal ya está en la lista.",
+      "done": "El canal <#{{channel}}> ha sido añadido a la lista de canales bloqueados correctamente.\nAhora si pones `/lockdown toggle` bloquearé este canal junto con el resto de la lista."
+    },
+    "list": {
+      "embedAuthor": "Canales en la lista de canales bloqueados en {{guildName}}",
+      "embedFooter": "Usa /lockdown toggle para bloquear todos estos canales"
+    },
+    "remove": {
+      "errorEmpty": "**Error**, la lista de canales bloqueados está vacía.",
+      "errorNotAdded": "**Error**, ese canal no está en la lista de canales bloqueados.\nPuedes añadilo con `/lockdown add`.",
+      "done": "El canal <#{{channel}}> ha sido retirado de la lista de canales bloqueados correctamente."
+    },
+    "toggle": {
+      "lock": "Se han bloqueado los canales correctamente.",
+      "failedChannels": "No pude bloquear los canales {{failedChannels}} porque ya estaban bloqueados o no existen.",
+      "unlock": "Se han desbloqueado los canales correctamente."
+    }
+  },
   "commands": {
     "title": "Lista de comandos",
     "description": "**Prefijo:** `{{prefix}}`\n**Escriba `{{prefix}}help [comando]` para ver información sobre el comando.**",
