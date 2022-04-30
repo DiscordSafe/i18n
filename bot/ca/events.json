@@ -69,10 +69,7 @@
         "rolremoved": "Rol retirat",
         "unboostDesc": "<@{{memberID}}> gràcies per haver donat suport a aquest servidor, tant de bo tornar-te a veure.",
         "unboostTitle": "S'ha acabat un boost :(",
-        "boostDesc": "<@{{memberID}}> gràcies per donar suport a aquest servidor amb el teu boost. <3",
-        "autopremium": {
-            "title_other": "Has obtingut {{count}} premiums!"
-        }
+        "boostDesc": "<@{{memberID}}> gràcies per donar suport a aquest servidor amb el teu boost. <3"
     },
     "guildUpdate": {
         "afkcha": "Canal AFK (Abans)",

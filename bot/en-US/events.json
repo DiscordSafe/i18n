@@ -76,9 +76,6 @@
         "rolremoved": "Role removed",
         "unboostDesc": "<@{{memberID}}> Thanks for supporting this server, we hope to see you again.",
         "unboostTitle": "A boost has over :(",
-        "autopremium": {
-            "title_one": "¡You have obtained premium!"
-        },
         "timeout": "Temporary isolation changed"
     },
     "guildUpdate": {
