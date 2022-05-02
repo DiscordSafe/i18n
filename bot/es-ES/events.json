@@ -40,7 +40,7 @@
     "bot": "Bot",
     "captchaErrorIntentos": "**Ha alcanzado el límite de intentos**, no has completado la verificación así que serás expulsado.",
     "captchaErrorTiempo": "**Se ha acabado el tiempo**, no has pasado la verificación así que tendrás que ser expulsado.",
-    "captchaField1": "Antes de continuar, debes responder este **captcha**, hazlo para poder acceder al servidor. Tienes **{{intentos}} intentos** y **{{minutos}} minutos** para completarlo.",
+    "captchaField1": "Antes de continuar, debes responder este **captcha** para poder acceder al servidor. Tienes **{{intentos}} intentos** y **{{minutos}} minutos** para completarlo.",
     "captchaField2": "Esto es para proteger el servidor de los bots de spam y multicuentas.",
     "why": "¿Por qué?",
     "captchaFooter": "Invítame, discordsafe.com/invite",
@@ -56,7 +56,24 @@
     "nuevoUsuario": "Nuevo usuario",
     "noAvatarKick": "Ha sido expulsado del servidor **{{server}}** porque lleva el avatar por defecto, cámbielo e intente de nuevo.",
     "noAvatarReason": "Avatar por defecto.",
-    "antiRaidReason": "Protección anti-raid"
+    "antiRaidReason": "Protección anti-raid",
+    "modalCaptcha": {
+      "desc": "Antes de continuar, debes responder un **captcha**, haz click en el botón de **\"Recibir captcha\"** para resolverlo y acceder al servidor.",
+      "errorNotCompleted": "**Error**, la configuración de la verificación no está completada.",
+      "errorNoRoles": "**Error**, no encuentro el rol de usuario o el de no verificado.",
+      "errorAlreadyVerified": "**Error**, ya estás verificado.",
+      "next": "Continuar",
+      "genCaptchaDesc": "Cuando estés listo, puedes darle a **continuar** para resolver el captcha.",
+      "modalTitle": "Verificación",
+      "modalLabel": "Resultado del captcha",
+      "modalPlaceholder": "Escriba aquí los caracteres que ve en la imagen",
+      "errorTooLong": "**Error**, Has tardado demasiado en responder, intenta de nuevo.",
+      "completed": "Has completado el captcha correctamente.",
+      "kickReason": "Captcha no completado.",
+      "maxAttempts": "Has superado el máximo de intentos, serás expulsado.",
+      "errorWrong": "**Error**, el captcha es incorrecto, intente de nuevo.",
+      "errorNotValid": "**Error**, este botón para verificarse ya no es válido, el canal de verificación se ha movido."
+    }
   },
   "guildMemberRemove": {
     "badges": "Insignias",
