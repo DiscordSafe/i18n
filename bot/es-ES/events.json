@@ -58,7 +58,7 @@
     "noAvatarReason": "Avatar por defecto.",
     "antiRaidReason": "Protección anti-raid",
     "modalCaptcha": {
-      "desc": "Antes de continuar, debes responder un **captcha**, haz click en el botón de **\"Recibir captcha\"** para resolverlo y acceder al servidor.",
+      "desc": "Antes de continuar, debes responder un **captcha**, haz click en el botón de **\"Hacer captcha\"** para resolverlo y acceder al servidor.",
       "errorNotCompleted": "**Error**, la configuración de la verificación no está completada.",
       "errorNoRoles": "**Error**, no encuentro el rol de usuario o el de no verificado.",
       "errorAlreadyVerified": "**Error**, ya estás verificado.",
