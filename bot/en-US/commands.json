@@ -265,7 +265,6 @@
         "noVálido": "**Error**, The ID is not valid."
     },
     "help": {
-        "cmdAliases": "*Aliases*",
         "cmdAuthor": "Help menu",
         "cmdCategory": "*Category*",
         "cmdExample": "*Example*",
