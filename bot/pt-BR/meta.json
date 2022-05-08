@@ -1,8 +1,6 @@
 {
     "alarm": {
-        "description": "Configura o alarme no servidor e evita a entrada de novos usuários.",
-        "example": "",
-        "usage": ""
+        "example": ""
     },
     "approve": {
         "description": "Aprovação dos novos usuários ao servidor.",

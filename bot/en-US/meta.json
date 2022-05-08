@@ -1,8 +1,6 @@
 {
     "alarm": {
-        "description": "Configure the alarm on the server and kick all new users.",
-        "example": "",
-        "usage": ""
+        "example": ""
     },
     "approve": {
         "description": "Approves new users.",

@@ -1,7 +1,4 @@
 {
-    "alarm": {
-        "description": "Configura l'alarma en el servidor i prohibeix l'entrada a nous usuaris."
-    },
     "approve": {
         "description": "Aprova als nous usuaris.",
         "example": "@Vicente#0001",
