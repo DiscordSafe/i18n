@@ -1,9 +1,4 @@
 {
-  "alarm": {
-    "description": "Configura la alarma en el servidor y prohíbe la entrada a nuevos usuarios.",
-    "example": "",
-    "usage": ""
-  },
   "approve": {
     "description": "Aprueba a los nuevos usuarios.",
     "example": "@Vicente#0001",

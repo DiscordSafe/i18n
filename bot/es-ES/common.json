@@ -184,6 +184,28 @@
       "botInvites": "Invitar a un bot"
     }
   },
+  "verificationModes": {
+    "approval": {
+      "name": "Aprobación",
+      "description": "Aprobación por un moderador."
+    },
+    "captcha": {
+      "name": "Captcha",
+      "description": "Completar un captcha."
+    },
+    "modal_captcha": {
+      "name": "Modal captcha",
+      "description": "Completar un captcha mediante un modal."
+    },
+    "reaction": {
+      "name": "Reacción",
+      "description": "Reaccionar a un mensaje."
+    },
+    "verification": {
+      "name": "Verificación",
+      "description": "Usar el comando /verifyme."
+    }
+  },
   "languages": {
     "ca": {
       "emoji": "<:flag_cat:883009423910526986>",

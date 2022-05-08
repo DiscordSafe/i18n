@@ -345,7 +345,6 @@
     "noVálido": "**Error**, La ID de usuario no es válida."
   },
   "help": {
-    "cmdAliases": "*Aliases*",
     "cmdAuthor": "Menú de ayuda",
     "cmdCategory": "*Categoría*",
     "cmdExample": "*Ejemplo*",
@@ -743,6 +742,7 @@
       "name": "Verificación",
       "defaultAuthor": "Configuración de la verificación",
       "modeTitle": "Modo de verificación",
+      "modePlaceholder": "Seleccione el modo de verificación",
       "channelTitle": "Canal de verificación",
       "channelDesc": "**Este será el canal de la verificación.**\nSeleccione un canal de texto en el siguiente menú de selección.",
       "channelPlaceholder": "Seleccione un canal de texto",
