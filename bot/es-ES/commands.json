@@ -353,7 +353,7 @@
     "cmdPerms": "*Permisos*",
     "cmdUso": "*Uso*",
     "descripción": "Hola, soy **D-Safe**, un bot dedicado a la moderación, utilidad y seguridad, creado para resolver todos los problemas de tu servidor.\n\nLlevo **{{tiempo}}** activo ayudando a **{{servidores}}** servidores con **{{comandos}}** comandos.\nMi prefijo en este servidor es `{{prefix}}`, para ver mis comandos use `{{prefix}}commands`.",
-    "embedFeature1d": "Hemos lanzado la actualización 5.0 enfocada en mejorar completamente la moderación. Mira el [registro de cambios](https://blog.discordsafe.com/).",
+    "embedFeature1d": "Hemos lanzado la actualización 5.0 enfocada en mejorar completamente la moderación. Mira el [registro de cambios](https://discordsafe.com/blog/v5.0).",
     "embedFeature1t": "{{safenews}} ━ Última actualización",
     "embedFeature2d": "[Vótame para apoyarme](https://top.gg/bot/461171501715161108/vote) a la vez que consigues mejoras con [D-Safe Premium](https://discordsafe.com/premium), compruebe nuestro [servidor de Discord](https://discordsafe.com/discord).",
     "embedFeature2t": "{{safepremium}} ━ ¡Vótame!",
