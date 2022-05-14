@@ -1,7 +1,4 @@
 {
-    "alarm": {
-        "example": ""
-    },
     "approve": {
         "description": "Aprovação dos novos usuários ao servidor.",
         "example": "@Vicente#0001",
