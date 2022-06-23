@@ -780,7 +780,7 @@
   "suggest": {
     "confirmBody": "Sugerencia: `{{arg}}`",
     "confirmación": "**¿Está seguro/a de enviar la sugerencia?**",
-    "done": "La sugerencia **{{suggID}}** ha sido enviada, puedes verla [aquí]({{link}}).",
+    "done": "La sugerencia [{{suggID}}]({{link}}) ha sido enviada.",
     "errorArgs": "**Error**, debe añadir argumentos.",
     "errorChannel": "**Error**, el comando de sugerencia solo puede ser utilizado en {{channel}}.",
     "errorDes": "**Error**, la descripción no debe ser **mayor de 900 caracteres o menos de 4**.",
