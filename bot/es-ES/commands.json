@@ -311,7 +311,7 @@
     "unIgnoreCh": "El canal <#{{channel}}> ha __dejado de ser ignorado__ en el filtro **{{filter}}**.",
     "unIgnoreRl": "El rol <@&{{role}}> ha __dejado de ser ignorado__ en el filtro **{{filter}}**.",
     "links": {
-     "errorNoURL": "**Error**, no es un enlace válido.",
+      "errorNoURL": "**Error**, no es un enlace válido.",
       "add": {
         "errorAlreadyBlocked": "**Error**, ese enlace ya está bloqueado",
         "done": "Enlace bloqueado correctamente."
@@ -599,7 +599,7 @@
   },
   "reportbug": {
     "args": "Este comandos necesita argumentos, ejemplo: `d.reportbug Título reporte | Descripción del bug`",
-    "confirmación": "¿Estás seguro de mandar el reporte del bug?",
+    "confirmación": "¿Estás seguro de mandar el reporte del bug?\nLos datos introducidos podrán ser almacenados indefinidamente.",
     "descripción": "Descripción:",
     "error": "Para poder atender tu reporte debes entrar a [nuestro servidor](https://discordsafe.com/discord) y usar el comando allí.",
     "errorTiempo": "Se acabó el tiempo.",
