@@ -796,6 +796,7 @@
     "approveDone": "Se ha aprobado la sugerencia **[{{sugg}}]({{suggLink}})** correctamente.",
     "approveDoneNoLink": "Se han aprobado las sugerencia **{{sugg}}** correctamente.",
     "confirm": "¿Está seguro/a que desea continuar?",
+    "deleteErrorNoAuthor": "**Error**, no puedes borrar una sugerencia que no es tuya, solo los miembros con permiso de **Banear miembros** pueden.",
     "deleteDone": "Se ha borrado la sugerencia **{{sugg}}** correctamente.",
     "denyDone": "Se ha denegado la sugerencia **[{{sugg}}]({{suggLink}})** correctamente.",
     "denyDoneNoLink": "Se ha denegado la sugerencia **{{sugg}}** correctamente.",
