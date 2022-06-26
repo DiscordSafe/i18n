@@ -893,7 +893,7 @@
             "description": "La acción que realizar"
           },
           "suggestionids": {
-            "description": "Las ids de las sugerencias separadas por una coma, ej: 1,5,9,13"
+            "description": "Las ids de las sugerencias separadas por una coma, ej: sug_NjQwNDA5MjE3NDU4NTQ0NjY,sug_NjQwNDA4OTk0OTA4Nzc0NDE"
           }
         }
       },
