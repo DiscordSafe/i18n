@@ -615,7 +615,7 @@
         "desactivarField": "To disable the verification use `d.verification disable`.",
         "descripciónAyuda": "Set the verification in your server with one of our powerful modes to avoid conflicting users, multi-accounts or spam bots.",
         "doc": "Configuration guide",
-        "doc2": "All the **guide to verify** is better explained here **[documentación](https://docs.discordsafe.com/docs/config/lang)**.",
+        "doc2": "All the **guide to verify** is better explained here **[documentación](https://discordsafe.com/docs/config/verification)**.",
         "días": "\n{{days}} days",
         "errorCanalNoExiste": "That channel doesn't exists.",
         "errorCanalNoTexto": "That isn't a text channel.",
