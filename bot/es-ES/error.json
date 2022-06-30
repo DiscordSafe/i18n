@@ -51,6 +51,12 @@
     },
     "time": {
       "notValid": "La opción de tiempo no es válida, vuelve a intentarlo."
+    },
+    "suggestionid": {
+      "notValid": "La sugerencia proporcionada no es válida."
+    },
+    "caseid": {
+      "notValid": "El caso proporcionado no es válido."
     }
   }
 }

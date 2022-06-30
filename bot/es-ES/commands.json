@@ -230,7 +230,7 @@
     "exito": "{{emoji}} **{{memberTag}}** ha sido ensordecido."
   },
   "duration": {
-    "noCase": "**Error**, no se ha encontrado el caso, comprueba que el ID del caso sea correcto.",
+    "noCase": "**Error**, no se ha encontrado el caso o el caso está expirado, comprueba que el ID del caso sea correcto.",
     "done": "La duración ha sido cambiada a **{{newDuration}}**."
   },
   "emoji": {
