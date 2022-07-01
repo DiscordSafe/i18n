@@ -315,10 +315,8 @@
         "reason": "You have been kicked in **{{guild}}** for: **{{reason}}**."
     },
     "logs": {
-        "disabled": "The logs have been disabled, you will not receive them anymore.",
         "doneboost": "The boost log channel has been set to {{canal}}.",
         "donemod": "The mod log channel has been set to {{canal}}.",
-        "errorArgs": "**Error**. Invalid arguments, you must mention a channel or put an ID.",
         "errorConfig": "**Error**, you can't disable something that doesn't exist, but... *what is existence? what means to exist? **Do I exist??** (ಥ﹏ಥ)",
         "errorPremium": "**Error**, you need to be premium to use this feature. \nhttps://discordsafe.com/premium",
         "errorValid": "**Error**, the channel does not exist of it isn't of text.",

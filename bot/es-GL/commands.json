@@ -175,10 +175,8 @@
         "exito": ""
     },
     "logs": {
-        "disabled": "",
         "doneboost": "",
         "donemod": "",
-        "errorArgs": "**Error**. Argumentos inválidos, debe mencionar un canal o poner una ID.",
         "errorConfig": "",
         "errorPremium": "",
         "errorValid": "",

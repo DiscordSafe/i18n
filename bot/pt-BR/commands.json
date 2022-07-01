@@ -175,10 +175,8 @@
         "exito": ""
     },
     "logs": {
-        "disabled": "",
         "doneboost": "",
         "donemod": "",
-        "errorArgs": "",
         "errorConfig": "",
         "errorPremium": "",
         "errorValid": "",
