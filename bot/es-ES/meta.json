@@ -614,6 +614,14 @@
             "description": "Establece el canal"
           }
         }
+      },
+      "disable": {
+        "description": "Desactiva un tipo de log",
+        "options": {
+          "type": {
+            "description": "Tipo de log que desactivar"
+          }
+        }
       }
     }
   },

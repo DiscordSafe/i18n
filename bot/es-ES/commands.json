@@ -443,19 +443,16 @@
     "exito": "{{emoji}} **#{{channelName}} fue bloqueado**"
   },
   "logs": {
-    "disabled": "Los logs han sido desactivados, dejará de recibirlos.",
     "donegeneral": "El canal de logs ha sido establecido a {{canal}}.",
     "doneboost": "El canal de logs de boosts ha sido establecido a {{canal}}.",
     "donemod": "El canal de logs de moderación ha sido establecido a {{canal}}.",
-    "errorArgs": "**Error**, argumentos inválidos, debe mencionar el canal o su ID.",
-    "errorConfig": "**Error**, no puedes desactivar algo que no existe, pero... *¿qué es la existencia? ¿qué significa existir?* **¿¿Yo existo??** (ಥ﹏ಥ)",
     "errorPremium": "**Error**, debes ser premium para usar esta característica.\nhttps://discordsafe.com/premium",
     "errorValid": "**Error**, el canal no existe o no es de texto.",
     "help": {
       "author": "Logs",
       "description": "Registre toda la actividad de su servidor con los logs.",
       "field1": {
-        "d": "• `/logs help`: muestra este menú de ayuda.\n• `/logs list`: muestra la lista de módulos de logs configurados.\n• `/logs set`: establece los canales de logs.",
+        "d": "• `/logs help`: muestra este menú de ayuda.\n• `/logs list`: muestra la lista de módulos de logs configurados.\n• `/logs set`: establece los canales de logs.• `/logs disable` desactiva un canal de logs.",
         "t": "Comandos"
       },
       "field2": {
@@ -470,6 +467,11 @@
       "general": "Logs generales",
       "mod": "Logs de moderación",
       "title": "Guía de configuración paso a paso"
+    },
+    "disable": {
+      "errorNoConfig": "**Error**, no hay un canal establecido para ese tipo de log.",
+      "deleteReason": "Log desactivado",
+      "done": "Se han desactivado correctamente los logs de __{{type}}__."
     }
   },
   "modroles": {
