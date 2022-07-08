@@ -24,8 +24,8 @@
         "errorNobanneable": "**Error**, no puc banear a l'usuari."
     },
     "alarm": {
-        "activado": "La manera alarma ha estat activat, es prohibeix l'entrada de nous usuaris, torneu a fer servir la comanda per desactivar-lo.",
-        "desactivado": "La manera alarma ha estat desactivat."
+        "activado": "El mode d'alarma ha estat activat, es prohibeix l'entrada de nous usuaris, torneu a fer servir el comandament per desactivar-ho.",
+        "desactivado": "El mode d'alarma ha estat desactivat."
     },
     "blockword": {
         "correcto": "Obriu el següent arxiu per veure la llista de paraules bloquejades.",
@@ -43,7 +43,7 @@
         "embedField2": "Si necessites ajuda revisa nostra [guia de configuració](https://docs.discordsafe.com/docs/config/blockedwords) o pregunta en el nostre [servidor](https://discordsafe.com/discord).",
         "embedField3": "Comandos",
         "embedField4": "`blockword add` - Afegeix una o diverses paraules.\n`blockword remove` - Quitació una o diverses paraules.\n`blockword add pack` - Bloqueja un grup de paraules preseleccionades.\n`blockword remove pack` - Desbloqueja un grup de paraules preseleccionades.\n`blockword list` - Mostra la llista de les paraules bloquejades en el servidor.\n`blockword ignore [#Canal/@Rol]` - Ignora un canal o rol de les paraules bloquejades.\n`blockword reset` - Quitació totes les paraules.",
-        "errorNoPalabras": "**Error**, per a llevar una paraula primer ha de bloquejar una.",
+        "errorNoPalabras": "**Error**, per a treurd una paraula primer ha de bloquejar una.",
         "errorPack": "**Error**, aquest pack no existeix."
     }
 }
