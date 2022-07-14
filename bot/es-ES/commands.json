@@ -998,7 +998,7 @@
     "sancionado": "Caso: {{case}} | Usuario: {{user}} | Moderador: {{mod}}~~~{{reason}} - {{date}}",
     "userEmbedMore": "{{warns}} advertencias de {{memberTag}} ({{memberID}})",
     "userEmbedOne": "Advertencias de {{memberTag}} ({{memberID}})",
-    "desc": "Elija el orden en el que quieras que se muestren las advertencias",
+    "desc": "Elija el orden en el que quiera que se muestren las advertencias",
     "warnings_one": "{{count}} advertencia",
     "warnings_other": "{{count}} advertencias"
   }
