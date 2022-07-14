@@ -917,7 +917,7 @@
   "unmute": {
     "reason": "Ha sido desmuteado en **{{guild}}** por **{{reason}}**.",
     "changelog": "{{reason}}.\nMod: {{modTag}} ({{modID}})",
-    "errorMención": "**Error: falta mencionar al usuario.\nEscríbalo como: `d.unmute @Usuario/ID Usuario`",
+    "errorMención": "**Error**, falta mencionar al usuario.\nEscríbalo como: `d.unmute @Usuario/ID Usuario`",
     "errorNoExiste": "**Error**, no existe un rol **Muted**, lo he creado y configurado :).",
     "errorNoMuteado": "**Error**, el usuario no está muteado.",
     "exito": "{{emoji}} **{{memberTag}}** ha sido desmuteado."
