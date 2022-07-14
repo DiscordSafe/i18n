@@ -903,7 +903,7 @@
   "undeafen": {
     "reason": "Ha sido desensordecido en **{{guild}}** por: **{{reason}}**.",
     "changelog": "{{reason}}.\nMod: {{modTag}} ({{modID}})",
-    "errorAutor": "**Error**, no se puedes ensordecer a ti mismo.",
+    "errorAutor": "**Error**, no se puede ensordecer a usted mismo.",
     "errorConectado": "**Error**, el miembro no está conectado a un canal de voz.",
     "errorMención": "**Error**: falta mencionar al usuario.",
     "errorYaEnsordecido": "**Error**, ese usuario no está ensordecido.",
