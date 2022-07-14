@@ -600,7 +600,7 @@
     }
   },
   "reason": {
-    "noCase": "**Error**, no se ha encontrado el caso, compruebe que la ID del caso sea correcto.",
+    "noCase": "**Error**, no se ha encontrado el caso, compruebe que el ID del caso sea correcto.",
     "noReason": "**Error**, debe indicar la razón que desea actualizar.",
     "reasonLimit": "**Error**, la razón sobrepasa el límite de 50 caracteres o es menor a 3 caracteres.",
     "success": "{{emoji}} Se ha establecido la razón del caso `{{caseid}}` a `{{reason}}`."
