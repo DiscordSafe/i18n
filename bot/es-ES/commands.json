@@ -239,7 +239,7 @@
   "filter": {
     "showconfig": {
       "embedAuthor": "Configuración de los filtros en {{guildName}}",
-      "embedDescription": "Esta es la configuración actual de los filtros\n• Use `/filter setup` para activar o desactivar filtros.\n• Usa `/filter config` para personalizar la configuración.",
+      "embedDescription": "Esta es la configuración actual de los filtros\n• Use `/filter setup` para activar o desactivar filtros.\n• Use `/filter config` para personalizar la configuración.",
       "enabledFilters": "Filtros activados",
       "relativeTime": "{{value}} en {{time}}"
     },
