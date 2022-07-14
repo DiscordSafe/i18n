@@ -342,7 +342,7 @@
     "noArgs": "**Error**, debe proporcionar IDs.",
     "noBan": "**Error**, no he podido banear a este usuario.",
     "noID": "**Error**, debe proporcionar una o varias IDs.",
-    "noMismo": "**Error**, no te puedes banear a ti mismo.",
+    "noMismo": "**Error**, no se puede banear a usted mismo.",
     "noServidor": "**Error**, el usuario {{user}} está en el servidor.",
     "noVálido": "**Error**, la ID de usuario no es válida."
   },
