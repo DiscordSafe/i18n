@@ -31,7 +31,7 @@
         }
     },
     "comandoError": "Ha ocorregut un error en executar el comando.\nS'ha notificat als desenvolupadors.\nSi necessita ajuda pregunti en el nostre servidor de suport, https://discordsafe.com/discord",
-    "cooldown": "Deus que esperar {{segundos}} segon/s per a tornar a usar aquest comando.",
+    "cooldown": "Has d'esperar {{segundos}} segons per a tornar a usar aquest comando.",
     "userPerms_detailed_one": "No tens suficients permisos per a usar aquest comando, necessites el permís de **{{perm}}**.",
-    "botPerms_other": "No tinc suficients permisos per a usar aquest comando, necessito els permisos de **{{perm}}**."
+    "botPerms_other": "No tinc suficients permisos per a utilitzar aquest comando, necessito els permisos de **{{perm}}**."
 }
