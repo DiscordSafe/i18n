@@ -983,7 +983,7 @@
   },
   "warn": {
     "reason": "Ha sido advertido en **{{guild}}** por: **{{reason}}**.",
-    "errorAutor": "**Error**, no se puedes dar warn a usted mismo.",
+    "errorAutor": "**Error**, no se puede dar warn a usted mismo.",
     "errorCaracteres": "**Error**, la razón lleva demasiados caracteres, escriba menos.",
     "errorMención": "**Error**: falta mencionar al usuario.\nEscríbalo como: `d.mute [@Usuario/ID Usuario] <Razón>`",
     "errorRazón": "**Error**: falta la razón.",
