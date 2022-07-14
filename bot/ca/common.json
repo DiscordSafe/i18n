@@ -11,7 +11,7 @@
         "GUILD_PRIVATE_THREAD": "fil privat",
         "GUILD_STAGE_VOICE": "escenari",
         "GUILD_NEWS": "notícies",
-        "RULES": "regles",
+        "RULES": "normativa",
         "UNKNOWN": "desconegut"
     },
     "actions": {
@@ -37,7 +37,7 @@
     "page": "Pàgina",
     "AntiSpam": {
         "MuteRoleCreated": "He creat el rol **Muted** (aplicat a la persona muteada) pel fet que no es va trobar un rol de Muted.",
-        "noMuteRole": "No es va trobar un rol de Muted, he creat un nou.",
+        "noMuteRole": "No s'ha trobat un rol de Muted, he creat un nou.",
         "muteEmbedAuthor": "AutoMute",
         "muteEmbedField1": "Membre muteado:",
         "muteEmbedField2": "Temps",
@@ -48,19 +48,19 @@
         "unmuteEmbedField2": "Raó",
         "seconds": "{{MuteTime}} minuts",
         "unmuteEmbedReason": "Temps expirat.",
-        "WarnMessage": "{{emojiWarn}} **[Anti-Spam]** Si us plau, no envie tants missatges.",
+        "WarnMessage": "{{emojiWarn}} **[Anti-Spam]** Si us plau, no envio tants missatges.",
         "MuteMessage": "{{emojiMute}} **[Anti-Spam]** Has estat muteado per enviar tants missatges.",
         "errorMute": "Ups, sembla que no tinc els suficient permisos de mutear a {{user}}."
     },
     "modEmbed": {
-        "mute": "Membre muteado",
+        "mute": "Membre silenciat",
         "unmute": "Membre desmuteado",
         "kick": "Membre expulsat",
-        "ban": "Membre baneado",
-        "hackban": "Membre baneado (hackban)",
-        "softban": "Membre baneado i desbaneado (softban)",
+        "ban": "Membre prohibit",
+        "hackban": "Membre prohibit (hackban)",
+        "softban": "Membre prohibit i desprohibit (softban)",
         "unban": "Membre desbaneado",
-        "clearwarn": "Advertiment eliminat",
+        "clearwarn": "Advertència eliminada",
         "approve": "Membre ha estat aprovat",
         "deafen": "Membre ensordit",
         "undeafen": "Membre desensordecido",
