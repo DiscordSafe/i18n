@@ -344,7 +344,7 @@
     "noID": "**Error**, debe proporcionar una o varias IDs.",
     "noMismo": "**Error**, no se puede banear a usted mismo.",
     "noServidor": "**Error**, el usuario {{user}} está en el servidor.",
-    "noVálido": "**Error**, la ID de usuario no es válida."
+    "noVálido": "**Error**, el ID de usuario no es válida."
   },
   "help": {
     "newUpdate": {
