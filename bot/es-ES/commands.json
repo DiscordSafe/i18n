@@ -19,7 +19,7 @@
   "antinuke": {
     "setlimit": {
       "premium": "Este límite es premium, consigue premium usando `/premium`.",
-      "done": "Se ha establecido el límite de **{{limit}} {{action}}** en **1 minuto**."
+      "done": "Se ha establecido el límite de **{{limit}} {{action}}** a **1 minuto**."
     },
     "setpunishment": {
       "done": "La sanción que daré cuando se alcance un límite será **{{punishment}}**."
@@ -30,7 +30,7 @@
       "embedDescription": "El limitador de acciones o anti-nuke limita las acciones administrativas que los usuarios pueden realizar en 1 minuto.\nSi se alcanza un límite el bot sancionará al usuario *(lo expulsa por defecto)* y avisará al dueño del servidor y en el canal de logs de moderación *(configurable con `/logs set`)*.\nEl dueño del servidor y el propio bot son los únicos ignorados.",
       "punishment": "Castigo",
       "limitsField": "Límites",
-      "limits": "**+{{limit}} {{action}}** en **1 minuto**."
+      "limits": "**+{{limit}} {{action}}** a **1 minuto**."
     },
     "toggle": {
       "enabled": "Se ha activado correctamente.",
@@ -47,12 +47,12 @@
     }
   },
   "ban": {
-    "reason": "Has sido baneado en **{{guild}}**.",
+    "reason": "Ha sido baneado en **{{guild}}**.",
     "reason_reason": "Has sido baneado en **{{guild}}** por: **{{reason}}**.",
-    "reason_time": "Has sido baneado en **{{guild}}** durante **{{time}}**.",
-    "reason_reason_time": "Has sido baneado en **{{guild}}** durante **{{time}}** por: **{{reason}}**",
+    "reason_time": "Ha sido baneado en **{{guild}}** durante **{{time}}**.",
+    "reason_reason_time": "Ha sido baneado en **{{guild}}** durante **{{time}}** por: **{{reason}}**",
     "changelog": "{{reason}}.\nMod: {{modTag}} ({{modID}})",
-    "autor": "**Error**, no te puedes banear a ti mismo.",
+    "autor": "**Error**, no se puede banear a usted mismo.",
     "errorArgs": "**Error**, debe mencionar, indicar la ID o el nombre de un usuario.",
     "errorGuild": "**Error**, el usuario no está en el servidor.\nUse el comando `hackban` para banearlo.",
     "errorNoBan": "**Error**, no puedo banear al usuario mencionado.",
@@ -71,7 +71,7 @@
     "embedField3": "Manual",
     "embedField4": "Bloquea la palabra que quieras con `/blockword word`.",
     "embedField5": "Excepciones",
-    "embedField6": "Imagínese que bloquea la palabra `nig` y alguien menciona le país `Nigeria`, este resultará sancionado por ello. Con `/blockword whitelist` puedes añadir excepciones.",
+    "embedField6": "Imagínese que bloquea la palabra `nig` y alguien menciona el país `Nigeria`, este resultará sancionado por ello. Con `/blockword whitelist` puedes añadir excepciones.",
     "embedRAuthor": "Resetear palabras bloqueadas",
     "embedRDescription": "**Esta acción es irreversible.**\n¿Está seguro/a?",
     "errorNoArgs": "**Error**, debe añadir un argumento.",
@@ -102,7 +102,7 @@
     "unIgnoreRl": "El rol <@&{{role}}> ha __dejado de ser ignorado__ exitosamente.",
     "whitelist": {
       "errorExactWord": "**Error**, no puede agregar a la lista blanca una palabra exacta bloqueada. Debe ser una palabra que contenga una bloqueada, por ejemplo quieres bloquear `nig` pero permitir `nigeria`.",
-      "errorIsNotIncludedInABlockedWord": "**Error**, debe agregar una palabra que contenga una bloqueada, por ejemplo quieres bloquear `nig` pero permitir `nigeria`.",
+      "errorIsNotIncludedInABlockedWord": "**Error**, debe agregar una palabra que contenga una bloqueada, por ejemplo quiere bloquear `nig` pero permitir `nigeria`.",
       "errorAlreadyWhitelisted": "**Error**, esa palabra ya está agregada en la lista blanca.",
       "added": "Palabra agregada a la lista blanca correctamente.",
       "errorNotWhitelisted": "**Error**, esa palabra no está en la lista blanca.",
@@ -136,7 +136,7 @@
   },
   "cases": {
     "noMention": "**Error**, debe mencionar a un usuario.",
-    "noSancionado": "**Error**, El usuario no tiene ningún caso.",
+    "noSancionado": "**Error**, el usuario no tiene ningún caso.",
     "noWarn": "No hay ningún caso de moderación en el servidor.",
     "noWarns": "No hay ningún caso.",
     "noCasesUser": "Este usuario no tiene ningún caso.",
@@ -221,16 +221,16 @@
     "success": "Rol eliminado."
   },
   "deafen": {
-    "reason": "Has sido ensordecido en **{{guild}}** por: **{{reason}}**.",
+    "reason": "Ha sido ensordecido en **{{guild}}** por: **{{reason}}**.",
     "changelog": "{{reason}}.\nMod: {{modTag}} ({{modID}})",
-    "errorAutor": "**Error**, No te puedes ensordecer a ti mismo.",
+    "errorAutor": "**Error**, No se puede ensordecer a usted mismo.",
     "errorConectado": "**Error**, el miembro no está conectado a un canal de voz.",
     "errorMención": "**Error**: Falta mencionar al usuario.",
     "errorYaEnsordecido": "**Error**, Ese usuario ya está ensordecido, usa `d.undeafen` para desensordecerlo.",
     "exito": "{{emoji}} **{{memberTag}}** ha sido ensordecido."
   },
   "duration": {
-    "noCase": "**Error**, no se ha encontrado el caso o el caso está expirado, comprueba que el ID del caso sea correcto.",
+    "noCase": "**Error**, no se ha encontrado el caso o el caso está expirado, compruebe que el ID del caso sea correcto.",
     "done": "La duración ha sido cambiada a **{{newDuration}}**."
   },
   "emoji": {
@@ -239,7 +239,7 @@
   "filter": {
     "showconfig": {
       "embedAuthor": "Configuración de los filtros en {{guildName}}",
-      "embedDescription": "Esta es la configuración actual de los filtros\n• Usa `/filter setup` para activar o desactivar filtros.\n• Usa `/filter config` para personalizar la configuración.",
+      "embedDescription": "Esta es la configuración actual de los filtros\n• Use `/filter setup` para activar o desactivar filtros.\n• Usa `/filter config` para personalizar la configuración.",
       "enabledFilters": "Filtros activados",
       "relativeTime": "{{value}} en {{time}}"
     },
@@ -307,7 +307,7 @@
       }
     },
     "enabledAndSet": "Se ha activado correctamente el filtro **{{filter}}** con el nivel **{{level}}**.",
-    "errorPremium": "**Error**, el filtro de imágenes es premium, no puede seleccionarlo. [Desbloquea D-Safe Premium y consigue un montón de ventajas](https://discordsafe.com/premium).",
+    "errorPremium": "**Error**, el filtro de imágenes es premium, no puede seleccionarlo. [Desbloquee D-Safe Premium y consiga un montón de ventajas](https://discordsafe.com/premium).",
     "ignoreCh": "El canal <#{{channel}}> ha sido __ignorado__ del filtro **{{filter}}**.",
     "ignoreRl": "El rol <@&{{role}}> ha sido __ignorado__ del **{{filter}}**.",
     "unIgnoreCh": "El canal <#{{channel}}> ha __dejado de ser ignorado__ en el filtro **{{filter}}**.",
@@ -339,12 +339,12 @@
   },
   "hackban": {
     "correcto": "Baneado exitosamente el usuario **{{user}}**.",
-    "noArgs": "**Error**, debes proporcionar IDs.",
-    "noBan": "**Error**, No he podido banear a este usuario.",
-    "noID": "**Error**, Debe proporciona una o varias IDs.",
-    "noMismo": "**Error**, No te puedes banear a tí mismo.",
-    "noServidor": "**Error**, El usuario {{user}} está en el servidor.",
-    "noVálido": "**Error**, La ID de usuario no es válida."
+    "noArgs": "**Error**, debe proporcionar IDs.",
+    "noBan": "**Error**, no he podido banear a este usuario.",
+    "noID": "**Error**, debe proporcionar una o varias IDs.",
+    "noMismo": "**Error**, no te puedes banear a ti mismo.",
+    "noServidor": "**Error**, el usuario {{user}} está en el servidor.",
+    "noVálido": "**Error**, la ID de usuario no es válida."
   },
   "help": {
     "newUpdate": {
@@ -359,23 +359,23 @@
     "cmdPerms": "*Permisos*",
     "cmdUso": "*Uso*",
     "descripción": "Hola, soy **D-Safe**, un bot dedicado a la moderación, utilidad y seguridad, creado para resolver todos los problemas de tu servidor.\n\nLlevo **{{tiempo}}** activo ayudando a **{{servidores}}** servidores con **{{comandos}}** comandos.\nMi prefijo en este servidor es `{{prefix}}`, para ver mis comandos use `{{prefix}}commands`.",
-    "embedFeature1d": "Hemos lanzado la actualización 5.0 enfocada en mejorar completamente la moderación. Mira el [registro de cambios](https://discordsafe.com/blog/v5.0).",
+    "embedFeature1d": "Hemos lanzado la actualización 5.0 enfocada en mejorar completamente la moderación. Mire el [registro de cambios](https://discordsafe.com/blog/v5.0).",
     "embedFeature1t": "{{safenews}} ━ Última actualización",
     "embedFeature2d": "Puedes [votarme](https://top.gg/bot/461171501715161108/vote) para apoyarme (⌒▽⌒)☆.",
-    "embedFeature2t": "{{safepremium}} ━ ¡Vótame!",
+    "embedFeature2t": "{{safepremium}} ━ ¡Vóteme!",
     "embedFeature4d": "Si encuentra una mala traducción, por favor repórtela en [el servidor de soporte](https://discordsafe.com/discord).",
-    "embedFeature4t": ":map: ━ Ayúdanos a mejorar las traducciones",
-    "embedFeedbackFormd": "La opinión y primeras impresiones de nuevos usuarios son importantes para mejorar mi desarrollo, rellena este [formulario](https://discordsafe.com/encuesta) anónimo en 1 minuto, te lo agradezco mucho. <3",
-    "embedFeedbackFormt": "{{safeform}} ━ ¡Danos tu opinión en 1 minuto!",
+    "embedFeature4t": ":map: ━ Ayúdenos a mejorar las traducciones",
+    "embedFeedbackFormd": "La opinión y primeras impresiones de nuevos usuarios son importantes para mejorar mi desarrollo, rellene este [formulario](https://discordsafe.com/encuesta) anónimo en 1 minuto, se lo agradezco mucho. <3",
+    "embedFeedbackFormt": "{{safeform}} ━ ¡Denos su opinión en 1 minuto!",
     "embedMaild": "Puedes leer los cambios de mis actualizaciones, usa `{{prefix}}mail` para leerlo.",
-    "embedMailt_one": "{{emoji}} ━ ¡Tienes {{count}} correo sin leer!",
-    "embedMailt_other": "{{emoji}} ━ ¡Tienes {{count}} correos sin leer!",
+    "embedMailt_one": "{{emoji}} ━ ¡Tiene {{count}} correo sin leer!",
+    "embedMailt_other": "{{emoji}} ━ ¡Tiene {{count}} correos sin leer!",
     "embedSuggestionTitle": ":question: ━ Sabías que",
-    "embedSuggestion1": "Puedes banear múltiples usuarios con `{{prefix}}hackban`.",
-    "embedSuggestion2": "Puedes establecer mi prefijo con `{{prefix}}setprefix`.",
-    "embedSuggestion3": "Puedes especificar de quién quieres que borre los mensajes con `{{prefix}}clear @Usuario`.",
-    "embedSuggestion4": "Puedes configurarme en menos de 15 segundos con solo usar el comando `{{prefix}}setup`.",
-    "embedSuggestion5": "Tengo un montón de comandos de barra diagonal, míralos escribiendo una **/**.",
+    "embedSuggestion1": "Puede banear múltiples usuarios con `{{prefix}}hackban`.",
+    "embedSuggestion2": "Puede establecer mi prefijo con `{{prefix}}setprefix`.",
+    "embedSuggestion3": "Puede especificar de quién quieres que borre los mensajes con `{{prefix}}clear @Usuario`.",
+    "embedSuggestion4": "Puede configurarme en menos de 15 segundos con solo usar el comando `{{prefix}}setup`.",
+    "embedSuggestion5": "Tengo un montón de comandos de barra diagonal, mírelos escribiendo una **/**.",
     "links": "Enlaces",
     "inviteme": "Invítame",
     "website": "Página web",
@@ -389,7 +389,7 @@
     "seemore": "Ver más",
     "msgcommand": "Comando vía mensaje",
     "slashcommand": "Comando de barra diagonal",
-    "slashyAvailable": "{{emoji}} **Disponible como comando de barra diagonal, usa `/{{commandName}}`**."
+    "slashyAvailable": "{{emoji}} **Disponible como comando de barra diagonal, use `/{{commandName}}`**."
   },
   "userinfo": {
     "badges": "▸ Insignias",
@@ -477,7 +477,7 @@
   "modroles": {
     "add": {
       "errorAlreadyAdded": "**Error**, ese rol ya está añadido, puedes quitarlo con `/modroles remove`.",
-      "errorLimit": "**Error**, el límite de roles moderadores es de 20, ¡¿qué loco pondría más?!",
+      "errorLimit": "**Error**, el límite de roles moderadores es de 20, ¡¿qué clase de loco pondría más?!",
       "errorEveryone": "Oh no amigo, no puedes añadir al rol de @everyone como rol moderador, estás loco.",
       "done": "El rol <@&{{role}}> ha sido añadido a la lista de roles moderadores, ahora los miembros con este rol podrán usar los comandos de moderación."
     },
@@ -545,14 +545,14 @@
     "noCases": "**Error**, no hay suficientes casos para generar gráficos."
   },
   "mute": {
-    "reason": "Has sido muteado en **{{guild}}** por: **{{reason}}**.",
-    "reason_time": "Has sido muteado en **{{guild}}** durante **{{time}}** por: **{{reason}}**.",
-    "reason_duration": "Has sido muteado en **{{guild}}** hasta el **{{duration}}** ({{durationRelative}}) por: **{{reason}}**.",
+    "reason": "Ha sido muteado en **{{guild}}** por: **{{reason}}**.",
+    "reason_time": "Ha sido muteado en **{{guild}}** durante **{{time}}** por: **{{reason}}**.",
+    "reason_duration": "Ha sido muteado en **{{guild}}** hasta el **{{duration}}** ({{durationRelative}}) por: **{{reason}}**.",
     "changelog": "{{reason}}.\nTime: {{time}}\nMod: {{modTag}} ({{modID}})",
-    "errorAutor": "**Error**, No te puedes dar mutear a ti mismo.",
-    "errorMención": "**Error**: Falta mencionar al usuario.\nEscríbalo como: `d.mute @Usuario Tiempo s/m/h Razón`",
-    "errorNúmero": "**Error**: El tiempo debe de ser un número.\nEscríbalo como: `d.mute @Usuario Tiempo s/m/h Razón`",
-    "errorYaMuteado": "**Error**, Ese usuario ya está muteado.",
+    "errorAutor": "**Error**, no se puede dar mute a usted mismo.",
+    "errorMención": "**Error**: falta mencionar al usuario.\nEscríbalo como: `d.mute @Usuario Tiempo s/m/h Razón`",
+    "errorNúmero": "**Error**: el tiempo debe de ser un número.\nEscríbalo como: `d.mute @Usuario Tiempo s/m/h Razón`",
+    "errorYaMuteado": "**Error**, ese usuario ya está muteado.",
     "exito": "{{emoji}} **{{memberTag}}** ha sido muteado."
   },
   "ping": {
@@ -561,7 +561,7 @@
   "premium": {
     "help": {
       "title": "D-Safe Premium",
-      "desc": "Desbloquea D-Safe sin límites con las funciones más avanzadas para su comunidad.",
+      "desc": "Desbloquee D-Safe sin límites con las funciones más avanzadas para su comunidad.",
       "image": "https://i.imgur.com/ee7uS79.png"
     },
     "safer": {
@@ -570,7 +570,7 @@
       "footer": "Muchas gracias por apoyar mi desarrollo D-Safe <3",
       "noReedem": "No canjeado, use `/{{commandName}}` en el servidor donde desea canjearlo.",
       "multiplePremiums": "Selección de premium",
-      "multiplePremiums_description": "Tienes varios premiums, debes seleccionar el que canjear en este servidor."
+      "multiplePremiums_description": "Tiene varios premiums, debe seleccionar el que desea canjear en este servidor."
     },
     "errorNoRepeated": "**Error**, en este servidor ya se ha canjeado premium.",
     "noEstablecido": "No establecido.",
@@ -595,18 +595,18 @@
       "sureDesc": "`Su suscripción de **{{amount}}** será cancelada **inmediatamente** y no se procesará su próximo pago. Su suscripción a premium acabará el **{{date}}**.",
       "done": "Se ha cancelado su suscripción correctamente, esperamos volver a verle. :(\nSu suscripción acabará el **{{date}}**.",
       "selectTitle": "Selección de suscripción",
-      "selectDesc": "Como tienes varias suscripciones activas debe seleccionar la que desea cancelar.",
+      "selectDesc": "Como tiene varias suscripciones activas debe seleccionar la que desea cancelar.",
       "selectPlaceholder": "Seleccione una suscripción"
     }
   },
   "reason": {
-    "noCase": "**Error**, no se ha encontrado el caso, comprueba que el ID del caso sea correcto.",
+    "noCase": "**Error**, no se ha encontrado el caso, compruebe que la ID del caso sea correcto.",
     "noReason": "**Error**, debe indicar la razón que desea actualizar.",
     "reasonLimit": "**Error**, la razón sobrepasa el límite de 50 caracteres o es menor a 3 caracteres.",
     "success": "{{emoji}} Se ha establecido la razón del caso `{{caseid}}` a `{{reason}}`."
   },
   "reportbug": {
-    "args": "Este comandos necesita argumentos, ejemplo: `d.reportbug Título reporte | Descripción del bug`",
+    "args": "Este comando necesita argumentos, ejemplo: `d.reportbug Título reporte | Descripción del bug`",
     "confirmación": "¿Estás seguro de mandar el reporte del bug?\nLos datos introducidos podrán ser almacenados indefinidamente.",
     "descripción": "Descripción:",
     "error": "Para poder atender tu reporte debes entrar a [nuestro servidor](https://discordsafe.com/discord) y usar el comando allí.",
@@ -676,8 +676,8 @@
   },
   "setlang": {
     "title": "Configuración del idioma en {{server}}",
-    "helpus1": "¡Ayúdanos a traducir! 💖",
-    "helpus2": "Ayúdanos a mejorar y mantener la traducción del bot en otros idiomas, [pregunta en el servidor de soporte](https://discordsafe.com/invite).",
+    "helpus1": "¡Ayúdenos a traducir! 💖",
+    "helpus2": "Ayúdenos a mejorar y mantener la traducción del bot en otros idiomas, [pregunte en el servidor de soporte](https://discordsafe.com/invite).",
     "select": "Seleccione el idioma.",
     "establecido": "El idioma del servidor ha sido establecido a {{idioma}}.",
     "noDisponible": "Idioma no disponible aún",
@@ -782,7 +782,7 @@
     }
   },
   "softban": {
-    "reason": "Has sido baneado (softban) en **{{guild}}** por: **{{reason}}**.",
+    "reason": "Ha sido baneado (softban) en **{{guild}}** por: **{{reason}}**.",
     "exito": "{{emoji}} **{{memberTag}} fue baneado (softban)**"
   },
   "suggest": {
@@ -804,7 +804,7 @@
     "approveDone": "Se ha aprobado la sugerencia **[{{sugg}}]({{suggLink}})** correctamente.",
     "approveDoneNoLink": "Se han aprobado las sugerencia **{{sugg}}** correctamente.",
     "confirm": "¿Está seguro/a que desea continuar?",
-    "deleteErrorNoAuthor": "**Error**, no puedes borrar una sugerencia que no es tuya, solo los miembros con permiso de **Banear miembros** pueden.",
+    "deleteErrorNoAuthor": "**Error**, no puede borrar una sugerencia que no es suya, solo los miembros con permiso de **Banear miembros** pueden.",
     "deleteDone": "Se ha borrado la sugerencia **{{sugg}}** correctamente.",
     "denyDone": "Se ha denegado la sugerencia **[{{sugg}}]({{suggLink}})** correctamente.",
     "denyDoneNoLink": "Se ha denegado la sugerencia **{{sugg}}** correctamente.",
@@ -894,19 +894,19 @@
     "title": ":trophy: Top bots"
   },
   "unban": {
-    "reason": "Has sido desbaneado en **{{guild}}** por: **{{reason}}**.",
+    "reason": "Ha sido desbaneado en **{{guild}}** por: **{{reason}}**.",
     "changelog": "{{reason}}.\nMod: {{modTag}} ({{modID}})",
     "errorNoUnBan": "**Error**, no puedo desbanear al usuario.",
     "errorUser": "**Error**, no se encontró baneado al usuario, pruebe de nuevo.",
     "exito": "{{emoji}} **{{memberTag}}** ha sido desbaneado."
   },
   "undeafen": {
-    "reason": "Has sido desensordecido en **{{guild}}** por: **{{reason}}**.",
+    "reason": "Ha sido desensordecido en **{{guild}}** por: **{{reason}}**.",
     "changelog": "{{reason}}.\nMod: {{modTag}} ({{modID}})",
-    "errorAutor": "**Error**, No te puedes ensordecer a ti mismo.",
+    "errorAutor": "**Error**, no se puedes ensordecer a ti mismo.",
     "errorConectado": "**Error**, el miembro no está conectado a un canal de voz.",
-    "errorMención": "**Error**: Falta mencionar al usuario.",
-    "errorYaEnsordecido": "**Error**, Ese usuario no está ensordecido.",
+    "errorMención": "**Error**: falta mencionar al usuario.",
+    "errorYaEnsordecido": "**Error**, ese usuario no está ensordecido.",
     "exito": "{{emoji}} **{{memberTag}}** ha sido desensordecido."
   },
   "unlock": {
@@ -915,9 +915,9 @@
     "exito": "{{emoji}} **#{{channelName}} fue desbloqueado**"
   },
   "unmute": {
-    "reason": "Has sido desmuteado en **{{guild}}** por **{{reason}}**.",
+    "reason": "Ha sido desmuteado en **{{guild}}** por **{{reason}}**.",
     "changelog": "{{reason}}.\nMod: {{modTag}} ({{modID}})",
-    "errorMención": "**Error: Falta mencionar al usuario.\nEscríbalo como: `d.unmute @Usuario/ID Usuario`",
+    "errorMención": "**Error: falta mencionar al usuario.\nEscríbalo como: `d.unmute @Usuario/ID Usuario`",
     "errorNoExiste": "**Error**, no existe un rol **Muted**, lo he creado y configurado :).",
     "errorNoMuteado": "**Error**, el usuario no está muteado.",
     "exito": "{{emoji}} **{{memberTag}}** ha sido desmuteado."
@@ -972,7 +972,7 @@
     }
   },
   "verifyme": {
-    "aprobado": " Has sido verificado.",
+    "aprobado": " Ha sido verificado.",
     "errorCanal": "Este comando solo se puede usar en el canal de verificación. Para configurar la verificación use `d.verification`",
     "errorMención": "Debe mencionar a un usuario. Para configurar la verificación use `d.verification`",
     "errorNoAprobación": "Este comando es solo para el modo Verificación. Para configurar la verificación use `d.verification`",
@@ -982,23 +982,23 @@
     "errorRoles": "Debe configurar primero el rol No Verificado y el rol Usuario. Para configurarlo use `d.verification`"
   },
   "warn": {
-    "reason": "Has sido advertido en **{{guild}}** por: **{{reason}}**.",
-    "errorAutor": "**Error**, No te puedes dar warn a ti mismo.",
+    "reason": "Ha sido advertido en **{{guild}}** por: **{{reason}}**.",
+    "errorAutor": "**Error**, no se puedes dar warn a usted mismo.",
     "errorCaracteres": "**Error**, la razón lleva demasiados caracteres, escriba menos.",
-    "errorMención": "**Error**: Falta mencionar al usuario.\nEscríbalo como: `d.mute [@Usuario/ID Usuario] <Razón>`",
-    "errorRazón": "**Error**: Falta la razón.",
+    "errorMención": "**Error**: falta mencionar al usuario.\nEscríbalo como: `d.mute [@Usuario/ID Usuario] <Razón>`",
+    "errorRazón": "**Error**: falta la razón.",
     "errorUser": "**Error**, no se encontró al usuario, pruebe de nuevo, debe añadir argumentos válidos.",
     "exito": "{{emoji}} **{{memberTag}}** ha sido advertido."
   },
   "warnings": {
     "noMention": "**Error**, debe mencionar a un usuario.",
-    "noSancionado": "**Error**, El usuario no ha sido sancionado.",
+    "noSancionado": "**Error**, el usuario no ha sido sancionado.",
     "noWarn": "No tiene advertencias.",
     "noWarns": "No hay ninguna advertencia.",
     "sancionado": "Caso: {{case}} | Usuario: {{user}} | Moderador: {{mod}}~~~{{reason}} - {{date}}",
     "userEmbedMore": "{{warns}} advertencias de {{memberTag}} ({{memberID}})",
     "userEmbedOne": "Advertencias de {{memberTag}} ({{memberID}})",
-    "desc": "Elige el orden en el que quieras que se muestren las advertencias",
+    "desc": "Elija el orden en el que quieras que se muestren las advertencias",
     "warnings_one": "{{count}} advertencia",
     "warnings_other": "{{count}} advertencias"
   }
