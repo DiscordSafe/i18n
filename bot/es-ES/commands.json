@@ -30,7 +30,7 @@
       "embedDescription": "El limitador de acciones o anti-nuke limita las acciones administrativas que los usuarios pueden realizar en 1 minuto.\nSi se alcanza un límite el bot sancionará al usuario *(lo expulsa por defecto)* y avisará al dueño del servidor y en el canal de logs de moderación *(configurable con `/logs set`)*.\nEl dueño del servidor y el propio bot son los únicos ignorados.",
       "punishment": "Castigo",
       "limitsField": "Límites",
-      "limits": "**+{{limit}} {{action}}** a **1 minuto**."
+      "limits": "**+{{limit}} {{action}}** en **1 minuto**."
     },
     "toggle": {
       "enabled": "Se ha activado correctamente.",
