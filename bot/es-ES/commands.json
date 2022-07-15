@@ -69,7 +69,7 @@
     "embedField1": "Plantillas",
     "embedField2": "Bloquee palabras de una lista usando `/blockword pack`.\n• `en`: insultos en Inglés.\n• `es`: insultos en Español.\n• `lgbt`: insultos a la comunidad lgbt.\n• `nsfw`: palabras ofensivas explícitas.\n• `racists`: insultos racistas.\n• `pacman`: pacmans (:v)",
     "embedField3": "Manual",
-    "embedField4": "Bloquea la palabra que quieras con `/blockword word`.",
+    "embedField4": "Bloquee la palabra que quiera con `/blockword word`.",
     "embedField5": "Excepciones",
     "embedField6": "Imagínese que bloquea la palabra `nig` y alguien menciona el país `Nigeria`, este resultará sancionado por ello. Con `/blockword whitelist` puedes añadir excepciones.",
     "embedRAuthor": "Resetear palabras bloqueadas",
