@@ -48,7 +48,7 @@
   },
   "ban": {
     "reason": "Ha sido baneado en **{{guild}}**.",
-    "reason_reason": "Has sido baneado en **{{guild}}** por: **{{reason}}**.",
+    "reason_reason": "Ha sido baneado en **{{guild}}** por: **{{reason}}**.",
     "reason_time": "Ha sido baneado en **{{guild}}** durante **{{time}}**.",
     "reason_reason_time": "Ha sido baneado en **{{guild}}** durante **{{time}}** por: **{{reason}}**",
     "changelog": "{{reason}}.\nMod: {{modTag}} ({{modID}})",
