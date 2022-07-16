@@ -3,7 +3,7 @@
         "aprobado": " ha estat aprovat.",
         "errorNoConfig": "No està configurada la verificació. Per configurar-la feu servir `d.verification`",
         "errorNoVerificado": "L'usuari no té el rol de No Verificat. Per configurar la verificació faci servir `d.verification`",
-        "errorRoles": "Heu de configurar primer el rol No Verificat i el rol Usuari. Per configurar-usi `d.verification`",
+        "errorRoles": "Heu de configurar primer el rol No Verificat i el rol Usuari. Per configurar utilitzi `d.verification`",
         "all": "Tots els usuaris han estat aprovats.",
         "errorArgs": "Aquesta comanda necessita arguments, **Es dirà:** {{prefijo}}{{commandName}} @Usuario/IDUsuario/all\n:bulb: **Potser vulgui utilitzar:** `{{prefix}}suggestions approve`",
         "errorNoRoles": "Els rols que ha configurat per a la verificació no existeixen o no estic per sobre d'ells. Per configurar la verificació faci servir `d.verification`"
