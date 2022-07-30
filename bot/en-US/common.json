@@ -170,6 +170,54 @@
     },
     "actionLimiter": {
         "limitExceded": "{{time}} | <@{{executorId}}> ({{executorId}}) {{description}}.",
-        "embedTitle": "🚨 Limit reached"
+        "embedTitle": "🚨 Limit reached",
+        "ownerDesc": "The **+{{count}} {{limitType}}** limit has been reached in **1 minute**.",
+        "executorDesc": "Will be sanctioned as a preventive measure.",
+        "executorFooter": "You receive this message because you performed the action.",
+        "ownerFooter": "You are receiving this message because you own the {{guildName}} server.",
+        "actionTypes": {
+            "channelCreations": "created the channel **#{{targetName}}** ({{targetId}})",
+            "channelDeletions": "deleted the channel **#{{targetName}}** ({{targetId}})",
+            "unbans": "unbanned the user **{{targetName}}** ({{targetId}})",
+            "userRemovals": "banned the user **{{targetNameName}}** ({{targetId}})",
+            "roleCreations": "created the role **@{{targetName}} **({{targetId}})",
+            "roleDeletions": "deleted the role **@{{targetName}}** ({{targetId}})",
+            "webhooks": "created the webhook **{{targetNameName}}** ({{targetId}})",
+            "givingDangerousPerms": "gave dangerous permission",
+            "botInvites": "invited the bot **{{targetNameName}}** ({{targetId}})"
+        },
+        "limitsTypes": {
+            "channelCreations": "Created channels",
+            "channelDeletions": "Deleted channels",
+            "unbans": "Unbanned users",
+            "userRemovals": "Banned or kicked users",
+            "roleCreations": "Roles created",
+            "roleDeletions": "Roles deleted",
+            "webhooks": "Webhooks created",
+            "givingDangerousPerms": "Give dangerous permissions",
+            "botInvites": "Invite a bot"
+        }
+    },
+    "verificationModes": {
+        "approval": {
+            "name": "Approval",
+            "description": "Approval by a moderator."
+        },
+        "captcha": {
+            "name": "Captcha",
+            "description": "Complete a captcha."
+        },
+        "modal_captcha": {
+            "name": "Captcha modal",
+            "description": "Completing a captcha using a modal."
+        },
+        "reaction": {
+            "name": "Reaction",
+            "description": "React to a message."
+        },
+        "verification": {
+            "name": "Verification",
+            "description": "Use the /verifyme command."
+        }
     }
 }
