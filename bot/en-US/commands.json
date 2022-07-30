@@ -25,8 +25,8 @@
         "errorNobanneable": "**Error**, I cannot ban the mentioned user.",
         "errorUser": "**Error**, User not found, please try again.",
         "exito": "{{emoji}} **{{memberTag}} was banned**",
-        "reason": "You have been banned in **{{guild}}**.",
-        "reason_reason": "You have been banned in **{{guild}}** because: **{{reason}}**.",
+        "reason": "You have been banned from **{{guild}}**.",
+        "reason_reason": "You have been banned from **{{guild}}** because of: **{{reason}}**.",
         "reason_time": "You have been banned in **{{guild}}** for **{{time}}**.",
         "reason_reason_time": "You have been banned in **{{guild}}** for **{{time]]** because: **{{reason}}**"
     },
@@ -829,7 +829,7 @@
         "showconfig": {
             "limitsField": "Limits",
             "embedAuthor": "Anti-nuke settings on {{guild}}",
-            "embedDescription": "Actions limiter or anti-nuke limits the administrative actions that can be performed in 1 minute.\nif a limit is reached the bot will punish the user *(kicks them by default)* and alert the owner using the moderation logs channel *(configurable with `/logs set`)*.\nGuild’s owner and the bot are the only one ignored.",
+            "embedDescription": "The action limiter or anti-nuke limits the administrative actions that users can perform in 1 minute.\nIf a limit is reached the bot will punish the user *(by default it bans him)* and will warn the server owner and in the moderation log channel *(configurable with `/logs set`)*.\nThe server owner and the bot itself are the only ones ignored.",
             "punishment": "Punishment",
             "limits": "**+{{limit}} {{action}}** in **1 minute**.",
             "notEnabled": "**Error**, anti-nuke is disabled, use `/antinuke toggle` to enable it."
@@ -842,7 +842,8 @@
             "disabled": "Disabled successfully."
         },
         "setlimit": {
-            "premium": "This limit is premium, get premium by using `/premium`."
+            "premium": "This limit is premium, get premium by using `/premium`.",
+            "done": "The limit has been set to **{{limit}} {{action}}** in **1 minute**."
         }
     },
     "antiraid": {
