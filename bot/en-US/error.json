@@ -43,6 +43,12 @@
         },
         "time": {
             "notValid": "The time option is invalid, please try again."
+        },
+        "suggestionid": {
+            "notValid": "The suggestion provided is not valid."
+        },
+        "caseid": {
+            "notValid": "The case provided is not valid."
         }
     },
     "dm": "**Error, this command cannot be used in direct messages.",
