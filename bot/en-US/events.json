@@ -40,7 +40,7 @@
         "bot": "Bot",
         "captchaErrorIntentos": "**You have reached the limit of attempts**, you have not completed the verification so you will be kicked.",
         "captchaErrorTiempo": "**Time is over**, you have not completed the verification so you will be kicked.",
-        "captchaField1": "Before continuing, you must answer this **captcha**, do it to be able to access the server. You have **{{intentos}} attempts** and ** {{minutos}} minutes** to complete.",
+        "captchaField1": "Before proceeding, you must answer this **captcha** in order to access the server. You have **{{attempts}} attempts** and **{{{minutes}} minutes** to complete it.",
         "captchaField2": "This is to protect the server from spam bots and multi-accounts.",
         "captchaFooter": "Invite me, discordsafe.com/invite",
         "captchaIntento": "**Error**, you have {{intentos}} attempts left.",
@@ -56,7 +56,24 @@
         "antiRaidReason": "Anti-raid protection",
         "noAvatarKick": "You have been kicked from the server **{{server}}** because you have the default avatar, change it and try again.",
         "why": "Why?",
-        "noAvatarReason": "Default avatar."
+        "noAvatarReason": "Default avatar.",
+        "modalCaptcha": {
+            "desc": "Before proceeding, you must answer a **captcha**, click on the **\"Do captcha\"** button to solve it and access the server.",
+            "errorNotCompleted": "**Error**, the verification configuration is not completed.",
+            "errorNoRoles": "**Error**, I can't find the user role or the unverified role.",
+            "errorAlreadyVerified": "**Error**, you are already verified.",
+            "next": "Continue",
+            "modalTitle": "Verification",
+            "modalLabel": "Captcha result",
+            "modalPlaceholder": "Type here the characters you see in the image",
+            "errorTooLong": "**Error**, You took too long to reply, please try again.",
+            "kickReason": "Captcha not completed.",
+            "maxAttempts": "You have exceeded the maximum number of attempts, you will be kicked out.",
+            "errorWrong": "**Error**, the captcha is incorrect, please try again.",
+            "errorNotValid": "**Error**, this verification button is no longer valid, the verification channel has been moved.",
+            "genCaptchaDesc": "Once you are ready, you can click **continue** to solve the captcha.",
+            "completed": "You have completed the captcha correctly."
+        }
     },
     "guildMemberRemove": {
         "badges": "Badges",
@@ -105,7 +122,9 @@
         "infoPrefix": "Hello 👋,\nMy prefix on this server is:\n`{{prefix}}`"
     },
     "messageDelete": {
-        "título": "Deleted message"
+        "título": "Deleted message",
+        "reply": "In reply to {{user}}",
+        "seeReply": "View replied message"
     },
     "messageDeleteBulk": {
         "canal": "Channel",
