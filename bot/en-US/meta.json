@@ -269,24 +269,75 @@
         "usage": "<Code> / all",
         "options": {
             "all": {
-                "description": "Delete all the suggestions"
+                "description": "Delete all the suggestions",
+                "options": {
+                    "user": {
+                        "description": "Remove all warnings of a user"
+                    }
+                }
+            },
+            "warn": {
+                "description": "Remove one warning",
+                "options": {
+                    "caseid": {
+                        "description": "Warning Number"
+                    }
+                }
             }
         }
     },
     "commands": {
         "description": "Displays the list of commands",
         "example": "",
-        "usage": "<--channel>"
+        "usage": "<--channel>",
+        "options": {
+            "in-channel": {
+                "description": "If the response should be sent in the channel instead of DM"
+            }
+        }
     },
     "deafen": {
         "description": "Deafens a member",
         "example": "@User Annoying member --md",
-        "usage": "[@User/User ID] <Reason> <--md>"
+        "usage": "[@User/User ID] <Reason> <--md>",
+        "options": {
+            "user": {
+                "description": "The user to deafen"
+            }
+        }
     },
     "filter": {
         "description": "Set up the filters",
         "example": "anti-spam enable",
-        "usage": "help / [filter] enable / [filter] disable / [filter] ignore [#Channel/@Role]"
+        "usage": "help / [filter] enable / [filter] disable / [filter] ignore [#Channel/@Role]",
+        "options": {
+            "ignore": {
+                "options": {
+                    "role": {
+                        "description": "Ignore a role in a filter",
+                        "options": {
+                            "filter": {
+                                "description": "The filter to ignore"
+                            },
+                            "role": {
+                                "description": "The role to ignore"
+                            }
+                        }
+                    },
+                    "channel": {
+                        "description": "Ignore a channel in a filter",
+                        "options": {
+                            "filter": {
+                                "description": "The filter to ignore"
+                            },
+                            "channel": {
+                                "description": "The channel to ignore"
+                            }
+                        }
+                    }
+                }
+            }
+        }
     },
     "genpassword": {
         "description": "Generates a password according to the parameters provided.",
@@ -432,7 +483,12 @@
     "emoji": {
         "description": "Displays the emoji in large.",
         "example": ":pepelove:",
-        "usage": "[Emoji]"
+        "usage": "[Emoji]",
+        "options": {
+            "emoji": {
+                "description": "The emoji to show"
+            }
+        }
     },
     "setup": {
         "description": "Setup the bot settings in a simple way with reactions and buttons."
@@ -483,6 +539,44 @@
         "options": {
             "setup": {
                 "description": "Config the anti-raid"
+            }
+        }
+    },
+    "duration": {
+        "description": "Change the duration of a case",
+        "options": {
+            "caseid": {
+                "description": "Case ID"
+            },
+            "time": {
+                "description": "The new duration for the action"
+            }
+        }
+    },
+    "lockdown": {
+        "description": "Lock multiple channels",
+        "options": {
+            "add": {
+                "description": "Add a channel to the list of locked channels",
+                "options": {
+                    "channel": {
+                        "description": "The channel to add"
+                    }
+                }
+            },
+            "remove": {
+                "description": "Remove a channel from the list of locked channels",
+                "options": {
+                    "channel": {
+                        "description": "The channel to remove"
+                    }
+                }
+            },
+            "list": {
+                "description": "Show the list of locked channels"
+            },
+            "toggle": {
+                "description": "Lock or unlock the channels in the list"
             }
         }
     }
