@@ -15,13 +15,13 @@
     "ban": {
         "reason": "Has estat banejat en **{{guild}}** per: **{{reason}}**.",
         "changelog": "{{reason}}.\nMod: {{modTag}} ({{modID}})",
-        "errorGuild": "**Error**, l'usuari no està al servidor.\nUtilitza la comanda `hackban` per banearlo.",
-        "errorNoBan": "**Error**, no puc banear a l'usuari esmentat.",
-        "errorUser": "**Error**, no es va trobar a l'usuari, provi de nou.",
-        "exito": "{{emoji}} **{{memberTag}} va ser banejat**",
-        "autor": "**Error**, no et pots banear a tu mateix.",
-        "errorArgs": "**Error**, ha d'esmentar, indicar la ID o el nom d'un usuari.",
-        "errorNobanneable": "**Error**, no puc banear a l'usuari."
+        "errorGuild": "**Error**, L'usuari no està al servidor.\nUtilitza la comanda `hackban` per banearlo.",
+        "errorNoBan": "**Error**, No puc banear a l'usuari esmentat.",
+        "errorUser": "**Error**, No es va trobar a l'usuari, provi de nou.",
+        "exito": "{{emoji}} **{{memberTag}} ha sigut banejat**",
+        "autor": "**Error**, No et pots banear a tu mateix.",
+        "errorArgs": "**Error**, Ha d'indicar, indicar la ID o el nom d'un usuari.",
+        "errorNobanneable": "**Error**, No puc banejar a l'usuari."
     },
     "alarm": {
         "activado": "El mode d'alarma ha estat activat, es prohibeix l'entrada de nous usuaris, torneu a fer servir el comandament per desactivar-ho.",
